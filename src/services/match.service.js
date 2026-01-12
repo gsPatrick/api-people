@@ -84,7 +84,7 @@ export const analyze = async (scorecardId, profileData) => {
     // 4. Busca chunks em paralelo para todos os critérios
     const chunksSearchPromises = allCriteriaWithMeta.map(async ({ criterion, categoryName, weight }) => {
       const searchResults = await profileTable.search(criterion.embedding)
-          .limit(3)
+          .limit(5)
           .select(['text'])
           .execute();
 
@@ -102,7 +102,15 @@ export const analyze = async (scorecardId, profileData) => {
 
     // 5. 🚀 ANÁLISE EM BATCH (1 chamada à API)
     log(`Analisando ${criteriaWithChunks.length} critérios em BATCH...`);
-    const evaluations = await analyzeAllCriteriaInBatch(criteriaWithChunks);
+    
+    // Preparar contexto global
+    const globalContext = {
+        name: profileData.name,
+        headline: profileData.headline,
+        summary: profileData.about // 'about' parece ser o campo mapeado no chunkProfile
+    };
+
+    const evaluations = await analyzeAllCriteriaInBatch(criteriaWithChunks, globalContext);
 
     // 6. Mapeia resultados de volta aos critérios e 7. Agrupa por categoria
     const categoryMap = new Map();

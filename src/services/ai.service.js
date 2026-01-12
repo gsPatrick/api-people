@@ -13,58 +13,81 @@ const openai = new OpenAI({
 // MUDANÇA PRINCIPAL APLICADA AQUI
 // Esta função foi atualizada com um prompt muito mais rigoroso.
 // ==========================================================
-const analyzeCriterionWithGPT = async (criterion, relevantChunks) => {
+const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext) => {
     if (!relevantChunks || relevantChunks.length === 0) {
         return {
             name: criterion.name,
-            score: 1, // A nota padrão para ausência de evidência é 1.
-            justification: "Nenhuma evidência relevante encontrada no perfil."
+            score: 1,
+            justification: "Nenhuma evidência relevante encontrada no perfil para este critério específico."
         };
     }
 
-    const limitedChunks = relevantChunks.slice(0, 3);
+    const limitedChunks = relevantChunks.slice(0, 5); // Aumentado para 5
 
-    // NOVO PROMPT: Personalidade Cética e Rubrica Rigorosa
+    // Construção do Contexto Global (Resumo do Candidato)
+    let contextStr = "";
+    if (globalContext) {
+        contextStr = `
+        **CONTEXTO GLOBAL DO CANDIDATO:**
+        Nome: ${globalContext.name || "N/A"}
+        Título: ${globalContext.headline || "N/A"}
+        Resumo/Sobre: ${globalContext.summary || "N/A"}
+        `;
+    }
+
+    // NOVO PROMPT: Chain of Thought + Citação de Evidência + Contexto Global
     const prompt = `
-        **Persona:** Você é um Tech Recruiter Sênior extremamente cético e rigoroso. Sua função é proteger a empresa de contratações ruins, exigindo provas claras e inequívocas no perfil do candidato.
+        **Persona:** Você é um Tech Recruiter Sênior de Elite, conhecido por análises profundas, justas e baseadas em fatos. Você não é apenas cético, você é *preciso*.
 
-        **Tarefa:** Avalie se as evidências abaixo, extraídas do perfil de um candidato, comprovam o critério de avaliação completo.
-        
-        **Critério Completo (avalie palavra por palavra):**
+        **Tarefa:** Avalie o candidato para o critério abaixo.
+
+        ${contextStr}
+
+        **Critério de Avaliação:**
         "${criterion.name}"
 
-        **Evidências Encontradas no Perfil:**
-        ${limitedChunks.map((c, i) => `EVIDÊNCIA ${i + 1}: ${c}`).join('\n---\n')}
+        **Evidências Específicas Encontradas (Fragmentos relevantes):**
+        ${limitedChunks.map((c, i) => `[Frag ${i + 1}]: ${c}`).join('\n')}
 
-        **Rubrica de Avaliação (SEJA RIGOROSO):**
-        -   **5 (Excepcional):** A evidência comprova o critério de forma explícita, direta e repetida. É inegável e impressionante.
-        -   **4 (Forte):** A evidência é clara e direta, mas talvez em uma única menção forte.
-        -   **3 (Parcial):** A evidência sugere o critério, mas não o comprova diretamente. Requer inferência. O candidato tangencia o ponto.
-        -   **2 (Fraco):** A evidência é apenas vagamente relacionada. É uma suposição muito fraca.
-        -   **1 (Inexistente):** **NÃO SEJA OTIMISTA.** Se não há prova clara e direta, a nota é 1. Na dúvida, a nota é 1. A ausência de evidência resulta em nota 1.
+        **Rubrica de Avaliação (Rigidez Justa):**
+        - **5 (Excepcional):** Evidência explícita, contundente e repetida. O candidato domina o tema.
+        - **4 (Forte):** Evidência clara e direta. Possui a competência de forma sólida.
+        - **3 (Investigar/Parcial):** Há indícios, mas falta profundidade ou a menção é breve. Requer entrevista para confirmar.
+        - **2 (Fraco):** Menção vaga, indireta ou apenas palavras-chave soltas sem contexto de aplicação.
+        - **1 (Ausente):** Nenhuma evidência encontrada nestes fragmentos ou apenas menções irrelevantes.
 
-        **Formato da Resposta:**
-        Responda APENAS com um objeto JSON, sem nenhum texto adicional.
-        {"score": <sua nota de 1 a 5>, "justification": "<sua justificativa curta e direta>"}
+        **Protocolo de Pensamento (Chain of Thought):**
+        1. Analise os fragmentos e o contexto global.
+        2. Identifique trechos exatos que suportam o critério.
+        3. Avalie a força dessa evidência (é apenas uma palavra-chave ou uma descrição de responsabilidade?).
+        4. Defina a nota baseada na rubrica.
+
+        **Formato da Resposta JSON:**
+        {
+            "thinking": "Breve raciocínio explicativo sobre como a conclusão foi atingida...",
+            "score": <inteiro de 1 a 5>,
+            "justification": "Justificativa final para o recrutador. Cite trechos entre aspas."
+        }
     `;
 
     try {
         const response = await openai.chat.completions.create({
-            model: "gpt-4o-mini",
+            model: "gpt-4o", // UPGRADE PARA GPT-4o
             messages: [{ role: "user", content: prompt }],
             response_format: { type: "json_object" },
-            temperature: 0, // Temperatura 0 para respostas mais factuais e menos criativas.
-            max_tokens: 150
+            temperature: 0.1, // Ligeiramente maior que 0 para permitir raciocínio, mas ainda muito determinístico
+            max_tokens: 300
         });
 
         const result = JSON.parse(response.choices[0].message.content);
         return {
             name: criterion.name,
             score: result.score || 1,
-            justification: result.justification || "Análise incompleta"
+            justification: result.justification || "Análise incompleta",
+            // Opcional: retornar o 'thinking' se quiser debugar, mas o front espera justification
         };
     } catch (err) {
-        logError(`Erro ao avaliar (com prompt rigoroso) "${criterion.name}":`, err.message);
+        logError(`Erro ao avaliar (GPT-4o) "${criterion.name}":`, err.message);
         return {
             name: criterion.name,
             score: 1,
@@ -73,25 +96,25 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks) => {
     }
 };
 
-// A função de execução em lote permanece a mesma, pois a performance é mantida.
-export const analyzeAllCriteriaInBatch = async (criteriaWithChunks) => {
+export const analyzeAllCriteriaInBatch = async (criteriaWithChunks, globalContext) => {
     const startTime = Date.now();
-    log(`Análise em PARALELO de ${criteriaWithChunks.length} critérios (com prompt rigoroso)...`);
+    log(`Análise em PARALELO de ${criteriaWithChunks.length} critérios com GPT-4o...`);
 
     try {
+        // Envia o globalContext para cada análise
         const allPromises = criteriaWithChunks.map(({ criterion, chunks }) =>
-            analyzeCriterionWithGPT(criterion, chunks)
+            analyzeCriterionWithGPT(criterion, chunks, globalContext)
         );
 
         const results = await Promise.all(allPromises);
 
         const duration = ((Date.now() - startTime) / 1000).toFixed(2);
-        log(`✓ Análise em PARALELO (rigorosa) concluída em ${duration}s. Todas as ${results.length} avaliações recebidas.`);
+        log(`✓ Análise GPT-4o concluída em ${duration}s. Todas as ${results.length} avaliações recebidas.`);
 
         return results;
 
     } catch (err) {
-        logError('Erro crítico durante a análise em paralelo (rigorosa):', err.message);
+        logError('Erro crítico durante a análise em paralelo (GPT-4o):', err.message);
         return criteriaWithChunks.map(({ criterion }) => ({
             name: criterion.name,
             score: 1,

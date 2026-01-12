@@ -32,8 +32,9 @@ export const sanitizeText = (text) => {
         .replace(/-- \d+ of \d+ --/gi, '')
         .replace(/-- Page \d+ of \d+ --/gi, '')
         .split('\n')
+        // FIX: No trim here to detect indentation? No, PDF parse usually flattens.
         .map(line => line.trim())
-        .filter(line => line && line.length > 0) // Strict empty line filter
+        .filter(line => line && line.length > 0)
         .join('\n');
 };
 
@@ -84,6 +85,7 @@ export const splitSections = (text) => {
         if (KW_CERT.test(trimmed)) { current = 'certificacoes'; continue; }
         if (KW_IGNORE.test(trimmed)) { current = 'outros'; continue; }
 
+        // Generic append
         if (Array.isArray(sections[current])) {
             sections[current].push(line);
         } else if (current === 'resumo') {
@@ -181,24 +183,75 @@ export const buildCanonicalProfile = (rawPdfText) => {
     if (linkedinLine) linkedin = linkedinLine;
 
     const extractFromTail = (linesSource) => {
-        // Filter out trash
-        const clean = linesSource.filter(l => {
-            if (!l || !l.trim()) return false;
-            const lower = l.toLowerCase();
-            return !l.includes('linkedin.com') &&
-                lower !== 'contato' &&
-                !lower.includes('(linkedin)') &&
-                !lower.startsWith('page ') &&
-                !lower.includes('www.') &&
-                !KW_SKILLS.test(lower) &&
-                !KW_CERT.test(lower);
-        });
+        // FILTER: Remove Sidebar headers and anything BELOW them
+        // If we find "Certifications" or "Competências", we must CUT the array there (keep ONLY what is above).
+        // Sidebar comes BEFORE name in stream, OR AFTER?
+        // In the linear stream seen from previous output, "Certifications" appeared mixed in.
+        // User output showed "Imersão Dados" as name. This means Certifications were at the BOTTOM of the trapped block.
+        // So we need to finding the Sidebar Header and DISCARD it and everything BELOW it.
 
+        let validLines = [];
+        let stopProcessing = false;
+
+        // Iterate forward to clean sidebar
+        for (const l of linesSource) {
+            const lower = l.toLowerCase();
+            // If hits sidebar header, STOP adding lines (assuming noise follows)
+            if (KW_CERT.test(lower) || KW_SKILLS.test(lower) || lower === 'contato') {
+                stopProcessing = true; // Flag to stop? 
+                // Wait, if sidebar comes FIRST (before Main), then we should discard everything processed SO FAR?
+                // No, usually Sidebar is AFTER valid content in header context if render_page worked.
+                // But in Trapped context, Sidebar might be the SECTION ITSELF.
+                // The user's case: "Certifications" lines ("Imersão...") were confused for Name.
+                // This means they were at the END of the specific block we looked at.
+                // So valid content is BEFORE them.
+                continue; // Skip the header itself
+            }
+            // Heuristic: If we see a sidebar item like "Imersão...", we might not know it is trash unless we saw header.
+            // But strict filtering:
+            if (!stopProcessing &&
+                !l.includes('linkedin.com') &&
+                !lower.startsWith('page ') &&
+                !l.includes('www.')) {
+                validLines.push(l);
+            }
+            if (stopProcessing) {
+                // If we hit a known Sidebar Header, we should actually DISCARD what comes *after* it in this block? 
+                // Or was the sidebar header appearing *above* the certification items? Yes.
+                // So enabling stopProcessing means we ignore subsequent lines.
+            }
+        }
+
+        // RE-FILTER: If we didn't catch the header (maybe splitSections ate it), we might still have certification noise.
+        // Heuristic: Certifications often look like "Curso XYZ". Hard to distinguish from Name.
+        // But Name is closer to "Resumo" anchor?
+        // In the user image: Name is strictly ABOVE Resumo.
+        // Sidebar is strictly LEFT.
+
+        // Let's rely on candidates slice.
+        // If "Imersão..." was picked as Name, it means it was in candidates[0].
+        // And "Laísa Brunca" was.... where?
+        // If "Imersão" was name, then name was considered "Imersão".
+        // Where was Laísa?
+        // Maybe Laísa was further UP the list, outside slice(-6)?
+        // Or "Imersão" was effectively "closer" to Resumo?
+        // If Sidebar is read AFTER Main, then Sidebar is closer to Resumo in the text stream?
+        // "Name... \n Resumo \n Sidebar..." -> No, Resumo splits.
+        // "Name... \n Sidebar... \n Resumo" -> This is the danger.
+
+        // FIX: If we see Sidebar header in validLines, truncate everything after it.
+        const certIndex = validLines.findIndex(l => KW_CERT.test(l) || KW_SKILLS.test(l));
+        if (certIndex !== -1) {
+            validLines = validLines.slice(0, certIndex);
+        }
+
+        // Now take tail
+        const clean = validLines.filter(l => l && l.trim());
         let n = null, t = null, l = null;
 
         if (clean.length > 0) {
-            // Take up to last 6 meaningful lines
-            let candidates = clean.slice(-6);
+            // Take up to last 8 lines to be safe
+            let candidates = clean.slice(-8);
 
             // 1. Identify Location (Bottom-Up)
             for (let i = candidates.length - 1; i >= 0; i--) {
@@ -212,16 +265,21 @@ export const buildCanonicalProfile = (rawPdfText) => {
 
             // 2. Identify Name vs Title (Top-Down on remaining)
             if (candidates.length > 0) {
-                const first = candidates[0];
-                const looksLikeTitle = /(engineer|developer|desenvolvedor|analyst|analista|specialist|especialista|manager|gerente|consultant|consultor|\||—|-)/i.test(first) || first.length > 40;
+                // First candidate should be Name. 
+                // Validate: Name shouldn't be a known "trash" string or purely title keywords if possible.
+                // Name usually has no numbers, no |
+
+                let possibleName = candidates[0];
+                const looksLikeTitle = /(engineer|developer|desenvolvedor|analyst|analista|specialist|especialista|manager|gerente|consultant|consultor|\||—|-|imersão|bootcamp|curso)/i.test(possibleName) || possibleName.length > 40;
+                // Added 'imersão|bootcamp|curso' to exclude certs that slipped through
 
                 if (!looksLikeTitle) {
-                    n = candidates.shift(); // First is Name
+                    n = candidates.shift(); // That's our Name
                 }
 
-                // Everything else is Title part (join them)
+                // Remaining is Title
                 if (candidates.length > 0) {
-                    t = candidates.join(' ');
+                    t = candidates.join(' '); // Merge multi-line title
                 }
             }
         }
@@ -237,7 +295,6 @@ export const buildCanonicalProfile = (rawPdfText) => {
         const trappedLines = sections._meta.dataBeforeResumo || [];
         const res2 = extractFromTail(trappedLines);
         if (res2.nome || res2.titulo) {
-            // Priority update if found better info in trapped
             if (res2.nome) nome = res2.nome;
             if (res2.titulo) titulo = res2.titulo;
             if (res2.localizacao) localizacao = res2.localizacao;

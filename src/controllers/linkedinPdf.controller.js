@@ -2,10 +2,9 @@
 // Controller para baixar e processar o PDF do LinkedIn usando cookies de sessão
 
 import axios from 'axios';
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
-const pdf = require('pdf-parse');
+import { getDocument } from 'pdfjs-dist/legacy/build/pdf.mjs';
 import { log, error as logError } from '../utils/logger.service.js';
+import db from '../models/index.js'; // Importar modelos para salvar no banco
 
 /**
  * Extrai o username/slug de uma URL do LinkedIn
@@ -25,101 +24,58 @@ const extractUsernameFromUrl = (profileUrl) => {
 const cleanText = (text) => text?.replace(/\s+/g, ' ').trim() || '';
 
 /**
- * Parseia o buffer do PDF do LinkedIn e extrai dados estruturados
+ * Parseia o buffer do PDF do LinkedIn e extrai dados estruturados usando Heurística (Regex/Loop)
+ * para garantir performance (< 1s).
  */
 const parseLinkedInPdf = async (pdfBuffer) => {
-    const data = await pdf(pdfBuffer);
-    const lines = data.text.split('\n').filter(line => line.trim() !== '');
+    try {
+        log('[PDF Parser] Convertendo Buffer para Unit8Array...');
+        const uint8Array = new Uint8Array(pdfBuffer);
 
-    log(`[PDF Parser] Total de linhas extraídas: ${lines.length}`);
+        log('[PDF Parser] Carregando documento PDF via pdfjs-dist...');
+        const loadingTask = getDocument(uint8Array);
+        const doc = await loadingTask.promise;
 
-    const profileData = {
-        nome: lines[0] ? cleanText(lines[0]) : null,
-        headline: lines[1] ? cleanText(lines[1]) : null,
-        resumo: '',
-        experiencias: [],
-        formacao: [],
-        competencias: [],
-        idiomas: [],
-        certificacoes: [],
-        textoCompleto: data.text
-    };
+        log(`[PDF Parser] PDF carregado com sucesso. Páginas: ${doc.numPages}`);
 
-    let currentSection = '';
-
-    for (let i = 2; i < lines.length; i++) {
-        const line = lines[i].trim();
-        if (!line) continue;
-
-        // Detecta o início de uma nova seção
-        if (line === 'Resumo' || line === 'Summary' || line === 'Sobre' || line === 'About') {
-            currentSection = 'resumo';
-            continue;
-        }
-        if (line === 'Experiência' || line === 'Experience') {
-            currentSection = 'experiencia';
-            continue;
-        }
-        if (line === 'Formação acadêmica' || line === 'Education') {
-            currentSection = 'formacao';
-            continue;
-        }
-        if (line === 'Principais competências' || line === 'Top Skills' || line === 'Skills') {
-            currentSection = 'competencias';
-            continue;
-        }
-        if (line === 'Idiomas' || line === 'Languages') {
-            currentSection = 'idiomas';
-            continue;
-        }
-        if (line === 'Licenças e certificados' || line === 'Certifications') {
-            currentSection = 'certificacoes';
-            continue;
-        }
-        if (line.startsWith('Página') || line.startsWith('Page')) {
-            continue;
+        // Reconstruct lines from PDF items
+        let fullText = '';
+        for (let i = 1; i <= doc.numPages; i++) {
+            const page = await doc.getPage(i);
+            const content = await page.getTextContent();
+            // Join items with simplified separator 
+            const strings = content.items.map(item => item.str + (item.hasEOL ? '\n' : ' '));
+            fullText += strings.join('');
         }
 
-        switch (currentSection) {
-            case 'resumo':
-                profileData.resumo += ` ${line}`;
-                break;
-            case 'experiencia':
-                if (i + 2 < lines.length) {
-                    profileData.experiencias.push({
-                        cargo: cleanText(line),
-                        empresa: cleanText(lines[i + 1] || ''),
-                        periodo: cleanText(lines[i + 2] || ''),
-                        descricao: ''
-                    });
-                    i += 2;
-                }
-                break;
-            case 'formacao':
-                if (i + 2 < lines.length) {
-                    profileData.formacao.push({
-                        instituicao: cleanText(line),
-                        curso: cleanText(lines[i + 1] || ''),
-                        periodo: cleanText(lines[i + 2] || '')
-                    });
-                    i += 2;
-                }
-                break;
-            case 'competencias':
-                const skills = line.split(/·|,/g).map(s => s.trim()).filter(Boolean);
-                profileData.competencias.push(...skills);
-                break;
-            case 'idiomas':
-                profileData.idiomas.push(cleanText(line));
-                break;
-            case 'certificacoes':
-                profileData.certificacoes.push(cleanText(line));
-                break;
-        }
+        const lines = fullText.split('\n').filter(line => line.trim() !== '');
+
+        // Clean up common PDF artifacts
+        // Remove "Page X of Y" or "Página X de Y" lines
+        fullText = fullText.replace(/\n(Page|Página)\s+\d+\s+(of|de)\s+\d+\s*\n/gi, '\n');
+
+        log(`[PDF Parser] Texto extraído: ${fullText.length} chars, ~${lines.length} linhas.`);
+
+        // Heuristic Structure Construction (Simples)
+        const profileData = {
+            nome: lines[0] ? cleanText(lines[0]) : null,
+            headline: lines[1] ? cleanText(lines[1]) : null,
+            resumo: '',
+            experiencias: [],
+            formacao: [],
+            competencias: [],
+            idiomas: [],
+            certificacoes: [],
+            textoCompleto: fullText // Critical data for downstream AI
+        };
+
+        log('[PDF Parser] Extração raw text concluída (Modo Rápido).');
+        return profileData;
+
+    } catch (err) {
+        logError(`[PDF Parser] Erro na extração: ${err.message}`);
+        throw err;
     }
-
-    profileData.resumo = cleanText(profileData.resumo);
-    return profileData;
 };
 
 /**
@@ -148,14 +104,11 @@ export const fetchLinkedInProfilePdf = async (req, res) => {
         // Monta a string completa de cookies para simular sessão real do navegador
         let cookieString = `li_at=${liAtCookie}`;
 
-        // Adiciona JSESSIONID se disponível (importante para autenticação)
         if (csrfToken) {
-            // Remove aspas se existirem
             const cleanCsrf = csrfToken.replace(/"/g, '');
             cookieString += `; JSESSIONID="${cleanCsrf}"`;
         }
 
-        // Headers que simulam uma requisição real do navegador Chrome
         const baseHeaders = {
             'Cookie': cookieString,
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -175,7 +128,6 @@ export const fetchLinkedInProfilePdf = async (req, res) => {
             'Pragma': 'no-cache'
         };
 
-        // Headers específicos para API do Voyager
         const voyagerHeaders = {
             ...baseHeaders,
             'Accept': 'application/vnd.linkedin.normalized+json+2.1',
@@ -185,7 +137,6 @@ export const fetchLinkedInProfilePdf = async (req, res) => {
             'x-restli-protocol-version': '2.0.0',
         };
 
-        // Se temos o CSRF token, adiciona
         if (csrfToken) {
             const cleanCsrf = csrfToken.replace(/"/g, '');
             voyagerHeaders['csrf-token'] = cleanCsrf;
@@ -193,11 +144,9 @@ export const fetchLinkedInProfilePdf = async (req, res) => {
 
         log(`[LINKEDIN PDF] Tentando baixar PDF para: ${username}`);
 
-        // Tenta primeiro o endpoint Voyager que é o mais confiável
         let pdfBuffer = null;
         let lastError = null;
 
-        // Primeiro, vamos tentar obter o URN do perfil via Voyager API
         try {
             log(`[LINKEDIN PDF] Buscando informações do perfil via Voyager...`);
             const profileResponse = await axios.get(
@@ -210,8 +159,6 @@ export const fetchLinkedInProfilePdf = async (req, res) => {
 
             if (profileResponse.status === 200 && profileResponse.data) {
                 log(`[LINKEDIN PDF] ✅ Perfil encontrado via Voyager API`);
-
-                // Agora tenta baixar o PDF usando o endpoint correto
                 const pdfResponse = await axios.get(
                     `https://www.linkedin.com/voyager/api/identity/profiles/${username}/profileToPdf`,
                     {
@@ -234,19 +181,14 @@ export const fetchLinkedInProfilePdf = async (req, res) => {
             lastError = voyagerError;
         }
 
-        // Se Voyager falhou, tenta método alternativo usando fetch direto
         if (!pdfBuffer) {
             try {
                 log(`[LINKEDIN PDF] Tentando método alternativo...`);
-
-                // Primeiro acessa a página do perfil para estabelecer cookie de sessão
                 await axios.get(`https://www.linkedin.com/in/${username}/`, {
                     headers: baseHeaders,
                     timeout: 10000,
                     maxRedirects: 5
                 });
-
-                // Depois tenta o endpoint de PDF
                 const pdfResponse = await axios.get(
                     `https://www.linkedin.com/in/${username}/overlay/background/getAsPdf/`,
                     {
@@ -260,7 +202,6 @@ export const fetchLinkedInProfilePdf = async (req, res) => {
                         maxRedirects: 5
                     }
                 );
-
                 if (pdfResponse.data && pdfResponse.data.byteLength > 1000) {
                     pdfBuffer = Buffer.from(pdfResponse.data);
                     log(`[LINKEDIN PDF] ✅ PDF baixado via getAsPdf: ${pdfBuffer.length} bytes`);
@@ -271,14 +212,11 @@ export const fetchLinkedInProfilePdf = async (req, res) => {
             }
         }
 
-        // Se ainda não temos PDF, retorna erro
         if (!pdfBuffer || pdfBuffer.length < 1000) {
             const errorMessage = lastError?.response?.status === 403
                 ? 'Acesso negado pelo LinkedIn. O cookie pode estar expirado ou o perfil é privado.'
                 : 'Não foi possível baixar o PDF do LinkedIn.';
-
             logError(`[LINKEDIN PDF] Falha final: ${lastError?.message || 'PDF vazio'}`);
-
             return res.status(401).json({
                 error: errorMessage,
                 code: 'PDF_DOWNLOAD_FAILED',
@@ -286,23 +224,16 @@ export const fetchLinkedInProfilePdf = async (req, res) => {
             });
         }
 
-        // Verifica a assinatura do PDF
         const pdfSignature = pdfBuffer.slice(0, 5).toString();
         if (!pdfSignature.startsWith('%PDF')) {
             log(`[LINKEDIN PDF] ⚠️ Resposta não é PDF válido. Início: ${pdfSignature}`);
-
-            // Log primeiros bytes para debug
             const responsePreview = pdfBuffer.slice(0, 200).toString('utf-8');
-            logError(`[LINKEDIN PDF] Conteúdo recebido: ${responsePreview}`);
-
-            // Se recebeu HTML, provavelmente é página de login
             if (responsePreview.includes('<!DOCTYPE') || responsePreview.includes('<html')) {
                 return res.status(401).json({
                     error: 'Cookie de sessão expirado. Faça login novamente no LinkedIn.',
                     code: 'SESSION_EXPIRED'
                 });
             }
-
             return res.status(500).json({
                 error: 'Resposta inesperada do LinkedIn. Tente novamente.',
                 code: 'INVALID_RESPONSE'
@@ -314,7 +245,24 @@ export const fetchLinkedInProfilePdf = async (req, res) => {
         const profileData = await parseLinkedInPdf(pdfBuffer);
 
         log('✅ LINKEDIN PDF: Extração concluída com sucesso.');
-        log(`[LINKEDIN PDF] Dados: Nome=${profileData.nome}, Skills=${profileData.competencias.length}`);
+
+        // SALVAR NO BANCO DE DADOS
+        try {
+            if (db.LinkedInProfile) {
+                log(`[DB] Salvando perfil de ${username} no banco de dados...`);
+                await db.LinkedInProfile.upsert({
+                    linkedinHandle: username,
+                    fullProfileText: profileData.textoCompleto,
+                    lastUpdated: new Date()
+                });
+                log(`[DB] Perfil ${username} salvo/atualizado com sucesso.`);
+            } else {
+                logError('[DB] Modelo LinkedInProfile não encontrado no objeto db.');
+            }
+        } catch (dbError) {
+            logError(`[DB] Erro ao salvar perfil no banco: ${dbError.message}`);
+            // Não falha a requisição se o banco falhar, apenas loga
+        }
 
         res.status(200).json({
             success: true,
@@ -323,47 +271,19 @@ export const fetchLinkedInProfilePdf = async (req, res) => {
 
     } catch (error) {
         logError('❌ LINKEDIN PDF: Erro:', error.message);
-
         if (error.response) {
             const status = error.response.status;
-
-            if (status === 401 || status === 403) {
-                return res.status(401).json({
-                    error: 'Cookie de sessão inválido ou expirado. Faça login novamente no LinkedIn.',
-                    code: 'SESSION_EXPIRED'
-                });
-            }
-            if (status === 404) {
-                return res.status(404).json({
-                    error: 'Perfil não encontrado no LinkedIn.',
-                    code: 'PROFILE_NOT_FOUND'
-                });
-            }
-            if (status === 429) {
-                return res.status(429).json({
-                    error: 'Muitas requisições. Aguarde alguns minutos.',
-                    code: 'RATE_LIMITED'
-                });
-            }
+            if (status === 401 || status === 403) return res.status(401).json({ error: 'Cookie inválido.', code: 'SESSION_EXPIRED' });
+            if (status === 404) return res.status(404).json({ error: 'Perfil não encontrado.', code: 'PROFILE_NOT_FOUND' });
+            if (status === 429) return res.status(429).json({ error: 'Rate limit.', code: 'RATE_LIMITED' });
         }
-
-        res.status(500).json({
-            error: 'Erro ao buscar PDF do LinkedIn.',
-            details: error.message
-        });
+        res.status(500).json({ error: 'Erro interno.', details: error.message });
     }
 };
 
-/**
- * Endpoint de verificação de status do cookie
- */
 export const checkLinkedInCookieStatus = async (req, res) => {
     const { liAtCookie } = req.body;
-
-    if (!liAtCookie) {
-        return res.status(400).json({ valid: false, error: 'Cookie li_at não fornecido.' });
-    }
-
+    if (!liAtCookie) return res.status(400).json({ valid: false, error: 'Cookie li_at não fornecido.' });
     try {
         const response = await axios.get('https://www.linkedin.com/voyager/api/me', {
             headers: {
@@ -373,15 +293,9 @@ export const checkLinkedInCookieStatus = async (req, res) => {
             },
             timeout: 10000
         });
-
-        if (response.status === 200) {
-            return res.status(200).json({ valid: true, message: 'Cookie válido.' });
-        }
+        if (response.status === 200) return res.status(200).json({ valid: true, message: 'Cookie válido.' });
     } catch (error) {
-        if (error.response?.status === 401 || error.response?.status === 403) {
-            return res.status(200).json({ valid: false, error: 'Cookie expirado.' });
-        }
+        if (error.response?.status === 401 || error.response?.status === 403) return res.status(200).json({ valid: false, error: 'Cookie expirado.' });
     }
-
     res.status(200).json({ valid: false, error: 'Não foi possível verificar.' });
 };

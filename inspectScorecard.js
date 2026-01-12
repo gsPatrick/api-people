@@ -15,9 +15,8 @@ import { getScorecardSummaryForApplication } from './src/Inhire/Scorecards/score
 // ===================================================================
 // CONFIGURAÇÃO: Insira aqui o ID da candidatura que você quer testar
 // ===================================================================
-// Você pode obter este ID na URL da InHire ao visualizar uma candidatura.
-// É um UUID, algo como: 'a1b2c3d4-e5f6-7890-1234-567890abcdef'
-const JOB_TALENT_ID_PARA_TESTAR = 'COLE_O_ID_DA_CANDIDATURA_AQUI'; 
+// Pode ser passado via linha de comando: node inspectScorecard.js <UUID>
+const JOB_TALENT_ID_PARA_TESTAR = process.argv[2] || 'COLE_O_ID_DA_CANDIDATURA_AQUI';
 // ===================================================================
 
 
@@ -28,7 +27,8 @@ async function runInspection() {
   log(`--- INICIANDO SCRIPT DE INSPEÇÃO DE SCORECARD ---`);
 
   if (!JOB_TALENT_ID_PARA_TESTAR || JOB_TALENT_ID_PARA_TESTAR === 'COLE_O_ID_DA_CANDIDATURA_AQUI') {
-    error("ERRO CRÍTICO: Por favor, edite o arquivo 'inspectScorecard.js' e preencha a variável 'JOB_TALENT_ID_PARA_TESTAR'.");
+    error("ERRO CRÍTICO: Por favor, forneça o ID da candidatura como argumento.");
+    console.log("Exemplo de uso: node inspectScorecard.js <UUID>");
     return;
   }
 
