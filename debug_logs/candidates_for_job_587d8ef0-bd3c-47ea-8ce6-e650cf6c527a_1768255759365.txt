@@ -1,0 +1,1064 @@
+[
+  {
+    "importedAt": "2024-02-08T18:38:47.686Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Product Owner"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Product Owner\n Company name : MEDGRUPO\n Period : jan. de 216 – o momento\n Summary : Gerenciamento e liderança de times técnicos através da metodologia ágil SCRUM, levantamento de requisitos (UX design), criação e priorização de demandas no backlog Através do acompanhamento de dados no Google Analytics são gerados dashboards gerenciais e propostos roadmaps para os projetos\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Analista de negócios\n Company name : TOTVS\n Period : out. de 21 – abr. de 215\n Summary : Análise da demanda e novas necessidades dos clientes, levantamento de requisitos e definição de escopo Implantação de sistemas, realização de treinamentos e consultorias Desempenhar acompanhamento das obrigações legais (BACEN e Receita Federal do Brasil)\n Location : Porto Alegre e Região, Brasil\n \n \n Job Title : Analista de suporte\n Company name : TECNOCRED - Tecnologia e expertise para o segmento financeiro\n Period : ago. de 28 – ago. de 21\n Summary : Realizar atendimentos sobre as regras de negócios e problemas técnicos ligados ao banco de dados ou ao sistema desenvolvido para cooperativas de crédito Interagir com o cliente via telefone, chat e e-mail, dando suporte via help desk\n Location : Porto Alegre e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Dicção e Oratória\n Issuing Authority : Emitido em dez. de 2009Nenhuma data de expiraçãoNenhuma data de expiração"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Pontifícia Universidade Católica do Rio Grande do Sul\n Speciality : Bacharelado em Administração\n Period : 25 – 212"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "6f2b1324-23f9-487e-8005-c3e558b661bc",
+    "id": "587d8ef0-bd3c-47ea-8ce6-e650cf6c527a*6f2b1324-23f9-487e-8005-c3e558b661bc",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:57.958Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:57.958Z",
+      "linkedinUsername": "leonardo-zdanowicz-041b3810a",
+      "email": "leonardozdanowicz@hotmail.com",
+      "phone": "21998551055",
+      "name": "Leonardo Zdanowicz",
+      "id": "6f2b1324-23f9-487e-8005-c3e558b661bc"
+    },
+    "timeInCurrentStage": 61412059082
+  },
+  {
+    "importedAt": "2024-02-08T18:38:47.798Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Product Owner"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Product Owner\n Company name : Gaudium\n Period : dez. de 219 – o momento\n Summary : - Principal elo entre clientes, times de produto e desenvolvimento e empresa\n Location : Rio de Janeiro, Brasil\n \n Job Title : Customer Success\n Company name : Gaudium\n Period : out. de 218 – o momento\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Gerente operacional de varejo\n Company name : B&T Corretora de Câmbio\n Period : nov. de 215 – jun. de 218\n Summary : Gerente de varejo da B&T Corretora Implantação do varejo próprio na corretora, gestão das lojas, resolução de problemas, implantação do novo modelo de negócio em lojas de shopping, hotéis e aeroportos, análise dos contratos, controle e captação de novos produtos Montagem das lojas, compras e negociação com fornecedores Adaptação dos setores da corretora para atender o varejo Parte integrante na adaptação do sistema para operar com lojas próprias Recrutamento, gestão e treinamento da equipe de vendas, análise de desempenho dos operadores e das equipes Prospecção, negociação e retenção (pós- venda) do cliente final, apresentando toda a gama de produtos e soluções em câmbio comercializado em nossas lojas Contato direto com fornecedores e parceiros, internos e externos Acompanhamento estratégico das lojas e dos colaboradores, controle de spread, ticket médio, comparativo de receitas, operadores e volume de forma a verificar qual estratégia utilizar para alcançar a meta estipulada, acompanhamento estatístico das informações através do Microsoft Power BI, controlando e gerindo as metas individuais loja à loja e setor como um todo Análise comportamental do mercado e dos concorrentes diretos Vendas, direcionamento de vendas para as lojas e captação de parceiros de forma a incrementar a receita\n Location : Brasil\n \n Job Title : Coordenador de Câmbio\n Company name : Banco Máxima\n Period : jan. de 215 – nov. de 215\n Summary : coordenador na operação do câmbio turismo do banco, bem como treinamento de funcionários, gestão da equipe, bem como acompanhar e analisar o desempenho dos mesmos Contato direto e indireto com o cliente final Compra e venda de moeda estrangeira Analisar o comportamento do mercado e de concorrentes diretos e indiretos Realizar auditoria nas filiais, de forma que a mesma esteja operando de forma correta Controle de numerário e gestão e controle do estoque de moedas, Logística da circulação de moedas, via de transferências, recebimento e recolhimento de carro forte Cuidar da relação comercial entre o Banco Maxima, e seus clientes no setor de câmbio, prospecção e manutenção de clientes\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Consultor de Negócios B2B\n Company name : SRM ASSET ADMINISTRAÇÃO DE RECURSOS E FINANÇAS\n Period : abr. de 213 – fev. de 214\n Summary : Consultor de negócios na área comercial da empresa Responsável pelas operações de antecipações oriundas de convênios com a Petrobras e Vale Contato e relacionamento com fornecedores Petrobras e clientes B2B, e análise de contratos Estruturação de novos convênios, análise de mercado e conjuntura econômica de acordo com a área de atuação de cada cliente Prospecção de novos clientes, gestão de carteira, visita e acompanhamento aos clientes Consultoria as demais filiais e plataformas da empresa sobre estes tipos de operações\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Coordenador de Câmbio\n Company name : Banco Maxima\n Period : dez. de 211 – abr. de 213\n Summary : Coordenador na implantação do câmbio turismo nas lojas parceiras do banco, treinamento de funcionários para exercer a função do câmbio manual Manter contato direto e indireto com o cliente sobre o câmbio Compra e venda de moeda estrangeira Gerenciar e treinar equipes em filiais Acompanhar e fazer relatórios de desempenho de funcionários Analisar o comportamento do mercado e de concorrentes diretos e indiretos Realizar auditoria nas filiais, de forma que a mesma esteja operando de forma correta Controle de numerário e estoque de moedas, Logística da circulação de moedas, via de transferências ou recebimento e recolhimento de carro forte Cuidar da relação comercial entre o Banco Maxima, e seus clientes no setor de câmbio, prospecção e manutenção de clientes\n Location : Rio de Janeiro e Região, Brasil\n \n \n Job Title : Operador de Câmbio\n Company name : Grupo Pacífica - Correspondente Banco Daycoval\n Period : mar. de 21 – nov. de 211\n Summary : Supervisão e auditoria das lojas da empresa, controle de numerário diário de moedas estrangeiras das filiais e da matriz da empresa Controle da tesouraria da empresa Pacífica Câmbio, Viagens e Turismo e auxiliar na tesouraria do Rio de Janeiro do banco Daycoval Parte operante da mesa de operações de câmbio das duas empresas, realizando estudos de mercado, acompanhando concorrentes diretos e indiretos, verificando e liberando as taxas diárias para as filiais Atendimento ao cliente por telefone para compra, venda e reserva em espécie de moedas estrangeiras Atendimento ao cliente do produto cartão pré- pago em moeda estrangeira (Cash Passport) nas bandeiras Visa e Mastercard informando o cliente sobre o funcionamento do mesmo, fazendo a venda, a manutenção, cargas e recargas do produto e o pós venda Liberação, e controle de rotas para os portadores da empresa de forma a realizarem as entregas de moeda estrangeira e remessas para as filiais\n Location : Rio de Janeiro e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Outbound Marketing\n Period : Emitido em jul. de 2018 - Expiroujul. de 2019\n Issuing Authority : Outbound Marketing ®"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Tera\n Speciality : Digital Product Leadership, Gestão de Projetos de TI\n Period : 22 – 22\n School name : Universidade Federal Fluminense\n Speciality : Bachelor's degree, Tourism and Travel Services Marketing Operations\n Period : 25 – 21\n School name : FATEC - SENAC RJ\n Speciality : Master of Business Administration (MBA), Logistics, Materials, and Supply Chain Management and IR\n Period : 212 – 213\n \n School name : ADUANEIRAS\n Speciality : Especialização, Câmbio e Suas Modalidades, Comércio Exterior\n Period : 212 – 212"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "770a4889-3356-4f85-a4e3-7c9d11803298",
+    "id": "587d8ef0-bd3c-47ea-8ce6-e650cf6c527a*770a4889-3356-4f85-a4e3-7c9d11803298",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:03.963Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:03.963Z",
+      "linkedinUsername": "victor-nogueira-632a3559",
+      "email": "victor.nogueira1986@gmail.com",
+      "phone": "",
+      "name": "Victor Nogueira",
+      "id": "770a4889-3356-4f85-a4e3-7c9d11803298"
+    },
+    "timeInCurrentStage": 61412959082
+  },
+  {
+    "importedAt": "2024-02-08T18:38:47.708Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Product Owner"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Product Owner\n Company name : BizCapital\n Period : abr. de 219 – o momento\n \n Job Title : Analista de Produtos\n Company name : WarnerMedia\n Period : jan. de 218 – mar. de 219\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Analista de Marketing Digital\n Company name : Mongeral Aegon\n Period : mai. de 217 – out. de 217\n Summary : Atuava como Product Owner e minhas principais atividades eram:\n \n - Entender e explicar para o time de desenvolvimento as necessidades de nossos clientes;\n - Levantar e refinar os requisitos do projeto;\n - Gestão e priorização do product backlog;\n - Acompanhar o produto que está em desenvolvimento;\n - Facilitadora nas reuniões do Scrum: Planning, Review e Retrospective;\n - Elaborar documentação do projeto, especificações técnicas e regras de negócio;\n \n Competências complementares:\n SEO para melhorias e otimizações dos websites;\n Produção de conteúdo para sites, e-mail marketing e posts em redes sociais\n \n Conhecimento nas ferramentas:\n Facebook Power Editor, Facebook Audience Insights, Youtube Analytics, LinkedIn Ads, Google Adwords & Google Analytics, Google Tag Manager, SEM Rush, MOZ, Active Campaign e Wordpress\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Estagiária de Marketing Digital\n Company name : Mongeral Aegon\n Period : mai. de 216 – mai. de 217\n Location : Rio de Janeiro, Brasil\n \n Job Title : Liaison Officer Assistant at the Olympic Aquatics Stadium.\n Company name : OBS - OLYMPIC BROADCASTING SERVICES\n Period : jul. de 216 – ago. de 216\n Summary : Freelancer at Rio 216 Olympic Games\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Estagiária de Conteúdo e Aquisição\n Company name : Globosat\n Period : jan. de 216 – mai. de 216\n Summary : Responsável pela avaliação e pesquisa de conteúdo nacional e internacional para os Canais Globosat (GNT, Viva, OFF, Multishow, BIS, +Globosat, Gloob, SporTV, Combate e Philos) Auxílio na elaboração de atas, relatórios e contratos de aquisição\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Estagiária de Marketing\n Company name : Bravo Estúdios\n Period : out. de 215 – jan. de 216\n Summary : Responsável pela atualização das redes sociais da empresa e pelo atendimento de clientes e colaboradores\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Assistente de Compras\n Company name : Nimbi S/A\n Period : set. de 214 – jun. de 215\n Summary : Atuava na empresa Vale e era responsável por:\n \n - Negociar com fornecedores preços, prazos e condições de compras;\n - Emitir relatórios e ordens de compras no sistema;\n - Interpretar gráficos e realizar comparativo de propostas;\n - Conduzir o processo de contratação de serviços externos de médio impacto financeiro para a empresa;\n - Analisar mapas de preços e planilhas de custos;\n - Avaliar, classificar e escolher o mercado fornecedor;\n - Realizar pesquisas de preço no mercado nacional e internacional;\n Location : Rio de Janeiro\n \n Job Title : Estagiária de Compras\n Company name : Furnas\n Period : mar. de 212 – mar. de 214\n Summary : Atuava no setor de Compras, fazendo requisições de compras de material elétrico para as subestações administradas por Furnas pelo SAP; controle de estoque; contato com fornecedores; análise de contratos e auxílio nas rotinas administrativas do departamento\n Location : Rio de Janeiro\n \n Job Title : Product Owner\n Company name : BizCapital\n Period : abr. de 219 – o momento\n \n Job Title : Analista de Produtos\n Company name : WarnerMedia\n Period : jan. de 218 – mar. de 219\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Analista de Marketing Digital\n Company name : Mongeral Aegon\n Period : mai. de 217 – out. de 217\n Summary : Atuava como Product Owner e minhas principais atividades eram:\n \n - Entender e explicar para o time de desenvolvimento as necessidades de nossos clientes;\n - Levantar e refinar os requisitos do projeto;\n - Gestão e priorização do product backlog;\n - Acompanhar o produto que está em desenvolvimento;\n - Facilitadora nas reuniões do Scrum: Planning, Review e Retrospective;\n - Elaborar documentação do projeto, especificações técnicas e regras de negócio;\n \n Competências complementares:\n SEO para melhorias e otimizações dos websites;\n Produção de conteúdo para sites, e-mail marketing e posts em redes sociais\n \n Conhecimento nas ferramentas:\n Facebook Power Editor, Facebook Audience Insights, Youtube Analytics, LinkedIn Ads, Google Adwords & Google Analytics, Google Tag Manager, SEM Rush, MOZ, Active Campaign e Wordpress\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Estagiária de Marketing Digital\n Company name : Mongeral Aegon\n Period : mai. de 216 – mai. de 217\n Location : Rio de Janeiro, Brasil\n \n Job Title : Liaison Officer Assistant at the Olympic Aquatics Stadium.\n Company name : OBS - OLYMPIC BROADCASTING SERVICES\n Period : jul. de 216 – ago. de 216\n Summary : Freelancer at Rio 216 Olympic Games\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Estagiária de Conteúdo e Aquisição\n Company name : Globosat\n Period : jan. de 216 – mai. de 216\n Summary : Responsável pela avaliação e pesquisa de conteúdo nacional e internacional para os Canais Globosat (GNT, Viva, OFF, Multishow, BIS, +Globosat, Gloob, SporTV, Combate e Philos) Auxílio na elaboração de atas, relatórios e contratos de aquisição\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Estagiária de Marketing\n Company name : Bravo Estúdios\n Period : out. de 215 – jan. de 216\n Summary : Responsável pela atualização das redes sociais da empresa e pelo atendimento de clientes e colaboradores\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Assistente de Compras\n Company name : Nimbi S/A\n Period : set. de 214 – jun. de 215\n Summary : Atuava na empresa Vale e era responsável por:\n \n - Negociar com fornecedores preços, prazos e condições de compras;\n - Emitir relatórios e ordens de compras no sistema;\n - Interpretar gráficos e realizar comparativo de propostas;\n - Conduzir o processo de contratação de serviços externos de médio impacto financeiro para a empresa;\n - Analisar mapas de preços e planilhas de custos;\n - Avaliar, classificar e escolher o mercado fornecedor;\n - Realizar pesquisas de preço no mercado nacional e internacional;\n Location : Rio de Janeiro\n \n \n Job Title : Estagiária de Compras\n Company name : Furnas\n Period : mar. de 212 – mar. de 214\n Summary : Atuava no setor de Compras, fazendo requisições de compras de material elétrico para as subestações administradas por Furnas pelo SAP; controle de estoque; contato com fornecedores; análise de contratos e auxílio nas rotinas administrativas do departamento\n Location : Rio de Janeiro"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : ESPM Escola Superior de Propaganda e Marketing\n Speciality : Master of Business Administration - MBA, Big Data aplicado ao Marketing\n Period : 218 – 22\n School name : Faculdade FACHA\n Speciality : Bachelor's degree, Comunicação Social - Audiovisual, CR 9,3\n Period : 215 – 218\n \n School name : Universidade Candido Mendes\n Speciality : Bachelor's degree, Business Administration and Management, General, CR 9,5\n Period : 29 – 213\n Courses: Title : Gerenciamento do Escopo de Projetos; Title : Métricas e Análises para Marketing Digital; Title : Planejamento em Mídias Digitais; \n Title : Produto, Marca e Serviços"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "62205d75-36c9-4881-b0a5-402ca0e0eec4",
+    "id": "587d8ef0-bd3c-47ea-8ce6-e650cf6c527a*62205d75-36c9-4881-b0a5-402ca0e0eec4",
+    "talent": {
+      "updatedAt": "2023-12-20T14:08:41.927Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:08:41.927Z",
+      "linkedinUsername": "ana-carolina-lopes-dos-passos-40745a6a",
+      "email": "carolina.lopes.passos@gmail.com",
+      "phone": "21996275637",
+      "name": "Ana Carolina Lopes dos Passos",
+      "id": "62205d75-36c9-4881-b0a5-402ca0e0eec4"
+    },
+    "timeInCurrentStage": 61412059082
+  },
+  {
+    "importedAt": "2024-02-08T18:38:47.583Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Product Owner"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Product Owner\n Company name : M4U\n Period : mai. de 218 – o momento\n Summary : Product Owner do time de integrações gerenciais com as 4 grandes operadoras de Telecom do Brasil (Claro, Oi, Tim e Vivo), com resultados ligados diretamente aos Programas de Excelência (PEC, PEX) destas empresas, representando resultados financeiros importantes para a operação\n Principais atividades:\n • Alinhamentos constantes com stakeholders internos e externos;\n • Gestão do backlog e apoio na tomada de decisões do projeto;\n • Escrita de histórias a partir de solicitações internas ou externas;\n • Interface constante com os clientes internos e externos para entendimento das demandas, levantamento de requisitos, necessidades prioritárias e hipóteses;\n • Acompanhamento dos ritos do time de desenvolvimento (dailies, refinamentos, retrospectivas);\n • Acompanhamento dos resultados das melhorias propostas e implementadas;\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Analista de negócios\n Company name : Igarapé Tecnologia em Comercio e Serviços\n Period : mar. de 217 – abr. de 218\n Summary : Reporte a Diretoria da empresa na gestão de negócios e documentações:\n • Gestão e preparação de toda a documentação legal para participação em licitações e concorrências públicas;\n • Participação em sessões de abertura de envelopes, interposição de recursos;\n • Atendimento comercial geral, compreendendo visitas técnicas e comerciais;\n • Gestão de documentação junto ao CREA/RJ\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Analista Comercial de Licitações\n Company name : ARCADIS Logos\n Period : mai. de 214 – abr. de 216\n Summary : Analista de licitações e concorrências públicas e privadas e processos de manifestação de interesse para mercado LATAM, nos padrões BID/BIRD\n Location : São Paulo Area, Brazil\n \n Job Title : Franqueado\n Company name : Mr. Beer - Cervejas Especiais\n Period : ago. de 212 – dez. de 213\n Summary : • Coordenação geral do comércio\n • Controle do setor de compras, estoque e demanda\n • Estratégia e planejamento de vendas\n • Contratação, treinamento e gestão de pessoas\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista Comercial de Licitações\n Company name : Metrohm Brasil\n Period : out. de 29 – ago. de 212\n Summary : Reporte ao Gerente Comercial e responsável pela coordenação dos processos de licitação, com faturamento próximo de R$2MM/ano\n • Interface com o departamento comercial e técnico para definição da estratégia de participação nas licitações\n • Busca, análise e divulgação de oportunidades para os envolvidos nas licitações\n • Participação ativa nas licitações eletrônicas e presenciais\n • Elaboração de recursos com embasamento técnico e legal\n • Controle dos cadastros da empresa nos sites de divulgação e disputa\n • Acompanhamento total do processo de licitação, desde o recebimento do Empenho até a entrega do material\n Location : São Paulo Area, Brazil\n \n \n Job Title : Analista Administrativo / Operações Comerciais\n Company name : Metrohm Brasil\n Period : mar. de 26 – out. de 29\n Summary : Analista de Operações Comerciais (maio 27 - setembro 29)\n Estagiário de Operações Comerciais (maio 25 – maio 27)\n Reporte ao Supervisor Operacional e responsável pela administração de vendas/backoffice\n • Apoio aos vendedores nos processos comerciais, envolvendo prazos de entrega, interface com importação de produtos, departamento técnico e logístico, garantindo o cumprimento e melhoria dos fluxos de trabalho\n • Compras para revenda (itens agregados à venda dos equipamentos)\n • Gestão de projetos especiais, envolvendo compras, logística e prazos\n • Acompanhamento de auditorias ISO 91 internas e externas\n • Controle de indicadores da área\n • Deslocado por 6 meses na área de Projetos Especiais, atuando em compras e gestão de fornecedores"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Anhembi Morumbi\n Speciality : Bacharel, Administração\n Period : 25 – 21\n \n School name : Universidade Anhembi Morumbi\n Speciality : Gestão e Planejamento de Marketing e Vendas, Ciências Sociais\n Period : 25 – 21\n Courses: Title : Gestão e contabilidade; Title : NBR ISO 91/28; \n Title : RCC Licitações"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "765e6880-607d-4c0f-9b81-6f8ff15bf624",
+    "id": "587d8ef0-bd3c-47ea-8ce6-e650cf6c527a*765e6880-607d-4c0f-9b81-6f8ff15bf624",
+    "talent": {
+      "updatedAt": "2023-12-20T13:53:46.379Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:53:46.379Z",
+      "linkedinUsername": "guilhermeseckler",
+      "email": "guiseckler@gmail.com",
+      "phone": "21995952709",
+      "name": "Guilherme Seckler",
+      "id": "765e6880-607d-4c0f-9b81-6f8ff15bf624"
+    },
+    "timeInCurrentStage": 61412359082
+  },
+  {
+    "importedAt": "2024-02-08T18:38:47.835Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Product Owner"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Product Owner\n Company name : SIS Soluções Integradas de Sistemas\n Period : jul. de 221 – o momento\n \n Job Title : Analista de Produtos Sênior/Product Owner\n Company name : Oi\n Period : jul. de 218 – jul. de 221\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Analista de Produtos Pleno\n Company name : Oi\n Period : jan. de 217 – jul. de 218\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Analista de Marketing Júnior\n Company name : Oi\n Period : out. de 213 – jan. de 217\n Location : Leblon\n \n Job Title : Estagiária de Marketing\n Company name : Oi\n Period : out. de 211 – out. de 213\n Location : Lapa - Rio de Janeiro\n \n Job Title : Consultora de Marketing\n Company name : CEFET Jr. Consultoria\n Period : dez. de 29 – abr. de 211\n Location : Maracanã - Rio de Janeiro\n \n Job Title : Product Owner\n Company name : SIS Soluções Integradas de Sistemas\n Period : jul. de 221 – o momento\n \n Job Title : Analista de Produtos Sênior/Product Owner\n Company name : Oi\n Period : jul. de 218 – jul. de 221\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Analista de Produtos Pleno\n Company name : Oi\n Period : jan. de 217 – jul. de 218\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Analista de Marketing Júnior\n Company name : Oi\n Period : out. de 213 – jan. de 217\n Location : Leblon\n \n Job Title : Estagiária de Marketing\n Company name : Oi\n Period : out. de 211 – out. de 213\n Location : Lapa - Rio de Janeiro\n \n \n Job Title : Consultora de Marketing\n Company name : CEFET Jr. Consultoria\n Period : dez. de 29 – abr. de 211\n Location : Maracanã - Rio de Janeiro"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Centro Federal de Educação Tecnológica Celso Suckow da Fonseca\n Speciality : Engenharia de Produção, Engenharia de Produção\n Period : 29 – 213\n Summary : Empresa Júnior"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "792adfff-ecab-41c7-9996-da0ad3532281",
+    "id": "587d8ef0-bd3c-47ea-8ce6-e650cf6c527a*792adfff-ecab-41c7-9996-da0ad3532281",
+    "talent": {
+      "updatedAt": "2023-12-20T14:09:24.154Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:09:24.154Z",
+      "linkedinUsername": "rafaela-rangel-55078225",
+      "email": "rafa.rangel.silva@gmail.com",
+      "phone": "21987662866",
+      "name": "Rafaela Rangel",
+      "id": "792adfff-ecab-41c7-9996-da0ad3532281"
+    },
+    "timeInCurrentStage": 61412059082
+  },
+  {
+    "importedAt": "2024-02-08T18:38:47.658Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Product Owner"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Product Owner\n Company name : Allied Brasil\n Period : mai. de 22 – o momento\n Summary : - Orientação e gerenciamento do time ágil;\n - Ponto principal entre a equipe de desenvolvimento e a área de negócios no tratamento das demandas junto ao cliente;\n - Gerenciamento e priorização do Product Backlog vivo para maximizar o valor agregado a cada entrega do time;\n - Planejamento das entregas e melhorias continuas do produto;\n - Responsável pelos testes A/B, visando sempre a melhor experiencia do usuário;\n \n Job Title : Analista de requisitos\n Company name : Allied Brasil\n Period : jan. de 22 – mai. de 22\n Summary : Auxilio ao PO com demandas da Operadora Claro , solicitação e priorização das tarefas junto a equipe de desenvolvimento, bem como o levantamento e mapeamento das funcionalidades do sistema, por meio de documentação ágil\n \n Job Title : Analista de requisitos\n Company name : Wooza\n Period : jun. de 218 – dez. de 219\n Summary : Auxilio ao PO com demandas da Operadora Claro , solicitação e priorização das tarefas junto a equipe de desenvolvimento, bem como o levantamento e mapeamento das funcionalidades do sistema, por meio de documentação ágil\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Analista de processos\n Company name : Capgemini\n Period : jul. de 216 – nov. de 216\n Summary : Atuei com toda a parte de UML, especificacao de casos de uso, diagramação de atividade, processos e negócio\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Analista de Requisitos\n Company name : Ninebee\n Period : mai. de 215 – mai. de 216\n Summary : Cliente Lojas Americanas, atuei com toda a parte de UML, especificacao de casos de uso, diagramação de atividade, processos e negócio\n \n Job Title : Analista de Requisito/Negócio\n Company name : Stefanini\n Period : mai. de 212 – abr. de 215\n Summary : Cliente Caixa, atuei na modelagem de negócio/ processos no Fundo de Compensações de variações salariais, especificação de casos de uso e processos\n \n \n Job Title : Estágio\n Company name : Zona Digital\n Period : jun. de 21 – abr. de 212\n Summary : Forte vivência na área de processos de negócio, possibilitando a melhoria dos mesmos"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : SFPC - Scrum Foundation Professional Certificate\n Period : Emitido em jun. de 2021 - Nenhuma data de expiração\n Issuing Authority : CertiProf\n Title : CPRE-FL - Certified Professional for Requirements Engineering\n Period : Emitido em mai. de 2016 - Nenhuma data de expiração\n Issuing Authority : IBQTS - Instituto Brasileiro de Qualidade em Testes de Software\n \n Title : CTFL - Certified Tester Foudation Level\n Period : Emitido em mai. de 2016 - Nenhuma data de expiração\n Issuing Authority : BSTQB"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Master of Business Administration (MBA), Gestão de Processos\n Period : 215 – 217\n School name : WPOS\n Speciality : Pós Graduação em Gerência de Projetos - PMI\n Period : 214 – 215\n School name : Tranning\n Speciality : Bpmn 2., Processos de negócios\n Period : 214 – 214\n Summary : Curso preparatório para exame OCEB 2. OMG\n School name : FEUC\n Speciality : Bacharelado de Sistema de Informações, desenvolvimento, análise de sitemas (UML) e gerência de projetos\n Period : 21 – 214\n \n School name : Dom Otom Mota\n Period : 24 – 27"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "c6724cc6-8b72-4ccb-8fca-cdccd63d6058",
+    "id": "587d8ef0-bd3c-47ea-8ce6-e650cf6c527a*c6724cc6-8b72-4ccb-8fca-cdccd63d6058",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:20.203Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:20.203Z",
+      "linkedinUsername": "daniel-nunes-de-lima-410ba090",
+      "email": "daninlima75@gmail.com",
+      "phone": "",
+      "name": "Daniel Nunes de Lima",
+      "id": "c6724cc6-8b72-4ccb-8fca-cdccd63d6058"
+    },
+    "timeInCurrentStage": 61412959082
+  },
+  {
+    "importedAt": "2024-02-08T18:38:47.742Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Product Owner"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Product Owner\n Company name : ACCT global\n Period : jan. de 222 – o momento\n Location : Brasil\n \n Job Title : Web Project Lead | Product Owner\n Company name : Ilumno\n Period : abr. de 22 – dez. de 221\n Summary : Lidero Projetos Digitais com interface entre os departamentos de Marketing e TI com o objetivo de maximizar valor agregado - Planejamento, criação e implementação de sites, landing pages, mini-sites e blogs\n \n Gestão de backlog - Liderança de processos de suporte e implantação de otimizações com foco em performance\n \n Liderar e motivar um time multifuncional com foco no desenvolvimento de planos e ações com o objetivo de performance\n \n BI - desenho e implementação de relatórios automatizados para melhor tomada de decisão - utilizando diversas plataformas\n \n Produtos: Universidade Veiga de Almeida (UVA) e Universidade UNIJORGE (UJ)\n \n Principais ferramentas: JIRA, Microsoft Teams, Confluence, Smartsheet, Google Analytics, Google Tag Manager, Google Optimize, Google Data Studio, Excel, PowerPoint, HotJar/Crazy Egg\n Location : Rio de Janeiro, Rio de Janeiro, Brazil\n \n Job Title : Digital Platforms Coordinator | Product Owner\n Company name : Bondinho Pão de Açúcar\n Period : ago. de 218 – jan. de 22\n Summary : Liderei o processo de reestruturação do e-commerce do Bondinho, desde o início da nova UX e realizei alterações nas APIs e no admin editorial Além disso, meus esforços na Bondinho foram também em mídia de performance, planejamento estratégico de comunicação, mídias sociais, site e abertura de novos canais de vendas no ambiente Online\n \n Achievement: Reestruturação do e-commerce e implementação de estratégias de marketing digital\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Coordenador de Mídia Digital\n Company name : Artplan\n Period : fev. de 216 – out. de 218\n Summary : Planejamento e implementação de mídia\n \n - Principais clientes: L’Oréal, Firjan, Rock In Rio e H2\n \n - Uso de metodologias ágeis Exp: Asana\n \n -Principais plataformas: Google Adwords, Facebook Ads, Linkedin Ads, Twitter Ads, Mídia Programática, Rede de Afiliados, entre outros\n Location : Rio de Janeiro\n \n \n Job Title : MARKETING DIGITAL | PPC | BI | PLANNING\n Company name : Oslo Digital\n Period : 211 – fev. de 216\n Summary : Iniciei minha carreira nas maiores e mais renomadas agências de publicidade do Brasil: WPP Group (Ogilvy), Grupo ABC (África), Artplan e Oslo\n \n Pude me desenvolver como um profissional híbrido, vivenciando o dia a dia do planejamento e mídia digital para grandes marcas nacionais e internacionais Meus principais desafios sempre foram no planejamento que ofereceria e garantiria resultados em aumento de receita visando KPIs como ROI - Retorno sobre o investimento\n \n Principais clientes e contas das agências; Rock in Rio, L’Oréal, Coca-Cola, Cultura Inglesa, Chefs Club, ZeeDog, Unimed Rio, FIRJAN, ANCINE, canais GLOBO, UVA, Estácio e outras\n \n Achievement: Implementação de estratégias de marketing digital e crescimento significativo da receita com campanhas de mídia\n \n Main platforms: Smartsheet, Google Analytics, Google Tag Manager, Excel, PowerPoint, Google Analytics, Google AdWords, Facebook & Instagram Ads, Twitter Ads, Linkedin Ads, Programmatic Media\n Location : Rio de Janeiro e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Professional certifications: CSP\n Certifications: Title : Certified Scrum Product Owner® (CSPO®)\n Period : Emitido em jul. de 2020 - Nenhuma data de expiração\n Issuing Authority : Scrum Alliance\n Title : Orçamento Base Zero\n Period : Emitido em jun. de 2019 - Nenhuma data de expiração\n Issuing Authority : Ibmec\n \n Title : UX, Design Thinking e Interfaces Digitais\n Issuing Authority : PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul\n Speciality : Pós-Graduação, Neurociência e Comportamento\n Period : 22 – 222\n School name : Pontifícia Universidade Católica do Rio de Janeiro\n Speciality : Gestão de Produtos com Scrum, Product Owner\n Period : 219 – 219\n \n School name : Faculdade FACHA\n Speciality : Bacharelado, Publicidade e Propaganda\n Period : 211 – 214\n Courses: Title : Communication strategies with social networks; Title : Corporate Communication - FACHA - 213; Title : Cultura Inglesa - Inglês; Title : Google Analytics - Goobec - 214; Title : Media Planning - FACHA - 213; Title : Orçamento Base Zero; Title : Product Management with Scrum, Product Owner - PUC - 219; Title : Product, Brand and Services - FGV online - 216; Title : UX, Design Thinking and Digital Interfaces; \n Title : Writing Workshop - FACHA - 213"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "569ccc9c-fcf8-4a31-aa3e-ab46eaeb2d9e",
+    "id": "587d8ef0-bd3c-47ea-8ce6-e650cf6c527a*569ccc9c-fcf8-4a31-aa3e-ab46eaeb2d9e",
+    "talent": {
+      "updatedAt": "2023-12-20T13:53:53.284Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:53:53.284Z",
+      "linkedinUsername": "victorazzevedo",
+      "email": "victor.azzevedo@gmail.com",
+      "phone": "",
+      "name": "Victor Azevedo",
+      "id": "569ccc9c-fcf8-4a31-aa3e-ab46eaeb2d9e"
+    },
+    "timeInCurrentStage": 61412959082
+  },
+  {
+    "importedAt": "2024-02-08T18:38:47.768Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Product Owner"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Product Owner\n Company name : Bradesco Seguros\n Period : jan. de 219 – o momento\n Location : Rio de Janeiro, Brasil\n \n Job Title : Analista de negócios\n Company name : Bradesco Seguros\n Period : mai. de 215 – dez. de 218\n Location : Rio de J\n \n Job Title : Auxiliar administrativo\n Company name : Concremat Engenharia e Tecnologia\n Period : nov. de 214 – mai. de 215\n Summary : Emissão , expedição de relatórios e arquivo de fichas de ensaio\n Location : Rio de Janeiro, Brasil\n \n \n Job Title : Jovem Aprendiz\n Company name : Concremat Engenharia e Tecnologia\n Period : mai. de 213 – out. de 214\n Location : Rio de Janeiro, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Centro Universitário IBMR\n Speciality : Master of Business Administration - MBA, Gestão de Projetos\n Period : 221 – 223\n \n School name : Universidade Estácio de Sá\n Speciality : Graduaçao, Administração de Empresas\n Period : 217 – 22"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "13109ac9-c844-487c-bb01-e3627825b0fc",
+    "id": "587d8ef0-bd3c-47ea-8ce6-e650cf6c527a*13109ac9-c844-487c-bb01-e3627825b0fc",
+    "talent": {
+      "updatedAt": "2023-12-20T14:06:05.611Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:06:05.611Z",
+      "linkedinUsername": "eduardo-gonçalves-a712881b0",
+      "email": "eduardo.goncalvesds@outlook.com",
+      "phone": "",
+      "name": "Eduardo Gonçalves",
+      "id": "13109ac9-c844-487c-bb01-e3627825b0fc"
+    },
+    "timeInCurrentStage": 61412959082
+  },
+  {
+    "importedAt": "2024-02-08T18:38:47.888Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Product Owner"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Product Owner\n Company name : Globo\n Period : jan. de 221 – o momento\n Summary : Hub de Tecnologia - Pós Produção\n \n Responsável pelo time que mantém as soluções digitais do Acervo Globo\n Líder de produtos do fluxo de ingest de clientes internos e externos de conteúdos digitais da Globo \n Líder da transformação data driven dos produtos digitais na jornada colaborativa TV Globo\n Location : Rio de Janeiro, Brasil\n \n Job Title : Growth Product Manager\n Company name : ACP Midia\n Period : set. de 22 – o momento\n Summary : Responsável por projetos estratégicos de estruturação de crescimento\n \n Job Title : Product Owner\n Company name : Grupo de Moda Soma\n Period : dez. de 218 – set. de 22\n Summary : - PO Squad Experimentação\n Líder do produto do épico de compra OMNI sem atrito\n Idealizar, desenhar e viabilizar o processo de pedido de experimentação, sem custo, e cobrança apenas do que não for devolvido na ANIMALE RJ e SP\n \n - PO Squad Estampas\n Líder do projeto responsável por desenhar, planejar e implementar o software de digitalização do processo de concepção de estampas na FARM e ANIMALE Mantendo o registro de estampas realizadas por coleção evitando fraudes e trazendo análise de dados para sugerir as melhores estampas\n \n - SCRUM Master\n Responsável por estruturar a roda ágil do time de inovação ( SOMALABS ) e e-commerce, através de estudo de Benchmarking (IBM, Stone e VTEX)\n \n Responsável pela estruturação e suporte do time na montagem da CASA FARM, loja conceito da principal marca de moda primium do Brasil\n \n - PO Squad PLM\n Time responsável por suportar e evoluir o sistema de Product Lifecycle Management\n Necessário o entendimento de toda a cadeia de varejo de moda, desde a concepção do produto até a análise de vendas\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Business Analytics & Strategy Consultant\n Company name : IBM\n Period : dez. de 216 – dez. de 218\n Summary : - Desenvolvimento de soluções em business intelligence usando ferramentas MS SQL Server, Teradata, PowerCenter, SAP BO e Tableau com o objetivo de disponibilizar diferentes camadas de informação para os principais tomadores de decisões da maior empresa de Telecom no Brasil (Oi Telecom)\n \n - Atuação em projetos de alta complexidade, com estruturações em ODS e DW, que utilizam metodologia ágil como framework Tendo como foco a melhora no tempo de resposta às mudanças demandadas pelo cliente (Oi Telecom)\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Project Internship\n Company name : Schlumberger\n Period : out. de 215 – dez. de 216\n Summary : -Equipe de Projetos LATAM\n Responsável por criar dashboards de acompanhamento de projetos em Tableau\n Acompanhamento de métricas de custos\n Location : Rio de Janeiro, Brasil\n \n \n Job Title : Requirements Analyst Internship\n Company name : CEPEL\n Period : mai. de 214 – out. de 215\n Summary : Equipe de Tecnologia e Inovação\n \n -Participação no levantamento de requisitos de novos projetos junto aos pesquisadores responsáveis;\n - Análise de base de dados MYSQL;\n - Suporte de entendimento de projeto junto aos pesquisadores beneficiários dos projetos de inovação\n Location : Rio de Janeiro\n Company 2: ACP Midia"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : OKR Essencial\n Period : Emitido em set. de 2020 - Nenhuma data de expiração\n Issuing Authority : Feedz\n Title : Métricas de Produto\n Period : Emitido em mai. de 2020 - Nenhuma data de expiração\n Issuing Authority : Product Arena\n \n Title : Product Manager\n Period : Emitido em fev. de 2020 - Nenhuma data de expiração\n Issuing Authority : Product Arena"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : MBA USP/Esalq\n Speciality : Master of Business Administration - MBA, Digital Business\n Period : 22 – 222\n Summary : Adquirir o mindset digital necessário para compreender o uso da tecnologia como diferencial competitivo. O programa irá abordar estratégias digitais, novos modelos de negócios, processos de mudança, conhecimento de tecnologias emergentes que estão mudando o mundo dos negócios, além da execução do processo de transformação digital das empresas.\n School name : Instituto Infnet\n Speciality : Bachelor's degree, Computer Engineering, 8.2\n Period : 213 – 218\n Summary : Monitor de Equações Diferenciais I e II\n \n Monitor de Gestão Empresarial\n \n School name : Colégio Franciscano Sagrado Coração de Jesus\n Speciality : Ensino Médio, Geral\n Period : 29 – 212\n Summary : Grupo informática para todos;\n Equipe de futsal;"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "18998e04-2a00-41a0-8528-00bc8a1547db",
+    "id": "587d8ef0-bd3c-47ea-8ce6-e650cf6c527a*18998e04-2a00-41a0-8528-00bc8a1547db",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:56.719Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:56.719Z",
+      "linkedinUsername": "andreclima",
+      "email": "andre.lima.ec@gmail.com",
+      "phone": "5521980368598",
+      "name": "Andre Lima",
+      "id": "18998e04-2a00-41a0-8528-00bc8a1547db"
+    },
+    "timeInCurrentStage": 61412059082
+  },
+  {
+    "importedAt": "2024-02-08T18:38:47.640Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Product Ower"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Product Ower\n Company name : ONS - Operador Nacional do Sistema Elétrico\n Period : abr. de 221 – o momento\n Summary : Responsabilidades:\n • Definir do plano de releases e gestão do roadmap dos produtos;\n • Realizar Planejamento Ágil de sprints com o time técnico;\n • Criação, priorização e gerenciamento efetivo do Backlog do Produto segundo a necessidade do negócio e dos stakeholders;\n • Estabelecer requisitos funcionais para o desenvolvimento do projeto;\n • Definir épicos e criar estórias de usuários; quebrar as estórias de modo independente e garantir que seus critérios de aceite estejam atualizados;\n • Maximizar o valor do produto e entregar de forma consistente;\n • Discutir possíveis soluções entre os times de UX e UI, Back-end, Front-end e Mobile;\n • Colaborar com o arquiteto de sistema para auxiliar na tomada de decisões e sequenciamento dos requisitos não funcionais críticos e de dúvida técnica;\n • Garantir que o backlog do produto fosse visível, transparente e claro para todos;\n • Comunicar a visão do produto ou serviço para todos os envolvidos;\n • Garantir melhoria contínua do produto;\n • Utilizar boas práticas ágeis principalmente as de escrita das histórias;\n • Participar do planejamento de sprints com o time técnico;\n • Acompanhamento e organização das sprints de desenvolvimento do produto;\n • Garantir que os desenvolvedores entendam os itens do backlog no nível necessário;\n • Executar testes de aceitação de usuários nas novas features e gerar documentações da entrega aos impactados;\n • Organizar e manter atualizadas as ferramentas internas de controle de projetos;\n • Acompanhar os indicadores de performance e qualidade do produto;\n Location : Rio de Janeiro, Brasil\n \n Job Title : Gerente de Projetos | Agile Team Lader\n Company name : Confitec\n Period : nov. de 21 – mar. de 22\n Summary : Responsabilidades:\n • Gerir projetos de implantação, desenvolvimento e integração de sistemas\n • Usar um processo puxado e enxuto (Lean) para evitar a sobrecarga do time e dos envolvidos\n • Organizar a equipe para que entregue valor de negócio de forma contínua e ininterrupta\n • Levantamento e documentação dos requisitos utilizando histórias de usuário\n • Facilitar clientes e usuários a projetar colaborativamente o melhor produto/backlog para suas necessidades\n • Alinhar com cliente e equipe a definição de pronto (definition of done) para as histórias\n • Prevenir o acúmulo de demandas no backlog mantendo-o dentro de um nível de estoque aceitável\n • Priorizar e otimizar a distribuição dos entregáveis e de tarefas para o time\n • Coordenar taticamente as equipes para mantê-las focadas nas tarefas do dia-a-dia (Daily Meeting)\n • Criar mapas e quadros kanban para visualização unificada de todo o trabalho que o envolve o time\n • Alinhar equipe e cliente em metas compartilhadas, incentivando colaboração em todos os níveis\n • Prevenir a formação de gargalos em determinados recursos principalmente evitando a especialização técnica excessiva das pessoas\n • Proteger o time e remover impedimentos para que se envolva apenas com as tarefas mais importantes\n • Garantir a qualidade das entregas\n • Incentivar e promover maneiras de colaboração\n • Encontrar pontos de alavancagem para melhorar processos de trabalho\n • Medir a performance do processo de trabalho implementado e divulgar seus resultados através de indicadores\n • Fazer análise e resolução de problemas complexos \n • Coletar métricas de times, analisá-las e utilizar os resultados para melhorar o processo de trabalho\n • Gerar indicadores sobre a eficiência do fluxo de entrega do trabalho\n • Fazer relatórios de acompanhamento para diretoria e outros envolvidos\n • Encontrar maneiras de reduzir o tempo de entrega das demandas \n • Aumentar a efetividade das reuniões de daily meetings de coordenação tática, de planejamento e revisão de produto\n Location : Rio de Janeiro, Brasil\n \n Job Title : Gerente de projetos Scrum master\n Company name : Ci&T\n Period : nov. de 28 – out. de 21\n Summary : Responsabilidades:\n • Atuação como Líder de Projetos utilizando o método ágil Scrum – atuando como Scrum Master\n • Execução e entrega do projeto de software, utilizando a abordagem iterativa e incremental – Scrum – garantindo que os requisitos de maturidade da empresa fossem seguidos\n • Facilitar as reuniões do Scrum (Planning, Daily, Review e Retrospective Meeting)\n • Facilitar e promover a auto-organização do time evitando o comando-e-controle\n • Conduzir a equipe e o cliente na Definição de Done dos projetos \n • Proteger o time de interferências externas e remover os impedimentos (Blocks) que estão se interpondo\n • Acompanhar o cliente (Product Owner) no refinamento (grooming), priorização e gestão do backlog do produto (escopo), de sprints e de releases gerando histórias de qualidade e fácil entendimento e implementação\n • Priorizar o Backlog junto com cliente estabelecendo o valor de negócio de cada item visando a entrega dos mais valiosos primeiro\n • Instruir, disseminar e orientar a equipe nas práticas e valores ágeis/Lean buscando o amadurecimento de todos no processo \n • Gerar métricas e indicadores ágeis do projeto e sobre maturidade da implementação do processo Scrum\n • Implementar a melhoria contínua, garantindo que a equipe continue seguindo os princípios e valores da empresa e de seus processos ágeis como também suas práticas de engenharia de software\n • Construir um ambiente confiável e seguro, com ênfase na resolução de problemas\n • Criar ferramentas de comunicação para disseminação e registro de conhecimento: Blog, Wiki e grupo de discussão do projeto\n Location : Campinas, São Paulo\n \n Job Title : Líder de projetos | Agile Leader\n Company name : Acqua Manager\n Period : jun. de 22 – out. de 28\n Summary : Responsabilidades:\n • Adotar metodologias ágeis (Scrum e Extreme Programming) no time\n • Levantamento de requisitos\n • Criação de backlog de desenvolvimento e testes\n • Distribuição de tarefas de desenvolvimento para o time\n • Entrega e revisão das funcionalidades desenvolvidas junto ao cliente\n • Migração de Dados em projetos de implantação do ERP\n • Desenvolvimento de Software\n • Criação de ferramenta de BI utilizando Oracle Discoverer\n • Criação e manutenção de bancos de dados Oracle\n \n Principais Conquistas:\n • Introdução dos valores e princípios ágeis em meu time quando o Lean/Ágil ainda era rejeitado no Brasil e na Acqua Manager Fiz uma mescla dos processos Scrum e XP e apliquei no time com Sprints, Sprint Planning, Review, Retrospective, Daily Meeting, Quadro Kanban físico, remoção de impedimentos, auto-organização do time, time multidisciplinar\n • Criação do novo ERP para área de saneamento básico do mercado português Fiquei 12 meses em Portugal atuando como analista de requisitos, líder de desenvolvimento e implantação\n • Implantação da metodologia ágil – Scrum e XP – nos projetos de manutenção e evolução do ERP português, o que fez com que nossa equipe atendesse melhor o cliente em Portugal atuando do Brasil do que outras equipes da Acqua Manager que atendiam clientes brasileiros\n • Desenvolvi uma aplicação de BI utilizando a ferramenta Oracle Discoverer possibilitando a fácil obtenção de informações da base de dados pelo cliente português\n • Realizei a migração da base de dados de DB2 para Oracle na implantação do ERP de gestão na companhia Águas de Niterói, criando todos os scripts necessários para criação e migração do banco de dados, bem como na adequação dos dados do modelo do sistema descontinuado para o modelo do novo ERP instalado Esta implantação do ERP ficou conhecida na Acqua Manager como a implantação “zero erro”\n Location : Rio de Janeiro, Brasil\n \n \n Job Title : Analista de sistemas sênior\n Company name : Associação de Homens de Negócio\n Period : jan. de 1998 – mai. de 22\n Summary : Responsabilidades:\n • Desenvolvimento e manutenção de sistemas voltados aos Associados\n • Criação e manutenção de banco de dados Oracle\n • Manutenção de rotinas de backup do banco de dados\n • Tunning do banco de dados e de queries dos sistemas\n \n Principais Conquistas:\n • Desenvolvimento de uma aplicação nova – da concepção até a entrega em produção, passando por modelagem, desenvolvimento e testes – contendo vários requisitos de negócio importantes para empresa que funcionava em paralelo com a outra aplicação da empresa desenvolvida em Clipper que já não possuía manutenção e evolução\n • Implantação do Banco de Dados Oracle na empresa atuando como DBA\n Location : Rio de Janeiro, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Pontifícia Universidade Católica do Rio de Janeiro\n Speciality : Pós-Graduação, Software Project Management\n Period : 25 – 27\n School name : Centro Universitário UniCarioca\n Speciality : Bsc, Information Tecnology\n Period : 1995 – 1998\n \n School name : Colégio São Vicente de Paulo\n Period : 1986 – 21\n Courses: Title : Curso Gestão de Projetos utilizando Lean, Agile, Kanban - 4h - Software Zen - 6/219; Title : Oracle DBA 8i - 16h - AOPEC - 1/21; \n Title : Team Fundation Server – 4h - 1/219"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "64a40129-76c3-47f2-9724-8afbd580db00",
+    "id": "587d8ef0-bd3c-47ea-8ce6-e650cf6c527a*64a40129-76c3-47f2-9724-8afbd580db00",
+    "talent": {
+      "updatedAt": "2023-12-20T13:55:07.748Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:55:07.748Z",
+      "linkedinUsername": "mitrano-scrum-master-product-owner",
+      "email": "mitrano@gmail.com",
+      "phone": "21992459475",
+      "name": "Ricardo Mitrano Scrum Master",
+      "id": "64a40129-76c3-47f2-9724-8afbd580db00"
+    },
+    "timeInCurrentStage": 61412359082
+  },
+  {
+    "importedAt": "2024-02-08T18:38:47.617Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenadora de CX e Produtos Digitais"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenadora de CX e Produtos Digitais\n Company name : EnsineMe\n Period : jun. de 221 – o momento\n Summary : Customer Experience\n Customer Success\n Produtos Digitais \n Relacionamento com o Cliente \n Key Performance Indicators\n \n Job Title : Product Owner Sênior - Gestão de Produto B2B\n Company name : Supergasbras\n Period : mar. de 217 – mai. de 221\n Summary : • Melhoria continua da área de cliente, priorizando o incremento e retenção da participação de transações digitais, redução no percentual de reclamações e número de ligações no call center e experiência do cliente, atendendo as necessidades de negócio\n • Responsável pela ativação e aceleração da transformação digital do produto interna e externamente Ações de relacionamento \n • Suporte e acompanhamento dos indicadores na central de atendimento\n • Roadmap de produto\n • Criação, acompanhamento e análise da performance das campanhas do produto\n • Planejamento e acompanhamento do plano de comunicação\n • Desenvolvimento dos comunicados de novidades e geração de conteúdo em relação ao produto e materiais de comunicação diversos referente ao produto\n • Mapeamento e definição de Personas e Jornada Análise do Perfil do Cliente\n • Gestão e aperfeiçoamento dos indicadores internos da área\n • Criação de planos de ação que garantam o engajamento dos usuários na área de clientes\n • Identificação de melhorias no produto através da experiência do usuário\n • Criação de tutoriais de novas funcionalidades do produto\n • NPS\n • Treinamentos para Força de Vendas para captação e retenção de clientes\n • PO dos projetos de inovação (Atuar em todas as áreas de conhecimento do projeto)\n • Consolidação e análise de indicadores e desenvolvimento de gestão à vista\n • Apuração de margem, volume, investimento, rentabilidade, real x orçado por unidade de negócio \n • Análise de Net (creation / termination)\n • Análise de Novos Mercados, Posicionamento de produto, Captação de novos clientes\n \n Job Title : Consultora de Negócios Pleno - Planejamento e Gestão de Projetos\n Company name : Deloitte\n Period : ago. de 214 – mar. de 217\n Summary : • Líder do departamento de Projetos de Modificações do PMO - cliente UO-RIO da Petrobras \n • Líder de equipe de Planejamento em projetos de manutenção de Paradas e Paradas na plataforma P-4 da Petrobras - cliente Petrobras UO-RIO \n • Liderança e desenvolvimento de equipes\n • Gerenciamento de projeto de parada de produção e suporte no planejamento estratégico do projeto\n • Análise e controle de indicadores de desempenho \n • Desenvolvimento de relatórios gerenciais\n • Atuar em todas as áreas de conhecimento do projeto: Integração, Qualidade, Custos, Aquisições, Recursos Humanos, Comunicação, Escopo, Riscos, Tempo e Partes Interessadas\n • Apoio ao desenvolvimento da iniciativa de KPIs UO-RIO / PCM da Deloitte e participação na melhoria da maturidade dos PMOs na UO-RIO\n • Controlar o Orçamento do projeto\n • Apresentar e produzir status reports\n \n Job Title : Analista de Negócios e Gestão de Projetos\n Company name : Weatherford\n Period : mai. de 211 – ago. de 214\n Summary : • Focal Point - Projects Brasil responsável por dar suporte as linhas de produtos e fábricas \n • Emitir Reports do setor para Região\n • Controle do cash-flow, Capex e alocação dos custos \n • Realizar análise custo e utilização de reserva de gestão\n • Análise e levantamento de requisitos junto aos clientes internos \n • Elaborar planilhas,relatórios e apresentações gerenciais\n • Controle do Orçado x Realizado\n • Responsável pela área de compras, realizando a cotação de preços e emissão deordens de compras e solicitações de manutenção e revisão contratual\n \n Job Title : Assistente II - Gerência de Relacionamento e Pagamento\n Company name : Fundação Petrobras de Seguridade Social - Petros\n Period : out. de 21 – mai. de 211\n Summary : • Avaliar os Ofícios Judiciais e Intimações da Receita Federal\n • Analisar e executar as implantações, alterações e cancelamentos dos pedidos de Isenção do Imposto de Renda, pensões alimentícias e depósitos judiciais \n • Elaboração e conferência dos Comprovantes de Rendimentos\n • Processamento da Folha de Pagamento Mensal de Benefícios\n • Desenvolvimento e acompanhamento de mapas de controle \n • Auxiliar e/ou realizar simulações voltadas para sua área de atuação\n \n Job Title : Assistente I de Relacionamento\n Company name : Aon Hewitt\n Period : mar. de 28 – out. de 21\n Summary : • Retenção e administração de contas da carteira de clientes de Seguro de vida, saúde e odontológico\n • Acompanhamento financeiro das referidas carteiras \n • Prospecção de novos clientes Registro e acompanhamento de oportunidades para novos negócios\n • Benchmarking, análise de contratos e criação de pacotes de benefícios\n • Fornecer às equipes de RH treinamento sobre os pacotes de benefícios\n • Preparação de status reports\n \n Job Title : Coordenadora de CX e Produtos Digitais\n Company name : EnsineMe\n Period : jun. de 221 – o momento\n Summary : Customer Experience\n Customer Success\n Produtos Digitais \n Relacionamento com o Cliente \n Key Performance Indicators\n \n Job Title : Product Owner Sênior - Gestão de Produto B2B\n Company name : Supergasbras\n Period : mar. de 217 – mai. de 221\n Summary : • Melhoria continua da área de cliente, priorizando o incremento e retenção da participação de transações digitais, redução no percentual de reclamações e número de ligações no call center e experiência do cliente, atendendo as necessidades de negócio\n • Responsável pela ativação e aceleração da transformação digital do produto interna e externamente Ações de relacionamento \n • Suporte e acompanhamento dos indicadores na central de atendimento\n • Roadmap de produto\n • Criação, acompanhamento e análise da performance das campanhas do produto\n • Planejamento e acompanhamento do plano de comunicação\n • Desenvolvimento dos comunicados de novidades e geração de conteúdo em relação ao produto e materiais de comunicação diversos referente ao produto\n • Mapeamento e definição de Personas e Jornada Análise do Perfil do Cliente\n • Gestão e aperfeiçoamento dos indicadores internos da área\n • Criação de planos de ação que garantam o engajamento dos usuários na área de clientes\n • Identificação de melhorias no produto através da experiência do usuário\n • Criação de tutoriais de novas funcionalidades do produto\n • NPS\n • Treinamentos para Força de Vendas para captação e retenção de clientes\n • PO dos projetos de inovação (Atuar em todas as áreas de conhecimento do projeto)\n • Consolidação e análise de indicadores e desenvolvimento de gestão à vista\n • Apuração de margem, volume, investimento, rentabilidade, real x orçado por unidade de negócio \n • Análise de Net (creation / termination)\n • Análise de Novos Mercados, Posicionamento de produto, Captação de novos clientes\n \n Job Title : Consultora de Negócios Pleno - Planejamento e Gestão de Projetos\n Company name : Deloitte\n Period : ago. de 214 – mar. de 217\n Summary : • Líder do departamento de Projetos de Modificações do PMO - cliente UO-RIO da Petrobras \n • Líder de equipe de Planejamento em projetos de manutenção de Paradas e Paradas na plataforma P-4 da Petrobras - cliente Petrobras UO-RIO \n • Liderança e desenvolvimento de equipes\n • Gerenciamento de projeto de parada de produção e suporte no planejamento estratégico do projeto\n • Análise e controle de indicadores de desempenho \n • Desenvolvimento de relatórios gerenciais\n • Atuar em todas as áreas de conhecimento do projeto: Integração, Qualidade, Custos, Aquisições, Recursos Humanos, Comunicação, Escopo, Riscos, Tempo e Partes Interessadas\n • Apoio ao desenvolvimento da iniciativa de KPIs UO-RIO / PCM da Deloitte e participação na melhoria da maturidade dos PMOs na UO-RIO\n • Controlar o Orçamento do projeto\n • Apresentar e produzir status reports\n \n Job Title : Analista de Negócios e Gestão de Projetos\n Company name : Weatherford\n Period : mai. de 211 – ago. de 214\n Summary : • Focal Point - Projects Brasil responsável por dar suporte as linhas de produtos e fábricas \n • Emitir Reports do setor para Região\n • Controle do cash-flow, Capex e alocação dos custos \n • Realizar análise custo e utilização de reserva de gestão\n • Análise e levantamento de requisitos junto aos clientes internos \n • Elaborar planilhas,relatórios e apresentações gerenciais\n • Controle do Orçado x Realizado\n • Responsável pela área de compras, realizando a cotação de preços e emissão deordens de compras e solicitações de manutenção e revisão contratual\n \n Job Title : Assistente II - Gerência de Relacionamento e Pagamento\n Company name : Fundação Petrobras de Seguridade Social - Petros\n Period : out. de 21 – mai. de 211\n Summary : • Avaliar os Ofícios Judiciais e Intimações da Receita Federal\n • Analisar e executar as implantações, alterações e cancelamentos dos pedidos de Isenção do Imposto de Renda, pensões alimentícias e depósitos judiciais \n • Elaboração e conferência dos Comprovantes de Rendimentos\n • Processamento da Folha de Pagamento Mensal de Benefícios\n • Desenvolvimento e acompanhamento de mapas de controle \n • Auxiliar e/ou realizar simulações voltadas para sua área de atuação\n \n \n Job Title : Assistente I de Relacionamento\n Company name : Aon Hewitt\n Period : mar. de 28 – out. de 21\n Summary : • Retenção e administração de contas da carteira de clientes de Seguro de vida, saúde e odontológico\n • Acompanhamento financeiro das referidas carteiras \n • Prospecção de novos clientes Registro e acompanhamento de oportunidades para novos negócios\n • Benchmarking, análise de contratos e criação de pacotes de benefícios\n • Fornecer às equipes de RH treinamento sobre os pacotes de benefícios\n • Preparação de status reports"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Bootcamp Digital Product Leadership\n Period : Emitido em abr. de 2019 - Nenhuma data de expiração\n Issuing Authority : Tera\n Title : Service Design Experience\n Period : Emitido em jun. de 2018 - Nenhuma data de expiração\n Issuing Authority : Echos - Innovation Lab\n \n Title : Certified Scrum Product Owner - CSPO\n Period : Emitido em dez. de 2019 - Expira emmai. de 2022\n Issuing Authority : Scrum Alliance"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : MBA, Supply Chain and Logistic Management\n Period : 214 – 216\n School name : Inlingua - Vancouver\n Speciality : General English. May 213, General English - Intensive Program\n Period : 213 – 213\n School name : Fundação Getulio Vargas\n Speciality : FGV Management - Financial Analyst, Finance, General\n Period : 212 – 213\n School name : Projectlab - registered at Project Management Institute, Inc.\n Speciality : Vocational Training Programme in Project Management, PMBOK - Theory & Practice\n Period : 212 – 212\n Summary : http://www.projectlab.com.br/\n School name : Centro Federal de Educação Tecnológica Celso Suckow da Fonseca\n Speciality : CEFET - RJ, BA, Business and Industrial\n Period : 26 – 21\n \n School name : Colégio Pedro II\n Period : 23 – 25"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "98e5d83b-6f77-43d0-9410-4bbbf091ccbe",
+    "id": "587d8ef0-bd3c-47ea-8ce6-e650cf6c527a*98e5d83b-6f77-43d0-9410-4bbbf091ccbe",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:53.375Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:53.375Z",
+      "linkedinUsername": "larissalazari",
+      "email": "larissa.lazari@gmail.com",
+      "phone": "21981798585",
+      "name": "Larissa Lazari",
+      "id": "98e5d83b-6f77-43d0-9410-4bbbf091ccbe"
+    },
+    "timeInCurrentStage": 61412959082
+  },
+  {
+    "importedAt": "2024-02-08T18:38:47.871Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Product Owner"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Product Owner\n Company name : EnsineMe\n Period : abr. de 221 – o momento\n Location : Rio de Janeiro\n \n Job Title : Product Owner\n Company name : YDUQS\n Period : out. de 22 – o momento\n Location : Rio de Janeiro, Brasil\n \n Job Title : Co-Fundador\n Company name : GAIA - Arboriza\n Period : out. de 22 – dez. de 22\n Summary : Startup Acelerada no Programa ICLEI Innovation 22\n Location : Rio de Janeiro, Brasil\n \n Job Title : Co-Fundador e Head de Produtos\n Company name : GAIA - Arboriza\n Period : dez. de 215 – out. de 22\n Summary : Empreendedor, atuante do nível estratégico ao operacional na criação da Solução GAIA Líderança dos processos de discovery, modelagem de negócios (Business Model Canvas); análise de mercado; articulação com órgãos públicos e prestadores de serviços; refinamento de negócios; priorização de backlog; liderança do time de desenvolvimento e aplicação dos métodos ágeis; Saas/Mobile GAIA foi reconhecida como finalista dos prêmios: Geração Empreendedora – Desafio Paraná 216, Prêmio Citi Jovens Microempreendedores 217, Shell LiveWIRE 219 e Acelerada pelo Programa Empreender com Impacto (Myama/Mercado Livre) 219\n \n Métodos: Scrum; Kanban; Product Discovery; Business Model Canvas;\n Tecnologias: Groovy, Grails 3, Spring Security, MySQL, Google Maps API e Ionic\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Consultor de Projetos de TI\n Company name : Administradora de Imóveis Renascença\n Period : mai. de 219 – abr. de 22\n Summary : Função híbrida de Scrum Master e PO no desenvolvimento do CRM e Apps Mobile (IOS/Android) Monalisa (equipe remota), envolvendo: modelagem de negócios; documentação; refinamentos funcionais; identificação das necessidades e valores do produto; definição, priorização e atualização de backlog; facilitação e aplicação do Scrum; uso de ferramentas (Trello/Bitbucket); elaboração e atualização de Sprint Burndown; aplicação de testes de caixa preta; integração e parametrização, bem como suporte aos usuários Além disso, como consultor de negócios desenvolvi mentoria nas filiais, gestão de recursos humanos, benchmarking, análise de KPI’s, estratégias de UI/UX e marketing digital\n Métodos: Scrum; Kanban;\n Tecnologias: PHP, HTML, Javascript, MySQL, Google Maps API e React\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Co-Fundador e CEO\n Company name : CICLO - Gestão Ágil\n Period : mai. de 214 – abr. de 22\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Gerente de Meio Ambiente\n Company name : Prefeitura Municipal de Mandaguari\n Period : abr. de 213 – jun. de 215\n Location : Maringá e Região, Brasil\n \n Job Title : Analista Ambiental\n Company name : Instituto Doe Seu Lixo\n Period : dez. de 211 – ago. de 214\n Location : Maringá e Região, Brasil\n \n Job Title : Gerente de Projetos\n Company name : CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico\n Period : jul. de 212 – jul. de 213\n Location : Maringá e Região, Brasil\n \n Job Title : Auxiliar de administração\n Company name : Delphos S.A\n Period : abr. de 211 – out. de 211\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Estagiário de projetos\n Company name : Universidade Federal do Paraná\n Period : jan. de 29 – dez. de 21\n Location : Curitiba e Região, Brasil\n \n Job Title : Recenseador\n Company name : IBGE\n Period : ago. de 21 – nov. de 21\n Location : Curitiba e Região, Brasil\n \n Job Title : Product Owner\n Company name : EnsineMe\n Period : abr. de 221 – o momento\n Location : Rio de Janeiro\n \n Job Title : Product Owner\n Company name : YDUQS\n Period : out. de 22 – o momento\n Location : Rio de Janeiro, Brasil\n \n Job Title : Co-Fundador\n Company name : GAIA - Arboriza\n Period : out. de 22 – dez. de 22\n Summary : Startup Acelerada no Programa ICLEI Innovation 22\n Location : Rio de Janeiro, Brasil\n \n Job Title : Co-Fundador e Head de Produtos\n Company name : GAIA - Arboriza\n Period : dez. de 215 – out. de 22\n Summary : Empreendedor, atuante do nível estratégico ao operacional na criação da Solução GAIA Líderança dos processos de discovery, modelagem de negócios (Business Model Canvas); análise de mercado; articulação com órgãos públicos e prestadores de serviços; refinamento de negócios; priorização de backlog; liderança do time de desenvolvimento e aplicação dos métodos ágeis; Saas/Mobile GAIA foi reconhecida como finalista dos prêmios: Geração Empreendedora – Desafio Paraná 216, Prêmio Citi Jovens Microempreendedores 217, Shell LiveWIRE 219 e Acelerada pelo Programa Empreender com Impacto (Myama/Mercado Livre) 219\n \n Métodos: Scrum; Kanban; Product Discovery; Business Model Canvas;\n Tecnologias: Groovy, Grails 3, Spring Security, MySQL, Google Maps API e Ionic\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Consultor de Projetos de TI\n Company name : Administradora de Imóveis Renascença\n Period : mai. de 219 – abr. de 22\n Summary : Função híbrida de Scrum Master e PO no desenvolvimento do CRM e Apps Mobile (IOS/Android) Monalisa (equipe remota), envolvendo: modelagem de negócios; documentação; refinamentos funcionais; identificação das necessidades e valores do produto; definição, priorização e atualização de backlog; facilitação e aplicação do Scrum; uso de ferramentas (Trello/Bitbucket); elaboração e atualização de Sprint Burndown; aplicação de testes de caixa preta; integração e parametrização, bem como suporte aos usuários Além disso, como consultor de negócios desenvolvi mentoria nas filiais, gestão de recursos humanos, benchmarking, análise de KPI’s, estratégias de UI/UX e marketing digital\n Métodos: Scrum; Kanban;\n Tecnologias: PHP, HTML, Javascript, MySQL, Google Maps API e React\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Co-Fundador e CEO\n Company name : CICLO - Gestão Ágil\n Period : mai. de 214 – abr. de 22\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Gerente de Meio Ambiente\n Company name : Prefeitura Municipal de Mandaguari\n Period : abr. de 213 – jun. de 215\n Location : Maringá e Região, Brasil\n \n Job Title : Analista Ambiental\n Company name : Instituto Doe Seu Lixo\n Period : dez. de 211 – ago. de 214\n Location : Maringá e Região, Brasil\n \n Job Title : Gerente de Projetos\n Company name : CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico\n Period : jul. de 212 – jul. de 213\n Location : Maringá e Região, Brasil\n \n Job Title : Auxiliar de administração\n Company name : Delphos S.A\n Period : abr. de 211 – out. de 211\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Estagiário de projetos\n Company name : Universidade Federal do Paraná\n Period : jan. de 29 – dez. de 21\n Location : Curitiba e Região, Brasil\n \n \n Job Title : Recenseador\n Company name : IBGE\n Period : ago. de 21 – nov. de 21\n Location : Curitiba e Região, Brasil\n Company 2: YDUQS"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Cyber Security Foundation Professional Certificate (CSFPC)\n Period : Emitido em abr. de 2021 - Nenhuma data de expiração\n Issuing Authority : CertiProf\n Title : Remote Work and Virtual Collaboration (RWVCPC)\n Period : Emitido em jan. de 2021 - Nenhuma data de expiração\n Issuing Authority : CertiProf\n \n Title : Certified ScrumMaster (CSM)\n Period : Emitido em nov. de 2020 - Nenhuma data de expiração\n Issuing Authority : Scrum Alliance"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : UEL - Universidade Estadual de Londrina\n Speciality : Mestrado em Administração de Empresas\n Period : 215 – 218\n Summary : Vínculo: Bolsista, Enquadramento Funcional: Discente de Mestrado\n School name : Universidade Estadual de Maringá\n Speciality : MBA Executivo em Gestão Empresarial, Administração de Empresas\n Period : 212 – 213\n Summary : Bolsista de Extensão Nível C pelo CNPq, atuando pela Incubadora Unitrabalho-UEM\n School name : Estácio\n Speciality : Análise e Desenvolvimento de Sistemas, Tecnologia da Informação\n Period : 221 – 223\n \n School name : Universidade Federal do Paraná\n Speciality : Gestão Ambiental, Administração\n Period : 27 – 211\n Summary : Bolsista de graduação nos Projetos de Extensão pela Universidade Federal do Paraná, Registrado no CRA/PR\n Courses: Title : Formação de Consultores; Title : Bootcamp FIA Online; Title : Business Agility; Title : Curso Preparatório para Certificação PSM-I e PSPO-I; Title : Empreendedorismo Modo ON; Title : Estruturas e Políticas sob sua responsabilidade; Title : Full Stack Developer; Title : Gestão de Produtos Digitais - Product Discovery; Title : Gestão de Projetos Urbanos; Title : Introdução ao SQL com MySQL; Title : Lógica de Programação com Javascript e HTML; Title : Modelagem de Negócios; Title : Princípios de Desenvolvimento Ágil de Software; \n Title : Transformação Ágil"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "eb9b33c0-63b7-44b4-9e65-ea35c44284d0",
+    "id": "587d8ef0-bd3c-47ea-8ce6-e650cf6c527a*eb9b33c0-63b7-44b4-9e65-ea35c44284d0",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:05.379Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:05.379Z",
+      "linkedinUsername": "rafael-leite-macedo",
+      "email": "rlm_twenty@hotmail.com",
+      "phone": "",
+      "name": "Rafael Macedo",
+      "id": "eb9b33c0-63b7-44b4-9e65-ea35c44284d0"
+    },
+    "timeInCurrentStage": 61412959082
+  }
+]

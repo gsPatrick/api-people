@@ -1,0 +1,704 @@
+[
+  {
+    "importedAt": "2024-02-08T18:38:44.700Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "HR Coordinator | Talent Acquisition"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : HR Coordinator | Talent Acquisition\n Company name : TechnipFMC\n Period : jan. de 22 – o momento\n Summary : Developing, planning, managing and overseeing the talent acquisition process and strategies of the organization. Designing and executing employer branding tasks, drafting suitable hiring plans, planning employee referral programs, sourcing and finding candidates, reviewing application forms, finding bottlenecks in recruiting process, leading and supervising the recruiting team, determining HR and recruiting KPI’s’.\n Location : Rio de Janeiro Area, Brazil\n \n Job Title : HR Internal Consultant | Business Partner\n Company name : TechnipFMC\n Period : mai. de 218 – jan. de 22\n Summary : Guidance of critical business solutions within several projects, change management initiatives and talent pipeline. Focus on bringing HR practices into the business perspective with best in class results.\n Location : Rio de Janeiro Area, Brazil\n \n Job Title : HR Specialist | Talent Management - SAM\n Company name : TechnipFMC\n Period : jul. de 217 – mai. de 218\n Summary : Subject Matter Expert for Talent Management - SAM.\n Location : Rio de Janeiro Area, Brazil\n \n Job Title : HR Specialist & Interim Training Manager | Training & Development - LAM\n Company name : FMC Technologies\n Period : ago. de 215 – jul. de 217\n Location : Rio de Janeiro Area, Brazil\n \n Job Title : HR Senior Analyst | Recruiting\n Company name : FMC Technologies\n Period : set. de 214 – ago. de 215\n \n Job Title : Headhunter\n Company name : Flow Executive Finders\n Period : jun. de 212 – mar. de 214\n Location : Rio de Janeiro Area, Brazil\n \n Job Title : Researcher & Headhunter\n Company name : Michael Page Executive Search\n Period : ago. de 211 – jun. de 212\n Location : Rio de Janeiro Area, Brazil\n \n Job Title : Human Resources Specialist\n Company name : Omni Táxi Aéreo\n Period : mai. de 29 – ago. de 211\n Location : Rio de Janeiro Area, Brazil\n \n Job Title : Senior HR Analyst\n Company name : Grupo Brasanitas\n Period : jul. de 27 – jan. de 29\n Location : Rio de Janeiro Area, Brazil\n \n \n Job Title : HR Analyst\n Company name : Netcenter Informatica LTDA\n Period : 25 – 27\n Location : Rio de Janeiro Area, Brazil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/carolinabarabas"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "59d5ffba-b48f-4cc3-a0a1-6887d8938458",
+    "id": "1199197f-ad3f-49fb-b59d-e8993669d8bf*59d5ffba-b48f-4cc3-a0a1-6887d8938458",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:59.760Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:59.760Z",
+      "email": "importacao1900@importacaoinhire.com",
+      "phone": "998088855",
+      "name": "Carolina Barabás",
+      "id": "59d5ffba-b48f-4cc3-a0a1-6887d8938458"
+    },
+    "timeInCurrentStage": 61412919889
+  },
+  {
+    "importedAt": "2024-02-08T18:38:44.730Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "21/10/1984"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "7300"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45048"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Sr Talent Management Analyst"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Sr Talent Management Analyst\n Company name : TechnipFMC\n Period : jul. de 218 – o momento\n Summary : Atuação corporativa na área de Desenvolvimento Organizacional, Talent Management:• Talent review;• Plano de Sucessão;• Assessment e devolutivas;• Gestão do Desempenho e Performance;• Plano de retenção;• Programa Trainee;\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Pl Organizational Development Analyst\n Company name : TechnipFMC\n Period : abr. de 217 – jul. de 218\n Summary : •Gestão dos Programas de Desenvolvimento de Líderes;•Responsável pelo desenho de estratégia e execução de treinamentos para o Programa de Inovação;•Gestão do LMS global e implementação no Brasil;•Responsável pelos KPI’s e Orçamento da área de Desenvolvimento Organizacional;•Atendimento de auditorias internas, externas, nacionais e internacional (Annual Social Data).\n Location : Rio de Janeiro, Rio de Janeiro\n Job Title : Analista de Desenvolvimento Organizacional\n Company name : Technip\n Period : set. de 214 – abr. de 217\n Summary : Atuação corporativa na área de Desenvolvimento Organizacional, foco Treinamento:•Acompanhamento do Programa Anual de Treinamento e atendimento aos treinamentos obrigatórios, internos e externos de desenvolvimento para o site Rio; •Ponto focal corporativo do Programa de Ambientação de novos colaboradores – nível Brasil (alinhamento e implementação) e condução do Programa no site Rio. •Gestão do Programa de Idiomas in company: acompanhamento individual, indicadores e gestão de fornecedores;•Responsável pelos KPI’s da área de Desenvolvimento Organizacional;•Ponto focal da Avaliação de Desempenho corporativamente (suporte aos sites, às BPS, reportes, suporte na ferramenta, capacitação aos colaboradores e gestores, contato e alinhamento com a França. Elaboração de plano de comunicação);•Atendimento de auditorias internas, externas, nacionais e internacional (Annual Social Data);•Gestão de estagiários da áreaGi;•Key-user (Oracle).\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Analista de Recursos Humanos\n Company name : Sinaf Seguros S.A\n Period : mai. de 21 – dez. de 213\n Summary : •Condução de processos seletivos de alto volume para área comercial das 4 filiais do estado do RJ;•Condução de processos seletivos para níveis operacionais, estagiários de nível médio e jovens aprendizes;•Aplicação, correção e levantamento de testes psicológicos;•Instrutora de cursos de capacitação técnica e comportamental para área comercial da cia;•Logística de treinamento: organização, controles coffees.•Emissão e controle de relatórios de RH para área comercial;•Controle e gestão de fornecedores;•Participação na implementação do Programa de Avaliação de Desempenho (DNA);•Condução e tabulação de entrevistas de desligamento;•Organização e acompanhamento de projeto social, ações de endomarketing.\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Assistente de Recursos Humanos\n Company name : Império Sociedade Comercial de Bebidas\n Period : nov. de 29 – mai. de 21\n Summary : •Condução de processos seletivos para os níveis operacionais;•Interface com Departamento Pessoal (admissão, demissão, conferência de documentos);•Encaminhamento para área de Segurança do Trabalho;•Cadastramento de inclusões, exclusões e alterações de benefícios para novos funcionários e dependentes;•Contato com prestadores de serviço, conferência de notas fiscais e solicitação de pagamento;•Condução e tabulação de entrevistas de desligamento;•Responsável por ações de endomarketing;\n Location : Duque de Caxias, Rio de Janeiro\n Job Title : Estagiária de Recursos Humanos\n Company name : Mongeral Aegon\n Period : mai. de 27 – jul. de 28\n Summary : Atuação na área de Relacionamento Interno sendo responsável por recrutamento e seleção de vagas de estágio e administrativas;Atuação com DISC e Vagas.com.;Participação no desenho de campanhas de endomarketing;Responsável pela aplicação e indicadores de entrevistas de desligamento da matriz e 23 sucursais.\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Estagiária de Psicologia\n Company name : Mago Recursos Humanos\n Period : ago. de 26 – mai. de 27\n Summary : Recepção de candidatos para avaliação psicológica de seleção ou avaliação períodica. Aplicação e correção de testes psicológicos de personalidade, atenção e inteligência.\n Location : Rio de Janeiro e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : MAPA - Método de Avaliação de Pessoas\n Period : Emitido em abr. de 2019 - Nenhuma data de expiração\n Issuing Authority : Mapa Avaliações\n Title : Curso de Férias - Psicanálise, Perinatalidade e Parentalidade\n Period : Emitido em fev. de 2018 - Nenhuma data de expiração\n Issuing Authority : Instituto Brasileiro de Psicologia Perinatal_Gerar\n Title : Psicoterapia Infantil na Abordagem Gestáltica\n Period : Emitido em jul. de 2017 - Nenhuma data de expiração\n Issuing Authority : Instituto de Psicologia Gestalt em Figura"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Federal Fluminense\n Speciality : MBA, Gestão de Recursos Humanos\n Period : 211 – 212\n School name : Universidade Federal Fluminense\n Speciality : Graduação, Psicologia\n Period : 24 – 21\n Courses: Title : Excel Intermediário | IDEMP; Title : Formação de Consultores em Treinamento e Desenvolvimento | Nexialistas Consultores; Title : Líder do Futuro - Fundamentos da Liderança | Crescimentum; \n Title : MAPA Avaliação de Pessoas"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "04008d80-a45f-45ea-9ca3-defb1fba2809",
+    "id": "1199197f-ad3f-49fb-b59d-e8993669d8bf*04008d80-a45f-45ea-9ca3-defb1fba2809",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:37.008Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:37.008Z",
+      "email": "caroline.machado@technipfmc.com",
+      "phone": "5521998264220",
+      "name": "Caroline Machado",
+      "id": "04008d80-a45f-45ea-9ca3-defb1fba2809"
+    },
+    "timeInCurrentStage": 61412019889
+  },
+  {
+    "importedAt": "2024-02-08T18:38:44.622Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "02/09/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "10000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Especialista de Recursos Humanos"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Especialista de Recursos Humanos\n Company name : Coca-Cola Andina\n Period : jul. de 219 – o momento\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Analista de Recursos Humanos\n Company name : Coca-Cola Andina\n Period : mar. de 211 – jul. de 219\n Summary : Atuação como Consultora Interna na área Administrativa. Apoio aos gestores nos processos de revisão e desenho de estruturas e em todos os processos de movimentações de pessoas. Processos de Recrutamento e Seleção para cargos estratégicos. Integração de novos colaboradores. Apoio aos gestores nos processos de avaliação de desempenho e desenho de metas. Programa de Sucessão. Planejamento e Gestão dos treinamentos obrigatórios e de desenvolvimento da área. Implementação e Gestão da Plataforma Online de Treinamentos. Planejamento e Desenvolvimento dos Programas de Capacitação da Liderança. Desdobramento de programas e políticas corporativas. Gestão do clima organizacional. Experiência em implantação de projetos, novos sistemas, transição de gestão e mudança cultural.Responsável pela gestão da Plataforma de Treinamentos Online.Responsável pela Comunicação Interna. Execução dos planos estratégicos e atividades de engajamento do público interno que influenciem diretamente no clima (motivação, inspiração e envolvimento).Garantir o acesso às informações da empresa, por meio dos veículos de comunicação contribuindo com a integração de todo o público interno.\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Relações Públicas\n Company name : Revista IDEANEWS\n Period : abr. de 21 – mar. de 211\n Summary : Responsável pela área de comunicação da revista. Organização da presença da REVISTA em feiras e eventos do setor.Produção de material de apresentação, contato com clientes e leitores e administração dos contratos de publicidade.\n Job Title : Executiva de Contas\n Company name : Folha de S.Paulo\n Period : set. de 29 – fev. de 21\n Summary : Responsável por prospectar clientes, relacionamento com os mesmos e venda de espaço publicitário para o Jornal Folha de S. Paulo."
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "LM, MS"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Yale University\n Speciality : Curso, A ciência da Felicidade, 93%\n Period : 22 – 22\n School name : Cornell University\n Speciality : Gestão de Desempenho, Getting Results through Talent Management\n Period : 219 – 219\n School name : Universidade de São Paulo / USP\n Speciality : Master of Business Administration (MBA), Business Administration and Management, General\n Period : 211 – 212\n School name : Faculdades COC\n Speciality : Bacharel Comunicação Social, Publicidade e Propaganda\n Period : 26 – 29\n School name : AfferoLab\n Speciality : Certificação Internacional 6D's com Roy Pollock e Conrado Schlochauer, Treinamentos\n School name : FEXCO AfferoLab\n Speciality : Futurismo, Prospectivas de Futuros\n School name : SBPNL\n Speciality : PNL aplicada à Liderança / Negociações / Comunicação, PNL"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "4eee7538-6d38-48f1-9f24-ddda9729d7a9",
+    "id": "1199197f-ad3f-49fb-b59d-e8993669d8bf*4eee7538-6d38-48f1-9f24-ddda9729d7a9",
+    "talent": {
+      "updatedAt": "2023-12-20T14:07:29.184Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:07:29.184Z",
+      "email": "mari_bn@hotmail.com",
+      "phone": "5516997925509",
+      "name": "Mariana Basilio Nogueira",
+      "id": "4eee7538-6d38-48f1-9f24-ddda9729d7a9"
+    },
+    "timeInCurrentStage": 61412919889
+  },
+  {
+    "importedAt": "2024-02-08T18:38:44.649Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "LA Acquisition Integration Project Manager"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "ebdc7019-c19e-45ad-bda3-10d71ffa4595",
+    "id": "1199197f-ad3f-49fb-b59d-e8993669d8bf*ebdc7019-c19e-45ad-bda3-10d71ffa4595",
+    "talent": {
+      "updatedAt": "2023-12-20T14:07:10.504Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:07:10.504Z",
+      "email": "feborges11@hotmail.com",
+      "phone": "552121398177",
+      "name": "Fernanda Borges dos Santos",
+      "id": "ebdc7019-c19e-45ad-bda3-10d71ffa4595"
+    },
+    "timeInCurrentStage": 61412919889
+  },
+  {
+    "importedAt": "2024-02-08T18:38:44.667Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "27/07/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "16700"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "de mercado + academia"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "ufrj"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Consultor Sênior"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "sem filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d795b8ce-0d0b-46f9-a7b2-e5f0b96e27c0",
+    "id": "1199197f-ad3f-49fb-b59d-e8993669d8bf*d795b8ce-0d0b-46f9-a7b2-e5f0b96e27c0",
+    "talent": {
+      "updatedAt": "2023-12-20T13:50:48.836Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:50:48.836Z",
+      "email": "importacao11060@importacaoinhire.com",
+      "phone": "21992703344",
+      "name": "Victor Catein Sobreira",
+      "id": "d795b8ce-0d0b-46f9-a7b2-e5f0b96e27c0"
+    },
+    "timeInCurrentStage": 61412019889
+  },
+  {
+    "importedAt": "2024-02-08T18:38:44.559Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "11/06/1986"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "10500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "12.0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Senior Talent Management"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Senior Talent Management\n Company name : Bridgestone Americas\n Period : abr. de 219 – o momento\n Location : São Paulo e Região, Brasil\n Job Title : Sr. Talent Management LATAM\n Company name : Otis Elevadores\n Period : jul. de 215 – fev. de 219\n Summary : Responsible for organizational structure supporting for Latin America acting as Internal Recruitment initiatives with focus on women in field, Referral Program, Career Path, Onboarding Gamefication Program, Recognition Programs, E-Learning Portal, Language Programs, Diversity&Inclusion, Stretch High Potentials Development, 36 Evaluations, Leadership Program, Engagement Survey initiatives, Trainings and Development Programs.\n Location : São Bernardo do Campo\n Job Title : Regional Human Resources Business Partner\n Company name : Neogrid\n Period : jan. de 211 – jul. de 215\n Summary : General activities in human resources; Responsible for 3 units São Paulo, Rio de Janeiro and Belo Horizonte; Onboarding internal teams and new employees; Conducting exit interviews (voluntary and involuntary); Talent Acquisition Internal and External processes, and promotion or termination; Employee relations and Retention plan E-learning Center, Trainings and Development Programs, Climate Surveys and Performance Assessment, Sharing Culturing Programs and supporting Internal Communications,\n Location : São Paulo e Região, Brasil\n Job Title : Human Resources Analyst\n Company name : NGA Human Resources\n Period : out. de 28 – jan. de 211\n Summary : Responsible for Talent Acquisition, Onboarding,Training and Development among others for large multinational corporations (Johnson & Johnson) through the SAP system.\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : USCS - Universidade Municipal de São Caetano do Sul\n Speciality : MBA em Recursos Humanos, Gestão de Recursos Humanos\n Period : 212 – 214\n School name : USCS - Universidade Municipal de São Caetano do Sul\n Speciality : Graduated, Human Resources Administration\n Period : 28 – 21\n School name : Midland College\n Speciality : Graduated, Communications, Texas\n Period : 25 – 28\n School name : Instituto Brasileiro de Coaching - IBC\n Speciality : Coaching\n Period : 218 – 219"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "408295c6-1a4e-45f5-b450-dd4fed53ca34",
+    "id": "1199197f-ad3f-49fb-b59d-e8993669d8bf*408295c6-1a4e-45f5-b450-dd4fed53ca34",
+    "talent": {
+      "updatedAt": "2023-12-20T14:11:35.617Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:11:35.617Z",
+      "email": "paulacruzgallego@hotmail.com",
+      "phone": "5511998551408",
+      "name": "Paula Gallego",
+      "id": "408295c6-1a4e-45f5-b450-dd4fed53ca34"
+    },
+    "timeInCurrentStage": 61412919889
+  },
+  {
+    "importedAt": "2024-02-08T18:38:44.588Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "03/11/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "19000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Psicologia",
+          "id": "0a31ad8a-c73e-4635-a450-2bd62ddcecf9",
+          "label": "Psicologia"
+        }
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Indiferente - SIM"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Não Diverso"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "People Development Specialist"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Especialista",
+          "id": "7a94b376-f7c3-4145-ab20-9daa242272a1",
+          "label": "Especialista"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 (2 anos)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : People Development Specialist\n Company name : TIM Brasil\n Period : set. de 22 – o momento\n Location : Brasil\n Job Title : Analista Senior de Recursos Humanos\n Company name : INVEPAR\n Period : set. de 218 – jul. de 22\n Location : Rio de Janeiro\n Job Title : Analista Senior de Recursos Humanos\n Company name : SulAmérica\n Period : mai. de 213 – ago. de 218\n Summary : Carreira e Sucessão; Escola de Liderança, Assessment; Consultoria Interna de T&D\n Location : Rio de Janeiro\n Job Title : Analista de Recursos Humanos\n Company name : Oi/Telemar\n Period : out. de 21 – mai. de 213\n Summary : De outubro 211 a maio 213 -Gerência de Carreira e Sucessão (Diretoria de Desenvolvimento)- Treinamento e Desenvolvimento gerencial - Gestão de Treinamentos da Academia de Liderança: Conteúdo, gestão de turmas, relatórios de adesão e avaliação de reação, comunicação e divulgação. Anterior: de outubro 21 a outubro 211: Gerência Operações de RH (Dir Serviços de Gente) - Recrutamento e Seleção;\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Estagiário de Recursos Humanos\n Company name : Oi/Telemar\n Period : nov. de 28 – out. de 21\n Job Title : Estagiário de Recursos Humanos (Treinamento e Desenvolvimento)\n Company name : Universidade Federal Fluminense\n Period : dez. de 28 – dez. de 21\n Location : Rio de Janeiro Area, Brazil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Sociedade Brasileira de Coaching\n Speciality : Personal & Professional Coaching\n Period : 216 – 216\n School name : Universidade Federal do Rio de Janeiro\n Speciality : Especialização em Gestão do Conhecimento e Inteligência Empresarial, Psicologia\n Period : 213 – 214\n School name : Universidade Federal Fluminense\n Speciality : Psicologo, Psicologia Organizacional e do Trabalho\n Period : 26 – 21"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "4b8dfde9-03d7-42ca-8168-ba4af7fcd04e",
+    "id": "1199197f-ad3f-49fb-b59d-e8993669d8bf*4b8dfde9-03d7-42ca-8168-ba4af7fcd04e",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:57.161Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:57.161Z",
+      "email": "ldomingues@timbrasil.com.br",
+      "phone": "552140093104",
+      "name": "Jessica Rodrigues",
+      "id": "4b8dfde9-03d7-42ca-8168-ba4af7fcd04e"
+    },
+    "timeInCurrentStage": 61412919889
+  }
+]

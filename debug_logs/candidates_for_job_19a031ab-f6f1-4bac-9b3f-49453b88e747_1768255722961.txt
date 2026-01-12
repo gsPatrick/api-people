@@ -1,0 +1,648 @@
+[
+  {
+    "importedAt": "2024-02-08T18:38:28.405Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "23/04/1978"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "20000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "todos de todos mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Jornalismo",
+          "id": "d9e2b354-001c-4e70-822e-219f7ab9a9f4",
+          "label": "Jornalismo"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Gama Filho"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de comunicação"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 filha - 22 anos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de comunicação\n Company name : VLT Carioca\n Period : jan. de 217 – o momento\n Job Title : Media Relations Specialist\n Company name : Rio 216 - Comitê Organizador dos Jogos Olímpicos e Paralímpicos\n Period : mai. de 212 – set. de 216\n Job Title : Gestor de contas\n Company name : Máquina Public Relations\n Period : abr. de 211 – abr. de 212\n Location : Rio de Janeiro Area, Brazil\n Job Title : Assessora de Comunicação\n Company name : Textual Comunicação\n Period : dez. de 25 – abr. de 211\n Job Title : Assessor de comunicação - Textual Serviços de Comunicação\n Company name : The Coca-Cola Company\n Period : abr. de 29 – mar. de 211\n Job Title : Relações com a mídia - Textual Serviços de Comunicação\n Company name : Rio 27 - Comitê Organizador dos Jogos Panamericanos do Rio de Janeiro (CO-Rio)\n Period : dez. de 25 – nov. de 27"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Pontifícia Universidade Católica do Rio de Janeiro\n Speciality : Master of Business Administration - MBA, Marketing\n Period : 219 – 22\n School name : Universidade Candido Mendes\n Speciality : Pós Graduação, Comunicação Empresarial\n Period : 28 – 29\n School name : Universidade Gama Filho\n Speciality : Bachelor's degree, Communication - Journalism\n Period : 1996 – 2"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d41a45e7-ed0a-4e4e-b9c5-7d4a33fb3b37",
+    "id": "19a031ab-f6f1-4bac-9b3f-49453b88e747*d41a45e7-ed0a-4e4e-b9c5-7d4a33fb3b37",
+    "talent": {
+      "updatedAt": "2023-12-20T14:09:04.067Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:09:04.067Z",
+      "email": "adriana.vallim@gmail.com",
+      "phone": "21988564487",
+      "name": "Adriana Vallim Cecilio",
+      "id": "d41a45e7-ed0a-4e4e-b9c5-7d4a33fb3b37"
+    },
+    "timeInCurrentStage": 61412022795
+  },
+  {
+    "importedAt": "2024-02-08T18:38:28.281Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "18/04/1984"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "16500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "44960"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "todos de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Publicidade",
+          "id": "9b93bdb0-8d47-4819-873d-06af51a3d08f",
+          "label": "Publicidade"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "UFES"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Senior Communications Specialist"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 filho - 3 anos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "MG",
+          "id": "fd9a75a0-f705-48e8-9abe-cb8601c06067",
+          "label": "MG"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Senior Communications Specialist\n Company name : Gerdau\n Period : mar. de 22 – o momento\n Summary : Gestão dos processos de comunicação para o Estado de Minas Gerais;Gestão dos fornecedores de comunicação, como assessoria de imprensa e agências de publicidade, live marketing e mídias sociais;Desenvolvimento de projetos de comunicação que contribuam para o fortalecimento da reputação da Companhia.\n Location : Belo Horizonte, Minas Gerais\n Job Title : Coordenador de Comunicação Corporativa\n Company name : Nissan Motor Corporation\n Period : mar. de 218 – mar. de 22\n Summary : Gestão de todos os processos de comunicação interna na fábrica de veículos e motores, em Resende/RJGestão de equipe Gestão dos fornecedores de comunicaçãoGestão dos canais de comunicação interna para 2.4 funcionáriosGestão de orçamento e metas anuaisCoordenação do Programa de Visitas para funcionários e familiaresCriação de projetos de experiência para promoção do engajamento do público internoCoordenação de eventos\n Location : Resende, Rio de Janeiro\n Job Title : Analista de Comunicação Sênior\n Company name : Fibria\n Period : set. de 21 – mar. de 22\n Summary : Experiência em desenvolver trabalhos de comunicação nas áreas operacionais da empresa. Residi por um período na Bahia para atender as demandas de comunicação específicas para a operação florestal, trabalhando também estrategicamente para fortalecimento da imagem da companhia principalmente nas comunidades tradicionais vizinhas às operações.Atualmente atuo dentro da unidade da operação industrial, situada no Espírito Santo. E desenvolvo planejamento e ações de comunicação para os estados o ES, BA, MG e RS.Experiência na laboração de projetos de comunicação com foco na consolidação da imagem e reputação da Companhia junto aos seus stakeholders. Gestão de empresas parceiras de comunicação, como: assessoria de imprensa, agência de publicidade, agência de mídias sociais, organização de eventos e produção de audiovisual. E vivência em gestão de crise de imagem e reputação.Na Fibria participei da criação e execução de três projetos de comunicação que tiveram os seus resultados reconhecidos e premiados em três ocasiões pela Associação Brasileira de Comunicação Empresarial, no Prêmio Aberje.\n Location : Aracruz\n Job Title : Analista de Comunicação\n Company name : Organização das Cooperativas Brasileiras do ES (OCB/ES)\n Period : mar. de 28 – set. de 21\n Summary : Responsável pela estruturação da área de comunicação. Realizei a gestão dos processos de comunicação interna e externa, coordenando as campanhas publicitárias, a assessoria de imprensa e o relacionamento com a mídia. Na oportunidade também desempenhei funções voltadas ao fortalecimento do relacionamento institucional da organização. Em 27, atuei diretamente do planejamento, criação e excução do Prêmio de Jornalismo Cooperativista no Espírito Santo (em 217 o Prêmio está na 11ª edição).\n Location : Vitória e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : UVV - Centro Universitário Vila Velha\n Speciality : MBA Gestão Estratégica da Comunicação, Comunicação\n Period : 28 – 21\n School name : UFES\n Speciality : Bacharel Comunicação Social, Publicidade e Propaganda\n Period : 24 – 28"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "4eddd98e-6edc-42e4-bf2d-27a5541a9d12",
+    "id": "19a031ab-f6f1-4bac-9b3f-49453b88e747*4eddd98e-6edc-42e4-bf2d-27a5541a9d12",
+    "talent": {
+      "updatedAt": "2023-12-20T13:54:17.531Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:54:17.531Z",
+      "email": "importacao9110@importacaoinhire.com",
+      "phone": "31983440607",
+      "name": "Rafael Simas",
+      "id": "4eddd98e-6edc-42e4-bf2d-27a5541a9d12"
+    },
+    "timeInCurrentStage": 61412022795
+  },
+  {
+    "importedAt": "2024-02-08T18:38:28.344Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "23/05/1985"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "11000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Todos de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Comunicação Social",
+          "id": "e5b3cfa3-f5c5-42cb-aefc-1b0f757be277",
+          "label": "Comunicação Social"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "PUCRJ"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": "Ibmec\n DiplomaPós-GraduaçãoÁrea de estudoGestão de Negócios"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Marketing Communications Consultant"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "14 filho - 2 anos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Marketing Communications Consultant\n Company name : Autônomo\n Period : January 219 – Present\n Location : Curitiba e Região, Brasil\n Job Title : Head of Communications\n Company name : ENEVA\n Period : March 215 – May 216\n Location : Rio de Janeiro Area, Brazil\n Job Title : Senior Communications Analyst\n Company name : ENEVA\n Period : August 211 – February 215\n Summary : - Corporate Communications include activities such as: brand management, organizing fairs and events, supervising the production of audiovisual materials (videos, 3Ds, time lapse for monitoring construction works), advertising planning, sponsorship management, planning and developing content for corporate website and social networks.\n - Internal Communications: planning and implementing engagement, informative and motivational campaigns (in Portuguese, English and Spanish), developing content for and monitoring internal communication channels (intranet, newsletters, bulletins).\n - Media Relations: developing press releases, positionings, notes, Q&As, key messages, press kits, defining press strategies and plans, clipping monitoring, strategic reports on the industry and energy auctions, and crisis communications.\n - Participated in the project of renaming and rebranding MPX to ENEVA, which included the definition and implementation of strategic and tactical plan for the new brand; developing an advertising campaign; office signaling; rebranding of communication channels; developing brand and institutional guidelines; and internal campaign (213).\n - Participated in the establishment of the joint venture between MPX and E.ON (212).\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Marketing Planner\n Company name : Fullpack Comunicação\n Period : July 28 – July 211\n Summary : - Development of strategic plans in marketing and communication for companies like Guanabara and Hortifruti supermarkets, Niely, Casa&Video and Dadalto Group retail stores, Beluga restaurant, RIOinclui NGO, among others. Activities in media relations, monitoring and developing digital media, developing action plans, planning advertising and internal and external communication campaigns. \n - Organizing and monitoring quantitative and qualitative market research (participation in group discussions; critical analysis for generating strategic reports). \n - Participated in the planning, creation and naming of group buying website \"Ligadoz\". \n - Interface with video, audio, cast and events producers.\n Location : Rio de Janeiro Area, Brazil\n Job Title : Public Affairs Analyst\n Company name : ThyssenKrupp\n Period : December 27 – June 28\n Summary : - Organizing internal and external events; assistance in the production of advertising and institutional material and in the relationship with the press. \n - Participated in the production of President Lula's visit to the company's construction site, which included: organizing the event, controlling RSVP, monitoring media coverage, contact with the press and security team of the Presidency, among other activities.\n Location : Rio de Janeiro Area, Brazil\n Job Title : Marketing Communications Analyst and Intern\n Company name : Michelin\n Period : July 26 – September 27\n Summary : Assistance to the CRM, e-business and Brand areas through the following activities: interface with Communications and Brand teams in Michelin South America offices for communications guidelines and campaigns; interface with advertising and direct marketing agencies; maintaining Michelin and BFGoodrich websites; budget control. Participated in the planning and execution of communication campaigns for Michelin South America, with approval from the head office in France. Monitoring the production of TV commercials, ads and creating promotional pieces.\n Location : Rio de Janeiro Area, Brazil\n Company 2: Autônomo"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Ibmec\n Speciality : Pós-Graduação, Gestão de Negócios\n Period : 29 – 21\n School name : Pontifícia Universidade Católica do Rio de Janeiro\n Speciality : Bacharel, Comunicação Social\n Period : 23 – 27"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "4efc9944-c1a2-432b-b8ce-5f1f9bdcc324",
+    "id": "19a031ab-f6f1-4bac-9b3f-49453b88e747*4efc9944-c1a2-432b-b8ce-5f1f9bdcc324",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:40.442Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:40.442Z",
+      "email": "importacao7717@importacaoinhire.com",
+      "phone": "552181320459",
+      "name": "Marina Duarte",
+      "id": "4efc9944-c1a2-432b-b8ce-5f1f9bdcc324"
+    },
+    "timeInCurrentStage": 61412022795
+  },
+  {
+    "importedAt": "2024-02-08T18:38:28.313Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "18/03/1986"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "17000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "todos de mercado + carro"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Jornalismo",
+          "id": "d9e2b354-001c-4e70-822e-219f7ab9a9f4",
+          "label": "Jornalismo"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Corporate Communications Manager"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 filha - 7 anos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Corporate Communications Manager\n Company name : GSK\n Period : ago. de 219 – o momento\n Job Title : Specialist Communication for Latin America\n Company name : GSK\n Period : dez. de 217 – ago. de 219\n Summary : Responsável por coordenar as atividades de Comunicação Externa e Interna da GSK Consumer Healthcare nos principais países de atuação da empresa na América Latina: Brasil, México, Colômbia e Argentina. Principais Atividades:•Planejamento estratégico de Comunicação Integrada (Externa, Interna e Eventos). •Comunicação Externa: - Desenvolvimento e execução de campanhas de Comunicação Externa para os principais produtos da companhia – Sensodyne, ENO, Sonrisal, Corega, Cataflam, dentre outros. - Comunicação Institucional da GSK com seus diversos stakeholders, com o objetivo de alavancar a reputação da marca. - Assessoria de Imprensa.- Comunicação Digital: criação, planejamento e execução de projetos e campanhas em diferentes canais digitais: Facebook, Instagram, Twitter, Youtube, LinkedIn.- Marketing de Influência: relacionamento com influenciadores digitais para divulgação de produtos, projetos e campanhas. •Comunicação Interna: - Gestão dos canais de Comunicação Interna da GSK Consumer Healthcare – produção e edição de conteúdos periódicos para o Workplace (rede social corporativa), Intranet, Newsletter e E-mails Marketing. - Criação, planejamento e execução de campanhas de Comunicação Interna e de engajamento de funcionários.- Coordenação de programa interno de CEO Positioning - comunicação estratégica do CEO com os funcionários. - Change Management. - Employee Advocacy. •Eventos: - Planejamento estratégio do evento anual de liderança da companhia na América Latina. Desde a concepção do conceito até o planejamento e execução do evento.\n Job Title : Consultora de Comunicação e Marketing\n Company name : Concessionária Rio Barra S/A\n Period : mar. de 217 – ago. de 219\n Summary : Consultoria na definição da Estratégia integrada de Comunicação e Marketing da Companhia, exercendo atividades de Assessoria de Imprensa, gerenciamento de crise de imagem, Marketing e Eventos.\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Gerente de Comunicação e Marketing\n Company name : Odebrecht\n Period : jul. de 212 – mar. de 217\n Summary : Responsável pela área de Comunicação e Marketing da Linha 4 do Metrô do Rio de Janeiro. Linhas de atuação: Comunicação Externa, Marketing, Mídias Digitais, Comunicação Interna, Audiovisual, Eventos e Estudos e Pesquisa.•Comunicação Externa: - Assessoria de imprensa: Relacionamento com imprensa nacional e regional, gestão de crise, media trainings, estratégia anual de imprensa -agenda positiva-, aplicação de ferramenta de mensuração de resultados, interface com assessorias de imprensa de governos e órgãos públicos, press-trips, coletivas de imprensa, dentre outros. - Marketing Digital: Desenvolvimento, gestão de conteúdo e análise de performance dos canais digitais (Blog, Twitter, Facebook, Youtube, Instagram e Flickr). - Implantação e gestão de call center (8), centrais de atendimento físicas e de um espaço interativo para visitação pública. - Relacionamento com Comunidade.- Desenvolvimento de projetos por meio de Lei de Incentivo à Cultura (ISS). - Implantação de Programa de Visita Guiada à obra.- Criação de materiais institucionais (folders, jornais e informes). - Coordenação de programas sociais. •Comunicação Interna: Gestão de campanhas internas destinadas aos 1 mil funcionários. Produção de jornal interno, newsletters e comunicados online e offline. Criação de projeto de incentivo à leitura aos colaboradores. Implantação da campanha de Compliance da Linha 4, com o desenvolvimento de canal para divulgação de práticas e código de conduta. •Audiovisual: Concepção do manual de identidade da marca. Produção de vídeos institucionais e banco de imagem do empreendimento. Desenvolvimento das sinalizações dos canteiros de obra e escritórios. •Eventos: Coordenação de visitas de órgãos públicos ao empreendimento. Organização de eventos-marco. Estratégia de participação da Linha 4 em congressos (estandes e palestras). •Estudos e Pesquisa: Coordenação de pesquisas de campo para aferir a aceitação do público em relação ao empreendimento.\n Location : Rio de Janeiro Area, Brazil\n Job Title : Coordenadora de Comunicação\n Company name : CDN Comunicação\n Period : mar. de 26 – jul. de 212\n Summary : Responsável pela gestão de atendimento a clientes públicos e privados como Coca-Cola Brasil, L'Oréal, Petrobras, Mills Engenharia, McDonald´s, WWF-Brasil, Braskem e Editora Campus Elsevier. Iniciou sua atuação profissional na CDN como estagiária, passando pelo cargo de analista até chegar à coordenação. Principais Atividades:•Planejamento estratégico de Comunicação e Marketing.•Assessoria de Imprensa. •Organização de eventos de lançamento de produtos, campanhas e conceitos.•Gerenciamento de programas de relacionamento com diferentes áreas: sustentabilidade, responsabilidade social, medicina, academia e governo. •Coordenação de encontros institucionais dos clientes com entidades e associações. •Desenvolvimento de ações de Marketing Corporativo e de Produto (B2B e B2C).•Gestão de conteúdo para mídias digitais. •Gerenciamento de programas de Comunicação Interna. •Criação e execução do Prêmio Pemberton, projeto de Relações Públicas da Coca-Cola Brasil realizado com médicos de diferentes especialidades para desmitificar o refrigerante.\n Location : Rio de Janeiro Area, Brazil\n Job Title : Estagiária de Marketing\n Company name : Editora Record\n Period : ago. de 24 – dez. de 24\n Summary : Principais Atividades:•Organização de eventos de lançamento de livros. •Acompanhamento das ações de Marketing (marketing direto, e-mail marketing e marketing de relacionamento).•Definição de banco de dados com perfis de convidados e autores. •Contato periódico com autores.•Atualização do site."
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Pontifícia Universidade Católica do Rio de Janeiro\n Speciality : Graduação, Comunicação e Jornalismo\n Period : 24 – 27\n School name : Ibmec\n Speciality : Master of Business Administration - MBA, Marketing\n Period : 29 – 21\n School name : Embassy English College New York\n Speciality : English for Business, Idiomas e Literaturas Estrangeiras\n Period : 28 – 28\n School name : H+ Conteúdo e Relações com a Mídia\n Speciality : Especialização, Mídias Sociais\n Period : 217 – 217\n School name : IAB Brasil\n Speciality : Extensão, Marketing de Influência\n Period : 219 – 219\n School name : Flávia Gamonar Course\n Speciality : Extensão, Business Influencer on LinkedIn\n Period : 219 – 219"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d5bff08f-e6f5-4163-8e1c-d3ab53902b67",
+    "id": "19a031ab-f6f1-4bac-9b3f-49453b88e747*d5bff08f-e6f5-4163-8e1c-d3ab53902b67",
+    "talent": {
+      "updatedAt": "2023-12-20T14:02:21.936Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:02:21.936Z",
+      "email": "importacao7105@importacaoinhire.com",
+      "phone": "",
+      "name": "Marcela Villas Bôas",
+      "id": "d5bff08f-e6f5-4163-8e1c-d3ab53902b67"
+    },
+    "timeInCurrentStage": 61412022795
+  },
+  {
+    "importedAt": "2024-02-08T18:38:28.374Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "06/09/1976"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "17000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "6.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "de praxe"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Jornalismo",
+          "id": "d9e2b354-001c-4e70-822e-219f7ab9a9f4",
+          "label": "Jornalismo"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "UFRJ"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretora Executiva Rio de Janeiro"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 filho - 4 anos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Diretora Executiva Rio de Janeiro\n Company name : LLYC\n Period : set. de 219 – ago. de 22\n Summary : Consultoria de Comunicação do Ano na América Latina (Latin American Excellence Awards e International Business Awards 218). No Top 15 das empresas de comunicação mais influentes do mundo (Ranking Richtopia). Entre as 5 empresas de comunicação mais importantes do mundo (PRWeek e The Holmes Report 219)\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Gerente de Comunicação Externa e Interna\n Company name : Parque Tecnológico da UFRJ\n Period : 214 – ago. de 219\n Summary : Responsável pela comunicação interna e externa do Parque Tecnológico da Universidade Federal do Rio de Janeiro e da Incubadora de Empresas da Coppe. O Parque reúne, atualmente, 12 centros de Pesquisa e Desenvolvimento de empresas nacionais e multinacionais de grande porte, como GE, Siemens, Petrobras, Baker Hughes, entre outras.Coordena a equipe de comunicação e imprensa na realização das seguintes atividades: desenvolvimento de ferramentas de comunicação interna, relacionamento com a mídia nacional e internacional, além do desenvolvimento de estratégias e execução de atividades para as mídias sociais.\n Location : Rio de Janeiro Area, Brazil\n Job Title : Sócia-diretora\n Company name : Máquina Cohn & Wolfe\n Period : out. de 21 – 213\n Summary : •Liderar grupo de profissionais na construção de estratégias de comunicação corporativa no atendimento de clientes do Grupo Máquina PR (empresas nacionais e multinacionais como Petrobras, Xerox, BRMalls, C&A, por exemplo) •Coordenação de equipe formada por 25 profissionais para envolvimento em projetos e trabalhos regulares de Relacionamento com a mídia/assessoria de imprensa; Gerenciamento de Crise, Relações Públicas, Comunicação Dirigida, Comunicação Interna, Comunicação Financeira, branding e gerenciamento do espaço Web;•Gestão administrativa e de pessoal – cumprimento de metas e rentabilidade;•Elaboração, coordenação e realização de eventos nacionais e internacionais;•Prospecção de novas contas para a carteira de clientes do Grupo Máquina PR;•Planejamento e desenvolvimento de estratégias proativas e reativas de comunicação corporativa para gestão de imagem;•Treinamento de executivos para atuação junto à mídia e demais públicos envolvidos para situações de crise ou de divulgações proativas;•Atendimento à demanda de jornalistas e relacionamento ativo junto à imprensa e demais stakeholders envolvidos;\n Job Title : Repórter\n Company name : Site No.Mínimo\n Period : jan. de 21 – out. de 21\n Job Title : Reporter\n Company name : Jornal do Brasil\n Period : jan. de 1994 – jan. de 21"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Federal do Rio de Janeiro\n Speciality : Bacharel, Jornalism\n Period : 1991 – 1994\n School name : UFRJ / Coppe\n Speciality : MBA em Gestão Estratégica no Ambiente Digital: Web Intelligence & Digital Ambience\n Period : 215 – 216\n School name : Coppead UFRJ\n Speciality : Master of Business Administration (MBA), Gestao Executiva\n Period : 27 – 28\n School name : COPPEAD UFRJ e GLobal Reporting Initiative\n Speciality : Certificação em GRI Standards, Capacitação para elaboração de relatório de sustentabilidade com diretrizes GRI\n Period : 218 – 218"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "b47215aa-1619-4e3c-be74-9f3712696e5d",
+    "id": "19a031ab-f6f1-4bac-9b3f-49453b88e747*b47215aa-1619-4e3c-be74-9f3712696e5d",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:57.743Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:57.743Z",
+      "email": "importacao2608@importacaoinhire.com",
+      "phone": "21986040000",
+      "name": "Daniele Lua",
+      "id": "b47215aa-1619-4e3c-be74-9f3712696e5d"
+    },
+    "timeInCurrentStage": 61412022795
+  }
+]

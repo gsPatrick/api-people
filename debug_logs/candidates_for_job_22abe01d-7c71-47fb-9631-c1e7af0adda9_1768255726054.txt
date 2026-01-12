@@ -1,0 +1,178 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:20.821Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "31/05/1981"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "9500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "PLR (1 Salário), Bônus (2 Salário), Plano de Saúde, Alimentação no Local e Leasing Carro."
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenadora de Estratégia e Estudos Energéticos"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "7a81dd82-b962-4aed-9b6b-293d0e222618",
+    "id": "22abe01d-7c71-47fb-9631-c1e7af0adda9*7a81dd82-b962-4aed-9b6b-293d0e222618",
+    "talent": {
+      "updatedAt": "2023-12-20T14:07:58.825Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:07:58.825Z",
+      "email": "liviagazzi@hotmail.com",
+      "phone": "11971206727",
+      "name": "Livia Maria Pinheiro Gazzi",
+      "id": "7a81dd82-b962-4aed-9b6b-293d0e222618"
+    },
+    "timeInCurrentStage": 61412325956
+  },
+  {
+    "importedAt": "2024-02-08T18:39:20.852Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "M&A & Strategic Planning"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : M&A & Strategic Planning\n Company name : Raízen\n Period : set. de 219 – o momento\n Summary : I am currently part of the Strategic Planning and M&A team at Raízen. As a M&A coordinator, I coordinate the entire M&A process for certain key projects. My main responsibilities include: assessing strategic fit, building financial models, conducting due diligence, and supporting business negotiations.\n Location : São Paulo Area, Brazil\n \n Job Title : Vendas Gerente de Território Varejo\n Company name : Raízen\n Period : abr. de 218 – ago. de 219\n Summary : I managed a portfolio of 32 customers. Coordinating all the stakeholders of Shell and Raízen’s resellers, pricing, marketing, supplies, financial, strategic and training consultancy was part of my work routine. My main goal was to mediate the interests of the resellers and Raízen’s , while trying to maximize both the company's and the resellers’ profitability.In addition to the technical knowledge acquired in my previous function (pricing analyst), I leveraged my soft skills with different levels of the resellers’ structure - I had to deal with everyone from the attendants at the gas station all the way to the owners.\n Location : Campinas Area, Brazil\n \n Job Title : Trainee - Analista de preços\n Company name : Raízen\n Period : out. de 216 – mar. de 218\n Summary : I was the analyst responsible for managing pricing of all Shell gas stations from Rio Grande do Sul and Santa Catarina. In acordence to our pricing policy I had to maximize gains without distroing resselers value proposal.\n Location : São Paulo\n \n Job Title : Angel Investor\n Company name : Ingredientes Online\n Period : mar. de 221 – o momento\n Location : São Paulo, Brazil\n \n Job Title : Associate at Bozano investimentos\n Company name : Bozano Investimentos\n Period : jun. de 216 – set. de 216\n Location : São Paulo Area, Brazil\n \n \n Job Title : Estagiário-Capital Solutions\n Company name : Bozano Investimentos\n Period : set. de 215 – jun. de 216\n Company 2: Ingredientes Online"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : CPA-20 Anbima\n Issuing Authority : ANBIMA"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Insper\n Speciality : Bachelor of Business Administration (B.B.A.), Business Administration and Management, General\n Period : 212 – 216"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "582fd763-bf8e-42b8-881c-751717a9cb67",
+    "id": "22abe01d-7c71-47fb-9631-c1e7af0adda9*582fd763-bf8e-42b8-881c-751717a9cb67",
+    "talent": {
+      "company": "Raízen",
+      "createdAt": "2023-12-20T13:52:11.811Z",
+      "email": "fa_vandijk@hotmail.com",
+      "linkedinUsername": "fabio-el-aouar-van-dijk-935b8172",
+      "name": "Fabio el Aouar van Dijk",
+      "phone": "11971517050",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-10-29T14:44:19.767Z",
+      "id": "582fd763-bf8e-42b8-881c-751717a9cb67"
+    },
+    "timeInCurrentStage": 61412325956
+  }
+]

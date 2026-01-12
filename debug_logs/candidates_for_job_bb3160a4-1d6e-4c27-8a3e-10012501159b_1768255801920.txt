@@ -1,0 +1,2015 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:25.094Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "18/11/1985"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "7800"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "PS + PO + Cartão Farmácia + Cesta Básica + Plano de Aposentadoria + Empréstimo Consignado (possível Itaú) + Refeitório"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de Recursos Humanos"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "5 anos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "PB",
+          "id": "c07ff7d9-9719-4d58-987d-2a2f2845e6fb",
+          "label": "PB"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de Recursos Humanos\n Company name : Duratex\n Period : jul. de 211 – jul. de 221\n Summary : Atuação em unidade fabril com 6 colaboradores, gestão das equipes de Recursos Humanos e Medicina do Trabalho, atuação como Business Partner, atividades com indicadores gerenciais de RH, orçamento, controles e custos de RH, recrutamento e seleção, treinamento e desenvolvimento, clima organizacional, comunicação e eventos, avaliação de performance, plano de desenvolvimento individual, cargos e salários, admissão e demissão, jornada de Trabalho, cálculos de folha, férias, horas extras, rescisão e 13º Salário, administração de benefícios, negociação sindical, processos trabalhistas, controle de afastamentos e atestados médicos, ações de saúde e bem estar no ambiente de trabalho, ações conjuntas com a área de Segurança do Trabalho\n Job Title : Encarregado de Departamento Pessoal\n Company name : RM Soluções em Infraestrutura\n Period : abr. de 24 – jul. de 211\n Summary : Gestão do departamento pessoal de 2 unidades ( João Pessoa e Cabedelo ) com total de 74 colaboradores, suporte as às áreas de Desenvolvimento organizacional e Humano, Medicina e Segurança do Trabalho, atividades de cálculo e conferência de folha de pagamento, admissão e demissão, jornada de Trabalho, cálculos de férias, horas extras, rescisão e 13º Salário, administração de benefícios, preposto no sindicato, MTE, TRT e MPT, negociação sindical, processos trabalhistas, acompanhamento de atestados e afastamentos pelo INSS"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Formação Green BeltLean 6 Sigma\n Period : Emitido em fev. de 2019 - Nenhuma data de expiração\n Issuing Authority : Grupo Oporto Forte\n Title : Analista PI\n Period : Emitido em jun. de 2018 - Nenhuma data de expiração\n Issuing Authority : Praendex Brasil\n Title : OAB - Identidade de advogado\n Period : Emitido em ago. de 2017 - Nenhuma data de expiração\n Issuing Authority : OAB - Ordem dos Advogados do Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Centro Universitário de João Pessoa\n Speciality : Bacharelado em Direito\n Period : 213 – 217\n School name : Instituto de Educação Superior da Paraíba\n Speciality : Bacharelado em Ciências Contábeis\n Period : 27 – 211\n School name : Academia de Comércio Epitácio Pessoa\n Speciality : Curso Técnico em Contabilidade\n Period : 26 – 27\n School name : Fundação Bradesco\n Speciality : Curso Técnico em Gestão Empresarial\n Period : 24 – 24"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "df078dd1-277e-4993-a873-a7bd7db397da",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*df078dd1-277e-4993-a873-a7bd7db397da",
+    "talent": {
+      "updatedAt": "2023-12-20T13:55:54.944Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:55:54.944Z",
+      "linkedinUsername": "dhiegoserrao",
+      "email": "dhiegoserrao.advogado@gmail.com",
+      "phone": "83999504542",
+      "name": "Dhiego de Sá Serrão",
+      "id": "df078dd1-277e-4993-a873-a7bd7db397da"
+    },
+    "timeInCurrentStage": 61412401531
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.494Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "03/01/1989"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "10350"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45047"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Serviço Social",
+          "id": "7156139f-29dd-40e1-87f3-f2abeab2801a",
+          "label": "Serviço Social"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de Treinamento e Desenvolvimento"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RN",
+          "id": "a7288df4-0c3f-4308-a79b-42d136a25f07",
+          "label": "RN"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de Treinamento e Desenvolvimento\n Company name : Grupo Morada\n Period : abr. de 219 – o momento\n Job Title : Analista de Treinamento e Desenvolvimento Sr.\n Company name : Grupo Vila\n Period : jun. de 218 – mar. de 219\n Job Title : Analista de Treinamento e Desenvolvimento\n Company name : Grupo Vila\n Period : ago. de 216 – mai. de 218\n Job Title : Instrutor de Treinamento\n Company name : Grupo Vila\n Period : out. de 214 – jul. de 216"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul\n Speciality : Pós Graduação, Ciências Humanas\n Period : 22 – 221\n School name : Universidade Católica Dom Bosco\n Speciality : Master of Business Administration - MBA, Desenvolvimento de Pessoas\n Period : 218 – 219\n School name : Universidade Federal do Rio Grande do Norte\n Speciality : Bacharelado, Serviço Social\n Period : 27 – 211"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "5488d86f-4544-462c-be49-42685b9a0167",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*5488d86f-4544-462c-be49-42685b9a0167",
+    "talent": {
+      "updatedAt": "2023-12-20T13:54:38.547Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:54:38.547Z",
+      "linkedinUsername": "profissionalrodrigoaguiar",
+      "email": "rodrigoaguiarscj@hotmail.com",
+      "phone": "84999452091",
+      "name": "Rodrigo Aguiar",
+      "id": "5488d86f-4544-462c-be49-42685b9a0167"
+    },
+    "timeInCurrentStage": 61412101531
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.262Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Treinamento"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de Treinamento\n Company name : Elevadores Atlas Schindler\n Period : dez. de 22 – o momento\n Location : São Paulo, Brasil\n \n Job Title : Technical Training Manager | Agriculture Segment\n Company name : CNH Industrial\n Period : mai. de 218 – dez. de 22\n Summary : o Responsible for technical training for CASE and New Holland Agriculture brands for South Americao Currently managing a team of 15 employees, located in Curitiba (PR), Piracicaba(SP), Sorocaba(SP) and Cordoba (Argentina) CNH Sites o Main Activities:§ Guarantee innovation and advanced resources applied to training activities and process § Insure efficiency and quality of trainings for technicians of CNH dealers, in alignment with dealers and customer’s needs.§ Develop a capable and high-performance team§ Draw and guarantee the execution of action plans and strategic tasks § Develop KPI’s to follow up and support to achieve the results § Constantly seeking new technologies and market tendencies, to implement new alternatives of learning, more efficient\n Location : Curitiba e Região, Brasil\n \n Job Title : Technical Training Coordinator | Construction and Powertrain Segments\n Company name : CNH Industrial\n Period : jun. de 215 – mai. de 218\n Summary : Responsible for technical training for FPT, CASE and New Holland Construction Brand in Latin America Managed a team of 5 people located in Contagem, CNH site Main activities:§ - Guaranteeing efficiency and quality of trainings for technicians of CNH dealers, developing a capable and high-performance team of instructors § - Rethink the way of trainings are performed to offer a high technology and efficient solution for Dealers.§ - Define challenging targets for the year and control the department budget§ - Develop KPI’s for the training department, to measure the quality, efficiency and Dealers ‘training needs. § - Studying and Creating new alternatives do more with limited resources.\n Location : Belo Horizonte e Região, Brasil\n \n \n Job Title : Technical Training Instructor | Diesel Engines\n Company name : ISVOR Educação Corporativa\n Period : jun. de 214 – abr. de 215\n Summary : Performed engine trainings for technician for Dealers CASE and NEW HOLLAND Construction in Brazil Developed Technical trainings materials according to the andragogy Methodology for CASE and New Holland Dealers Trained in Andragogy Methodology by ISVOR Trained in Agriculture and Comercial Vehicles Engines by CNH Industrial\n Location : Betim e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Master of Business Administration - MBA, Desenvolvimento Humano de Gestores\n Period : 219 – 221\n School name : ISAE\n Speciality : PNL - Programação Neurolinguistica\n Period : 218 – 219\n \n School name : Pontifícia Universidade Católica de Minas Gerais\n Speciality : Engenharia Mecatrônica\n Period : 29 – 214"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "6bf2f3a3-f36e-4164-be7b-9485d4087b17",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*6bf2f3a3-f36e-4164-be7b-9485d4087b17",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:23.987Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:23.987Z",
+      "email": "luana_a_batista@hotmail.com",
+      "phone": "31987140416",
+      "name": "Luana Batista",
+      "id": "6bf2f3a3-f36e-4164-be7b-9485d4087b17"
+    },
+    "timeInCurrentStage": 61412401531
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.324Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "07/06/1989"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "8100"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "1.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Treinamento e Desenvolvimento - Learning & Development Analyst"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "PE",
+          "id": "672331ee-ff5a-4dba-b8f2-5d627bc9e98c",
+          "label": "PE"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Treinamento e Desenvolvimento - Learning & Development Analyst\n Company name : FedEx Express\n Period : set. de 218 – o momento\n Summary : - Levantamento das necessidades de treinamento dos projetos e das áreas;\n - Definição e criação de treinamentos para Gerentes, público operacional (armazém e administrativo) e Parceiros;\n - Ponto focal de treinamento (planejamento e gestão) para projetos corporativos; \n - Priorização dos treinamentos para atender à necessidade do negócio;\n - Definição de recursos necessários para cada projeto de treinamento;\n - Mapeamento das estações, cargos, funcionários que receberão o treinamento;\n - Desenho e acompanhamento do cronograma dos treinamentos; \n - Organização da logística de treinamento;\n - Acompanhamento e avaliação dos treinamentos realizados;\n - Conferência dos indicadores relacionados aos treinamentos\n - Apoio na identificação e escolha de Consultorias para os programas de T&D\n - Coordenação das ações de Consultorias para mapeamento, coleta e entrega de conteúdos\n Location : Recife e Região, Brasil\n Job Title : Consultora Empresarial Autônoma\n Company name : ACT & M Consultoria e Assessoria Empresarial\n Period : out. de 217 – out. de 219\n Summary : -Consultoria e assessoria empresarial voltada às boas práticas de mercado nas MPEs\n -Áreas de atuação: Gestão de Projetos (PMO), Planejamento Estratégico Empresarial, Planejamento de Marketing Gestão da Inovação\n Location : Brasília e Região, Brasil\n Job Title : Analista de operações de Trade Marketing\n Company name : Sama Produções e Eventos\n Period : nov. de 217 – mar. de 218\n Summary : - Processos admissionais e demissionais de temporários; \n - Gerenciamento de ações de empresas coligadas; \n - Gerenciamento e Supervisão de pessoal; \n - Mapeamento e melhoria de processos operacionais;\n Location : Brasília e Região, Brasil\n Job Title : Agente Local de Inovação - CNPq\n Company name : SEBRAE DF\n Period : set. de 215 – out. de 217\n Summary : - Programa voltado à implementação de melhores práticas de gestão e ao fomento da cultura da inovação em 5 empresas atendidas durante dois anos\n - Consultoria especializada nas áreas de gestão e inovação empresarial; aplicação de diagnósticos; consolidação e análise de dados; estudos sobre cenários: econômico, financeiro e social; elaboração de relatórios e análises mercadológicas; proposição de melhorias e disseminação de boas práticas de gestão e de governança corporativa\n - Principais áreas desenvolvidas: \n •Inovação (implementação da inovação de forma sistêmica e consistente);\n •Gestão (aplicação de ferramentas de desenvolvimento da empresa, dos líderes e dirigentes); \n •Marketing (utilização do Inbound Marketing, desenvolvimento de MKT digital, google analitcs e Facebook Ads);\n •Processos (mapeamento e modelagem dos principais processos das empresas);\n •Projetos (apoio na: definição de premissas, propósitos e escopo dos projetos, delimitação de prazos, estruturação analítica e monitoramento durante a execução das etapas);\n •Estratégia empresarial (estruturação da identidade empresarial e desenvolvimento de Planejamento estratégico);\n •Finanças (estruturação e desenvolvimento de boas práticas financeiras nas empresas: fluxo de caixa, determinação de preço, e mecanismos de controle); \n •Recurso Humanos (padronização no recrutamento e seleção, avaliação de desempenho, treinamento e desenvolvimento, estudo e melhoria de clima organizacional e desenvolvimento de ferramentas de comunicação\n Job Title : Assistente Administrativo\n Company name : Matriz Contabil\n Period : mar. de 215 – ago. de 215\n Summary : - Controle financeiro e elaboração de prestação de contas para projetos;\n - Consultorias financeiras especializadas em pequenas e médias empresas;\n - Planejamento financeiro mensal da empresa, administração do budget por setor e elaboração de relatórios gerenciais;\n - Gestão do setor financeiro e contato direto com clientes e fornecedores;\n - Administração do sistema ERP e fluxo bancário da empresa: contas a pagar, contas a receber, faturamento, emissão de NFs e boletos, controle do caixa de despesas internas, acompanhamento diário do fluxo de caixa, conciliação bancária e controle de indicadores de inadimplência;\n Location : Recife\n Job Title : Assessora de Regulação\n Company name : Grupo Ser Educacional\n Period : jan. de 214 – set. de 214\n Summary : - Elaboração e organização documental da Instituição de Ensino Superior para avaliações de credenciamento, recredenciamento e reconhecimento de cursos e unidades perante o Ministério da Educação;\n - Solicitações junto ao INEP e MEC para abertura de novas Unidades de Ensino;\n - Procedimento de cadastro de novos cursos nas unidades do Grupo\n Location : Recife e Região, Brasil\n Job Title : TPM Intern\n Company name : Unilever\n Period : jan. de 213 – dez. de 213\n Summary : - Padronização e mensuração de processos produtivos;\n - Implementação do programa de 5S na planta; \n - Suporte à metodologia lean manufacturing e aos pilares TPM (Total Productive Manufacturing);\n - Elaboração de relatórios gerenciais e indicadores (KPI’s) de desempenho e produtividade das linhas de embalagem;\n - Controle dos indicadores de perda e retrabalho resultantes de quebra ou parada das máquinas;\n - Administração dos índices de produtividade e equiparação entre a produção programada e realizada\n Location : Igarassu\n Job Title : Public Affairs Intern\n Company name : U.S. Department of State\n Period : jun. de 212 – dez. de 212\n Summary : - Elaboração e coordenação de eventos e congressos oficiais do consulado, contatando fornecedores e toda logística relacionada\n - Procedimentos e burocracia para destinação de material para doação em ONGs e eventos científicos (feira, congressos)\n - Responsabilidade por todo o fluxo de compra de materiais (livros, peças de divulgação e de marketing)\n Location : Recife e Região, Brasil\n Job Title : General Service Intern\n Company name : U.S. Department of State\n Period : jul. de 211 – jul. de 212\n Summary : - Execução de todo o fluxo do processo de compras: cotação de preços e produtos, emissão de pedido de compra em sistema, realização da compra, controle do prazo e condição de pagamento, acompanhamento do fluxo logístico e data de entrega\n - Cadastro e gerenciamento de fornecedores nacionais e internacionais; \n - Controle de Estoque e inventário dos produtos;\n Location : Recife e Região, Brasil\n Job Title : Estagiária de Informações Turísticas\n Company name : Secretaria de Turismo de Jaboatão dos Guararapes\n Period : jan. de 21 – out. de 21\n Summary : Atendimento aos turistas nacionais e internacionais, promovendo o destino turístico de Jaboatão dos Guararapes\n Location : Recife e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Descomplica\n Speciality : MBA em Gestão de Processos\n Period : 22 – 221\n School name : Descomplica\n Speciality : MBA em Design Thinking e Gestão de Negócios, Administração e Negócios\n Period : 22 – 221\n School name : Universidade Federal Rural de Pernambuco\n Speciality : Bacharelado em Administração, Administração de Empresas\n Period : 21 – 215\n School name : Instituto federal de Educação, Ciência e Tecnologia de Pernambuco\n Speciality : Gestão em Turismo, Gestão de Turismo\n Period : 29\n Courses: Title : CANVAS; Title : Curso de Design Thinking; Title : Formação de Consultores; Title : Gestão de Pontos Fortes; \n Title : Gestão de Projetos"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "8ad41d64-b5a7-4783-a2d5-ff95df5b5855",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*8ad41d64-b5a7-4783-a2d5-ff95df5b5855",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:30.071Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:30.071Z",
+      "linkedinUsername": "mayracchagas",
+      "email": "maymcg@gmail.com",
+      "phone": "81997535404",
+      "name": "Mayra Chagas",
+      "id": "8ad41d64-b5a7-4783-a2d5-ff95df5b5855"
+    },
+    "timeInCurrentStage": 61412401531
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.177Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de RH"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de RH\n Company name : Grupo Petrópolis\n Period : dez. de 22 – o momento\n Location : Itapissuma, Pernambuco, Brasil\n \n Job Title : Gerente de RH\n Company name : Hebron S.A\n Period : jan. de 22 – dez. de 22\n Location : Recife e Região, Brasil\n \n Job Title : Gerente Regional de RH\n Company name : Rede Globo\n Period : jan. de 213 – nov. de 219\n \n Job Title : Gerente de RH\n Company name : Hospital de Olhos de Pernambuco\n Period : dez. de 28 – dez. de 212\n Summary : Responsável por todos os subsistemas de RH além de medicina e segurança do trabalho, DP e Nutrição\n \n Job Title : Coord. de Gente e Gestão\n Company name : Gafisa\n Period : abr. de 28 – nov. de 28\n Summary : Responsável por todos os subsistemas de RH no nordeste\n \n \n Job Title : Anal. RH Pleno\n Company name : Giraffas\n Period : set. de 26 – mar. de 28\n Summary : Responsável pelo RH NE"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Master of Business Administration (MBA), Gestão Empresarial\n Period : 214 – 216\n School name : Radar Executivo Business School\n Speciality : PDE, Desenvovimento de Competências\n Period : 211 – 212\n School name : Fundação Getulio Vargas\n Speciality : MBA Gestão de Pessoas, RH\n Period : 27 – 29\n School name : Universidade Católica de Pernambuco\n Speciality : Psicologia, Psicologia Organizacional\n Period : 1998 – 23\n School name : Amana-Key\n Speciality : APG- Programa de Gestão Avançada, Gestão de Pessoas\n Period : 214\n \n School name : Sociedade Brasileira de Coaching - Cozex\n Speciality : Coaching Personal e Professional\n Period : 21"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "c1c5e7a3-a5fe-4005-9894-1456aabed929",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*c1c5e7a3-a5fe-4005-9894-1456aabed929",
+    "talent": {
+      "updatedAt": "2024-02-08T18:39:25.265Z",
+      "status": "UNKNOWN",
+      "createdAt": "2024-02-08T18:39:25.265Z",
+      "email": "brancam.olsen@gmail.com",
+      "phone": "+5581999519747",
+      "name": "Branca Olsen",
+      "id": "c1c5e7a3-a5fe-4005-9894-1456aabed929"
+    },
+    "timeInCurrentStage": 61413001531
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.234Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "14/12/1980"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "8200"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "1.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Treinamento e Desenvolvimento"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "CE",
+          "id": "b3b3bbb8-db20-4876-b309-fc589a4d7872",
+          "label": "CE"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Treinamento e Desenvolvimento\n Company name : Grupo Normatel\n Period : mar. de 221 – o momento\n Summary : • Atuação especialista em Treinamento e Desenvolvimento (T&D);\n • Apoio na implantação da área de T&D;\n • Aplicação de treinamentos técnicos e comportamentais;\n • Empresa do segmento de construção, com atuação em varejo, engenharia e incorporações\n Location : Fortaleza, Ceará, Brasil\n \n Job Title : Analista de Recrutamento e Seleção\n Company name : Hapvida\n Period : abr. de 22 – mar. de 221\n Summary : • Atuação especialista em Recrutamento e Seleção (R&S);\n • Processos em volume de cargos na área da saúde (CE), banco de talentos e seleção por competência;\n • Uso de instrumentos on-line para validação dos perfis;\n • Prática com o sistema TOTVS RM Labore, para as devidas movimentações de pessoal e controle administrativo; dentre outros\n • Cliente: Enfermagem\n Location : Fortaleza, Ceará, Brasil\n \n Job Title : Consultor de RH\n Company name : SALES RH\n Period : set. de 218 – fev. de 22\n Summary : • Atuação generalista em RH;\n • Estruturação de processos, políticas e estratégias organizacionais; desde o mapeamento dos perfis, ao desenvolvimento de líderes;\n • Recrutamento e Seleção (R&S), desenho de cargos e seleções com o uso de instrumentos;\n • Treinamento e Desenvolvimento (T&D), criações de conteúdos, aplicação dos treinamentos e apresentação dos resultados e indicadores;\n • Consultoria em geral do setor de RH;\n • Business Partner;\n • Clientes: comercial; telecomunicação (serviços)\n Location : Fortaleza e Região, Brasil\n \n Job Title : Instrutor de Treinamento\n Company name : Vivo (Telefônica Brasil)\n Period : ago. de 216 – jun. de 218\n Summary : • Atuação especialista em Treinamento e Desenvolvimento (T&D), empresa Multinacional (Telefônica), com presença em todo território brasileiro\n • Treinamentos diversos (comportamentais e técnicos) \n • Criações de materiais e métodos de aprendizagem \n • Salas presenciais, On The Job e EAD (Brasil)\n • Cliente: varejo\n Location : Fortaleza e Região, Brasil\n \n Job Title : Analista de Qualidade e Processos (T&D)\n Company name : GVT\n Period : abr. de 215 – jul. de 216\n Summary : • Atuação especialista em Treinamento e Desenvolvimento (T&D);\n • LNT, logística, aplicação e feedback dos treinamentos (comportamentais e técnicos); \n • Apoio nas elaborações das estratégias de treinamento e seleção dos profissionais de vendas junto aos canais autorizados e gestores de contas; \n • Foco na qualidade e orientações de vendas dos produtos/serviços aos clientes internos;\n • Apoio geral nos diversos trabalhos desenvolvidos na área comercial do CE/RN (eventos, reuniões etc);\n • Criações de materiais, PPT, script, dinâmicas de grupos, avaliações etc\n • Cliente: varejo\n Location : Fortaleza e Região, Brasil\n \n Job Title : Instrutor de Treinamento\n Company name : Ricardo Eletro (Máquina de Vendas)\n Period : nov. de 214 – mar. de 215\n Summary : • Aplicação de treinamentos (técnicos e comportamentais) em vendas\n • Cliente: varejo\n Location : Fortaleza, Ceará, Brasil\n \n Job Title : Analista de RH\n Company name : Agente Autorizado NET - HS Brasil\n Period : abr. de 214 – out. de 214\n Summary : ° R&S e Atuação Generalista em RH\n • Implantação de RH;\n • Criações de instrumentos; pesquisa de clima e mensuração dos resultados; PDL;\n • Avaliação de experiência e entrevista de desligamento;\n • Seleção por competências, análise grafológica, dinâmicas de grupo, laudo dos perfis e apresentação dos resultados da área (indicadores/KPI's) \n ° T&D e Ações de Endomarketing\n • Formação e aperfeiçoamentos dos vendedores;\n • Monitoria de qualidade e feedback;\n • Programa de reconhecimento (capital humano);\n • Clientes: comercial; telecomunicação\n Location : Fortaleza\n \n Job Title : Analista de RH\n Company name : Agente Autorizado GVT - Rota Líder\n Period : mai. de 213 – abr. de 214\n Summary : ° R&S\n • Recrutamento e seleção operacional (vendas) e táticos (administrativos, supervisores, gerentes etc);\n • Avaliações de perfis, seleção por competências, análise grafológica e pareceres;\n • Seleção em volume das equipes de vendas;\n • Entrevista de desligamento \n ° T&D \n • Treinamentos de formação e aperfeiçoamentos em vendas (produtos, serviços, técnicas e outros);\n • Criações de materiais diversos com o foco no desenvolvimento em sala \n ° Endomarketing\n • Projetos de destaques em vendas;\n • Aniversariantes \n ° Departamento Pessoal \n Apoio ao setor, admissão, demissão, cálculos rescisórios, 13º etc;\n • Cliente: comercial\n Location : Fortaleza e Região, Brasil\n \n Job Title : Instrutor de Treinamento\n Company name : Agente Autorizado GVT - Economax\n Period : abr. de 212 – abr. de 213\n Summary : ° T&D\n • Formação de Consultores de vendas; \n • Elaboração e aplicação de treinamentos (Integração, Motivacionais, Concorrentes, Técnicas de Vendas, Postura); \n • Capacitações periódicas; Monitoria de qualidade e feedback; \n • Criações de materiais, PPT, avaliações etc \n ° R&S:\n • Desenho de cargos; seleção interna e externa de cargos estratégicos e operacionais\n • Entrevista por competências; dinâmica de grupo; teste e laudo grafológico/comportamental;\n • Avaliação do período de experiência \n ° Endomarketing:\n • Eventos; datas comemorativas; aniversariantes; comunicação interna etc;\n Cliente: comercial\n Location : Fortaleza e Região, Brasil\n \n \n Job Title : Estagiário de RH\n Company name : Contracte Consultoria RH\n Period : fev. de 212 – abr. de 212\n Summary : ° R&S\n • Recrutamento e Seleção;\n • Entrevista por competências, dinâmica de grupo, análise grafológica e pareceres comportamentais;\n • Seleções de cargos operacionais e administrativos em volume\n Location : Fortaleza"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Teste Palográfico Avançado\n Period : Emitido em nov. de 2018 - Nenhuma data de expiração\n Issuing Authority : Celebre Consultoria e Capacitações\n Title : Treinamento e Desenvolvimento\n Period : Emitido em out. de 2018 - Nenhuma data de expiração\n Issuing Authority : Mobile RH\n \n Title : Formação em Gestão de Pessoas\n Period : Emitido em ago. de 2018 - Nenhuma data de expiração\n Issuing Authority : Celebre Capacitações"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Federal do Ceará\n Speciality : Pedagogia, Educação, Média global: 7,44.\n Period : 214 – 221\n Summary : TCC - O desenvolvimento infantil na primeira infância segundo Piaget: estágio sensório-motor.\n School name : UNINASSAU\n Speciality : Psicologia\n Period : 215 – 222\n School name : Universidade 7 de Setembro - UNI7\n Speciality : Especialização, Psicologia Organizacional e do Trabalho, Média Global: 8,99.\n Period : 214 – 218\n Summary : Disciplina | Nota Fundamentos da Psicologia Organizacional e do Trabalho | 9,;Metodologia do Trabalho Científico | 9,1;Gestão Estratégicas de Pessoas | 8,5;Cultura e Antropologia Organizacional | 9,8;Comportamento e Arquitetura Organizacional | 8,5;Gestão de Carreira e da Qualidade de Vida no Trabalho | Nota: 8,;Capital Intelectual e Inteligência | 9,;Gestão pela competência e gestão da aprendizagem | 9,;Negociação de conflitos | 9,5;Ergonomia e Processos de Saúde-Doenças no trabalho | 1,;Psicodinâmica do trabalho | 1,;Gestão, trabalho e subjetividade | 8,5;Relações de poder e trabalho | 7,., TCC - Motivação no trabalho: Os fatores motivacionais humanos e empresariais para a produtividade no trabalho.\n \n School name : DeVry Brasil\n Speciality : Gestão em Recursos Humanos\n Period : 21 – 212\n Courses: Title : Auxiliar de Pessoal; \n Title : Grafologia Intermediário"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "1e5b52d0-b1af-452d-b4ef-d1b4148c1e81",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*1e5b52d0-b1af-452d-b4ef-d1b4148c1e81",
+    "talent": {
+      "updatedAt": "2023-12-20T14:08:10.526Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:08:10.526Z",
+      "linkedinUsername": "paulo-anderson-teixeira-57993854",
+      "email": "pandersonrh@gmail.com",
+      "phone": "",
+      "name": "Paulo Anderson Teixeira",
+      "id": "1e5b52d0-b1af-452d-b4ef-d1b4148c1e81"
+    },
+    "timeInCurrentStage": 61412101531
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.436Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador Formação Profissional"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador Formação Profissional\n Company name : Raízen\n Period : fev. de 221 – o momento\n Location : Araçatuba, São Paulo, Brasil\n \n Job Title : Coordenador de treinamento e desenvolvimento\n Company name : Grupo Mateus\n Period : mar. de 216 – jan. de 221\n Summary : Responsável por desenvolver, garantir e executar estratégias de treinamento e desenvolvimento, visando preparar os colaboradores para os desafios corporativos e obtenção de metas propostas, nas empresas de varejo, atacado, distribuição e indústria de panificação\n Location : São Luís e Região, Brasil\n \n Job Title : Coordenador de Treinamento Pleno\n Company name : Grupo Elo\n Period : mar. de 215 – mar. de 216\n Summary : Administrar a rotina de treinamento técnico admissional, de migração de função e reciclagens na área de telemarketing, definindo as diretrizes de aplicação dos conteúdos e desenvolvimento de habilidades na operação; atender as especificidades de cada cliente e os critérios de excelência e qualidade, aprendizagem e resultados na operação Liderar equipe administrativa e de instrutoria em todos os sites da empresa Garantir o atingimento da meta mensal da área, com a entrega do forecast de agentes\n Location : São Luís e Região, Brasil\n \n Job Title : Analista de Gente e Gestão\n Company name : Sá Cavalcante\n Period : nov. de 213 – mar. de 215\n Summary : Responsável pelo RH da regional, nas linhas de negócio Construtora e Shopping, com relação à recrutamento, seleção, contratação, retenção e treinamento e desenvolvimento dos colaboradores, planejando, organizando e fazendo a gestão dos projetos da empresa, de forma a manter a qualidade e excelência dos profissionais contratados e assegurando o desenvolvimento constante do quadro de colaboradores\n Location : São Luís e Região, Brasil\n \n Job Title : Coordenador de T&D e Responsabilidade Social\n Company name : Grupo Mateus\n Period : nov. de 21 – out. de 213\n Summary : Administrar o setor de Treinamento e Desenvolvimento e Responsabilidade Social, como os programas de inclusão de pessoas com deficiência, reabilitado, estágio e de aprendizagem, representando a empresa em fiscalizações do Ministério do Trabalho e Emprego; elaborar estratégias de integração social, controle de cota, processos seletivos, interpretação em LIBRAS e treinamento de integração; palestras de sensibilização; desenvolver projetos sociais para o público interno e sociedade\n Realizar o levantamento de necessidade de treinamento por área, produção e execução de treinamentos técnicos, comportamentais, de integração, qualificação e atualização de procedimento operacional padrão Além das diversas modalidades de capacitação e desenvolvimento de pessoal\n \n \n Job Title : Analista de RH\n Company name : Grupo Mateus\n Period : nov. de 21 – out. de 212\n Summary : Responsável pelos programas de inclusão de pessoas com deficiência, reabilitado e de aprendizagem, representando a empresa em fiscalizações do Ministério do Trabalho e Emprego; elaborar estratégias de integração social, controle de cota, processos seletivos, interpretação em LIBRAS e treinamento de integração; palestras de sensibilização; e desenvolver projetos sociais para o público interno e sociedade\n Administrar o produto comunicação interna, desenvolvendo as ferramentas de informação e valorização dos colaboradores, como boletim informativo impresso, padronização dos murais e quadro de avisos, apresentação de cerimonial, organização de eventos internos, direção fotográfica dos eventos, treinamentos de comunicação, formatação e revisão de apostilas e treinamentos Gerar pautas da Responsabilidade Social para a consultoria de comunicação responsável pelo relacionamento com mídias tradicionais e eletrônicas Acompanhar assessorados e atender aos jornalistas quanto as questões de Responsabilidade Social"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Analista Corporal\n Period : Emitido em jul. de 2020 - Nenhuma data de expiração\n Issuing Authority : O Corpo Explica\n Title : Game Thinking Academy\n Period : Emitido em dez. de 2018 - Nenhuma data de expiração\n Issuing Authority : SG Learning & Development\n \n Title : Eneagrama\n Period : Emitido em ago. de 2018 - Nenhuma data de expiração\n Issuing Authority : Instituto Eneagrama (IE)"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Faculdade São Luís\n Speciality : Bacharel, Comunicação Social\n Period : 27 – 21\n School name : SLAC Coaching\n Speciality : Professional Executive Coach Certification, Coaching\n Period : 218 – 218\n School name : SLAC Coaching\n Speciality : Professional Coach Certification, Coaching, 1\n Period : 217 – 217\n Summary : Formação em life coaching.\n School name : TTI Success Insights Brasil\n Speciality : Analista Comportamental Assessment DISC, Motivadores, Axiologia e Competências, Comportamento, 1\n Period : 216 – 217\n \n School name : Dale Carnegie Training\n Speciality : Dale Carnegie Course, Lideranca\n Period : 216 – 216"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "78f12e32-81b1-49ff-9efc-54056883e6ec",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*78f12e32-81b1-49ff-9efc-54056883e6ec",
+    "talent": {
+      "updatedAt": "2023-12-20T14:02:08.202Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:02:08.202Z",
+      "linkedinUsername": "danielcorsan",
+      "email": "danielc_santos@hotmail.com",
+      "phone": "98991133013",
+      "name": "Daniel Cordeiro",
+      "id": "78f12e32-81b1-49ff-9efc-54056883e6ec"
+    },
+    "timeInCurrentStage": 61412101531
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.149Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "25/02/1993"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "16500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "unibh"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Líder de Projetos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Líder de Projetos\n Company name : SETA Desenvolvimento Gerencial\n Period : jan. de 219 – o momento\n Summary : - Lider de iniciativas de inovação interna ligadas à parte digital; construção da base de recursos de aprendizagem, desenho de trilhas de desenvolvimento e soluções para clientes \n - Responsável pela plataforma de aprendizagem remota da companhia (LMS) e pela produção/contratação de conteúdos digitais em diferentes formatos e diferentes idiomas (Alcançando a marca de 3 horas de visualizações em 22);\n - Facilitador e Mentor de projetos (Agile/Design Thinking/LSS/Etc) para clientes como Itaú, MRS, CTC, Avon, Energisa com NPS acima de 9%\n Job Title : Consultor\n Company name : SETA Desenvolvimento Gerencial\n Period : jan. de 218 – jan. de 219\n Summary : Desenho de soluções didáticas customizadas (Simulações/Games/Business case) de diversos tópicos e produção de conteúdo instrucional\n Location : Brasil\n Job Title : Fundador/Consultor\n Company name : Soluce - Educação Corporativa\n Period : jan. de 218 – o momento\n Summary : Desenvolvimento de soluções em educação corporativa, facilitando o processo de ensino-aprendizado orientado a necessidade do negócio\n Um destes produtos é o Kanban SA©‎, um serious game com foco em gestão da produção\n wwwsolucecombr\n Location : Belo Horizonte e Região, Brasil\n Job Title : Bolsista de iniciação científica (PIBIC)\n Company name : Centro Universitário de Belo Horizonte\n Period : mar. de 217 – dez. de 217\n Summary : Realização de pesquisa de mercado e levantamento bibliográfico sobre financiamento e inovação\n Location : Belo Horizonte\n Job Title : Estágio - Processos de Negócios\n Company name : Localiza Rent a Car\n Period : set. de 215 – mar. de 217\n Summary : Identificação das necessidades de negócios, levantamento e aplicação de melhorias, mapeamento de processos AS-IS / TO-BE, análise de falhas e elaboração de estratégias \n Análise, desenho e documentação de regras de negócio, atuando como facilitador entre área de negócio e TI\n Location : Belo Horizonte e Região, Brasil\n Job Title : Coordenador de Compras\n Company name : Spectrolab Do Brasil\n Period : jan. de 215 – set. de 215\n Summary : Análise e implantação de projetos de melhoria, tais como organograma hierárquico, planta estrutural/setorial, elaboração de fluxogramas, aplicação de IT’s e treinamentos de processos\n Análise de contratos, desenvolvimento e padronização de processos para controle do departamento\n Location : Belo Horizonte e Região, Brasil\n Job Title : Comprador\n Company name : Spectrolab Do Brasil\n Period : mai. de 214 – dez. de 214\n Summary : Desenvolvimento de fornecedores, compras para demanda externa/interna, reposição periódica de suprimentos Identificação de bloqueios no fluxo de trabalho e criação de projetos de melhorias e redução de custos alinhados a gerência\n Job Title : Comprador Técnico\n Company name : TRD Serviços e Administração LTDA\n Period : abr. de 212 – nov. de 212\n Summary : Captação e negociação com fornecedores, compras para demandas externas/internas, elaboração de relatórios custo x benefício e controle de manutenção da frota\n Location : Belo Horizonte e Região, Brasil\n Job Title : Estágio - Orçamentista Técnico\n Company name : Retec Comércio e Serviços LTDA\n Period : out. de 211 – mar. de 212\n Location : Belo Horizonte e Região, Brasil\n Job Title : Estágio - Técnico em Manutenção\n Company name : LocJá LTDA\n Period : jan. de 211 – jun. de 211\n Location : Belo Horizonte e Região, Brasil\n Company 2: Soluce - Educação Corporativa"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Design Sprint Master\n Period : Emitido em out. de 2018 - Nenhuma data de expiração\n Issuing Authority : Seta - Desenvolvimento Gerencial\n Title : Black Belt - Lean Six Sigma\n Period : Emitido em mai. de 2018 - Nenhuma data de expiração\n Issuing Authority : Seta - Desenvolvimento Gerencial\n Title : Auditor Interno do Sistema de Gestão da Qualidade - ISO 9001:2015\n Period : Emitido em abr. de 2016 - Nenhuma data de expiração\n Issuing Authority : BSI"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Federal de Minas Gerais\n Speciality : Mestrado Profissional, Inovação Tecnológica\n Period : 221 – 223\n School name : The University of Akron\n Speciality : Executive Program, Innovative Project Management\n Period : 22 – 22\n School name : UFSCar - Universidade Federal de São Carlos\n Speciality : Especialização, Educação e Tecnologias\n Period : 219 – 22\n School name : Centro Universitário de Belo Horizonte\n Speciality : Graduação em Engenharia, Engenharia de Produção\n Period : 212 – 217\n Courses: Title : Gamification | University of Pennsylvania; Title : Learning How to Learn | Universidade McMaster & University of California San Diego; Title : Oratória e Comunicação Assertiva | ACT Comunicação; \n Title : Serious Gaming | Erasmus University Rotterdam"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "63179d61-018c-4635-9e19-ae5a71d9e719",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*63179d61-018c-4635-9e19-ae5a71d9e719",
+    "talent": {
+      "updatedAt": "2023-12-20T13:56:45.756Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:56:45.756Z",
+      "linkedinUsername": "filipeteixeiradecarvalho",
+      "email": "filipe.tcarvalho@gmail.com",
+      "phone": "31992166263",
+      "name": "Filipe Carvalho",
+      "id": "63179d61-018c-4635-9e19-ae5a71d9e719"
+    },
+    "timeInCurrentStage": 61412101531
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.312Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "21/04/1955"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "15500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Especialista RH - Treinamento Técnico"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Especialista RH - Treinamento Técnico\n Company name : CPFL\n Period : jan. de 22 – o momento\n Summary : T&D nas áreas de Geração, Transmissão, Distribuição de Energia Elétrica, Proteção eTelecomunicação.\n Location : Campinas\n \n \n Job Title : Responsável pelo Treinamento Técnico da Elektro\n Company name : Elektro Eletricidade e Serviços\n Period : jul. de 1998 – jan. de 21"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Faculdades CBTA\n Speciality : Gestão de Recursos Humanos\n Period : 28 – 21"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "4b4d866f-19d8-4631-b49d-f2d3e9171508",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*4b4d866f-19d8-4631-b49d-f2d3e9171508",
+    "talent": {
+      "updatedAt": "2023-12-20T14:02:16.361Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:02:16.361Z",
+      "email": "importacao5629@importacaoinhire.com",
+      "phone": "19997199925",
+      "name": "José Carlos Porto Zitto",
+      "id": "4b4d866f-19d8-4631-b49d-f2d3e9171508"
+    },
+    "timeInCurrentStage": 61412101531
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.406Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "25/12/1969"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "16000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de RH"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "PE",
+          "id": "672331ee-ff5a-4dba-b8f2-5d627bc9e98c",
+          "label": "PE"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de RH\n Company name : FedEx Express\n Period : jul. de 212 – fev. de 221\n Job Title : Gerente de RH\n Company name : FedEx\n Period : jun. de 21 – fev. de 221\n Job Title : Gerente de RH\n Company name : Rapidão Cometa\n Period : 1997 – 212"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade de Pernambuco\n Speciality : Pós-graduação, Planejamento e Gestão Organizacional\n Period : 26 – 27\n School name : CEDEPE\n Speciality : Pós-graduação, Gestão de Negócios\n Period : 27 – 28\n School name : FIR\n Speciality : Graduação, Relações Internacionais\n Period : 22 – 26\n Summary : Representante de turma; Equipe de Debates; COPERI - Conselho Pernambucano de Relações Internacionais"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "7f200090-4e56-4c7c-8030-3181b2870d48",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*7f200090-4e56-4c7c-8030-3181b2870d48",
+    "talent": {
+      "updatedAt": "2023-12-20T14:00:50.585Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:00:50.585Z",
+      "linkedinUsername": "carlos-eduardo-botelho-01750030",
+      "email": "caduardo78@gmail.com",
+      "phone": "81981867482",
+      "name": "Carlos Eduardo Botelho",
+      "id": "7f200090-4e56-4c7c-8030-3181b2870d48"
+    },
+    "timeInCurrentStage": 61412101531
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.121Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Head da Universidade Corporativa Raízen"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Head da Universidade Corporativa Raízen\n Company name : Raízen\n Period : set. de 22 – o momento\n Location : Sao Paulo, Brazil\n \n Job Title : Gerente de Treinamento e Desenvolvimento\n Company name : Nestlé\n Period : jun. de 218 – ago. de 22\n Summary : Responsável pelas iniciativas de Treinamento e Desenvolvimento para o mercado brasileiro\n \n Principais projetos:\n Papo de Líder – Case Inovação Next Conference, Paris 219\n Semana de Carreira Nacional;\n Implementacao de Universidade Corporativa com reconhecimento do MEC;\n Jornada de Transparência;\n Plano de Capacitação de Transformação Digital;\n \n Equipe direta: 12 colaboradores \n Equipe indireta/funcional: 25 colaboradores em Filiais de Vendas/Fábricas e Centros de Distribuição\n Location : São Paulo e Região, Brasil\n \n Job Title : Coordenador de Treinamento e Desenvolvimento\n Company name : Nestlé\n Period : abr. de 217 – mai. de 218\n Summary : Coordenação do time de Treinamento e Desenvolvimento para atendimento das Business Units, Global Businesses, Vendas e Marketing & Comunicação\n \n Principais projetos:\n Criação e implementação da Academia de Vendas;\n On Boarding funcional para Representação Médica;\n People Analytics/Plano de Carreira e Sucessão com foco em posições críticas e Liderança Sr;\n Plano de retenção para High Potentials;\n Digital Capability Building\n \n Equipe direta: 3 colaboradores \n Equipe indireta/funcional: 12 colaboradores em Filiais de Vendas/Fábricas e Centros de Distribuição\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista de Treinamento e Desenvolvimento SR\n Company name : Nestlé\n Period : mar. de 215 – mar. de 217\n Summary : Responsável pelas iniciativas nacionais de Treinamento e Desenvolvimento de Carreiras para a Divisão de Vendas na Nestlé Brasil Ltda\n \n Principais entregas:\n - Revisão da ferramenta de avaliação de desempenho para Merchandisers;\n - Participação na reformulação do Programa Guardião 215/216;\n - Criação da Trilha de Carreira para Vendas;\n - Construção da Matriz de Treinamento Funcional para Vendas;\n - Suporte na construção do PCS\n \n Outras informações:\n - Membro do Pilar de Goal Alignment em Recursos Humanos;\n - Multiplicador Interno de Treinamentos\n Location : São Paulo e Região, Brasil\n \n Job Title : HRBP - Analista de Recursos Humanos PL\n Company name : Nestlé\n Period : abr. de 213 – fev. de 215\n Summary : Co-responsável pelo atendimento às demandas de Recursos Humanos (Recrutamento e Seleção, Treinamento e Desenvolvimento, Remuneração e Benefícios, Serviços de RH e Compliance) da Filial de Vendas São Paulo (16 colaboradores)\n \n Job Title : HRBP - Analista de Recursos Humanos JR\n Company name : Nestlé\n Period : jul. de 21 – mar. de 213\n Summary : Co-responsável pelo atendimento às demandas de Recursos Humanos (Recrutamento e Seleção, Treinamento e Desenvolvimento, Remuneração e Benefícios, Serviços de RH e Compliance) da Fábrica e Centro de Distribuição de Feira de Santana (8 colaboradores)\n \n Job Title : Analista de Recursos Humanos\n Company name : Norsa\n Period : abr. de 27 – mar. de 21\n Summary : Responsável pela administração de pessoal e gestão de benefícios de duas unidades da Norsa Refrigerantes Ltda que totalizavam o montante de 12 colaboradores (Simoes Filho e Retiro)\n \n \n Job Title : Assistente Administrativo\n Company name : Norsa\n Period : abr. de 27 – mar. de 21\n Summary : Responsável pelos processos de Recrutamento e Seleção e mutiplicador/facilitador da equipe de treinamento\n Preposto em audiências trabalhistas e homologações"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Senac São Paulo\n Speciality : Pós Graduação em Gestão Estratégica de Pessoas, Administração de Empresas\n Period : 214 – 215\n School name : Universidade Estadual de Feira de Santana\n Speciality : Administração de Empresas - Incompleto\n Period : 25 – 212\n School name : Instituto Brasileiro de Coaching\n Speciality : Pós Graduação em Coaching\n Period : 214\n \n School name : FMU - Faculdades Metropolitanas Unidas\n Speciality : Bacharel em Administração de Empresas"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "8e622695-f1f0-4c32-b687-a7409cba46f8",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*8e622695-f1f0-4c32-b687-a7409cba46f8",
+    "talent": {
+      "updatedAt": "2023-12-20T13:50:38.826Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:50:38.826Z",
+      "linkedinUsername": "ítalo-navarro-9a3a3139",
+      "email": "italo_navarro@yahoo.com.br",
+      "phone": "",
+      "name": "Ítalo Navarro",
+      "id": "8e622695-f1f0-4c32-b687-a7409cba46f8"
+    },
+    "timeInCurrentStage": 61412101531
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.205Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "7/31/89"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "6400"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "44986"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Supervisora de Educação Corporativa e Ensino a Distância"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "4f35ab3d-4a37-4136-beca-6824ec209b86",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*4f35ab3d-4a37-4136-beca-6824ec209b86",
+    "talent": {
+      "updatedAt": "2023-12-20T14:09:46.919Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:09:46.919Z",
+      "email": "clarissamurta@hotmail.com",
+      "phone": "11977800014",
+      "name": "Clarissa Murta",
+      "id": "4f35ab3d-4a37-4136-beca-6824ec209b86"
+    },
+    "timeInCurrentStage": 61412101531
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.348Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "28/05/1980"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "10000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45047"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Comunicação Social",
+          "id": "e5b3cfa3-f5c5-42cb-aefc-1b0f757be277",
+          "label": "Comunicação Social"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "FACOTTUR"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista Corporativo de Treinamento & Desenvolvimento de Vendas"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2 crianças"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "PE",
+          "id": "672331ee-ff5a-4dba-b8f2-5d627bc9e98c",
+          "label": "PE"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista Corporativo de Treinamento & Desenvolvimento de Vendas\n Company name : Grupo Petrópolis\n Period : jun. de 221 – o momento\n Summary : Treinamento e Desenvolvimento de vendas atendendo 18 unidades de negócio da ITAIPAVA nos respectivos Estados: CE, MA e PI, na formação de colaboradores e treinamento de gestores como: Gerentes de Unidade, Gerentes de Vendas, Supervisores de Vendas, e Vendedores Processo interno de auditoria das unidades, no cumprimento de atividades, acompanhamento do trabalho da rotina de vendas em campo : (Planejamento, Ação no PDV, Negociação e Avaliação)\n PRINCIPAIS ATIVIDADES:\n 1- Mudança de comportamento / colaboradores\n 2- Pilares e Benefícios ( Equipe de Vendas / Produtividade)\n 3- Prestação de Serviço\n 4- Montagem e Organização de cronograma de atividades\n 5- Gestão da sala de Vendas\n 6- Rota Curinga, maiores clientes , lacuna\n 7- Feedback Orientativo\n 8- Ferramentas de Gestão\n 9- Processos de Vendas e Trade\n 1- Conceitos e dicas de Pricing\n 11- Posicionamento de Marcas\n 12- Padronização de Execução\n 13- Padronização da Sala de Vendas\n 14- Auditoria de Processos\n 15- Auditoria de Campo\n 16- Treinamento a distância \n ACOMPANHAMENTOS E EXECUÇÃO EM CAMPO:\n * Planejamento :\n - Preparação diária e planejamento do dia\n - Minuto de ouro ( Direcionamento e Sugestão de pedido, antes da prévia entrada em qualquer PDV\n * Ação no PDV:\n - Uso, Oferecimento produtivo e trabalho do Catálogo de produtos\n - Leitura de Loja no PDV , Inserção, Otimização e distribuição de Mix\n - Verificação, Contagem e Leitura de estoque\n - Equipamentos e Investimentos de Refrigeração ( FIFO, Invasão, Mix, Vencimento e Produto gelado)\n - Merchandising ( Uso correto da Merchandising, Material leve , Material Pesado, Auditoria, Precificação, Lay out, Adesivação e Posicionamento )\n * Negociação :\n - Evidenciamento de Serviço prestado\n - Posicionamento, Lucratividade e Cálculo de Margem\n - Abordagem, Abertura e Iniciativa da Venda\n - Contorno de Objeções\n - Fechamento de Pedido\n * Avaliação do Dia:\n - Feedback e Análise de Resultados\n Location : Boituva, São Paulo, Brasil\n Job Title : Supervisor Comercial - Vendas e Execução\n Company name : NN Pessoa\n Period : jan. de 221 – mai. de 221\n Summary : Supervisão Regional externa de 26 colaboradores das equipes comerciais do Inovace Group ( NN Pessoa e Melodia Pet ), nos respectivos estados de PE/PB/AL/RN\n Atuação no mercado PET, com a distribuição exclusiva de marcas como: Royal Canin, Farmina, Zoo Prime, Bio Avis, Melodia alimentos, Syntech, Bayer , Furacão Acessórios, Cafuné, Mon Petit Cherri, World, Inovet & Provet Simões, e seus respectivos nichos de execução para o mercado de alimento nutricional para: cães, gatos, peixes, pássaros, répteis e roedores, bem como a comercialização de medicamentos e acessórios\n Execução de campo , acompanhamento de processos , desenvolvimento e preparação de equipes comerciais\n Location : Recife, Pernambuco, Brasil\n Job Title : Analista Corporativo Pleno - Supervisão em Treinamento & Desenvolvimento de Vendas\n Company name : Grupo Petrópolis\n Period : jul. de 216 – jun. de 22\n Summary : Treinamento e Desenvolvimento de vendas atendendo 1 unidades de negócio da ITAIPAVA nos respectivos Estados: PE, AL , SE, na formação de colaboradores e treinamento de gestores como: Gerentes de Unidade, Gerentes de Vendas, Supervisores de Vendas, e Vendedores Processo interno de auditoria das unidades, no cumprimento de atividades, acompanhamento do trabalho da rotina de vendas em campo : (Planejamento, Ação no PDV, Negociação e Avaliação), bem como no foco de resultados direta e indiretamente com mais de 383 vendedores \n PRINCIPAIS ATIVIDADES:\n 1- Mudança de comportamento / colaboradores\n 2- Pilares e Benefícios ( Equipe de Vendas / Produtividade)\n 3- Prestação de Serviço\n 4- Montagem e Organização de cronograma de atividades\n 5- Gestão da sala de Vendas\n 6- Rota Curinga, maiores clientes , lacuna\n 7- Feedback Orientativo\n 8- Ferramentas de Gestão\n 9- Processos de Vendas e Trade\n 1- Conceitos e dicas de Pricing\n 11- Posicionamento de Marcas\n 12- Padronização de Execução\n 13- Padronização da Sala de Vendas\n 14- Auditoria de Processos\n 15- Auditoria de Campo\n ACOMPANHAMENTOS E EXECUÇÃO EM CAMPO:\n * Planejamento :\n - Preparação diária e planejamento do dia\n - Minuto de ouro ( Direcionamento e Sugestão de pedido, antes da prévia entrada em qualquer PDV\n * Ação no PDV:\n - Uso, Oferecimento produtivo e trabalho do Catálogo de produtos\n - Leitura de Loja no PDV , Inserção, Otimização e distribuição de Mix\n - Verificação, Contagem e Leitura de estoque\n - Equipamentos e Investimentos de Refrigeração ( FIFO, Invasão, Mix, Vencimento e Produto gelado)\n - Merchandising ( Uso correto da Merchandising, Material leve , Material Pesado, Auditoria, Precificação, Lay out, Adesivação e Posicionamento )\n * Negociação :\n - Evidenciamento de Serviço prestado\n - Posicionamento, Lucratividade e Cálculo de Margem\n - Abordagem, Abertura e Iniciativa da Venda\n - Contorno de Objeções\n - Fechamento de Pedido\n * Avaliação do Dia:\n - Feedback e Análise de Resultados\n Location : Boituva, São Paulo, Brasil\n Job Title : Instrutor de Treinamento & Desenvolvimento Comercial e Franquias\n Company name : Ortobom\n Period : fev. de 28 – jun. de 216\n Summary : Promovido e responsável pela área de treinamento da fábrica , comecei a atuar como Instrutor de Treinamento comercial e franquias , passei a executar e desempenhar treinamentos voltados na formação e desenvolvimento de novos colaboradores, atuando em toda base a nível Operacional, Administrativo e Estratégico \n Responsável pelo treinamento de mais de 5 vendedores e 3 colaboradores diretos e indiretos, na execução de treinamentos voltados na formação destes colaboradores como: Gerentes Práticos, Gerentes Comercias, Gestores de ações de vendas, Gestores de Feirão, Supervisores, Vendedores, Prospectores, Telemarketings, Auxiliares administrativos, Promotores e Encarregados de produçao\n Especialista na área de colchões, com a aplicação de treinamentos técnicos sobre: produto, técnicas de vendas no varejo e atacado, prospecção, motivação, liderança, relacionamento interpessoal, qualidade no atendimento, e da necessidade de planejamento na confecção de treinamentos específicos, inerentes a cada área das respectivas gerências comerciais Responsável também pela organização de workshops, feirões, seminários, convenções e eventos em geral da companhia\n Também sendo designado em atividades externas, aplicando treinamentos nos estados de Pernambuco-PB, Paraíba-PB, Rio Grande do Norte-RN, Maceió-AL e Sergipe-SE, e suas principais capitais, ministrando, preparando, trabalhando com os lojistas franqueados e comerciais, com os principais colaboradores: equipe de vendas, estoquistas, gerentes e supervisores \n Acompanhamento e orientação via EAD (ensino a distância), academia digital ORTOBOM, um programa de treinamento voltado para a área comercial e de franquias a distância, com vídeos interativos e avaliações on-line, bem como acompanhamento e desenvolvimento destes colaboradores, como a atualização deste mesmo conteúdo\n Location : Olinda, Pernambuco, Brasil\n Job Title : Prospector de Área & Desenvolvimento de negócios\n Company name : Ortobom\n Period : fev. de 27 – jan. de 28\n Summary : Atividades desenvolvidas 1: Atuava em todo o estado de Pernambuco-PE, Paraíba-PB, e Rio Grande do Norte-RN, prospectando novos lojistas na inclusão do produto colchão, em lojas de (varejo e atacado), bem como em diversos segmentos de clientes, interessados no seguimento de abertura de lojas comerciais ORTOBOM Exerci atividades de apoio como cadastramento, demonstração de produto, margem, lucratividade, bem como a viabilidade do negócio\n Location : Olinda, Pernambuco, Brasil\n Job Title : Professor Especialista\n Company name : UNINABUCO\n Period : jul. de 21 – dez. de 21\n Summary : Professor do curso de Planejamento estratégico do 5º período do curso de Administração\n 3 horas aula, todas as sextas-feiras a noite\n EMPREGO MUTUO JUNTAMENTE COM A ORTOBOM (citada acima), INCOMPATIBILIDADE DE HORÁRIO com a manutenção de 2 empregos e constantes viagens, saída voluntária\n Location : Paulista, Pernambuco, Brasil\n Job Title : Atendente Balcofarmacista\n Company name : Farmácias Pague Menos\n Period : dez. de 26 – jan. de 27\n Summary : Venda de medicamentos éticos, controlados, similares e genéricos, bem como sangria de caixa, organização, arrumação, e controle de medicamentos\n PEDIDO DE DESLIGAMENTO/ASCENÇÃO PROFISSIONAL ( saída para oportunidade salarial em outra empresa)\n Location : Olinda, Pernambuco, Brasil\n Job Title : Consultor de vendas de varejo\n Company name : Hermol Móveis e Eletros\n Period : ago. de 26 – dez. de 26\n Summary : Vendas de móveis, eletros e utilidades\n Atendimento presencial, venda e controle de estoque\n PEDIDO DE DESLIGAMENTO ( saída para uma nova oportunidade)\n Location : Recife, Pernambuco, Brasil\n Job Title : Promotor de Eventos e Promotor de Campanha\n Company name : Start Promoções e Capital Humano\n Period : abr. de 26 – mai. de 26\n Summary : Função: Promotor de Campanha(Divulgação)\n Banco Bandepe & Banco Real\n CONTRATO DE TRABALHO TEMPORÁRIO\n Location : Recife, Pernambuco, Brasil\n Job Title : Consultor de vendas\n Company name : Jurandir Pires\n Period : nov. de 23 – out. de 25\n Summary : Atuação como consultor interno, possuindo amplo conhecimento nas áreas de decoração, móveis finos, utilidades e cristais, bem como controle de lista de casamento, controle de estoque e todas as atividades inerentes ao atendimento direto ao cliente\n Location : Recife, Pernambuco, Brasil\n Job Title : Event Monitor / Entertainment Monitor\n Company name : Pontes Hotéis & Resorts\n Period : nov. de 22 – mar. de 23\n Summary : Summerville Beach Resort\n Atuação como Monitor no setor de esporte e lazer, priorizando a execução de atividades esportivas e entretenimento junto ao hóspede dentro da rede hoteleira\n ESTÁGIO CURRICULAR (Exigência Acadêmica - Faculdade)\n Location : Ipojuca, Pernambuco, Brasil\n Job Title : Consultor de vendas\n Company name : Disnove Volkswagen\n Period : jul. de 22 – ago. de 22\n Summary : Vendas de veículos novos e seminovos\n Demonstração, venda técnica, faturamento e entrega\n PEDIDO DE DESLIGAMENTO - INCOMPATIBILIDADE COM HORÁRIO DA FACULDADE NA ÉPOCA!\n Location : Recife, Pernambuco, Brasil\n Job Title : Consultor de Vendas Operacional\n Company name : Farmacia Campo Grande\n Period : ago. de 1998 – fev. de 22\n Summary : Atuação como Consultor interno e externo, execução de tarefas como controle de caixa, controle de estoque, entrada e saída de notas fiscais, vendas externas e prospecção de novos clientes para a distribuição, compra de mercadorias, bem como toda organização e montagem do negócio\n Location : Peixinhos - Olinda / PE"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Gestão, Inovação, Economia e Negocios\n Period : Emitido em jan. de 2021 - Nenhuma data de expiração\n Issuing Authority : AAA Inovação\n Title : Inteligência Emocional\n Period : Emitido em mai. de 2020 - Nenhuma data de expiração\n Issuing Authority : Escola Conquer\n Title : Leader Coach\n Period : Emitido em jun. de 2018 - Nenhuma data de expiração\n Issuing Authority : SBCoaching"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Faculdade Frassinetti do Recife (Fafire)\n Speciality : Especialização em Gestão de Pessoas\n Period : 28 – 29\n School name : Sociedade Brasileira de Coaching\n Speciality : Programa de Formação e Certificação Internacional ( Personal & Professional Coaching/Leader Coaching, Personal & Professional Coaching\n Period : 218 – 218\n School name : FACOTTUR\n Speciality : Bacharel em Comunicação e Turismo, Hotelaria, Alimentos e Bebidas, empreendorismo e RH\n Period : 21 – 26"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "02d79389-4bf9-4235-a54f-291149716760",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*02d79389-4bf9-4235-a54f-291149716760",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:42.895Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:42.895Z",
+      "linkedinUsername": "ricardo-albuquerque-a68b20105",
+      "email": "albuquerque_700@hotmail.com",
+      "phone": "81996797459",
+      "name": "Ricardo Albuquerque",
+      "id": "02d79389-4bf9-4235-a54f-291149716760"
+    },
+    "timeInCurrentStage": 61412101531
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.574Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "07/01/1985"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "16000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "30000.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Benefícios de praxe"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Supervisor Geral de Treinamento Técnico"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 filho de 1,5 anos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Supervisor Geral de Treinamento Técnico\n Company name : Elevadores Atlas Schindler\n Period : fev. de 219 – o momento\n Summary : Reporte: Gerente de Treinamento, Auditoria e Documentação / Colaboradores: 45-Responsável pela gestão de equipe de treinamento técnico para montagem, modernização e manutenção para o Brasil;-Controle de budget anual de 8,5 M BRL;-Divulgação de materiais técnicos para novos produtos e processos internos;-Desenvolvimento de novas soluções para treinamentos on-the-job, blended e soluções de APP e EAD;-Responsável pela gestão da área Administrativa, envolvendo RH e Serviços.\n Location : Brasil\n Job Title : Supervisor de Treinamento Técnico Sul/Sudeste\n Company name : Elevadores Atlas Schindler\n Period : fev. de 216 – jan. de 219\n Summary : Reporte: Gerente de Treinamento, Auditoria e Documentação / Colaboradores: 18-Responsável pela gestão de equipe de treinamento técnico para montagem, modernização e manutenção para Rio de Janeiro, São Paulo, Mato Grosso do Sul, Paraná, Rio Grande do Sul e Santa Catarina;-Controle de budget anual de 4, M BRL;-Divulgação de materiais técnicos para novos produtos e processos internos;-Acompanhamento de impacto de implementação de treinamentos técnicos.\n Location : São Paulo e Região, Brasil\n Job Title : Supervisor de Treinamento Técnico Novas Instalações e Modernização\n Company name : Elevadores Atlas Schindler\n Period : jan. de 213 – jan. de 216\n Summary : Reporte: Diretor Técnico / Colaboradores: 27-Responsável pela gestão de equipe de treinamento técnico para montagem e modernização em todo o Brasil;-Controle de budget anual de 8,2 M BRL;-Divulgação de materiais técnicos para novos produtos e processos internos;-Acompanhamento de impacto de implementação de treinamentos técnicos.\n Location : São Paulo Area, Brazil\n Job Title : Gestor de Projetos em Infraestrutura\n Company name : Elevadores Atlas Schindler\n Period : fev. de 212 – dez. de 212\n Summary : Reporte: Gerente de Infraestrutura / Colaboradores: 3-Responsável pela gestão de viagens e hospedagens;-Responsável pela gestão de multas;-Responsável pela gestão e controle de resíduos;-Acompanhamento de legalização de imóveis.\n Location : São Paulo e Região, Brasil\n Job Title : Service Leader\n Company name : Schindler Elevator Corporation\n Period : fev. de 21 – fev. de 212\n Summary : Reporte: Supervisor Geral de Operações / Colaboradores: 6-Responsável pela gestão de carteira de clientes de manutenção, incluindo atividades de serviço e comerciais;-Responsável pela gestão de técnicos de manutenção e pequenos reparos;-Responsável pela gestão da área Administrativa, envolvendo RH e Serviços.\n Location : Porto e Região, Portugal\n Job Title : Engenheiro Instrutor\n Company name : Elevadores Atlas Schindler (Brazil)\n Period : abr. de 28 – mar. de 29\n Summary : Reporte: Supervisor de Treinamento Técnico / Colaboradores: -Responsável pelo treinamento de técnicos ingressos na companhia;-Responsável por desenvolvimento de treinamentos para reparos e mecânica;-Responsável pela implementação de treinamentos OTJ.\n Location : São Paulo e Região, Brasil\n Job Title : Estagiário de manufatura\n Company name : General Motors\n Period : fev. de 27 – dez. de 27\n Summary : Reporte: Supervisor de Die layout & Formability / Colaboradores: -Avaliação de resultado de testes de estampagem de carroceria;-Simulação CAE de estampagem de peças automotivas;-Reporte de resultados de projetos de peças.\n Location : São Caetano do Sul"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : BSP - Business School São Paulo\n Speciality : Curso Intensivo de Gestão Empresarial, Administração e Negócios\n Period : 215 – 215\n School name : Fundacao Getulio Vargas\n Speciality : Liderança para Jovens Talentos, Gestão de Pessoas com Ênfase em Liderança Organizacional\n Period : 213 – 213\n School name : Fundacao Getulio Vargas\n Speciality : Gestão do Conhecimento, Gestão do Conhecimento\n Period : 28 – 28\n School name : FEI - Faculdade de Engenharia Industrial\n Speciality : Engenharia Mecânica, Engineering\n Period : 23 – 27"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "08dfcaf1-9af0-41ec-b581-53c1783cefd4",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*08dfcaf1-9af0-41ec-b581-53c1783cefd4",
+    "talent": {
+      "updatedAt": "2023-12-20T14:06:29.905Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:06:29.905Z",
+      "email": "diego.silvestrini@schindler.com",
+      "phone": "5511989552773",
+      "name": "Diego Silvestrini",
+      "id": "08dfcaf1-9af0-41ec-b581-53c1783cefd4"
+    },
+    "timeInCurrentStage": 61413001531
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.287Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de DHO do Grupo Mõnaco - (Pa, AP,MA,PI e MT)"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de DHO do Grupo Mõnaco - (Pa, AP,MA,PI e MT)\n Company name : Grupo Mônaco\n Period : mar. de 221 – o momento\n Location : Belém, Pará, Brasil\n \n Job Title : Supervisor de Gestão de Pessoas\n Company name : Grupo Mônaco\n Period : out. de 219 – mar. de 221\n Summary : Responsável pelo desenvolvimento de uma equipe de dez analistas de Recursos Humanos, distribuídos em cinco estados e pela implantação de políticas e procedimentos de RH do Grupo Mônaco (Diesel, Fiat e Motos Honda) Supervisionando e apoiando a equipe nas demandas relacionadas a Recrutamento e Seleção, Treinamento e Desenvolvimento, Remuneração, estrutura organizacional e Auditorias internas, departamento pessoal e eventos corporativos\n Location : Belém e Região, Brasil\n \n Job Title : Senior Business Partner\n Company name : Bunge Brasil\n Period : jul. de 219 – set. de 219\n Summary : Apoiar os gestores nas demandas internas relacionadas ao recursos humanos, dar suporte para a equipe Gente e Gestão quando necessário, apoiar o Recrutamento e Seleção para vagas estratégicas, apoiar a área de departamento pessoal nas admissões quando necessário, gerara relatórios e indicadores relacionados a entrevista de desligamento, realizar estudos para movimentações Internas , remuneração, apoiar a área de T&D quando necessário , responsável pela condução dos projetos internos como: Gente e gestão com você e pesquisa de Clima dando suporte para os gestores na construção dos planos de ação\n Location : Pedro Afonso Tocantins\n \n Job Title : Pleno Business Partner\n Company name : CHS América do Sul\n Period : ago. de 217 – set. de 218\n Summary : Atender as demandas das Unidades de originação e Barter nos estados do Tocantins, Maranhão, Piauí, Mato Grosso e Goiás , dentro de um escopo generalista, apoiando os Gestores estrategicamente fornecendo consultoria especializada nos assuntos relacionados à: Recrutamento e Seleção, remuneração, retenção, atração, administração de pessoal e desenvolvimento de talentos ; Assessorar os clientes internos, atuando como business partner, no levantamento de necessidades e análise de indicadores\n Location : Palmas e Região, Brasil\n \n Job Title : Analista de Ambiente Humano generalista I\n Company name : Sotreq S/A\n Period : mai. de 211 – out. de 216\n Summary : Atender as demandas das Unidades de Negócio Mineração e Construção Norte ( PA , AP, AM, MA, PI , RR, RO e AC) dentro de um escopo generalista, apoiando os Gestores estrategicamente fornecendo consultoria especializada nos assuntos relacionados à: remuneração, retenção, atração, administração de pessoal e desenvolvimento de talentos ; Assessorar os clientes internos, atuando como business partner, no levantamento de necessidades e análise de indicadores (pesquisa de clima, horas extras, turnover, absenteísmo, período experiência, verificando oportunidades de melhoria para a gestão de pessoas e do clima organizacional; Apoiar os gestores na implantação e aplicação das políticas de Recursos Humanos e participação na definição das estratégias de contratação e desenvolvimento; Realizar assessment de colaboradores; Levantamento de necessidade de treinamento junto aos gestores, apoiar os gestores nos processos seletivos internos; seleção por competências para cargos estratégicos além de apoiar a gestão no desenvolvimento de lideranças através de PDI\n Location : Região Norte\n \n Job Title : Analista de Recursos Humanos\n Company name : Centrais Elétricas do Pará - Celpa\n Period : jun. de 27 – mai. de 211\n Summary : Responsável por planejar e controlar os processos e estratégias de recursos humanos, identificando as necessidades da área de Recrutamento, Seleção e admissão de novos colaboradores Apoio no Treinamento e desenvolvimento, elaborando plano de ação, solicitando estudos técnicos e propondo alternativas conforme a demanda e as necessidades e expectativas dos clientes internos Controlar Indicadores de R&S, fazer o controle dos Planos do Desenvolvimento Individual dos novos colaboradores (CELPA) além de realizar as entrevistas de desligamento do grupo\n Location : Estado do Pará\n \n Job Title : Coordenador de Consultoria\n Company name : G & S Gloria e Sousa Assessoria Integrada\n Period : jun. de 25 – jan. de 27\n Summary : : Responsável por coordenar, planejar e controlar os processos e estratégias das demandas de Recrutamento, Seleção, treinamento e desenvolvimentos dos colaboradores terceirizados do cliente TIM Celular nas filiais de: Manaus – AM, São Luis – MA, Porto Velho –RO e Brasília –DF Além de prospectar novos clientes\n Location : Norte , Nordeste e Centro Oeste\n \n \n Job Title : Psicólogo\n Company name : GRUPO BERTILLON Vigilância Privada\n Period : abr. de 23 – fev. de 25\n Summary : Responsável por coordenar toda a operacionalização e controle das demandas de Recrutamento e Seleção nas quatro empresas do grupo (Bertillon curso de formação de Vigilantes, Bertillon Vigilância e Transporte de Valores, Bertillon Serviços especializados e Conecta Vigilância Eletrônica) Atuava como instrutor de relações humanas no trabalho, responsável pelo programa de integração, palestras dia do colaborador, avaliação de desempenho ADES, treinamento e desenvolvimento, gerava relatórios semanais Além de ser facilitador do processo de certificação ISO 9/2 e auditor interno ISO 9/2\n Location : Estado do Pará"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Professional certifications: MT\n Certifications: Title : Certificação Internacional Analista DISC\n Period : Emitido em jan. de 2018 - Nenhuma data de expiração\n Issuing Authority : HRTools Chile\n Title : Guide Chart Profile methodSM - Basic Application\n Period : Emitido em dez. de 2014 - Nenhuma data de expiração\n Issuing Authority : HayGroup\n \n Title : Quantum Assessment\n Issuing Authority : Universidade Quantum"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas / FGV\n Speciality : Master of Business Administration (MBA), MBA - Desenvolvimento e Gestão de Pessoas\n Period : 24 – 26\n Summary : Grupo para implantação do programa de ambientação de novos colaboradores na empresa G&S onde eu era funcionário em 25 /26.\n School name : UNAMA\n Speciality : Coaching e Desenvolvimento de Lideranças, Gestão de Recursos Humanos, Cursando\n Period : 219 – 22\n \n School name : UNAMA\n Speciality : Psicólogo, Ciências Humanas\n Period : 1998 – 24"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "e611505b-c2d5-4c13-a283-da75373bfdba",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*e611505b-c2d5-4c13-a283-da75373bfdba",
+    "talent": {
+      "updatedAt": "2023-12-20T13:56:56.802Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:56:56.802Z",
+      "linkedinUsername": "anthony-soares-50134163",
+      "email": "benneti11@hotmail.com",
+      "phone": "",
+      "name": "Anthony Soares",
+      "id": "e611505b-c2d5-4c13-a283-da75373bfdba"
+    },
+    "timeInCurrentStage": 61413001531
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.546Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Especialista de Recursos Humanos"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Especialista de Recursos Humanos\n Company name : Companhia Siderúrgica do Pecém\n Period : set. de 217 – o momento\n Summary : Condução do projeto de identificação e melhoria da cultura organizacional\n Construção e acompanhamento do mapa de treinamento da Empresa, contemplando ações técnicas, legais e comportamentais,\n Desenvolvimento e acompanhamento da pesquisa de engajamento\n Revisão e aplicação do modelo corporativo de avaliação de desempenho, contemplando desde a revisão de competências até inputs para desenvolvimento de sistema interno\n Location : Fortaleza e Região, Brasil\n \n Job Title : Supervisora de RH - Business Partner\n Company name : Adtalem Educacional do Brasil\n Period : fev. de 217 – set. de 217\n Summary : Business Partner responsável pela atuação de RH da UniFanor e nas áreas corporativas da Adtalem\n Location : Fortaleza e Região, Brasil\n \n Job Title : Sr de RH - Treinamento e Seleção\n Company name : Grendene S/A\n Period : nov. de 215 – fev. de 217\n Summary : Responsável pelos processos de Seleção, Treinamento e Desenvolvimento da unidade fabril da Melissa com 3 mil colaboradores\n Implementação de políticas e programas de RH de forma customizada atentando as necessidades do negócio\n Gestão dos indicadores de treinamento e seleção\n Seleção de colaboradores, aplicando ferramentas como o DISC, Quantum e seleção por competência\n Mapeamento de competências seleção de pessoas\n Elaboração e execução de programas para formação de sucessores\n Uso de ferramentas do Coaching para desenvolvimento de gestores\n Location : Fortaleza e Região, Brasil\n \n Job Title : Sr de RH - Business Partner\n Company name : Pernambucanas\n Period : nov. de 214 – out. de 215\n Summary : - Responsável pela área de treinamento e desenvolvimento dos Centros de Distribuição da Empresa, além de oferecer a visão generalista dos subsistemas de Recursos Humanos, com atuação em gestão e desenvolvimento gerencial\n - Atuação generalista sendo ponte entre o negócio e Recursos Humanos para assegurar que a entrega dos serviços esteja alinhada às necessidades dos clientes\n - Implantação de ações de gestão da mudança para alteração de unidade, mudança estratégica do negócio e implantação de novo sistema operacional\n - Aplicação da metodologia QUANTUM nos processos de desenvolvimento\n - Desenvolvimento de eventos corporativos, logística do evento e negociação com fornecedores\n Location : São Paulo e Região, Brasil\n \n Job Title : Sr. Educação Corporativa\n Company name : B2W Digital\n Period : dez. de 213 – nov. de 214\n Summary : - Elaboração e aplicação de programas de formação para nível tático e estratégico da Empresa\n - Aplicação da metodologia 6Ds e DISC nos processos de desenvolvimento de liderança\n - Criação de treinamentos E-learning na ferramenta Quicklessons\n - Acompanhamento de indicadores da área\n - Responsável por fornecer análises e pareceres sobre o desenvolvimento dos funcionários, subsidiando as tomadas de decisão de Gerentes e Coordenadores\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Analista de Treinamento e Desenvolvimento Sr\n Company name : Grendene S/A\n Period : jan. de 27 – nov. de 213\n Summary : - Líder de processos de Treinamento e Desenvolvimento\n - Responsável por fornecer análises e pareceres sobre o desenvolvimento dos funcionários, subsidiando as tomadas de decisão de Gerentes e Coordenadores\n - Elaboração e execução de treinamentos para nível tático e estratégico\n - Responsável por programas de capacitação para o público operacional com 19 mil pessoas;\n - Elaboração e execução do programa de integração de novos gestores, diminuindo a rotatividade em cargos táticos e estratégicos \n - Elaboração e execução de programa de formação de sucessores\n - Contratação e briefing de consultores externos, para programas de desenvolvimento\n - Elaboração e Execução de TEAL (Treinamentos ao ar livre);\n Location : Sobral e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Estadual Vale do Acaraú - UVA\n Speciality : Administração de Empresas, Universidade Estadual Vale do Acarau\n Period : 24 – 29\n School name : Faculdade Darcy Ribeiro\n Speciality : MBA em Gestão Estratégica de Pesssoas, Instituto Vale do Acaraú/Darcy Ribeiro\n Period : 21 – 211\n School name : Pontifícia Universidade Católica de Minas Gerais\n Speciality : Master of Business Administration - MBA, Business Partner\n Period : 22 – 222\n School name : Crescimentum\n Speciality : Culture Assessment Certification, Gestão de Recursos Humanos\n Period : 221 – 221\n School name : Instituto Brasileiro de Coaching - IBC\n Speciality : Formação em Professional & Self Coaching, Instituto Brasileiro de Coaching\n Period : 211 – 211\n School name : LAB SSJ\n Speciality : Consultora na Metodologia 6D, Treinamento e Desenvolvimento\n Period : 213 – 213\n School name : E-talent\n Speciality : Consultora em DISC, Disc\n Period : 213 – 213\n \n School name : Universidade Quantum\n Speciality : Formação em Analista Quântico\n Period : 215 – 215"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "59414ce7-5dc5-482a-be5d-031b2beddaa8",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*59414ce7-5dc5-482a-be5d-031b2beddaa8",
+    "talent": {
+      "updatedAt": "2023-12-20T13:54:22.719Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:54:22.719Z",
+      "linkedinUsername": "glauciane-parente-fornari",
+      "email": "gau23@hotmail.com",
+      "phone": "",
+      "name": "Glauciane Parente Fornari",
+      "id": "59414ce7-5dc5-482a-be5d-031b2beddaa8"
+    },
+    "timeInCurrentStage": 61413001531
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.377Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "5300"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "HR Business Partner | Duratex"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "PB",
+          "id": "c07ff7d9-9719-4d58-987d-2a2f2845e6fb",
+          "label": "PB"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : HR Business Partner | Duratex\n Company name : Duratex\n Period : fev. de 22 – o momento\n Location : Recife e Região, Brasil\n \n Job Title : Analista de Gente&Gestão\n Company name : Klabin\n Period : mai. de 218 – fev. de 22\n Location : Curitiba e Região, Brasil\n \n Job Title : Analista de Recursos Humanos\n Company name : Grendene S/A\n Period : ago. de 217 – abr. de 218\n Location : Sobral e Região, Brasil\n \n Job Title : HR Business Partner I Votoratim Cimentos\n Company name : Votorantim Cimentos\n Period : jan. de 215 – ago. de 217\n Summary : Coordenação do Sistema gestão da qualidade/Gestão Integrada (Padronização de Processos, Segurança, Saúde e Meio Ambiente, Planejamento de Manutenção, Gerenciamento da rotina, Gestão Recursos Humanos e finanças)/Programa de desenvolvimento e treinamentos para a formação de engenheiros, técnicos, estagiários, trainnes técnicos, projetos de qualificação profissional com SENAI e escolas técnicas\n Desenvolvimento e implementação de planos de formações, curto e médio prazo, conforme capacitação definidas nas matrizes de habilidades\n Participação em negociações sindicais e acompanhamento/implantação de ações de clima, gestão de indicadores da área de Gente, gestão orçamentária, Gestão de remuneração variável\n Location : Sobral e Região, Brasil\n \n Job Title : Analista de gestão\n Company name : Votorantim Cimentos\n Period : jan. de 26 – jan. de 215\n Summary : Coordenação do Sistema gestão da qualidade/Gestão Integrada (Padronização de Processos, Segurança, Saúde e Meio Ambiente, Planejamento de Manutenção, Gerenciamento da rotina, Gestão Recursos Humanos e finanças) \n Implantação do Sistema de ISO91, atuação como representante da direção pelo Sistema da Qualidade \n Implantação da restruturação do sistema de gestão incluído a participação no desdobramento da árvore indicadores para analises gerenciais\n Desenvolvimento e acompanhamento de projetos de melhoria continua no processo e reconhecimentos, utilizando metodologias de PDCA \n Desdobramento de metas\n Analises de relatórios gerenciais, gestão de indicadores, gerenciamento de projetos, gestão de custos, gestão terceiros\n Experiência em elaboração e implementação de ferramentas para gerenciamento da rotina e padronização de processos\n Experiência em planejar e executar auditoria internas em sistema de gestão e 5s\n Responsável pela implantação e manutenção do programa 5s, promovendo o desenvolvimento de mudança de cultura\n Location : Sobral e Região, Brasil\n \n \n Job Title : Estagiária\n Company name : Votorantim Cimentos\n Period : fev. de 25 – jan. de 26\n Location : Sobral, Ceará, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Hábitos de Sucesso\n Period : Emitido em set. de 2021 - Nenhuma data de expiração\n Issuing Authority : LinkedIn\n Title : Predictive Index (PI)\n Period : Emitido em jun. de 2021 - Nenhuma data de expiração\n Issuing Authority : The Predictive Index\n \n Title : Inteligencia Emocional\n Period : Emitido em mai. de 2020 - Nenhuma data de expiração\n Issuing Authority : Escola Conquer"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Master of Business Administration (MBA), Administração de Empresas\n Period : 214 – 216\n Summary : Gestao Empresarial\n School name : EC English Language Centres\n Period : 212 – 212\n School name : Universidade Estadual Vale do Acaraú - UVA\n Speciality : Tecnologia em Construção de Edifícios\n Period : 23 – 27\n \n School name : UNIFG\n Speciality : Bacharelado em Engenharia, Engenharia de Produção\n Period : 217"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "9d88731b-a49d-4356-a637-9cccde435596",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*9d88731b-a49d-4356-a637-9cccde435596",
+    "talent": {
+      "updatedAt": "2023-12-20T14:08:49.776Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:08:49.776Z",
+      "linkedinUsername": "maria-gildélia-pinheiro-borges-2206132b",
+      "email": "gildelia@hotmail.com",
+      "phone": "88996078200",
+      "name": "Maria Gildélia Pinheiro Borges",
+      "id": "9d88731b-a49d-4356-a637-9cccde435596"
+    },
+    "timeInCurrentStage": 61412101531
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.521Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "03/01/1989"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "5500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "1.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Psicologia",
+          "id": "0a31ad8a-c73e-4635-a450-2bd62ddcecf9",
+          "label": "Psicologia"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "HR Consultant"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "PE",
+          "id": "672331ee-ff5a-4dba-b8f2-5d627bc9e98c",
+          "label": "PE"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : HR Consultant\n Company name : Grupo Cornélio Brennand\n Period : mai. de 219 – o momento\n Summary : Desenvolvimento e implementação das estratégias do negócio através do suporte aos gestores na gestão de pessoas. Desenvolvimento de Pessoal através de treinamentos internos e contratação de treinamentos externos, domínio e utilização de ferramentas de assessement, Feedback Orientado e construção de Plano de Desenvolvimento Individual. Pesquisa de Clima, Plano de Ação de Clima, acompanhamento de indicadores, KPIs, participação em reuniões de resultados das diversas áreas de negócios atendidas. Acompanhamento e suporte no desenvolvimento líderes bem como em redesenho de estrutura empresarial. Talent Acquisition para posições executivas.\n Location : Recife, Pernambuco\n Job Title : HR Business Partner\n Company name : Grupo Moura\n Period : mai. de 217 – abr. de 219\n Summary : Suporte aos gestores da empresa no desenvolvimento e implementação das estratégias do negócio. Desenvolvimento de treinamentos internos e contratação de treinamentos externos, desenvolvimento de Matriz de Habilidades, descrição e arquitetura de cargos através da ferramenta DISC, Feedback Orientado e construção de Plano de Desenvolvimento Individual. Pesquisa de Clima, Plano de Ação, acompanhamento de indicadores, KPIs, participação em reuniões de monitoramento de performance das diversas áreas do negócio, Financeira, Comercial, Governança, Jurídica, etc. Acompanhamento de liderança e implementação de novos Projetos à nível corporativo.\n Location : Recife e Região, Brasil\n Job Title : Analista de Desenvolvimento Humano\n Company name : Grupo Moura\n Period : fev. de 216 – mai. de 217\n Summary : Atuação generalista, suportando o crescimento da empresa em R&S, integração e acompanhamento de novos colaboradores, entre outras atividades do subsistema. Em T&D, atuando no desenvolvimento de treinamentos internos e contratação de treinamentos externos, desenvolvimento de Matriz de Habilidades, descrição e arquitetura de cargos através da ferramenta DISC, Feedback Orientado e construção de Plano de Desenvolvimento Individual. Pesquisa de Clima, Plano de Ação, monitoramento de performance, controle de indicadores das diversas áreas do negócio.\n Location : Jaboatão dos Guararapes\n Job Title : Consultor\n Company name : Fundação Roberto Marinho\n Period : mar. de 21 – jan. de 216\n Summary : Atuação em âmbito nacional nos programas educacionais de aceleração do ensino, desenvolvidos e implementados na esfera municipal e estadual em diversos estados brasileiros. Atuação como formador de professores, no âmbito de políticas públicas orientadas para o fortalecimento da educação básica. Ações de treinamento, educação continuada e acompanhamento pedagógico de professores e gestores. Expertise em monitoramento e levantamento de dados de desempenho junto a supervisores e coordenadores em Gerencias Regionais de Ensino - GRE. Visitas a escolas públicas no território nacional, em ações de acompanhamento pedagógico. Experiência com produção de Relatórios de Campo, com relatos descritivos, e dados quantitativos e qualitativos.\n Location : Recife"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Católica de Pernambuco\n Speciality : Graduação, Psicologia\n Period : 25 – 29"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "a7e5bd7a-f6f4-4661-9fac-f591b4a5ffe2",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*a7e5bd7a-f6f4-4661-9fac-f591b4a5ffe2",
+    "talent": {
+      "updatedAt": "2023-12-20T13:55:12.876Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:55:12.876Z",
+      "email": "e-fsantos@hotmail.com",
+      "phone": "81986964160",
+      "name": "Edivan Santos",
+      "id": "a7e5bd7a-f6f4-4661-9fac-f591b4a5ffe2"
+    },
+    "timeInCurrentStage": 61412101531
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.465Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "22/08/1974"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "10000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "1.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Convênio médico e odontológico"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Psicologia",
+          "id": "0a31ad8a-c73e-4635-a450-2bd62ddcecf9",
+          "label": "Psicologia"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de RH"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "PE",
+          "id": "672331ee-ff5a-4dba-b8f2-5d627bc9e98c",
+          "label": "PE"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de RH\n Company name : São Braz S.A. Indústria e Comércio de Alimentos\n Period : mar. de 221 – o momento\n Location : João Pessoa, Paraíba, Brasil\n Job Title : Coord. Recursos Humanos | Business Partner | Especialista em Carreira | Recrutamento e Seleção\n Company name : Duratex\n Period : set. de 219 – mar. de 22\n Summary : Orientação aos lideres e demais funcionários acerca das leis trabalhistas vigentes; \n Atuando ainda fortemente como agente de mudança e transformação cultural, foco em alinhamento de objetivos estratégicos como parceiro de negócio junto aos gerentes e outros líderes para remodelagem de carreira, mediação em gestão de conflitos\n Implantação de estratégia de negociação coletiva e de Programas de Participação de Resultados com o Sindicato \n Atuando em todos os subsistemas realizando atividades como captação, integração, treinamento e desenvolvimento, avaliação de competências, clima, Cultura , Programa de aprendiz, estágio, desenvolvimento de liderança, PCD, negociação coletiva e gerenciamento da rotina\n Responsável por toda a parte de Reclamações Trabalhistas da Unidade e atuação de prepostos em Causas Trabalhistas\n Atuando com área de Governança de Riscos no follow up da implementação dos planos de ação junto ao líderes para apresentação a Diretoria Regional e Comitê Complaince; \n Assegurar a tratativa dos relatórios no Sistema de acordo com os pontos de auditoria e planos de ação com gestores dos processos auditados\n Garantindo as políticas de Recursos Humanos de acordo com os direcionadores da Empresa, tais como: Cultura, Comunicação Interna, Programas de Reconhecimento por Tempo de Casa, Promoções Interna liderando na Unidade o Programa do Reconhecimento em Campo;\n Conduzindo com as lideranças a Avaliação de Desempenho , ou seja, Ciclo de Gestão de Pessoas, conforme as diretrizes do Comitê de Remuneração e meritocracia; \n Gestão do Reconhecimento de liderança: Líder Top; Workshop utilizando metodologias ágeis, em parceria com o time de Melhoria da Unidade e ainda utilizando de teambulding; \n Reestruturação da liderança utilizando o Assessment/Metodologia DISC Ferramenta Comportamental e engenharia de Cargos com plano de desenvolvimento\n Location : Recife\n Job Title : Coord. Gente e Gestão | Business Partner | Especialista em Carreira | Talent Acquisition| Auditoria\n Company name : Votorantim Cimentos\n Period : jul. de 212 – ago. de 219\n Summary : Responsável pelo gerenciamento de todos os subsistemas das Unidades de atuação e Logística Escritório Regional Nordeste, definição e cumprimento da estratégia de geração de resultados para o negócio das 4 fábricas, 1 CD’s, e 1 escritório Gestão anual do orçamento de Gente com as lideranças das fábricas, responsável pelo passivo trabalhista, ouvidorias e Compliance da Regional Gestão da retenção e clima organizacional desde a condução dos processos pertinentes à pesquisa de clima atráves da comunicação para participações, relatórios de resultados / planos de ções e condução dos grupos focais; Responsável pela condução Políticas e diretrizes do Comitê de Remuneração e meritocracia ; Atuando em todos os subsistemas associados, realizando atividades como captação, integração, treinamento e desenvolvimento, avaliação de competências, clima, programa de aprendiz, estágio, desenvolvimento de liderança, PCD, OBZ (Orçamento Base Zero), negociação coletiva e gerenciamento da rotina Propor recomendação para mitigar os riscos identificados como direcionador o código de ética e conduta da auditoria interna (IIA) e na gestão e disseminação do código;\n Discutir pontos de auditoria da Regional e planos de ação com gestores dos processos auditados, com a devolutiva em Sistema para acompanhando dos relatórios pela Diretoria e Comitê Complaince \n Responsável Processo de avaliação de desempenho (uso da metodologia 9 Box) na condução Gestão de Carreira e Potencial ou seja a avaliação de desempenho e performance utilizando a metodologia de Feedback diários através do sistema Zugata Atuando com a equipe de analistas na Academia de Liderança no desenvolvimento do gestores com a utilização de metodologia ágeis\n Desenvolvimento de projeto de Gestão de Carreiras , e mapeamento Plano de Sucessão, sendo o principal Projeto Estratégico da empresa na área industrial nos anos 218 e 219 – sendo utilizado a partir de 219/22 em toda a Votorantim Cimentos / Brasil\n Location : Recife e Região, Brasil\n Job Title : Coord. Reg. Recursos Humanos/BPRH Business Partner | Desenvolvimento de Pessoas\n Company name : Grupo Fleury\n Period : dez. de 27 – jun. de 212"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Formação Coaching Integral Sistêmico\n Period : Emitido em set. de 2019 - Nenhuma data de expiração\n Issuing Authority : Febracis Coaching\n Title : Analista Comportamental DISC\n Issuing Authority : E-talentnetwork\n Title : Analista Quântica, Assessment Comportamental 9.0\n Issuing Authority : Quantum House"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : UNIDERC\n Speciality : Mestrado Psicanálise Aplicada a Gestão de Pessoas, Mestrado Psicanálise Aplicada a Gestão de Pessoas\n Period : 214 – 216\n School name : FACHO\n Speciality : Psicologia\n Period : 1994 – 2\n Courses: Title : Formação Business Partner Essencials"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "342d80de-2781-4faa-b726-35a9b5744592",
+    "id": "bb3160a4-1d6e-4c27-8a3e-10012501159b*342d80de-2781-4faa-b726-35a9b5744592",
+    "talent": {
+      "createdAt": "2023-12-20T14:08:16.641Z",
+      "email": "fabalmeid@hotmail.com",
+      "linkedinUsername": "fabiolamariaalmeida",
+      "name": "Fabiola Almeida",
+      "phone": "+5581998835174",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-03-26T18:19:14.523Z",
+      "id": "342d80de-2781-4faa-b726-35a9b5744592"
+    },
+    "timeInCurrentStage": 61412101531
+  }
+]

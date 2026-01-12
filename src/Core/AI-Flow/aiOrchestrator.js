@@ -10,8 +10,8 @@ import { getCachedProfile, saveCachedProfile, getCacheStatus } from '../../Platf
 
 // --- NOVAS IMPORTAÇÕES PARA A LÓGICA DE FEEDBACK E ANÁLISE (DO CÓDIGO 02) ---
 import { setEvaluationToCache } from '../../services/aiEvaluationCache.service.js';
-import { createEmbeddings } from '../../services/embedding.service.js';
-import { createProfileVectorTable, dropProfileVectorTable } from '../../services/vector.service.js';
+// import { createEmbeddings } from '../../services/embedding.service.js'; // REMOVIDO: Full Context
+// import { createProfileVectorTable, dropProfileVectorTable } from '../../services/vector.service.js'; // REMOVIDO: Full Context
 import { analyzeAllCriteriaInBatch } from '../../services/ai.service.js';
 
 const OPENAI_API_URL = 'https://api.openai.com/v1/chat/completions';
@@ -44,9 +44,7 @@ export const syncProfileFromLinkedIn = async (talentId) => {
 // =================================================================================
 export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard, weights) => {
     log(`--- ORQUESTRADOR IA: Avaliando e preparando feedback para Talento ID: ${talentId} ---`);
-    const tempTableName = `eval_${Date.now()}`;
-    let profileTable;
-    
+
     try {
         // ETAPA 1: Obter dados do perfil do candidato (lógica existente)
         const talentInHire = await getTalentById(talentId);
@@ -54,54 +52,59 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
         const cached = getCachedProfile(talentInHire.linkedinUsername);
         if (!cached) throw new Error('Dados do perfil não encontrados no cache. Sincronize primeiro.');
 
-        // ETAPA 2: Replicar a lógica de análise vetorial para encontrar evidências (chunks)
-        const profileChunks = (cached.profile.about ? [cached.profile.about] : []).concat(
-            (cached.profile.experience || []).map(exp => `${exp.title} na ${exp.companyName}: ${exp.description || ''}`)
-        );
-        const profileEmbeddings = await createEmbeddings(profileChunks);
-        profileTable = await createProfileVectorTable(tempTableName, profileEmbeddings.map((vector, i) => ({ vector, text: profileChunks[i] })));
+        // ETAPA 2: FULL CONTEXT - Preparar texto completo do perfil (em vez de vetores)
+        // Concatenar tudo em um único texto rico
+        let fullProfileText = "";
+        const profile = cached.profile;
+        if (profile.name) fullProfileText += `NOME: ${profile.name}\n`;
+        if (profile.headline) fullProfileText += `HEADLINE: ${profile.headline}\n`;
+        if (profile.about) fullProfileText += `SOBRE: ${profile.about}\n`;
+        if (profile.experience && profile.experience.length) {
+            fullProfileText += `EXPERIÊNCIA:\n` + profile.experience.map(exp => `- ${exp.title} na ${exp.companyName}. ${exp.description || ''}`).join('\n') + `\n`;
+        }
+        if (profile.skills && profile.skills.length) {
+            fullProfileText += `SKILLS: ${profile.skills.join(', ')}\n`;
+        }
 
         const allCriteria = scorecard.skillCategories.flatMap(cat => cat.skills.map(skill => ({ id: skill.id, name: skill.name })));
-        
-        const searchPromises = allCriteria.map(async (criterion) => {
-            const queryVector = await createEmbeddings(criterion.name);
-            const searchResults = await profileTable.search(queryVector[0]).limit(3).select(['text']).execute();
-            return {
-                criterion,
-                chunks: [...new Set(searchResults.map(r => r.text))]
-            };
-        });
-        const criteriaWithChunks = await Promise.all(searchPromises);
+
+        // Em vez de buscar chunks, passamos o texto TODO para todos os critérios
+        const criteriaWithChunks = allCriteria.map(criterion => ({
+            criterion,
+            chunks: [fullProfileText] // Passamos 1 chunk gigante
+        }));
 
         // ETAPA 3: Chamar a IA para avaliar cada critério em paralelo
-        const evaluations = await analyzeAllCriteriaInBatch(criteriaWithChunks);
+        // O ai.service vai enviar esse blocão de texto para o GPT
+        const evaluations = await analyzeAllCriteriaInBatch(criteriaWithChunks, {
+            name: profile.name,
+            headline: profile.headline,
+            summary: profile.about
+        });
 
         // ETAPA 4: Gerar o feedback geral e a decisão final com base nas avaliações
         const summaryResult = await generateOverallFeedback(jobDetails, cached.profile, evaluations, weights);
         const finalResult = { evaluations, ...summaryResult };
-        
+
         // ETAPA 5: Armazenar a avaliação da IA e as evidências no cache temporário
+        // Como não temos chunks extraídos via vetor, a evidência é "Análise Full Context"
+        // Ou podemos tentar extrair o que a IA citou na justificativa.
         const evidenceMap = criteriaWithChunks.reduce((map, item) => {
-            map[item.criterion.id] = item.chunks;
+            map[item.criterion.id] = ["Análise realizada com contexto completo do perfil."];
             return map;
         }, {});
-        
+
         const cacheKey = `${talentId}_${jobDetails.id}`;
         setEvaluationToCache(cacheKey, {
             aiScores: evaluations,
             evidenceMap: evidenceMap
         });
-        
+
         return finalResult;
 
     } catch (err) {
         error("Erro na orquestração da avaliação do scorecard:", err.message);
         throw err; // Re-lança o erro para a rota lidar
-    } finally {
-        // ETAPA FINAL: Limpar a tabela vetorial temporária
-        if (profileTable) {
-            await dropProfileVectorTable(tempTableName);
-        }
     }
 };
 
@@ -159,10 +162,10 @@ export const evaluateSkillFromCache = async (talentId, jobDetails, skillToEvalua
     try {
         const talentInHire = await getTalentById(talentId);
         if (!talentInHire) throw new Error(`Talento com ID ${talentId} não encontrado.`);
-        
+
         const linkedinUsername = talentInHire.linkedinUsername;
         if (!linkedinUsername) throw new Error(`O talento ${talentInHire.name} não possui um LinkedIn associado.`);
-        
+
         const cached = getCachedProfile(linkedinUsername);
         if (!cached) {
             throw new Error('Dados do perfil não encontrados no cache. Por favor, sincronize com o LinkedIn primeiro.');

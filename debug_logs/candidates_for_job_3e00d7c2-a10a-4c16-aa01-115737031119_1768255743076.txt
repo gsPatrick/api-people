@@ -1,0 +1,2963 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:34.857Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "08/11/1980"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "8000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "PLR (1 Salário), Plano de Saúde, Odontológico, Ticket Refeição, Transporte e Previdência Privada (1:2)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Engenheiro de Planejamento Pleno"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "Sem filhos."
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "89913e25-fecd-4533-80be-e70b8b7d4e08",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*89913e25-fecd-4533-80be-e70b8b7d4e08",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:32.441Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:32.441Z",
+      "email": "brcmiguel@gmail.com",
+      "phone": "21988873925",
+      "name": "Bruno Miguel",
+      "id": "89913e25-fecd-4533-80be-e70b8b7d4e08"
+    },
+    "timeInCurrentStage": 61412341568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.253Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "23/08/1983"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "22000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Compatíveis ao mercado + carro"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia civil",
+          "id": "9556216e-65f1-4fb6-b9a8-a919194e751a",
+          "label": "Engenharia civil"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Estadual de Campinas"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de produção"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de produção\n Company name : Mendes Junior\n Period : jun. de 221 – o momento\n Summary : Responsável pela construção do Lote 5 - Estação Santa Isabel e Estação Guilherme Giorgi da Linha 2 – Verde do Metrô de São Paulo contemplando todas obras de contenção, escavação em NATM e estruturas de concreto\n Location : São Paulo, São Paulo, Brasil\n \n Job Title : Head de Gerenciamento de Projetos e Obras\n Company name : EQC Engenharia\n Period : abr. de 22 – jun. de 221\n Summary : Head de Gerenciamento de Projetos e Obras no segmento logístico e comercial\n Location : São Paulo, São Paulo, Brasil\n \n Job Title : Gerente de projetos\n Company name : Instituto Moreira Salles\n Period : jul. de 218 – fev. de 22\n Summary : Responsável pelo gerenciamento da fabricação, instalação e montagem da escultura Echo do artista Richard Serra e de seu respectivo local no interior do IMS Paulista, e pelo gerenciamento do reforço estrutural de um edifício em estrutura metálica no interior do IMS RJ\n Location : São Paulo e Região, Brasil\n \n Job Title : Gerente de produção\n Company name : Brio Incorporadora\n Period : jan. de 218 – dez. de 218\n Summary : Responsável pelo gerenciamento dos empreendimentos da Brio Incorporadora em Sorocaba e Votorantim desde a fase de incorporação até as respectivas entregas Todos os empreendimentos do segmento MCMV financiados pela CEF\n Location : Sorocaba e Região, Brasil\n \n Job Title : Coordenador de produção\n Company name : Odebrecht Engenharia e Construção\n Period : mar. de 27 – nov. de 217\n Summary : De Junho/211 a Novembro/217 - Responsável pela coordenação da construção da Estação Santa Cruz, do VSE Jorge de Melo e do VSE Botucatu da Linha 5 – Lilás do Metrô de São Paulo contemplando todas obras de contenção, escavação em NATM e estruturas de concreto\n \n De Janeiro/211 a Maio/211 - Responsável pelo gerenciamento das interferências das obras da Linha 4 – Amarela do Metrô de São Paulo junto aos imóveis lindeiros e redes de concessionárias\n \n De Julho/21 a Dezembro/21 - Responsável pela coordenação da construção do Acesso Faria Lima localizado na Estação Faria Lima da Linha 4 – Amarela do Metrô de São Paulo contemplando todas estruturas de concreto e acabamento\n \n De Agosto/27 a Junho/21 - Responsável pela coordenação da construção da Estação Paulista da Linha 4 – Amarela do Metrô de São Paulo contemplando todos as obras de contenção, escavação em NATM, estruturas de concreto e acabamento\n \n De Março/27 a Julho/27 - Análise de projetos, quantidades e montagem de cronogramas da obra da Linha 4 – Amarela do Metrô de São Paulo\n Location : São Paulo e Região, Brasil\n \n Job Title : Engenheiro Civil\n Company name : RODIO KRONSA\n Period : jun. de 26 – set. de 26\n Summary : Desenvolvimento de projetos de fundações pesadas, assim como controle de execução in loco\n Location : Madrid e Região, Espanha\n \n Job Title : Estagiário\n Company name : Consórcio Via Amarela\n Period : jan. de 26 – abr. de 26\n Summary : Responsável pela coordenação da qualidade da obra da Estação Paulista da Linha 4 – Amarela do Metrô de São Paulo\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Estagiário\n Company name : FGMF Arquitetura\n Period : jan. de 25 – mar. de 25\n Summary : Responsável pela coordenação técnica e comercial de duas obras residenciais\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Professional certifications: PMP\n Certifications: Title : Project Management Professional (PMP)®\n Period : Emitido em mar. de 2020 - Expira emmar. de 2023\n Issuing Authority : Project Management Institute"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/gabrielbonsanto777"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "6039374d-b1f9-43db-bf65-e9200566c2ba",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*6039374d-b1f9-43db-bf65-e9200566c2ba",
+    "talent": {
+      "updatedAt": "2023-12-20T14:11:14.874Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:11:14.874Z",
+      "linkedinUsername": "gabrielbonsanto777",
+      "email": "gbonsanto@gmail.com",
+      "phone": "11997170878",
+      "name": "Gabriel Bonsanto, PMP",
+      "id": "6039374d-b1f9-43db-bf65-e9200566c2ba"
+    },
+    "timeInCurrentStage": 61412041568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.473Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "07/05/1983"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "17000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Elétrica",
+          "id": "9351680b-8549-4071-98fc-d485b31dc312",
+          "label": "Engenharia Elétrica"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Centro Universitário da Fundação Educacional de Barretos"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Engenheiro de Projetos Sr."
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d5d44b3e-fdf9-402e-bda3-a80ba2040e43",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*d5d44b3e-fdf9-402e-bda3-a80ba2040e43",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:01.279Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:01.279Z",
+      "email": "importacao6617@importacaoinhire.com",
+      "phone": "11996820135",
+      "name": "Lucas de Oliveira Campos",
+      "id": "d5d44b3e-fdf9-402e-bda3-a80ba2040e43"
+    },
+    "timeInCurrentStage": 61412041568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.377Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "06/02/1982"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "27800"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "ajuda de região, moradia (25% salário), praxe"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia civil",
+          "id": "9556216e-65f1-4fb6-b9a8-a919194e751a",
+          "label": "Engenharia civil"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Federal de Minas Gerais"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Construção e Montagem"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "PA",
+          "id": "091855ab-53b4-408c-9178-7194c1238f55",
+          "label": "PA"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de Construção e Montagem\n Company name : Andrade Gutierrez S.A\n Period : mar. de 221 – o momento\n Summary : Gerente de Construção e Montagem na obra do novo Terminal de Regaseificação do Porto de Barcarena-Pa\n Location : Barcarena, Pará, Brasil\n \n Job Title : Coordenador de produção\n Company name : Andrade Gutierrez S.A\n Period : fev. de 218 – mar. de 221\n Summary : Responsável pela equipe de produção na execução das obras civis de fundação das torres de Linha de Transmissão de 5Kv no Lote 23\n Location : Belém, Pará\n \n Job Title : Gerente de produção\n Company name : Andrade Gutierrez S.A\n Period : dez. de 216 – dez. de 217\n Summary : Responsáveis pela execução dos serviços de micro e macrodrenagem, terraplanagem, OAE’s e pavimentação nos 7 km de duplicação da Rodovia João Melão em Avaré-SP para a Concessionária CCR\n Location : São Paulo e Região, Brasil\n \n Job Title : Coordenador de produção\n Company name : Andrade Gutierrez S.A\n Period : out. de 215 – dez. de 216\n Summary : Responsável pela execução das obras civis e de montagens mecânicas do complexo da Estação de Tratamento de Água do Sistema Produtor São Lourenço\n Location : São Paulo e Região, Brasil\n \n Job Title : Coordenador de Custos\n Company name : Andrade Gutierrez S.A\n Period : jul. de 215 – out. de 215\n Location : Consórcio Construtor São Lourenço\n \n Job Title : Gerente de Engenharia\n Company name : Andrade Gutierrez S.A\n Period : fev. de 214 – jul. de 215\n Summary : Atuação na área de Engenharia como Gerente de setor (Mar/14 em diante), trabalhando nas rotinas de planejamento e acompanhamento de obra através de reuniões com a equipe de produção, elaboração de medições com o cliente e terceirizados, controle de custos e avaliação de resultados do Projeto através do acompanhamento de indicadores\n Location : Belém e Região, Brasil\n \n Job Title : Gerente de Produção\n Company name : Andrade Gutierrez S.A\n Period : jan. de 213 – fev. de 214\n Summary : Gerenciamento da equipe de produção das obras do BRT (Bus Rapid Transit) e da Macrodrenagem de Belém-PA, atuando no planejamento, execução e controle de todas as atividades\n Location : BRT / MABE\n \n Job Title : Engenheiro de obras\n Company name : Andrade Gutierrez S.A\n Period : abr. de 27 – dez. de 212\n Summary : Gerenciamento da excução de obras de terraplanagem, drenagem, saneamento, pavimentação urbanização, obras de arte corrente, obras de arte e de redes de distibuição de energia\n \n \n Job Title : Engenheiro Trainne\n Company name : Construtora Itamaracá\n Period : jul. de 26 – mar. de 27\n Location : Belo Horizonte e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/rogerio-neder-9b581936"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "e02221e2-fb00-41fd-9fb3-0a00d1dfb6d6",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*e02221e2-fb00-41fd-9fb3-0a00d1dfb6d6",
+    "talent": {
+      "updatedAt": "2023-12-20T14:07:37.248Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:07:37.248Z",
+      "linkedinUsername": "rogerio-neder-9b581936",
+      "email": "rogerioneder34@gmail.com",
+      "phone": "91984866834",
+      "name": "Rogerio Neder",
+      "id": "e02221e2-fb00-41fd-9fb3-0a00d1dfb6d6"
+    },
+    "timeInCurrentStage": 61412041568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.408Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "26/06/1981"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "32000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Compatíveis com o mercado + previdência privada"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Mecatrônica",
+          "id": "8d07aa1d-eca7-49bf-a33e-74620ad0b001",
+          "label": "Engenharia Mecatrônica"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Pontifícia Universidade Católica de Minas Gerais"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de engenharia"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de engenharia\n Company name : Andrade Gutierrez S.A\n Period : jun. de 219 – o momento\n Summary : Responsável por propostas de obras industriais\n Location : São Paulo e Região\n \n Job Title : Gerente de Planejamento e Controle\n Company name : Andrade Gutierrez S.A\n Period : out. de 217 – mai. de 219\n Summary : Gerente de Planejamento e Controle da construção da planta FGT no projeto de expansão da Axion Energy\n Location : Axion Refiney, Campana - Buenos Aires\n \n Job Title : Gerente de Construção e Montagem\n Company name : Andrade Gutierrez S.A\n Period : mar. de 215 – out. de 217\n Summary : Gerente da Construção civil e montagem eletromecânica da obra Tubovias no COMPERJ Em 215 tivemos um pico de 75 trabalhadores\n Location : COMPERJ\n \n Job Title : Gerente de planejamento\n Company name : Andrade Gutierrez S.A\n Period : nov. de 213 – mar. de 215\n Summary : Gerente de planejamento da obra Tubovias no Comperj\n Location : Comperj\n \n Job Title : Coordenador de Planejamento\n Company name : Andrade Gutierrez S.A\n Period : mai. de 21 – out. de 213\n Summary : Coordenador do planejamento e controle da Unidade de Coque Retardado e Pátio de Coque do COMPERJ desde Jan/13\n Desde Julho de 212 assumi a coordenação do planejamento do Pátio de Coque, visando a entrega da unidade\n Engenheiro de planejamento responsável pelo planejamento e controle de toda montagem eletromecânica da Unidade de Coque Retardado e Pátio de Coque do COMPERJ Planejamento feito em Primavera P6 e de acordo com o PMBoK, Plano de planejamento, acompanhamento e controle, orçamento de SAE (Solicitação de Alteração de Escopo)além das atividades que já fazia na última obra\n \n Job Title : Engenheiro de Planejamento\n Company name : Andrade Gutierrez S.A\n Period : set. de 27 – mai. de 21\n Summary : Engenheiro de Obras, trabalhando no setor de planejamento da obra\n da Refinaria Gabriel Passos (Carteira de Gasolina) Participei da estruturação do planejamento da obra, seguindo os processos do PMI Responsável pelo\n planejamento da disciplina de tubulação, controle de isométricos emitidos gerando pendências de detalhamento e cadastro no CONTROLTUB, atuando também na Engenharia para emissão de RM`s, no Suprimentos para compra e garantia da data de entrega do material, além das medições de Fabricação, Montagem e Pintura de Tubulação (CONTROLTUB) e Suportes EAP’s de controle do avanço físico e financeiro, histogramas MOD / MOI / Equipamentos, levantamento de materiais, apuração das quantidades determinadas para o aditivo do contrato Desde janeiro de 21, responsável por todo planejamento da parte mecânica da obra, acrescentando às funções anteriores as medições junto à PETROBRÁS (Sistema EXALL) de Equipamentos Mecânicos, Isolamento Térmico e Estrutura Metálica\n \n \n Job Title : Engenheiro Trainee\n Company name : MIP Engenharia S/A\n Period : jun. de 27 – set. de 27\n Summary : Engenheiro responsável pela montagem de um Staker/Reclaimer (Empilhadeira e Retomadora) da expansão da Bahia Pulp no pólo de Camaçari, sobre supervisão do fornecedor (FMW) tendo toda a comunicação da obra em inglês\n Location : Salvador e redondezas, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : MBA Gerenciamento de Projetos, Gerenciamento de Projetos\n Period : 27 – 21\n \n School name : Pontifícia Universidade Católica de Minas Gerais\n Speciality : Engenheiro Mecatrônico\n Period : 2 – 25"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "f7498830-d417-4df0-a603-41093f81a10b",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*f7498830-d417-4df0-a603-41093f81a10b",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:50.572Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:50.572Z",
+      "linkedinUsername": "kessim-molaib-neto-77939922",
+      "email": "kmolaib@gmail.com",
+      "phone": "21971577811",
+      "name": "Kessim Molaib Neto",
+      "id": "f7498830-d417-4df0-a603-41093f81a10b"
+    },
+    "timeInCurrentStage": 61412041568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.525Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "12/06/1983"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "15100"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia civil",
+          "id": "9556216e-65f1-4fb6-b9a8-a919194e751a",
+          "label": "Engenharia civil"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Pontifícia Universidade Católica de Minas Gerais"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de Obras"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RS",
+          "id": "c19237bb-5de6-4d60-9f0b-e17b4f6d39f1",
+          "label": "RS"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de Obras\n Company name : Alupar\n Period : jan. de 218 – o momento\n Summary : - Coordenação de equipes de segurança, planejamento e fiscalização de obras de sistemas de transmissão de energia\n  - Coordenação de empresas contratadas nas atividades de terraplanagem, obra civil, montagem eletromecânica, sistemas elétricos (SPCS / Serviços Auxiliares) e comissionamento\n  - Contratação de empresas e serviços diversos\n  - Responsável pela interface e articulação do campo com todos os demais setores envolvidos com o projeto\n \n Obras:\n EAP - Eólicas do Agreste Potiguar (em andamento)\n * Construção do Complexo Eólico Agreste Potiguar, composto por sete parques e 51 aerogeradores, totalizando 214MVA, incluindo subestação 34,5 x 5kV - 24MVA, RMT e o seccionamento da LT 5kV Açu III x JCT - Jandaíra - RN\n TPE - Transmissora Paraíso de Energia SA\n * Construção da SE Governador Valadares 6 - 5 x 23kV / 12MVA , incluindo os seccionamentos das LT's 23kV GV2 x Mesquita (CEMIG) e também GV2 x Conselheiro Pena (ISA CTEEP) - Governador Valadares - MG\n ETAP - Empresa Transmissora Agreste Potiguar SA\n * Ampliação da SE João Câmara II, sendo a construção de dois bays de entrada de linha de 23kV - Parazinho - RN\n * Ampliação da SE João Câmara III, sendo a construção de três bancos de transformação de 5 x 23kV - 9MVA, totalizando 27MVA, incluindo duas saídas de linha em 23kV - João Câmara - RN\n Location : João Câmara, Rio Grande do Norte, Brasil\n \n Job Title : Engenheiro Residente - Subestações\n Company name : ETE - Engenharia\n Period : abr. de 216 – jan. de 218\n Summary : Gerenciamento de todos os setores do canteiro de obras\n (Planejamento; Produção; Recursos; Suprimentos; EHS)\n \n Principais obras:\n \n * Consórcio GE x ETE - Ampliação da SE ARARAQUARA 2 - Construção de dois bay's de 5kV da empresa Mata de Santa Genebra Transmissão S/A (FURNAS x COPEL) - Araraquara - SP\n * Consórcio GE x ETE - Construção da SE FERNÃO DIAS - 5 x 44kV / 12 MVA, da empresa Mata de Santa Genebra Transmissão S/A (FURNAS x COPEL) - Atibaia - SP\n Location : Araraquara / Atibaia (SP)\n \n Job Title : Engenheiro Residente - Subestações\n Company name : Santa Rita Comércio e Instalações Ltda\n Period : jun. de 212 – mar. de 216\n Summary : - Gerenciamento de todos os setores do canteiro de obras\n (Planejamento; Produção; Recursos; Suprimentos; EHS)\n \n Principais obras:\n \n *Construção da SE CORUMBÁ - 345 x 138kV / 2 x 75 MVA, da Usina Hidrelétrica de Corumbá (FURNAS) - Caldas Novas - GO\n * Consórcio Santa Rita x Alstom x WEG - Construção da SE MARMELEIRO - 525 x 15kV / 21MVA; 2 x SVC 11 MVAr, da empresa Transmissora Sul Litorânea de Energia SA (ELETROSUL x CEEE) - Santa Vitória do Palmar - RS\n *Construção das SE's coletoras 34,5 x 23kV / 2MVA, do Complexo Eólico ALTO SERTÃO III (RENOVA ENERGIA) - Caetité / Igaporã - BA\n Location : Brasil\n \n Job Title : Assistente Técnico\n Company name : Santa Rita Comércio e Instalações Ltda\n Period : mai. de 211 – mai. de 212\n Summary : - Elaboração de relatórios e planilhas de controle de obra\n - Controle de medição\n - Controle de desenhos e documentos\n - Acompanhamento de cronogramas\n - Cálculos e levantamentos de campo\n - Composição de preços para serviços diversos\n - Tomada de preços e tratativas com fornecedores\n *Ampliação da SE 345 / 138 kV de FURNAS em Poços de Caldas - MG\n Location : Poços de Caldas (MG)\n \n Job Title : Técnico Eletroeletrônico\n Company name : GENERAL CABLES / PDIC\n Period : mar. de 22 – mai. de 211\n Summary : - Liderança de equipes de manutenção elétrica\n - Elaboração de planos de manutenção para máquinas e equipamentos elétricos\n - Manutenção elétrica preventiva e corretiva em pontes rolantes\n - Manutenção elétrica corretiva e preventiva em máquinas de extrusão, laminação, encordoamento e trefilação\n - Montagem e manutenção de painéis elétricos de potência, partida de motores, controle de temperatura\n - Instalação e manutenção em motores elétricos CA / CC\n - Instalação e manutenção em inversores de frequência e conversores CC (Allen Bradley, Relliance)\n - Manutenção avançada em impressoras Ink Jet (Video Jet, Imaje)\n - Operação de empilhadeira, plataforma elevatória e pontes rolantes\n Location : Poços de Caldas (MG)\n \n Job Title : Eletricista Montador\n Company name : Ferbatécnica Eletricidade Ltda\n Period : jan. de 22 – mar. de 22\n Location : Poços de Caldas e Região, Brasil\n \n \n Job Title : Estagiário de Nível Técnico\n Company name : GENERAL CABLES / PDIC\n Period : fev. de 21 – dez. de 21\n Location : Poços de Caldas e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Produtividade que Gera Resultados\n Period : Emitido em jul. de 2021 - Nenhuma data de expiração\n Issuing Authority : Alupar\n Title : Diálogo de Desenvolvimento e Feedback - Ciclo 2021 - Gestores\n Period : Emitido em jun. de 2021 - Nenhuma data de expiração\n Issuing Authority : Alupar\n \n Title : Plano de Contingência Coronavírus\n Period : Emitido em jun. de 2020 - Nenhuma data de expiração\n Issuing Authority : Alupar"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : UNOPAR - Universidade Norte do Paraná\n Speciality : Pós-graduação Lato Sensu - MBA, Gestão empresarial\n Period : 221 – 222\n School name : UNINTER Centro Universitário Internacional\n Speciality : Pós-graduação Lato Sensu - MBA, Gestão de Projetos\n Period : 219 – 22\n School name : Pontifícia Universidade Católica de Minas Gerais\n Speciality : Engenheiro Civil, Engenharia Civil\n Period : 24 – 29\n \n School name : Escola Profissional Dom Bosco\n Speciality : Técnico em Eletrotécnica, Técnico em Eletrotécnica\n Period : 1998 – 21"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "5fe92fb4-b682-428e-9546-a4c045e90d67",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*5fe92fb4-b682-428e-9546-a4c045e90d67",
+    "talent": {
+      "updatedAt": "2023-12-20T13:53:40.442Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:53:40.442Z",
+      "linkedinUsername": "eduardo-vasconcelos-43555747",
+      "email": "eng.eduvasconcelos@yahoo.com.br",
+      "phone": "35988041206",
+      "name": "Eduardo Vasconcelos",
+      "id": "5fe92fb4-b682-428e-9546-a4c045e90d67"
+    },
+    "timeInCurrentStage": 61412041568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.018Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "01/10/1984"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "24000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "carro + combustível + plano de saúde + alimentação"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de controle e automação",
+          "id": "4b02f23f-5da6-4b38-a04e-560f17efc0bc",
+          "label": "Engenharia de controle e automação"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Metodista de Piracicaba"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de instalações e Comissionamento"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de instalações e Comissionamento\n Company name : Siemens Energy\n Period : nov. de 219 – o momento\n Location : São Paulo Area, Brazil\n \n Job Title : Project Manager\n Company name : Dresser-Rand - A Siemens Business\n Period : fev. de 215 – nov. de 219\n \n Job Title : Engenheiro de sistemas de controle\n Company name : Dresser-Rand - A Siemens Business\n Period : nov. de 212 – fev. de 215\n Location : Campinas Area, Brazil\n \n Job Title : Control Systems Engineer\n Company name : Dresser-Rand - A Siemens Business\n Period : jan. de 212 – out. de 212\n Location : Houston, Texas Area / Olean, New York Area\n \n Job Title : Talent Development Program 211\n Company name : Siemens Energy\n Period : jan. de 211 – dez. de 211\n Location : Jundiaí - SP, Brazil\n \n Job Title : Electrical Project Technician\n Company name : Umicore\n Period : mai. de 29 – jan. de 211\n Location : Americana - SP, Brazil\n \n \n Job Title : Mechanical Project Technician\n Company name : Umicore\n Period : mai. de 28 – abr. de 29\n Location : Americana - SP, Brazil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "MBA"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas / FGV\n Speciality : Master of Business Administration (MBA), Project Management\n Period : 213 – 214\n School name : Universidade Metodista de Piracicaba\n Speciality : Bachelor's degree, Control and Automation Engineer\n Period : 27 – 211\n \n School name : Faculdades Integradas Einstein\n Speciality : Technician, Mechatronics and Instrumentation\n Period : 24 – 27"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "2a7ca2dd-1042-4203-b04d-d572bb99e95a",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*2a7ca2dd-1042-4203-b04d-d572bb99e95a",
+    "talent": {
+      "createdAt": "2023-12-20T14:06:49.972Z",
+      "email": "diego.garbuglio@hotmail.com",
+      "linkedinUsername": "diego-garbuglio",
+      "name": "Diego Garbuglio",
+      "phone": "19995011507",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-05T13:09:49.148Z",
+      "id": "2a7ca2dd-1042-4203-b04d-d572bb99e95a"
+    },
+    "timeInCurrentStage": 61412041568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.074Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "09/07/1979"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "18000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia civil",
+          "id": "9556216e-65f1-4fb6-b9a8-a919194e751a",
+          "label": "Engenharia civil"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "UFG"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Engenheiro Civil III"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/othondecarvalho"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "811381e7-e08d-4a70-932b-5a7c9a10f0e8",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*811381e7-e08d-4a70-932b-5a7c9a10f0e8",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:27.183Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:27.183Z",
+      "email": "othon.carvalho@gmail.com",
+      "phone": "21995969552",
+      "name": "Othon de Carvalho",
+      "id": "811381e7-e08d-4a70-932b-5a7c9a10f0e8"
+    },
+    "timeInCurrentStage": 61412341568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:34.885Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenadora de Projetos"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenadora de Projetos\n Company name : Andrade Gutierrez S.A\n Period : nov. de 221 – o momento\n Location : Belo Horizonte, Minas Gerais, Brasil\n \n Job Title : Engenheira de projetos\n Company name : Andrade Gutierrez S.A\n Period : fev. de 221 – out. de 221\n Location : Belo Horizonte, Minas Gerais, Brasil\n \n Job Title : BIM Coordinator\n Company name : Andrade Gutierrez S.A\n Period : ago. de 22 – jan. de 221\n Location : São Paulo, Brasil\n \n Job Title : Engenheira de Obras II\n Company name : Andrade Gutierrez S.A\n Period : set. de 219 – jul. de 22\n Location : Campo Alegre de Lourdes, Bahia, Brasil\n \n Job Title : Engenheira de Obras I\n Company name : Andrade Gutierrez S.A\n Period : nov. de 218 – ago. de 219\n Location : Barreiras, Bahia\n \n Job Title : Trainee\n Company name : Andrade Gutierrez S.A\n Period : jan. de 218 – nov. de 218\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Estagiária de Engenharia Civil - Obra\n Company name : JA Backes Engenharia e Construtora Ltda\n Period : mar. de 216 – dez. de 216\n Summary : Acompanhamento da distribuição da equipe de acordo com a demanda de serviços; acompanhamento na área administrativa da empresa bem como com relação aos procedimentos que envolvam funcionários, exigido pela legislação trabalhista; auxílio na quantificação de mão de obra e de materiais, elaboração de orçamentos; apoio ao desenvolvimento de projetos; medição de serviços nas obras; controle de fichas de EPI, etc\n Location : Dois Irmãos\n \n Job Title : Estagiária Engenharia Civil - Projetos\n Company name : ABEPE Consultores Associados\n Period : out. de 213 – out. de 215\n Summary : -Elaboração de projetos (planos) de Prevenção e Proteção Contra Incêndio – PPCI, memoriais descritivos e relatórios\n \n \n Job Title : Estagiária - Engenharia e Projetos\n Company name : Petrobras\n Period : mar. de 213 – set. de 213\n Summary : -Execução de desenhos de tubulação, equipamentos e estruturas metálicas; Levantamento de campo: equipamentos, arranjos de tubulação e estruturas metálicas; Utilização dos softwares Auto CAD e PDMS em projetos e na atividade de as-built; Utilização de normas ASTM, ASME, ABNT, Petrobras; Noções das atividades realizadas na manutenção mecânica; Noções de utilização do SAP e MS Project\n Location : Canoas"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : INTRODUÇÃO À ENERGIA SOLAR FOTOVOLTAICA - SISTEMAS ISOLADOS E CONECTADOS À REDE\n Period : Emitido em jul. de 2021 - Nenhuma data de expiração\n Issuing Authority : Extecamp Unicamp\n Title : Power BI para BIM\n Period : Emitido em jul. de 2021 - Nenhuma data de expiração\n Issuing Authority : EngenhariAZ\n \n Title : Inteligência Emocional\n Period : Emitido em mai. de 2020 - Nenhuma data de expiração\n Issuing Authority : Escola Conquer"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Federal do Rio Grande do Sul\n Speciality : Mestrado, Construção e Infraestrutura\n Period : 221 – 223\n Summary : Gestão e Economia das Construções\n School name : Universitat de Barcelona\n Speciality : Master's degree, BIM Management\n Period : 22 – 221\n School name : Zigurat Innovation & Technology Business School\n Speciality : Master's degree, BIM Management\n Period : 22 – 221\n School name : Universidade do Vale do Rio dos Sinos\n Speciality : Graduação, Engenharia Civil, 8,94\n Period : 213 – 217\n Summary : Monitora da disciplina de Hidráulica\n \n School name : Fundação Escola Técnica Liberato Salzano Vieira da Cunha\n Speciality : Técnico, Mecânica Industrial\n Period : 29 – 212\n Courses: Title : Curso Gestão e Gerenciamento de Obras / 2 horas; Title : Curso básico de Hidráulica; \n Title : Estruturas de concreto pré-moldado"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "61b2bb4b-eb9e-43de-bb9f-ebeae62136db",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*61b2bb4b-eb9e-43de-bb9f-ebeae62136db",
+    "talent": {
+      "updatedAt": "2023-12-20T13:57:20.612Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:57:20.612Z",
+      "linkedinUsername": "sabrinajhansen",
+      "email": "sah.hansen@gmail.com",
+      "phone": "51997571760",
+      "name": "Sabrina Hansen",
+      "id": "61b2bb4b-eb9e-43de-bb9f-ebeae62136db"
+    },
+    "timeInCurrentStage": 61412341568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.281Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "10/02/1990"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "18000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia civil",
+          "id": "9556216e-65f1-4fb6-b9a8-a919194e751a",
+          "label": "Engenharia civil"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de engenharia"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de engenharia\n Company name : Entrevias Concessionária de Rodovias S.A\n Period : set. de 219 – o momento\n Summary : Coordenação Técnica de Projetos de Infraestrutura Rodoviária, pedágio, PGF (posto geral de fiscalização) entre outros;\n Gestão Contratual de Terceiros;\n Apoio técnico de Obra;\n Gestão da equipe de engenharia da Concessionária;\n Avaliação e coordenação dos atendimentos solicitado pela Agência (ARTESP);\n Estudo e coordenação das demandas do contrato de concessão;\n Coordenação do monitoramentos previsto no contrato de concessão (Pavimento e obra de arte);\n \n Job Title : Engenheiro de Projetos\n Company name : Entrevias Concessionária de Rodovias S.A\n Period : ago. de 217 – set. de 219\n Summary : Coordenação Técnica de Projetos de Infraestrutura Rodoviária, pedágio, PGF (posto geral de fiscalização) entre outros;\n Gestão Contratual de Terceiros;\n Apoio técnico de Obra;\n Avaliação e coordenação dos atendimentos solicitado pela Agência (ARTESP);\n Estudo e coordenação das demandas do contrato de concessão;\n Coordenação do monitoramentos previsto no contrato de concessão (Pavimento e obra de arte);\n Location : São Paulo, São Paulo\n \n Job Title : Coordenador de projetos\n Company name : Urbaniza Engenharia Consultiva\n Period : nov. de 215 – jun. de 217\n Summary : Coordenação, análise , compatibilização de projetos na área de infraestrutura urbana, rodovias, urbanização e edificação\n Gestão de equipes e projetos terceirizados\n Location : São Paulo\n \n Job Title : Engenheiro estrutural\n Company name : Urbaniza Engenharia Consultiva\n Period : ago. de 214 – nov. de 215\n Summary : - Estudos de Projeto de Estrutura - Edificações/Obras de Artes especiais\n - Cálculo de Estruturais ( lajes, vigas, pilares, fundações e contenções)\n - Coordenação da Equipe de Estrutura\n - Coordenação de Obras de artes (Pontes e Viadutos)\n Location : São Paulo e Região, Brasil\n \n Job Title : Engenheiro Civil\n Company name : Pedreira Engenharia\n Period : jan. de 214 – ago. de 214\n Summary : - Estudos de Projeto de Estrutura\n  - Cálculo de Estruturais ( lajes, vigas, pilares, Fundações e Contenções)\n \n Job Title : Projetista\n Company name : Pedreira Engenharia\n Period : fev. de 211 – dez. de 213\n Summary : - Elaboração de Desenhos de Armação ( lajes, vigas, pilares, Fundações e Contenções)\n - Elaboração de Formas de concreto\n - Compatibilização de Projetos ( Elétrica, Hidráulica, Pressurização e Ar condicionado)\n - Projetista em Concreto armado/Pré-moldado\n \n Job Title : Projetista\n Company name : Geometrica Engenharia\n Period : out. de 21 – fev. de 211\n Summary : -Elaboração de Desenhos de Armação ( lajes, vigas, pilares, Fundações e Contenções)\n -Desenvolvimento de projeto de Obras especiais (drenagem,pontes e viadutos)\n -Elaboração de Armação ( Pontes, Viadutos, Escolas, Drenagem)\n -Compatibilização de Projetos com demais disciplinas\n - Projetista em Concreto armado - Obras de Artes\n Location : São Paulo e Região, Brasil\n \n Job Title : Auxiliar de seção técnica\n Company name : Mendes Junior\n Period : jun. de 29 – out. de 21\n Summary : -Acompanhamento de Obra \n - Elaboração de medições junto a contratada \n - Elaboração de Medições com Terceiros\n - Controle de Cronograma de Obra\n - Solicitação de Compras e Programação com a obra\n - Compatibilização de Projeto/Obra\n - Acompanhamento de Propostas\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Estagiario\n Company name : Pedreira Engenharia\n Period : jan. de 28 – jun. de 29\n Summary : - Elaboração de Desenhos de Armação ( lajes, vigas, pilares, Fundações e Contenções)\n - Elaboração de Formas de concreto\n - Compatibilização de Projetos ( Elétrica, Hidráulica, Pressurização e Ar condicionado)\n - Projetista em Concreto armado/Alvenaria Estrutural\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/felipe-dias-68897476"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "72951b2e-f976-4fd0-8ce9-fbbfa112f755",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*72951b2e-f976-4fd0-8ce9-fbbfa112f755",
+    "talent": {
+      "updatedAt": "2023-12-20T14:11:02.531Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:11:02.531Z",
+      "linkedinUsername": "felipe-dias-68897476",
+      "email": "felipefds2005@gmail.com",
+      "phone": "11971009842",
+      "name": "Felipe Dias",
+      "id": "72951b2e-f976-4fd0-8ce9-fbbfa112f755"
+    },
+    "timeInCurrentStage": 61412341568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.182Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "19/04/1981"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "17000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Compatível com o mercado."
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Elétrica",
+          "id": "9351680b-8549-4071-98fc-d485b31dc312",
+          "label": "Engenharia Elétrica"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "UNESP - Universidade Estadual Paulista"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Project Manager"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Project Manager\n Company name : GE\n Period : fev. de 219 – o momento\n Location : Betim e Região, Brasil\n \n Job Title : Project Manager\n Company name : Bureau Veritas Brasil\n Period : ago. de 217 – fev. de 219\n Summary : Managing contracts and projects worldwide with teams located in countries like Brazil, China, USA, Spain, Portugal, etc\n Location : São Paulo e Região, Brasil\n \n Job Title : Gerenciamento de projetos\n Company name : Em transição de carreira, com suporte Lee Hecht Harrison\n Period : fev. de 216 – ago. de 217\n Summary : Em busca de um novo desafio profissional para atuar na gestão de projetos nos segmentos de Implantação, Planejamento e Qualidade\n Location : São Paulo Area, Brazil\n \n Job Title : Coordenador de Projetos e Construção\n Company name : Anglo American\n Period : fev. de 214 – fev. de 216\n Summary : Responsável pelo gerenciamento e construção de: 5 subestações, montagem eletromecânica de equipamentos como Empilhadeiras, Retomadoras de Minério, Carregador de Navios , Transportadores de correias e responsável pela construção de edifícios administrativos, sistemas de tratamento de água e esgoto e sistemas de proteção e combate à incêndio\n Location : Porto do Açu\n \n Job Title : Coordenador de Projetos\n Company name : Vale\n Period : nov. de 211 – fev. de 214\n Summary : Coordenação da construção e montagem de 2 subestações elétricas, montagem e processo de entrega de mais de 8 equipamentos de mineração (Caminhões \"fora de estrada\" de 4T, Escavadoras 1T, Perfuratrizes, Pás Carregadeiras 7T, etc), e responsável pela gestão do armazém do Projeto + 4MTPA\n Location : Carajas - PA\n \n Job Title : Gerente de Projetos e Desenvolvedor de Novos Negócios\n Company name : Bureau Veritas UK\n Period : abr. de 21 – abr. de 211\n Summary : Trabalhando na gestão de contratos de inspeção, diligenciamento, desenvolvimento de fornecedores e processos de auditoria, coordenando de processos de licitação e emissão de propostas técnicas e comerciais atendendo clientes como SNC-Lavalin, ESKOM, BP e outros na região da Grande Londres e no norte da Escócia\n Location : London/Aberdeen - UK\n \n \n Job Title : Coordenador de Projetos\n Company name : Bureau Veritas UK\n Period : mar. de 27 – mar. de 21\n Summary : Coordenação e gestão de equipes de auditores, inspetores e expedidores com mais de 4 profissionais por 3 anos em vários projetos em diferentes regiões do país, trabalhando para aumentar o volume de negócios do setor em mais de cinco vezes entre 27 e 21\n Location : São Paulo - Brazil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Photovoltaic Solar Energy Module - Capacity Building Programme in Renewable Energy\n Period : Emitido em nov. de 2016 - Nenhuma data de expiração\n Issuing Authority : Cursos Internacionales de la Universidad de Salamanca\n \n Title : Certificate for Solar Energy\n Issuing Authority : edX"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Escola Politécnica da USP\n Speciality : Master of Engineering (M.Eng.), Renewable Energy, Energy Efficiency and Distributed Generation\n Period : 217 – 218\n School name : Fundação Getulio Vargas / FGV\n Speciality : Master of Business Administration (M.B.A.), Project Management\n Period : 212 – 213\n \n School name : UNESP - Universidade Estadual Paulista\n Speciality : 26, Electrical, Electronics and Communications Engineering\n Period : 21 – 26\n Summary : IEEE"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "1e5eee6e-5b8c-44f8-bf33-2413d8e8c40f",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*1e5eee6e-5b8c-44f8-bf33-2413d8e8c40f",
+    "talent": {
+      "updatedAt": "2023-12-20T13:03:06.814Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:03:06.814Z",
+      "linkedinUsername": "rafaelbarrosfernandes",
+      "email": "rbp.fernandes@gmail.com",
+      "phone": "31999155090",
+      "name": "Rafael Barros Fernandes",
+      "id": "1e5eee6e-5b8c-44f8-bf33-2413d8e8c40f"
+    },
+    "timeInCurrentStage": 61412341568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:34.990Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "10/04/1981"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "52000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "10.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia civil",
+          "id": "9556216e-65f1-4fb6-b9a8-a919194e751a",
+          "label": "Engenharia civil"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Santa Úrsula"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Head of Projects"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "PA",
+          "id": "091855ab-53b4-408c-9178-7194c1238f55",
+          "label": "PA"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Head of Projects\n Company name : Mineração Rio do Norte\n Period : jan. de 221 – o momento\n \n Job Title : General Project Manager\n Company name : Mineração Rio do Norte\n Period : ago. de 217 – dez. de 22\n Summary : Responsible for the West Zone Program development (extension of the mine life), composed by 3 mega projects (actually in feasibility study phase FEL2/FEL3):\n - New Mines Project;\n - 23 kV Transmission System Project and;\n - Tailing System Project - Long Term;\n Location : Porto Trombetas, Pará, Brazil\n \n Job Title : Engineering Manager\n Company name : Arcadis\n Period : mai. de 216 – ago. de 217\n Summary : Proyecto Línea Amarilla\n LAMSAC / Vinci Highways\n Implementation of a 12km highway, comprising 13 Viadcuts, 1,8km Tunel and a suspended bridge Investment of US$ 6 B Total manpower at peak of the works: 2, workers\n - Overall Project Engineering Coordination;\n - Contracts Coordination;\n - Packing Plan preparation;\n - Procurement Plan & Strategy;\n - Tender Documents Preparation;\n - Technical/Commercial Proposals Evaluation;\n - Engineering Planning\n Location : Lima Province, Peru\n \n Job Title : Construction Manager\n Company name : Arcadis\n Period : nov. de 215 – abr. de 216\n Location : Rio de Janeiro Area, Brazil\n \n Job Title : Construction Manager\n Company name : Arcadis\n Period : mai. de 214 – out. de 215\n Summary : Indonesia Growth Program (IGP) for PT Vale Indonesia\n Expansion of a Nickel Process Plant from 72 to 12 ktpy, with investment of US$ 16 B\n - Execution Strategy and Methodology Preparation;\n - Procurement Plan Development;\n - Support for Planning and Control;\n - Support for engineering activities development;\n - Constructability for overall implementation;\n - Support for Capex elaboration;\n - Procurement Process Support: Packing, Bidders Pre-Qualification, Tender Documentation verification and approval and Technical Evaluation\n Location : Jakarta - Indonesia\n \n Job Title : Offshore Construction Manager\n Company name : Arcadis\n Period : set. de 21 – abr. de 214\n Summary : Vale Malaysia Minerals Project (VMMP)\n Implementation of a 6 Mtpy Distribution Center for Iron Ore, comprising Onshore and Offshore facilities Investment in Phase 1A: US$ 14 B Total manpower at the peak of works: 4,8 workers\n - Management of interfaces between the client and the engineering company worldwide;\n - Support to Procurement: supply packages (all disciplines), pre-qualification of bidders, tender documentation - verification and approval, technical evaluation of proposals, final technical assessment for Services Packages (all disciplines);\n - Support and Field engineering (all disciplines);\n - Engineering Time Schedule: monitoring of adherence to planned activities;\n - Managing the conformity among construction, engineering documents, standards and procedures;\n - Contract Manager for Offshore electromechanical Works from Feb 213;\n - Contract management;\n - Claims administration;\n - Overall Construction Management\n Location : Lumut - Malaysia\n \n Job Title : Resident Engineer\n Company name : Arcadis\n Period : ago. de 29 – ago. de 21\n Summary : Juruena Participações e Investimentos SA\n Resident Civil Engineer for Cidezal (16 MW) and Sapesal (17 MW) SHPPs\n Construction of 5 SHPPs (Small Hydropower Plants), with maximum nominal generation capacity of 3 MW Capital Investment: US$ 4 B Total manpower at the peak of works: 1,5 workers\n - Construction Supervision, encompassing: Dams - earthworks (6, m3), concrete pouring (6, m3) and Infrastructure services;\n - Management of the interface between the construction and the owner’s engineering and consulting companies;\n - Responsible for the activities preceding the river diversion;\n - Analysis and approval of contractors’ measurements bulletins;\n - Monitoring of physical and financial adherence to plans;\n - Contract management;\n - Claims administration;\n - Overall Construction Management\n Location : Sapezal/MT - Brazil\n \n Job Title : Civil Resident Engineer\n Company name : Arcadis\n Period : dez. de 27 – jul. de 29\n Summary : Alcoa – Juruti Bauxite Mine Project- Pará, Brazil\n Implementation of a “Greenfield” mining complex - nominal production capacity 26 Mtpy, including extraction, mining storage system, 55 km of railroads, 52 km of roads and port distribution center system Capital Investment: US$ 12 B Total manpower at the peak of works: 1, workers \n - Preparation and Analysis of the steel pile driving reports Total 216 driven piles with 7 mm and 9 mm diameter, including main jetty, berthing and mooring facilities;;\n - Supervision of the superstructure for the jetty construction;\n - Supervision of railroad and road services, including earthworks (6 million m3) and drainage system (135, m);\n - Supervision of civil works for the mine development, such as: chemical and physical bauxite laboratories, crushing system, yard machines, conveyors system, washing bauxite building, silo’s building, sampling sys-tem, sewage system, water system, electrical underground system, drainage system, fire-fighting system, power generation system, 9 substations, tailing ponds, wagons and locomotive maintenance building, warehouse and workshop buildings, fuel station among others;\n - Analysis and approval of contractors’ measurements bulletins;\n - Monitoring of physical and financial adherence to plans;\n - Contract management;\n - Claims administration;\n - Overall Construction Management\n Location : Juruti/PA - Brazil\n \n Job Title : Civil Engineer\n Company name : Arcadis\n Period : jun. de 25 – nov. de 27\n Summary : Vale Tubarão Port Project\n Portfolio of around 1 Projects, with capital investment varying from US$ 5, to US$ 1 M\n Responsible for supervision of civil works, analysis and approval of contractors’ measurements bulletins, monitoring of physical and financial adherence to plans and implementation of action plans for the following Projects:\n - Iron Ore Stockyard with 28, ton capacity, including earthworks, civil works, machines and conveyor sys-tem foundations with approximately 2, m length;\n - Conveyor System for Pellet Transportation from Vale’s Site to CST (Companhia Siderúrgica Tubarão), with 2,5 m length, including earthworks and civil works;\n - Iron Ore Stockyard with 6, ton capacity, including civil works for a tunnel and conveyor system connec-tion to the Vale/CST System;\n - Structural Civil Works of the Pelletizing Plant - 3 buildings;\n - Limestone Stockyard, including effluent treatment system, conveyor’s system civil works and mobile hopper;\n - “Jetty TPD Terminal” recuperation, including launch of 6, ton of rock through the sea and land;\n - Contract management;\n - Claims administration;\n - Overall Construction Management\n Location : Vitoria/ES - Brazil\n \n \n Job Title : Civil Engineer\n Company name : Arcadis\n Period : abr. de 25 – mai. de 25\n Summary : Assistant Engineer for the Technical and Commercial Proposals department\n Location : Rio de Janeiro - Brazil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Liderança Transformadora\n Period : Emitido em nov. de 2018 - Nenhuma data de expiração\n Issuing Authority : Fundação Dom Cabral\n Title : Gerenciamento de Riscos em Projetos\n Period : Emitido em out. de 2018 - Nenhuma data de expiração\n Issuing Authority : FGV - Fundação Getulio Vargas\n \n Title : PMP - Project Management Professional\n Period : Emitido em set. de 2015 - Nenhuma data de expiração\n Issuing Authority : Project Management Institute"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : HEI - Hautes Etudes d'Ingénieur\n Speciality : Exchange Program, Civil Engineering\n Period : 24 – 25\n Summary : Civil Engineering Exchange Program at “Université Catholique de Lille” | France (last semester).\n \n School name : Universidade Santa Úrsula\n Speciality : Bachelor’s Degree, Civil Engineering\n Period : 2 – 24\n Summary : 4,5 years at \"Universidade Santa Ursula in Rio de Janeiro - Brazil\"​ and last semester at \"Universite Catholique de Lille\", in Lille - France.\n Courses: Title : AMP 14: Advanced Management Program, involving virtual assignments, including face-to-face sessions in Amsterdam on October 212 and San Fancisco (USA) on February 213.; Title : Construction Pathology at Catholic University of Lille - France - 6 Hrs.; Title : Internal Manager's Training;; Title : Internal People’s Management Training;; Title : Internal Project Management Training;; Title : Internal Training for PEP (Executive Project Plan);; Title : Introduction to Project Management based on PMI methodology;; Title : PGM Academy (ARCADIS) & Program Leadership (Said Business School Oxford University): 2 years Program including virtual assignments and face-to-face sessions in London, New York and Doha: 214/215; \n Title : YPMTP 212 – Young Professionals Management Team Program 212: A seven-months on-line Training program for young professionals and potential managers, promoted by FIDIC (International Federation of Consulting Engineers), including Annual Conf. Seoul 212;"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "331855c8-3fa7-4942-8075-f7e1e9629fc8",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*331855c8-3fa7-4942-8075-f7e1e9629fc8",
+    "talent": {
+      "updatedAt": "2023-12-20T13:57:24.702Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:57:24.702Z",
+      "linkedinUsername": "leonardo-paiva-pmp-msp-96786938",
+      "email": "leonardo.paiva.br@gmail.com",
+      "phone": "93991473703",
+      "name": "Leonardo Paiva",
+      "id": "331855c8-3fa7-4942-8075-f7e1e9629fc8"
+    },
+    "timeInCurrentStage": 61412041568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.226Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "17/06/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "18000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "44961"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45050"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Compatíveis + Gympass + auxilio para cursos + auxilio creche + professor particular de inglês"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Elétrica",
+          "id": "9351680b-8549-4071-98fc-d485b31dc312",
+          "label": "Engenharia Elétrica"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Salvador"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Engenheiro Eletricista - Coordenador de Projetos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "9ea747d2-cc7b-43ca-bfc2-2836a4447c4f",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*9ea747d2-cc7b-43ca-bfc2-2836a4447c4f",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:43.043Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:43.043Z",
+      "email": "importacao8740@importacaoinhire.com",
+      "phone": "71993024888",
+      "name": "Paulo Zugaib",
+      "id": "9ea747d2-cc7b-43ca-bfc2-2836a4447c4f"
+    },
+    "timeInCurrentStage": 61412041568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.442Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "11/02/1990"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "9000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Compatível + carro"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia civil",
+          "id": "9556216e-65f1-4fb6-b9a8-a919194e751a",
+          "label": "Engenharia civil"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Pontifícia Universidade Católica de Campinas"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de Obras"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de Obras\n Company name : Construtora Simoso Ltda\n Period : jun. de 219 – o momento\n Summary : • Coordenação das obras de construção civil pesada (infraestrutura público e privado, loteamentos e avenidas Sendo serviços de terraplenagem, drenagem, rede coletora de esgoto, rede de água potável, pavimentação, OAC, fresagem e recapeamento \n • Responsável por coordenar e gerenciar equipes multidisciplinares, prazos, custos e qualidade das obras \n • Responsável por fiscalizar e avaliar a performance das equipes de execução de obras, desenvolvimento de relatório técnico, cronograma físico-financeiro, revisar projetos e relatar divergências para realinhamento do projeto e processo de aditamento, realizar medições para faturamento dos serviços realizados, realizar a abertura de novos fornecedores e empreiteiros, orçar e elaborar o mapa de cotações de materiais e serviços, follow-up dos processos de compras, realizar a contratação das equipes de obras (empreiteiros) e responsável pelo suporte a segurança do trabalho\n \n Job Title : Engenheiro Civil\n Company name : Lummina Hotel Incorp. Spe Ltda\n Period : dez. de 216 – fev. de 219\n Summary : • Responsável técnico e coordenação de obra vertical com 1 subsolo em concreto armado (ramo \n hoteleiro) e consultoria no ramo hoteleiro \n • Responsável pela interface junto a incorporadora, por gerenciar equipes multidisciplinares, prazos, custos e qualidade da obra \n • Responsável pela gestão da obra desde o kickoff da mesma até a entrega final, garantindo a satisfação do cliente e maximização da rentabilidade prevista, desenvolver relatórios técnicos e realizar visitas técnicas \n • Responsável pela abertura de novos fornecedores e empreiteiros, orçamentação, elaboração do mapa de cotações de materiais e serviços, realizar a contratação das equipes (empreiteiros) e follow-up dos processos de compras/entregas, por garantir que todos os colaboradores sigam os padrões de segurança do trabalho e por todo processo da retirada do AVCB \n • Realizar a compatibilidade entre todos os projetos, realizar o levantamento de material necessário, estudando e estabelecendo métodos de utilização eficaz e econômicos de materiais e equipamentos, viabilizando os custos e racionalizando gastos desnecessários, realizar medições para faturamento dos serviços, bem como atualizar as previsões financeiras das medições futuras (fluxo de caixa)\n Location : Mogi Guaçu e Região, Brasil\n \n Job Title : Engenheiro civil\n Company name : Vêneto Engenharia LTDA\n Period : out. de 215 – dez. de 216\n Summary : • Responsável técnico e coordenação de obras verticais (ramo hoteleiro) e obras residenciais em \n concreto armado, ampliações de galpões industriais, residências de médio e alto padrão \n • Responsável pela interface entre construtora e incorporadora, por gerenciar custos x realizado \n • Responsável por garantir que todos os colaboradores sigam os padrões de segurança do trabalho, pela abertura de novos fornecedores e empreiteiros, orçamentação, realizar a contratação das equipes (empreiteiros) e follow-up dos processos de compras/entregas \n • Realizar o levantamento de material necessário, estudando e estabelecendo métodos de utilização eficaz e econômicos de materiais e equipamentos, evitando gastos desnecessários\n Location : Mogi Guaçu Area, Brazil\n \n Job Title : Engenheiro Civil\n Company name : Construtora e Imobiliária Zaniboni\n Period : jun. de 215 – set. de 215\n Summary : • Coordenação de obras verticais (ramo hoteleiro) em concreto armado e laje protendida, galpões \n industriais, reformas e loteamentos \n • Responsável pela abertura de novos fornecedores e empreiteiros, orçamentação, elaboração do mapa de cotações de materiais e serviços, realizar a contratação das equipes (empreiteiros) e follow-up dos processos de compras/entregas, por garantir que todos os colaboradores sigam os padrões de segurança do trabalho e por todo processo da retirada do AVCB \n • Gerenciar os prazos de obra, entrega de materiais, custos e qualidade da obra\n Location : Mogi Mirim\n \n Job Title : Engenheiro Civil\n Company name : Sector Gestão e Participação em Negócios Imobiliários LTDA\n Period : abr. de 214 – mai. de 215\n Summary : • Execução de obras residenciais de médio padrão em alvenaria estrutural \n • Responsável pela gestão da obra desde o kickoff da mesma até a entrega final, garantindo a satisfação do cliente e maximização da rentabilidade prevista \n • Responsável pela abertura de novos fornecedores e empreiteiros, orçamentação e contratação das equipes (empreiteiros)\n Location : Mogi mirim\n \n \n Job Title : Estagiário em Engenharia Civil\n Company name : Sector Gestão e Participação em Negócios Imobiliários LTDA\n Period : abr. de 213 – mar. de 214\n Summary : • Responsável pelos As built, cronograma físico-financeiro, planejamento e gerenciamento de obra, conferência de materiais, cotações e contratações de MO\n Location : Mogi Mirim"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Pós Graduação em Administração de Empresas, Administração de Empresas\n Period : 219 – 222\n School name : Centro Universitário Adventista de São Paulo\n Speciality : Engenharia de Segurança do Trabalho, Engenharia de segurança do Trabalho\n Period : 216 – 217\n \n School name : Pontifícia Universidade Católica de Campinas\n Speciality : Engenharia Civil, Engenharia Civil\n Period : 29 – 214"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "57fb905b-2ca2-49ae-8e0a-9bce842917d7",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*57fb905b-2ca2-49ae-8e0a-9bce842917d7",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:16.647Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:16.647Z",
+      "linkedinUsername": "renatosbeghen",
+      "email": "engec.renato@gmail.com",
+      "phone": "19981650617",
+      "name": "Renato Sbeghen",
+      "id": "57fb905b-2ca2-49ae-8e0a-9bce842917d7"
+    },
+    "timeInCurrentStage": 61412041568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.121Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "28/09/1988"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "14000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "1.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "1.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Compatíveis com o mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Elétrica",
+          "id": "9351680b-8549-4071-98fc-d485b31dc312",
+          "label": "Engenharia Elétrica"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Paulista"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Engenharia e Projetos"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de Engenharia e Projetos\n Company name : ISRA VISION\n Period : jul. de 219 – o momento\n Summary : > Desenvolvimento de projetos, atuando nas fases de concepção, planejamento, execução e comissionamento;\n > Planejamento e controle da aplicação de recursos nos projetos, garantindo o atendimento ao escopo e condições estabelecidas;\n > Aplicação e testes de novos produtos e softwares;\n > Elaboração e aplicação de treinamentos técnicos;\n > Suporte para as áreas de Compras e Vendas Visitas técnicas aos clientes para identificação das necessidades e apresentação do portfólio;\n > Monitoramento de indicadores, como custos (planejado x realizado), prazo de entrega, satisfação de clientes, qualificação da equipe e outros Elaboração e controle de planos de ação;\n > Gerenciamento da equipe Definição e controle de processos, fluxos de trabalho, metas e resultados\n  \n PRINCIPAIS RESULTADOS: \n  \n # Aumento de 35% no faturamento médio anual, estabelecendo relações de confiança e construindo propostas de valor para as necessidades de cada cliente;\n # Expressivo aumento na satisfação dos clientes, reestruturando e capacitando a equipe de engenharia de campo\n Location : São Paulo e Região, Brasil\n \n Job Title : Engenheiro de Aplicação\n Company name : ISRA VISION\n Period : abr. de 214 – jul. de 219\n Summary : > Instalação, comissionamento e manutenção de sistemas;\n > Desenvolvimento de soluções estratégicas;\n > Configuração de perfis de usuários conforme as necessidades dos clientes;\n > Desenvolvimento de treinamentos técnicos;\n > Apoio à área de Vendas no atendimento aos clientes e elaboração de propostas comerciais; \n > Suporte no gerenciamento de projetos, atuando nos levantamentos técnicos em reuniões de kick off\n Location : São Paulo\n \n Job Title : Projetista Elétrico\n Company name : Belsys Engenharia & Automação\n Period : jan. de 214 – abr. de 214\n Summary : > Análise da viabilidade de projetos;\n > Levantamento de campo Análise de requisitos técnicos;\n > Desenvolvimento de projetos elétricos;\n > Dimensionamento de equipamentos para projetos;\n > Elaboração de listas de materiais\n Location : Campinas e Região, Brasil\n \n Job Title : Estagiário de Engenharia\n Company name : Robert Bosch GmbH\n Period : jan. de 213 – jan. de 214\n Summary : > Programação e desenvolvimento de aplicações de sistemas com uso de sensores de visão;\n > Desenvolvimento, modificação, padronização de projetos e componentes elétricos através de software CAD;\n > Desenvolvimento e modificação de softwares para PLC e IHM;\n > Coordenação de fornecedores no desenvolvimento e testes de softwares em máquinas especiais;\n > Participação no desenvolvimento de conceitos para projetos elétricos de máquinas especiais\n Location : Campinas e Região, Brasil\n \n \n Job Title : Eletricista e Instrumentista Senior\n Company name : International Paper\n Period : jan. de 27 – jan. de 213\n Summary : > Otimização do processo industrial, manutenção e configuração, bem como programação de PLCs e IHMs;\n > Projeto e manutenção de sistemas hidráulicos e pneumáticos Programação e instalação de diversos tipos de motores incluindo acionamento de motores DC e AC;\n > Manutenção de impressoras industriais VideoJet;\n > Desenvolvimento de novas máquinas e painéis elétricos visando melhor processo, qualidade e produtividade\n Location : Mogi Guaçu, São Paulo, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Ibmec\n Speciality : Master of Business Administration - MBA, Gerenciamento de Projetos\n Period : 22 – 221\n School name : Universidade Paulista\n Speciality : Bacharelado em Engenharia, Engenharia Elétrica e Eletrônica\n Period : 29 – 214\n \n School name : Colégio Técnico Lenz\n Speciality : Técnica, Automação\n Period : 27 – 29\n Courses: Title : Elétrica, Automação e Controle; \n Title : Gerenciamento de Projetos PMBOK"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "512c3cf5-bddc-4418-b7a1-2a2c8d0dbf8e",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*512c3cf5-bddc-4418-b7a1-2a2c8d0dbf8e",
+    "talent": {
+      "updatedAt": "2023-12-20T13:52:44.580Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:52:44.580Z",
+      "linkedinUsername": "cassio-lucass",
+      "email": "cassio.lucass@gmail.com",
+      "phone": "19997468405",
+      "name": "Cássio Lucas",
+      "id": "512c3cf5-bddc-4418-b7a1-2a2c8d0dbf8e"
+    },
+    "timeInCurrentStage": 61412041568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:34.913Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de projetos"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de projetos\n Company name : ISA CTEEP\n Period : mai. de 221 – o momento\n Location : São Paulo, Brasil\n \n Job Title : Sistemas de Proteção, Automação\n Company name : ISA CTEEP\n Period : 216 – mai. de 221\n Summary : SPAT_TC - Sistemas de Proteção, Automação\n \n Atividades de Executadas:\n Responsável pelos acompanhamentos junto a Engenharia (Supervisão, Proteção e Automação) de Subestações e Linhas de Transmissão (até 44 volts) Comissionamentos, Manutenção Preventiva e Corretiva em Subestações e Linhas de Transmissão\n Gestão de planos de manutenção utilizando SAP PM\n \n \n Treinamento no software ELIPSE (monitoramento e supervisão do sistema de energia) Duração: 3 dias\n Location : Jundiaí\n \n \n Job Title : Sistema de Proteção Controle e Automação\n Company name : Elektro\n Period : 29 – 215\n Summary : Atividades de Executadas:\n Responsável pelos acompanhamentos junto a Engenharia o SPAE da região Leste (Supervisão, Proteção e Automação) de Subestações de Distribuição e Linhas de Subtransmissão (até 138 volts) Comissionamentos em Digitalização em subestações TAF e o TAC, desenvolvimento de projetos relacionados a Manutenção Preventiva, Preservação e Modernização dos ativos da empresa \n Responsável pela implementação e execução dos projetos do SPAE da Região Leste, quando esses serviços não são terceirizados (para trabalhos de baixa complexidade)\n Participação nono plano de Manutenção com a resolução ANEEL 367\n Aprimoramento na gestão de planos de manutenção utilizando SAP PM\n Gestão de planos de manutenção utilizando SAP PM\n Desenvolvimento de atividades relacionadas a Resolução ANEEL 367 e R\n \n Atividades de gerenciamento de projetos:\n Responsável pelo Acompanhamento de Projetos e Planejamento de Custos da Engenharia, que devem estar alinhados com o orçamento e metas da empresa, para Expansão e Preservação Gerencie as atividades de faturamento para garantir que elas sejam emitidas com precisão e alinhadas com o Cronograma Mestre do Projeto Responsável por monitorar a conclusão dos marcos do projeto antes da emissão das faturas\n \n TREINAMENTO:\n Treinamento em Hardware e Software OMICRON Test Universe Duração: 3 dias\n Treinamento em RELÉS de Proteção SEL Duração: 5 dias\n Location : Atibaia"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Federal de Itajubá\n Speciality : Especialização, Proteção de Sistemas Elétricos\n Period : 219 – 219\n Summary : O CEPSE destina-se a capacitar profissionais em assuntos pertinentes aos sistemas de Proteção industriais até extra alta tensão. O objetivo é fornecer ao treinando o conhecimento das diversas filosofias de ajustes, funcionamento de equipamentos, qualidade de energia, RTDS, aplicação de softwares amplamente utilizados no setor (Anafas, PTW, ATP etc).\n School name : Instituto Nacional de Telecomunicações - Inatel\n Speciality : Pós Graduação em Engenharia de Automação e Sistemas Elétricos\n Period : 219 – 221\n Summary : • Conhecer os dispositivos envolvidos na automação de subestação, bem como hubs, switches, routers, modems, relés, multimedidores, dispositivo de monitoramento de equipamentos da SE’s e processadores de comunicação, concentradores, gateway e etc;• Conhecer das topologias aplicadas nos sistemas de automação de SEs;• Conhecimento dos conceitos de SOE – Sequenciamento de Eventos, GPS – Global Positioning Systems, IRIG-B Inter Range Instrumentation Group – B, NTP – Network Time Protocol, PTP – Precision Time Protocol;• Obter conhecimento aos diversos tipos de protocolos de comunicação usado em subestações (IEC 6185 GOOSE, IEC 6185 Sampled Values e IEC 6185 MMS, DNP Serial e LAN, Modbus RTU e TCP, IEC 11/14, etc)• Ter conhecimento da estrutura para construção de um sistema de automação compreendendo configuração de IEDs, concentradores de dados elaboração de base de dados do SCADA (Sistema supervisório)\n School name : Faculdade Politecnica Jundiaí\n Speciality : Engenharia Elétrica, Engenheiro Eletricista\n Period : 214 – 218\n \n School name : Colegio Alem\n Speciality : Técnico em Eletrônica\n Period : 26 – 29"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "a8ad1979-a2b4-478e-be76-06ffd95dca34",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*a8ad1979-a2b4-478e-be76-06ffd95dca34",
+    "talent": {
+      "company": "",
+      "createdAt": "2023-12-20T14:06:47.336Z",
+      "email": "kelvin.engenharia@hotmail.com",
+      "headline": "",
+      "linkedinUsername": "kelvin-dias-de-araújo-b60ba5a4",
+      "location": "",
+      "name": "Kelvin Dias de Araújo",
+      "phone": "11973982646",
+      "picture": "https://media.licdn.com/dms/image/v2/D4D03AQF9kmuUC1yMQA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1719665926736?e=1730937600&v=beta&t=TbYaCu5fcL7b8ZLX92jnz9Y1GpUG0RA1mEQ3_KT_0lo",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-05T17:39:45.542Z",
+      "id": "a8ad1979-a2b4-478e-be76-06ffd95dca34"
+    },
+    "timeInCurrentStage": 61412341568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.093Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "26/12/1983"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "30000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "6.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Compatível + auxílio moradia + previdência privada + carro (quando esta na obra)"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Química",
+          "id": "da11714a-6a8a-4fd7-a07c-bec3b7c2426d",
+          "label": "Engenharia Química"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "UFRRJ"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Project Engineering Manager"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Project Engineering Manager\n Company name : Andrade Gutierrez S.A\n Period : out. de 217 – o momento\n Location : São Paulo e Região, Brasil\n \n Job Title : Quality Manager\n Company name : Andrade Gutierrez S.A\n Period : mar. de 221 – set. de 221\n Location : Rio de Janeiro, Brasil\n \n Job Title : Engineering Project Coordinator\n Company name : Andrade Gutierrez S.A\n Period : jun. de 215 – out. de 217\n Location : São Paulo, São Paulo\n \n Job Title : Senior Proposal Engineer\n Company name : Andrade Gutierrez S.A\n Period : jun. de 212 – jun. de 215\n Summary : Senior Proposal Engineer Industrial Facilities Oil & Gas and Power Generation Projects\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Project Engineer - Oil & Gas / Energy\n Company name : Andrade Gutierrez S.A\n Period : jul. de 28 – jun. de 212\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Process engineer\n Company name : Flota Petrolera Ecuatoriana - Flopec\n Period : jul. de 26 – jul. de 28\n Location : Proyecto Monteverde GLP Facility\n \n Job Title : Process engineer\n Company name : Scet Engineering\n Period : jun. de 24 – jul. de 26\n \n \n Job Title : Project Intern\n Company name : Embrapa\n Period : jan. de 24 – mai. de 24\n Location : Rio de Janeiro e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Project Financing\n Period : 215 – 216\n School name : UFRRJ\n Speciality : Chemical Engineer, Engenharia Química\n Period : 22 – 27\n \n School name : Universidade Federal Fluminense\n Speciality : MBA Oil & Gas Processing Engineering\n Period : 27 – 28"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "a04bf65f-466d-4c60-a72a-d6dcfd527d3d",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*a04bf65f-466d-4c60-a72a-d6dcfd527d3d",
+    "talent": {
+      "company": "",
+      "createdAt": "2023-12-20T14:08:31.158Z",
+      "email": "pierre.processo@gmail.com",
+      "headline": "",
+      "linkedinUsername": "pierre-da-cunha-medeiros-ba8bb326",
+      "location": "",
+      "name": "Pierre da Cunha Medeiros",
+      "phone": "21998712225",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQG4fm8MVkxPow/profile-displayphoto-shrink_200_200/0/1612886123502?e=1727308800&v=beta&t=hy6ddYxZNaz8yJ7svuarKfCK_rFXvqcvBWljWljVwx0",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-07-29T20:37:27.630Z",
+      "id": "a04bf65f-466d-4c60-a72a-d6dcfd527d3d"
+    },
+    "timeInCurrentStage": 61412041568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:34.973Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "25/01/1977"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "16000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "1.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Elétrica",
+          "id": "9351680b-8549-4071-98fc-d485b31dc312",
+          "label": "Engenharia Elétrica"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Paulista"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de projetos sênior"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de projetos sênior\n Company name : ISA CTEEP\n Period : jan. de 28 – o momento\n Summary : Gestão de empreendimentos de transmissão licitados;\n \n Gestão de contratos de obras de subestações e Linhas de Transmissão;\n \n Gestão com Fornecedores, Gestão de Custos, Gestão de Execução do empreendimento com as áreas envolvidas;\n \n Acompanhamento regulatório e societário de Acesssantes;\n \n Gestão de escopos de obras, cronogramas, orçamentos; Supervisão de obras;\n \n Experiência em análise de dados, construção de indicadores, projeção de tendências, e preparação de relatórios e apresentações em Power Point, Access, MS Project e utilização do ambiente EPM do MS Project Server para monitoramento e atualização de andamento dos projetos\n \n Gestão de pessoas com visão de colaboradores como peças essências para o sucesso da companhia, baseado nos 5 pilares:\n \n Motivação, Processo de Comunicação, Trabalho em Equipe, Conhecimento e Competência, Treinamento e Desenvolvimento"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : UNIP - Universidade Paulista\n Speciality : Bachelor of Engineering (BEng), Eletrotécnica\n Period : 24 – 29\n \n School name : Universidade Paulista\n Speciality : Pós Graduação - MBA Gestão Empresarial, Economia e Gestão Empresarial\n Courses: Title : Controladores de Processos Eletrônicos (CLP e Blocos Digitais); Title : Eletricidade Industrial, Comandos Elétricos, Eletrônicos; Title : Exame Preparatório PMP; Title : Fundamentos em Gerenciamento de Projetos; Title : NR1; Title : PMBOK Avançado; \n Title : Simulados de Circuitos Elétricos e Eletrônicos"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "374460c9-b517-4579-b212-fb3490fffae3",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*374460c9-b517-4579-b212-fb3490fffae3",
+    "talent": {
+      "updatedAt": "2023-12-20T14:11:47.407Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:11:47.407Z",
+      "linkedinUsername": "paulo-tomim",
+      "email": "paulotomim77@gmail.com",
+      "phone": "11999807159",
+      "name": "Paulo Tomim",
+      "id": "374460c9-b517-4579-b212-fb3490fffae3"
+    },
+    "timeInCurrentStage": 61412041568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.197Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "09/12/1980"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "40000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "2.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Compatíveis com o mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia civil",
+          "id": "9556216e-65f1-4fb6-b9a8-a919194e751a",
+          "label": "Engenharia civil"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Federal do Ceará"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Contrato"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "36e7e56a-2796-4d98-bd16-59a17800d3df",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*36e7e56a-2796-4d98-bd16-59a17800d3df",
+    "talent": {
+      "updatedAt": "2023-12-20T13:55:25.946Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:55:25.946Z",
+      "email": "renatobvfonseca@hotmail.com",
+      "phone": "11954778402",
+      "name": "Renato Bastos Vieira da Fonseca",
+      "id": "36e7e56a-2796-4d98-bd16-59a17800d3df"
+    },
+    "timeInCurrentStage": 61412041568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.497Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "17/12/1986"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "22000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "De mercado + combustível"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia civil",
+          "id": "9556216e-65f1-4fb6-b9a8-a919194e751a",
+          "label": "Engenharia civil"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Escola de Engenharia Mauá"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Projetos"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "279b521f-7b0b-4a3e-b411-5e2a6c4322bc",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*279b521f-7b0b-4a3e-b411-5e2a6c4322bc",
+    "talent": {
+      "updatedAt": "2023-12-20T14:08:08.585Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:08:08.585Z",
+      "email": "godoy.d@gmail.com",
+      "phone": "11955541712",
+      "name": "Daniel Godoy",
+      "id": "279b521f-7b0b-4a3e-b411-5e2a6c4322bc"
+    },
+    "timeInCurrentStage": 61412041568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.151Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "28/09/1980"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "18900"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "2.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Compatíveis com o mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Santo Amaro - Unisa"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de Manutenção"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de Manutenção\n Company name : Echoenergia Participações S.A\n Period : set. de 22 – o momento\n Summary : • Gestão de 5 funcionários\n • Responsável pela estratégia de manutenção de todos os ativos, implementação dos planos de manutenção, elaboração de KPI’s da área, controle do budget OPEX e CAPEX, plano de desenvolvimento do time, controle de disponibilidade do portifólio, análise de causas raiz, gerenciamento de garantias dos projetos entregues, elaboração de material para reuniões de comitês internos e participação\n Location : São Paulo, São Paulo, Brazil\n \n Job Title : Field Service Coordinator\n Company name : Echoenergia Participações S.A\n Period : fev. de 219 – set. de 22\n Summary : • Gestão de 31 funcionários\n • Responsável pela elaboração de budget OPEX e CAPEX, controle de frota, controle de benefícios, plano de desenvolvimento situacional, controle de férias, execução dos planos de manutenção preditivos, preventivos, corretivos e operação dos parques eólicos, controle de treinamentos, controle ASO, controle de EPI’s, EPC’s, ferramentas e equipamentos, controle dos almoxarifados, padronização dos procedimentos internos, consultoria em montagem eletromecânica, elétrica e civil à área de construção, elaboração de material para reuniões de comitê internos e participação\n Location : São Paulo e Região, Brasil\n \n Job Title : Engenheiro BoP\n Company name : Echoenergia Participações S.A\n Period : mar. de 218 – fev. de 219\n Summary : • Coordenação das atividades de manutenção preventivas e corretivas\n • Elaboração de especificações técnicas, orçamento de serviços corretivos, acompanhamento da execução das atividades junto as equipes de campo, elaboração de procedimentos de manutenção preventivas e corretivas\n • Acompanhamento de paradas de manutenção em campo, suporte a equipe de campo em relação a conhecimento técnico para solução de problemas em tempo real, negociação comercial para contratação de serviços emergenciais, equalização técnica de propostas de parceiros para contrato guarda-chuva de manutenção\n \n Job Title : Coordenador de Construção\n Company name : ABB Brasil\n Period : fev. de 215 – jan. de 218\n Summary : • Coordenação da equipe multidisciplinar de site managers (65 funcionários em toda América Latina e Panamá) para construção de subestações de energia, linhas de transmissão e redes de média tensão de parques eólicos para clientes públicos e privados\n • Responsável pela orientação, gerenciamento de recursos para realização do trabalho, controle e aplicação de melhores práticas, gerenciamento de benefícios, acompanhamento de KPIs, integração com outras equipes, implementação de nova metodologia para site manager (acompanhamento de obra, análise financeira de projeto, controle de obras), disseminação de conhecimento e nivelação dos sites manager, acompanhamento da segurança e qualidade\n • Participação do kick-off interno com clientes, auxiliando na resolução de problemas (vendas e execução)\n • Acompanhamento da EAP física e financeira, apoio em campo em caso de atraso das obras, motivação da equipe, realização de projetos de melhorias em campo, visitas as obras, pequenas auditorias do processo de site manager, segurança e qualidade, elaboração de budget OPEX\n Location : Guarulhos, São Paulo, Brasil\n \n Job Title : Assessor de Contratos Sênior\n Company name : ABB Brasil\n Period : mai. de 212 – fev. de 215\n Summary : • Gestão de contratos, equalização de propostas técnicas e comerciais para contratação de empresas para construção de subestações, linhas de transmissão, rede de distribuição de energia, elaboração de contratos, auxílio no cadastro de novas empresas, visita técnica em obras para acompanhar o cumprimento do contrato, auxílio na elaboração de EAPs, cronogramas\n • Responsável pela contratação de mais de R$ 4, em obras no PA, BA, RN, CE, RS, SP, PE, MG, PR, sendo parques eólicos, concessionárias de energia, grandes clientes (Vale)\n Location : Guarulhos\n \n Job Title : Site Manager\n Company name : ABB Brasil\n Period : abr. de 212 – mai. de 212\n Summary : • Atuação na construção de Subestações (SE Mina-Vale 138 kV), fiscalização de empreiteira na parte civil, eletromecânica, elétrica, comissionamento e energização, elaboração de relatórios de acompanhamentos, medição\n Location : Guarulhos\n \n Job Title : Supervisor de Obras\n Company name : Abengoa\n Period : jun. de 28 – mar. de 212\n Summary : • Atuação na construção de Subestações SE Cascavel Oeste 5/23 kV, SE Videira 23/138 kV, SE São João da Boa Vista Cogeração 138/34,5 kV, SE Itacaiunas 5 kV/138 kV, término das SE Canoinhas 23 kV e SE São Mateus 23 kV\n \n Job Title : Assistente Técnico de Construção\n Company name : Consórcio Cobelux Itumbiara\n Period : dez. de 25 – set. de 27\n Summary : Fiscalização de construção de subestação de 5kV de Rio Verde - GO\n \n \n Job Title : Projetista e Fiscal de Redes de Distribuição Urbana e Rural\n Company name : Energisa\n Period : mar. de 1999 – nov. de 25\n Summary : • Estudo e projetos de redes de BT e MT urbana e rural, divisão de circuitos, reguladores de tensão, análise de qualidade de energia, reuniões com clientes\n • Fiscalização e construção de redes de BT, MT, cabines de medição, subestações até 1 MVA particulares e da própria concessionária\n • Emissão de orçamentos para extensão e adequações de rede de BT e MT urbanas e rurais para atendimento de novos clientes e reclamações de queda de tensão\n Location : Cuiabá e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : MBA USP/Esalq\n Speciality : Gestão de Projetos\n Period : 221 – 222\n School name : Universidade Santo Amaro - Unisa\n Speciality : Bacharelado, Engenharia de Produção\n Period : 211 – 215\n \n School name : Escola Técnica Federal do Mato Grosso\n Speciality : Eletrotécnico\n Period : 1996 – 1999\n Courses: Title : ESI-Project Leadership Management and Communication; Title : ESI-Project Planning Analysis and Control; Title : Health & Safety Advanced Training by ABB; Title : Introduction to ABB Site Manager Basic Skills; Title : Introduction to ABB Site Manager Competencies; Title : Introduction to ABB Site Manager Framework; Title : Leadership Challenge Program by ABB; Title : Managing Safely by IOSH and ASTUTIS; Title : NR-1 Básico e Complementar; Title : OHS Leadership by ABB; Title : Office Intermediário; Title : Project Planning and Scheduling by ABB; Title : Scope and Chance Management for Projects by ABB; \n Title : Site Management HSE Training by ABB"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "58c77406-b0e6-4a5e-b3c4-ff00df5b07cf",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*58c77406-b0e6-4a5e-b3c4-ff00df5b07cf",
+    "talent": {
+      "updatedAt": "2023-12-20T14:06:20.700Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:06:20.700Z",
+      "linkedinUsername": "rodrigo-rinaldi2020",
+      "email": "rodrigo.rinaldi.rocha@gmail.com",
+      "phone": "11996359099",
+      "name": "Rodrigo Rinaldi",
+      "id": "58c77406-b0e6-4a5e-b3c4-ff00df5b07cf"
+    },
+    "timeInCurrentStage": 61412341568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.045Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "01/03/1979"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "24000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.65"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Previdência privada + plano de saúde + alimentação"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Elétrica",
+          "id": "9351680b-8549-4071-98fc-d485b31dc312",
+          "label": "Engenharia Elétrica"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Estadual de Campinas"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Enabler of Global Renewable Energy Transition"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Enabler of Global Renewable Energy Transition\n Company name : Neoenergia\n Period : fev. de 217 – o momento\n Location : Campinas e Região\n \n Job Title : Gerente de Contratos e Projetos de Engenharia\n Company name : Isolux Corsán\n Period : mai. de 214 – jun. de 216\n Location : São Paulo, Brasil\n \n Job Title : Supervisor do Departamento de Engenharia\n Company name : Alstom\n Period : dez. de 211 – mai. de 214\n Location : Philadelphia, USA e São Paulo, Brasil\n \n Job Title : Engenheiro de Aplicação Sênior\n Company name : Siemens\n Period : fev. de 29 – dez. de 211\n Location : Jundiaí, SP - Brasil\n \n Job Title : Engenheiro de Desenvolvimento de Produto (R&D)\n Company name : GE\n Period : jan. de 27 – fev. de 29\n Location : Campinas e Região, Brasil\n \n Job Title : Engenheiro de Pesquisas\n Company name : Universidade Estadual de Campinas\n Period : jan. de 24 – jan. de 27\n Location : Campinas e Região, Brasil\n \n \n Job Title : Trainee em P&D de Telecomunicações\n Company name : Orange\n Period : jan. de 23 – dez. de 23\n Location : Paris e Região, França"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Estadual de Campinas\n Speciality : Pós Doutorado, Engenharia Elétrica na área de Energia\n Period : 29 – 211\n School name : Universidade Estadual de Campinas\n Speciality : Doutorado, Engenharia Elétrica e Eletrônica, Simulações, Alta Tensão, Compatibilidade Eletromagnética, Sistema de Transmissão\n Period : 24 – 29\n School name : Universidade Estadual de Campinas\n Speciality : Mestrado em Engenharia, Engenharia Elétrica e Eletrônica, Energia, Compatibilidade Eletromagnética, Telecomunicações\n Period : 23 – 24\n Summary : Parte destes estudos foram executados no Centre National d'Etudes des Telecommunications CNET-Lannion, França\n \n School name : Universidade Estadual de Campinas\n Speciality : Bacharelado em Engenharia, Engenharia Elétrica e Eletrônica\n Period : 1998 – 22"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "ff1542db-dc7a-4463-ad1b-2d1d1a086170",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*ff1542db-dc7a-4463-ad1b-2d1d1a086170",
+    "talent": {
+      "company": "TAESA - Transmissora Aliança de Energia Elétrica S.A.",
+      "createdAt": "2023-12-20T14:05:36.299Z",
+      "email": "zagofer@gmail.com",
+      "headline": "",
+      "linkedinUsername": "fernando-zago-3b015aa6",
+      "location": "",
+      "name": "Fernando Zago",
+      "phone": "19996185651",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQGCKE0VIW6B1A/profile-displayphoto-shrink_200_200/0/1693928853136?e=1724889600&v=beta&t=g2wnnD5UK4Lm8WEFMvzdcKfwBk_KcvSyxMOu5bSBC5I",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-05T18:52:35.429Z",
+      "id": "ff1542db-dc7a-4463-ad1b-2d1d1a086170"
+    },
+    "timeInCurrentStage": 61412041568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:34.940Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "28/12/1980"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Mecânica",
+          "id": "612a9e7a-ad38-4218-924b-ae8b5a2311e8",
+          "label": "Engenharia Mecânica"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Instituto Tecnológico de Buenos Aires"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Project Manager"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Project Manager\n Company name : Techint Ingeniería y Construcción\n Period : out. de 22 – o momento\n Location : São Paulo, Brasil\n \n Job Title : Project Manager\n Company name : Techint Ingeniería y Construcción\n Period : mai. de 217 – out. de 22\n Summary : Estación de Compresión Altamira\n Proyecto South Texas - Tuxpan Pipeline\n Location : Ciudad de México y alrededores, México\n \n Job Title : Construction Manager\n Company name : Techint Ingeniería y Construcción\n Period : nov. de 215 – abr. de 217\n Location : Ciudad de México y alrededores, México\n \n Job Title : Engineering Manager\n Company name : Techint Ingeniería y Construcción\n Period : jun. de 214 – nov. de 215\n \n Job Title : Construction Manager\n Company name : Techint Ingeniería y Construcción\n Period : mai. de 213 – mai. de 214\n Summary : Project: TOROMOCHO\n Client: JACOBS - CHINALCO\n Scope of Works: Construction, Pre-comm & Commissioning\n Project Description: open pit mine with a process capacity of 117,2 tons of ore per day and a daily average of 1838 tons of copper concentrate and 257 tons of molybdenum oxide Expected operation period: 36 years\n Main areas:\n • Primary crusher\n • Overland conveyor (7km)\n • One ore stock pile\n • Pebble crushing plant\n • SAG mill\n • Two ball mills\n • Bulk rougher flotation cells\n • Bulk cleaner flotation cells and blowers\n • Hydrometallurgical plant\n • Rail loading plant\n \n Job Title : Construction Manager\n Company name : Techint Ingeniería y Construcción\n Period : jan. de 212 – abr. de 213\n Summary : Project: FENIX POWER PROJECT\n Client: FENIX - SNC LAVALIN\n Scope of Works: Construction - Mechanical & Electrical\n Project Description: Construction of a 52MW combined cycle power plant (2 GTG + 1 STG) Fenix Thermoelectric Power Plant responds to the need of more energy for Peru The Plant is located at km 64 of the Panamericana Sur road, in the populated center of Las Salinas, in Chilca, the energy hub of southern Peru The strategic location of the plant, near the Camisea pipeline and close to Chilca city gate, allows the generation of environmentally responsible energy\n \n Job Title : Deputy Construction Manager\n Company name : Techint Ingeniería y Construcción\n Period : 211 – 212\n Summary : Project: SOUTH LOOP – EARLY WORKS\n Client: TRANSPORTADORA DE GAS DEL PERU\n Scope of Works: Detail Engineering / Early Works Construction \n Project Description: project management, engineering, procurement, mobilization of equipment, erection of temporary facilities, leasing of temporary sites, construction of access roads, permits, construction procedures and other services\n Location : Perú\n \n Job Title : Construction Manager\n Company name : Techint Ingeniería y Construcción\n Period : 21 – 211\n Summary : Project: NGL EXPANSION - FOURTH PUMP ADDITION\n Client: TRANSPORTADORA DE GAS DEL PERU\n Scope of Works: Detail Engineering / Procurement / Construction\n Project Description: Expansion of Camisea system capacity Includes the installation of one new Pump in each station of the system to increase pump capacity from 8 bpd to 1 bpd\n Location : Perú\n \n Job Title : Project Engineer\n Company name : Techint Ingeniería y Construcción\n Period : 29 – 21\n Summary : Project: LOOP DE LA COSTA\n Client: TRANSPORTADORA DE GAS DEL PERU\n Scope of Works: Basic Design / Detail Engineering / Procurement / Construction Management / Start-Up Assistance\n Project Description: Pipeline 17 km/24“ parallel to the existing Ø18” gas-line, including six intermediate Line Break Valves, pressure control station in Melchorita and scraper traps\n Location : Perú\n \n Job Title : Superintendent\n Company name : Techint Ingeniería y Construcción\n Period : 27 – 29\n Summary : Project: LOOPS EXPANSIÓN 27 - 29\n Client: TRANSPORTADORA DE GAS DEL NORTE\n Scope of Works: Detail Engineering / Construction \n Project Description: Construction of parallel gas pipelines (loops) for a total length of 348,5 km (24\", 3\" and 36\"), including construction of surface facilities\n Location : Argentina\n \n Job Title : Pipeline Design Engineer\n Company name : Techint Ingeniería y Construcción\n Period : jan. de 27 – dez. de 27\n Summary : Project: ARGENTINEAN NORTH EAST GAS PIPELINE\n Client: ENERGIA ARGENTINA SA (ENARSA)\n Scope of Works: Basic Engineering / Environmental Impact Assessment \n Project Description: gas pipeline Ø3\" / Ø36\", 15km, with three compression stations and two Operational Control Center through Salta, Formosa, Chaco and Santa Fe provinces in the North-East of Argentinean Republic\n Location : Argentina\n \n Job Title : Pipeline Design Engineer\n Company name : Techint Ingeniería y Construcción\n Period : 26 – 27\n Summary : Project: CAMISEA EXPANSION UPSTREAM FACILITIES AT BLOCK 56\n Client: PLUSPETROL PERU CORPORATION\n Scope of Works: Engineering / Procurement / Construction Management / Start-Up Assistance\n Project Description: Development of a field, adjacent to Block 88 in the Greater Camisea Area, located in the Peruvian Amazonian rain forest The project consisted in three new flow lines, expansion of Malvinas wet/dry gas separation plant by adding new NGL cryogenic units, new compression plant, expansion of fractionation and topping plant located in Pisco and expansion of storage facilities\n Location : Argentina / Perú\n \n Job Title : Piping Engineer\n Company name : Techint Ingeniería y Construcción\n Period : 25 – 26\n Summary : Project: EL MAURO TAILINGS DAM\n Client: MINERA LOS PELAMBRES\n Scope of Works: Detail Engineering / Procurement / Construction\n Project Description: Construction of two slurry pipelines,32\" and 36\", 5km and 6km respectively The project also includes special crossing works and surface facilities such as screening plant, dissipating and pumping stations\n Location : Argentina / Chile\n \n \n Job Title : Piping Jr. Engineer\n Company name : Techint Ingeniería y Construcción\n Period : 24 – 25\n Summary : Project: BLAST FURNACE RELINING\n Client: SIDERAR SA \n Project Description: Reline blast furnace 2 at General Savio Steel plant - Capacity 58 tn/day The works include: new furnace profile, increase internal volume and operation pressure, raw material classification, new control and instrumentation system, new fume collecting, gas treatment system and auxiliary installations\n Location : Argentina"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Project Management Professional (PMP)®\n Period : Emitido em dez. de 2020 - Expira emdez. de 2026\n Issuing Authority : Project Management Institute"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Instituto Tecnológico de Buenos Aires / ITBA\n Speciality : INGENIERO MECANICO, Ingeniería\n Period : 1999 – 25\n Courses: Title : Gestión Económica y Financiera de Proyectos; \n Title : Innovation: Design Thinking"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "c32ed56a-1d9c-4d93-b24a-6ff2fb625327",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*c32ed56a-1d9c-4d93-b24a-6ff2fb625327",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:31.307Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:31.307Z",
+      "linkedinUsername": "santiagolatuf",
+      "email": "slatuf@hotmail.com",
+      "phone": "5511934248613",
+      "name": "SANTIAGO LATUF",
+      "id": "c32ed56a-1d9c-4d93-b24a-6ff2fb625327"
+    },
+    "timeInCurrentStage": 61412341568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.344Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "06/04/1983"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "17000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Compatíveis com o mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Cartográfica",
+          "id": "e1be4450-b122-4f4b-8a0d-5b62b7545f5b",
+          "label": "Engenharia Cartográfica"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Estadual Paulista Júlio de Mesquita Filho / UNESP"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Project Manager"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Project Manager\n Company name : Neoenergia\n Period : abr. de 221 – o momento\n Summary : Gerenciamento de Projetos de Transmissão:\n - Empreendimentos de leilões\n - Reforços\n - Melhorias\n - Acessantes\n Location : Campinas, São Paulo, Brasil\n \n Job Title : Coordenador de Meio Ambiente\n Company name : Energisa\n Period : set. de 219 – mar. de 221\n Summary : Responsável pela área de meio ambiente da Energisa Rondônia, respondendo pelos seguintes temas:\n - Sistema de Gestão Ambiental\n - Uso Sustentável de Recursos\n - Licenciamento Ambiental (órgãos municipais/estaduais/federais, e intervenientes)\n - Gestão Ambiental de Obras\n - Áreas Contaminadas\n - Avaliação, aquisição, liberação de imóveis, instituição de servidão, desapropriação e declaração de utilidade pública\n Location : Porto Velho e Região, Brasil\n \n Job Title : Coordenador de Meio Ambiente\n Company name : ISA CTEEP\n Period : fev. de 218 – ago. de 219\n Summary : Responsável pela área de meio ambiente da ISA CTEEP e subsidiárias (IE AGUAPEÍ, IE BIGUAÇU, EVRECY, IE ITAQUERÊ, IE ITAPURA, IE ITAÚNAS, IEMG, IENNE, IE PINHEIROS, IE SERRA DO JAPI, IE SUL e IE TIBAGI), respondendo pelos seguintes temas:\n - ISO 141 Sistema de Gestão Ambiental\n - Monitoramento de Utilização de Recursos (água, energia, combustíveis, papel e outros)\n - Gerenciamento de Resíduos e Destinação\n - Licenciamento Ambiental (órgãos estaduais/federais, e intervenientes)\n - Estudos de viabilidade socioambiental\n - Relatório \"R3\" – Caracterização e Análise Socioambiental\n - Gestão Ambiental de Obras\n - CAPEX/OPEX ambiental para leilões e aquisições\n Location : São Paulo e Região, Brasil\n \n Job Title : Engenheiro de Meio Ambiente Sênior\n Company name : ISA CTEEP\n Period : nov. de 211 – fev. de 218\n Summary : Na área ambiental, responsável pelo licenciamento (órgãos estaduais/federais, e intervenientes) e gestão ambiental de novos empreendimentos, linhas de transmissão e subestações de 138 a 525 kV Na área patrimonial, responsável pela organização, controle dos processos de avaliação, aquisição, liberação de imóveis, instituição de servidão, desapropriação e solicitação de declaração de utilidade pública\n Elaboração de CAPEX/OPEX ambiental e patrimonial para novos empreendimentos\n Location : R. Casa do Ator, 1.155 - 6º andar. CEP 4546-4 - São Paulo/SP\n \n Job Title : Engenheiro Cartógrafo Sênior\n Company name : Rede Energia S.A\n Period : abr. de 28 – nov. de 211\n Summary : Atuando na área de distribuição e subtransmissão de energia em grupo de empresas composto por 9 concessionárias de distribuição de energia (Bragantina, Caiuá, Companhia Nacional de Energia Elétrica, Empresa de Distribuição de Energia Vale Paranapanema, Companhia Força e Luz do Oeste, Celtins, Cemat, Celpa e Enersul), juntas responsáveis pelo abastecimento de cerca de 34% do território nacional, em 578 municípios em 7 estados\n No Departamento Corporativo de Engenharia, na área de Construção, responsável pela gestão de faixa de servidão e georreferenciamento de todas as empresas do grupo, com as seguintes atividades principais: \n - obtenção de Declaração de Utilidade Pública para as linhas de distribuição a serem construídas, conforme procedimento da Agência Nacional de Energia Elétrica;\n - elaboração de relatório para a Agência Nacional de Energia Elétrica sobre o progresso das negociações relativas a faixas de servidão das obras declaradas de utilidade pública;\n - coordenação dos contratos com empresas terceirizadas eventualmente contratadas para negociação de instituição de faixas de servidão ao longo de linhas de distribuição;\n - negociação direta com proprietários para instituição de faixas de servidão, especialmente em casos complexos ou em que a empresa terceirizada não tenha obtido êxito;\n - coordenação do ajuizamento de ação judicial em casos de negociação sem êxito;\n - controle dos contratos de instituição de servidão celebrados com os proprietários, bem como dos valores pagos, providenciando referidos pagamentos junto ao Departamento Financeiro;\n - elaboração e atualização de desenhos georreferenciados dos ativos não energizados\n Ainda, na área de Projetos, responsável pela elaboração de traçado de novas linhas, levando em consideração os requisitos da legislação ambiental e os critérios de economia e viabilidade de execução\n Location : Av. Paulista, 2.439 - 13° andar. CEP 1311-936 - São Paulo/SP\n \n Job Title : Assistente de Vendas\n Company name : Santiago e Cintra Importação e Exportação Ltda\n Period : jan. de 28 – abr. de 28\n Summary : Atuando com venda técnica de receptor GPS Geodésico e Estação Total, também responsável pela análise de editais de leilão, reunião de documentação, elaboração de proposta e oferta de lances para participação da empresa\n Location : R. Vieira de Morais, 42 - 12° andar. CEP 4617- - São Paulo/SP\n \n Job Title : Estagiário\n Company name : Caiuá - Distribuição de Energia S.A. Rede Energia\n Period : nov. de 25 – nov. de 27\n Summary : Levantamentos e atualizações cadastrais em ambiente SIG (Sistema de Informações Geográficas)\n Levantamentos topográficos utilizando GPS L1 e processamentos dos dados pelo método DGPS\n Geoprocessamento e Cartografia Automatizada\n Confecção de cartas topográficas utilizando dados GPS coletados em campo\n \n \n Job Title : Técnico de Campo\n Company name : SAI Serviços Aéreos Industriais\n Period : ago. de 27 – set. de 27\n Summary : Levantamento de pontos de controle para apoio do aerolevantamento com GPS L1/L2"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Ibmec\n Speciality : Master of Business Administration - MBA, Gerenciamento de Projetos\n Period : 22 – 221\n School name : Senac Brasil\n Speciality : Especialização em Sistemas de Gestão Integrados (SGI), Qualidade, Meio Ambiente, Segurança e Saúde no Trabalho e Responsabilidade Social\n Period : 22 – 221\n School name : Escola Politécnica da USP\n Speciality : Especialização em Engenharia de Segurança do Trabalho, Engenharia\n Period : 214\n School name : Uninove - Universidade Nove de Julho\n Speciality : Especialização em Engenharia de Avaliações e Perícias, Engenharia\n Period : 211\n School name : Uninove - Universidade Nove de Julho\n Speciality : Especialização em Docência Para o Ensino Profissionalizante, Educação\n Period : 215\n School name : Universidade Estadual Paulista 'Júlio de Mesquita Filho'\n Speciality : Engenharia Cartográfica, Engenharia\n Period : 27\n \n School name : Universidade do Oeste Paulista\n Speciality : Tecnologia em Saneamento Ambiental, Meio Ambiente\n Period : 27\n Courses: Title : ArcGIS 1: Introdução ao GIS e ArcGIS 2: Fluxos de Trabalhos Essenciais – Versão 1.2. Academia GIS Imagem.; Title : Capacitação metodológica do Programa Brasileiro GHG Protocol. FGV EAESP - Centro de Estudos em Sustentabilidade.; Title : Curso de Capacitação em Liderança e Gestão de Pessoas. Fundação Vanzolini.; Title : Desapropriações e Servidões. IBAPE/SP – Instituto Brasileiro de Avaliações e Perícias de Engenharia de São Paulo - São Paulo, SP.; Title : Environmental Management: Renewable Energy Development in Germany. Frankfurt University of Applied Sciences – Frankfurt am Main.; Title : GPS: Fundamentos e Aplicações. USP – Universidade de São Paulo, Instituto de Astronomia, Geofísica e Ciências Atmosféricas – São Paulo, SP.; Title : Innovación Para Todos: Esta formación conduce al desarrollo de habilidades para la gestión de la innovación. Ruta N Medellín Centro de Innovación y Negocios – Medellín.; Title : Integrando a Agenda 23 para os Objetivos de Desenvolvimento Sustentável. Programa das Nações Unidas para o Desenvolvimento - PNUD e Petrobras.; Title : Introdução à Energia Solar Fotovoltaica - Sistemas Isolados e Conectados à Rede. EXTECAMP - Escola de Extensão da UNICAMP.; Title : Introdução à Programação: Computadores. Algoritmos. Programação numa linguagem de alto nível (C). Representação de números reais. Variáveis indexadas. Conceitos elementares de apontadores e funções.USP – Universidade de São Paulo, IME.; Title : Legislação Ambiental Aplicada: Noções gerais sobre a Legislação ambiental federal e estadual, bem como dos aspectos legais específicos dos diversos recursos naturais: ar, água, solo, flora e fauna. CETESB – Companhia Ambiental do Estado de São Paulo.; Title : Licenciamento Ambiental no Estado de São Paulo: Conhecer a dinâmica do licenciamento, as atribuições e competências do órgão licenciador e sua relação com órgãos/instituições do SEMA e demais órgãos. CETESB.; Title : Licenciamento Ambiental: Etapas, Procedimentos Envolvidos e Legislação Ambiental. SENAC – Serviço Nacional de Aprendizagem Comercial – São Paulo, SP.; Title : Método GPR: Aplicações em Geofísica, Geotécnica, Meio Ambiente e Planejamento Urbano. USP – Universidade de São Paulo, Instituto de Astronomia, Geofísica e Ciências Atmosféricas – São Paulo, SP.; Title : Projeto e Dimensionamento de Usinas Solares e Sistemas Fotovoltaicos - com PVSyst. EXTECAMP - Escola de Extensão da UNICAMP.; Title : Sistemas de Gestão Ambiental: Interpretação, Implementação e Certificação da ISO 141. SENAC – Serviço Nacional de Aprendizagem Comercial – São Paulo, SP.; \n Title : Treinamento Indicadores Ethos-Abradee. Instituto ETHOS, São Paulo - SP"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "15437fbf-36c2-431d-ad7f-64c376e43f2d",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*15437fbf-36c2-431d-ad7f-64c376e43f2d",
+    "talent": {
+      "updatedAt": "2023-12-20T14:07:07.276Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:07:07.276Z",
+      "linkedinUsername": "luzay",
+      "email": "luzayfilho@gmail.com",
+      "phone": "11976358858",
+      "name": "Luzay Lopo Generoso Filho",
+      "id": "15437fbf-36c2-431d-ad7f-64c376e43f2d"
+    },
+    "timeInCurrentStage": 61412041568
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.316Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Engenheiro residente"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Engenheiro residente\n Company name : Planova Planejamento e Construções S/A\n Period : abr. de 215 – o momento\n Summary : Responsável pela Execução de Obras de Linha de Transmissão de Energia e Subestações\n \n - LT5KV – IGAPORÃ 3 – JANAUBA 3 C1\n - LT5KV – IGAPORÃ 3 – JANAUBA 3 C2\n - SUBESTAÇÃO DE JAURU - LT 5kV JAURU – CUIABÁ 2\n - ELETRODO DE TERRA XINGU E RESPECTIVA LINHA 8Kv - BELO MONTE\n - LT 5kv - RIO VERDE NORTE - MARIMBONDO II - C1 e C2\n - LT 5Kv – PARANAITA – CLAUDIA - C1 e C2\n Location : Macaé, Rio de Janeiro, Brasil\n \n Job Title : Engenheiro de planejamento\n Company name : Schahin Petróleo e Gás\n Period : abr. de 213 – abr. de 215\n Summary : Responsável pelo Planejamento, Controle e Execução de Obras de Linha de Transmissão de Energia\n \n - LT 6Kv – PORTO VELHO – ARARAQUARA 2 - Trechos 1, 6, 7 e 8\n Location : Votuporanga, São Paulo, Brasil\n \n Job Title : Estagio Engenharia Civil\n Company name : Otrebor Engenharia\n Period : jul. de 21 – mar. de 213\n Summary : Responsável pela elaboração de projetos estruturais e complementares, fiscalização e execução de obras\n Location : Florianópolis e Região, Brasil\n \n \n Job Title : Bolsista Laboratório de Topografia\n Company name : Universidade Federal de Santa Catarina\n Period : jul. de 29 – jun. de 21\n Summary : - Elaboração de projetos e levantamentos para a Universidade\n Location : Florianópolis e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Federal de Santa Catarina\n Speciality : Engenharia Civil, Projeto Estrutural\n Period : 28 – 212\n Summary : Natação\n \n School name : Faculdade Unyleya\n Speciality : Pós Graduação, Energias Renováveis\n Period : 22 – 221"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "f2681cb2-6f31-43ec-9b5e-0a38450fbb91",
+    "id": "3e00d7c2-a10a-4c16-aa01-115737031119*f2681cb2-6f31-43ec-9b5e-0a38450fbb91",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:37.311Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:37.311Z",
+      "linkedinUsername": "vinicius-camargo-7b40ba66",
+      "email": "vrcengenheiro@gmail.com",
+      "phone": "12981890447",
+      "name": "Vinicius Camargo",
+      "id": "f2681cb2-6f31-43ec-9b5e-0a38450fbb91"
+    },
+    "timeInCurrentStage": 61412341568
+  }
+]

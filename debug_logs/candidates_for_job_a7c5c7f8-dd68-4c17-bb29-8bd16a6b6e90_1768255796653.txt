@@ -1,0 +1,843 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:36.632Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "16000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "IB-DP Coordinator"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : IB-DP Coordinator\n Company name : Escola Beit Yaacov\n Period : jan de 221 - o momento\n Location : São Paulo, Brasil\n \n Job Title : Professor do IB Diploma Língua e Literatura\n Company name : Escola Beit Yaacov\n Period : abr de 217 - o momento\n Summary : Ministrar aulas de Língua e Literatura do Diploma IB;\n Ministrar aulas de Língua, Literatura e Produção de texto para alunos do Currículo Brasileiro\n Ministrar aulas para a EJA\n Location : São Paulo e Região, Brasil\n \n Job Title : Examiner - Língua e Literatura\n Company name : International Baccalaureate\n Period : ago de 216 - o momento\n \n Job Title : Professor de Língua Portuguesa (International Baccaulerate) - Fundamental II e Médio\n Company name : Chapel School - Escola Maria Imaculada\n Period : ago de 214 - jul de 217\n Summary : International Baccaulaureate Portuguese Language A ad Language B Teacher\n Professor de Português - Ensino Médio e Fundamental 2\n Location : São Paulo e Região, Brasil\n \n Job Title : Professor De Língua Portuguesa - IB DP e Português para Estrangeiros\n Company name : Escola Americana do Rio de Janeiro\n Period : abr de 27 - jun de 213\n Summary : Ministrar aulas de IB Portuguese Língua A\n \n \n Job Title : Professor Assistente\n Company name : UniverCidade - Centro Universitário da Cidade do Rio de Janeiro\n Period : jan de 21 - dez de 27\n Summary : Coordenação do curso de Letras - Professor de Língua Portuguesa e Literatura para os cursos de Letras, Direito e Marketing\n Location : Rio de Janeiro e Região, Brasil\n Company 2: International Baccalaureate"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : International Baccalaureate\n School name : Claretiano - Rede de Educação\n Summary : Licenciatura em Pedagogia\n \n School name : Pontifícia Universidade Católica do Rio de Janeiro\n Period : 22 - 25\n Summary : Mestre em Letras - Estudos de Literatura"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "e1e6baf3-9437-4ec7-8e8b-d1a460065c8e",
+    "id": "a7c5c7f8-dd68-4c17-bb29-8bd16a6b6e90*e1e6baf3-9437-4ec7-8e8b-d1a460065c8e",
+    "talent": {
+      "updatedAt": "2023-12-20T13:56:07.314Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:56:07.314Z",
+      "linkedinUsername": "raphael-martins-a8b286b3",
+      "email": "raphael.martins27@gmail.com",
+      "phone": "11973978700",
+      "name": "Raphael Martins",
+      "id": "e1e6baf3-9437-4ec7-8e8b-d1a460065c8e"
+    },
+    "timeInCurrentStage": 61412096606
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.662Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "07/10/1988"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "7000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Pedagogia",
+          "id": "21f715f2-c4e3-4171-83f2-87bf9c583cc1",
+          "label": "Pedagogia"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenadora Pedagógica Bilíngue"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenadora Pedagógica Bilíngue\n Company name : Maple Bear Canadian School\n Period : fev. de 221 – o momento\n Location : Itu, São Paulo, Brazil\n \n Job Title : Coordenadora Pedagógica Bilíngue\n Company name : Colégio Morumbi Sul\n Period : mai. de 22 – fev. de 221\n \n Job Title : Coordenadora Pedagógica Bilíngue\n Company name : Sunny Side Elementary School\n Period : fev. de 219 – abr. de 22\n Summary : Desenvolvimento do projeto do Ensino Fundamental;\n Coordenação e orientação de professores, alunos e famílias;\n Desenvolvimento de conteúdo de acordo com a BNCC\n Location : Santo André, São Paulo, Brazil\n \n Job Title : Professora Bilíngue\n Company name : Sunny Side International School\n Period : mar. de 217 – fev. de 219\n Summary : Professora bilíngue de educação infantil\n \n Job Title : Early Childhood Educator\n Company name : Active Kids Group\n Period : jun. de 216 – dez. de 216\n Summary : Casual Educator in child care centre\n Location : Sydney, Australia\n \n Job Title : Children's Coach\n Company name : Luz all abilities services\n Period : jan. de 216 – jul. de 216\n Summary : Help disabled children to develop all their capacities and provide more interaction with other children\n Location : Sydney, Australia\n \n Job Title : Psicopedagoga\n Company name : Fundação do ABC\n Period : jan. de 212 – ago. de 215\n Summary : Atendimento clínico de crianças, adolescentes e adultos com transtornos emocionais e de aprendizagem, atendidos pela rede municipal escolar de Santo André\n Location : São Paulo e Região, Brasil\n \n Job Title : Psicopedagoga\n Company name : Faculdade de medicina do ABC\n Period : jan. de 212 – dez. de 212\n Summary : Psicopedagoga voluntária\n Avaliação de crianças com suspeita de transtorno/dificuldade de aprendizagem\n Location : Santo André, São Paulo, Brazil\n \n Job Title : Professor\n Company name : Prefeitura do Município de São Bernardo do Campo\n Period : mar. de 211 – jan. de 212\n Summary : Professora concursada de ensino fundamental\n \n Job Title : Professor\n Company name : Prefeitura de Santo André\n Period : mai. de 21 – mar. de 211\n Summary : Professora concursada de ensino fundamental\n \n \n Job Title : Estagiária\n Company name : Colégio Arbos SBC\n Period : mar. de 27 – dez. de 29\n Summary : Auxílio à professora da sala do período integral;\n Auxílio nas tarefas de casa;\n Elaboração de revisões para provas"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : SELC Australia\n Speciality : Certificate III, Early Childhood Education and Care\n Period : 216 – 216\n School name : Navitas\n Speciality : General english\n Period : 215 – 216\n School name : Faculdade de medicina do abc\n Speciality : Neuroaprendizagem\n Period : 212 – 213\n School name : Universidade Metodista de S��o Paulo\n Speciality : Psicopedagogia clínica e institucional\n Period : 29 – 211\n School name : Universidade Metodista de São Paulo\n Speciality : Habilitação em Educação Infantil\n Period : 29 – 29\n \n School name : Universidade Metodista de S��o Paulo\n Speciality : Pedagogia - Ensino Fundamental e educacao infantil\n Period : 26 – 29"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "b85ecdac-2f7a-41b8-ac65-a06037ec1023",
+    "id": "a7c5c7f8-dd68-4c17-bb29-8bd16a6b6e90*b85ecdac-2f7a-41b8-ac65-a06037ec1023",
+    "talent": {
+      "updatedAt": "2023-12-20T13:53:20.048Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:53:20.048Z",
+      "linkedinUsername": "marcela-pereira-dos-santos-b2052652",
+      "email": "dossantos.marcelapereira@gmail.com",
+      "phone": "11981113270",
+      "name": "Marcela Pereira dos Santos",
+      "id": "b85ecdac-2f7a-41b8-ac65-a06037ec1023"
+    },
+    "timeInCurrentStage": 61412396606
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.724Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador Pegagógico e Coordenador IB Diploma"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador Pegagógico e Coordenador IB Diploma\n Company name : Colégio Suíço-Brasileiro de Curitiba | Schweizerschule Curitiba\n Period : fev. de 214 – o momento\n Summary : Coordenação das turmas de 9o ano do Fundamental 2 e do Ensino Médio, e da coordenação do \"Diploma Programme - International Baccalaureate IB\" \n Ainda como coordenador, quando na ausência da direção, atuação como suplente\n Location : Curitiba e Região, Brasil\n \n Job Title : Consultor Pedagógico\n Company name : Editorial EDEBE\n Period : jan. de 213 – dez. de 213\n Summary : Projeto (de duração de 1 ano) de apresentação do novo livro didático (físico e digital) da Editora EDEBE (grupo Salesiano que atende mais de 1 escolas no Brasil) Viagem para todas as capitais brasileiras prestando consultoria educacional para os professores das Escolas Salesianas\n Location : Brasília e Região, Brasil\n \n Job Title : Coordenador Pedagógico\n Company name : Grupo Educacional Bom Jesus\n Period : jan. de 212 – dez. de 212\n Summary : Depois do período como diretor, volta a atuar como Coordenação Pedagógica, mas dessa vez da unidade Nossa Senhora de Lourdes do Colégio Bom Jesus, em curitiba, com cerca de 15 alunos, 8 professores Trabalho de lideração organizacional e pessoal que, juntamente com outros coordenadores e com a direção da escola, intermedia a relação entre os atores educacionais (professores, alunos, pais, funcionários administrativos etc) Preocupações pedagógicas (organização das aulas, didática, metodologia, materiais etc)\n Location : Curitiba e Região, Brasil\n \n Job Title : Diretor Pedagógico\n Company name : Grupo Educacional Bom Jesus\n Period : jan. de 29 – dez. de 211\n Summary : Direção Pedagógica da unidade central do Colégio Bom Jesus, em curitiba, com cerca de 25 alunos, 16 professores Trabalho de lideração organizacional e pessoal, intermediando a relação entre os atores educacionais (professores, alunos, pais, funcionários administrativos etc) Preocupações pedagógicas (organização das aulas, didática, metodologia, materiais etc) e administrativos (conflitos, problemas gerais estruturais, relacionamento com vizinhança etc)\n Location : Curitiba e Região, Brasil\n \n Job Title : Coordenador Pedagógico\n Company name : Grupo Educacional Bom Jesus\n Period : jan. de 27 – dez. de 29\n Summary : Coordenação Pedagógica da unidade central do Colégio Bom Jesus, em curitiba, com cerca de 25 alunos, 16 professores Trabalho de lideração organizacional e pessoal que, juntamente com outros coordenadores e com a direção da escola, intermedia a relação entre os atores educacionais (professores, alunos, pais, funcionários administrativos etc) Preocupações pedagógicas (organização das aulas, didática, metodologia, materiais etc)\n Location : Curitiba e Região, Brasil\n \n Job Title : Professor de Idiomas e Literatura\n Company name : Grupo Educacional Bom Jesus\n Period : jan. de 21 – dez. de 28\n Summary : Atuação como professor de Inglês para o Fundamental 2 (todas as séries), também Literatura Brasileira e produção de texto para o Ensino Médio \n \n obs: em 27 e 28 atuação como coordenação geral do Ensino Médio e ainda em sala de aula ao mesmo tempo\n Location : Curitiba e Região, Brasil\n \n \n Job Title : Professor de Produção textual\n Company name : FAE Centro Universitário\n Period : mar. de 29 – dez. de 211\n Summary : Atuação como professor universitário de produção textual para diversos cursos universitários e técnicos na FAE Business School: RH, Direito, Administração, Propaganda e Marketing, etc \n \n Essas aulas aconteciam no período da noite, já que durante o dia, nesse mesmo período de 3 anos, havia a atuação como Diretor Pedagógico no Colégio Bom Jesus (mesmo grupo educacional que FAE)\n Location : Curitiba e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Federal do Paraná\n Speciality : Licenciatura e Bacharelado, Letras Português/Inglês - Literatura, Linguística e Tradução\n Period : 1996 – 21\n School name : FAE Centro Universitário\n Speciality : Pós-Graduação, Gestão Adminitrativa Escolar\n Period : 26 – 27\n Summary : Pós-graduação oferecida pela FAE - Business School para atuação em gestão escolar (direção, coordenação ou admnistrativo escolar).\n \n School name : FAE Centro Universitário\n Speciality : MBA - Internacional, Administração Escolar\n Period : 29 – 21\n Summary : MBA internacional (Brasil/Espanha) com foco em gestão escolar (Direção e coordenação pedagógica e administrativa)."
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "0d4f0bad-626b-4ad9-b608-b50744b89f56",
+    "id": "a7c5c7f8-dd68-4c17-bb29-8bd16a6b6e90*0d4f0bad-626b-4ad9-b608-b50744b89f56",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:46.196Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:46.196Z",
+      "linkedinUsername": "carlos-machado-223a00115",
+      "email": "carlosmachado.cm@me.com",
+      "phone": "",
+      "name": "Carlos Machado",
+      "id": "0d4f0bad-626b-4ad9-b608-b50744b89f56"
+    },
+    "timeInCurrentStage": 61412996606
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.573Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenadora Pedagógica"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Coordenadora Pedagógica\n Company name : Maple Bear Atibaia\n Period : jan. de 218 – o momento\n \n Job Title : Professora de Inglês\n Company name : particular\n Period : mar. de 29 – o momento\n \n Job Title : Professora de Inglês\n Company name : Escola Navegantes Ltda\n Period : jan. de 217 – nov. de 217\n Location : Uberlândia e Região, Brasil\n \n Job Title : Toddler Teacher\n Company name : Maple Bear Global Schools Ltd\n Period : jan. de 216 – dez. de 216\n Summary : Bilingual education\n Location : Uberlândia e Região, Brasil\n \n Job Title : IK Teacher\n Company name : Maple Bear Global Schools Ltd\n Period : jan. de 214 – dez. de 215\n Location : Uberlândia\n \n Job Title : Toddler teaching assistant\n Company name : Maple Bear Global Schools Ltd\n Period : jan. de 213 – dez. de 213\n Location : Uberlândia e Região, Brasil\n \n Job Title : Professora de Inglês e Espanhol\n Company name : Yes idiomas uberlandia\n Period : jan. de 212 – dez. de 213\n Location : Uberlândia e Região, Brasil\n \n \n Job Title : Au Pair\n Company name : Experimento Intercambio Cultural\n Period : mar. de 27 – mar. de 29\n Location : New Jersey , United States\n Company 2: particular"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Reabilitação Cognitiva\n Period : Emitido em mai. de 2020 - Nenhuma data de expiração\n Issuing Authority : COGNOS Educacional\n Title : Professional Developmenton Introduction to ELA - Years 1 & 2\n Period : Emitido em jan. de 2020 - Nenhuma data de expiração\n Issuing Authority : Maple Bear Global Schools Ltd.\n \n Title : Professional Developmenton Mathematics Years 1 & 2\n Period : Emitido em jul. de 2019 - Nenhuma data de expiração\n Issuing Authority : Maple Bear Latin America"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Instituto Singularidades\n Speciality : Pós graduação, Educação bilíngue: desafios e possibilidades, 3/219 a 12/22\n Period : 219 – 22\n School name : CBI of Miami\n Speciality : Pós graduação em Transtorno do Espectro do Autismo\n Period : 218 – 22\n School name : CBI of Miami\n Speciality : Extensão, Psicologia Escolar e Transtorno do comportamento na sala de aula\n Period : 218 – 219\n School name : Uniube - Universidade de Uberaba\n Speciality : Pedagogia\n Period : 217\n School name : Universidade Federal de Uberlândia - UFU\n Speciality : EXTENSÃO, Estudo de casos psicopedagógicos\n Period : 216 – 216\n School name : CENSUPEG\n Speciality : Pós Graduação em : Neuropsicopedagogia Clínica e Educação especial Inclusiva, Neurociência e educação especial inclusiva\n Period : 215 – 216\n School name : University of Houston\n Speciality : Bilingual Brain, Bilingual brain, 98%\n Period : 215\n School name : Brookdale Community College\n Speciality : Interprete, Lingua Inglesa\n Period : 29 – 211\n Summary : 12 Hours Field Observation, Level II Medical Interpreting: Portuguese-English \n Simultaneous Interpretation and Sight Translation(Judicial)\n Consecutivel Interpreting (Judicial)\n Consecutive Interpreting (Social Work)\n Consecutive Interpreting- Generic (Medical)\n School name : Centro Universitario Ibero Americano\n Speciality : Bacharelado em Letras com habilitação em Tradução e Interpretação\n Period : 24 – 27\n School name : Instituto Singularidades\n Speciality : Pós graduação, Educação Bilíngue: desafios e possibilidades\n School name : UNIUBE\n Speciality : Lincenciatura em Letras- língua portuguesa e língua inglesa e respectivas literaturas\n \n School name : Universidade Federal de Uberlândia - UFU\n Courses: Title : Alfabetização em Contexto Bilíngue- Biliteracy; \n Title : MULTILINGUAL LEARNING FOR A GLOBALISED WORLD - THE UNIVERSITY OF GLASGOW"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "8e16a7f8-e5e4-4da9-a105-abb90970d1fe",
+    "id": "a7c5c7f8-dd68-4c17-bb29-8bd16a6b6e90*8e16a7f8-e5e4-4da9-a105-abb90970d1fe",
+    "talent": {
+      "updatedAt": "2023-12-20T14:08:02.364Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:08:02.364Z",
+      "linkedinUsername": "carolina-martins-1197723b",
+      "email": "ti0812@yahoo.com.br",
+      "phone": "11958364418",
+      "name": "Carolina Martins",
+      "id": "8e16a7f8-e5e4-4da9-a105-abb90970d1fe"
+    },
+    "timeInCurrentStage": 61412396606
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.604Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "PYP Teacher"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : PYP Teacher\n Company name : ESFERA ESCOLA INTERNACIONAL\n Period : jan. de 213 – o momento\n Location : São José dos Campos Area, Brazil\n \n Job Title : Teacher Assistant\n Company name : ESFERA ESCOLA INTERNACIONAL\n Period : jan. de 29 – dez. de 212\n Location : São José dos Campos Area, Brazil\n \n Job Title : Work Study - Library aid\n Company name : Central Lakes College\n Period : ago. de 26 – jun. de 28\n Location : Brainerd, Minnesota\n \n \n Job Title : Teaching Assistant\n Company name : Colégio Mater Dei\n Period : out. de 24 – jul. de 25\n Summary : Volunteer preschool teacher\n Location : São José dos Campos Area, Brazil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Certificate of Proficiency in English\n Period : Emitido em jun. de 2016 - Nenhuma data de expiração\n Issuing Authority : University of Michigan"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Federal de São Carlos\n Speciality : Pós-graduação, Educação e Tecnologia\n Period : 22 – 221\n Summary : Habilitação- Formação de Professores\n School name : UniDBSCO\n Speciality : Graduated, Psicopedagogia\n Period : 219 – 22\n School name : UniDBSCO\n Speciality : Graduated, Alfabetização e Letramento\n Period : 219 – 22\n School name : Universidade Federal de Itajubá\n Speciality : Pós Graduação Latu Sensu, Gestão Educacional\n Period : 217 – 218\n School name : Universidade Federal de São Carlos\n Speciality : Licentiate degree, Pedagogia\n Period : 21 – 214\n School name : Bemidji State University\n Speciality : Bachelor of Business Administration - BBA, Business Administration and Management, General\n Period : 28 – 21\n \n School name : Central Lakes College\n Speciality : Associate of Arts Degree, General Studies\n Period : 26 – 28"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "c975ef7f-300e-42bf-9a6a-a1ab180f2681",
+    "id": "a7c5c7f8-dd68-4c17-bb29-8bd16a6b6e90*c975ef7f-300e-42bf-9a6a-a1ab180f2681",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:39.461Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:39.461Z",
+      "linkedinUsername": "natalia-rosario-447203187",
+      "email": "nataliahgrosario@gmail.com",
+      "phone": "12974040334",
+      "name": "Natalia Rosario",
+      "id": "c975ef7f-300e-42bf-9a6a-a1ab180f2681"
+    },
+    "timeInCurrentStage": 61412096606
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.752Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenadora pedagógica"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Coordenadora pedagógica\n Company name : Maple Bear Canadian School\n Period : out. de 221 – o momento\n Location : Maceió, Alagoas, Brasil\n \n Job Title : Coordenadora pedagógica - Middle Years\n Company name : Maple Bear Canadian School\n Period : out. de 221 – o momento\n Location : Maceió, Alagoas, Brasil\n \n Job Title : English Professor\n Company name : Private English Teacher\n Period : ago. de 22 – o momento\n \n Job Title : Coordenadora Pedagogica\n Company name : Co.Study - Soluções Educacionais\n Period : abr. de 221 – out. de 221\n Location : São Paulo, Brasil\n \n Job Title : Coordenadora pedagógica\n Company name : Achieve Languages by Oxford\n Period : abr. de 221 – out. de 221\n Location : Alto de Pinheiros\n \n Job Title : Coordenadora pedagógica\n Company name : Engineering For Kids Brasil\n Period : abr. de 221 – out. de 221\n \n Job Title : Academic Advisor\n Company name : International School Education\n Period : mai. de 219 – abr. de 221\n Location : São Paulo, São Paulo\n \n Job Title : Academic Advisor\n Company name : International School Education\n Period : mai. de 219 – abr. de 221\n Location : São Paulo e Região, Brasil\n \n Job Title : Bilingual Teachers Coach\n Company name : Company name is confidential\n Period : jul. de 217 – mai. de 219\n Location : São Paulo e Região, Brasil\n \n Job Title : Bilingual Teacher\n Company name : Liceu Jardim\n Period : jan. de 215 – mai. de 219\n \n Job Title : English Teacher\n Company name : Red Balloon Escola de Ingles\n Period : jan. de 213 – dez. de 214\n \n Job Title : English Language Teacher\n Company name : Private Languages\n Period : jan. de 212 – set. de 213\n \n \n Job Title : Secretário executivo\n Company name : 141 Worldwide\n Period : set. de 26 – dez. de 211\n Location : São Paulo, São Paulo\n Company 2: Private English Teacher"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade de São Paulo\n Speciality : MBA, Gestão Escolar\n Period : 219 – 22\n School name : Universidade Anhembi Morumbi\n Speciality : Pós-graduação Lato Sensu, Psicopedagogia\n Period : 221 – 222\n School name : University of Cambridge\n Speciality : TKT CLIL, Educação Bilíngue e Multilíngue\n Period : 218 – 218\n School name : Centro Universitário Hermínio Ometto - FHO|Uniararas\n Speciality : Licentiate degree, Pedagogia\n Period : 217 – 217\n \n School name : IESA\n Speciality : Licentiate degree, Languages - Portuguese/English\n Period : 28 – 21\n Courses: Title : CLIL - São Paulo Open Centre; Title : Cambridge Day; Title : Classroom Management; Title : DELTA Module 1; Title : Design Thinking for Innovation; Title : Design Thinking for Innovation; Title : Disciplina Positiva; Title : English; Title : From Teacher to Master Teacher; Title : Language Awareness - By TROIKA (Vinicius Nobre); Title : Pearson Academy 218; Title : Pearson Bilingual Circuit; Title : Phonics; Title : Phonics Workshop; Title : Phonology - By TROIKA; Title : Read Aloud Strategies; Title : Redação publicitária; Title : Storytelling; \n Title : Understanding STEM"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "41ee35e9-8989-4453-8d41-dadfbc95c026",
+    "id": "a7c5c7f8-dd68-4c17-bb29-8bd16a6b6e90*41ee35e9-8989-4453-8d41-dadfbc95c026",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:35.901Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:35.901Z",
+      "linkedinUsername": "rubia-leite-717016143",
+      "email": "teacherrubia1983@gmail.com",
+      "phone": "11989540330",
+      "name": "Rubia Leite",
+      "id": "41ee35e9-8989-4453-8d41-dadfbc95c026"
+    },
+    "timeInCurrentStage": 61412396606
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.537Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenadora Pedagógica Bilíngue"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenadora Pedagógica Bilíngue\n Company name : Prime Garden Escola Bilingue"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : English Proficiency\n Period : Emitido em set. de 2020 - Nenhuma data de expiração\n Issuing Authority : British Council"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Title : Educação Bilíngue: conceitos e práticas essenciais"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "63b9b625-328b-402a-8f05-50ab5d4ca0ea",
+    "id": "a7c5c7f8-dd68-4c17-bb29-8bd16a6b6e90*63b9b625-328b-402a-8f05-50ab5d4ca0ea",
+    "talent": {
+      "updatedAt": "2023-12-20T13:53:15.706Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:53:15.706Z",
+      "linkedinUsername": "patricia-sena-389a5a1b5",
+      "email": "patriciasena6@hotmail.com",
+      "phone": "",
+      "name": "Patricia Sena",
+      "id": "63b9b625-328b-402a-8f05-50ab5d4ca0ea"
+    },
+    "timeInCurrentStage": 61412996606
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.500Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Academic Advisor"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Academic Advisor\n Company name : Cultura Inglesa\n Period : ago. de 221 – o momento\n Summary : Academic Advisory / Consultancy to a portfolio of Cultura Inglesa Educational Group partner schools in terms of the Bilingual Education Program (https://lpculturainglesacombr/plataformabilingue)\n Location : São Paulo, Brasil\n \n Job Title : School Academic Coordinator\n Company name : Escola Moppe\n Period : nov. de 22 – o momento\n Summary : Bilingual Education Coordinator of Smart International - Educational Program\n \n Bilingual Pedagogical Coordination and Management of:\n \n Kindergarten\n Elementary School\n Middle School\n \n Development of the Academic Bilingual Education Proposal - International Core - Project Based Learning on a CLIL Approach\n Location : São José dos Campos, São Paulo, Brasil\n \n Job Title : Academic Consultant\n Company name : Poliedro Educação\n Period : dez. de 219 – jan. de 221\n Summary : Academic Consultancy to a portfolio of Poliedro Educação Educational Group partner schools (https://wwwsistemapoliedrocombr) \n \n Lectures and professional formation on educational themes for school members (Principals, Coordinators, Teachers, Parents, Students etc) such as: Active Learning Methodologies, Project Based Learning, Blended Learning, Evaluation Systems, Bloom’s Taxonomy etc\n \n Monitoring students learning performance through the data of electronic report cards, providing support for schools Assessment of student and teacher learning and development, selection of methods and materials to be used, monitoring teachers performance, communication between all those involved in the educational process, structuring of policies and pedagogical projects (PPP) for governmental purposes, contract renewal negotiation etc\n Location : Brazil\n \n Job Title : MYP IB International Baccalaureate - Academic Consultant / Coordinator & Teacher.\n Company name : SIS Swiss International School\n Period : dez. de 218 – jan. de 22\n Summary : International Baccalaureate Specialist\n Location : Brasil\n \n Job Title : Academic Coordinator - Educator\n Company name : GRUPO SEB\n Period : abr. de 217 – dez. de 218\n Summary : SEB - Maple Bear\n Coordenador e Consultor pedagógico, implantação de programas de educação, desenvolvimento da proposta pedagógica e documentos, contratação e treinamentos de equipe docente, atendimento e apresentações à comunidade escolar em geral, documentações junto aos órgãos públicos\n Location : São Paulo e Região, Brasil\n \n Job Title : Consultor Acadêmico de Educação Regular, Bilíngue e Internacional.\n Company name : GRUPO SEB\n Period : mai. de 215 – jun. de 217\n Summary : Educação Bilingue & Internacional - Gestão e Implantação de projetos pedagógicos\n Escolas: Pueri Domus(SP), Dom Bosco(PR), Global Program School(MG), COC(BR), GEO(PB), Sartre COC(BA), Unimaster(MG) Cecan(DF) e mais 4 escolas do Grupo SEB\n Trabalho realizado nas escolas, ministrando treinamentos, reuniões e \n orientações aos gestores e à comunidade escolar em geral\n Location : Ribeirão Preto e Região, Brasil\n \n Job Title : Nevada International School - International Education Coordinator\n Company name : Advantages School International, LLC\n Period : abr. de 217 – nov. de 218\n Summary : Nevada International School in Partnership with AmericanEdu Brazil - International Education\n Schools International Coordinator, Teachers' development, Pedagogical Documents and Validation throughout the world \n Coordination & Development Of Didactic Platforms (Blackboard and Canvas) Material and Educational Approaches: PBL on CLIL + Blended Learning\n Location : São Paulo e Região, Brasil\n \n Job Title : Coordenador Pedagógico\n Company name : Escola do max\n Period : out. de 213 – jul. de 215\n Summary : Coordenador Pedagógico - Educação Bilingue\n Location : São Paulo e Região, Brasil\n \n Job Title : Professor e Coordenador Pedagógico\n Company name : WiseUp Language School\n Period : nov. de 213 – jun. de 214\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Professor e Coordenador Pedagógico - Trilingue\n Company name : Pearson Professional Programs\n Period : jan. de 21 – dez. de 213\n Summary : Coordenador Pedagógico, Professor de Inglês, Português e Francês\n Pearson Educação – Grupo Multi\n Location : São Paulo e Região, Brasil\n Company 2: Escola Moppe"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : TOEIC 890 PTS\n Period : Emitido em jan. de 2012 - Nenhuma data de expiração\n Issuing Authority : TOEIC® Program\n Title : CAE - Course at Cultura Inglesa\n Period : Emitido em 2005 - Nenhuma data de expiração\n Issuing Authority : Cambridge University Press\n \n Title : IELTS - International English Language Testing System\n Issuing Authority : British Council"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Instituto Singularidades\n Speciality : Pós Graduação - Educação Bilíngue, Educação Bilíngue e Internacional, Educação Bilíngue\n Period : 219 – 221\n Summary : Em Andamento, Educação Bilíngue\n School name : Instituto Singularidades\n Speciality : Curso de Extensão Universitária, Educação, A BNCC e a alfabetização para o 1º e 2º ano\n Period : 22 – 22\n Summary : Ensino Fundamental (1º e 2º anos) Processo de ensino-aprendizagem da Língua Portuguesa Apropriação do sistema de escrita e de como a criança aprende a ler e escrever; Usos sociais da Língua;Aproximação dos fazeres pedagógicos das competências e habilidades presentes na Base Nacional Comum Curricular (BNCC), por meio dos objetos de conhecimento.\n School name : Instituto Singularidades\n Speciality : Curso de Extensão - Metodologias Ativas de Aprendizagem: princípios, práticas e tecnologias, Educação e Tecnologia, https://online.isesp.edu.br/course/view.php?id=95#section-3\n Period : 22 – 22\n Summary : Conhecer estratégias que permitem a adoção de metodologias ativas em programas presenciais e/ou em espaços digitais.\n School name : Instituto Singularidades\n Speciality : EDUCAÇÃO BILÍNGUE: O QUE É? COMO SE FAZ?, Educação Bilíngue, Multilíngue e Multicultural, Curso de Extensão em Educação Bilíngue e Internacional.\n Period : 219 – 219\n Summary : https://loja.isesp.edu.br/cursos/todososcursos/educacao-bilingue-o-que-e-como-se-faz/\n School name : The IELTS TOEFL Centre\n Speciality : IELTS Course, Educação Bilíngue e Multilíngue, Studying for IELTS Certification\n Period : 219\n Summary : Studying for IELTS Certification, Studying for IELTS Certification\n School name : Universidade Brasil\n Speciality : Bacharelado em Pedagogia, Educação Bilíngue e Multilíngue\n Period : 26 – 211\n \n School name : Pontifícia Universidade Católica do Paraná\n Speciality : Curso de Extensão Plurilinguismo e Educação Global, Educação Bilíngue, Multilíngue e Multicultural, Curso de extensão - Educação Bilíngue, Multilíngue - Multicultural.\n Period : 221 – 221\n Summary : Processo de aprendizagem de línguas e conteúdos acadêmicos,Diretrizes Curriculares Nacionais - Educação Plurilíngue, Formação complementar em Educação Bilíngue.https://www.pucpr.br/cursos-extensao/plurilinguismo-e-educacao-global/\n Courses: Title : Gestão e implantação de currículos - British Council; Title : Google Education; Title : Microsoft Office - Complete Pack; \n Title : Microsoft Office - Excel Plus"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "6621c6dc-88b8-4cbf-b03c-d67299b4b10a",
+    "id": "a7c5c7f8-dd68-4c17-bb29-8bd16a6b6e90*6621c6dc-88b8-4cbf-b03c-d67299b4b10a",
+    "talent": {
+      "updatedAt": "2023-12-20T13:56:23.038Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:56:23.038Z",
+      "linkedinUsername": "agnaldo-araújo-a47386123",
+      "email": "afacoordenador@gmail.com",
+      "phone": "11920120995",
+      "name": "Agnaldo Araújo",
+      "id": "6621c6dc-88b8-4cbf-b03c-d67299b4b10a"
+    },
+    "timeInCurrentStage": 61412396606
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.691Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "30/09/1985"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "9000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador educacional"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SC",
+          "id": "315e56b3-d7d4-47bf-95a8-d810c2ad557a",
+          "label": "SC"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador educacional\n Company name : Eleva Educação\n Period : jan. de 221 – o momento\n Summary : Coordenadora Pedagógica Colégio Visão de Kobrasol\n Location : São José, Santa Catarina, Brasil\n \n Job Title : Sales Manager\n Company name : Nota Máxima\n Period : nov. de 219 – jan. de 221\n Summary : Trabalho sempre com propósito e ajudar a realizar sonhos é o meu A área educacional aliada com a inovação e tecnologia me encantaram muito e desde que entrei, fico cada dia mais apaixonada pelo que faço Atualmente como Sales Development Representative, com método SPIN Selling, vendas consultivas, no grupo ALE e Nota Máxima wwwnotamaximacombr\n Location : Blumenau e Região, Brasil\n \n Job Title : Coordenadora de Cursos\n Company name : Cebrac Franchising\n Period : ago. de 217 – nov. de 219\n Summary : § Recrutamento e seleção de educadores\n § Treinamento e desenvolvimento contínuo de educadores\n § Garantir a qualidade das aulas: assistindo as aulas, entrevistando os alunos, fazendo pesquisas de satisfação\n § Planejamento, organização, delegação de tarefas e execução dos eventos externos e internos da escola e do calendário pedagógico\n § Análise das pautas e controle de conteúdos\n § Análise da frequência das turmas e elaboração de planejamento de como diminuir a evasão escolar das turmas\n § Atendimento individual na reversão de cancelamento dos cursos\n \n Job Title : Administradora e sócia\n Company name : SecureNet\n Period : out. de 29 – jul. de 217\n Summary : § Planejamento, organização e controle das contas a pagar e a receber\n § Atuava comercialmente fechando contratos e vendendo as soluções da empresa\n § Organização escritório\n § Elaboração de relatórios mensais e análise\n § Negociação com Bancos e cobrança de clientes\n Location : Lages e Região, Brasil\n \n Job Title : Executiva de Contas Externa\n Company name : Use Locadora ( AVIS)\n Period : nov. de 28 – set. de 29\n Summary : § Locação de veículos\n § Relatórios gerenciais \n § Prospecção, montagem de agenda, venda de planos de locação anuais para empresas ( formação de uma carteira de clientes de Lages e região AMURES)\n Location : Lages\n \n Job Title : Auxiliar administrativo\n Company name : Datisen Projetos E Eventos\n Period : fev. de 27 – abr. de 28\n Summary : § Organização contratos e documentos empresariais\n § Negociação com fornecedores e clientes \n § Recepção em eventos externos, auxílio a montagem e desmontagem da decoração\n Location : Lages\n \n \n Job Title : Atendente Comercial\n Company name : Finasa\n Period : ago. de 24 – set. de 25\n Summary : § Atendimento á clientes \n § Negociação para empréstimos pessoais com clientes e matriz\n § Organização contratos para envio á matriz\n Location : Lages"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : UniCesumar\n Speciality : Master of Business Administration - MBA, MBA Liderança e Coaching\n Period : 218 – 22\n School name : UNINTER Centro Universitário Internacional\n Speciality : Master of Business Administration - MBA, MBA Administração de Marketing\n Period : 27 – 28\n \n School name : FAculdades integradas Facvest\n Speciality : Bacharelado em Administração, Administração de Empresas\n Period : 1999 – 25"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "41978a04-8989-46f5-93c4-09525744c646",
+    "id": "a7c5c7f8-dd68-4c17-bb29-8bd16a6b6e90*41978a04-8989-46f5-93c4-09525744c646",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:20.805Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:20.805Z",
+      "linkedinUsername": "gabriela-koech-983138192",
+      "email": "gabikoech@gmail.com",
+      "phone": "47997318785",
+      "name": "Gabriela Koech",
+      "id": "41978a04-8989-46f5-93c4-09525744c646"
+    },
+    "timeInCurrentStage": 61412396606
+  }
+]

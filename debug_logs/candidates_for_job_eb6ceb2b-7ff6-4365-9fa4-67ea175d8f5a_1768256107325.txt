@@ -1,0 +1,1516 @@
+[
+  {
+    "createdAt": "2024-11-29T16:10:56.208Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "3cc13952-af5b-4b97-836e-b0a58169ef4a",
+    "updatedAt": "2024-11-29T16:14:03.520Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*3cc13952-af5b-4b97-836e-b0a58169ef4a",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-29T15:00:08.141Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-29T15:00:08.141Z",
+      "linkedinUsername": "miguelgonzalezrosas",
+      "name": "Miguel Gonzalez Rosas",
+      "id": "3cc13952-af5b-4b97-836e-b0a58169ef4a"
+    },
+    "timeInCurrentStage": 35359451035
+  },
+  {
+    "createdAt": "2024-11-29T19:35:09.353Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "ccc2be0d-bed4-47d8-890d-ffb44f749e46",
+    "updatedAt": "2024-11-29T20:02:24.362Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*ccc2be0d-bed4-47d8-890d-ffb44f749e46",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-29T19:35:09.163Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-29T19:35:09.163Z",
+      "linkedinUsername": "bernardo-oliveira",
+      "name": "Bernardo Oliveira",
+      "id": "ccc2be0d-bed4-47d8-890d-ffb44f749e46"
+    },
+    "timeInCurrentStage": 35347197890
+  },
+  {
+    "createdAt": "2024-11-29T18:15:38.121Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "a93f5d98-e0fe-459d-a1e4-b1d0e6d83006",
+    "updatedAt": "2024-11-29T18:15:46.626Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*a93f5d98-e0fe-459d-a1e4-b1d0e6d83006",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-29T18:15:37.940Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-29T18:15:37.940Z",
+      "linkedinUsername": "jiaxin-wen-55045a150",
+      "name": "Jiaxin Wen",
+      "id": "a93f5d98-e0fe-459d-a1e4-b1d0e6d83006"
+    },
+    "timeInCurrentStage": 35351969122
+  },
+  {
+    "createdAt": "2024-11-29T17:04:43.009Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "f36de82f-1ea4-4c95-83a5-9ad3cf878b6f",
+    "updatedAt": "2024-11-29T17:04:51.841Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*f36de82f-1ea4-4c95-83a5-9ad3cf878b6f",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-29T17:04:42.840Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-29T17:04:42.840Z",
+      "linkedinUsername": "luigi-aversa-44500b59",
+      "name": "Luigi Aversa",
+      "id": "f36de82f-1ea4-4c95-83a5-9ad3cf878b6f"
+    },
+    "timeInCurrentStage": 35356224234
+  },
+  {
+    "createdAt": "2024-11-29T16:15:59.112Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "5435d450-7023-4de3-8870-effd06a272eb",
+    "updatedAt": "2024-11-29T16:27:31.300Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*5435d450-7023-4de3-8870-effd06a272eb",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-29T16:15:58.934Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-29T16:15:58.934Z",
+      "linkedinUsername": "nathan-rbr",
+      "name": "Nathan Ribeiro",
+      "id": "5435d450-7023-4de3-8870-effd06a272eb"
+    },
+    "timeInCurrentStage": 35359148131
+  },
+  {
+    "createdAt": "2024-12-02T17:01:39.747Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "84b39390-975b-4cd7-a755-f1a6e75108bf",
+    "updatedAt": "2024-12-02T17:01:53.399Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*84b39390-975b-4cd7-a755-f1a6e75108bf",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "createdAt": "2024-12-02T14:43:36.161Z",
+      "linkedinUsername": "alvaro-ruben-reyes-diaz",
+      "name": "Alvaro Ruben Reyes Diaz",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-12-02T17:01:38.701Z",
+      "userId": null,
+      "userName": "InHire",
+      "id": "84b39390-975b-4cd7-a755-f1a6e75108bf"
+    },
+    "timeInCurrentStage": 35097207496
+  },
+  {
+    "createdAt": "2024-12-06T18:31:18.215Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "0bb2b44a-c620-4410-8c74-2586529fbd05",
+    "updatedAt": "2024-12-06T18:31:27.241Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*0bb2b44a-c620-4410-8c74-2586529fbd05",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-12-06T18:31:18.059Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-12-06T18:31:18.059Z",
+      "linkedinUsername": "gabriele-massaro-82932670",
+      "name": "Gabriele Massaro",
+      "id": "0bb2b44a-c620-4410-8c74-2586529fbd05"
+    },
+    "timeInCurrentStage": 34746229028
+  },
+  {
+    "createdAt": "2024-11-29T19:24:29.150Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "38ad0c0d-7640-4ba5-b78d-83f7c40c1089",
+    "updatedAt": "2024-11-29T19:24:37.307Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*38ad0c0d-7640-4ba5-b78d-83f7c40c1089",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-29T19:24:28.773Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-29T19:24:28.773Z",
+      "linkedinUsername": "franciscograjalescravioto",
+      "name": "Francisco Gtajales Cravioto",
+      "id": "38ad0c0d-7640-4ba5-b78d-83f7c40c1089"
+    },
+    "timeInCurrentStage": 35347838093
+  },
+  {
+    "createdAt": "2024-11-29T18:58:53.475Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "19646247-46a4-41cb-a005-0df3b766d9a6",
+    "updatedAt": "2024-11-29T18:59:03.268Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*19646247-46a4-41cb-a005-0df3b766d9a6",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "contactMethod": "email",
+      "createdAt": "2024-11-04T15:38:21.713Z",
+      "email": "lberthing@gmail.com",
+      "linkedinUsername": "lars-berthing-6b91b311",
+      "location": "Copenhagem, Dinamarca",
+      "name": "Lars Bething",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-11-29T18:58:52.965Z",
+      "userId": null,
+      "userName": "InHire",
+      "id": "19646247-46a4-41cb-a005-0df3b766d9a6"
+    },
+    "timeInCurrentStage": 35349373768
+  },
+  {
+    "createdAt": "2024-11-29T20:02:16.992Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "308010cc-d8c4-4a1f-849f-ab7fd581dc54",
+    "updatedAt": "2024-11-29T20:03:13.941Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*308010cc-d8c4-4a1f-849f-ab7fd581dc54",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-29T20:02:16.816Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-29T20:02:16.816Z",
+      "linkedinUsername": "frabusic",
+      "name": "Frank Rabusic",
+      "id": "308010cc-d8c4-4a1f-849f-ab7fd581dc54"
+    },
+    "timeInCurrentStage": 35345570251
+  },
+  {
+    "createdAt": "2024-11-29T16:10:01.974Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "6882526d-e16a-4b10-897e-f37dbef912ee",
+    "updatedAt": "2024-11-29T16:13:20.338Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*6882526d-e16a-4b10-897e-f37dbef912ee",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-29T14:04:46.831Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-29T14:04:46.831Z",
+      "linkedinUsername": "mariabazarova",
+      "name": "Maria Bazarova",
+      "id": "6882526d-e16a-4b10-897e-f37dbef912ee"
+    },
+    "timeInCurrentStage": 35359505269
+  },
+  {
+    "createdAt": "2024-11-29T15:58:16.085Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "b2c0a930-dfb2-4012-8955-5e5ca0fd5680",
+    "updatedAt": "2024-11-29T16:08:31.913Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*b2c0a930-dfb2-4012-8955-5e5ca0fd5680",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-29T15:32:55.963Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-29T15:32:55.963Z",
+      "linkedinUsername": "simon-ingemann-thomsen",
+      "name": "Simon Ingemann Thomsen",
+      "id": "b2c0a930-dfb2-4012-8955-5e5ca0fd5680"
+    },
+    "timeInCurrentStage": 35360211158
+  },
+  {
+    "createdAt": "2024-11-29T16:09:45.536Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "50f312bf-a352-4486-bcae-0203cbf0d268",
+    "updatedAt": "2024-12-03T18:20:32.165Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*50f312bf-a352-4486-bcae-0203cbf0d268",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "createdAt": "2024-11-29T15:14:18.575Z",
+      "email": "j_sarnago@yahoo.es",
+      "linkedinUsername": "jorgesarnago",
+      "name": "Jorge Sarnago",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-12-03T18:20:32.569Z",
+      "userId": null,
+      "userName": "InHire",
+      "id": "50f312bf-a352-4486-bcae-0203cbf0d268"
+    },
+    "timeInCurrentStage": 35359521707
+  },
+  {
+    "createdAt": "2024-11-29T20:21:04.259Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "a96a987c-1a50-485c-b31c-8da7bd3a5fab",
+    "updatedAt": "2024-11-29T20:21:17.768Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*a96a987c-1a50-485c-b31c-8da7bd3a5fab",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-29T20:21:04.058Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-29T20:21:04.058Z",
+      "linkedinUsername": "luis-saldanha-11a9531bb",
+      "name": "Luis Saldanha",
+      "id": "a96a987c-1a50-485c-b31c-8da7bd3a5fab"
+    },
+    "timeInCurrentStage": 35344442984
+  },
+  {
+    "createdAt": "2024-11-29T17:01:27.714Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "eb5bc1a5-0ea9-420a-8e9b-65dcf7a5bcbf",
+    "updatedAt": "2024-11-29T17:01:36.377Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*eb5bc1a5-0ea9-420a-8e9b-65dcf7a5bcbf",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-29T17:01:27.554Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-29T17:01:27.554Z",
+      "linkedinUsername": "espen-hamre",
+      "name": "Espen Hamre",
+      "id": "eb5bc1a5-0ea9-420a-8e9b-65dcf7a5bcbf"
+    },
+    "timeInCurrentStage": 35356419529
+  },
+  {
+    "createdAt": "2024-11-29T17:24:02.787Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "dc3ff866-9f90-43ac-b605-f30917cd7090",
+    "updatedAt": "2024-11-29T17:24:32.240Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*dc3ff866-9f90-43ac-b605-f30917cd7090",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-29T17:24:02.613Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-29T17:24:02.613Z",
+      "linkedinUsername": "friso-de-vos-077161106",
+      "name": "Friso de Vos",
+      "id": "dc3ff866-9f90-43ac-b605-f30917cd7090"
+    },
+    "timeInCurrentStage": 35355064456
+  },
+  {
+    "createdAt": "2024-11-29T17:20:56.524Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "667e1dc0-600a-4d1d-9e2a-df05cc68af8b",
+    "updatedAt": "2024-11-29T17:21:15.172Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*667e1dc0-600a-4d1d-9e2a-df05cc68af8b",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-29T17:20:56.343Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-29T17:20:56.343Z",
+      "linkedinUsername": "katja-mayer-7b907b5",
+      "name": "Katja Mayer",
+      "id": "667e1dc0-600a-4d1d-9e2a-df05cc68af8b"
+    },
+    "timeInCurrentStage": 35355250719
+  },
+  {
+    "createdAt": "2024-11-29T19:20:50.219Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "83571e2b-fb12-449c-9b09-f03bd2028941",
+    "updatedAt": "2024-11-29T19:21:35.176Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*83571e2b-fb12-449c-9b09-f03bd2028941",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-29T19:20:50.022Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-29T19:20:50.022Z",
+      "linkedinUsername": "pablovazquezlorenzo",
+      "name": "Pablo Vazquez Lorenzo",
+      "id": "83571e2b-fb12-449c-9b09-f03bd2028941"
+    },
+    "timeInCurrentStage": 35348057024
+  },
+  {
+    "createdAt": "2024-11-29T17:08:54.742Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "883e791b-25f2-4d26-a100-a2147da0ea26",
+    "updatedAt": "2024-11-29T17:09:03.431Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*883e791b-25f2-4d26-a100-a2147da0ea26",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-29T17:08:54.309Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-29T17:08:54.309Z",
+      "linkedinUsername": "javierhernangreciano",
+      "name": "Javier Hernan Greciano",
+      "id": "883e791b-25f2-4d26-a100-a2147da0ea26"
+    },
+    "timeInCurrentStage": 35355972501
+  },
+  {
+    "createdAt": "2024-11-29T16:10:37.737Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "9c5b40bf-5751-42d4-a4bc-7c6813d1af51",
+    "updatedAt": "2024-11-29T16:14:46.249Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*9c5b40bf-5751-42d4-a4bc-7c6813d1af51",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-29T15:06:17.941Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-29T15:06:17.941Z",
+      "linkedinUsername": "pedrojav",
+      "name": "Pedro Alejandre Vilar",
+      "id": "9c5b40bf-5751-42d4-a4bc-7c6813d1af51"
+    },
+    "timeInCurrentStage": 35359469506
+  },
+  {
+    "createdAt": "2024-11-29T17:28:04.829Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "318fb4fa-0a91-468a-8a9b-7a8c303250f8",
+    "updatedAt": "2024-11-29T18:08:20.147Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*318fb4fa-0a91-468a-8a9b-7a8c303250f8",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-29T17:28:04.671Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-29T17:28:04.671Z",
+      "linkedinUsername": "austin-f-5a597912a",
+      "name": "Austin Fusco",
+      "id": "318fb4fa-0a91-468a-8a9b-7a8c303250f8"
+    },
+    "timeInCurrentStage": 35354822414
+  },
+  {
+    "createdAt": "2024-12-06T18:32:37.899Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "926e687c-ee4c-4a1e-9d9a-5d91674385ad",
+    "updatedAt": "2024-12-06T18:34:40.170Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*926e687c-ee4c-4a1e-9d9a-5d91674385ad",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-12-06T18:32:37.728Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-12-06T18:32:37.728Z",
+      "linkedinUsername": "mathias-runge-42800365",
+      "name": "Mathias Runge",
+      "id": "926e687c-ee4c-4a1e-9d9a-5d91674385ad"
+    },
+    "timeInCurrentStage": 34746149344
+  },
+  {
+    "createdAt": "2024-11-29T17:16:14.640Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "cd77e0ff-c7bc-400b-932f-4817611b7afb",
+    "updatedAt": "2024-11-29T17:20:40.792Z",
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "userName": "Giovanna Herdy Koster",
+    "id": "eb6ceb2b-7ff6-4365-9fa4-67ea175d8f5a*cd77e0ff-c7bc-400b-932f-4817611b7afb",
+    "tags": [
+      {
+        "createdAt": "2024-11-29T16:08:14.657Z",
+        "color": "#ffee59",
+        "name": "Energia",
+        "id": "01JDWAW521D1MR0QGD9QX0DKA1",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:14.657Z"
+      },
+      {
+        "createdAt": "2024-11-29T16:08:24.984Z",
+        "color": "#e95285",
+        "name": "Giovanna",
+        "id": "01JDWAWF4RSA6VQQ42JC8N801H",
+        "userName": "Giovanna Herdy Koster",
+        "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+        "updatedAt": "2024-11-29T16:08:24.984Z"
+      }
+    ],
+    "talent": {
+      "createdAt": "2024-11-29T17:16:14.081Z",
+      "email": "a.ibarra.molla@gmail.com",
+      "linkedinUsername": "antonio-ibarra-mollá-2733a749",
+      "name": "Antonio Ibarra Mollá",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-12-16T14:42:33.006Z",
+      "userId": null,
+      "userName": "InHire",
+      "id": "cd77e0ff-c7bc-400b-932f-4817611b7afb"
+    },
+    "timeInCurrentStage": 35355532603
+  }
+]

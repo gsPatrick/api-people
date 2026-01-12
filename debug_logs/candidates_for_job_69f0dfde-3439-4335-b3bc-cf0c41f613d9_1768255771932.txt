@@ -1,0 +1,47 @@
+[
+  {
+    "stage": {
+      "phase": {
+        "name": "Fit Técnico",
+        "createdAt": "2024-02-14T21:12:00.057Z",
+        "id": "01HPMQCMACJZZ4R3DMZASN3M2N",
+        "type": "technicalFit",
+        "order": 6,
+        "updatedAt": "2024-02-14T21:12:00.057Z"
+      },
+      "createdAt": "2024-02-14T21:12:00.057Z",
+      "name": "Entrevista com Cliente",
+      "id": "8",
+      "userName": "Inhire",
+      "type": "technicalInterview",
+      "userId": null,
+      "updatedAt": "2024-02-14T21:12:00.057Z",
+      "order": 8
+    },
+    "userId": "d3b0c83e-72eb-4583-bc4d-e9844b6f63a1",
+    "updatedAt": "2024-03-19T16:43:03.749Z",
+    "status": "active",
+    "userName": "Helena Magalhães",
+    "createdAt": "2024-03-19T16:43:03.749Z",
+    "source": "manual",
+    "id": "69f0dfde-3439-4335-b3bc-cf0c41f613d9*5450ae0c-c7a1-4bd5-a608-9622cd8b8a6a",
+    "talentId": "5450ae0c-c7a1-4bd5-a608-9622cd8b8a6a",
+    "talent": {
+      "company": "Ibmec",
+      "createdAt": "2024-03-01T17:06:22.652Z",
+      "email": "marinabertoche@gmail.com",
+      "headline": "",
+      "linkedinUsername": "marinabertoche",
+      "location": "São Paulo",
+      "name": "Marina Bertoche",
+      "phone": "+5521966282212",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQF_IylXzj-qcw/profile-displayphoto-shrink_200_200/0/1693780019568?e=1715212800&v=beta&t=fOFAqVeAbo3RcYb8KUEWyr6qocpZIZD7rkWipX0TOtY",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-05T13:41:54.106Z",
+      "userId": null,
+      "userName": "InHire",
+      "id": "5450ae0c-c7a1-4bd5-a608-9622cd8b8a6a"
+    },
+    "timeInCurrentStage": 57389187178
+  }
+]

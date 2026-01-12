@@ -1,0 +1,4464 @@
+[
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "updatedAt": "2024-10-29T17:55:23.398Z",
+    "status": "active",
+    "userName": "Giovanna Herdy Koster",
+    "createdAt": "2024-10-29T17:55:23.398Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*035d79a9-d893-4650-a61d-7fa8332f98be",
+    "talentId": "035d79a9-d893-4650-a61d-7fa8332f98be",
+    "tags": [],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-10-29T17:55:23.211Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-10-29T17:55:23.211Z",
+      "linkedinUsername": "wagner-ishikiryama-32996421",
+      "contactMethod": "linkedin",
+      "name": "Wagner Ishikiryama",
+      "id": "035d79a9-d893-4650-a61d-7fa8332f98be"
+    },
+    "timeInCurrentStage": 38031278146
+  },
+  {
+    "createdAt": "2024-09-20T13:45:43.087Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQNAJ1Z78DX804VHT4X0",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 2
+    },
+    "status": "active",
+    "talentId": "178808ea-67bd-4f9a-b8a3-70e1be9b550f",
+    "updatedAt": "2024-09-24T11:31:51.767Z",
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*178808ea-67bd-4f9a-b8a3-70e1be9b550f",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "tags": [],
+    "talent": {
+      "contactMethod": "whatsapp",
+      "createdAt": "2024-09-20T13:45:37.472Z",
+      "linkedinUsername": "li-hong-zhao-68b15781",
+      "location": "São Paulo, SP",
+      "name": "Li hong zhao",
+      "phone": "+5511967954222",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-24T11:31:51.888Z",
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "id": "178808ea-67bd-4f9a-b8a3-70e1be9b550f"
+    },
+    "timeInCurrentStage": 41078306304
+  },
+  {
+    "createdAt": "2024-09-17T16:55:43.995Z",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQNAJ1Z78DX804VHT4X0",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 2
+    },
+    "status": "declined",
+    "talentId": "e6dfa73d-4ebf-4f5c-acf2-e92b2903d8cd",
+    "updatedAt": "2024-09-20T15:04:46.903Z",
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "userName": "Clara Favre Pieri",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*e6dfa73d-4ebf-4f5c-acf2-e92b2903d8cd",
+    "reason": "overqualified",
+    "tags": [],
+    "talent": {
+      "contactMethod": "whatsapp",
+      "createdAt": "2024-09-17T16:55:36.434Z",
+      "linkedinUsername": "way-chien-3b26498",
+      "location": "São Paulo, SP",
+      "name": "Way Chien",
+      "phone": "+5511914168866",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-17T19:23:26.186Z",
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "userName": "Clara Favre Pieri",
+      "id": "e6dfa73d-4ebf-4f5c-acf2-e92b2903d8cd"
+    },
+    "timeInCurrentStage": 41654810406
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-13T19:55:21.831Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-13T19:55:21.831Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*83e4be91-f1f1-4560-82af-0fa37255260f",
+    "talentId": "83e4be91-f1f1-4560-82af-0fa37255260f",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-13T19:55:14.943Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-13T19:55:14.943Z",
+      "linkedinUsername": "cristina-chun-5114b866",
+      "name": "Cristina Chun",
+      "id": "83e4be91-f1f1-4560-82af-0fa37255260f"
+    },
+    "timeInCurrentStage": 41998479713
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "updatedAt": "2024-11-12T18:26:05.551Z",
+    "status": "active",
+    "userName": "Giovanna Herdy Koster",
+    "createdAt": "2024-11-12T18:26:05.551Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*f8c602a3-09b2-4def-a4b1-9a33ea79d039",
+    "talentId": "f8c602a3-09b2-4def-a4b1-9a33ea79d039",
+    "tags": [],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-12T18:26:05.377Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-12T18:26:05.377Z",
+      "linkedinUsername": "richard-yili",
+      "name": "Yi Li",
+      "id": "f8c602a3-09b2-4def-a4b1-9a33ea79d039"
+    },
+    "timeInCurrentStage": 36819835993
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "updatedAt": "2024-11-11T14:39:51.023Z",
+    "status": "active",
+    "userName": "Giovanna Herdy Koster",
+    "createdAt": "2024-11-11T14:39:51.023Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*35cb6051-8656-4156-a2f2-947a0c77029a",
+    "talentId": "35cb6051-8656-4156-a2f2-947a0c77029a",
+    "tags": [],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-11T14:39:50.853Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-11T14:39:50.853Z",
+      "linkedinUsername": "jessica-ishimoto",
+      "name": "Jessica Ishimoto",
+      "id": "35cb6051-8656-4156-a2f2-947a0c77029a"
+    },
+    "timeInCurrentStage": 36919810521
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "updatedAt": "2024-11-11T14:45:49.852Z",
+    "status": "active",
+    "userName": "Giovanna Herdy Koster",
+    "createdAt": "2024-11-11T14:45:49.852Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*4e6591c6-6504-40b8-84e1-3adadcc260a2",
+    "talentId": "4e6591c6-6504-40b8-84e1-3adadcc260a2",
+    "tags": [],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-11T14:45:49.663Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-11T14:45:49.663Z",
+      "linkedinUsername": "jackie-chen-765b22175",
+      "name": "Jackie Chen",
+      "id": "4e6591c6-6504-40b8-84e1-3adadcc260a2"
+    },
+    "timeInCurrentStage": 36919451692
+  },
+  {
+    "createdAt": "2024-09-16T12:44:52.041Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "status": "rejected",
+    "talentId": "938f4493-9191-4c0e-a335-80eaf953fd18",
+    "updatedAt": "2024-09-30T13:42:17.456Z",
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "userName": "Clara Favre Pieri",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*938f4493-9191-4c0e-a335-80eaf953fd18",
+    "reason": "competence",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-16T12:44:45.960Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-16T12:44:45.960Z",
+      "linkedinUsername": "daniela-hiromi-n-27480051",
+      "name": "Daniela Hiromi",
+      "id": "938f4493-9191-4c0e-a335-80eaf953fd18"
+    },
+    "timeInCurrentStage": 41765109503
+  },
+  {
+    "createdAt": "2024-09-20T14:15:07.205Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Abordagem",
+        "id": "01HYEDKQNB4RJ6TZN2M8NWW7RG",
+        "type": "approach",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 2,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "João Vitor Novaes",
+      "type": "inApproach",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 3
+    },
+    "status": "rejected",
+    "talentId": "9869cf42-89f5-40e3-b570-21a1a7b9dd42",
+    "updatedAt": "2024-09-30T13:24:05.461Z",
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*9869cf42-89f5-40e3-b570-21a1a7b9dd42",
+    "reason": "competence",
+    "tags": [],
+    "talent": {
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "updatedAt": "2024-09-20T14:15:00.389Z",
+      "status": "UNKNOWN",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "createdAt": "2024-09-20T14:15:00.389Z",
+      "linkedinUsername": "susete-wu-76887056",
+      "name": "susete wu",
+      "id": "9869cf42-89f5-40e3-b570-21a1a7b9dd42"
+    },
+    "timeInCurrentStage": 40553162577
+  },
+  {
+    "createdAt": "2024-09-20T14:41:13.242Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Abordagem",
+        "id": "01HYEDKQNB4RJ6TZN2M8NWW7RG",
+        "type": "approach",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 2,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "João Vitor Novaes",
+      "type": "inApproach",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 3
+    },
+    "status": "rejected",
+    "talentId": "8311c57e-7c97-42b0-8e9c-291ab8c3940b",
+    "updatedAt": "2024-09-30T13:23:49.557Z",
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*8311c57e-7c97-42b0-8e9c-291ab8c3940b",
+    "reason": "competence",
+    "tags": [],
+    "talent": {
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "updatedAt": "2024-09-20T14:41:08.547Z",
+      "status": "UNKNOWN",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "createdAt": "2024-09-20T14:41:08.547Z",
+      "linkedinUsername": "mengna-wu-150944209",
+      "name": "Mengna Wu",
+      "id": "8311c57e-7c97-42b0-8e9c-291ab8c3940b"
+    },
+    "timeInCurrentStage": 40553180912
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "updatedAt": "2024-10-29T16:10:35.288Z",
+    "status": "active",
+    "userName": "Giovanna Herdy Koster",
+    "createdAt": "2024-10-29T16:10:35.288Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*5caec747-1031-45c0-a929-d707105f523c",
+    "talentId": "5caec747-1031-45c0-a929-d707105f523c",
+    "tags": [],
+    "talent": {
+      "location": "Rio de Janeiro",
+      "userId": null,
+      "updatedAt": "2024-10-29T16:10:35.053Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-10-29T16:10:35.053Z",
+      "linkedinUsername": "wtf",
+      "contactMethod": "linkedin",
+      "name": "Tengfei Wang",
+      "id": "5caec747-1031-45c0-a929-d707105f523c"
+    },
+    "timeInCurrentStage": 38037566256
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "updatedAt": "2024-10-31T19:17:55.040Z",
+    "status": "active",
+    "userName": "Giovanna Herdy Koster",
+    "createdAt": "2024-10-31T19:17:55.040Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*7c255e57-94af-4f03-b45f-739775c55d0c",
+    "talentId": "7c255e57-94af-4f03-b45f-739775c55d0c",
+    "tags": [],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-10-31T19:17:54.854Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-10-31T19:17:54.854Z",
+      "linkedinUsername": "roberto-liu-a67806",
+      "contactMethod": "linkedin",
+      "name": "Roberto Liu",
+      "id": "7c255e57-94af-4f03-b45f-739775c55d0c"
+    },
+    "timeInCurrentStage": 37853526504
+  },
+  {
+    "createdAt": "2024-09-19T13:56:10.435Z",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Vicinay Marine"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "20/09/1994"
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": {
+          "value": "Masculino",
+          "id": "f054fecc-a8f5-4402-8bc5-996fc61cd7dd",
+          "label": "Masculino"
+        }
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": "Sim, dependendo da oportunidade"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "40000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "select",
+        "value": {
+          "value": "R$ - Real",
+          "id": "98cc3ecd-867b-4275-ba5f-16ef764911cf",
+          "label": "R$ - Real"
+        }
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": {
+          "value": "CLT",
+          "id": "616a6be4-36b2-4ed2-887c-24ca20b6e99d",
+          "label": "CLT"
+        }
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "number",
+        "value": "-1"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Benefícios de praxe"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês Avançado | Espanhol Nativo | Mandarim Intermediário | Português Intermediáriouguês "
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "355087e0-43b3-40c1-b377-a4454430ac53",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": {
+          "value": "Casado(a)",
+          "id": "35c3e676-1152-471f-b0be-1f117a1834c6",
+          "label": "Casado(a)"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "Sim, 8 meses"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "89c9cd64-f2e0-40a2-b1a6-131086f6cc78",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Abordagem",
+        "id": "01HYEDKQNB4RJ6TZN2M8NWW7RG",
+        "type": "approach",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 2,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "João Vitor Novaes",
+      "type": "inApproach",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 3
+    },
+    "status": "declined",
+    "talentId": "105c6d10-5362-4948-832b-00dff5f8d789",
+    "updatedAt": "2024-09-20T15:03:10.752Z",
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "userName": "Clara Favre Pieri",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*105c6d10-5362-4948-832b-00dff5f8d789",
+    "reason": "salary_expectation",
+    "tags": [],
+    "talent": {
+      "contactMethod": "whatsapp",
+      "createdAt": "2024-09-19T13:56:03.315Z",
+      "linkedinUsername": "davidchouzhang",
+      "location": "Rio de Janeiro, RJ",
+      "name": "David Chou Zhang",
+      "phone": "+5521994620761",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-19T14:58:35.056Z",
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "userName": "Clara Favre Pieri",
+      "id": "105c6d10-5362-4948-832b-00dff5f8d789"
+    },
+    "timeInCurrentStage": 41480286527
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-19T15:17:06.644Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-19T15:17:06.644Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*9ec55656-d249-40a4-b060-e98e09bc1b37",
+    "talentId": "9ec55656-d249-40a4-b060-e98e09bc1b37",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-19T15:17:00.882Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-19T15:17:00.882Z",
+      "linkedinUsername": "hsu-wei-zheng-b0373a70",
+      "name": "Hsu Wei Zheng",
+      "id": "9ec55656-d249-40a4-b060-e98e09bc1b37"
+    },
+    "timeInCurrentStage": 41496774900
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "updatedAt": "2024-09-20T14:31:31.374Z",
+    "status": "active",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "createdAt": "2024-09-20T14:31:31.374Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*b2f9f139-14f5-4303-ba8e-0c6d7c13a0b0",
+    "talentId": "b2f9f139-14f5-4303-ba8e-0c6d7c13a0b0",
+    "tags": [],
+    "talent": {
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "updatedAt": "2024-09-20T14:31:11.293Z",
+      "status": "UNKNOWN",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "createdAt": "2024-09-20T14:31:11.293Z",
+      "linkedinUsername": "shaoyun-li-3901521b6",
+      "name": "Shaoyun Li",
+      "id": "b2f9f139-14f5-4303-ba8e-0c6d7c13a0b0"
+    },
+    "timeInCurrentStage": 41413110170
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-13T19:42:38.082Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-13T19:42:38.082Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*f87e7ac7-9424-4529-b3b3-ecc6712199c3",
+    "talentId": "f87e7ac7-9424-4529-b3b3-ecc6712199c3",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-13T19:42:27.304Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-13T19:42:27.304Z",
+      "linkedinUsername": "johnnyliu-sp-abc",
+      "name": "Johnny Liu",
+      "id": "f87e7ac7-9424-4529-b3b3-ecc6712199c3"
+    },
+    "timeInCurrentStage": 41999243462
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQNAJ1Z78DX804VHT4X0",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 2
+    },
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "updatedAt": "2024-11-11T14:33:28.749Z",
+    "status": "active",
+    "userName": "Giovanna Herdy Koster",
+    "createdAt": "2024-11-11T14:33:28.749Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*31aaa7cc-7935-41d6-8eb4-b244b958eb4f",
+    "talentId": "31aaa7cc-7935-41d6-8eb4-b244b958eb4f",
+    "tags": [],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-11T14:33:28.592Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-11T14:33:28.592Z",
+      "linkedinUsername": "joana-chen-05669164",
+      "name": "Joana Chen",
+      "id": "31aaa7cc-7935-41d6-8eb4-b244b958eb4f"
+    },
+    "timeInCurrentStage": 36920192795
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "updatedAt": "2024-11-12T18:30:56.660Z",
+    "status": "active",
+    "userName": "Giovanna Herdy Koster",
+    "createdAt": "2024-11-12T18:30:56.660Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*9249088d-fce1-4f15-b4c5-534a8766f8a2",
+    "talentId": "9249088d-fce1-4f15-b4c5-534a8766f8a2",
+    "tags": [],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-12T18:30:56.416Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-12T18:30:56.416Z",
+      "linkedinUsername": "xinqi-liu-931697105",
+      "name": "Xinqi Liu",
+      "id": "9249088d-fce1-4f15-b4c5-534a8766f8a2"
+    },
+    "timeInCurrentStage": 36819544884
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-13T19:52:30.550Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-13T19:52:30.550Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*12c59e4f-455e-4420-ad69-25149c490cb1",
+    "talentId": "12c59e4f-455e-4420-ad69-25149c490cb1",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-13T19:52:15.031Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-13T19:52:15.031Z",
+      "linkedinUsername": "weimeichueh",
+      "name": "Wei Mei Chueh",
+      "id": "12c59e4f-455e-4420-ad69-25149c490cb1"
+    },
+    "timeInCurrentStage": 41998650994
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "updatedAt": "2024-09-30T13:16:05.418Z",
+    "status": "declined",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "createdAt": "2024-09-20T14:41:52.766Z",
+    "source": "manual",
+    "talentId": "6af5c557-35b2-41ce-a723-1ecc83e1c619",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*6af5c557-35b2-41ce-a723-1ecc83e1c619",
+    "reason": "satisfied",
+    "tags": [],
+    "talent": {
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "updatedAt": "2024-09-20T14:41:45.882Z",
+      "status": "UNKNOWN",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "createdAt": "2024-09-20T14:41:45.882Z",
+      "linkedinUsername": "sicong-chen-a17717145",
+      "name": "Sicong Chen",
+      "id": "6af5c557-35b2-41ce-a723-1ecc83e1c619"
+    },
+    "timeInCurrentStage": 41412488778
+  },
+  {
+    "createdAt": "2024-09-20T13:36:20.660Z",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "TVP"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "21/06/1987"
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": {
+          "value": "Masculino",
+          "id": "f054fecc-a8f5-4402-8bc5-996fc61cd7dd",
+          "label": "Masculino"
+        }
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": "Sim, dependendo da oportunidade"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "13000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "select",
+        "value": {
+          "value": "R$ - Real",
+          "id": "98cc3ecd-867b-4275-ba5f-16ef764911cf",
+          "label": "R$ - Real"
+        }
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": {
+          "value": "CLT",
+          "id": "616a6be4-36b2-4ed2-887c-24ca20b6e99d",
+          "label": "CLT"
+        }
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "number",
+        "value": "2"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "number",
+        "value": "2"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "VR (+1000,00), Combustível (+1000,00), Seguro de Vida (Prudentia), Plano de Saúde e Odonto (Bradesco comco-participação) e Estacionamento no local"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Elétrica",
+          "id": "7a7f3302-213a-4aaa-a516-2caff6cd4c38",
+          "label": "Engenharia Elétrica"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "USP"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês Avançado | Mandarim Básico"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Indiferente"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "select",
+        "value": {
+          "value": "Não pertence",
+          "id": "34300447-089f-450d-bcf1-9cdc31e25fa9",
+          "label": "Não pertence"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador Financeiro e Tesouraria"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Coordenador(a)",
+          "id": "74ecd4d0-cb2a-4553-80c3-c0f4ef775ca3",
+          "label": "Coordenador(a)"
+        }
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": {
+          "value": "Solteiro(a)",
+          "id": "b1f48702-b40a-4131-b025-4390a8e7975b",
+          "label": "Solteiro(a)"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "Não"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "a61d5a84-8a70-4c4b-844d-d1dbe9ea6a4e",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Fit Técnico",
+        "id": "01HYEDKQNEH5DJMA71YT67FY94",
+        "type": "technicalFit",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 6,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Short List",
+      "id": "7",
+      "userName": "João Vitor Novaes",
+      "type": "technicalInterview",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 7
+    },
+    "status": "active",
+    "talentId": "991dcc6c-be97-4abd-aa82-f2c41c511e59",
+    "updatedAt": "2024-09-23T13:19:31.149Z",
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*991dcc6c-be97-4abd-aa82-f2c41c511e59",
+    "tags": [
+      {
+        "createdAt": "2024-09-20T19:18:13.492Z",
+        "color": "#6b40b7",
+        "name": "Coordenador",
+        "id": "01J88DXPQMQJG4ZYATF4YES8XG",
+        "userName": "Clara Favre Pieri",
+        "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+        "updatedAt": "2024-09-20T19:18:13.492Z"
+      }
+    ],
+    "talent": {
+      "contactMethod": "whatsapp",
+      "createdAt": "2024-09-20T13:36:11.231Z",
+      "email": "jkchenboa@gmail.com",
+      "linkedinUsername": "alex-chen-ba807418",
+      "location": "São Paulo, SP",
+      "name": "Alex Chen",
+      "phone": "+5511982997248",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-02-24T20:42:36.469Z",
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "id": "991dcc6c-be97-4abd-aa82-f2c41c511e59"
+    },
+    "timeInCurrentStage": 41158230374
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-18T14:13:57.590Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-18T14:13:57.590Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*a283acd9-f353-4f8f-a869-d3cc01148693",
+    "talentId": "a283acd9-f353-4f8f-a869-d3cc01148693",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-18T14:13:51.540Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-18T14:13:51.540Z",
+      "linkedinUsername": "xiaohui-huang-43824a62",
+      "name": "Xiaohui Huang",
+      "id": "a283acd9-f353-4f8f-a869-d3cc01148693"
+    },
+    "timeInCurrentStage": 41586963954
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-13T19:38:55.974Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-13T19:38:55.974Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*55c2b9c3-15c4-4712-b9fd-07e96388e92d",
+    "talentId": "55c2b9c3-15c4-4712-b9fd-07e96388e92d",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-13T19:38:46.479Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-13T19:38:46.479Z",
+      "linkedinUsername": "natalia-chen-72877329",
+      "name": "Natalia Chen",
+      "id": "55c2b9c3-15c4-4712-b9fd-07e96388e92d"
+    },
+    "timeInCurrentStage": 41999465570
+  },
+  {
+    "createdAt": "2024-09-19T15:17:23.093Z",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQNAJ1Z78DX804VHT4X0",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 2
+    },
+    "status": "declined",
+    "talentId": "cd0c950e-738d-4f51-b85e-a4496f3d8fe8",
+    "updatedAt": "2024-09-20T15:02:17.503Z",
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "userName": "Clara Favre Pieri",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*cd0c950e-738d-4f51-b85e-a4496f3d8fe8",
+    "reason": "satisfied",
+    "tags": [],
+    "talent": {
+      "contactMethod": "whatsapp",
+      "createdAt": "2024-09-19T15:17:16.540Z",
+      "linkedinUsername": "marco-wong-b1749712",
+      "location": "São Paulo, SP",
+      "name": "Marco Wong",
+      "phone": "+5511992427510",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-19T20:12:48.162Z",
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "userName": "Clara Favre Pieri",
+      "id": "cd0c950e-738d-4f51-b85e-a4496f3d8fe8"
+    },
+    "timeInCurrentStage": 41479049768
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-13T20:01:30.346Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-13T20:01:30.346Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*b3e0fe5c-abaa-4f31-a1f1-3049e35528de",
+    "talentId": "b3e0fe5c-abaa-4f31-a1f1-3049e35528de",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-13T20:01:19.962Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-13T20:01:19.962Z",
+      "linkedinUsername": "chen-su-566b8893",
+      "name": "Chen Su",
+      "id": "b3e0fe5c-abaa-4f31-a1f1-3049e35528de"
+    },
+    "timeInCurrentStage": 41998111198
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-23T12:20:51.110Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-23T12:20:51.110Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*c50cca36-5387-4b8d-8466-fb3f6c38e1e3",
+    "talentId": "c50cca36-5387-4b8d-8466-fb3f6c38e1e3",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-23T12:20:43.735Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-23T12:20:43.735Z",
+      "linkedinUsername": "alexandre-lee-5916b3a",
+      "name": "Alexandre Lee",
+      "id": "c50cca36-5387-4b8d-8466-fb3f6c38e1e3"
+    },
+    "timeInCurrentStage": 41161750434
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "updatedAt": "2024-09-20T14:36:45.287Z",
+    "status": "active",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "createdAt": "2024-09-20T14:36:45.287Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*8a935db5-6957-4921-bb99-f4a674e310c0",
+    "talentId": "8a935db5-6957-4921-bb99-f4a674e310c0",
+    "tags": [],
+    "talent": {
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "updatedAt": "2024-09-20T14:36:30.365Z",
+      "status": "UNKNOWN",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "createdAt": "2024-09-20T14:36:30.365Z",
+      "linkedinUsername": "阳-李-4970b8106",
+      "name": "李阳",
+      "id": "8a935db5-6957-4921-bb99-f4a674e310c0"
+    },
+    "timeInCurrentStage": 41412796258
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "updatedAt": "2024-10-31T20:03:38.269Z",
+    "status": "active",
+    "userName": "Giovanna Herdy Koster",
+    "createdAt": "2024-10-31T20:03:38.269Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*c7f04608-6974-48e3-ac41-d6ff9410900f",
+    "talentId": "c7f04608-6974-48e3-ac41-d6ff9410900f",
+    "tags": [],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-10-31T20:03:38.077Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-10-31T20:03:38.077Z",
+      "linkedinUsername": "kurichard",
+      "contactMethod": "linkedin",
+      "name": "Richard Ku",
+      "id": "c7f04608-6974-48e3-ac41-d6ff9410900f"
+    },
+    "timeInCurrentStage": 37850783276
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-13T19:57:26.296Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-13T19:57:26.296Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*78b11617-3650-4de5-8f75-2330c9318bf5",
+    "talentId": "78b11617-3650-4de5-8f75-2330c9318bf5",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-13T19:57:14.602Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-13T19:57:14.602Z",
+      "linkedinUsername": "jo-chun",
+      "name": "Jo Chun",
+      "id": "78b11617-3650-4de5-8f75-2330c9318bf5"
+    },
+    "timeInCurrentStage": 41998355249
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "updatedAt": "2024-09-30T13:16:24.963Z",
+    "status": "declined",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "createdAt": "2024-09-20T14:16:31.344Z",
+    "source": "manual",
+    "talentId": "9924e429-5023-4d73-9fb8-888f9258b237",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*9924e429-5023-4d73-9fb8-888f9258b237",
+    "reason": "satisfied",
+    "tags": [],
+    "talent": {
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "updatedAt": "2024-09-20T14:16:23.641Z",
+      "status": "UNKNOWN",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "createdAt": "2024-09-20T14:16:23.641Z",
+      "linkedinUsername": "tina-z-b486a5180",
+      "name": "Tina Z.",
+      "id": "9924e429-5023-4d73-9fb8-888f9258b237"
+    },
+    "timeInCurrentStage": 41414010201
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-13T19:56:46.848Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-13T19:56:46.848Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*62515a3b-a6e5-4150-a6b4-524653066d52",
+    "talentId": "62515a3b-a6e5-4150-a6b4-524653066d52",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-13T19:56:39.858Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-13T19:56:39.858Z",
+      "linkedinUsername": "jeyne-c-ab419b1",
+      "name": "Jeyne Chun",
+      "id": "62515a3b-a6e5-4150-a6b4-524653066d52"
+    },
+    "timeInCurrentStage": 41998394697
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "updatedAt": "2024-09-20T14:34:10.672Z",
+    "status": "active",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "createdAt": "2024-09-20T14:34:10.672Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*12d23261-3e3c-4134-9e91-0e66669f3e61",
+    "talentId": "12d23261-3e3c-4134-9e91-0e66669f3e61",
+    "tags": [],
+    "talent": {
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "updatedAt": "2024-09-20T14:33:33.621Z",
+      "status": "UNKNOWN",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "createdAt": "2024-09-20T14:33:33.621Z",
+      "linkedinUsername": "仟-罗-ab9632216",
+      "name": "罗仟",
+      "id": "12d23261-3e3c-4134-9e91-0e66669f3e61"
+    },
+    "timeInCurrentStage": 41412950873
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "updatedAt": "2024-11-12T18:52:08.558Z",
+    "status": "active",
+    "userName": "Giovanna Herdy Koster",
+    "createdAt": "2024-11-12T18:52:08.558Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*440fec5e-d5b9-4b54-842c-5e58e95041a5",
+    "talentId": "440fec5e-d5b9-4b54-842c-5e58e95041a5",
+    "tags": [],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-11-12T18:52:08.402Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-11-12T18:52:08.402Z",
+      "linkedinUsername": "josué-chen-lin-9b73785b",
+      "name": "Josué Chen Lin",
+      "id": "440fec5e-d5b9-4b54-842c-5e58e95041a5"
+    },
+    "timeInCurrentStage": 36818272987
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-13T19:08:34.757Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-13T19:08:34.757Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*d693b540-0549-4714-911a-97874d9025f4",
+    "talentId": "d693b540-0549-4714-911a-97874d9025f4",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-13T19:08:25.119Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-13T19:08:25.119Z",
+      "linkedinUsername": "fabio-n-kaneko-331ba242",
+      "name": "Fabio Kaneko",
+      "id": "d693b540-0549-4714-911a-97874d9025f4"
+    },
+    "timeInCurrentStage": 42001286788
+  },
+  {
+    "createdAt": "2024-09-20T13:36:58.686Z",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Kantar"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "13/09/1974"
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": {
+          "value": "Feminino",
+          "id": "e2bfe53f-d0b8-4ace-a79d-7cfecc3e9375",
+          "label": "Feminino"
+        }
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": "Prefere permanecer em SP ou mudanças internacionais"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "26000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "select",
+        "value": {
+          "value": "R$ - Real",
+          "id": "98cc3ecd-867b-4275-ba5f-16ef764911cf",
+          "label": "R$ - Real"
+        }
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": {
+          "value": "CLT",
+          "id": "616a6be4-36b2-4ed2-887c-24ca20b6e99d",
+          "label": "CLT"
+        }
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "number",
+        "value": "1.5"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "number",
+        "value": "2"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Plano de Saúde & Odonto, VR (33,00/dia), Seguro de Vida "
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Alimentos",
+          "id": "ed581aeb-264b-4cdf-9c22-ab644a1bd3f4",
+          "label": "Engenharia de Alimentos"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "UNICAMP"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Ingles & Espanhol Fluentes | Mandarin, Alemão, Japonês e Francês Básicos"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Latin America Controller and Accounting Manager"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "355087e0-43b3-40c1-b377-a4454430ac53",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": {
+          "value": "Divorciado(a)",
+          "id": "7afa5838-2cd2-4397-ab51-27dfea88f945",
+          "label": "Divorciado(a)"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "Sim, 13 e 15 anos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "a61d5a84-8a70-4c4b-844d-d1dbe9ea6a4e",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Abordagem",
+        "id": "01HYEDKQNB4RJ6TZN2M8NWW7RG",
+        "type": "approach",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 2,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "João Vitor Novaes",
+      "type": "inApproach",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 3
+    },
+    "status": "rejected",
+    "talentId": "e092b144-c890-4b89-9d27-678333c520dc",
+    "updatedAt": "2024-09-23T13:25:29.324Z",
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*e092b144-c890-4b89-9d27-678333c520dc",
+    "reason": "competence",
+    "tags": [],
+    "talent": {
+      "contactMethod": "whatsapp",
+      "createdAt": "2024-09-20T13:36:51.116Z",
+      "email": "kikuchi.renata@gmail.com",
+      "linkedinUsername": "kikuchirenata",
+      "location": "São Paulo, SP",
+      "name": "Renata Kikuchi",
+      "phone": "+5511981331553",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-23T13:25:29.387Z",
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "id": "e092b144-c890-4b89-9d27-678333c520dc"
+    },
+    "timeInCurrentStage": 41397729322
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-19T15:17:38.708Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-19T15:17:38.708Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*e13fbf9b-d3a0-45ab-b32d-ed48188e3f61",
+    "talentId": "e13fbf9b-d3a0-45ab-b32d-ed48188e3f61",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-19T15:17:31.826Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-19T15:17:31.826Z",
+      "linkedinUsername": "ivanachiu",
+      "name": "Ivana Chiu",
+      "id": "e13fbf9b-d3a0-45ab-b32d-ed48188e3f61"
+    },
+    "timeInCurrentStage": 41496742837
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-13T19:41:14.228Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-13T19:41:14.228Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*3f78f6ed-95cd-4f72-86df-4af07f7ce971",
+    "talentId": "3f78f6ed-95cd-4f72-86df-4af07f7ce971",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-13T19:41:03.697Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-13T19:41:03.697Z",
+      "linkedinUsername": "meagan-wang-334814319",
+      "name": "Meagan Wang",
+      "id": "3f78f6ed-95cd-4f72-86df-4af07f7ce971"
+    },
+    "timeInCurrentStage": 41999327317
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-11-06T12:03:44.628Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-19T12:51:15.197Z",
+    "source": "manual",
+    "talentId": "8b19df58-0aaf-4482-9d1d-65a517d06214",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*8b19df58-0aaf-4482-9d1d-65a517d06214",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "tags": [],
+    "talent": {
+      "createdAt": "2024-09-19T12:51:09.203Z",
+      "email": "Elizalin_br@hotmail.com",
+      "linkedinUsername": "elizalin75",
+      "name": "Eliza Lin",
+      "phone": "+5511994126206",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-12-13T14:40:23.020Z",
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "userName": "Clara Favre Pieri",
+      "id": "8b19df58-0aaf-4482-9d1d-65a517d06214"
+    },
+    "timeInCurrentStage": 41505526348
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+    "updatedAt": "2024-09-19T13:07:05.342Z",
+    "status": "active",
+    "userName": "João Vitor Novaes",
+    "createdAt": "2024-09-19T13:07:05.342Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*bb2ec770-c135-4613-ac03-686113480e32",
+    "talentId": "bb2ec770-c135-4613-ac03-686113480e32",
+    "tags": [],
+    "talent": {
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-09-19T13:06:57.811Z",
+      "status": "UNKNOWN",
+      "userName": "João Vitor Novaes",
+      "createdAt": "2024-09-19T13:06:57.811Z",
+      "linkedinUsername": "judyfllin",
+      "name": "Judy Lin",
+      "id": "bb2ec770-c135-4613-ac03-686113480e32"
+    },
+    "timeInCurrentStage": 41504576203
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "5b8d50a0-28cb-4cc5-afdd-d1ef09423a70",
+    "updatedAt": "2024-10-31T20:26:35.548Z",
+    "status": "active",
+    "userName": "Giovanna Herdy Koster",
+    "createdAt": "2024-10-31T20:26:35.548Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*43ee3a37-d796-4329-97f5-d94be56b8358",
+    "talentId": "43ee3a37-d796-4329-97f5-d94be56b8358",
+    "tags": [],
+    "talent": {
+      "userId": null,
+      "updatedAt": "2024-10-31T20:26:35.378Z",
+      "status": "UNKNOWN",
+      "userName": "InHire",
+      "createdAt": "2024-10-31T20:26:35.378Z",
+      "linkedinUsername": "regianeeliaswu",
+      "contactMethod": "linkedin",
+      "name": "Regiane Elias Wu",
+      "id": "43ee3a37-d796-4329-97f5-d94be56b8358"
+    },
+    "timeInCurrentStage": 37849405997
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "updatedAt": "2024-09-30T13:15:51.292Z",
+    "status": "declined",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "createdAt": "2024-09-20T17:55:26.599Z",
+    "source": "manual",
+    "talentId": "3041bc9a-b4aa-4cb1-b79d-693f36ac9278",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*3041bc9a-b4aa-4cb1-b79d-693f36ac9278",
+    "reason": "satisfied",
+    "tags": [],
+    "talent": {
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "updatedAt": "2024-09-20T17:55:16.392Z",
+      "status": "UNKNOWN",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "createdAt": "2024-09-20T17:55:16.392Z",
+      "linkedinUsername": "rafaeldongilkim",
+      "name": "DONG IL KIM",
+      "id": "3041bc9a-b4aa-4cb1-b79d-693f36ac9278"
+    },
+    "timeInCurrentStage": 41400874946
+  },
+  {
+    "createdAt": "2024-09-20T16:44:48.181Z",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "99"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "10/06/1982"
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": {
+          "value": "Feminino",
+          "id": "e2bfe53f-d0b8-4ace-a79d-7cfecc3e9375",
+          "label": "Feminino"
+        }
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": "Por enquanto, não"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "28000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "select",
+        "value": {
+          "value": "R$ - Real",
+          "id": "98cc3ecd-867b-4275-ba5f-16ef764911cf",
+          "label": "R$ - Real"
+        }
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": {
+          "value": "CLT",
+          "id": "616a6be4-36b2-4ed2-887c-24ca20b6e99d",
+          "label": "CLT"
+        }
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "number",
+        "value": "4"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "number",
+        "value": "5"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Benefícios de praxe"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Gestão Financeira",
+          "id": "33c42b81-d242-47bd-a4e1-116daecdd2f5",
+          "label": "Gestão Financeira"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "FMU (Direito) e Gestão Financeira (Mackenzie)"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês (foi alfabetizada) e Chines (família e aulas desde criança) Fluentes | Espanhol Básico"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "select",
+        "value": {
+          "value": "Não pertence",
+          "id": "34300447-089f-450d-bcf1-9cdc31e25fa9",
+          "label": "Não pertence"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Finance Operations Manager"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "355087e0-43b3-40c1-b377-a4454430ac53",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": {
+          "value": "Solteiro(a)",
+          "id": "b1f48702-b40a-4131-b025-4390a8e7975b",
+          "label": "Solteiro(a)"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "Não"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "a61d5a84-8a70-4c4b-844d-d1dbe9ea6a4e",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "files": [
+      {
+        "name": "Cristina%20Yang%20-%20English%20CV.pdf",
+        "id": "89d8dc72-e9bf-426d-aa71-d399ddbe6b94",
+        "key": "resumes/peopleoriented/Cristina%20Yang%20-%20English%20CV*89d8dc72-e9bf-426d-aa71-d399ddbe6b94.pdf",
+        "fileCategory": "resumes"
+      }
+    ],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Fit Técnico",
+        "id": "01HYEDKQNEH5DJMA71YT67FY94",
+        "type": "technicalFit",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 6,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Short List",
+      "id": "7",
+      "userName": "João Vitor Novaes",
+      "type": "technicalInterview",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 7
+    },
+    "status": "active",
+    "talentId": "44f4576d-ad00-4abb-93a8-d177758d4bc1",
+    "updatedAt": "2024-09-24T19:16:08.134Z",
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*44f4576d-ad00-4abb-93a8-d177758d4bc1",
+    "tags": [
+      {
+        "createdAt": "2024-09-24T19:16:06.306Z",
+        "color": "#9c27b0",
+        "name": "Gerente",
+        "id": "01J8JQCPH2DWPA9XPCRQBGGCDJ",
+        "userName": "Clara Favre Pieri",
+        "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+        "updatedAt": "2024-09-24T19:16:06.306Z"
+      }
+    ],
+    "talent": {
+      "contactMethod": "whatsapp",
+      "createdAt": "2024-09-20T16:44:29.493Z",
+      "linkedinUsername": "cristina-yang-995187105",
+      "location": "São Paulo, SP",
+      "name": "Cristina Yang",
+      "phone": "+5511996592551",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-24T12:05:17.266Z",
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "id": "44f4576d-ad00-4abb-93a8-d177758d4bc1"
+    },
+    "timeInCurrentStage": 41050453066
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-13T19:50:15.772Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-13T19:50:15.772Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*1fbdc50c-847f-43e4-9bec-c6aa91d78ce9",
+    "talentId": "1fbdc50c-847f-43e4-9bec-c6aa91d78ce9",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-13T19:50:06.869Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-13T19:50:06.869Z",
+      "linkedinUsername": "wang-chen-yu-117221",
+      "name": "Wang Chen Yu",
+      "id": "1fbdc50c-847f-43e4-9bec-c6aa91d78ce9"
+    },
+    "timeInCurrentStage": 41998785773
+  },
+  {
+    "createdAt": "2024-09-16T13:01:39.801Z",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQNAJ1Z78DX804VHT4X0",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 2
+    },
+    "status": "declined",
+    "talentId": "2c8bf7c7-8960-4410-ac21-a8b78f2a7f56",
+    "updatedAt": "2024-09-25T13:51:00.748Z",
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "userName": "Clara Favre Pieri",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*2c8bf7c7-8960-4410-ac21-a8b78f2a7f56",
+    "reason": "satisfied",
+    "tags": [],
+    "talent": {
+      "contactMethod": "whatsapp",
+      "createdAt": "2024-09-16T13:01:33.318Z",
+      "linkedinUsername": "金梅-王-11a68617b",
+      "location": "São Paulo, SP",
+      "name": "Wang Jin Mei",
+      "phone": "+5511934452541",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-23T11:53:29.736Z",
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "userName": "Clara Favre Pieri",
+      "id": "2c8bf7c7-8960-4410-ac21-a8b78f2a7f56"
+    },
+    "timeInCurrentStage": 41163432298
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-16T12:48:50.846Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-16T12:48:50.846Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*2f77c3c2-2a73-4d5d-81c8-e2bb64b26187",
+    "talentId": "2f77c3c2-2a73-4d5d-81c8-e2bb64b26187",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-16T12:48:43.783Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-16T12:48:43.783Z",
+      "linkedinUsername": "karina-ding-yue-80b8a562",
+      "name": "Karine Ding Yue",
+      "id": "2f77c3c2-2a73-4d5d-81c8-e2bb64b26187"
+    },
+    "timeInCurrentStage": 41764870699
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-13T20:00:50.895Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-13T20:00:50.895Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*346b415f-f852-4980-ace6-ea762cd86380",
+    "talentId": "346b415f-f852-4980-ace6-ea762cd86380",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-13T20:00:41.119Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-13T20:00:41.119Z",
+      "linkedinUsername": "tatiane-su",
+      "name": "Tatiane Su",
+      "id": "346b415f-f852-4980-ace6-ea762cd86380"
+    },
+    "timeInCurrentStage": 41998150650
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-18T14:07:14.603Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-18T14:07:14.603Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*e2b6b65e-eca8-4dd2-b79c-7db43839f5a7",
+    "talentId": "e2b6b65e-eca8-4dd2-b79c-7db43839f5a7",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-18T14:07:08.482Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-18T14:07:08.482Z",
+      "linkedinUsername": "xinyu-liu-98a34299",
+      "name": "Xinyu (Frank) Liu",
+      "id": "e2b6b65e-eca8-4dd2-b79c-7db43839f5a7"
+    },
+    "timeInCurrentStage": 41587366942
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-30T13:42:41.377Z",
+    "status": "rejected",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-13T19:20:07.503Z",
+    "source": "manual",
+    "talentId": "5652c72a-e84a-465c-b1d6-cb861dbf0202",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*5652c72a-e84a-465c-b1d6-cb861dbf0202",
+    "reason": "competence",
+    "tags": [],
+    "talent": {
+      "company": "Nomad",
+      "createdAt": "2024-09-13T19:19:56.188Z",
+      "linkedinUsername": "herbert-guiotoku",
+      "name": "Herbert Guiotoku",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-01-16T21:31:48.393Z",
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "userName": "Clara Favre Pieri",
+      "id": "5652c72a-e84a-465c-b1d6-cb861dbf0202"
+    },
+    "timeInCurrentStage": 42000594042
+  },
+  {
+    "createdAt": "2024-09-20T14:17:08.640Z",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Majesty América do Sul Embalagen"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "09/11/1993"
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": {
+          "value": "Masculino",
+          "id": "f054fecc-a8f5-4402-8bc5-996fc61cd7dd",
+          "label": "Masculino"
+        }
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": "Sim, dependendo da oportunidade - prefere ir pro Sul do que pro Norte"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "25000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "select",
+        "value": {
+          "value": "R$ - Real",
+          "id": "98cc3ecd-867b-4275-ba5f-16ef764911cf",
+          "label": "R$ - Real"
+        }
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": {
+          "value": "CLT",
+          "id": "616a6be4-36b2-4ed2-887c-24ca20b6e99d",
+          "label": "CLT"
+        }
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "VA (600,00) , Planos (Unimed - co-participação de 25%) e TotalPass (TP 2)"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Chinês Fluente | Inglês e Espanhol Avançados"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Indiferente"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "select",
+        "value": {
+          "value": "Não pertence",
+          "id": "34300447-089f-450d-bcf1-9cdc31e25fa9",
+          "label": "Não pertence"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Head Administrativo/Financeiro"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "355087e0-43b3-40c1-b377-a4454430ac53",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": {
+          "value": "Solteiro(a)",
+          "id": "b1f48702-b40a-4131-b025-4390a8e7975b",
+          "label": "Solteiro(a)"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "Não"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "a61d5a84-8a70-4c4b-844d-d1dbe9ea6a4e",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Fit Técnico",
+        "id": "01HYEDKQNEH5DJMA71YT67FY94",
+        "type": "technicalFit",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 6,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Short List",
+      "id": "7",
+      "userName": "João Vitor Novaes",
+      "type": "technicalInterview",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 7
+    },
+    "status": "active",
+    "talentId": "ecd0ff2c-79bf-42f1-a380-5e7eda44b033",
+    "updatedAt": "2024-09-24T19:16:14.156Z",
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*ecd0ff2c-79bf-42f1-a380-5e7eda44b033",
+    "tags": [
+      {
+        "createdAt": "2024-09-24T19:16:06.306Z",
+        "color": "#9c27b0",
+        "name": "Gerente",
+        "id": "01J8JQCPH2DWPA9XPCRQBGGCDJ",
+        "userName": "Clara Favre Pieri",
+        "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+        "updatedAt": "2024-09-24T19:16:06.306Z"
+      }
+    ],
+    "talent": {
+      "contactMethod": "whatsapp",
+      "createdAt": "2024-09-20T14:17:06.101Z",
+      "linkedinUsername": "nicolas-wei-02817050",
+      "location": "São Paulo, SP",
+      "name": "Nicolas Wei",
+      "phone": "+5551982722755",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-24T12:46:12.003Z",
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "id": "ecd0ff2c-79bf-42f1-a380-5e7eda44b033"
+    },
+    "timeInCurrentStage": 41050455537
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-16T12:43:26.431Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-16T12:43:26.431Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*92ff13ce-5cc6-4cff-a9a0-ad4d84f5be8e",
+    "talentId": "92ff13ce-5cc6-4cff-a9a0-ad4d84f5be8e",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-16T12:43:19.638Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-16T12:43:19.638Z",
+      "linkedinUsername": "daniela-wu-81016194",
+      "name": "Daniela Wu",
+      "id": "92ff13ce-5cc6-4cff-a9a0-ad4d84f5be8e"
+    },
+    "timeInCurrentStage": 41765195114
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "updatedAt": "2024-09-20T13:54:33.961Z",
+    "status": "active",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "createdAt": "2024-09-20T13:54:33.961Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*b6c684ee-5f2e-4c7e-a763-16bdc587e4a8",
+    "talentId": "b6c684ee-5f2e-4c7e-a763-16bdc587e4a8",
+    "tags": [],
+    "talent": {
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "updatedAt": "2024-09-20T13:54:26.546Z",
+      "status": "UNKNOWN",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "createdAt": "2024-09-20T13:54:26.546Z",
+      "linkedinUsername": "端佳-杨-833a25249",
+      "name": "杨端佳",
+      "id": "b6c684ee-5f2e-4c7e-a763-16bdc587e4a8"
+    },
+    "timeInCurrentStage": 41415327584
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-13T19:35:43.571Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-13T19:35:43.571Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*0e29b46c-5e9d-4e4b-b691-c22e90a2be21",
+    "talentId": "0e29b46c-5e9d-4e4b-b691-c22e90a2be21",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-13T19:35:35.945Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-13T19:35:35.945Z",
+      "linkedinUsername": "lily-zhang-878369320",
+      "name": "Lily Zhang",
+      "id": "0e29b46c-5e9d-4e4b-b691-c22e90a2be21"
+    },
+    "timeInCurrentStage": 41999657974
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "updatedAt": "2024-09-20T14:01:23.456Z",
+    "status": "active",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "createdAt": "2024-09-20T14:01:23.456Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*6f3dd81c-47cb-4530-9307-0d7f3e4f038e",
+    "talentId": "6f3dd81c-47cb-4530-9307-0d7f3e4f038e",
+    "tags": [],
+    "talent": {
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "updatedAt": "2024-09-20T14:01:17.426Z",
+      "status": "UNKNOWN",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "createdAt": "2024-09-20T14:01:17.426Z",
+      "linkedinUsername": "siao-fon-chang-50778433",
+      "name": "Siao Fon Chang",
+      "id": "6f3dd81c-47cb-4530-9307-0d7f3e4f038e"
+    },
+    "timeInCurrentStage": 41414918089
+  },
+  {
+    "createdAt": "2024-09-20T14:04:34.486Z",
+    "feedback": null,
+    "reason": "satisfied",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Abordagem",
+        "id": "01HYEDKQNB4RJ6TZN2M8NWW7RG",
+        "type": "approach",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 2,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "João Vitor Novaes",
+      "type": "inApproach",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 3
+    },
+    "status": "declined",
+    "talentId": "bbad9dfc-b457-4c7c-8f21-49e0c0c39837",
+    "updatedAt": "2024-09-30T13:47:24.852Z",
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*bbad9dfc-b457-4c7c-8f21-49e0c0c39837",
+    "tags": [],
+    "talent": {
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "updatedAt": "2024-09-20T14:04:28.016Z",
+      "status": "UNKNOWN",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "createdAt": "2024-09-20T14:04:28.016Z",
+      "linkedinUsername": "karen-wang-047a5a23",
+      "name": "Karen Wang",
+      "id": "bbad9dfc-b457-4c7c-8f21-49e0c0c39837"
+    },
+    "timeInCurrentStage": 40551765621
+  },
+  {
+    "createdAt": "2024-09-13T19:46:02.038Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQNAJ1Z78DX804VHT4X0",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 2
+    },
+    "status": "active",
+    "talentId": "14cb94e0-3704-427b-a6c7-a37106218915",
+    "updatedAt": "2024-09-23T11:54:42.067Z",
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "userName": "Clara Favre Pieri",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*14cb94e0-3704-427b-a6c7-a37106218915",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "tags": [],
+    "talent": {
+      "contactMethod": "whatsapp",
+      "createdAt": "2024-09-13T19:45:51.575Z",
+      "email": "glubizejuju@gmail.com",
+      "linkedinUsername": "haochen-ju-8b6120235",
+      "location": "Rio de Janeiro, RJ",
+      "name": "Haochen JU",
+      "phone": "+5521991739840",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-23T11:54:42.009Z",
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "userName": "Clara Favre Pieri",
+      "id": "14cb94e0-3704-427b-a6c7-a37106218915"
+    },
+    "timeInCurrentStage": 41163354087
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQN8D3D3V47SHM9CXQPB",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 1
+    },
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "updatedAt": "2024-09-13T19:40:42.105Z",
+    "status": "active",
+    "userName": "Clara Favre Pieri",
+    "createdAt": "2024-09-13T19:40:42.105Z",
+    "source": "manual",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*ecaa566a-fa4c-4c2c-b158-9f9321173f17",
+    "talentId": "ecaa566a-fa4c-4c2c-b158-9f9321173f17",
+    "tags": [],
+    "talent": {
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "updatedAt": "2024-09-13T19:39:43.319Z",
+      "status": "UNKNOWN",
+      "userName": "Clara Favre Pieri",
+      "createdAt": "2024-09-13T19:39:43.319Z",
+      "linkedinUsername": "tatiana-wang-2b6563319",
+      "name": "Tatiana Wang",
+      "id": "ecaa566a-fa4c-4c2c-b158-9f9321173f17"
+    },
+    "timeInCurrentStage": 41999359440
+  },
+  {
+    "createdAt": "2024-09-17T16:51:25.998Z",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "feedback": null,
+    "reason": "competence",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2024-05-21T20:31:15.112Z",
+        "name": "Listagem",
+        "id": "01HYEDKQNAJ1Z78DX804VHT4X0",
+        "type": "listing",
+        "userName": "João Vitor Novaes",
+        "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+        "order": 1,
+        "updatedAt": "2024-05-21T20:31:15.112Z"
+      },
+      "createdAt": "2024-05-21T20:31:15.112Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "João Vitor Novaes",
+      "type": "listed",
+      "userId": "e76b3b7c-5acf-4d85-8822-58f4238cf77d",
+      "updatedAt": "2024-05-21T20:31:15.112Z",
+      "order": 2
+    },
+    "status": "rejected",
+    "talentId": "000f354e-98bb-4b29-b596-25165f4156bf",
+    "updatedAt": "2024-09-20T15:03:49.469Z",
+    "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+    "userName": "Clara Favre Pieri",
+    "id": "b75c0e83-d035-49d8-a9c1-86dfb2c3c78e*000f354e-98bb-4b29-b596-25165f4156bf",
+    "tags": [],
+    "talent": {
+      "contactMethod": "whatsapp",
+      "createdAt": "2024-09-17T16:51:14.506Z",
+      "email": "rodrigozhou@hotmail.com",
+      "linkedinUsername": "zhourodrigo",
+      "location": "São Paulo, SP",
+      "name": "Rodrigo Zhou",
+      "phone": "+5511940246897",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-20T15:03:49.543Z",
+      "userId": "fb1426e9-0fc9-41ca-9e3b-b481cb6269c1",
+      "userName": "Clara Favre Pieri",
+      "id": "000f354e-98bb-4b29-b596-25165f4156bf"
+    },
+    "timeInCurrentStage": 41638810642
+  }
+]

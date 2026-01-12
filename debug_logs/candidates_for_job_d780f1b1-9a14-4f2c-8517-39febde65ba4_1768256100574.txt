@@ -1,0 +1,3498 @@
+[
+  {
+    "createdAt": "2024-02-01T19:53:25.637Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Abordagem",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "userName": "Beatriz Frederico",
+        "type": "approach",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Beatriz Frederico",
+      "type": "inApproach",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "status": "rejected",
+    "talentId": "6c20a02e-8913-4dbf-8823-c82c6542860f",
+    "updatedAt": "2024-03-25T13:39:41.923Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*6c20a02e-8913-4dbf-8823-c82c6542860f",
+    "reason": "job_status",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T19:53:24.126Z",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQGqHeKH37uwBQ/profile-displayphoto-shrink_200_200/0/1705364804954?e=1712188800&v=beta&t=YZ59QDqjWwmnA4AdZJXVGJ5ujBpb2ViS4yoEdMeMgII",
+      "linkedinUsername": "renandeoliveiradasilva",
+      "name": "Renan Oliveira",
+      "company": "BA’RA Hotel João Pessoa",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T19:53:24.126Z",
+      "headline": "",
+      "id": "6c20a02e-8913-4dbf-8823-c82c6542860f"
+    },
+    "timeInCurrentStage": 61120805392
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T17:51:52.048Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T17:51:52.048Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*e55a9eba-d63b-426f-8893-360179fb52f0",
+    "talentId": "e55a9eba-d63b-426f-8893-360179fb52f0",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T17:51:50.615Z",
+      "picture": "https://media.licdn.com/dms/image/C5603AQHGEeoE_X8_kg/profile-displayphoto-shrink_200_200/0/1548821660197?e=1712188800&v=beta&t=uQIWTqUrL8yNXLQUTF0RjLnC78nW8wExn29ZEfcTaUA",
+      "linkedinUsername": "oliveiros-fernandes-dos-santos-souza-81061774",
+      "name": "Oliveiros Fernandes Dos Santos Souza",
+      "company": "UNINTER Centro Universitário Internacional",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T17:51:50.615Z",
+      "headline": "",
+      "id": "e55a9eba-d63b-426f-8893-360179fb52f0"
+    },
+    "timeInCurrentStage": 61446187004
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "6f1c1f15-5d50-4703-a3cc-288fd7c11f54",
+    "updatedAt": "2024-02-22T14:18:25.157Z",
+    "status": "active",
+    "userName": "Thifany Madrid Lopes",
+    "createdAt": "2024-02-22T14:18:25.157Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*89e32c34-2a63-4dde-bd7e-bef972e3d31c",
+    "talentId": "89e32c34-2a63-4dde-bd7e-bef972e3d31c",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Thifany Madrid Lopes",
+      "createdAt": "2024-02-22T14:18:23.713Z",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQHsCxmRZTEuHw/profile-displayphoto-shrink_200_200/0/1656885298370?e=1714003200&v=beta&t=kFvUEREtmu16BGsaEJ0zeLLXt7SuE6vk5QAZpN7AXFo",
+      "linkedinUsername": "raissa-lustosa-17a935186",
+      "name": "RAISSA LUSTOSA",
+      "company": "El Compadre Mexicano",
+      "userId": "6f1c1f15-5d50-4703-a3cc-288fd7c11f54",
+      "updatedAt": "2024-02-22T14:18:23.713Z",
+      "headline": "",
+      "id": "89e32c34-2a63-4dde-bd7e-bef972e3d31c"
+    },
+    "timeInCurrentStage": 59644593895
+  },
+  {
+    "createdAt": "2024-02-22T14:14:06.473Z",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Abordagem",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "userName": "Beatriz Frederico",
+        "type": "approach",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Beatriz Frederico",
+      "type": "inApproach",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "status": "rejected",
+    "talentId": "f4012df0-6403-4e56-9c7c-840d251cd0dd",
+    "updatedAt": "2024-03-25T13:39:41.963Z",
+    "userId": "6f1c1f15-5d50-4703-a3cc-288fd7c11f54",
+    "userName": "Thifany Madrid Lopes",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*f4012df0-6403-4e56-9c7c-840d251cd0dd",
+    "reason": "job_status",
+    "talent": {
+      "company": "Kastel Hotéis",
+      "createdAt": "2024-02-22T14:14:03.083Z",
+      "headline": "",
+      "linkedinUsername": "adriano-faria-088707268",
+      "location": "",
+      "name": "Adriano Faria",
+      "phone": "+5524988188906",
+      "picture": "https://media.licdn.com/dms/image/D4E03AQFNUn3HTCsrcg/profile-displayphoto-shrink_400_400/0/1678449447434?e=1714608000&v=beta&t=MbgR7q9IMBKN72Ks4LpYtiFmrMRyCjiHp_yvWnQXh8g",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-02-28T12:14:22.369Z",
+      "userId": "6f1c1f15-5d50-4703-a3cc-288fd7c11f54",
+      "userName": "Thifany Madrid Lopes",
+      "id": "f4012df0-6403-4e56-9c7c-840d251cd0dd"
+    },
+    "timeInCurrentStage": 59117885532
+  },
+  {
+    "createdAt": "2024-02-22T14:03:25.155Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBK6D09GEMVEM6E2FR9",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 2
+    },
+    "status": "active",
+    "talentId": "9563f78d-d2f0-4259-bfec-9413c9f27512",
+    "updatedAt": "2024-02-27T19:59:43.230Z",
+    "userId": "6f1c1f15-5d50-4703-a3cc-288fd7c11f54",
+    "userName": "Thifany Madrid Lopes",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*9563f78d-d2f0-4259-bfec-9413c9f27512",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "talent": {
+      "company": "Felice Café",
+      "createdAt": "2024-02-22T14:03:23.856Z",
+      "headline": "",
+      "linkedinUsername": "jailson-bezerra-928b3782",
+      "location": "",
+      "name": "Jailson Bezerra",
+      "phone": "+5583998733311",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQFWl812AqamBg/profile-displayphoto-shrink_200_200/0/1516878732036?e=1714003200&v=beta&t=FTDPTQ2iZs72AUZC9x_Ty7l87tYMubJAQ5ZFf7Bfs-U",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-02-27T19:59:43.129Z",
+      "userId": "6f1c1f15-5d50-4703-a3cc-288fd7c11f54",
+      "userName": "Thifany Madrid Lopes",
+      "id": "9563f78d-d2f0-4259-bfec-9413c9f27512"
+    },
+    "timeInCurrentStage": 59192147843
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T18:03:35.176Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T18:03:35.176Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*2df939ab-3cee-4845-b2eb-fe3bec07ce99",
+    "talentId": "2df939ab-3cee-4845-b2eb-fe3bec07ce99",
+    "talent": {
+      "company": "ESAB",
+      "createdAt": "2024-02-01T18:03:31.901Z",
+      "headline": "",
+      "linkedinUsername": "rodolfo-rodrigues-51910839",
+      "location": "",
+      "name": "Rodolfo Rodrigues",
+      "picture": "https://media.licdn.com/dms/image/C5603AQFuAaXshYVGPQ/profile-displayphoto-shrink_200_200/0/1516809487416?e=1714003200&v=beta&t=lyk3PAoGHyjpfBnJl_4pqlo2QknB3lhtAGXUOFca0ZQ",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-02-22T13:47:38.104Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "2df939ab-3cee-4845-b2eb-fe3bec07ce99"
+    },
+    "timeInCurrentStage": 61445483876
+  },
+  {
+    "createdAt": "2024-02-07T13:07:23.303Z",
+    "reason": "competence",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Fit Técnico",
+        "id": "01HHCPTVBR4Y140J8PT80ZHP8G",
+        "userName": "Beatriz Frederico",
+        "type": "technicalFit",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 6,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Entrevista com Cliente",
+      "id": "7",
+      "userName": "Beatriz Frederico",
+      "type": "technicalInterview",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 7
+    },
+    "status": "rejected",
+    "talentId": "dd822d2f-b5f4-4fc7-8c2e-4fe25c0e9fc1",
+    "updatedAt": "2024-03-25T13:44:07.054Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*dd822d2f-b5f4-4fc7-8c2e-4fe25c0e9fc1",
+    "feedback": {
+      "channel": "email",
+      "feedbackAt": "2024-03-25T13:44:07.054Z",
+      "details": "<p><span data-sheets-root=\"1\" data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Ol&aacute; X, tudo bem?\\n\\nGostar&iacute;amos de agradecer pelo seu interesse e tempo despendido durante as etapas da posi&ccedil;&atilde;o de X. Nosso cliente optou por seguir para a pr&oacute;xima etapa com outro candidato, mas anteremos o seu contato em nosso radar para eventuais oportunidades.\\n\\nAgradecemos pela sua participa&ccedil;&atilde;o e desejamos sucesso na sua trajet&oacute;ria.\\n\\nGostar&iacute;amos de saber como foi a sua experi&ecirc;ncia com o nosso time. Voc&ecirc; poderia responder &agrave; nossa pesquisa? &Eacute; bem curtinha, leva menos de 1 minuto para respond&ecirc;-la.\\n\\nhttps://forms.gle/TXo5dhny9NqWyFkw8\\n\\nAbra&ccedil;os!&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:33559457,&quot;3&quot;:{&quot;1&quot;:0},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:13421772}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;10&quot;:1,&quot;11&quot;:3,&quot;12&quot;:0,&quot;15&quot;:&quot;Arial&quot;,&quot;28&quot;:1}\">Ol&aacute; Eduardo, tudo bem?<br><br>Gostar&iacute;amos de agradecer pelo seu interesse e tempo despendido durante as etapas da posi&ccedil;&atilde;o de Gerente de Boliche. Nesse momento, n&atilde;o iremos evoluir com a sua candidatura, mas anteremos o seu contato em nosso radar para eventuais oportunidades.<br><br>Agradecemos pela sua participa&ccedil;&atilde;o e desejamos sucesso na sua trajet&oacute;ria.<br><br>Gostar&iacute;amos de saber como foi a sua experi&ecirc;ncia com o nosso time. Voc&ecirc; poderia responder &agrave; nossa pesquisa? &Eacute; bem curtinha, leva menos de 1 minuto para respond&ecirc;-la.<br><br>https://forms.gle/TXo5dhny9NqWyFkw8<br><br>Abra&ccedil;os!</span></p><br> <br><a href='https://peopleoriented.inhire.app/unsubscribe/58dc2035-be43-4b56-add1-c3dc39050e6d' style='font-size: 9px'>Não quero mais receber emails</a>",
+      "emailSubmissionId": "58dc2035-be43-4b56-add1-c3dc39050e6d",
+      "userName": "InHire",
+      "userId": "6f1c1f15-5d50-4703-a3cc-288fd7c11f54"
+    },
+    "talent": {
+      "contactMethod": "whatsapp",
+      "createdAt": "2024-02-07T13:07:23.158Z",
+      "email": "eduardofreitasn82@gmail.com",
+      "location": "João Pessoa",
+      "name": "Eduardo Freitas",
+      "phone": "+5583982001031",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-03-25T13:44:00.761Z",
+      "userId": null,
+      "userName": "InHire",
+      "id": "dd822d2f-b5f4-4fc7-8c2e-4fe25c0e9fc1"
+    },
+    "timeInCurrentStage": 56885691125
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T17:40:52.208Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T17:40:52.208Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*9ae5baaa-a31f-4090-b79c-daf287683280",
+    "talentId": "9ae5baaa-a31f-4090-b79c-daf287683280",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T17:40:50.807Z",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQHbHpjVrSUkEw/profile-displayphoto-shrink_200_200/0/1678239316038?e=1712188800&v=beta&t=ZhqM3ACMdG8Tz3c7iw_22lzlPX6lwSOXfRvhlOwetEM",
+      "linkedinUsername": "daniel-santos-440310120",
+      "name": "Daniel Santos",
+      "company": "C&A Brasil",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T17:40:50.807Z",
+      "headline": "",
+      "id": "9ae5baaa-a31f-4090-b79c-daf287683280"
+    },
+    "timeInCurrentStage": 61446846844
+  },
+  {
+    "createdAt": "2024-02-01T17:41:44.800Z",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Fit Cultural",
+        "id": "01HHCPTVBPB1DTTZ7V8KQJFGAM",
+        "userName": "Beatriz Frederico",
+        "type": "culturalFit",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 5,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Entrevista People",
+      "id": "5",
+      "userName": "Beatriz Frederico",
+      "type": "culturalInterview",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 5
+    },
+    "status": "rejected",
+    "talentId": "2626fff2-5abe-4567-8d1d-c4a15536bf1d",
+    "updatedAt": "2024-03-25T13:40:55.754Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*2626fff2-5abe-4567-8d1d-c4a15536bf1d",
+    "reason": "job_status",
+    "talent": {
+      "company": "Kalunga S.A.",
+      "createdAt": "2024-02-01T17:41:42.991Z",
+      "email": "jeancpereira14@gmail.com",
+      "headline": "",
+      "linkedinUsername": "jean-carlos-pereira-pereira-376636b2",
+      "location": "",
+      "name": "Jean Carlos Pereira Pereira",
+      "phone": "",
+      "picture": "https://media.licdn.com/dms/image/C5103AQG_4SJTlDqgNg/profile-displayphoto-shrink_200_200/0/1517593504780?e=1712188800&v=beta&t=zPeyV1dwd65snwwZm61rJVpMgygR6eW_4IJZxCHW4L8",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-05T14:22:12.045Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "2626fff2-5abe-4567-8d1d-c4a15536bf1d"
+    },
+    "timeInCurrentStage": 61120865569
+  },
+  {
+    "createdAt": "2024-02-08T18:40:57.075Z",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": {
+          "value": "Masculino",
+          "id": "26fa5b71-8793-41f2-a5e4-1ee03d137f0f",
+          "label": "Masculino"
+        }
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "4200"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": {
+          "value": "CLT",
+          "id": "a228c64a-6930-442d-a7f0-63b9ab61a3a4",
+          "label": "CLT"
+        }
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Fit Técnico",
+        "id": "01HHCPTVBQAKVSQWNHT1Q813EQ",
+        "userName": "Beatriz Frederico",
+        "type": "technicalFit",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 6,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Short List",
+      "id": "6",
+      "userName": "Beatriz Frederico",
+      "type": "technicalInterview",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 6
+    },
+    "status": "rejected",
+    "talentId": "2094e6e9-286a-444f-8ca2-447871f9df44",
+    "targetSalary": {
+      "currency": "BRL",
+      "source": "manual",
+      "type": "PJ",
+      "value": 5000
+    },
+    "targetSalaryHistory": [
+      {
+        "currency": "BRL",
+        "source": "manual",
+        "type": "PJ",
+        "value": 5000
+      }
+    ],
+    "updatedAt": "2024-03-25T13:40:55.711Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*2094e6e9-286a-444f-8ca2-447871f9df44",
+    "reason": "job_status",
+    "talent": {
+      "company": "QUALITIES REFEIÇÕES",
+      "createdAt": "2024-02-08T18:40:55.422Z",
+      "email": "efdssouza@gmail.com",
+      "headline": "",
+      "linkedinUsername": "felipe-souza-910a89142",
+      "location": "",
+      "name": "Felipe Souza",
+      "phone": "+5583986641524",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQFSsg48Ej30Sg/profile-displayphoto-shrink_400_400/0/1604437984926?e=1715212800&v=beta&t=d9VufR5GqAaa22mI4FV0zdHODTAjaZUSem_0-nn7Tkc",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-03-07T12:41:42.932Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "2094e6e9-286a-444f-8ca2-447871f9df44"
+    },
+    "timeInCurrentStage": 58949224438
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "6f1c1f15-5d50-4703-a3cc-288fd7c11f54",
+    "updatedAt": "2024-02-22T13:50:15.277Z",
+    "status": "active",
+    "userName": "Thifany Madrid Lopes",
+    "createdAt": "2024-02-22T13:50:15.277Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*503f901f-6978-4507-b4ad-21ba87a58e1f",
+    "talentId": "503f901f-6978-4507-b4ad-21ba87a58e1f",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Thifany Madrid Lopes",
+      "createdAt": "2024-02-22T13:50:14.150Z",
+      "picture": "",
+      "linkedinUsername": "tassio-braga-1a954041",
+      "name": "Tassio Braga",
+      "company": "Nau Frutos do mar",
+      "userId": "6f1c1f15-5d50-4703-a3cc-288fd7c11f54",
+      "updatedAt": "2024-02-22T13:50:14.150Z",
+      "headline": "",
+      "id": "503f901f-6978-4507-b4ad-21ba87a58e1f"
+    },
+    "timeInCurrentStage": 59646283775
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T17:40:42.189Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T17:40:42.189Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*4e1e5d57-fb89-4c07-affe-f7632a37b84a",
+    "talentId": "4e1e5d57-fb89-4c07-affe-f7632a37b84a",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T17:40:39.262Z",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQEnQn-9_FEfmA/profile-displayphoto-shrink_200_200/0/1687972462816?e=1712188800&v=beta&t=4DjWMUbLdy-BPT-kd2cUQ5e9gtzQ1G1Ls_pbbW1HqvE",
+      "linkedinUsername": "mailson-barbosa-728181193",
+      "name": "Mailson Barbosa",
+      "company": "C&A Brasil",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T17:40:39.262Z",
+      "headline": "",
+      "id": "4e1e5d57-fb89-4c07-affe-f7632a37b84a"
+    },
+    "timeInCurrentStage": 61446856863
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T17:57:34.381Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T17:57:34.381Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*940fad4f-7948-43f1-b019-08fe8d2397b0",
+    "talentId": "940fad4f-7948-43f1-b019-08fe8d2397b0",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T17:57:32.900Z",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQGDYXoQOM1c7w/profile-displayphoto-shrink_200_200/0/1671062148253?e=1712188800&v=beta&t=Cp0ag_DkqoTTSYz846evZIjbJwtc0ykPHHua5QrU700",
+      "linkedinUsername": "verângela-carvalho-1448a388",
+      "name": "Verângela Carvalho",
+      "company": "CasaTudo",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T17:57:32.900Z",
+      "headline": "",
+      "id": "940fad4f-7948-43f1-b019-08fe8d2397b0"
+    },
+    "timeInCurrentStage": 61445844671
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T19:57:44.255Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T19:57:44.255Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*992de073-836f-41a0-9561-05a30a8837ce",
+    "talentId": "992de073-836f-41a0-9561-05a30a8837ce",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T19:57:41.939Z",
+      "picture": "",
+      "linkedinUsername": "hellen-lucena-547941113",
+      "name": "HELLEN LUCENA",
+      "company": "Hardman Praia Hotel",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T19:57:41.939Z",
+      "headline": "",
+      "id": "992de073-836f-41a0-9561-05a30a8837ce"
+    },
+    "timeInCurrentStage": 61438634797
+  },
+  {
+    "createdAt": "2024-02-01T17:50:33.233Z",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Novo Atacarejo"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": {
+          "value": "Masculino",
+          "id": "26fa5b71-8793-41f2-a5e4-1ee03d137f0f",
+          "label": "Masculino"
+        }
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "7500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": {
+          "value": "CLT",
+          "id": "a228c64a-6930-442d-a7f0-63b9ab61a3a4",
+          "label": "CLT"
+        }
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Contratação",
+        "id": "01HHCPTVBVMQW5N08Z2JEM8A40",
+        "userName": "Beatriz Frederico",
+        "type": "hiring",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 8,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Contratação",
+      "id": "10",
+      "userName": "Beatriz Frederico",
+      "type": "hired",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 10
+    },
+    "status": "active",
+    "talentId": "f03c66ad-bc6f-46a6-8a81-1bd69090b8e7",
+    "targetSalary": {
+      "currency": "BRL",
+      "source": "manual",
+      "type": "PJ",
+      "value": 6000
+    },
+    "targetSalaryHistory": [
+      {
+        "currency": "BRL",
+        "source": "manual",
+        "type": "PJ",
+        "value": 6000
+      }
+    ],
+    "updatedAt": "2024-03-25T12:38:34.548Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*f03c66ad-bc6f-46a6-8a81-1bd69090b8e7",
+    "talent": {
+      "company": "Universidade Cruzeiro do Sul",
+      "createdAt": "2024-02-01T17:50:31.816Z",
+      "email": "marcelogomesdasilva647@gmail.com",
+      "headline": "",
+      "linkedinUsername": "marcelo-marcon-551a486a",
+      "location": "",
+      "name": "Marcelo Marcon",
+      "phone": "+5583987020895",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQFdSA81yTmAsQ/profile-displayphoto-shrink_400_400/0/1708969196894?e=1715212800&v=beta&t=LdHVPX9jFOMjPIssSeWrKt0uGBV_PH0Wp4klYbuSlYA",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-03-07T12:41:50.431Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "f03c66ad-bc6f-46a6-8a81-1bd69090b8e7"
+    },
+    "timeInCurrentStage": 56885784485
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "6f1c1f15-5d50-4703-a3cc-288fd7c11f54",
+    "updatedAt": "2024-02-22T13:34:45.078Z",
+    "status": "active",
+    "userName": "Thifany Madrid Lopes",
+    "createdAt": "2024-02-22T13:34:45.078Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*98923d40-8109-463e-878a-92974c95b56c",
+    "talentId": "98923d40-8109-463e-878a-92974c95b56c",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Thifany Madrid Lopes",
+      "createdAt": "2024-02-22T13:34:43.786Z",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQHwKd9SMCcmXQ/profile-displayphoto-shrink_200_200/0/1553864949899?e=1714003200&v=beta&t=IHnlQeC7Ww_CWwmP3iOFa8qwWfycd6wKGJJfxBZ7Orc",
+      "linkedinUsername": "jéssica-costa-220877183",
+      "name": "Jéssica Costa",
+      "company": "JR Hotel",
+      "userId": "6f1c1f15-5d50-4703-a3cc-288fd7c11f54",
+      "updatedAt": "2024-02-22T13:34:43.786Z",
+      "headline": "",
+      "id": "98923d40-8109-463e-878a-92974c95b56c"
+    },
+    "timeInCurrentStage": 59647213974
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-08T18:38:57.936Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-08T18:38:57.936Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*f38ba6ad-9cbd-41f1-a6ce-5db23681b7b3",
+    "talentId": "f38ba6ad-9cbd-41f1-a6ce-5db23681b7b3",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-08T18:38:56.697Z",
+      "picture": "https://media.licdn.com/dms/image/C5603AQEp2f7PVODmsA/profile-displayphoto-shrink_800_800/0/1652551811721?e=1712793600&v=beta&t=dfa9lTrnGMMs9cFtTLkfKjsBxiL3uS6LLSGTfdoXnaI",
+      "linkedinUsername": "lucas-tabosa-b7a87423a",
+      "name": "Lucas Tabosa",
+      "company": "Tramonto Winebar",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-08T18:38:56.697Z",
+      "headline": "",
+      "id": "f38ba6ad-9cbd-41f1-a6ce-5db23681b7b3"
+    },
+    "timeInCurrentStage": 60838561116
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T20:49:38.013Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T20:49:38.013Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*37c56725-c035-4b84-b1a0-8fd1b6fdd192",
+    "talentId": "37c56725-c035-4b84-b1a0-8fd1b6fdd192",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T20:49:36.654Z",
+      "picture": "https://media.licdn.com/dms/image/C5603AQEmLpgT59faLg/profile-displayphoto-shrink_800_800/0/1517540395774?e=1712188800&v=beta&t=T43va9xH_GSXczBtFHK-rVB42Czgp1myrt6oMO3bl7I",
+      "linkedinUsername": "gustavo-mendes-2274904a",
+      "name": "Gustavo Mendes",
+      "company": "Nord Hotéis",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T20:49:36.654Z",
+      "headline": "",
+      "id": "37c56725-c035-4b84-b1a0-8fd1b6fdd192"
+    },
+    "timeInCurrentStage": 61435521039
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T17:52:32.695Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T17:52:32.695Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*510b7b33-a8f2-42c2-8459-0a2f75961287",
+    "talentId": "510b7b33-a8f2-42c2-8459-0a2f75961287",
+    "talent": {
+      "company": "americanas s.a.",
+      "createdAt": "2024-02-01T17:52:31.165Z",
+      "headline": "",
+      "linkedinUsername": "gian-jackson-683a0b205",
+      "location": "",
+      "name": "Gian Jackson",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQHGFpRVVasEpg/profile-displayphoto-shrink_200_200/0/1612533894139?e=1713398400&v=beta&t=aPSjK3xPnNbFQxGah9X-_n6UKoQcPlB7i7QVDvxbPJ4",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-02-15T11:08:37.581Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "510b7b33-a8f2-42c2-8459-0a2f75961287"
+    },
+    "timeInCurrentStage": 61446146357
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T20:53:37.759Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T20:53:37.759Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*3d402bdb-cdcf-46d2-817e-e19545737e68",
+    "talentId": "3d402bdb-cdcf-46d2-817e-e19545737e68",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T20:53:36.523Z",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQGXCWaN0C5mkw/profile-displayphoto-shrink_200_200/0/1685495436637?e=1712188800&v=beta&t=dZUtBNlOkDKJnk0llZVZ6BRA4vHb3E9TYRBicAowErU",
+      "linkedinUsername": "rosildo-oliveira-segundo-8366141b2",
+      "name": "Rosildo Oliveira Segundo",
+      "company": "Hotel Netuanah",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T20:53:36.523Z",
+      "headline": "",
+      "id": "3d402bdb-cdcf-46d2-817e-e19545737e68"
+    },
+    "timeInCurrentStage": 61435281293
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "c149b607-939e-4fea-bc65-0f29d2b9a406",
+    "updatedAt": "2024-05-16T14:54:16.333Z",
+    "status": "active",
+    "userName": "Guto Polycarpo",
+    "createdAt": "2024-05-16T14:54:16.333Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*03014b2d-7aaa-4c05-94be-f4e4b69f7763",
+    "talentId": "03014b2d-7aaa-4c05-94be-f4e4b69f7763",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Guto Polycarpo",
+      "createdAt": "2024-05-16T14:54:13.923Z",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQEsFJTYEJ3KzA/profile-displayphoto-shrink_200_200/0/1674592987828?e=1721260800&v=beta&t=BOVoc_vVd1wE1aiXT6WI0XSIJ93cDP3T88EWx4v1GUU",
+      "linkedinUsername": "neuzineide-medeiros-491134136",
+      "name": "Neuzineide Medeiros",
+      "company": "Universidade Federal da Paraíba",
+      "userId": "c149b607-939e-4fea-bc65-0f29d2b9a406",
+      "updatedAt": "2024-05-16T14:54:13.923Z",
+      "headline": "",
+      "id": "03014b2d-7aaa-4c05-94be-f4e4b69f7763"
+    },
+    "timeInCurrentStage": 52384842719
+  },
+  {
+    "createdAt": "2024-02-01T17:43:28.398Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Fit Cultural",
+        "id": "01HHCPTVBPB1DTTZ7V8KQJFGAM",
+        "userName": "Beatriz Frederico",
+        "type": "culturalFit",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 5,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Entrevista People",
+      "id": "5",
+      "userName": "Beatriz Frederico",
+      "type": "culturalInterview",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 5
+    },
+    "status": "rejected",
+    "talentId": "ffb33e49-6822-4950-8401-d99b6104a25d",
+    "updatedAt": "2024-03-25T13:40:55.767Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*ffb33e49-6822-4950-8401-d99b6104a25d",
+    "reason": "job_status",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T17:43:26.538Z",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQFAkSFwy15oMw/profile-displayphoto-shrink_200_200/0/1643236405484?e=1712188800&v=beta&t=HfnWmqjltucXVrlRr0FFkDAYyOX7XXKN5_jy4WKmnvg",
+      "linkedinUsername": "richard-carlson-0a4a90150",
+      "name": "Richard Carlson",
+      "company": "CasaTudo",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T17:43:26.538Z",
+      "headline": "",
+      "id": "ffb33e49-6822-4950-8401-d99b6104a25d"
+    },
+    "timeInCurrentStage": 61120688440
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T17:41:23.786Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T17:41:23.786Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*e51a0400-ed6a-496d-b92f-c7c1db2919f4",
+    "talentId": "e51a0400-ed6a-496d-b92f-c7c1db2919f4",
+    "talent": {
+      "company": "GPA",
+      "createdAt": "2024-02-01T17:41:22.026Z",
+      "headline": "",
+      "linkedinUsername": "simônica-leite-50b381203",
+      "location": "",
+      "name": "Simônica Leite",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQGI0kXh3enMJg/profile-displayphoto-shrink_200_200/0/1628158388871?e=1721260800&v=beta&t=DNrCqdEnsKaM11IHcDkKTNF5UwLiVgrS6eQ28kVeXmw",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-05-16T16:48:13.647Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "e51a0400-ed6a-496d-b92f-c7c1db2919f4"
+    },
+    "timeInCurrentStage": 61446815266
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T17:47:10.536Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T17:47:10.536Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*d33536be-7954-464c-bf39-242dab7f6cbf",
+    "talentId": "d33536be-7954-464c-bf39-242dab7f6cbf",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T17:47:09.173Z",
+      "picture": "https://media.licdn.com/dms/image/C5103AQESdyySL6o50Q/profile-displayphoto-shrink_800_800/0/1516492597634?e=1712188800&v=beta&t=1LdS8eDgESoascVYH3_iYN8K7zKpMOnzZ-DNjFhbHqY",
+      "linkedinUsername": "sacha-carlos-araújo-53116851",
+      "name": "Sacha Carlos Araújo",
+      "company": "Rede Menor Preço de Supermercados",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T17:47:09.173Z",
+      "headline": "",
+      "id": "d33536be-7954-464c-bf39-242dab7f6cbf"
+    },
+    "timeInCurrentStage": 61446468516
+  },
+  {
+    "createdAt": "2024-02-01T17:57:58.108Z",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Fit Cultural",
+        "id": "01HHCPTVBPB1DTTZ7V8KQJFGAM",
+        "userName": "Beatriz Frederico",
+        "type": "culturalFit",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 5,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Entrevista People",
+      "id": "5",
+      "userName": "Beatriz Frederico",
+      "type": "culturalInterview",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 5
+    },
+    "status": "rejected",
+    "talentId": "f49ee5e6-3eae-4006-8289-15660c223574",
+    "updatedAt": "2024-03-25T13:40:55.750Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*f49ee5e6-3eae-4006-8289-15660c223574",
+    "reason": "job_status",
+    "talent": {
+      "company": "",
+      "contactMethod": "whatsapp",
+      "createdAt": "2024-02-01T17:57:56.306Z",
+      "email": "keilavas@gmail.com",
+      "headline": "",
+      "linkedinUsername": "keila-vasconcelos-3a879b4b",
+      "location": "",
+      "name": "Keila Vasconcelos",
+      "phone": "",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQEnO7xzJxPIuw/profile-displayphoto-shrink_200_200/0/1630467281524?e=1712188800&v=beta&t=CXC2klj1vM3FfFEp26XLpu-yP1NVPp0p6ePo9P6iq5g",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-02-07T14:16:47.826Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "f49ee5e6-3eae-4006-8289-15660c223574"
+    },
+    "timeInCurrentStage": 59188255431
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T17:42:00.360Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T17:42:00.360Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*81671698-7515-473b-bae6-c0283c43fd21",
+    "talentId": "81671698-7515-473b-bae6-c0283c43fd21",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T17:41:58.928Z",
+      "picture": "https://media.licdn.com/dms/image/D4D35AQHWLq04cDifmQ/profile-framedphoto-shrink_200_200/0/1692811858826?e=1707415200&v=beta&t=zpU7YpXqc6SjP8RC4WcRrOlg82g-P8dtBqS1PZEPtbg",
+      "linkedinUsername": "thaise-barbosa-7a4a30233",
+      "name": "Thaise Barbosa",
+      "company": "Sr Baby",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T17:41:58.928Z",
+      "headline": "",
+      "id": "81671698-7515-473b-bae6-c0283c43fd21"
+    },
+    "timeInCurrentStage": 61446778692
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T20:53:49.769Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T20:53:49.769Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*104d6ade-e44e-46eb-8d37-866e25a8dc97",
+    "talentId": "104d6ade-e44e-46eb-8d37-866e25a8dc97",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T20:53:47.740Z",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQHK84Tof-TUQQ/profile-displayphoto-shrink_200_200/0/1571182357521?e=1712188800&v=beta&t=qpPEcSutrEe2kI_Exl7nvwVj7L_izBM3s0uKTqdrRdE",
+      "linkedinUsername": "neusilene-araújo-a0b321196",
+      "name": "Neusilene Araújo",
+      "company": "Slaviero Hotéis",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T20:53:47.740Z",
+      "headline": "",
+      "id": "104d6ade-e44e-46eb-8d37-866e25a8dc97"
+    },
+    "timeInCurrentStage": 61435269283
+  },
+  {
+    "createdAt": "2024-02-01T18:06:59.766Z",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Fit Técnico",
+        "id": "01HHCPTVBQAKVSQWNHT1Q813EQ",
+        "userName": "Beatriz Frederico",
+        "type": "technicalFit",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 6,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Short List",
+      "id": "6",
+      "userName": "Beatriz Frederico",
+      "type": "technicalInterview",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 6
+    },
+    "status": "rejected",
+    "talentId": "f9db65f0-fa06-449a-8a6e-a07d1f3d896d",
+    "updatedAt": "2024-03-25T13:40:55.726Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*f9db65f0-fa06-449a-8a6e-a07d1f3d896d",
+    "reason": "job_status",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T18:06:58.487Z",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQHiC2iwxlposw/profile-displayphoto-shrink_200_200/0/1687829921388?e=1712188800&v=beta&t=oRe8-Jkx3OXejV-d_nEBZfH_HCGN8g7TGdA478o5ERQ",
+      "linkedinUsername": "elvis-aguiar-1b8334179",
+      "name": "Elvis Aguiar",
+      "company": "Fast Shop S/A",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T18:06:58.487Z",
+      "headline": "",
+      "id": "f9db65f0-fa06-449a-8a6e-a07d1f3d896d"
+    },
+    "timeInCurrentStage": 59188258721
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T19:50:40.815Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T19:50:40.815Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*532b5beb-db58-4e40-9a09-0a43dac4e3bf",
+    "talentId": "532b5beb-db58-4e40-9a09-0a43dac4e3bf",
+    "talent": {
+      "company": "McDonald's Corporation",
+      "createdAt": "2024-02-01T19:50:39.158Z",
+      "headline": "",
+      "linkedinUsername": "rodrigo-silva-0785aa55",
+      "location": "",
+      "name": "Rodrigo Silva",
+      "picture": "https://media.licdn.com/dms/image/C5103AQFUCNgfdrB_4Q/profile-displayphoto-shrink_200_200/0/1516863811966?e=1714003200&v=beta&t=kfy6duzBUmRcWCRlB8ss4bZQ0YKxjp0LYW-xScigZfo",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-02-22T13:45:21.272Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "532b5beb-db58-4e40-9a09-0a43dac4e3bf"
+    },
+    "timeInCurrentStage": 61439058237
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T19:52:30.207Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T19:52:30.207Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*1d1664fa-1802-4956-86d9-c52ed4e61c98",
+    "talentId": "1d1664fa-1802-4956-86d9-c52ed4e61c98",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T19:52:28.781Z",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQHZvl_nvL6PQQ/profile-displayphoto-shrink_200_200/0/1521076753685?e=1712188800&v=beta&t=h1lnBtmm4VlzdResbFy93JpMK8p2piDsvn7Jn_WOD0g",
+      "linkedinUsername": "evelyn-lamoglia",
+      "name": "Evelyn Lamoglia de Carvalho",
+      "company": "Hotel Slaviero Essential João Pessoa",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T19:52:28.781Z",
+      "headline": "",
+      "id": "1d1664fa-1802-4956-86d9-c52ed4e61c98"
+    },
+    "timeInCurrentStage": 61438948845
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T17:58:18.779Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T17:58:18.779Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*14d159d6-b700-4227-9be9-0941737df252",
+    "talentId": "14d159d6-b700-4227-9be9-0941737df252",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T17:58:17.170Z",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQH27eKvncKWWw/profile-displayphoto-shrink_200_200/0/1538445613827?e=1712188800&v=beta&t=niXUtqRRJAnLIa4KJWHkpXWZk4Rl_7Ik6G5XKTcExqI",
+      "linkedinUsername": "sandra-oliveira-2ab61641",
+      "name": "Sandra oliveira",
+      "company": "Lojas Americanas",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T17:58:17.170Z",
+      "headline": "",
+      "id": "14d159d6-b700-4227-9be9-0941737df252"
+    },
+    "timeInCurrentStage": 61445800273
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T17:41:08.444Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T17:41:08.444Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*cf06f399-89c4-4d65-a0c8-1d6a658f4c40",
+    "talentId": "cf06f399-89c4-4d65-a0c8-1d6a658f4c40",
+    "talent": {
+      "company": "Tok&Stok",
+      "createdAt": "2024-02-01T17:41:07.035Z",
+      "headline": "",
+      "linkedinUsername": "caroline-lopes-b0980a143",
+      "location": "",
+      "name": "Caroline Lopes",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQEgPPA5xqQtjw/profile-displayphoto-shrink_800_800/0/1552568745866?e=1713398400&v=beta&t=wRJxo6yLchBAnzFWfTqMPTxfJjKJn3AJ7uwpLi6PgKQ",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-02-15T11:09:06.255Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "cf06f399-89c4-4d65-a0c8-1d6a658f4c40"
+    },
+    "timeInCurrentStage": 61446830608
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T17:43:51.427Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T17:43:51.427Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*07df0888-f206-4b55-8a6e-eed3bae95fd0",
+    "talentId": "07df0888-f206-4b55-8a6e-eed3bae95fd0",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T17:43:50.171Z",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQGA2GppKjSLKw/profile-displayphoto-shrink_200_200/0/1528338759211?e=1712188800&v=beta&t=hjMVTL8wkSgsKur7JoGJx5Ilujr2SOqepVEJHppb7lI",
+      "linkedinUsername": "fabiana-araújo-719551a9",
+      "name": "Fabiana Araújo",
+      "company": "Iesp",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T17:43:50.171Z",
+      "headline": "",
+      "id": "07df0888-f206-4b55-8a6e-eed3bae95fd0"
+    },
+    "timeInCurrentStage": 61446667625
+  },
+  {
+    "createdAt": "2024-02-07T13:10:55.354Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Fit Técnico",
+        "id": "01HHCPTVBR4Y140J8PT80ZHP8G",
+        "userName": "Beatriz Frederico",
+        "type": "technicalFit",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 6,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Entrevista com Cliente",
+      "id": "7",
+      "userName": "Beatriz Frederico",
+      "type": "technicalInterview",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 7
+    },
+    "status": "rejected",
+    "talentId": "9e8e00fd-c964-4b7f-a2f9-e8e95295b6ec",
+    "updatedAt": "2024-03-25T13:42:57.665Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*9e8e00fd-c964-4b7f-a2f9-e8e95295b6ec",
+    "reason": "competence",
+    "talent": {
+      "contactMethod": "whatsapp",
+      "createdAt": "2024-02-07T13:10:55.217Z",
+      "email": "antoniofernandes1117@gmail.com",
+      "location": "João Pessoa",
+      "name": "Antonio Fernandes",
+      "phone": "+5583996867902",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-05T13:09:32.317Z",
+      "userId": null,
+      "userName": "InHire",
+      "id": "9e8e00fd-c964-4b7f-a2f9-e8e95295b6ec"
+    },
+    "timeInCurrentStage": 56885687887
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T17:49:59.953Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T17:49:59.953Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*a57bbdfe-fcf5-4521-9d06-dc62317a857e",
+    "talentId": "a57bbdfe-fcf5-4521-9d06-dc62317a857e",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T17:49:57.904Z",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQHuQzOvL9aRYg/profile-displayphoto-shrink_200_200/0/1613248094261?e=1712188800&v=beta&t=ubu7TP3m-l7zUtcOlFoOpMSK7G2YQyKpraDXc1BQaFE",
+      "linkedinUsername": "rinaldo-fernandes-109834206",
+      "name": "Rinaldo Fernandes",
+      "company": "Supermercado Litoral",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T17:49:57.904Z",
+      "headline": "",
+      "id": "a57bbdfe-fcf5-4521-9d06-dc62317a857e"
+    },
+    "timeInCurrentStage": 61446299099
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T20:53:26.812Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T20:53:26.812Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*c62f9b9b-9a7e-4bd9-b482-a23874f77c7f",
+    "talentId": "c62f9b9b-9a7e-4bd9-b482-a23874f77c7f",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T20:53:25.018Z",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQHoEQebZ-DzKg/profile-displayphoto-shrink_200_200/0/1518634439708?e=1712188800&v=beta&t=h11bv1CrWkCUsDQv2-Rd2il9ZiK4yy1Hq0PQ1B7Rgng",
+      "linkedinUsername": "fernando-r-de-souza-jr-3a39092a",
+      "name": "Fernando R. de Souza Jr.",
+      "company": "CIA. TROPICAL DE HOTEIS - TROPICAL TAMBAÚ",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T20:53:25.018Z",
+      "headline": "",
+      "id": "c62f9b9b-9a7e-4bd9-b482-a23874f77c7f"
+    },
+    "timeInCurrentStage": 61435292240
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T17:50:18.435Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T17:50:18.435Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*713f3708-de35-4a37-809e-2ba43ac15342",
+    "talentId": "713f3708-de35-4a37-809e-2ba43ac15342",
+    "talent": {
+      "company": "Frigelar Comércio e Indústria Ltda",
+      "createdAt": "2024-02-01T17:50:16.480Z",
+      "headline": "",
+      "linkedinUsername": "claudio-alves-b5b47978",
+      "location": "",
+      "name": "Claudio Alves",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQHJ5CLB7hHpfg/profile-displayphoto-shrink_200_200/0/1623416538763?e=1721260800&v=beta&t=1PD6fGVgYkFBGPdZqV-SaobS1WwdCfVF7Sbp0-xyvRA",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-05-16T14:56:39.315Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "713f3708-de35-4a37-809e-2ba43ac15342"
+    },
+    "timeInCurrentStage": 61446280617
+  },
+  {
+    "createdAt": "2024-02-01T19:53:49.682Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Abordagem",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "userName": "Beatriz Frederico",
+        "type": "approach",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Beatriz Frederico",
+      "type": "inApproach",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "status": "rejected",
+    "talentId": "1851d968-8863-4e21-b9a2-e717e220c88e",
+    "updatedAt": "2024-03-25T13:39:41.986Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*1851d968-8863-4e21-b9a2-e717e220c88e",
+    "reason": "job_status",
+    "talent": {
+      "company": "Hotel Caiçara João Pessoa",
+      "createdAt": "2024-02-01T19:53:48.009Z",
+      "headline": "",
+      "linkedinUsername": "katherine-araujo-a67ab325",
+      "location": "",
+      "name": "Katherine Araujo",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQGSttEEq36yvQ/profile-displayphoto-shrink_200_200/0/1566650648277?e=1713398400&v=beta&t=Bm1JLYiU0hnIHqkstme0GWsYHOmzWcZJpfB2JLAs6q0",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-02-15T11:04:59.297Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "1851d968-8863-4e21-b9a2-e717e220c88e"
+    },
+    "timeInCurrentStage": 60260861373
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T19:56:21.755Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T19:56:21.755Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*798a9ef7-891b-4e16-b5cc-3ce750a93527",
+    "talentId": "798a9ef7-891b-4e16-b5cc-3ce750a93527",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T19:56:20.429Z",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQH3xjirF7xmEg/profile-displayphoto-shrink_200_200/0/1516851355409?e=1712188800&v=beta&t=ain_OPaJW_pW1S7ikj_9du-R1zbZTInfiQZOYcVVbQ8",
+      "linkedinUsername": "rômulo-mendes-711b9281",
+      "name": "Rômulo Mendes",
+      "company": "Nord Hotéis",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T19:56:20.429Z",
+      "headline": "",
+      "id": "798a9ef7-891b-4e16-b5cc-3ce750a93527"
+    },
+    "timeInCurrentStage": 61438717297
+  },
+  {
+    "createdAt": "2024-02-01T17:44:36.496Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Abordagem",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "userName": "Beatriz Frederico",
+        "type": "approach",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Beatriz Frederico",
+      "type": "inApproach",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "status": "rejected",
+    "talentId": "ea09ecc3-5047-46c0-af49-c452d1e335d0",
+    "updatedAt": "2024-03-25T13:39:41.966Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*ea09ecc3-5047-46c0-af49-c452d1e335d0",
+    "reason": "job_status",
+    "talent": {
+      "company": "Carrefour",
+      "createdAt": "2024-02-01T17:44:35.060Z",
+      "headline": "",
+      "linkedinUsername": "leonardo-alves-do-nascimento-a8816422b",
+      "location": "",
+      "name": "Leonardo Alves do Nascimento",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQEV1JpPalzTaQ/profile-displayphoto-shrink_200_200/0/1705778695922?e=1712793600&v=beta&t=_9srtCzT8xBIaKWeuH7PR8M5CKs2BoEFHT9P5HWtw0w",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-02-09T17:01:16.275Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "ea09ecc3-5047-46c0-af49-c452d1e335d0"
+    },
+    "timeInCurrentStage": 61120671289
+  },
+  {
+    "createdAt": "2024-02-01T20:54:09.997Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Abordagem",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "userName": "Beatriz Frederico",
+        "type": "approach",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Beatriz Frederico",
+      "type": "inApproach",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "status": "rejected",
+    "talentId": "4407e36d-c649-4439-bc9f-80fe6e5c37b0",
+    "updatedAt": "2024-03-25T13:39:41.970Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*4407e36d-c649-4439-bc9f-80fe6e5c37b0",
+    "reason": "job_status",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T20:54:08.210Z",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQHEVsKKCVYDTQ/profile-displayphoto-shrink_200_200/0/1631325908777?e=1712188800&v=beta&t=BtOpl7z_gXxvdOgeEawKdKpD2ZDVBbh01PoN73D10U8",
+      "linkedinUsername": "karllamichelle",
+      "name": "Karlla Michelle",
+      "company": "Hardman Praia Hotel",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T20:54:08.210Z",
+      "headline": "",
+      "id": "4407e36d-c649-4439-bc9f-80fe6e5c37b0"
+    },
+    "timeInCurrentStage": 60261107346
+  },
+  {
+    "createdAt": "2024-02-23T13:29:19.476Z",
+    "customFields": [
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": {
+          "value": "Feminino",
+          "id": "e2bfe53f-d0b8-4ace-a79d-7cfecc3e9375",
+          "label": "Feminino"
+        }
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "select",
+        "value": {
+          "value": "Não especificado",
+          "id": "ea6c1873-8037-47c2-8f73-abb015150be8",
+          "label": "Não especificado"
+        }
+      },
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Verona"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "09/08/1969"
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": "-"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "5000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "select",
+        "value": {
+          "value": "R$ - Real",
+          "id": "98cc3ecd-867b-4275-ba5f-16ef764911cf",
+          "label": "R$ - Real"
+        }
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": {
+          "value": "PJ 12 salários",
+          "id": "12c8691c-b27d-4c33-b452-7d00b5d213b0",
+          "label": "PJ 12 salários"
+        }
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Loja"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "355087e0-43b3-40c1-b377-a4454430ac53",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": {
+          "value": "Divorciado(a)",
+          "id": "7afa5838-2cd2-4397-ab51-27dfea88f945",
+          "label": "Divorciado(a)"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "PB",
+          "id": "807f8b32-8bbe-4d43-ba2c-04c3ff5970bf",
+          "label": "PB"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "feedback": null,
+    "reason": "job_status",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Fit Técnico",
+        "id": "01HHCPTVBQAKVSQWNHT1Q813EQ",
+        "userName": "Beatriz Frederico",
+        "type": "technicalFit",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 6,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Short List",
+      "id": "6",
+      "userName": "Beatriz Frederico",
+      "type": "technicalInterview",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 6
+    },
+    "status": "active",
+    "talentId": "0d6f7d9d-3de4-4495-ac69-f358c93cecb9",
+    "targetSalary": {
+      "currency": "BRL",
+      "source": "manual",
+      "type": "PJ",
+      "value": 5000
+    },
+    "targetSalaryHistory": [
+      {
+        "currency": "BRL",
+        "source": "manual",
+        "type": "PJ",
+        "value": 5000
+      }
+    ],
+    "updatedAt": "2024-05-16T14:52:35.921Z",
+    "userId": "6f1c1f15-5d50-4703-a3cc-288fd7c11f54",
+    "userName": "Thifany Madrid Lopes",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*0d6f7d9d-3de4-4495-ac69-f358c93cecb9",
+    "talent": {
+      "company": "Universidade Estácio de Sá",
+      "createdAt": "2024-02-23T13:29:17.878Z",
+      "email": "leydemonteiro@hotmail.com",
+      "headline": "",
+      "linkedinUsername": "marleide-monteiro-a91b046b",
+      "location": "",
+      "name": "Marleide Monteiro",
+      "phone": "+5583987245149",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQHa9Evf_3Dzng/profile-displayphoto-shrink_200_200/0/1674006944894?e=1721260800&v=beta&t=jmIsrpBMlJpTohZZnRPYVWPfle9x_Pmy_-Zo1V2buLk",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-05-15T15:15:08.811Z",
+      "userId": "6f1c1f15-5d50-4703-a3cc-288fd7c11f54",
+      "userName": "Thifany Madrid Lopes",
+      "id": "0d6f7d9d-3de4-4495-ac69-f358c93cecb9"
+    },
+    "timeInCurrentStage": 58949219911
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T19:51:47.886Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T19:51:47.886Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*5d323d6b-81c9-4fe1-b3d9-7fbe36a69816",
+    "talentId": "5d323d6b-81c9-4fe1-b3d9-7fbe36a69816",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T19:51:46.486Z",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQGgsv3SWJ5AZQ/profile-displayphoto-shrink_200_200/0/1517560705824?e=1712188800&v=beta&t=GXKe8yI9aXaeYFvRrzpoB8TyIixoFkqT5qTToUPwbWc",
+      "linkedinUsername": "miguel-ferreira-27526894",
+      "name": "Miguel Ferreira",
+      "company": "Restaurante Casa gureli",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T19:51:46.486Z",
+      "headline": "",
+      "id": "5d323d6b-81c9-4fe1-b3d9-7fbe36a69816"
+    },
+    "timeInCurrentStage": 61438991166
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T18:00:45.372Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T18:00:45.372Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*83a7719c-1521-4788-95ad-83909ee03a4a",
+    "talentId": "83a7719c-1521-4788-95ad-83909ee03a4a",
+    "talent": {
+      "company": "Cobasi - O shopping do seu animal",
+      "createdAt": "2024-02-01T18:00:43.760Z",
+      "headline": "",
+      "linkedinUsername": "wagner-cesar-dos-santos-a3663134",
+      "location": "",
+      "name": "Wagner (Gerente de Loja) Cesar dos Santos",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQENjQLsYi1S0A/profile-displayphoto-shrink_200_200/0/1557237078581?e=1712793600&v=beta&t=1JUe-ayTUfn3pe9fk2CW49UV5pm_JahWX8mImUS4bDI",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-02-08T18:09:35.257Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "83a7719c-1521-4788-95ad-83909ee03a4a"
+    },
+    "timeInCurrentStage": 61445653680
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-08T18:39:19.410Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-08T18:39:19.410Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*37a7744c-3eda-4cb3-9761-6f59589b049a",
+    "talentId": "37a7744c-3eda-4cb3-9761-6f59589b049a",
+    "talent": {
+      "company": "Restaurante Mangai",
+      "createdAt": "2024-02-08T18:39:17.858Z",
+      "headline": "",
+      "linkedinUsername": "carlos-da-maria-jose-522145163",
+      "location": "",
+      "name": "Carlos da Maria Jose",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQF26AACdWYDmA/profile-displayphoto-shrink_200_200/0/1567031853331?e=1712793600&v=beta&t=Tmadb2ww9cFdLn4eqaakxGJYzBLb4nJwRpoiFLhrLoA",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-02-09T11:37:38.275Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "37a7744c-3eda-4cb3-9761-6f59589b049a"
+    },
+    "timeInCurrentStage": 60838539642
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T17:52:11.083Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T17:52:11.083Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*afc83664-8171-4578-95a3-a7a92952c2c9",
+    "talentId": "afc83664-8171-4578-95a3-a7a92952c2c9",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T17:52:09.755Z",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQGXa5vVsGKIJw/profile-displayphoto-shrink_200_200/0/1583445108728?e=1712188800&v=beta&t=eg2FBrPdJURjVHGqbD2MS_W8UPyZlVxUqSDvE_yrmns",
+      "linkedinUsername": "bianca-siqueira-24bb111a3",
+      "name": "Bianca Siqueira",
+      "company": "americanas s.a.",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T17:52:09.755Z",
+      "headline": "",
+      "id": "afc83664-8171-4578-95a3-a7a92952c2c9"
+    },
+    "timeInCurrentStage": 61446167969
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "userName": "Beatriz Frederico",
+        "type": "listing",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Beatriz Frederico",
+      "type": "listed",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-02-01T19:55:32.638Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-02-01T19:55:32.638Z",
+    "source": "manual",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*bc54f143-ef8a-41e9-b375-cca856d60282",
+    "talentId": "bc54f143-ef8a-41e9-b375-cca856d60282",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-02-01T19:55:31.173Z",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQHuIu_LzsOEzg/profile-displayphoto-shrink_200_200/0/1613951099197?e=1712188800&v=beta&t=HfUGM4vvtoHalxcXrdzvbaaAIImmPKgoRWIx65SG9Lk",
+      "linkedinUsername": "edelilton-costa-6000a8109",
+      "name": "Edelilton Costa",
+      "company": "Ibis João Pessoa",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-02-01T19:55:31.173Z",
+      "headline": "",
+      "id": "bc54f143-ef8a-41e9-b375-cca856d60282"
+    },
+    "timeInCurrentStage": 61438766414
+  },
+  {
+    "createdAt": "2024-02-02T15:27:42.798Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Abordagem",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "userName": "Beatriz Frederico",
+        "type": "approach",
+        "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Beatriz Frederico",
+      "type": "inApproach",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "status": "rejected",
+    "talentId": "c7523205-84b9-4b49-83f9-55548195b284",
+    "updatedAt": "2024-03-25T13:39:41.927Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "d780f1b1-9a14-4f2c-8517-39febde65ba4*c7523205-84b9-4b49-83f9-55548195b284",
+    "reason": "job_status",
+    "talent": {
+      "company": "Mangai e Nau Restaurantes",
+      "createdAt": "2024-02-02T15:27:41.215Z",
+      "headline": "",
+      "linkedinUsername": "fabricio-jorge-9293a1166",
+      "location": "",
+      "name": "Fabricio Jorge",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQFyKojmz0CKsA/profile-displayphoto-shrink_200_200/0/1537299429780?e=1714003200&v=beta&t=uaiNmDxCSFQalHeS-BP1bDgNKToxxGZCDjeOlvwHTbI",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-02-22T13:46:09.474Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "c7523205-84b9-4b49-83f9-55548195b284"
+    },
+    "timeInCurrentStage": 60261038273
+  }
+]

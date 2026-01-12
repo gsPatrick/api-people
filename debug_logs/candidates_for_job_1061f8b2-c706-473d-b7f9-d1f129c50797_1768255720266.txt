@@ -1,0 +1,1308 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:12.272Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "31/05/1989"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "15000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "todos mercado + stock 7 mil stock há cada 4 anos para que tenha o valor fechado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Gestão Financeira",
+          "id": "04116f57-8c18-4e17-a5e6-475f09303935",
+          "label": "Gestão Financeira"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Estácio de Sá"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "CX Manager"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "sem filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : CX Manager\n Company name : QuintoAndar\n Period : mar. de 22 – o momento\n Location : São Paulo, Brasil\n Job Title : Coordenador de Planejamento Estratégico, Financeiro e BI\n Company name : iFood\n Period : mai. de 219 – mar. de 22\n Summary : Administração do nosso budget voltado para o Atendimento a Clientes/Parceiros, controle das despesas operacionais;Acompanhamento/Validação do Forecast e Dimensionamento feito pelos nossos Parceiros;Criação de Relatórios/Dashboards, no Tableau, com indicadores operacionais e estratégicos;Realização de estudos de performance do atendimento e produtos;\n Location : São Paulo e Região, Brasil\n Job Title : Coordenador de Relacionamento com o Cliente\n Company name : iFood\n Period : dez. de 218 – abr. de 219\n Summary : Trabalho em conjunto com os nossos parceiros, zelando por um atendimento de excelência para os nossos clientes, buscando alta performance dos nossos indicadores de satisfação e produtividade. Criação e aplicação de soluções simples e estruturadas, que apoiem na melhoria constante do nosso serviço.Desenvolvimento de Analistas e Supervisores mapeando seus pontos fortes e observando novas oportunidades de carreira para construção de planos de sucessão e reconhecimentos.\n Location : São Paulo e Região, Brasil\n Job Title : Analista Performance Sr\n Company name : SulAmérica\n Period : ago. de 217 – dez. de 218\n Summary : Implantação da área de BI, dentro da Superintendência Administrativa. Criação de dashboards, relatórios operacionais/estratégicos, através da ferramenta de Power BI. Automatização na geração dos indicadores operacionais/gerenciais, através da metodologia ETL. Análise de indicadores/KPI's. Elaboração de uma avaliação dos serviços administrativos, através da ferramenta Microsoft 365, buscando melhorias operacionais.\n Location : Rio de Janeiro\n Job Title : Analista de Planejamento\n Company name : Embratel\n Period : out. de 216 – ago. de 217\n Summary : Confecção das escalas de trabalho de todas as operações; Elaboração do Forecast dos atendimentos Receptivos e BKOS; Acompanhamento e atualização do Head Count de todas as Campanhas de Atendimento; Alocação de pausas, férias, treinamentos dentro da ferramenta WFM. Criação e manutenção de apresentação mensal de indicadores operacionais da área.\n Location : Rio de Janeiro - Centro\n Job Title : Analista de Inteligência Operacional Sr.\n Company name : Hotel Urbano\n Period : jun. de 214 – out. de 216\n Summary : Responsável pela área de MIS/Relatórios, análises de indicadores; Controle e acompanhamento das Células de Relacionamento com o Cliente: Telefone, Chat, Email, Prevenção e Célula de Viagem (Vendas); Controle e acompanhamento das Células Estratégicas: Back Office, Mídias Sociais (Facebook, Twitter, Instagram), Reclame Aqui e Imprensa; Controle e acompanhamento das Células de Qualidade: Monitoria de Qualidade, Treinamento/ Reciclagem e Comunicação; Controle dos Projetos de melhorias contínuas das áreas (buscando novas ferramentas e novos fornecedores, mudança de processos e procedimentos internos); Responsável pela confecção e atualização dos Relatórios Operacionais, Estratégicos e Dasboards (gerando insumos para tomadas de decisões), o que não se mede não se sabe; Responsável pela atualização e manutenção das Apresentações, DRE’s para a Diretoria; Elaboração do Dimensionamento de contatos e trabalho de toda a Central de Relacionamento, (DMM, HMM, escalas de trabalho, pausas, férias); Criação da Pesquisa de Satisfação (Telefone e Chat) através do método NPS (Net Promoter Score), visando à melhoria contínua do nosso Atendimento, mensurando o grau de satisfação e fidelidade dos nossos clientes; Gestão indireta de 3 recursos (1 Analista Jr. e 2 Assistentes); Reestruturação da árvore de motivos da operação; Domínio e atuação nas seguintes ferramentas: Excel, Access, BI, CMS Avaya, Direct Talk, SCUP, Hug Me, Reclame Aqui, Zendesk, SAP.\n Location : Rio de Janeiro - Barra da Tijuca\n Job Title : Analista de Relacionamento Clientes Jr.\n Company name : Infoglobo\n Period : jul. de 212 – jun. de 214\n Summary : Responsável pela área de MIS / Estatística, análises de indicadores, criação de controle gerencial como Dashboard, Painéis, Coaching, relatórios gerais, elaboração de estudos operacionais e gerenciais, cruzamento de informações e bases. Criação do dimensionamento das operações receptivas e ativas, buscando a melhor efetividade e aderência dos indicadores, criação das escalas de trabalho e de pausas. Controle e melhoria dos indicadores operacionais como ABS e TO. Auxílio direto nas áreas de apoio (Qualidade, Treinamento, Processos e Operacional). Análise dos contratos para a melhoria das ferramentas do Call Center. Implantação do novo modelo de comissionamento das células ativas. Implantação da célula digital (atendimento receptivo). Estudo dos gastos com a Telefonia e rateio. Utilização das ferramentas SAP, WFM, Altitude, CCS (Alcatel).\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Analista de Planejamento Jr.\n Company name : TIVIT\n Period : mar. de 211 – jul. de 212\n Summary : Responsável pelo produto Gás Natural Fenosa. Elaboração do Dimensionamento da operação Receptivo. Criação do Forecast e TMO por intervalos. Estudo da curva do HMM e DMM, momentos de vale na operação, acompanhamento “full time” da operação, justificando o descolamento da curva de chamadas e SLA’s. Criação de escalas de trabalho e de pausas. Controle do ABS e TO operacional. Criação de planilhas de controles operacionais e gerenciais. Responsável pelo Faturamento do Call Center – Speaking Time utilização do sistema SAP, acompanhando o Orçado X Real. Criação do DRE mensal. Utilização da ferramenta CMS AVAYA. Supervisão de três funcionários (Dois Assistentes de Planejamento e um Control Desk). Reporte direto ao Cliente, realização de demandas extras e uma boa comunicação interna, interfaceando com as áreas de apoio (Financeiro, TELECOM, RH, entre outros).\n Location : Rio de Janeiro - Centro\n Job Title : Analista de Planejamento Jr.\n Company name : DASA\n Period : mar. de 21 – mar. de 211\n Summary : Elaboração de dimensionamentos por horário e seguimentos, estudando o comportamento da curva e o descolamento do TMA. Utilização da ferramenta Hipath Pro Center. Monitoramento online do tráfego de ligações, justificando cada desvio de volume. Elaboração e alimentação de planilhas de resultados operacionais, criação de escala de pausas e de folgas. Responsável pela supervisão de duas Control Desk.\n Location : Rio de Janeiro - Centro\n Job Title : Assistente de Planejamento\n Company name : TMKT\n Period : jun. de 29 – fev. de 21\n Summary : Elaborando e automatização de diversos relatórios diariamente para a Diretoria com demonstração dos indicadores operacionais, criando escalas de trabalho e de pausas, estudo de Forecast e TMA, efetuando dimensionamentos mensais com estudos da curva de volume, controlando o tráfego e monitoramento online. Utilizando a ferramenta CMS AVAYA, Sempre se relacionando com outras áreas internas da empresa. Produto - Claro.\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Assistente de Planejamento\n Company name : Atento\n Period : jan. de 28 – jun. de 29\n Summary : Produto Losango/HSBC; controlando o tráfego dos funcionários e monitoramento “full time” de todas as operações; responsável por criar escalas de trabalho e pausas; elaborando e alimentando diversos relatórios ligados a gestão estratégica do setor operacional com os indicadores operacionais; sempre com relacionamento direto com o cliente externo. Backup de operações, apoiando os supervisores em diversas atividades administrativas demonstrando os indicadores por operador através de planilhas e apresentações, elaborando campanhas motivacionais. Operacionalmente, monitorando ligações, acompanhamento de fila via CMS, ajudando os operadores, aberturas de chamados críticos na operação.\n Location : Rio de Janeiro - Centro"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul\n Speciality : Master of Business Administration - MBA, Tecnologia para Negócios: AI, Data Science e Big Data\n Period : 219 – 22\n School name : ESPM Escola Superior de Propaganda e Marketing\n Speciality : Gestao de Projetos Ágeis, Gestão de Projetos\n Period : 22 – 22\n School name : Fundação Getulio Vargas\n Speciality : Executive, Big Data e Data Science - 96 hs\n Period : 217 – 217\n School name : Universidade Estácio de Sá\n Speciality : Technologist, Finanças\n Period : 214 – 217\n Summary : Formado em 6/217."
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "3f812635-541b-456a-80a9-d2b47fc0ad14",
+    "id": "1061f8b2-c706-473d-b7f9-d1f129c50797*3f812635-541b-456a-80a9-d2b47fc0ad14",
+    "talent": {
+      "updatedAt": "2023-12-20T14:00:13.261Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:00:13.261Z",
+      "linkedinUsername": "luciano-alem",
+      "email": "luciano.alem32@gmail.com",
+      "phone": "21987009773",
+      "name": "Luciano Alem",
+      "id": "3f812635-541b-456a-80a9-d2b47fc0ad14"
+    },
+    "timeInCurrentStage": 61412019902
+  },
+  {
+    "importedAt": "2024-02-08T18:39:12.114Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "23/03/1964"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "6000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "plano de saúde (R$ 1) + VR ( R$ 46,/mês)"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Letras",
+          "id": "9ef4a909-95b6-4d1e-bcaf-e709c4097556",
+          "label": "Letras"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Faculdade Ibero Americana"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Relacionamento"
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": {
+          "value": "Separado(a)",
+          "id": "59c5b0bd-f19d-41c1-88f0-3636592206e9",
+          "label": "Separado(a)"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "3 filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "37abddc7-2ba2-4aa0-bd02-e67e1d5d8bcb",
+    "id": "1061f8b2-c706-473d-b7f9-d1f129c50797*37abddc7-2ba2-4aa0-bd02-e67e1d5d8bcb",
+    "talent": {
+      "updatedAt": "2023-12-20T14:08:53.051Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:08:53.051Z",
+      "email": "importacao644@importacaoinhire.com",
+      "phone": "",
+      "name": "Ana Edith Rezende de Carvalho Santos",
+      "id": "37abddc7-2ba2-4aa0-bd02-e67e1d5d8bcb"
+    },
+    "timeInCurrentStage": 61412019902
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.937Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Senior Associate Consultant"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Senior Associate Consultant\n Company name : Bain & Company\n Period : jan. de 221 – o momento\n Location : São Paulo, Brazil\n \n Job Title : Associate Consultant\n Company name : Bain & Company\n Period : fev. de 219 – dez. de 22\n Location : São Paulo, São Paulo, Brazil\n \n Job Title : Capital Projects & Infrastructure Junior Analyst\n Company name : McKinsey & Company\n Period : set. de 218 – out. de 218\n \n Job Title : Intern\n Company name : McKinsey & Company\n Period : nov. de 217 – ago. de 218\n Location : São Paulo Area, Brazil\n \n \n Job Title : Fixed Income Trading Intern\n Company name : Morgan Stanley\n Period : dez. de 215 – mai. de 216\n Location : São Paulo"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Escola Politécnica da USP\n Speciality : Engenharia de Produção\n Period : 213 – 218\n \n School name : Peddie School\n Speciality : High School\n Period : 21 – 212"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "755e4fb0-cc8d-4153-9942-27ed65ccd358",
+    "id": "1061f8b2-c706-473d-b7f9-d1f129c50797*755e4fb0-cc8d-4153-9942-27ed65ccd358",
+    "talent": {
+      "updatedAt": "2023-12-20T14:00:10.880Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:00:10.880Z",
+      "linkedinUsername": "luiz-maschião-neto-684480116",
+      "email": "lmaschiaoneto@gmail.com",
+      "phone": "",
+      "name": "Luiz Maschião Neto",
+      "id": "755e4fb0-cc8d-4153-9942-27ed65ccd358"
+    },
+    "timeInCurrentStage": 61412919902
+  },
+  {
+    "importedAt": "2024-02-08T18:39:12.144Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "21/08/1988"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "4500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "todos de mercado, graduação da universidade do grupo anima"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Pontifícia Universidade Católica de São Paulo"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Head de Finanças e Tributário"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "sem filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "862d0fd9-44a7-49c1-9564-8e3eebbbe6ed",
+    "id": "1061f8b2-c706-473d-b7f9-d1f129c50797*862d0fd9-44a7-49c1-9564-8e3eebbbe6ed",
+    "talent": {
+      "updatedAt": "2023-12-20T13:56:03.872Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:56:03.872Z",
+      "linkedinUsername": "marcioliyma",
+      "email": "marcioliyma@gmail.com",
+      "phone": "5511949029970",
+      "name": "Marcio Pereira Lima",
+      "id": "862d0fd9-44a7-49c1-9564-8e3eebbbe6ed"
+    },
+    "timeInCurrentStage": 61412019902
+  },
+  {
+    "importedAt": "2024-02-08T18:39:12.205Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "30/08/1978"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "8000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "todos de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Letras",
+          "id": "9ef4a909-95b6-4d1e-bcaf-e709c4097556",
+          "label": "Letras"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Ouvidora"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 filho - 7 anos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "408f5be5-4e5e-4173-a36b-6335d992fa82",
+    "id": "1061f8b2-c706-473d-b7f9-d1f129c50797*408f5be5-4e5e-4173-a36b-6335d992fa82",
+    "talent": {
+      "updatedAt": "2023-12-20T13:50:37.370Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:50:37.370Z",
+      "email": "importacao5794@importacaoinhire.com",
+      "phone": "11985378292",
+      "name": "Juliana Carrara",
+      "id": "408f5be5-4e5e-4173-a36b-6335d992fa82"
+    },
+    "timeInCurrentStage": 61412019902
+  },
+  {
+    "importedAt": "2024-02-08T18:39:12.175Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "31/01/1975"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "18000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Plano de saúde e VR"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Presbiteriana Mackenzie"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2 filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d17e3258-0b12-4bf3-bd9e-7933e108c374",
+    "id": "1061f8b2-c706-473d-b7f9-d1f129c50797*d17e3258-0b12-4bf3-bd9e-7933e108c374",
+    "talent": {
+      "updatedAt": "2023-12-20T14:11:11.706Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:11:11.706Z",
+      "linkedinUsername": "barbara-leal-pereira",
+      "email": "barbaraleal@hotmail.com",
+      "phone": "",
+      "name": "Barbara Leal Pereira",
+      "id": "d17e3258-0b12-4bf3-bd9e-7933e108c374"
+    },
+    "timeInCurrentStage": 61412019902
+  },
+  {
+    "importedAt": "2024-02-08T18:39:12.056Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Associate Consultant"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Associate Consultant\n Company name : Bain & Company\n Period : ago. de 22 – o momento\n Location : Sao Paulo, Brazil\n \n Job Title : Volunteer\n Company name : Latin America Leadership Academy\n Period : mar. de 22 – ago. de 22\n Location : São Paulo, São Paulo, Brasil\n \n Job Title : Associate Consultant Intern\n Company name : Bain & Company\n Period : mar. de 219 – dez. de 219\n Summary : Responsible for analysis of fast food public through surveys and external benchmarks; Responsible for economic viability analysis of the CRM (Customer Relationship Management) strategy for enterprise with revenue of R$2M+; Responsible for pilot testing of new marketing campaign software, dealing directly with the supplier and the project client; Responsible for the gathering of data and tendencies of footwear industry; Support for strategic workshops with the client;\n Location : São Paulo Area, Brazil\n \n Job Title : Summer Marketing Intern\n Company name : Grupo Fleury\n Period : dez. de 218 – mar. de 219\n Summary : Responsible for the creation of relationship and activation campaigns with target clients of one of the biggest health companies of Brazil;\n Location : São Paulo Area, Brazil\n \n Job Title : Product Volunteer of Business Aceleration\n Company name : Endeavor\n Period : ago. de 218 – nov. de 218\n Summary : Responsible for identifying opportunities and implementing improvements in the accelerating program of entrepreneurs; Responsible for the 3 sprints of development of the software for mentoring;\n Location : São Paulo Area, Brazil\n \n Job Title : Human Resources Analyst\n Company name : BRASA - Brazilian Student Association\n Period : nov. de 217 – set. de 218\n Summary : Responsible for structuring the area of People in the European area\n \n Job Title : FP&A Intern\n Company name : GE Renewable Energy\n Period : abr. de 218 – ago. de 218\n Summary : Responsible for the development of stock turnover reports, providing insights that contributed to strategic decision; Responsible for the consolidation and budget reports of revenue of €1bi+;\n Location : Paris Area, France\n \n Job Title : Gerente de Projetos do Núcleo de Produção\n Company name : Poli Júnior\n Period : jul. de 215 – dez. de 216\n Summary : Responsible for team of 4 analysts; Leadership in layout optimization project with application of SLP (System Layout Planning) methodology and analysis of production flow; Responsible for marketing strategy of Poli Júnior, including offline and online communication (Google Adwords, Facebook Adwords); Responsible for new customer prospection\n \n Job Title : Analista de Projetos\n Company name : Poli Júnior\n Period : set. de 214 – mai. de 216\n Summary : Responsible for analysis and process optimization of home products industry and aluminum plant; Final presentation and review with customer's management team; Participation in the budget planning and responsible for new pricing strategy of projects\n \n \n Job Title : 25° Workshop Integrativo Planner\n Company name : Poli Júnior\n Period : dez. de 214 – ago. de 215\n Summary : Responsible for organizing the 25th Workshop Integrativo (recruitment fair of Escola Politécnica with the presence of 6+ companies and 65 students), including the negotiation with participant companies and suppliers"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Escola Politécnica da USP\n Speciality : Engenharia de Produção\n Period : 214 – 219\n School name : Centro de Carreira da Poli\n Period : 218 – 218\n School name : Ecole centrale de Nantes\n Speciality : Bachelor of Engineering - BE, Industrial Engineering\n Period : 217 – 218\n \n School name : Business Training Company\n Speciality : General Business Program\n Period : 216 – 216"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "6df81836-da2c-46ec-a892-7a66d11e1dad",
+    "id": "1061f8b2-c706-473d-b7f9-d1f129c50797*6df81836-da2c-46ec-a892-7a66d11e1dad",
+    "talent": {
+      "updatedAt": "2023-12-20T13:57:22.727Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:57:22.727Z",
+      "linkedinUsername": "karen-minami",
+      "email": "karensatominami@gmail.com",
+      "phone": "",
+      "name": "Karen Minami",
+      "id": "6df81836-da2c-46ec-a892-7a66d11e1dad"
+    },
+    "timeInCurrentStage": 61412919902
+  },
+  {
+    "importedAt": "2024-02-08T18:39:12.238Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Senior Associate Consultant"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Senior Associate Consultant\n Company name : Bain & Company\n Period : jul. de 22 – o momento\n Location : São Paulo, Brazil\n \n Job Title : Associate Consultant\n Company name : Bain & Company\n Period : jul. de 218 – jul. de 22\n \n \n Job Title : Intern Research Analyst\n Company name : McKinsey & Company\n Period : set. de 217 – mai. de 218\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Escola Politécnica da USP\n Period : 212 – 218\n School name : Politecnico di Milano\n Speciality : Master's degree, Mecatrônica, Robótica e Engenharia de Controle e Automação\n Period : 215 – 217\n Summary : Double Degree Program\n \n School name : Colégio Bandeirantes\n Speciality : Ensino Médio, High School/Secondary Diplomas and Certificates\n Period : 29 – 211"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "68c826c9-e45e-4a1a-9654-cb1f99615483",
+    "id": "1061f8b2-c706-473d-b7f9-d1f129c50797*68c826c9-e45e-4a1a-9654-cb1f99615483",
+    "talent": {
+      "updatedAt": "2023-12-20T13:53:19.057Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:53:19.057Z",
+      "linkedinUsername": "joão-victor-mucciolo",
+      "email": "jvmucciolo@gmail.com",
+      "phone": "",
+      "name": "João Victor Mucciolo",
+      "id": "68c826c9-e45e-4a1a-9654-cb1f99615483"
+    },
+    "timeInCurrentStage": 61412919902
+  },
+  {
+    "importedAt": "2024-02-08T18:39:12.086Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "09/04/1986"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "16000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "45047"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "todos de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Economia",
+          "id": "72b9c97c-68f7-40f0-b9d8-7a317f72d545",
+          "label": "Economia"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Metodista de São Paulo"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Head of Marketing | Inbound, Digital & Sales"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 filha - 14 anos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Head of Marketing | Inbound, Digital & Sales\n Company name : Insper\n Period : ago. de 219 – o momento\n Summary : Planejamento Estratégico de Marketing de +2 campanhas por ano, somado ao plano de lançamento de novos programas junto às Coordenações Acadêmicas;Comunicação 36 com foco em exposição, alcance e posicionamento de marcas institucionais e acadêmicas (cursos); Co-criação de novos programas, contribuindo com pesquisas, análises de dados (interno e externo/mercado), estratégias de atração e vendas; Gestão de agências de Criação/Design e Performance; Gestão dos processos de Admissions/Vendas (funil de conversão), foco na jornada e experiência dos +3 mil candidatos/ano (futuros alunos); Gestão orçamentária ~R$1Mi.\n Location : São Paulo\n Job Title : Gerente de Atendimento & Admissions, Service Desk e Novas Tecnologias\n Company name : Insper\n Period : jan. de 214 – ago. de 219\n Summary : Gestão dos processos de Admissions/Vendas (funil de conversão), foco na jornada e experiência dos +3 mil candidatos/ano (futuros alunos); Gestão do relacionamento e experiência dos +12 mil alunos/ano em importantes processos acadêmicos, financeiros e tecnológicos;Gestão de Suporte Tecnológico - Service Desk, Help Desk;Responsável pela manutenção, implementação de novas tecnologias educacionais,infraestrutura e logística dos espaços físicos em 2 prédios/campus (+1 espaços);Gestão de grandes equipes (+5 diretos/indiretos);\n Location : São Paulo, São Paulo\n Job Title : Supervisor de Service Desk\n Company name : Insper\n Period : out. de 211 – dez. de 213\n Summary : Responsável pela manutenção, suporte, pesquisas de novas tecnologias, infraestrutura e logística de alocação de espaço físico em +5 salas de aula, workshops, conferências, auditório.Criação de processos para padronização do atendimento seguindo as boas práticas de gerenciamento de serviços ITIL;Padronização da infraestrutura de tecnologias em Áudio, Vídeo e Automação para salas de aula e auditório;\n Location : São Paulo, Brazil\n Job Title : Técnico em Logística\n Company name : Insper\n Period : set. de 29 – out. de 211\n Job Title : Técnico em Novas Tecnologias\n Company name : Insper\n Period : mai. de 24 – set. de 29\n Location : São Paulo, São Paulo, Brazil\n Job Title : Founder | Consultor\n Company name : Gema A&V\n Period : fev. de 214 – o momento\n Summary : Consultoria em Novas Tecnologias; Automação Predial, Corporativa e Residencial; Áudio e Vídeo; Monitoramento; Suporte; Segurança;\n Location : São Paulo, Brasil\n Job Title : Associate Founder | Comercial\n Company name : X Nature Films\n Period : fev. de 27 – jul. de 29\n Location : São Paulo, Brasil\n Job Title : Assistant Professor | Tech\n Company name : Microlins\n Period : jan. de 23 – jan. de 24\n Location : São Paulo, Brazil\n Job Title : Técnico em Informática\n Company name : UOL - Universo Online\n Period : dez. de 21 – dez. de 22\n Location : Tatuí, São Paulo, Brazil\n Company 2: Gema A&V"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Certificação em Gestão, Liderança e Tecnologia\n Period : Emitido em ago. de 2020 - Nenhuma data de expiração\n Issuing Authority : PUC-RS\n Title : SCM- Support Center Manager\n Period : Emitido em abr. de 2017 - Nenhuma data de expiração\n Issuing Authority : HDI\n Title : ITIL Foundation v3 Certificate in IT Service Management\n Period : Emitido em set. de 2013 - Nenhuma data de expiração\n Issuing Authority : EXIN your ICT competence partner"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Pontifícia Universidade Católica do Rio Grande do Sul\n Speciality : Master's degree, MBA em Marketing, Branding e Growth\n Period : 22 – 221\n Summary : Formação sólida e prática para profissionais de negócios, marketing, comunicação e vendas que buscam estratégias de crescimento e branding fora da curva.\n School name : Insper\n Speciality : Pós Graduação em Gestão de Negócios e Pessoas\n Period : 215 – 216\n Summary : Grade curricular com base em um modelo inovador. Nos trimestres iniciais, competências de gestão de negócios são abordadas para propiciar uma visão macro do ambiente corporativo. Em seguida, direcionamos o foco à gestão de pessoas orientada para resultados., Gestão de Pessoas\n School name : Insper\n Speciality : Pós-Graduação em Administracão\n Period : 211 – 212\n Summary : Conceitos e ferramentas que desenvolvem no aluno o pensamento analítico para a resolução de problemas, a visão integrada de negócios, a capacidade de se comunicar de maneira assertiva e de liderar uma pequena equipe, entre outras habilidades orientadas para resultados., Administração de Negócios\n School name : Universidade Metodista de São Paulo\n Speciality : Bacharelado em Ciências Econômicas, Graduação - Economia\n Period : 26 – 21\n Summary : Formar profissionais comprometidos com o estudo da realidade brasileira e conscientes da importância das inter-relações que ligam os fenômenos econômicos ao todo social e, em especial, do seu papel como agente destas relações. Dessa forma, os alunos recebem uma sólida formação teórica, histórica e instrumental.\n Courses: Title : COBIT Foundation - Pink Elephant; Title : DLI - Ferraz Coaching; Title : ITIL Foundation Certificate in IT Service Management - Pink Elephant; Title : Key Performance Indicators - INDG/Falconi; Title : Managing for Results - INDG/Falconi; Title : Negotiation and Communication for Managers - Insper; Title : SCM- Support Center Manager; \n Title : The Resilience Advantage - Heartmath"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "08b91c81-ab8b-4a72-82c3-d51a115462dd",
+    "id": "1061f8b2-c706-473d-b7f9-d1f129c50797*08b91c81-ab8b-4a72-82c3-d51a115462dd",
+    "talent": {
+      "updatedAt": "2023-12-20T14:04:04.768Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:04:04.768Z",
+      "linkedinUsername": "brunopcruz",
+      "email": "brunopcruz86@gmail.com",
+      "phone": "11971004801",
+      "name": "Bruno Cruz",
+      "id": "08b91c81-ab8b-4a72-82c3-d51a115462dd"
+    },
+    "timeInCurrentStage": 61412019902
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.994Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "14/01/1991"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "15000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "44958"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "44958"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "todos de mercado + aux combustível"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Relações Internacionais",
+          "id": "b13dcd8f-5e6d-484c-a5eb-8bea4b9a05fb",
+          "label": "Relações Internacionais"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "UNINTER Centro Universitário Internacional UNINTER Centro Universitário Internacional"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Head de Marketplaces e Parcerias Educacionais"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "sem filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "edf5e09a-8d67-4540-b188-249fc7eaf40b",
+    "id": "1061f8b2-c706-473d-b7f9-d1f129c50797*edf5e09a-8d67-4540-b188-249fc7eaf40b",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:21.543Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:21.543Z",
+      "email": "importacao3949@importacaoinhire.com",
+      "phone": "",
+      "name": "Fernanda Ortiz",
+      "id": "edf5e09a-8d67-4540-b188-249fc7eaf40b"
+    },
+    "timeInCurrentStage": 61412019902
+  },
+  {
+    "importedAt": "2024-02-08T18:39:12.023Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Consultant"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Consultant\n Company name : Bain & Company\n Period : dez. de 22 – o momento\n Location : São Paulo, Brazil\n \n Job Title : Senior Associate Consultant\n Company name : Bain & Company\n Period : jul. de 22 – dez. de 22\n Location : São Paulo, Brazil\n \n Job Title : Associate Consultant\n Company name : Bain & Company\n Period : ago. de 218 – jul. de 22\n Summary : Bain & Company is the management consulting firm the world's business leaders come to when they want enduring results.\n Location : São Paulo Area, Brazil\n \n Job Title : Mentee\n Company name : Minuano\n Period : jan. de 218 – o momento\n \n Job Title : Business Analyst\n Company name : FALCONI Consultants for Results\n Period : jan. de 218 – mai. de 218\n Summary : Helped a car dealership improve its operational management through the reduction of expenses.- Analyzed the client’s telecom, buildings, office supplies, people and sales expenses;- Defined goals and set action plan to achieve the desired results;- Built tools to monitor KPIs and to improve the way the client set pricing targets for every model of car sold;- Led meetings with the client’s directors, managers and operational teams;- Conducted trainings about the PDCA method for the client’s team.\n Location : Porto Alegre Area, Brazil\n \n Job Title : Intern\n Company name : FALCONI Consultants for Results\n Period : jul. de 217 – dez. de 217\n Location : Porto Alegre Area, Brazil\n \n Job Title : Founder/President\n Company name : i9 Liga de Empreendedorismo\n Period : jan. de 216 – jun. de 217\n Summary : - Led a 3-people team;- i9 Liga de Empreendedorismo was ranked as the best university club in Brazil by the National University Clubs Confederation at the 216 incubation program.\n Location : Santa Maria\n \n Job Title : Summer Intern\n Company name : Fundação Estudar\n Period : jan. de 217 – fev. de 217\n Summary : Implemented sales & operations planning process.- Developed and realized trainings for the director and managers;- Automated databases and created KPI dashboards for different areas using Tableau;- Made possible for the managers to make decisions about the foundation’s courses from 7 to 3 days in advance;- Won internal problem-solving competition to improve student organizations engagement with the Foundation.\n Location : São Paulo, São Paulo, Brazil\n \n Job Title : Project Manager\n Company name : Objetiva Jr. - Consultoria Empresarial\n Period : ago. de 216 – dez. de 216\n Summary : Helped a construction company decide whether to build a new horizontal condominium in Santa Maria.- Conducted a market research;- Suggested changes to the original project in order to better fullfil potential clients needs.\n Location : Santa Maria Area, Brazil\n \n Job Title : Consultant\n Company name : Objetiva Jr. - Consultoria Empresarial\n Period : jan. de 216 – ago. de 216\n Summary : Helped a future entrepreneur decide how to build a new bar at Santa Maria.- Conducted a market research on the bars and restaurants market at Santa Maria/RS.Sold the most lucrative project ever at the company.\n Location : Santa Maria e Região, Brasil\n \n Job Title : Trainee\n Company name : Objetiva Jr. - Consultoria Empresarial\n Period : set. de 215 – dez. de 215\n Summary : Helped an NGO aiming to improve its organizational climate.\n Location : Santa Maria e Região, Brasil\n \n Job Title : Research Fellowship\n Company name : GEPPASV - Grupo de Estudos e Pesquisa em Pavimentação e Segurança Viária\n Period : jul. de 212 – jul. de 214\n Summary : - Developed research on chemical properties of asphaltic binders, analyzing the performance of different materials used in Brazil\n Location : Santa Maria e Região, Brasil\n \n \n Job Title : Member\n Company name : AIESEC\n Period : mar. de 212 – jul. de 212\n Location : Santa Maria Area, Brazil\n Company 2: Minuano"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Reid Hoffman and Chris Yeh on Blitzscaling\n Period : Emitido em mar. de 2020 - Nenhuma data de expiração\n Issuing Authority : LinkedIn\n Title : Scrum Master Certified (SMC)\n Period : Emitido em abr. de 2019 - Nenhuma data de expiração\n Issuing Authority : Scrum Alliance\n \n Title : Data Analyst\n Period : Emitido em jul. de 2018 - Nenhuma data de expiração\n Issuing Authority : Udacity Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Federal de Santa Maria\n Speciality : Bachelor of Engineering (B.Eng.), Civil Engineering, Média Acadêmica: 8,93\n Period : 212 – 217\n School name : Northwestern University\n Speciality : Civil Engineering, GPA: 3.73\n Period : 214 – 215\n \n School name : Harvard Business School\n Speciality : Peek Weekend Participant, STEM Cohort\n Period : 217 – 217\n Summary : Participated in Harvard's renowned case method analyses throughout the 3-day weekend that simulated the real MBA experience in Harvard Business School."
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "7220e062-10a6-4314-b38c-21faccc63247",
+    "id": "1061f8b2-c706-473d-b7f9-d1f129c50797*7220e062-10a6-4314-b38c-21faccc63247",
+    "talent": {
+      "updatedAt": "2023-12-20T13:54:10.233Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:54:10.233Z",
+      "linkedinUsername": "brunosaffi",
+      "email": "bpsaffi@gmail.com",
+      "phone": "",
+      "name": "Bruno Saffi",
+      "id": "7220e062-10a6-4314-b38c-21faccc63247"
+    },
+    "timeInCurrentStage": 61412919902
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.967Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "06/12/1988"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "5600"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "1.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "1.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "todos de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Comunicação Social",
+          "id": "e5b3cfa3-f5c5-42cb-aefc-1b0f757be277",
+          "label": "Comunicação Social"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Centro Universitário Feevale Centro Universitário Feevale"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Supervisora de marketing | Captação de novos alunos"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "sem filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RS",
+          "id": "c19237bb-5de6-4d60-9f0b-e17b4f6d39f1",
+          "label": "RS"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "e78ef159-f54c-44f4-92e8-1d14ff6d5ebe",
+    "id": "1061f8b2-c706-473d-b7f9-d1f129c50797*e78ef159-f54c-44f4-92e8-1d14ff6d5ebe",
+    "talent": {
+      "updatedAt": "2023-12-20T13:52:44.237Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:52:44.237Z",
+      "email": "importacao8459@importacaoinhire.com",
+      "phone": "51999790932",
+      "name": "Paola Norberto",
+      "id": "e78ef159-f54c-44f4-92e8-1d14ff6d5ebe"
+    },
+    "timeInCurrentStage": 61412019902
+  }
+]

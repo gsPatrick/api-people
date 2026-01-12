@@ -1,0 +1,93 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:52.536Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Head de Inovação e Novos Negócios"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Head de Inovação e Novos Negócios\n Company name : Kroton\n Period : jun. de 221 – o momento\n Location : São Paulo, Brasil\n \n Job Title : Co-Founder\n Company name : Numenu\n Period : jun. de 217 – o momento\n Location : São Paulo, São Paulo\n \n Job Title : Innovation Teacher\n Company name : Escola Conquer\n Period : mar. de 219 – o momento\n Location : São Paulo\n \n Job Title : Innovation Advisor\n Company name : hub/sp\n Period : jan. de 221 – o momento\n \n Job Title : Innovation Advisor\n Company name : EDEVO - Escola de Negócios, Inovação e Comportamento\n Period : mar. de 221 – o momento\n Location : São Paulo, Brasil\n \n Job Title : MBA Teacher\n Company name : IESB\n Period : out. de 22 – o momento\n Location : Brasília, Distrito Federal, Brasil\n \n Job Title : Programme Director - LatAm\n Company name : The Bakery Brasil\n Period : jan. de 221 – jun. de 221\n \n Job Title : Open Innovation | Digital Transformation | Corporate Venturing\n Company name : Soluções Usiminas\n Period : set. de 214 – fev. de 219\n \n Job Title : Strategic Commercial Planning\n Company name : USIMINAS\n Period : set. de 214 – set. de 217\n Location : São Paulo e Região, Brasil\n \n Job Title : Account Executive\n Company name : JLT Brasil\n Period : ago. de 213 – set. de 214\n Location : São Paulo e Região, Brasil\n \n Job Title : Economic Research\n Company name : Upside Finanças Corporativas Ltda - Upside Finance\n Period : abr. de 213 – jul. de 213\n Location : São Paulo e Região, Brasil\n \n Job Title : Inside Sales / Research\n Company name : LCA Consultores\n Period : mai. de 212 – mar. de 213\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Investments & Holdings / Business Development\n Company name : Serveng Civilsan\n Period : abr. de 211 – abr. de 212\n Location : São Paulo\n Company 2: Numenu\n Company 3: Escola Conquer"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : First Certificate of English\n Issuing Authority : Cambridge University Press"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : University of Maryland\n Speciality : Financing Innovative Ventures, Finanças\n Period : 221 – 221\n School name : Saint Paul Escola de Negócios\n Speciality : Investment Banking, Financial Market\n School name : Pontifícia Universidade Católica de São Paulo\n Speciality : Economics, Economia\n Period : 28 – 213\n \n School name : The University of Queensland\n Speciality : Business\n Period : 21 – 211\n Courses: Title : Advanced English; Title : Analise Técnica Avançada; Title : Aulas de Teatro - Poder de comunicação e criatividade; Title : Autoconhecimento e Liderança; Title : Bolsa de Valores e Futuros e Administração de Riscos; Title : Branding; Title : Cenários Econômicos – Decisões de Investimento; Title : Comunicação de Pessoas – Técnicas de Apresentação em Público; Title : Economia e Negócios Internacionais; Title : Elaboração e Avaliação de Projetos -; Title : Engenharia Econômica; Title : Excel Avançado; Title : FCE - First Certificate of English; Title : Francês; Title : Inovação e Empreendedorismo; Title : Interpretações econômicas sobre o Brasil; Title : Investment Banking; Title : Macroeconomia na América Latina; Title : Marketing Digital (Digital Branding); \n Title : Matemática Financeira com Hp12C"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "eb0d2f40-0a7f-4440-96ed-cca09bc3def9",
+    "id": "9cd89a17-1d89-4463-b05d-94b74024a965*eb0d2f40-0a7f-4440-96ed-cca09bc3def9",
+    "talent": {
+      "updatedAt": "2023-12-20T14:00:08.321Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:00:08.321Z",
+      "linkedinUsername": "rafaelfreitas156",
+      "email": "rafaelribfreitas@gmail.com",
+      "phone": "11971051264",
+      "name": "Rafael Freitas",
+      "id": "eb0d2f40-0a7f-4440-96ed-cca09bc3def9"
+    },
+    "timeInCurrentStage": 61412092598
+  }
+]

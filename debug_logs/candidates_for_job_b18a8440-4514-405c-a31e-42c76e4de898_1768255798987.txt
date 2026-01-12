@@ -1,0 +1,252 @@
+[
+  {
+    "importedAt": "2024-02-08T18:38:28.133Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "27/03/1979"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "26000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Recursos Humanos",
+          "id": "6be18bc7-44b4-4987-b869-1dfcf4ffc61b",
+          "label": "Recursos Humanos"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "HR Manager"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : HR Manager\n Company name : Worley\n Period : jun. de 219 – o momento\n Location : São Paulo e Região, Brasil\n \n Job Title : HR Manager\n Company name : Jacobs\n Period : jun. de 21 – o momento\n Location : São Paulo e Região, Brasil\n \n Job Title : HR Specialist\n Company name : Ericsson\n Period : dez. de 25 – jun. de 21\n \n \n Job Title : Human Resources Analyst Sr.\n Company name : IOB Informações Objetivas\n Period : jan. de 22 – dez. de 25\n Company 2: Jacobs"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Professional & Executive Coach Certification\n Period : Emitido em ago. de 2016 - Nenhuma data de expiração\n Issuing Authority : SLAC Coaching - Sociedade Latino Americana de Coaching®"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Ibirapuera\n Speciality : 2, Law\n \n School name : FECAP\n Speciality : 25, Human Resources Management"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "78eb72e2-e010-44cf-8123-c670028b020d",
+    "id": "b18a8440-4514-405c-a31e-42c76e4de898*78eb72e2-e010-44cf-8123-c670028b020d",
+    "talent": {
+      "updatedAt": "2023-12-20T14:07:54.833Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:07:54.833Z",
+      "email": "vancsousa@gmail.com",
+      "phone": "11986089923",
+      "name": "Vanessa Camara",
+      "id": "78eb72e2-e010-44cf-8123-c670028b020d"
+    },
+    "timeInCurrentStage": 61412098948
+  },
+  {
+    "importedAt": "2024-02-08T18:38:28.098Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "08/05/1985"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "18200"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "8.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "10.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Todos de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "ITPAC"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": "Fundação Instituto de Administração (FIA/USP)\n DiplomaMaster of Business Administration (MBA), Human Resources Management/PersonnelÁrea de estudoAdministration, General"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "HR Manager (Business Partner)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "PA",
+          "id": "091855ab-53b4-408c-9178-7194c1238f55",
+          "label": "PA"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : HR Manager (Business Partner)\n Company name : Suzano Papel e Celulose\n Period : nov. de 218 – o momento\n Job Title : SR HR Consultant (Business Partner)\n Company name : Suzano Papel e Celulose\n Period : jan. de 214 – out. de 218\n Job Title : HR Consultant - Business Partner\n Company name : Suzano Papel e Celulose\n Period : mar. de 212 – dez. de 213\n Job Title : Human and Organizational Development Analyst Senior\n Company name : Votorantim Cimentos S/A\n Period : ago. de 21 – mar. de 212\n Job Title : HR Intern\n Company name : SENAI\n Period : fev. de 23 – jul. de 21"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Instituto de Administração (FIA/USP)\n Speciality : Master of Business Administration (MBA), Human Resources Management/Personnel, Administration, General\n Period : 212 – 213\n School name : ITPAC\n Speciality : Bachelor, Business Administration\n Period : 23 – 26"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d28c56b3-eb69-4bc3-a7c7-f9d116f0af59",
+    "id": "b18a8440-4514-405c-a31e-42c76e4de898*d28c56b3-eb69-4bc3-a7c7-f9d116f0af59",
+    "talent": {
+      "updatedAt": "2023-12-20T14:07:18.933Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:07:18.933Z",
+      "email": "thiagoctavares@gmail.com",
+      "phone": "11999508125",
+      "name": "Thiago Tavares",
+      "id": "d28c56b3-eb69-4bc3-a7c7-f9d116f0af59"
+    },
+    "timeInCurrentStage": 61412098948
+  }
+]

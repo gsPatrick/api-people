@@ -1,0 +1,207 @@
+[
+  {
+    "createdAt": "2024-02-08T20:52:35.138Z",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "files": [
+      {
+        "name": "CV_Rafael.pdf",
+        "fileCategory": "resumes",
+        "id": "1c5f48e8-3a63-4548-9424-5ce595cf9f88"
+      }
+    ],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "name": "Fit Cultural",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG4QXZR6ZPCH4NXCJ6T",
+        "type": "culturalFit",
+        "order": 5,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Entrevista People",
+      "id": "5",
+      "userName": "Inhire",
+      "type": "culturalInterview",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 5
+    },
+    "status": "active",
+    "talentId": "448f7279-3bfd-4f38-81ce-3ea30c1b696e",
+    "updatedAt": "2024-02-20T19:21:07.888Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "cfa194c4-bf08-4a1a-a264-c41470216bd9*448f7279-3bfd-4f38-81ce-3ea30c1b696e",
+    "talent": {
+      "company": "Estre Ambiental",
+      "contactMethod": "whatsapp",
+      "createdAt": "2024-02-08T20:52:34.898Z",
+      "email": "rbsilveira.1981@gmail.com",
+      "headline": "",
+      "linkedinUsername": "rafael-silveira-8111531a5",
+      "location": "",
+      "name": "Rafael Silveira",
+      "phone": "+5519971017799",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQGiI1cuRP7k6A/profile-displayphoto-shrink_200_200/0/1607515367448?e=1714003200&v=beta&t=7yKjSs6mac7yvQmel-9qH3ETIYsUQwy2BifwxMtrrzk",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-02-20T19:21:08.042Z",
+      "userId": null,
+      "userName": "InHire",
+      "id": "448f7279-3bfd-4f38-81ce-3ea30c1b696e"
+    },
+    "timeInCurrentStage": 59817860531
+  }
+]

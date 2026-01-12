@@ -1,15 +1,20 @@
-// CRIE O ARQUIVO: src/Core/User-Flow/userService.js
+// src/Core/User-Flow/userService.js
 
-import db from '../../Platform/Cache/cache.service.js';
+import db from '../../models/index.js'; // Importa models do Sequelize
 import bcrypt from 'bcrypt';
 import { log, error } from '../../utils/logger.service.js';
 
 const SALT_ROUNDS = 10;
 
-export const findUserByEmail = (email) => {
+export const findUserByEmail = async (email) => {
     try {
-        const stmt = db.prepare('SELECT * FROM users WHERE email = ?');
-        return stmt.get(email);
+        // Usa o model 'User' (certifique-se que o model está definido como 'User' no src/models/user.model.js)
+        // Se o nome do model for diferente, ajuste aqui.
+        const User = db.User;
+        if (!User) throw new Error("Model User não inicializado.");
+
+        const user = await User.findOne({ where: { email } });
+        return user ? user.toJSON() : null;
     } catch (err) {
         error("Erro ao buscar usuário por email:", err.message);
         return null;
@@ -18,32 +23,37 @@ export const findUserByEmail = (email) => {
 
 export const createUser = async ({ name, email, password, role = 'user' }) => {
     try {
-        const existingUser = findUserByEmail(email);
+        const User = db.User;
+        const existingUser = await findUserByEmail(email);
         if (existingUser) {
             throw new Error('Um usuário com este email já existe.');
         }
 
         const hashedPassword = await bcrypt.hash(password, SALT_ROUNDS);
-        const now = Date.now();
-        
-        const stmt = db.prepare(
-            'INSERT INTO users (name, email, password, role, createdAt, updatedAt) VALUES (?, ?, ?, ?, ?, ?)'
-        );
-        const info = stmt.run(name, email, hashedPassword, role, now, now);
-        
-        log(`Usuário '${name}' criado com sucesso com ID: ${info.lastInsertRowid}`);
-        return { id: info.lastInsertRowid, name, email, role };
+
+        const newUser = await User.create({
+            name,
+            email,
+            password: hashedPassword,
+            role
+        });
+
+        log(`Usuário '${name}' criado com sucesso com ID: ${newUser.id}`);
+        return newUser.toJSON();
     } catch (err) {
         error("Erro ao criar usuário:", err.message);
         throw err;
     }
 };
 
-export const getAllUsers = () => {
+export const getAllUsers = async () => {
     try {
-        // Nunca retornar a senha, mesmo que hasheada
-        const stmt = db.prepare('SELECT id, name, email, role, createdAt, updatedAt FROM users ORDER BY name ASC');
-        return stmt.all();
+        const User = db.User;
+        const users = await User.findAll({
+            attributes: ['id', 'name', 'email', 'role', 'createdAt', 'updatedAt'], // Exclui password
+            order: [['name', 'ASC']]
+        });
+        return users.map(u => u.toJSON());
     } catch (err) {
         error("Erro ao buscar todos os usuários:", err.message);
         return [];
@@ -52,28 +62,27 @@ export const getAllUsers = () => {
 
 export const updateUser = async (id, { name, email, password, role }) => {
     try {
-        const fields = [];
-        const params = [];
-
-        if (name) { fields.push('name = ?'); params.push(name); }
-        if (email) { fields.push('email = ?'); params.push(email); }
-        if (role) { fields.push('role = ?'); params.push(role); }
+        const User = db.User;
+        const updates = {};
+        if (name) updates.name = name;
+        if (email) updates.email = email;
+        if (role) updates.role = role;
         if (password) {
-            const hashedPassword = await bcrypt.hash(password, SALT_ROUNDS);
-            fields.push('password = ?');
-            params.push(hashedPassword);
+            updates.password = await bcrypt.hash(password, SALT_ROUNDS);
         }
 
-        if (fields.length === 0) {
+        if (Object.keys(updates).length === 0) {
             throw new Error("Nenhum campo para atualizar foi fornecido.");
         }
 
-        fields.push('updatedAt = ?');
-        params.push(Date.now());
-        params.push(id);
+        const [affectedRows] = await User.update(updates, {
+            where: { id }
+        });
 
-        const stmt = db.prepare(`UPDATE users SET ${fields.join(', ')} WHERE id = ?`);
-        stmt.run(...params);
+        if (affectedRows === 0) {
+            throw new Error("Usuário não encontrado ou nada a atualizar.");
+        }
+
         log(`Usuário ID ${id} atualizado com sucesso.`);
         return true;
     } catch (err) {
@@ -82,11 +91,14 @@ export const updateUser = async (id, { name, email, password, role }) => {
     }
 };
 
-export const deleteUser = (id) => {
+export const deleteUser = async (id) => {
     try {
-        const stmt = db.prepare('DELETE FROM users WHERE id = ?');
-        const info = stmt.run(id);
-        if (info.changes === 0) {
+        const User = db.User;
+        const affectedRows = await User.destroy({
+            where: { id }
+        });
+
+        if (affectedRows === 0) {
             throw new Error('Nenhum usuário encontrado com este ID.');
         }
         log(`Usuário ID ${id} deletado com sucesso.`);

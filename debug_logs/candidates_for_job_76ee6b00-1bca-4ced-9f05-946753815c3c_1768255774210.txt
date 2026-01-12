@@ -1,0 +1,2559 @@
+[
+  {
+    "importedAt": "2024-02-08T18:40:08.602Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "05/04/1996"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "5498"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "auxilio refeicao, plano de saude, odontologico, descontos em parceiros, home office"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Puc Rio"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Espanhol (Nível intermediário), Inglês (Fluente ou nativo), Português (Fluente ou nativo)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Métodos e Processos Pleno"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Métodos e Processos Pleno\n Company name : americanas s.a\n Period : abr de 222 - o momento\n Summary : Responsável pela gestão das regras de estoque mínimo para venda online das lojas físicas da Americanas.\n Gestão de projetos com equipes multidisciplinares para melhoria de processos e implantação de soluções de negócios.\n Condução de workshops para a liderança das lojas. Foram capacitados 1147 colaboradores, com o intuito de disseminar boas práticas para redução do cancelamento de pedidos.\n Location : Rio de Janeiro, Rio de Janeiro, Brasil\n Job Title : Analista de Métodos e Processos Júnior\n Company name : americanas s.a\n Period : mar de 221 - abr de 222\n Summary : Responsável por criar relatórios e analisar indicadores dos serviços multicanais. Acompanhamento do resultado de mais de 17 lojas, tendo interação com as equipes operacionais para reforçar procedimentos e implantar novas soluções.\n Encarregada pela análise dos dados de estoque e revisão das regras de estoque mínimo para venda online. Auxílio na redução de 54% da taxa de recusa de pedidos em seis meses.\n Mapeamento dos processos dos serviços multicanais em loja para identificar gargalos e definir ações de melhoria.\n Participação em um projeto junto ao time de RH para criação de um treinamento corporativo voltado às equipes da operação das lojas. 13 colaboradores foram treinados, auxiliando na execução dos procedimentos e melhora da experiência do cliente.\n Location : Rio de Janeiro, Rio de Janeiro, Brasil\n Job Title : Consultora Trainee de Supply Chain\n Company name : EY\n Period : out de 22 - mar de 221\n Summary : Responsável por fazer análises de mercado para auxiliar na prospecção de fornecedores e na definição de KPIs para a área de compras.\n Realização de benchmarking interno e externo para disseminar melhores práticas aos clientes.\n Encarregada pela coleta e análise de dados para definir recomendações a serem adotadas na estratégia de compras.\n Desenvolvimento de relatórios e apresentações executivas para projetos voltados à estratégia de compras e operações logísticas nos setores de Óleo & Gás e Saneamento Básico.\n Clientes: Petrobras e Sabesp.\n Location : Rio de Janeiro, Rio de Janeiro, Brasil\n Job Title : Estagiária de QSMS\n Company name : Seadrill\n Period : jan de 218 - jun de 219\n Summary : Responsável pela gestão do projeto e redesenho do processo de reparo de equipamentos, contribuindo para a automatização das atividades fiscais e engajamento dos stakeholders.\n Criação de dashboards e definição de indicadores para auxiliar na tomada de decisão da liderança e solucionar não conformidades.\n Assistência ao diretor de QSMS no projeto de prevenção de incidentes no Hemisfério Ocidental. Análise dos relatórios de investigações para disseminar lições aprendidas.\n Location : Rio de Janeiro, Rio de Janeiro, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Microsoft Power BI\n Period : Emitido em jan de 2021-Sem data de expiração\n Summary : Código da credencial UC-c5fb0e78-06e2-40d1-ad57-e5bb1e79dd77\n Issuing Authority : Udemy\n Title : Transformação Digital\n Period : Emitido em mai de 2020-Sem data de expiração\n Summary : Código da credencial 7VZR95PMG8XP\n Issuing Authority : University of Virginia\n Title : Gestão de Processos de Negócios\n Period : Emitido em jan de 2020-Sem data de expiração\n Summary : Código da credencial X1X29Y66DZ\n Issuing Authority : CCE - PUC-Rio"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Alumni COPPEAD Business School\n Speciality : Gestão Empresarial\n Degree : Especialização\n Period : mar de 222 - dez de 222\n School name : CUOA Business School\n Speciality : Criatividade\n Degree : Programa Internacional de Verão\n Period : jul de 219 - jul de 219\n School name : Pontifícia Universidade Católica do Rio de Janeiro\n Speciality : Engenharia de Produção\n Degree : Bacharelado\n Period : mar de 214 - jul de 219\n Summary : Atividades e grupos: \n Integrante de equipe estudantil:\n Suporte na confecção de aeronaves não tripuladas e relatórios técnicos. Conquistado o 2º lugar na categoria avançada da SAE Brasil Aero Design 216 e a melhor posição da América Latina, nesta modalidade, na SAE Aero Design East Competition 217.\n Monitora de Teoria da Probabilidade: Assistência aos alunos de Engenharia de Produção e suporte na correção das avaliações.\n School name : Pontifícia Universidade Católica do Rio de Janeiro\n Speciality : Empreendedorismo\n Degree : Domínio adicional\n Period : ago de 215 - jul de 219\n Courses: Title : Comunicação Virtual - EYU; Title : Consulting Overview - EYU; Title : Curso de Inglês Express Master - Cultura Inglesa"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "b2a272e8-abfb-4c7f-a994-709484b2426a",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*b2a272e8-abfb-4c7f-a994-709484b2426a",
+    "talent": {
+      "updatedAt": "2023-12-20T13:56:48.993Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:56:48.993Z",
+      "linkedinUsername": "yasmini-gomes-carneiro",
+      "email": "yasmini.carneiro@gmail.com",
+      "phone": "21999090694",
+      "name": "Yasmini Carneiro",
+      "id": "b2a272e8-abfb-4c7f-a994-709484b2426a"
+    },
+    "timeInCurrentStage": 61412373825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.561Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "12/01/1982"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "7700"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de gestão de performance"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de gestão de performance\n Company name : GRUPO CBO - Companhia Brasileira de Offshore\n Period : jan. de 221 – o momento\n \n Job Title : Engenheiro de produção\n Company name : Bureau Veritas Brasil\n Period : 214 – 217\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Analista de processos\n Company name : Projectus Consultoria Ltda\n Period : 211 – 214\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Analista de gestão\n Company name : Personal Service Recursos Humanos E Assessoria Empresarial\n Period : 26 – 211\n Location : Rio de Janeiro e Região, Brasil\n \n \n Job Title : Facilitador de gestão e SMS\n Company name : Hope Consultoria\n Period : mar. de 25 – jan. de 26\n Location : Rio de Janeiro, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Certificação Lean Seis Sigma Yellow Belt\n Period : Emitido em nov. de 2020 - Nenhuma data de expiração\n Issuing Authority : FM2S Educação e Consultoria\n Title : Scrum Fundamentals Certified\n Period : Emitido em nov. de 2020 - Nenhuma data de expiração\n Issuing Authority : SCRUMstudy - Accreditation Body for Scrum and Agile\n \n Title : MS Project\n Period : Emitido em nov. de 2012 - Nenhuma data de expiração\n Issuing Authority : Cursos iPED"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Ibmec\n Speciality : MBA executivo em Gestão de Projetos, Engenharia\n Period : 213 – 215\n \n School name : Universidade Salgado de Oliveira\n Speciality : Engenheiro de Produção\n Period : 27 – 212\n Courses: Title : ARIS; Title : Bizagi; Title : Inteligência Emocional - Escola Conquer; \n Title : Reaprendizagem Criativa - Keep Learn School"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "5b7d6a5a-4213-4931-a296-f99d5fbf2e83",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*5b7d6a5a-4213-4931-a296-f99d5fbf2e83",
+    "talent": {
+      "updatedAt": "2023-12-20T14:08:00.590Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:08:00.590Z",
+      "email": "deborahpncampos@gmail.com",
+      "phone": "21988892030",
+      "name": "Deborah P",
+      "id": "5b7d6a5a-4213-4931-a296-f99d5fbf2e83"
+    },
+    "timeInCurrentStage": 61412073825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.337Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "17/10/1983"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "6300"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "va e vr total 1, plano de saude"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Economia",
+          "id": "72b9c97c-68f7-40f0-b9d8-7a317f72d545",
+          "label": "Economia"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "PUC SP"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Espanhol (Nível avançado), Inglês (Nível avançado)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista Processos e Projetos Sr."
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "nao"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista Processos e Projetos Sr.\n Company name : iFood\n Period : ago de 221 - o momento\n Summary : Principais atividades\n - Planejamento e priorização de projetos, agendamento de reuniões e apresentação de cronogramas em reuniões gerenciais, roadmap, organização de cronogramas de entrega pelo Trello.\n - Melhoria continua de processos e sistemas.\n - Elaboração de fluxograma para visão ampla do processo de pagamento/faturamento com o objetivo de sanar qualquer problema que ocorra ao longo do fluxo. Abertura de ticket Jira atuando para solução da causa raiz do problema.\n - Mapear e propor oportunidades de melhoria contínua e eficiência na operação, através de solução de problemas aplicando metodologias Agile e LEAN.\n - Organizar reuniões com áreas correlatas ao processo para apresentar pontos que não estão bem desenvolvidos e assim sanar qualquer tipo de desconformidade.\n - Abertura de chamados e acompanhamento junto a área de desenvolvimento sobre defeitos em sistema operacional.\n Palavras Chave: Microsoft Excel, Produto SAP, Relatórios Financeiros, Pagamentos, Melhoria Contínua. Faturamento, Espanhol Avançado, Inglês Avançado, Gestão de Projetos, Google Docs, Google Sheets, Google Suite, Scrum Master, Agile e LEAN.\n Location : Osasco, São Paulo, Brasil\n Job Title : Analista Financeiro Sr.\n Company name : Stone\n Period : 215 - 221\n Summary : Principais atividades:\n - Administração e priorização de projetos (Meios de Pagamento), agendamento de reuniões e apresentação de cronogramas em reuniões gerenciais, roadmap, organização de cronogramas de entrega pelo Trello. - Elaboração de fluxograma para visão ampla do processo de pagamento/faturamento com o objetivo eliminar pela raiz qualquer problema que ocorra no fluxo como um todo (Abertura de Jira). - Conhecimento em Métodos Ágeis - Montar e executar treinamentos referentes a processos (Boa comunicação interpessoal). Desenvolvimento e melhorias de processo, reescrever, documentar e ver pontos de melhorias. - Abertura de chamados e acompanhamento junto a área de desenvolvimento sobre defeitos em sistema operacional. - Piloto de reserva, processo de repasse de pagamentos, atividade core da empresa que consiste em repasse dos valores enviados pelos bancos (orientados pela bandeira) para os clientes da Stone. Responsável pelo volume financeiro diário de mais de R$ 3Mi. - Análise de arquivos de pagamento garantindo que os repasses estejam corretos.\n - Responsável pelo Faturamento de R$ 3Mi em notas fiscais de clientes de empresas do grupo StoneCo.\n Location : São Paulo, São Paulo, Brasil\n Job Title : Analista Financeiro Jr.\n Company name : Rede\n Period : 211 - 213\n Summary : Principais atividades: - Elaboração de relatório gerencial para tomada de decisão estratégica. Responsável direto pelo envio de suprimentos as bases logísticas partindo do Centros de Distribuição. Conhecimento em auditoria SOX. Decisão tomada pelos relatórios gerenciais apresentados.\n - Responsável pela gestão de operações e pessoas de empresas prestadoras de serviços (EPS), análise de relatórios sobre o andamento da operação, controle e administração em melhoria continua de processos, aplicação de treinamentos para correção de erros dos mesmos. Acompanhamento e solução de problemas que venham a ocorrer durante jornada de trabalho dos prestadores de serviço. Responsável pela ligação entre EPS e contratante objetivando sempre melhorias de processos.\n - Acompanhamento da satisfação do cliente em relação ao serviço prestado, contato direto com o mesmo para solucionar qualquer tipo de insatisfação quando necessário. Acompanhamento dos processos junto a EPS para que os mesmos ocorram.\n Contato direto com todos integrantes do setor comercial e das empresas prestadoras de serviço (EPS), mantendo sempre bom relacionamento interpessoal. Seguindo sempre os principais valores da empresa: Foco no cliente, satisfação do cliente e entrega de resultados. Acompanhamento e monitoramento dos serviços de oferecidos pelos terceiros através de relatórios gerenciais.\n Location : São Paulo e Região, Brasil\n Job Title : Assistente Administrativo\n Company name : Agrenco Group\n Period : 27 - 211\n Summary : Principais atividades: – Responsável por extrair dados logísticos e confeccionar relatórios gerenciais com indicadores, apresentando evolução de dados gerais da área referente aos transportes de soja e milho, (dados: CBOT, DOLLAR, FRETE, datas de pagamento, CIF/FOB, local de retirada e porto de destino). Auxilio as equipes de logística e ao gerente responsável pelas compras no mercado futuro de grãos, Bolsa de Valores de Chicago. Follow-up (ordenar, agendar e ter conhecimento) contratos de fretamento (Marítimo e terrestre) e fornecedores. - Acompanhamento dos pagamentos aos fornecedores/transportadoras organizando os mesmos para programação de liquidação financeira em sistema, assim sendo encaminhados ao setor financeiro para serem efetivados. Gestão de fornecedores e capacidade analítica e senso de prioridade. Boa comunicação para negociação. Ponto principal na ligação entre o setor comercial e financeiro, objetivando a solução de qualquer tipo de imprevisto na execução de questões contratuais.\n Location : São Paulo, São Paulo, Brasil\n Job Title : Estagiário\n Company name : Secretaria da Fazenda e Planejamento do Estado de São Paulo\n Period : 24 - 26\n Summary : Principais atividades: - Capitação de dados para atualização de base de dados (EXCEL) sobre as Pesquisas de Produção Física e Comércio do IBGE. Dados capitados no sistema SIDRA do IBGE, referidos as pesquisas mensais PIMPF e PMC. Todos elaborados em planilhas de Excel para alimentar base de dados. Pesquisa e elaboração de relatórios (em Power Point) para apresentação em reuniões mensais, realizadas para a Secretária da Fazenda do Estado de São Paulo referente aos setores de siderurgia, automotivo e eletroeletrônico. Acompanhamento/Análise setorial, leitura dos principais jornais econômicos (Valor econômico e Folha de São Paulo), Capitação dessas informações e arquivando as para serem usadas nos relatórios, boas noções de macroeconomia. Acompanhamento da conjuntura econômica (Análise econômica dos principais setores da economia Paulista, comparando-as ao âmbito federal) e consultoria para o projeto ICMS (referencial de arrecadação e crescimento dos setores da economia, paulista) encomendada pela Secretária da Fazenda do Estado de São Paulo.\n Location : São Paulo, São Paulo, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Instituição de Ensino FIPE\n Speciality : Economia e Gestão Empresarial\n Degree : Gestão Estratégica de Negócios\n Period : 213 - 214\n School name : Pontifícia Universidade Católica de São Paulo\n Degree : Ciências Econômicas\n Period : 23 - 21\n Courses: Title : .; Title : Linguagem SQL Databricks"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "c95457e4-5816-4658-ad36-299fb4daa622",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*c95457e4-5816-4658-ad36-299fb4daa622",
+    "talent": {
+      "updatedAt": "2023-12-20T13:56:07.567Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:56:07.567Z",
+      "linkedinUsername": "rodrigo-gamboa-6b288443",
+      "email": "rl.gamboa@hotmail.com",
+      "phone": "11983556212",
+      "name": "Rodrigo Gamboa",
+      "id": "c95457e4-5816-4658-ad36-299fb4daa622"
+    },
+    "timeInCurrentStage": 61412373825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.133Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "11/09/1989"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "9000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45047"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciência da Computação",
+          "id": "31170328-4766-43ac-b200-830fbc8bd302",
+          "label": "Ciência da Computação"
+        }
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Espanhol (Nível básico a intermediário), Inglês (Nível avançado), Português (Fluente ou nativo)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Tecnologia de Negócios Sênior"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Tecnologia de Negócios Sênior\n Company name : Supergasbras\n Period : mai de 222 - o momento\n Job Title : Trainee II Transformação Digital\n Company name : Supergasbras\n Period : nov de 22 - mai de 222\n Summary : - Apoio na estruturação da squad de melhorias sistêmicas (salesforce), acompanhando e garantindo as boas práticas da metodologia ágil (scrum) e utilização da ferramenta Jira.\n - Condução de alinhamentos com stakeholders dos projetos/produtos das melhorias sistêmicas da tecnologia salesforce.\n - Apoio nas atividades relacionadas a gestão do fornecedor de serviços de suporte AMS (Salesforce).\n - Elaboração de plano para PDCA do serviço de Suporte AMS (Salesforce).\n - Construção de indicadores de atendimento.\n - Elaboração estruturada de artefatos para a RFP de serviços salesforce, construindo a documentação, acompanhamento do processo de compras, elaboração de cronograma e benchmarking com proponentes.\n - Realização de orçamentos de projetos de TI (Salesforce).\n - Realização de testes funcionais de MVP em projeto de Pricing (Salescloud) da companhia, elaboração de histórias de usuário e especificações funcionais, condução de reuniões de refinamento de histórias e testes sistêmicos, gestão de atividades da equipe técnica, apoio na gestão do projeto (ambientação e suporte ao PMO).\n Job Title : Business Analyst\n Company name : Smarthis\n Period : mar de 22 - nov de 22\n Summary : - Mapeamento de processos sistêmicos\n - Automação de processos utilizando a ferramenta Kryon\n - Elaboração de Painéis indicadores utilizando PowerBI\n - Suporte e monitoramento de soluções RPA\n Job Title : Consultor\n Company name : Bridge Consulting Tecnologia da Informação\n Period : jul de 218 - fev de 22\n Summary : Projeto de transformação digital em empresa líder no ramo do varejo:\n - Responsável pelo Gerenciamento e priorização de funcionalidades sistêmicas utilizando metodologia ágil (Scrum) com a equipe de desenvolvedores e áreas de negócio\n - Mapeamento/análise de processos de negócio\n - Análise e teste de sistemas Web e ERP (SAP FI)\n - Elaboração de relatórios executivos e gerenciais\n - Elaboração de painéis de indicadores (PowerBI).\n Projeto de estruturação do PMO Interno do time de TI (Sistemas) em empresa líder no ramo da saúde:\n - Responsável pela elaboração de artefatos de gerenciamento de projetos\n - Gerenciamento de cronograma, custos e escopo;\n - Comunicações;\n - Integração dos projetos;\n - Gerenciamento de riscos;\n - Elaboração de painéis de indicadores\n Job Title : Analista de Sistemas\n Company name : Accenture\n Period : dez de 217 - jul de 218\n Summary : - Responsável pelo desenvolvimento, manutenção, coleta de requisitos e especificação funcional de sistemas de acordo com a demanda do cliente e projeto, assim como apoio na modelagem e administração de banco de dados (SQL Server).\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Sócio Desenvolvedor\n Company name : GoWebit\n Period : nov de 216 - jun de 218\n Summary : Desenvolvimento fullstack de soluções web e mobile híbrido, usando tecnologias como Laravel (PHP) e ASP.NET (C#).\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Desenvolvedor fullstack\n Company name : Avantti Informática\n Period : fev de 217 - dez de 217\n Summary : - Responsável pela migração e reescrita de módulos de sistema legado desenvolvido em plataforma Desktop (Delphi) com as seguintes tecnologias: C#, ASP.NET MVC, WebApi, Entity Framework, JQuery, Ajax, SQL Server 28/214, Firebird.\n - Implementação e manutenção do ambiente de versionamento (Git).\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Estágio em Auditoria de TI\n Company name : Tribunal de Contas do Estado do Rio de Janeiro\n Period : out de 214 - jul de 216\n Summary : - Acompanhamento nos projetos de auditoria de TI do TCERJ\n - Análise de banco de dados\n - Cruzamento de informações das bases de dados extraídas dos órgãos e entidades estaduais auditados\n - Auxílio na alimentação do banco de dados dos sistemas utilizando Access, SQL Server e MongoDB\n - Automação de processos operacionais utilizando linguagem Java, Python, Visual Basic e ferramenta Jmeter\n Job Title : Estágio em Análise de Sistemas\n Company name : AddTech\n Period : abr de 213 - mar de 214\n Summary : Desenvolvimento da documentação de sistemas legados utilizando a ferramenta Enterprise Architect, realizando as seguintes atividades:\n - Levantamento de requisitos funcionais, requisitos de interface e regras de negócio através de entrevistas com usuários, analistas e gestores dos sistemas\n - Análise/detalhamento das regras e requisitos através dos dados levantados nas entrevistas\n - Levantamento dos artefatos de Software (módulos, rotinas Batch, integração com outros sistemas, procedimentos, funções) extraindo diretamente do banco de dados (Oracle) ou por meio de interpretação de código PL/SQL\n - Detalhamento de casos de uso dos sistemas utilizando o modelo UML\n - Criação de diagramas de Atividades e Estados\n Quality Assurance em desenvolvimento de sistema E-Commerce, efetuando as seguintes atividades:\n - Validação dos requisitos e funcionalidades na base de dados por meio de testes funcionais\n - Validação dos processos descritos no plano de desenvolvimento\n Job Title : Estágio em Qualidade de Sistemas\n Company name : Empresa Municipal de Informática - IplanRio\n Period : ago de 212 - fev de 213\n Summary : - Análise da Documentação de sistemas (requisitos, casos de uso e Regras de negócio)\n - Criação de casos de teste\n - Execução de Testes Funcionais, exploratórios e de desempenho."
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Federal do Rio de Janeiro\n Speciality : Engenharia de Computação e Sistemas\n Degree : Master of Business Administration - MBA\n Period : 217 - 219\n School name : Universidade Veiga de Almeida\n Speciality : T.I\n Degree : Bacharel em Ciência da Computação\n Period : 211 - 216\n Courses: Title : Agile Delivery School; Title : Como medir a experiência do Cliente; Title : DevOps: Reforça a cultura colaborativa e visão ponta a ponta"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "275ecccc-f4db-4b3b-91c0-ed69433212e3",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*275ecccc-f4db-4b3b-91c0-ed69433212e3",
+    "talent": {
+      "updatedAt": "2023-12-20T14:02:21.045Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:02:21.045Z",
+      "linkedinUsername": "luciano-passos-41110b6a",
+      "email": "luciano-passos1@hotmail.com",
+      "phone": "21981922803",
+      "name": "Luciano Passos",
+      "id": "275ecccc-f4db-4b3b-91c0-ed69433212e3"
+    },
+    "timeInCurrentStage": 61412073825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.179Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Gestão e Planejamento | Offshore Staffing"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Gestão e Planejamento | Offshore Staffing\n Company name : Subsea 7\n Period : fev de 222 - o momento – fev de 222 - o momento\n Location : Rio de Janeiro, Rio de Janeiro, Brasil\n \n Job Title : HSEQ | Daily Rate\n Company name : Subsea 7\n Period : nov de 22 - fev de 222 – nov de 22 - fev de 222\n Summary : • Utilização da ferramenta Kaizen a fim de eliminar os desperdícios no processo de registro dos cartões observação e intervenção, com resultado de 52% de redução das informações inseridas manualmente;\n • Elaboração de relatórios com dashboards para apresentação dos indicadores de desempenho;\n • Participação em reuniões com fornecedores a fim de melhorar as entregas;\n • Atuação no projeto de melhoria contínua utilizando a metodologia DMAIC, para aplicação do Lean Seis Sigma com finalidade de aumentar a qualidade na entrega de cartões de desvios;\n • Levantamento de gaps relacionados as análises de riscos através da matriz GUT e 5W2H;\n • Conferência de documentação referentes às normas regulamentadoras;\n • Atualização e reporte dos indicadores contratuais mensais ao cliente;\n • Elaboração de apresentações e respostas as solicitações do cliente;\n • Suporte nas solicitações do cliente através do Sispen, Action Register e Synergi;\n • Participação em auditorias internas e externas (BAD, GSOP, PEOTRAM, ISO);\n • Gestão de informações em base de dados para projetos de sustentabilidade (Resíduos recicláveis);\n • Emissão de requisição de compras (PR) através do SAP.\n Location : Rio de Janeiro, Brasil\n \n Job Title : Gerenciamento de Projetos | EPCI\n Company name : Subsea 7\n Period : fev de 22 - nov de 22 – fev de 22 - nov de 22\n Summary : • Participação no processo de gerenciamento de riscos, realizando o acompanhamento na elaboração e revisão;\n • Elaboração de relatórios para reporte à gerência e ao cliente, em interface com as demais áreas envolvidas;\n • Elaboração de documento inicial sobre estudo de \"Dropped Objects\" referente ao projeto Bacalhau;\n • Gestão de requisitos legais através do software LegNet;\n • Elaboração e reporte de lições aprendidas;\n • Levantamento de estruturas submarinas.\n Location : Rio de Janeiro, Brasil\n \n Job Title : Operação e Manutenção | Renováveis\n Company name : Neoenergia\n Period : fev de 218 - fev de 22 – fev de 218 - fev de 22\n Summary : • Gestão de manutenções corretivas, preventivas e preditivas dos parques eólicos;\n • Suporte nas investigações de acidentes e incidentes;\n • Gestão de requisitos legais e toda documentação legal através de software;\n • Controle das inspeções em equipamentos de proteção;\n • Participação em reuniões e gestão de documentação de terceiros;\n • Suporte na gestão de condicionantes ambientais para manutenção de licenciamento;\n • Elaboração de relatórios e cartas de comunicação junto ao jurídico para os órgãos ambientais;\n • Atuação direta na gestão de resíduos através da criação e controle de manifesto de resíduos, além de ministrar o treinamento do documento para equipe de campo;\n • Apoio na implantação de diretrizes estabelecidas pela matriz internacional;\n • Elaboração e atualização dos indicadores de desempenho (KPI's);\n • Participação em auditorias internas e externas das ISO 141:215 e OHSAS 181;\n • Elaboração de apresentações e relatórios para matriz global;\n • Elaboração de especificações técnicas, solicitação de compras e termos de quitação;\n • Gestão de contratos e acompanhamento dos cronogramas e fluxos de pagamentos;\n • Acompanhamento do orçamento (OPEX);\n • Emissão de requisições de compras, pedidos, reembolsos, contratos, lançamento de notas fiscais e boletos, utilizando SAP.\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Assistente de Engenharia\n Company name : Even Construtora\n Period : jun de 214 - jun de 216 – jun de 214 - jun de 216\n Summary : • Acompanhamento de atividades, testes e inspeções no canteiro de obras;\n • Gestão de processos, documentação, orçamentária e medições de serviços;\n • Elaboração de relatórios, apresentações, cronogramas e indicadores de performance;\n • Acompanhamento de auditorias internas e externas (ISO 91:215);\n • Elaboração de minutas contratuais, aditivos, aditamentos e termos de quitação;\n • Emissão de pedidos, cadastro de fornecedores e requisições de compras pelo SAP;\n • Entrega de unidades residenciais e comerciais a clientes e a assistência técnica da empresa;\n • Participação na elaboração de soluções técnicas de controle de recalque utilizando CPR;\n • Levantamento, conferência e análises qualitativas e quantitativas de materiais e equipamentos.\n Location : Rio de Janeiro, Rio de Janeiro"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Metodologia para Gerenciamento de Riscos (Bow Tie)\n Period : Emitido em fev de 2022-Sem data de expiração\n Issuing Authority : CGE Risk\n \n Title : Power BI\n Period : Emitido em nov de 2021-Sem data de expiração\n Issuing Authority : Motim Educação\n \n Title : Integrando a Agenda 2030 para os Objetivos de Desenvolvimento Sustentável\n Period : Emitido em nov de 2020-Sem data de expiração\n Issuing Authority : PNUD Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Alumni COPPEAD Business School\n Speciality : Gerenciamento de Projetos\n Period : mar de 221 - dez de 221\n \n School name : Universidade Veiga de Almeida\n Speciality : Engenharia Civil\n Degree : Bachelor of Engineering (B.E.)\n Period : 21 - 215\n \n School name : Universidade Veiga de Almeida\n Speciality : Engenharia de Produção\n Degree : Bachelor of Engineering - BE"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "916bbda1-4f14-416c-bf90-77f2481926f8",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*916bbda1-4f14-416c-bf90-77f2481926f8",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:57.147Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:57.147Z",
+      "linkedinUsername": "lívia-oliveira-516456a6",
+      "email": "liviaa.moliveira@gmail.com",
+      "phone": "",
+      "name": "Lívia Oliveira",
+      "id": "916bbda1-4f14-416c-bf90-77f2481926f8"
+    },
+    "timeInCurrentStage": 61412973825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.637Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "21/04/1998"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "5600"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "plano de saude, refeicao no local, vale tranporte"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "CEFET/RJ"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês (Nível avançado)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Projetos Pl"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "nenhum"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Projetos Pl\n Company name : americanas s.a\n Period : out de 221 - o momento\n Summary : Realização de Projetos de melhoria nas Operações Intralogísticas, transformando diversas etapas da cadeia de suprimentos em uma cadeia mais produtiva e com maior valor agregado.\n Location : Nova Iguaçu, Rio de Janeiro, Brasil\n Job Title : Analista de Projetos Jr\n Company name : americanas s.a\n Period : dez de 22 - set de 221\n Summary : Realização de Projetos de melhoria nas Operações Intralogísticas, transformando diversas etapas da cadeia de suprimentos em uma cadeia mais produtiva e com maior valor agregado.\n Location : Nova Iguaçu, Rio de Janeiro, Brasil\n Job Title : Estagiário de Planejamento e Controle de Produção\n Company name : Michelin\n Period : dez de 219 - fev de 22\n Summary : Gestão da base de dados de MRP e impressão e aprovisionamento de etiquetas de identificação de produção conforme necessidade.\n Location : Rio de Janeiro\n Job Title : Estagiário de Engenharia de Processos\n Company name : Michelin\n Period : mar de 218 - nov de 219\n Summary : Estagiário do setor de Engenharia Industrial, realizando estudos econômicos, além de auxiliar nos cálculos de capacidade e efetivo necessário e participar de projetos de produtividade, ergonomia e digitalização.\n Location : Rio de Janeiro"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Cefet/RJ - Centro Federal de Educação Tecnológica Celso Suckow da Fonseca\n Speciality : Engenharia de Produção\n Degree : Graduação\n Period : 215 - 219\n Courses: Title : BasicMOST; Title : Greenbelt Lean - Bearing Point"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "0679676f-7cb3-406d-854b-dd0163055e58",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*0679676f-7cb3-406d-854b-dd0163055e58",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:56.193Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:56.193Z",
+      "linkedinUsername": "luiz-eduardo-tavares",
+      "email": "engprod.luizept@gmail.com",
+      "phone": "21976522601",
+      "name": "Luiz Eduardo Tavares",
+      "id": "0679676f-7cb3-406d-854b-dd0163055e58"
+    },
+    "timeInCurrentStage": 61412373825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.148Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "07/07/1993"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "5000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "padrao, va vr, vale mobilidade, vale cultura, gympass"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Espanhol (Nível básico), Inglês (Nível avançado)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Projetos e Processos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Projetos e Processos\n Company name : Shopee\n Period : nov de 221 - o momento\n Location : São Paulo, Brasil\n Job Title : Strategic Projects Analyst - PMO\n Company name : HDI Seguros\n Period : jun de 221 - set de 221\n Location : São Paulo, Brasil\n Job Title : IT Project Analyst - PMO\n Company name : DATORA\n Period : dez de 22 - jun de 221\n Location : São Paulo, Brasil\n Job Title : Analista de Projetos - PMO\n Company name : Equinix\n Period : jan de 22 - dez de 22\n Summary : • Criação e estruturação do Escritório de Projetos\n • Elaboração de relatórios gerenciais do Portfólio de Projetos.\n • Condução de reuniões (conference calls e presenciais) de Status Report com foco no andamento e gestão de riscos.\n • Criar indicadores/dashboards\n • Facilitar a comunicação e interação entre projetos e áreas para garantir o andamento dos projetos.\n • Alinhar expectativas e realizar ajustes necessários com os times para aumentar a taxa de sucesso das\n entregas.\n • Auxiliar na elaboração dos planos de ação quando necessário.\n • Mapear pontos críticos e impeditivos dos projetos.\n • Garantir e promover reuniões de acompanhamento de resultado dos projetos com a diretoria.\n Location : São Paulo e Região, Brasil\n Job Title : Estagiária de engenharia\n Company name : GSK\n Period : ago de 216 - dez de 217\n Summary : •Gestão dos KPIs de manutenção, MTBF, MTTR, MTTA e Índice de quebras e apresentação dos mesmos através de reports periódicos.\n •Participação na implementação da ferramenta de gestão TPM na linha de produção e suporte na avaliação de projetos e reuniões L1 (quadro de ações e performance).\n •Elaboração, monitoramento e apresentação de resultados e performance.\n •Gestão e controle das manutenções preventivas/corretivas e suporte aos técnicos executantes das solicitações.\n •Treinamento e implementação de ferramentas de técnicas de melhoria contínua (Kaizen, GEMBA, 5S, PDCA, Solução de Problemas, FMEA e RCA).\n •Elaboração de Trabalho Padrão da área.\n •Suporte em Capa´s e análises de desvios de qualidade.\n Location : Guarulhos, São Paulo, Brasil\n Job Title : PMO\n Company name : Sanofi\n Period : jan de 216 - ago de 216\n Summary : •Acompanhamento e gerenciamento dos projetos industriais críticos e comuns da área de cosméticos e nutracêuticos e suporte nos projetos relacionados à cadeia produtiva.\n •Elaboração, gestão e controle de planilhas e relatórios de acompanhamento de projetos, cronogramas e atividades, garantindo o andamento das mesmas e reportando o status de cada etapa.\n •Participação de reuniões internas, dando suporte ao Gerente do Projeto na condução das reuniões.\n •Analise e elaboração das propostas de novos projetos contemplando custo, impacto, retorno e tempo estimado de execução.\n •Suporte em análises para localizar problemas e pontos de melhorias na cadeia produtiva (plano de produção, reclamações de mercado, investigação de desvios e etc.).\n Location : Suzano, São Paulo, Brasil\n Job Title : Estagiária de engenharia\n Company name : FCA Fiat Chrysler Automobiles\n Period : jan de 215 - jan de 216\n Summary : •Contato com os fornecedores e gestão cronograma de fabricação dos novos moldes e peças dos novos projetos.\n •Acompanhamento das ações de qualidade em andamento nos fornecedores.\n •Gerenciamento logístico das novas peças e moldes. Realizava a negociação de valores e prazos para as futuras coletas e controle das demais em andamento.\n •Auditoria dos CTEs, conferindo impostos, valores por trecho e prazos dos fretes de moldes e peças para liberação ou bloqueio dos mesmos.\n •Suporte aos Engenheiros de qualidade de fornecedores e aos engenheiros de desenvolvimento de Produto em relação aos status de seus respectivos projetos.\n Location : São Paulo, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade de São Paulo\n Speciality : Gestão de Projetos\n Degree : Master of Business Administration - MBA\n Period : 22 - 221\n School name : Universidade Cruzeiro do Sul\n Speciality : Engenharia de Produção\n Degree : Bacharelado em Engenharia\n Period : 213 - 217\n Courses: Title : ISO2; Title : ITIL foundation; Title : Scrum Foundation"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "8c75d2b0-e99a-4069-9258-40ee0c98a6b0",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*8c75d2b0-e99a-4069-9258-40ee0c98a6b0",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:27.194Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:27.194Z",
+      "linkedinUsername": "samaramorim",
+      "email": "samaraj.amorim@gmail.com",
+      "phone": "11977595023",
+      "name": "Samara A",
+      "id": "8c75d2b0-e99a-4069-9258-40ee0c98a6b0"
+    },
+    "timeInCurrentStage": 61412073825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.238Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "14/12/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "4700"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "vr, va e plano unimed"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Recursos Humanos",
+          "id": "6be18bc7-44b4-4987-b869-1dfcf4ffc61b",
+          "label": "Recursos Humanos"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "unopar"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês (Nível intermediário), Português"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Negócios, Processos e Projetos Pleno"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Negócios, Processos e Projetos Pleno\n Company name : Unimed Leste Fluminense\n Period : mar de 222 - o momento\n Summary : - Gestão de projetos de implantação e melhoria de sistemas, realizando planejamento, cronograma, acompanhamento de prazos e entregas junto aos fornecedores;\n - Levantamento e detalhamento de requisitos de software com realização de testes e seus procedimentos, assim como o acompanhamento de seus resultados;\n - Mapeamento de processos e documentação dos produtos utilizados na empresa;\n Job Title : Analista de Negócios e Projetos Jr.\n Company name : Unimed Leste Fluminense\n Period : set de 221 - fev de 222\n Summary : - Levantamento e documentação de requisitos para o time de Desenvolvedores;\n - Acompanhamento e análise do Negócio;\n - Acompanhamento de implantação de software;\n - Mapeamento de processos;\n - Modelagem BPM;\n - Planejamento de cronogramas de entrega de demandas;\n - Report do progresso das atividades, de acordo com a metodologia definida pela Governança de TI;\n Location : Niterói, Rio de Janeiro, Brasil\n Job Title : Assistente de processos\n Company name : Grupo MAG\n Period : nov de 22 - ago de 221\n Summary : - Análise e controle de dados\n - Elaboração e acompanhamento de Indicadores\n - Desenho de fluxos e mapeamento de processos\n - Implementação de projetos e acompanhamento\n - Elaboração de relatórios e report\n Job Title : Assistente administrativo\n Company name : Grupo MAG\n Period : 217 - nov de 22\n Summary : - Agente de Engajamento (Ações de RH e endomarketing);\n - Multiplicação de Conteúdo;\n - Suporte à equipe de vendas;\n - Elaboração de relatórios gerenciais;\n Location : Niterói\n Job Title : Agente Administrativo I\n Company name : Prefeitura Municipal de Magé\n Period : mai de 213 - jan de 214\n Summary : - Auxílio na elaboração de editais para licitação;\n - Relatórios para o Ministério Público do Rio de Janeiro\n - Elaboração de processos de compras via inexigibilidade, cotação de produtos;\n - Organização e mapeamento de processos\n - Rotinas Administrativas\n Job Title : Assistente\n Company name : Rioprevidência\n Period : out de 211 - ago de 213\n Summary : - Relatórios gerenciais;\n - Classificação fiscal;\n - Abertura de processos para contas a pagar\n - Férias\n - Ponto eletrônico\n - Analítico\n Job Title : Estagiário de administração\n Company name : Rioprevidência\n Period : mar de 21 - jul de 211"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Federal Fluminense\n Speciality : Economia e Gestão Empresarial\n Degree : Pós-graduação Lato Sensu - MBA Executivo\n Period : 219 - 22\n Summary : Nota: Gestão Empresarial Estratégica\n School name : Pontifícia Universidade Católica do Rio de Janeiro\n Speciality : Empreendedorismo em Pequenas Empresas\n Degree : Certificado\n Period : 22 - 22\n Summary : Nota: Insurtech Innovation Program\n School name : UNOPAR - Universidade Norte do Paraná\n Degree : Gestão de Recursos Humanos\n Period : 216 - 218\n School name : Externato Alfredo Backer\n Speciality : Infomática - Processamento de Dados\n Degree : Técnico em Informática\n Period : 23 - 24\n School name : Universidade Candido Mendes\n Speciality : Gestão de Projetos\n Degree : Pós-graduação Lato Sensu\n Period : 221 - 221"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "530405ce-77eb-40a2-a7fd-5713d75999ac",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*530405ce-77eb-40a2-a7fd-5713d75999ac",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:57.325Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:57.325Z",
+      "linkedinUsername": "vanessa-mota-191a59130",
+      "email": "vanessamota00@gmail.com",
+      "phone": "21986707966",
+      "name": "Vanessa Mota",
+      "id": "530405ce-77eb-40a2-a7fd-5713d75999ac"
+    },
+    "timeInCurrentStage": 61412073825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.209Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "21/05/1996"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "6000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "nenhum, so creche p filhos"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade do Grande Rio Professor José de Souza Herdy"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Processos e Qualidade"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Processos e Qualidade\n Company name : CEL Intercultural School\n Period : abr de 222 - o momento\n Job Title : Analista de logística pleno\n Company name : BRF\n Period : fev de 219 - mar de 222\n Job Title : Estagiário de Distribuição\n Company name : BRF\n Period : mai de 218 - jan de 219\n Summary : Foram realizadas as seguintes atividades:\n Elaboração de relatórios para Gerência\n Apresentação de Resultados para Diretoria com Power Point\n Análise e acompanhamento de indicadores e atuação diante dos seus resultados diários/mensais\n Elaboração e aplicação de PDCA\n Liderança dos Jovens Aprendizes\n Apoio às Transportadoras para alinhamento de informações e indicadores\n Apoio ao Controle de Estoque para falta e sobra de mercadoria\n Location : Duque de Caxias\n Job Title : Assistente de relacionamento\n Company name : Universidade Unigranrio\n Period : set de 217 - abr de 218\n Summary : Análise de Indicadores para produção de relatórios gerenciais\n Mapeamento de processos focado na melhoria contínua dos mesmos\n Aplicação de treinamento de ferramentas\n Extração de Bases para trativas\n Job Title : Estagiário de engenharia de processos\n Company name : Universidade Unigranrio\n Period : set de 215 - set de 217\n Job Title : Estagiária do Setor de Gestão de Encomendas\n Company name : Correios\n Period : jun de 215 - set de 215"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Escola Politécnica da UFRJ\n Speciality : Engenharia e Gestão de Processos de Negócios - EGPN36\n Degree : Pós Graduacão - MBA\n Period : 219 - 221\n School name : Universidade do Grande Rio Professor José de Souza Herdy\n Speciality : Engenharia de Produção\n Degree : Bacharelado em Engenharia\n Period : 214 - 218\n School name : Colégio Alfa\n Speciality : Normal\n Degree : Ensino Médio\n Period : 21 - 212\n Courses: Title : Excel Avançado; Title : MS Project"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "38df6ba7-f9b2-47d6-9d37-be901961bb3e",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*38df6ba7-f9b2-47d6-9d37-be901961bb3e",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:40.756Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:40.756Z",
+      "linkedinUsername": "isabellajoinhas",
+      "email": "isabella@ajoinhas.com.br",
+      "phone": "21968843839",
+      "name": "Isabella Joinhas",
+      "id": "38df6ba7-f9b2-47d6-9d37-be901961bb3e"
+    },
+    "timeInCurrentStage": 61412073825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.407Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Tesouraria / Contas a Pagar e Receber"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "9f39a40b-3fb5-4a7a-a1b2-4d7fba56677e",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*9f39a40b-3fb5-4a7a-a1b2-4d7fba56677e",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:31.194Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:31.194Z",
+      "email": "patricia.oliveira@mobly.com.br",
+      "phone": "21985751206",
+      "name": "Patricia Oliveira",
+      "id": "9f39a40b-3fb5-4a7a-a1b2-4d7fba56677e"
+    },
+    "timeInCurrentStage": 61412073825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.471Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "06/12/1989"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "8500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Especialista de Projetos, Processos & Compliance"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Especialista de Projetos, Processos & Compliance\n Company name : Seguradora Líder-DPVAT\n Period : nov de 217 - mar de 222 – nov de 217 - mar de 222\n Summary : Responsável pela metodologia interna de mapeamento, modelagem, desenho e revisão de processos relacionados a Diretoria Jurídica. Gestão dos indicadores de performance dos escritórios externos e 12 colaboradores, entre analistas e assistentes responsáveis pela linha de produção de cadastro até o pagamento dos sinistros; Controle de riscos por meio de monitoramento, elaboração de ações para redução da base de processos e retroalimentação da estratégia jurídica. Atuação direta nas auditorias externas e internas, definição e desdobramento dos planos de ação, com follow up mensal para diretoria. Envolvimento em questões estratégicas, contribuindo para o desenvolvimento de novos projetos, atuando como facilitadora em grupos de trabalho multidisciplinares com participação de executivos da empresa.\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Gerente de Processos e Qualidade\n Company name : Avanço Realizações\n Period : jan de 215 - set de 217 – jan de 215 - set de 217\n Summary : Protagonista na criação do setor de Qualidade, atuando no desenvolvimento e implantação, visando a melhoria continua dos processos e a certificação do PBQP-H. Gerenciamento do sistema de avaliação mensal de todas as obras e apresentação desses resultados em reunião mensal com a diretores e sócios investidores.\n Planejamento de treinamentos de Qualidade e Segurança em parceria com uma equipe indireta de 16 profissionais, entre engenheiros de obra e analistas para execução desses treinamentos para equipes de obra e terceirizados. Apoio a Diretoria de SAC/SAT, coordenando processo de assistência técnica, visando retroalimentar os processos executivos de obra por meio de pesquisas de satisfação com clientes de empreendimentos entregues e dados extraídos da base de OS.\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Coordenador de Gestão da Qualidade\n Company name : Leduca - Incorporadora e Construtora\n Period : mar de 213 - jan de 215 – mar de 213 - jan de 215\n Summary : Desenvolvimento do mapa geral de processos da organização e implementação de processos internos para melhoria operacional. Gerenciamento de equipe de 8 profissionais incríveis com foco na implementação no Sistema de Gestão de Qualidade para atendimento e regulamentação da certificação PBQP-H Nível-A. Manutenção da certificação e gerenciando do programa de treinamentos internos com frequentes apresentações e reporte a alta direção. Nomeada como RD (representante da Direção), participando junto da Diretoria na elaboração de estratégias diversas relacionadas ao sistema de Gestão de Qualidade na sede e obras;\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Analista de Expedição e Recebimento de Materiais\n Company name : Companhia Siderúrgica Nacional\n Period : jan de 211 - jan de 213 – jan de 211 - jan de 213\n Location : Volta Redonda e Região, Brasil\n \n Job Title : Estagiária de engenharia\n Company name : Companhia Siderúrgica Nacional\n Period : dez de 29 - jan de 211 – dez de 29 - jan de 211\n Location : Volta Redonda, Rio de Janeiro, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Engenharia\n Degree : Gerenciamento de Projetos\n Period : 214 - 215\n \n School name : UBM - Centro Universitário de Barra Mansa\n Degree : Engenharia de Produção\n Period : 21 - 212\n \n School name : Universidade Federal Fluminense\n Speciality : Engenharia de Produção\n Degree : Bacharelado\n Period : 28 - 21"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "ee9af1ef-ad71-4a2f-be8a-535170f56fb8",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*ee9af1ef-ad71-4a2f-be8a-535170f56fb8",
+    "talent": {
+      "updatedAt": "2023-12-20T14:04:59.126Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:04:59.126Z",
+      "linkedinUsername": "luanapater",
+      "email": "luanaramoslongo@gmail.com",
+      "phone": "21979168090",
+      "name": "Luana Longo Maes Pater",
+      "id": "ee9af1ef-ad71-4a2f-be8a-535170f56fb8"
+    },
+    "timeInCurrentStage": 61412073825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.375Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "18/09/1989"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "7700"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gestora de projetos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gestora de projetos\n Company name : Riocard Mais\n Period : mar de 219 - o momento – mar de 219 - o momento\n \n Job Title : Analista de processos\n Company name : Riocard Mais\n Period : mai de 217 - fev de 219 – mai de 217 - fev de 219\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Analista de Processos / ERP\n Company name : TENTi Tecnologia e Engenharia\n Period : dez de 214 - mai de 217 – dez de 214 - mai de 217\n Summary : Acompanhar a execução de projetos, implementar procedimentos de processos e padrões operacionais, elaborar fluxos dos processos , criar apresentações para os clientes demonstrando os acordos de nível de serviços contratados e objetivos de nível de serviço\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Estagiária SAP MM\n Company name : SIX Tecnologia\n Period : fev de 214 - nov de 214 – fev de 214 - nov de 214\n Summary : Projeto de Sustentação/Melhorias versão 6. - Atuo como estagiária da equipe de MM (suporte, melhorias e novos projetos), para uma holding de 9 empresas com as seguintes atividades: Estratégia de Liberação em: Requisição de Compras, Contratos, Pedidos de Compras e FRS com workflow.\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Estagiária\n Company name : SIX Automação - Grupo EBX\n Period : mar de 213 - fev de 214 – mar de 213 - fev de 214\n Summary : Principais atividades: Auxílio nas rotinas de mapeamento de processos de negócio; Levantamento de dados; Fluxogramação e Matriz RACI.\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Consultora\n Company name : Empresa Junior Meta Consultoria\n Period : ago de 211 - fev de 212 – ago de 211 - fev de 212\n Summary : Realização de Processos seletivos, planejamento e elaboração de capacitações para estagiários e trainees, assim como, treinamento dos mesmo."
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Inteligência Emocional 2.0\n Period : Emitido em mar de 2022-Sem data de expiração\n Issuing Authority : Escola Conquer"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Escola Politécnica da UFRJ\n Speciality : Engenharia e Gestão de Processos de Negócios\n Degree : MBA\n Period : 217 - 219\n \n School name : Universidade Federal Fluminense\n Degree : Engenharia de Produção\n Period : 21 - 214"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d7ae74cc-654b-4c66-bd00-6db937856c45",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*d7ae74cc-654b-4c66-bd00-6db937856c45",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:49.665Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:49.665Z",
+      "linkedinUsername": "thammycm",
+      "email": "martinsthammy@yahoo.com.br",
+      "phone": "21988271989",
+      "name": "Thammy Chaves Martins",
+      "id": "d7ae74cc-654b-4c66-bd00-6db937856c45"
+    },
+    "timeInCurrentStage": 61412073825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.078Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "23/09/1993"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "4200"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "plano de saude, odontologico, gympass, va, vr"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Estácio"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Espanhol (Nível básico), Inglês (Nível intermediário), Português (Fluente ou nativo)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista Pleno de Processos e Projetos de Faturamento & Cadastro do Cliente"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista Pleno de Processos e Projetos de Faturamento & Cadastro do Cliente\n Company name : TIM Brasil\n Period : mai de 222 - o momento\n Summary : Principais Atividades:\n ● Acompanhamento e análise de projetos da área de Gestão de Cadastro/CRM e Faturamento\n ● Gestão das atividades operacionais realizadas pelo fornecedor\n ● Elaboração de ações, identificando, mapeando e monitorando o fluxo dos processos\n ● Otimização e padronização dos métodos e práticas do atendimento .\n ● Elaborar report gerencial sobre os projetos e processos\n ● Atualização de Reportes Mensais de Resultado da Diretoria.\n ● Acompanhamento de Contas a Pagar da Diretoria .\n ● Validação, negociação e liberação de processo de Faturamento junto à prestadores de serviço .\n ● Acompanhamento de Negociação de Contratos juntos à área Jurídica e de Suprimentos.\n ● Acompanhamento de auditoria interna e externa\n ● Elaboração de relatório de sustentabilidade\n Principais Resultados:\n ● Melhoria no processo de fluxo de pagamento de fornecedores\n ● Redução de custo de impressão e postagem\n ● Melhor experiência para o cliente\n Location : Rio de Janeiro, Brasil\n Job Title : Analista Júnior de Processos em Gestão do Cadastro do Cliente\n Company name : TIM Brasil\n Period : set de 22 - mai de 222\n Summary : Principais atividades:\n ● Análise de indicadores (KPI's) das reclamações do cliente em orgãos regulamentadores;\n ● Verificação de causa raiz das reclamações do cliente;\n ● Elaboração de ações, identificando, mapeando e monitorando o fluxo dos processos\n ● Otimização e padronização dos métodos e práticas do atendimento.\n ● Análise de indicadores (KPI's) das principais inconsistências cadastrais para aplicação de correção em interface TI;\n ● Gestão e tratamento de chamados registrados pelos clientes no atendimento através do Siebel e Clarify;\n ● Análise de indicadores (KPI's) do enriquecimento cadastral recebido pelos fornecedores;\n ● Interface com diversas áreas, bem como, faturamento, cobrança, QA, Processos, TI.\n ● Uso da ferramenta SAS/SQL para extração de dados\n Principais Resultados:\n ● Melhoria contínua de processos envolvendo o cadastro do cliente\n ● Redução de reclamações no atendimento e nos órgãos regulamentadores\n ● Otimização dos processos, fornecendo melhor experiência pro cliente\n ● Melhoria de métodos e procedimentos do atendimento\n Location : Rio de Janeiro, Brasil\n Job Title : Estagiário de Gestão do Cadastro do Cliente\n Company name : TIM Brasil\n Period : ago de 219 - set de 22\n Summary : Principais atividades:\n ● Análise de indicadores das reclamações do cliente em ANATEL;\n ● Verificação de causa raiz das reclamações do cliente;\n ● Análise de indicadores das principais inconsistências cadastrais para aplicação de correção em interface TI;\n ● Gestão e tratamento de chamados registrados pelos clientes no atendimento através do Siebel e Clarify;\n Principais resultados:\n ● Melhoria contínua de processos envolvendo o cadastro do cliente\n ● Redução de reclamações no atendimento e nos orgãos regulamentadores\n ● Otimização dos processos, fornecendo melhor experiência pro cliente\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Gerente\n Company name : Restaurante Paladar Mineiro\n Period : fev de 217 - ago de 219\n Summary : Principais atividades:\n ● Coordenar diariamente as operações do restaurante no salão\n ● Oferecer serviço superior e maximizar a satisfação do cliente\n ● Responder com eficiência e precisão às reclamações dos clientes\n ● Analisar regularmente a qualidade dos produtos e pesquisar novos fornecedores\n ● Avaliar o desempenho da equipe e dar feedback para melhorar a produtividade\n ● Garantir o cumprimento das normas de saúde e segurança\n ● Gerenciar a boa imagem do restaurante e sugerir formas de melhorá-la\n ● Gerenciamento das redes sociais do estabelecimento, atingindo um público maior\n ● Implementar politicas e protocolos que irão manter as operações futuras do restaurante\n Principais Resultados:\n ● Melhoria no atendimento ao cliente no salão\n ● Redução de custos das mercadorias estocadas\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Assistente administrativo\n Company name : Consorcio Porto Rio\n Period : jun de 213 - ago de 216\n Summary : Principais Atividades:\n ● Auxiliar os gestores nas suas atividades;\n ● Fornecer suporte às necessidades operacionais;;\n ● Gerenciar os documentos recebidos e enviados pela empresa;\n ● Apresentar relatórios semanais e mensais à diretoria\n ● Controlar as receitas e a aquisição de materiais.\n Principais Resultados:\n ● Participação da construção do Museu do Amanhã\n ● Participação na revitalização da Zona Portuária do Rio de Janeiro\n ● Participação na construção de novas vias expressas no Rio de Janeiro\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Estagiário\n Company name : LFL TEJAL ENGENHARIA LTDA\n Period : jun de 211 - mar de 212\n Summary : Principais Atividades:\n ● Planejar e orçar a compra de materiais usados nas instalações elétricas das obras realizadas, confeccionando relatórios diariamente para apresentação ao gerente.\n Principais resultados\n ● Redução de custos nas compras dos materiais\n Location : Rio de Janeiro e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Kanban para Gestão de Tarefas\n Period : Emitido em jul de 2022-Sem data de expiração\n Issuing Authority : TIM Brasil\n Title : Master em Power BI - Microsoft Power BI\n Period : Emitido em abr de 2022-Sem data de expiração\n Issuing Authority : Motim Educação\n Title : Master em Excel - Microsoft Excel\n Period : Emitido em mar de 2022-Sem data de expiração\n Issuing Authority : Motim Educação"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Estácio\n Speciality : Engenharia de Produção\n Degree : Bacharelado em Engenharia\n Period : jan de 215 - jul de 221\n School name : Colégio Primeiro de Maio\n Speciality : Edificações\n Degree : Técnico\n Period : 28 - 21\n Courses: Title : Curso de Inglês - CCAA - Intermediário"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "21ec65c9-8d84-4a4b-88ec-6608f831edd9",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*21ec65c9-8d84-4a4b-88ec-6608f831edd9",
+    "talent": {
+      "updatedAt": "2023-12-20T14:02:06.851Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:02:06.851Z",
+      "linkedinUsername": "leandro-muniz-fonseca",
+      "email": "leandromuniz@live.com",
+      "phone": "21981136074",
+      "name": "Leandro Muniz da Fonseca",
+      "id": "21ec65c9-8d84-4a4b-88ec-6608f831edd9"
+    },
+    "timeInCurrentStage": 61412073825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.531Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "26/08/1988"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "5800"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "universidade federal do estado do rio de janeiro"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Projetos Especiais Pleno"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Projetos Especiais Pleno\n Company name : Firjan\n Period : out de 221 - o momento\n Summary : Responsável pelo mapeamento dos processos, gestão de informações, criação de dashboards gerenciais, análise de indicadores, resultados e desempenho, e implementação de práticas de métodos ágeis.\n Agente facilitador de processos entre as equipes de conteúdo, comunicação e operação no desenvolvimento de projetos como Festival Futuros Possíveis, Verão na Casa, Portfólio de cursos da Educação Profissional da Casa Firjan.\n Location : Rio de Janeiro, Rio de Janeiro, Brasil\n Job Title : Analista de Projetos Especiais Júnior\n Company name : Firjan\n Period : ago de 219 - out de 221\n Summary : Responsável pelo mapeamento e controle dos processos, gestão de projetos, gestão da informação, análise de indicadores e análise de resultados e desempenho.\n Location : RIO DE JANEIRO\n Job Title : Assistente de projetos especiais\n Company name : Firjan\n Period : abr de 218 - ago de 219\n Summary : Trabalhar em conjunto com as áreas de comunicação, conteúdo e operação na criação, organização e estruturação de projetos e gestão de dados e informações da Casa Firjan.\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Estagiário de engenharia da produção\n Company name : Firjan\n Period : nov de 216 - mar de 218\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Estagiário de engenharia da produção\n Company name : Sistema FIRJAN\n Period : out de 214 - ago de 215\n Summary : Organização e consolidação das informações gerados pelos projetos da gerência\n Elaboração de um banco de dados em Microsoft Access para organização dos dados de projetos da gerência\n Auxílio na realização de eventos\n Location : Rio de Janeiro"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Federal do Estado do Rio de Janeiro\n Speciality : Engenharia de Produção\n Degree : Graduação\n Period : 211 - 218\n School name : Queen Mary University of London\n Speciality : Engenharia Mecânica\n Degree : Graduação\n Period : 215 - 216\n Summary : Intercâmbio (Graduação Sanduíche)"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "cd0a7b98-d475-4309-b1ea-44629cf71773",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*cd0a7b98-d475-4309-b1ea-44629cf71773",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:28.568Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:28.568Z",
+      "linkedinUsername": "silviohuang",
+      "email": "silvio.huang@gmail.com",
+      "phone": "21965026565",
+      "name": "Silvio Huang",
+      "id": "cd0a7b98-d475-4309-b1ea-44629cf71773"
+    },
+    "timeInCurrentStage": 61412073825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.030Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "10/01/1995"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "4500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia civil",
+          "id": "9556216e-65f1-4fb6-b9a8-a919194e751a",
+          "label": "Engenharia civil"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Estácio"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "English (Fluente ou nativo)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Processos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Processos\n Company name : Intertechne\n Period : out de 22 - o momento\n Summary : Contrato Petrobras:\n •Elaboração de relatórios de Indicadores (KPI), relatórios de financeiros, outlooks, simulações de cenários e dashboards;\n •Medição do contrato;\n •Execução de cronogramas e orçamentos;\n •Planejamento, Monitoramento e Controle da carteira de projetos.\n Location : Rio de Janeiro, Brasil\n Job Title : Assistente de planejamento\n Company name : Petroeng Consultoria e Projetos Industriais Ltda.-ME\n Period : set de 218 - out de 22\n Summary : • Medição do Contrato;\n • Elaboração de Cronogramas, Orçamentos;\n • Monitoramento das atividades.\n Location : Rio de Janeiro, Brasil\n Job Title : Estagiário de engenharia civil\n Company name : CAPPE ENGENHARIA\n Period : jan de 217 - set de 218\n Summary : •Apoio na elaboração de documentos e procedimentos para implementação da ISO 91:215;\n •Apoio na elaboração de cronogramas e orçamentos;\n •Apoio nas documentações e registros de SMS;\n •Apoio na Elaboração de documentos técnicos de Engenharia.\n Location : Rio de Janeiro, Brasil\n Job Title : Pesquisador\n Company name : UC San Diego\n Period : jul de 216 - set de 216\n Summary : Department of Structural Engineering\n Location : San Diego, Califórnia, Estados Unidos"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Professional certifications: MBA\n Certifications: Title : Python Fundamentos Para Análise de Dados 3.0\n Period : Emitido em jul de 2022-Sem data de expiração\n Summary : Código da credencial 62d06612e32fc3531c34e545\n Issuing Authority : Data Science Academy\n Title : Microsoft Power BI Para Data Science, Versão 2.0\n Period : Emitido em abr de 2022-Sem data de expiração\n Summary : Código da credencial 626db2d9e32fc3a1843aba02\n Issuing Authority : Data Science Academy"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Gerenciamento de Projetos\n Degree : Master of Business Administration - MBA\n Period : jan de 222 - out de 223\n School name : Estácio\n Speciality : Engenharia Civil\n Degree : Bacharelado\n Period : jul de 214 - dez de 22\n School name : California State University, Northridge\n Speciality : Engenharia Civil\n Degree : Graduação Sanduíche\n Period : jun de 215 - jun de 216"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "427033bb-9f17-4055-8fca-a215436d786e",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*427033bb-9f17-4055-8fca-a215436d786e",
+    "talent": {
+      "updatedAt": "2023-12-20T14:06:16.682Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:06:16.682Z",
+      "linkedinUsername": "arthur-ferreira-dos-santos-netto-0a387718b",
+      "email": "fsnetto.arthur@gmail.com",
+      "phone": "27996689941",
+      "name": "Arthur Ferreira dos Santos Netto",
+      "id": "427033bb-9f17-4055-8fca-a215436d786e"
+    },
+    "timeInCurrentStage": 61412373825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.434Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "11/09/1984"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "6000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "farmacia, gympass, plano de saude, vale alimentacao, auxilio home office"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "UFMG"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês (Fluente ou nativo), Português (Fluente ou nativo)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de processos"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "uma (2 anos)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de processos\n Company name : Atos\n Period : jun de 222 - o momento\n Job Title : Mãe da Helena\n Company name : The Pregnancy Pause\n Period : abr de 218 - dez de 221\n Summary : Período de muito aprendizado, tanto pessoal quanto profissional / teórico.\n Principais habilidades desenvolvidas pela maternidade:\n - trabalho sob pressão,\n - controle emocional,\n - resiliencia,\n - criatividade,\n - habilidades de comunicação,\n - habilidades de negociação,\n - gerenciamento de riscos,\n - planejamento estratégico,\n - planos de contingência.\n Além dos temas voltados à maternidade também aproveitei o tempo para estudar sobre:\n - motivação e liderança,\n - finanças,\n - inteligência emocional,\n - perfil comportamental,\n - coaching,\n - business intelligence,\n - metodologias ágeis,\n - Kanban,\n - Power BI.\n Agora estou pronta para voltar ao mercado e colocar em prática todo esse aprendizado!\n Location : Brasil\n Job Title : Engenheiro de qualidade de fornecedores\n Company name : Embraer\n Period : out de 217 - abr de 218\n Summary : Reporte ao gerente da qualidade de fornecedores, gestão de 19 fornecedores, responsável por garantir a qualidade dos itens fornecidos, a entrega, o cumprimento de prazos e o cumprimento de requisitos normativos do setor aeroespacial e pela gestão de planos de melhoria contínua e projetos de reestruturação do sistema interno utilizando metodologia Scrum.\n Principais resultados:\n •Reestruturação das informações relevantes para a avaliação dos resultados dos fornecedores (KPI), tornando o processo mais claro e ágil.\n •Separação da avaliação de qualidade das peças, inerentes ao produtor, e dos serviços prestados pelos distribuidores, melhorando a alocação das ações de melhoria e a avaliação de desempenho de cada um.\n Location : São José dos Campos e Região, Brasil\n Job Title : Engenheira de Qualidade de Fornecedores\n Company name : Magna International\n Period : mar de 216 - fev de 217\n Summary : Reporte ao gerente da qualidade, gestão de 27 fornecedores, responsável pela gestão da qualidade e de processos dos fornecedores; por auditorias e projetos de desenvolvimento de novos produtos; pela criação e gestão de KPI de fornecedores e pela gestão de planos de melhoria contínua. Participação ativa no processo de compras e seleção de fornecedores.\n Principais resultados:\n •Melhor visibilidade do desempenho real dos fornecedores.\n •Sistema de indicadores refletindo os pontos de maior impacto do desempenho dos fornecedores para a empresa.\n •Atendimento dos requisitos exigidos dos fornecedores bem explicitado.\n •Planos de melhoria focados nos principais problemas de fornecimento.\n •Redução significativa nos atrasos de entrega.\n Location : Ibirité MG\n Job Title : EQF - Engenheira de Qualidade de Fornecedores\n Company name : Fiat Group\n Period : ago de 212 - mai de 215\n Summary : Engenheira de Qualidade de Fornecedores\n Reporte ao coordenador de gestão de fornecedores de peças metálicas, gestão de 14 fornecedores, responsável por garantir a qualidade, a entrega, o cumprimento de prazos e o cumprimento de requisitos normativos do setor automotivo e da montadora, pela gestão de planos de melhoria contínua. Participação ativa nos projetos de desenvolvimento de novos itens.\n Principais resultados:\n •Realização de auditorias anuais, aprovação de processos de desenvolvimento de novos produtos, acompanhamento e validação de processos de solução de problemas, acompanhamento e auditoria dos planos de melhoria contínua.\n •Responsável pela avaliação periódica e melhoria contínua do controle de peças de segurança nos fornecedores.\n •Redistribuição de produtos entre fornecedores similares com otimização de produção, maior confiabilidade e redução de número de reclamações.\n •Atendimento aos requisitos específicos da montadora em 1% dos fornecedores.\n Location : Betim e Região, Brasil\n Job Title : Supervisora de produção\n Company name : ESAB\n Period : mar de 211 - jul de 212\n Summary : Reporte ao Diretor de Operações, gestão de 19 funcionários, responsável pela gestão do processo e pelo projeto e execução da reorganização da fábrica de mistura de pós químicos, que envolveu a criação e padronização do sistema de gestão da fábrica; a reestruturação das atividades da equipe; a implementação de registros de produção; a criação do sistema de indicadores de desempenho da fábrica com base nos registros; o desenho dos fluxos de processos das atividades desenvolvidas e a criação de padrões operacionais.\n Principais resultados:\n •Mensuração e previsibilidade das perdas inerentes ao processo de mistura.\n •Obtenção de dados consistentes para revisão das fórmulas de produção.\n •Melhor aproveitamento da força de trabalho e aumento da produtividade.\n •Elaboração de planos de otimização de produção focados nos reais problemas da fábrica.\n •Desenvolvimento de sistema de indicadores que refletem a realidade da fábrica e facilitam tomadas de decisão.\n Location : Contagem e Região, Brasil\n Job Title : Engenheiro de Processos - Qualidade\n Company name : Vallourec\n Period : jul de 29 - fev de 211\n Summary : Reporte ao gerente da qualidade da área de qualidade corporativa, responsável por auxiliar e avaliar as demais áreas da empresa na utilização de métodos de solução de problemas; por realizar auditorias da qualidade e acompanhar planos de melhoria e por ministrar treinamentos da área da qualidade para os funcionários da empresa.\n Responsável pelo projeto e acompanhamento da estruturação e validação de processos em uma nova empresa do grupo, então em construção em parceria com a Sumitomo. Responsável por definir os fluxos de processos das atividades, por descrever e padronizar junto à área técnica os testes de validação de processos e sua condução.\n Responsável pelo projeto e execução da implementação das normas ISO 91, ISO 141, e sistema Vallourec de gestão da qualidade em uma nova unidade no estado do Rio de Janeiro.\n Principais resultados:\n •Unidade de Rio das Ostras certificada pela ABS Quality Evaluations na norma ISO 91 sem não conformidade apontada pelo auditor.\n •Redução das não conformidades internas registradas nas áreas de acompanhamento de planos de melhoria.\n •Planejamento de validação de processos da nova empresa aprovado pela diretoria.\n Location : Belo Horizonte, Minas Gerais, Brasil\n Job Title : Gestão de qualidade\n Company name : Vallourec\n Period : set de 27 - jul de 29\n Location : Belo Horizonte e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Federal de Minas Gerais\n Speciality : Engenheira de Produção\n Degree : Engenheira\n Period : 23 - 29\n School name : Fundação Getulio Vargas\n Speciality : Gestão da Produção e Qualidade\n Degree : MBA\n Period : 21 - 212\n School name : Colégio Santa Maria Contagem\n Degree : Ensino Médio\n Period : 2 - 22\n School name : Fundação Getulio Vargas\n Speciality : Enhenharia de Produção\n Degree : MBA Gestão da Produção e Qualidade\n Period : 21 - 212\n School name : Fundação Getulio Vargas\n Speciality : Engenharia Industrial\n Degree : MBA - Gestão da Produção e Qualidade\n Period : jun de 21 - jun de 212\n Courses: Title : CQI 15 | CQI 11 e 12 | CQI 9; Title : FMEA; Title : Formação de Auditor Interno ISO 91"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "3daede6d-8b88-4497-ab89-d0336397e951",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*3daede6d-8b88-4497-ab89-d0336397e951",
+    "talent": {
+      "updatedAt": "2023-12-20T13:56:43.490Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:56:43.490Z",
+      "linkedinUsername": "mariliasantosbr",
+      "email": "mariliasantosbhz@gmail.com",
+      "phone": "62995430354",
+      "name": "Marília Santos",
+      "id": "3daede6d-8b88-4497-ab89-d0336397e951"
+    },
+    "timeInCurrentStage": 61412373825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.295Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "16/05/1974"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "5000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "vale transporte, plano de saude, alimentação"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Marketing",
+          "id": "6a8579af-cdb8-4706-aac9-c89b2630417b",
+          "label": "Marketing"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Estácio"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Gestão Pleno"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Gestão Pleno\n Company name : Serede - Serviços de Rede S.A\n Period : mai de 216 - abr de 222\n Summary : Apoio ao Desdobramento de Metas da empresa;\n Mapeamento de Processos;\n Desenvolvimento e Implantação do Sistema de Gestão;\n Suporte no modelo de Gestão através de métodos e ferramentas para contribuição do atingimento dos resultados;\n Disseminar o Modelo de Gestão da empresa através de capacitação, apoio consultivo e gerenciamento da rotina;\n Acompanhar e apoiar os executivos da Empresa na preparação das Reuniões de Resultados com orientações sobre a correta utilização da metodologia para elaboração de diagnósticos e planos estruturados;\n Administrador da Ferramenta de Gestão Valorae;\n Job Title : Analista de Gestao Sênior\n Company name : Serede - Serviços de Rede S.A\n Period : mai de 216 - abr de 222\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Analista Senior de Projetos e Processos\n Company name : Nextel Brasil\n Period : mar de 215 - nov de 215\n Summary : Apoio as Operações de Atendimento a Clientes através de Mapeamento de Processos;\n Propor melhorias ou alterações quando necessário;\n Monitoramento de Processos e alterações implementadas;\n Preparar material de Treinamento e divulgação de Processos;\n Reduzir Custos através de Processos de Melhoria;\n Estudar Ciclo de Vida do Cliente e propor melhorias no Processo;\n Location : São Paulo e Região, Brasil\n Job Title : Supervisor de operações\n Company name : Nextel Brasil\n Period : jul de 21 - mar de 215\n Summary : Preparação e Apresentação de Resultados mensais da Equipe;\n Controle de Frequência da Equipe;\n Elaboração de campanhas motivacionais voltadas para melhora de performance da operação;\n Identificar oportunidades de melhorias no atendimento através de análises de relatórios de aderência aos processos e desempenhos operacionais;\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Analista de Gestão Empresarial\n Company name : TNL Contax S.A\n Period : jul de 28 - mar de 21\n Summary : Especialista da Ferramenta de Gestão Atitude;\n Implantação do sistema GD – Gerenciar Desempenho em 1% das operações;\n Análise dos resultados mensais dos indicadores da cesta do GD por produto;\n Apresentação dos resultados do GD por produto;\n Mapeamento de indicadores específicos das operações;\n Suporte aos sites referente ao projeto e sistema;\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Supervisor de operações\n Company name : TNL Contax S.A\n Period : mai de 24 - jun de 28\n Summary : Controlar freqüência da equipe;\n Elaborar campanhas motivacionais voltadas para melhora de performance da operação;\n Identificar oportunidades de melhoria no atendimento através de relatório de aderência aos processos;\n Medir qualidade no atendimento;\n Elaborar plano de ação para melhoria no atendimento;\n Participação no projeto de implantação do Provedor Oi Internet.\n Location : Rio de Janeiro e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : LSS GREEN BELT - CERTIFIED\n Period : Emitido em nov de 2021-Sem data de expiração\n Summary : Código da credencial 195673036\n Issuing Authority : SETA DESENVOLVIMENTO GERENCIAL"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Candido Mendes\n Speciality : Gestão de Projetos\n Degree : Pós Graduação\n Period : 29 - 21\n Summary : Pós Graduação no Instituto a Voz do Mestre na Universidade Candido Mendes.\n School name : Estácio\n Degree : Marketing Estratégico\n Period : 24 - 26\n Courses: Title : Introdução ao Lean; Title : OKRs - Objectives and Key Results"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "6c6cf486-a76c-4052-9148-675f47f654e1",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*6c6cf486-a76c-4052-9148-675f47f654e1",
+    "talent": {
+      "updatedAt": "2023-12-20T13:54:54.096Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:54:54.096Z",
+      "linkedinUsername": "leandro-valentino-656b66163",
+      "email": "leovalentino@gmail.com",
+      "phone": "21964028266",
+      "name": "Leandro Valentino",
+      "id": "6c6cf486-a76c-4052-9148-675f47f654e1"
+    },
+    "timeInCurrentStage": 61412073825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.499Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "02/07/1996"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "5000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Mecânica",
+          "id": "612a9e7a-ad38-4218-924b-ae8b5a2311e8",
+          "label": "Engenharia Mecânica"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "universidade santa cecilia"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Alemão - Fluency Academy (Nível básico), Espanhol - Fluency Academy (Nível básico a intermediário), Inglês - Achieve Languages by Oxford e Fluency Academy (Nível avançado)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Processos e Projetos (PMO)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Processos e Projetos (PMO)\n Company name : VIVA1\n Period : mar de 222 - o momento\n Summary : ● Acompanhar e elaborar projetos de melhoria contínua.\n ● Gerenciar o portfólio de projetos.\n ● Elaboração de cronogramas.\n ● Acompanhamento de tarefas dos projetos.\n ● Identificação de entraves.\n ● Rápida solução de problemas.\n ● Acompanhamento de indicadores.\n ● Elaboração de dashboards.\n ● Execução de Status Report.\n Location : São Paulo, Brasil\n Job Title : Técnico de Manutenção\n Company name : Tropical Aromas\n Period : out de 22 - mar de 222\n Summary : ● Planejamento da manutenção.\n ● Análise de processos, falhas, controle da qualidade, acompanhamento de KPIs.\n ● Alertar a supervisão sobre a necessidade de disponibilização de peças de reposição, consumíveis e outros itens.\n ● Gestão de pessoas, bem como treinamento e desenvolvimento de equipe de alta performance.\n ● Acompanhamento de atividades, a fim de assegurar que todos os processos sejam executados com segurança e de acordo com as normas e políticas estabelecidas pela empresa.\n ● Elaboração de relatórios gerenciais e apresentação de resultados para suporte em tomadas de decisões estratégicas.\n Principais resultados: (1) Aumento na confiabilidade das máquinas, melhorando o tempo de produção e lucro da empresa. (2) Diminuição no tempo de manutenção, sendo consequência de uma manutenção mais efetiva. (3) Melhora no controle do setor de manutenção e efetividade do mesmo.\n Location : Itaquaquecetuba, São Paulo, Brasil\n Job Title : Operador de Máquinas - Produção\n Company name : Tropical Aromas\n Period : jan de 22 - out de 22\n Summary : ● Operar máquinas de envase, rotulação e encartuchamento do setor de automação, bem como a realização de reparos quando necessário.\n ● Operador líder da linha de produção, responsável pela garantia da qualidade e resultados dos demais operadores da linha.\n Principais resultados: Aumento na produtividade na máquina pela qual era responsável, sendo reconhecido pela empresa, e auxiliando no ganho de lucros da companhia.\n Location : Praia Grande, São Paulo, Brasil\n Job Title : Estagiário de Engenharia de Projetos\n Company name : WILLY ANK - Soluções para o Setor Metal-Mecânico\n Period : jan de 219 - jul de 219\n Summary : ● Atuação com foco no meu Trabalho de Conclusão de Curso relacionado a Engenharia Mecânica cujo tema foi “Substituição de um transportador de correia convencional por um tubular”.\n ● Estudo de todos os períodos científicos com potencial para aceitar artigos oriundos de tcc.\n ● Apoio no marketing digital da empresa.\n ● Análise e categorização de TCCs relacionados ao setor de Engenharia.\n ● Responsável pela execução das manutenções mecânicas, preventivas, corretivas e preditivas em máquinas e equipamentos.\n ● Inspeção mecânica, análise de processos, projetos de engenharia e falhas em equipamentos.\n Location : Santos, São Paulo, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Gestão tática e operacional\n Period : Emitido em jul de 2022-Sem data de expiração\n Issuing Authority : Escola Conquer\n Title : Criatividade e Resolução de Problemas\n Period : Emitido em jun de 2022-Sem data de expiração\n Issuing Authority : Grupo Voitto\n Title : Gestão de Projetos com Microsoft Teams\n Period : Emitido em jun de 2022-Sem data de expiração\n Issuing Authority : LinkedIn\n Title : Kaizen - Processo de Melhoria Contínua\n Period : Emitido em jun de 2022-Sem data de expiração\n Summary : Código da credencial 108281\n Issuing Authority : FM2S Educação e Consultoria\n Title : Liderança Lean | Gemba Walk\n Period : Emitido em jun de 2022-Sem data de expiração\n Summary : Código da credencial 106645\n Issuing Authority : FM2S Educação e Consultoria\n Title : Design Thinking\n Period : Emitido em mai de 2022-Sem data de expiração\n Summary : Código da credencial 140\n Issuing Authority : Pecege\n Title : OKR - Objectives and Key Results\n Period : Emitido em mai de 2022-Sem data de expiração\n Summary : Código da credencial 102168\n Issuing Authority : FM2S Educação e Consultoria\n Title : Pensamento Estratégico\n Period : Emitido em mai de 2022-Sem data de expiração\n Summary : Código da credencial 150\n Issuing Authority : Pecege\n Title : MS Project\n Period : Emitido em abr de 2022-Sem data de expiração\n Summary : Código da credencial 32\n Issuing Authority : Pecege\n Title : Gestão de Riscos em Projetos\n Period : Emitido em fev de 2022-Sem data de expiração\n Summary : Código da credencial 74\n Issuing Authority : Pecege\n Title : Scrum Fundamentals Certified\n Period : Emitido em fev de 2022-Sem data de expiração\n Summary : Código da credencial 896604\n Issuing Authority : SCRUMstudy - Accreditation Body for Scrum and Agile\n Title : Scrum Master\n Period : Emitido em dez de 2021-Sem data de expiração\n Issuing Authority : Escola DNC\n Title : Comunicação e Oratória\n Period : Emitido em nov de 2021-Sem data de expiração\n Issuing Authority : Escola Conquer\n Title : Gestão de Processos\n Period : Emitido em nov de 2021-Sem data de expiração\n Summary : Código da credencial 061505\n Issuing Authority : FM2S Educação e Consultoria\n Title : Negociação e Influência\n Period : Emitido em nov de 2021-Sem data de expiração\n Issuing Authority : Escola Conquer\n Title : Introdução à Gestão de Projetos\n Period : Emitido em out de 2021-Sem data de expiração\n Summary : Código da credencial 82\n Issuing Authority : Pecege"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : MBA USP/Esalq\n Speciality : Gestão de Projetos\n Degree : Pós-graduação Lato Sensu - MBA\n Period : out de 221 - mai de 223\n School name : Universidade Santa Cecília\n Speciality : Engenharia Mecânica\n Degree : Ensino Superior\n Period : 214 - 219\n School name : Senai São Paulo\n Speciality : Eletromecânica\n Degree : Ensino Técnico\n Period : 213 - 214\n School name : Senai São Paulo\n Speciality : Mecânica de Usinagem\n Degree : Aprendizagem Industrial\n Period : 211 - 212\n Courses: Title : 5S: Melhorando o Ambiente - SL CONSULTORIA E TREINAMENTO S/S LTDA; Title : Comunicação e Oratória - Escola Conquer; Title : Criatividade e Resolução de Problemas"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "ac2d3b69-adca-46f7-b6f1-30a176bcf4f2",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*ac2d3b69-adca-46f7-b6f1-30a176bcf4f2",
+    "talent": {
+      "updatedAt": "2023-12-20T14:06:15.700Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:06:15.700Z",
+      "linkedinUsername": "matheus-antônio",
+      "email": "mat.antonio@hotmail.com",
+      "phone": "13996372255",
+      "name": "Matheus Antônio",
+      "id": "ac2d3b69-adca-46f7-b6f1-30a176bcf4f2"
+    },
+    "timeInCurrentStage": 61412073825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.264Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "31/12/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "6500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Projetos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Projetos\n Company name : Rede Globo\n Period : mar. de 218 – o momento\n Summary : Gerenciar carteira de projetos do diretor (N2) de central do Canal TV Globo (PMO); (projetos de melhoria de processos e demaisElaborar e “vender” projetos de melhorias aos diretores N3;Modelar ‘AS IS’, analisar processo, elaborar diagnósticos de fragilidades, definir criticidade, modelar ‘TO BE’, aplicar o novo modelo, desenhar e implementar de KPIs (KPI's, qualidade – Lean Six Sigma, performance, dimensionamento de equipe), monitorar e controlar (PDSA e PDCA);Estudar e projetar alocação de recursos e processos; Elaborar instrução de trabalho e padronizar processos;Treinar equipes em visão processual e no novo processo estabelecido; Criar métodos mais ágil aos processos (sharepoint de serviços, formulários de solicitações para padronização...)\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Business Project Analyst\n Company name : Accenture Brasil\n Period : ago. de 216 – mar. de 218\n Summary : Gestão de Mudanças:Líder da frente de comunicação (Planejamento e execução);Implementar e gerir KPIs;Mapear mudanças sistêmicas relacionadas com a nova lei do setor;Mapear processos com impacto da nova legislação de BID da Petrobras; Elaborar cartilhas das principais mudanças do sistema e disponibilizar ao cliente e terceiros;PMO;Conteúdo Local:Liderança conjunta da equipe do projeto;PMO dos projetos do cliente;Otimizar processos do cliente;Controlar orçamento do projeto;Desenvolver apresentações e análise de dados;Projetos executados:− Estudo da demanda histórica e futuro do mercado de óleo e gás;− Desenvolver rotas analíticas para atender as exigências da ANP;− Elaborar apresentações executivas e de assuntos governamentais para o assessor do presidente e sua equipe de gestores;− Elaborar em conjunto o Estudo de Competitividade da Indústria Nacional (mapear a capacidade dos setores em atender às demandas de bens e serviços da Petrobras, através da análise dos dados coletados via questionário e visitas a fornecedores);− Analisar e avaliar a lista bens e serviços dos projetos da Petrobras foco em identificar a capacidade de atendimento do mercado brasileiro aos níveis de conteúdo local ANP (Articulação com as áreas de Negócio e de Serviços);− Participar da construção da nova Política de Conteúdo Local da Petrobras;− Elaborar a governança do cliente;\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Business Process Analyst Jr\n Company name : Accenture Brasil\n Period : jun. de 214 – ago. de 216\n Summary : Projeto de qualidadePMO de indicadores da área e do cliente;Elaborar apresentação executiva do projeto para o cliente;Controlar forecast e custos internos do projeto;Estudar e executar modelos de redução dos custos do cliente;Mapear processos com fragilidades e desenvolver projetos de melhorias para o cliente; Analisar resultados de negócios do projeto;\n Location : Rio de Janeiro e Região, Brasil\n \n \n Job Title : Business analyst\n Company name : Accenture Brasil\n Period : jun. de 212 – jun. de 214\n Summary : LogísticaElaborar o planejamento logístico dos parceiros, follow up, e abastecimento de terceiros;Gerir SLA's de serviço definidos com o Cliente Externo. Elaborar relatórios gerenciais e relatórios de controle para apresentação de resultado;Monitorar processo de compras de transportes e entregas: Triagem de PCP de mercadorias do cliente; Acompanhamento dos fluxos e transições de materiais de CD e/ou depósitos); Controle e monitoramento de materiais; Abastecimento de suprimentos às operações terceirizadas; Elaboração do planejamento logístico dos fornecedores;Suporte gerencial para desenvolvimento de novos métodos e processos para minimizar custos operacionais, melhorar controles e realizar auditorias de contratação;Desenvolver políticas, procedimentos e indicadores logísticos.\n Location : Rio de Janeiro e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "MBA"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Fundação Getulio Vargas\n Speciality : Master of Business Administration - MBA, GESTÃO: BUSINESS PROCESS\n Period : 218 – 22\n School name : Centro Universitário UniCarioca\n Speciality : Bacharelado em Administração, Administração de Empresas\n Period : 214\n Summary : Monitoria\n School name : Kaplan Professional\n Speciality : English for Business, Curso realizado na unidade de Toronto Canadá\n Period : 217 – 217\n School name : FM2S Treinamentos e Desenvolvimento Profissional e Gerencial Ltda.\n Speciality : white belt six sigma\n Period : 218 – 218\n \n School name : Escola EDTI\n Speciality : Certificação Yellow Belt em Lean Six-Sigma, Melhoria contínua\n Period : 22 – 22\n Courses: Title : Administração de Tempo; Title : Atendimento ao Cliente; Title : Database Management; Title : Design thinking; Title : Lean Six Sigma White Belt; Title : Metodologia Ágil; Title : Microsoft Office 23: Advanced Project Professional: Advanced Analysis of your Project; Title : Microsoft Office 23: Advanced Project Professional: Advanced Customization; Title : Microsoft Office 23: Advanced Project Professional: Enterprise Project Management; Title : Microsoft Office 23: Advanced Project Professional: Sharing Project Data and Working with Macros; Title : Microsoft Office 23: Beginning Project Professional: Creating and Defining a Project; Title : Microsoft Office 23: Beginning Project Professional: Specifying and Assigning Resources; Title : Microsoft Office 23: Beginning Project Professional: Tracking and Reporting Progress; Title : Negociação; Title : Orçamento Empresarial; Title : Redação Empresarial; \n Title : Técnicas de compras"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d1e21cf1-6dd4-4c7f-b436-ffe4a8cb32f3",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*d1e21cf1-6dd4-4c7f-b436-ffe4a8cb32f3",
+    "talent": {
+      "updatedAt": "2023-12-20T14:08:01.156Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:08:01.156Z",
+      "email": "importacao7595@importacaoinhire.com",
+      "phone": "21999168287",
+      "name": "Mariana Bonotto Kume",
+      "id": "d1e21cf1-6dd4-4c7f-b436-ffe4a8cb32f3"
+    },
+    "timeInCurrentStage": 61412073825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.105Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "09/10/1985"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "5300"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "45047"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Todos de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Química",
+          "id": "da11714a-6a8a-4fd7-a07c-bec3b7c2426d",
+          "label": "Engenharia Química"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "UFRRJ"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": "Universidade Federal do Rio de Janeiro\n DiplomaMaster of Business Administration (M.B.A.)Área de estudoGestão e Gerenciamento de Projetos"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "n/a"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Engenheiro de Melhoria Contínua"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Engenheiro de Melhoria Contínua\n Company name : Duratex\n Period : 216 – jun. de 22\n Summary : - Responsável por mapear oportunidades de melhorias, apoiar a estruturação de ações e monitorar o andamento da iniciativa das melhorias de negócios, reportando todos os indicadores industriais para a coordenação e gerência. - Ponto focal na unidade do RJ nos projetos de estruturação do sistema de gestão e controle de custos industriais, estabelecendo metas para diferentes áreas da empresa com o apoio da consultoria da equipe da Falconi e posteriormente conduzindo reuniões mensais para tratar os principais desvios do orçamento anual estabelecido para a unidade do RJ;- Criação de relatórios, gráficos e indicadores para a gestão de produção e a elaboração de planos de ações para realizar ações de contra medida utilizando PDCA juntamente com a fábrica, visando o atendimento ao programa de produção, atingimento do orçamento anual e a redução de desperdícios.\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Analista de Planejamento de Estoque\n Company name : MRO Logistics\n Period : 215 – 216\n Summary : - Controle e parametrização dos níveis de estoque, proporcionando ganhos financeiros, elevando os índices de disponibilidade de material e nível de serviço em diferentes centros de operações e distribuição;- Contato diário com equipes de almoxarifado de outros estados para planejar e controlar os processos logísticos de um total de mais de 45. itens com aproximadamente R$35 milhões de estoque em 6 estados da operação de uma grande operadora de ferrovias;- Criar / acompanhar indicadores, montar consultas no Access, montar macros em Access e Excel;- Monitorar processos de supply chain através do módulo MM do SAP.\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Trainee de Operações\n Company name : Glencore Copper\n Period : 213 – 215\n Summary : - Membro da equipe de Otimização de Processos;- Treinamento nas áreas de recuperação de minério de cobre, fundição, refinaria e plantas auxiliares; - Acompanhamento e auxilio durante as atividades de comissionamento na planta de flotação e refinaria após o supertufão Haiyan;- Acompanhamento de estudos para melhoria de processo na Planta de Flotação;- Elaboração de ferramentas de controle estatístico de processo (CEP);- Realização de estudos utilizando ferramentas estatísticas visando melhorias operacionais.\n Location : Filipinas\n Job Title : Analista de PCP\n Company name : Cogumelo Indústria e Comércio LTDA\n Period : 212 – 213\n Summary : - Responsável pelo planejamento da produção de um dos setores da empresa e da cadeia de suprimento de suas respectivas matérias-primas;- Revisão, melhoria e padronização dos processos de produção;- Auxilio no Startup do PCP (Área de Planejamento e Controle de Produção);- Auxilio na comunicação e interação entre as áreas: PCP, laboratório, produção, suprimentos, contabilidade;\n Location : Campo Grande RJ.\n Job Title : Estagiário de Gestão QSMS\n Company name : Bayer\n Period : 21 – 211\n Summary : - Manutenção da Norma ISO 91 ( controle de estoque de reagentes e controle de documentos diversos, tais como, manutenção do plano de calibração, controle e atualização de instruções de trabalho; arquivamento de certificados de reagentes; acompanhamento da rastreabilidade de amostras; atualização do plano de amostragem);- Manutenção da Norma ISO 141 (revisão de FISPQ’s de reagentes, matérias-primas e produtos Bayer); - Manutenção da OHSAS 181 (monitoramento do treinamento da equipe do laboratório através do software Plateau; manutenção de pontos de segurança: extintores, capelas e estoques de reagentes); - Acompanhamento de Análises Criticas de ações de melhoria referente à auditoria interna;\n Location : Belford Roxo, RJ."
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Black Belt\n Period : Emitido em mai. de 2017 - Nenhuma data de expiração\n Issuing Authority : Escola EDTI\n Title : Green Belt\n Period : Emitido em 2013 - Nenhuma data de expiração\n Issuing Authority : Setec Consulting Group"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Federal do Rio de Janeiro\n Speciality : Master of Business Administration (M.B.A.), Gestão e Gerenciamento de Projetos\n School name : Universidade Federal Rural do Rio de Janeiro\n Speciality : Engineer's degree, Chemical Engineering\n Courses: Title : Análise de Risco Aplicada a Projetos de Exploração e Produção de Petróleo, LABECO / UFRJ, 212. CH: 24 horas.; Title : Black Belt, EDTI, 217. CH: 8 horas.; Title : Engenharia Submarina Aplicada a Produção de Petróleo e Gás, LABECO / UFRJ, 212. CH: 24 horas.; Title : Excel Avançado, CCE / PUC-RJ, 211. CH: 3 horas.; Title : Green Belt, Setec Consulting Group, 213. CH: 8 horas.; Title : MS Project,, CCE / PUC-RJ, 216. CH: 32 horas.; Title : QSMS e Gestão pela Qualidade, CCE / PUC-RJ, 211. CH: 36 horas; \n Title : VBA para Excel, CCE / PUC-RJ, 211. CH: 3 horas."
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "9854aa4d-aaf2-49c4-b686-611d009821e8",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*9854aa4d-aaf2-49c4-b686-611d009821e8",
+    "talent": {
+      "updatedAt": "2023-12-20T14:02:39.647Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:02:39.647Z",
+      "email": "danmca19@gmail.com",
+      "phone": "21972215164",
+      "name": "Daniel Antunes",
+      "id": "9854aa4d-aaf2-49c4-b686-611d009821e8"
+    },
+    "timeInCurrentStage": 61412073825
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.663Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "13/12/1997"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "5500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Espanhol (Nível avançado), Inglês médio (11-15) (Fluente ou nativo), Italiano (Nível básico)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Processos e Projetos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Processos e Projetos\n Company name : Bridge & Co\n Period : abr de 221 - o momento\n Summary : Atuação em projetos de estratégia e gestão:\n • Reestruturação da área de TI de uma empresa do ramo alimentício:\n - Desafio: Entender o contexto atual da empresa e adequar a área ao framework ITIL®;\n - Resultado: Revisão da estrutura organizacional e estabelecimento de planos de ação para implementação de uma ferramenta de Service Desk ITIL® e processos definidos.\n • Aperfeiçoamento da Governança de TI de uma organização governamental:\n - Desafio: Entender o contexto atual da empresa e adequar a área à melhorias de Governança e Gestão.\n Location : Rio de Janeiro, Rio de Janeiro, Brazil\n Job Title : Estagiário de Consultoria\n Company name : Bridge & Co\n Period : set de 22 - abr de 221\n Summary : Atuação em projetos de estratégia e gestão:\n • Mapeamento de dados pessoais em startup:\n - Desafio: Adequação da companhia com requisitos da LGPD;\n - Resultado: Criação de mapa de risco referente à toda organização para prevenção de vazamento de dados e estabelecimento de planos de ação para otimizar segurança da informação;\n • Governança de TI em empresa de Investimentos:\n - Desafio: Estruturar relatórios de acompanhamento de indicadores;\n - Resultado: Dashboards elaborados na ferramenta Power BI para auxiliar no acompanhamento e nas tomadas de decisão;\n • Redesenho de processos da área financeira de uma empresa de serviços industriais:\n - Desafio: Acompanhar stakeholders do projeto na gestão de riscos, cronograma, organização de atividades e condução de atividades entre partes relacionadas;\n - Resultado: Implementação de processos redesenhados e negociação de novo contrato para implementação de RPA. Entrega elogiada pela alta diretoria da empresa.\n Location : Rio de Janeiro, Rio de Janeiro, Brasil\n Job Title : Estagiário de analista de Produto\n Company name : Qconcursos.com\n Period : set de 219 - ago de 22\n Summary : - Documentação dos processos e funcionalidades para uso interno\n - Análise do desempenho das funcionalidades das ferramentas disponíveis para os clientes na plataforma de colaboração online\n - Proposta de estratégias de melhoria ou descontinuação das mesmas\n - Elaboração de análises de resultados de campanhas para o time de produto\n Location : Rio de Janeiro, Rio de Janeiro, Brasil\n Job Title : Monitor de Power Bi e Excel\n Company name : Motim - Quebre o giz\n Period : jun de 219 - mar de 22\n Summary : - Auxílio ao professor para desenvolvimento de atividades em classe\n - Atendimento personalizado ao aluno\n - Resolução técnica de problemas relacionados ao assunto\n - Organização de materiais e sala de aula\n Location : Rio de Janeiro, Rio de Janeiro, Brasil\n Job Title : Estagiário de Marketing Digital\n Company name : Descomplica\n Period : fev de 219 - ago de 219\n Summary : - Criação, acompanhamento e análises de campanhas de mídias pagas\n - Geração de estatísticas para membros da equipe\n - Implementação de Power BI na equipe\n Location : Rio de Janeiro, Rio de Janeiro, Brasil\n Job Title : Estagiário de Dados\n Company name : Descomplica\n Period : jul de 218 - fev de 219\n Summary : - Análises de resultados e acompanhamento de campanhas ocorridas pela empresa ao longo do ano\n - Geração de relatórios para a Diretoria Executiva\n - Elaboração de método para análise das campanhas\n Location : Rio de Janeiro, Rio de Janeiro, Brasil\n Job Title : Analista\n Company name : SOS Estradas\n Period : jan de 215 - jun de 218\n Summary : Elaboração de pesquisa de informação e manutenção de planilhas no Excel sob demanda.\n Location : Rio de Janeiro, Rio de Janeiro, Brasil\n Job Title : Membro da equipe de marketing\n Company name : Enactus\n Period : ago de 217 - fev de 218\n Summary : - Administração das redes sociais\n - Criação de artes para divulgação dos projetos\n - Busca de parceiros\n - Participação em processo seletivo para novos membros\n Location : Niterói, Rio de Janeiro, Brasil\n Job Title : Organizador de eventos\n Company name : Enactus\n Period : set de 217 – set de 217\n Summary : Organização e gestão da Semana de palestras de empreendedorismo da UFF.\n - Escolha e convite de palestrantes externos\n - Logística do evento\n - Negociação com parceiros\n - Responsável por uma equipe de 5 pessoas ao longo da organização do projeto e 15 pessoas na execução\n Location : Niterói, Rio de Janeiro, Brasil\n Job Title : Membro do conselho administrativo e financeiro\n Company name : Enactus\n Period : abr de 217 - jul de 217\n Summary : - Prospecção de editais e submissão de projeto para captação de recursos\n - Controle financeiro dos projetos\n - Controle de contratos com parceiros.\n Location : Niterói, Rio de Janeiro, Brasil\n Job Title : Usuário Chave\n Company name : Building and Energy Efficiency Bureau ESEB\n Period : jan de 218 – jan de 218\n Summary : Testes em plataforma de colaboração em gestão de projetos sendo desenvolvida pela empresa.\n Location : Riga, Letônia\n Job Title : Organizador de Eventos\n Company name : Universidade Federal Fluminense\n Period : 218 – 218\n Summary : Membro da Comissão organizadora do ProdUFF (Evento de palestras para Engenharia de Produção UFF)\n Location : Niterói, Rio de Janeiro, Brasil\n Job Title : Membro do núcleo financeiro\n Company name : Equipe Tuffão Baja SAE\n Period : ago de 216 - fev de 217\n Summary : - Captação de recursos\n - Busca de parcerias\n - Controle financeiro dos projetos\n - Responsável pela compra dos materiais e pela manutenção das tabelas de acompanhamento do projeto\n Location : Niterói, Rio de Janeiro, Brasil\n Job Title : Organizador de eventos\n Company name : Universidade Federal Fluminense\n Period : out de 216 – out de 216\n Summary : Parte da Comissão Organizadora do ENFEPRO 216 - Encontro Fluminense de Engenharia de Produção.\n Responsável pela Logística do evento.\n Location : Niterói, Rio de Janeiro, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Google Tag Manager Fundamentals\n Period : Emitido em abr de 2019-Expira em abr de 2022\n Issuing Authority : Google academy\n Title : Google Analytics para Iniciantes\n Period : Emitido em set de 2018-Expira em set de 2021\n Issuing Authority : Google Analytics for Business\n Title : Google Ads Fundamentals\n Period : Emitido em abr de 2019-Expira em abr de 2020\n Issuing Authority : Google academy"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Federal Fluminense\n Speciality : Engenharia de Produção\n Degree : Bacharelado\n Period : 215 - 22\n School name : Colégio Pedro II\n Degree : Ensino Médio\n Period : 212 - 214\n Courses: Title : Curso de Gerenciamento de Projetos"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "22819af5-be64-4f9c-a024-192fc692f7d6",
+    "id": "76ee6b00-1bca-4ced-9f05-946753815c3c*22819af5-be64-4f9c-a024-192fc692f7d6",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:28.261Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:28.261Z",
+      "linkedinUsername": "joao-rizzotto",
+      "email": "joaopessoa@id.uff.br",
+      "phone": "2198816301",
+      "name": "João Marcos R",
+      "id": "22819af5-be64-4f9c-a024-192fc692f7d6"
+    },
+    "timeInCurrentStage": 61412073825
+  }
+]

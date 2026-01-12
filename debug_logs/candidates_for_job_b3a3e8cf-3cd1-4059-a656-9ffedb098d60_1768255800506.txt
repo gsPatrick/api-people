@@ -1,0 +1,758 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:33.499Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "28/08/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "13000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador Contábil"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador Contábil\n Company name : State Grid Brazil Holding S.A\n Period : 216 – o momento\n Summary : • Reporte ao CFO e Gerente Contábil\n • Gestão de Equipes\n • Responsável pelo Projeto XRTE de transmissão de energia atuando como Contador responsável nos anos 218 e 219\n • Controle contábil de contratos Capex e Opex\n • Demonstrações financeiras societárias e regulatórias\n • Envio de informações mensais, trimestrais e anuais ao agente regulador (Aneel)\n • Fechamento contábil e envio de reportes ao controlador\n • Revisão das bases de impostos diferidos e de PIS/COFINS/IRPJ e CSLL\n • Preparação e envio da ECD\n • Atendimento às auditorias internas e externas\n • Revisão de análises contábeis e resultado\n • Participação na migração do sistema RM Totvs para o Protheus\n • Controle de importações e imobilizado\n Cargo anterior: Analista Contábil Sênior\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Analista Contábil e Custos Pleno\n Company name : Queiroz Galvão Óleo e Gás S.A\n Period : 213 – 216\n Summary : • Reporte ao Coordenador de Patrimônio\n • Análise dos custos de materiais das sondas onshore/offshore\n • Conferência de relatórios gerenciais em sistema\n • Controle e análise de adiantamentos para a compra de estoques e ativos e de projetos por centro de custo (Capex/Opex)\n • Análise comparativa de real x orçado dos projetos\n • Participação nos inventários da QGOG com análise sobre o impacto no custo\n • Acompanhamento dos custos das sondas em docagem\n • Cadastro de Ativos em sistema\n • Controle e análise de Intercompany\n • Atendimento à auditoria\n • Sistema Protheus e BI\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Analista Contábil Pleno\n Company name : Estaleiro Mauá\n Period : 213\n Summary : • Análise de contas patrimoniais\n • Análise dos custos de materiais e pessoal dos navios em construção para a Transpetro\n • Análise de centro de custo por projeto e overhead\n • Análise de folha de pagamento\n • Atendimento a auditoria externa\n • Suporte na elaboração das DF’s anuais e notas explicativas\n • Controle e análise de empréstimos e financiamentos\n • Controle e análise de Intercompany\n • Participação na criação de um novo plano de contas do Grupo\n • Sistema RM Totvs\n Location : Niterói\n \n Job Title : Analista Contábil Júnior\n Company name : Grupo Bravante\n Period : 211 – 213\n Summary : • Reporte ao Gerente Contábil\n • Análise de contas patrimoniais\n • Controle e Análise do Contas a receber com aging list\n • Controle e análise dos empréstimos e financiamentos para a construção de navios e estaleiro\n • Análise de custos das embarcações e projetos\n • Análise de Intercompany\n • Suporte na elaboração das DF’s anuais e notas explicativas\n • Participação no processo de migração RM Totvs para o SAP\n • Atendimento a auditoria\n • Sistema SAP\n Location : São Gonçalo - RJ\n \n Job Title : Analista de Controladoria Júnior\n Company name : Brookfield Incorporações CO\n Period : 21 – 211\n Summary : • Análise de contas patrimoniais e de custos e despesas\n • Suporte na elaboração das DF’s anuais e notas explicativas\n • Atendimento à auditoria / Análise de Intercompany\n • Sistema SAP\n Location : Brasil - Rio de Janeiro\n \n Job Title : Assistente Contábil\n Company name : Supergasbras Energia Ltda\n Period : 29 – 21\n Summary : • Análise de contas patrimoniais e de custos de estoque\n • Controle de estoque e imobilizado\n • Fechamento de balancetes por filial\n • Atendimento a auditoria\n • Sistema Datasul\n Location : Brasil - Rio de Janeiro\n \n \n Job Title : Assistente Contábil\n Company name : Álamo Assessoria Contábil\n Period : 27 – 29\n Summary : • Reporte ao Gerente Contábil\n • Execução de tarefas como Análise, Classificação, Composição e Conciliação de contas patrimoniais, conciliação bancária, contas a pagar e a receber\n • Análise de folha de pagamento e relatórios fiscais\n • Gerenciamento de imobilizado através de software específico\n • Controle Fiscal de empresas optantes dos Lucros Presumido, Real e Simples\n • Utilização do sistema integrado ALTERDATA, módulos CONTÁBIL, FISCAL, DP e INSS\n • Controle de livros diário e razão\n Location : Niterói"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Fundação Getulio Vargas\n Speciality : MBA Executivo em finanças: Controladoria, Auditoria e Compliance\n School name : Universidade Candido Mendes\n Speciality : MBA, Contabilidade Internacional\n \n School name : Centro Universitário Plinio Leite\n Speciality : Bacharel, Ciências Contábeis\n Courses: Title : Análise das Demonstrações Contábeis - Cefis; Title : Contabilidade Geral - CRC RJ; Title : Contabilidade Tributária Setor Elétrico- IBEF RJ; Title : Contabilidade Tributária uma Revisão Completa - IPEC RJ; Title : English - Hansa School - Toronto; Title : Excel Avançado - Udemy; Title : IFRS - Fipecafi; Title : IFRS - First Degree - IACAFM; Title : Lucro Real - Cefis; Title : Padrões Contábeis CPC/IFRS - UFRJ; \n Title : Sped Contábil - Cefis"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "3f875259-0fe2-462f-a953-af195096a8d2",
+    "id": "b3a3e8cf-3cd1-4059-a656-9ffedb098d60*3f875259-0fe2-462f-a953-af195096a8d2",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:59.084Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:59.084Z",
+      "linkedinUsername": "kelson-carvalho",
+      "email": "kelsoncontabil@gmail.com",
+      "phone": "21987658365",
+      "name": "Kelson Carvalho",
+      "id": "3f875259-0fe2-462f-a953-af195096a8d2"
+    },
+    "timeInCurrentStage": 61412100461
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.590Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenadora de contabilidade"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenadora de contabilidade\n Company name : CPFL Energia\n Period : jan. de 22 – o momento\n Summary : Responsável pelo fechamento contábil e diversos atendimentos, como fiscalizações, auditorias, ANEEL, controladores e outros\n Coordenação de pessoas e processos\n Location : Campinas, São Paulo\n \n Job Title : Especialista em contabilidade\n Company name : CPFL Energia\n Period : jul. de 216 – jan. de 22\n Summary : Manutenção do plano de contas e das diversas estruturas necessárias para Balanço em IFRS e regulatório;\n Análise de novos itens regulatórios;\n Estudos de novas instruções da ANEEL e participação em audiências públicas;\n Coordenadora de um dos grupos de estudos para reformulação do manual de contabilidade do setor elétrico;\n Automatização dos relatórios necessários da área e de lançamentos contábeis;\n Key user do sistema BPC/EPM, sendo facilitadora da área;\n Participação em projetos SAP (Key user);\n Suporte técnico e instruções ao time para elaboração das demonstrações financeiras;\n Resposta a questões diversas: auditoria externa, relações com investidores e controladores\n Location : Campinas, São Paulo\n \n Job Title : Analista contabil senior distribuicao de energia\n Company name : CPFL Energia\n Period : jan. de 215 – jun. de 216\n Summary : Fechamento contábil, elaboração das demonstrações financeiras para CVM e ANEEL\n Location : Campinas, São Paulo\n \n Job Title : Analista de Práticas e Projetos Sênior\n Company name : CPFL Energia\n Period : out. de 212 – dez. de 214\n Summary : Estudos para suportar que as Demonstrações Financeiras estão sendo feitas de acordo com os princípios e normas contábeis internacionais (IFRS);\n Atendimento a auditoria, interna e externa;\n Participação na elaboração dos formulários 2F e Formulário de Referência;\n Análise de impactos nas Demonstrações Financeiras em função de novas operações comerciais ou de novas exigências introduzidas por legislação;\n Suporte a outros departamentos como Controladoria, Relações com investidores, Financeiro, Novos Negócios, bem como aos Acionistas e Conselhos de Administração e Fiscal, fornecendo informações e análises sobre as Demonstrações Financeiras;\n Participação em audiências públicas para sugestão em casos de novos e/ou alterações na legislação contábil\n Location : Campinas Area, Brazil\n \n Job Title : Analista Contábil Sênior\n Company name : CPFL Energia\n Period : mai. de 24 – out. de 212\n Summary : Coordenação dos analistas menos experientes para a realização de trabalhos como elaboração das Demonstrações Financeiras anuais e trimestrais, bem como dos fechamentos contábeis mensais;\n Consolidação de aproximadamente 1 empresas de acordo com os princípios e normas contábeis internacionais;\n Atendimento a auditoria, interna e externa;\n Atendimento aos requisitos da Lei Sarbanes Oxley – SOX;\n Líder do projeto de implantação (Junho/21 a Fevereiro/211) do sistema de consolidação BPC – Business Planning and Consolidation, incluindo treinamento aos novos usuários Através desse sistema, a CPFL passou a consolidar de forma automatizada, mais de 1 empresas do grupo e a extrair as Demonstrações Financeiras (Balanço Patrimonial, Demonstração do Resultado, Demonstração do Resultado Abrangente, Notas Explicativas, Demonstração do Valor Adicionado, Fluxo de Caixa, Balanço Social), além dos relatórios gerenciais e suportes para análises\n \n Job Title : Consultora Tributária Júnior\n Company name : Lima Junior Advogados\n Period : abr. de 23 – mai. de 24\n Summary : Atuava na divisão tributária do escritório e tinha como principais responsabilidades:\n Due Diligence e auditorias fiscais, com foco na avaliação da regularidade tributária das empresas;\n Respostas a consultas tributárias;\n Elaboração do Manual de Procedimentos Internos do escritório\n Location : Campinas\n \n \n Job Title : Assistente Contábil\n Company name : Penteado & Romanini\n Period : fev. de 2 – abr. de 23\n Summary : Responsável pela contabilidade e área fiscal de diversas empresas multinacionais\n Na área contábil: lançamentos, conciliações, análises, relatórios gerenciais e análise financeira;\n Na área tributária: apuração de impostos diretos e indiretos, elaboração dos livros fiscais e atendimento das obrigações acessórias;\n Outras rotinas do escritório, como: Certidões negativas de Débitos e abertura e encerramento de empresas\n Location : Campinas Area, Brazil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : FIA - MBA\n Speciality : Master of Business Administration (MBA), Gestão de Negócios com ênfase em Energia Elétrica\n Period : 21 – 211\n \n School name : FGV - MBA\n Speciality : Master of Business Administration (MBA), Gestão Financeira e Controladoria\n Period : 24 – 25"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "b5919726-ec18-41d5-a58d-f0a4a935e345",
+    "id": "b3a3e8cf-3cd1-4059-a656-9ffedb098d60*b5919726-ec18-41d5-a58d-f0a4a935e345",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:23.548Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:23.548Z",
+      "linkedinUsername": "daniela-vilela-8b853b1a",
+      "email": "danielativelli@hotmail.com",
+      "phone": "",
+      "name": "Daniela Vilela",
+      "id": "b5919726-ec18-41d5-a58d-f0a4a935e345"
+    },
+    "timeInCurrentStage": 61413000461
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.651Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Corporativo de Contabilidade"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente Corporativo de Contabilidade\n Company name : Grupo Equatorial Energia\n Period : out. de 22 – o momento\n \n Job Title : Manager\n Company name : KPMG Brasil\n Period : set. de 29 – out. de 22\n Summary : Auditoria das demonstrações financeiras de clientes públicos e privados, principalmente nas áreas de real estate, manufatura, varejo, óleo e gás, energia e entidades sem fins lucrativos Conhecimento técnico em normas de contabilidade brasileiras, internacionais e americanas Experiência em controle interno, inclusive em ambiente SOx Experiência em IPOs e processos de Follow on de clientes no Norte e Nordeste Certificação CNAI QTG, BACEN e CVM\n Auxilia em treinamentos na área de contabilidade internos e externos\n Location : Fortaleza, Ceará\n \n Job Title : Senior Associate\n Company name : KPMG US\n Period : jul. de 214 – abr. de 216\n Summary : Secondment no escritório de Houston, Estados Unidos, atuando como senior de auditoria em clientes públicos e privados na área de óleo e gás Experiência com auditoria das demonstrações financeiras, controles internos (ambiente SOx) Participou de processo de IPO de segmento de importante cliente público da firma\n Location : Houston, Texas, Estados Unidos\n \n Job Title : Estagiária\n Company name : Banco do Brasil\n Period : set. de 28 – ago. de 29\n Location : Fortaleza e Região, Brasil\n \n \n Job Title : Estagiária\n Company name : BNB\n Period : dez. de 27 – ago. de 28"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : MBA, Gestão Financeira, Controladoria e Auditoria\n Period : 216 – 218\n School name : Universidade Salvador\n Speciality : Master of Business Administration - MBA, Gestão de Tecnologia da Informação\n Period : 218 – 22\n School name : Universidade Federal do Ceará\n Speciality : Bacharel, Contabilidade\n Period : 26 – 211\n School name : IFCE\n Speciality : Tecnóloga, Gestão de Turismo\n Period : 26 – 21\n \n School name : Fundação Getulio Vargas\n Speciality : Master of Business Administration - MBA em Direito, Gestão e Business Law\n Period : 221 – 223"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "a7f1a90b-38bd-4650-8d94-6b04145e6b54",
+    "id": "b3a3e8cf-3cd1-4059-a656-9ffedb098d60*a7f1a90b-38bd-4650-8d94-6b04145e6b54",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:38.323Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:38.323Z",
+      "linkedinUsername": "nathalia-c-0b188636",
+      "email": "npessoa32@gmail.com",
+      "phone": "",
+      "name": "Nathalia Carneiro Pessoa",
+      "id": "a7f1a90b-38bd-4650-8d94-6b04145e6b54"
+    },
+    "timeInCurrentStage": 61413000461
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.561Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "28/11/1984"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "29000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês: avançado"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Não Diverso"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Financial Controller"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "eda76e10-3894-45d8-9427-0a4ba4624136",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Financial Controller\n Company name : Omega Energia\n Period : set. de 22 – o momento\n Location : Sao Paulo, Brazil\n \n Job Title : Head de Finanças e administrativo\n Company name : Stoodi\n Period : mar. de 219 – set. de 22\n Summary : • Reporte direto ao CEO\n • Responsável por todos os processos de planejamento, finanças, departamento pessoal e administrativo da empresa\n • Responsável pelo apoio no planejamento e elaboração de planos de negócios para novas oportunidades de investimento pela controladora Cogna Educação\n Location : São Paulo e Região, Brasil\n \n Job Title : Gerente de Finanças\n Company name : Ocyan\n Period : jun. de 216 – fev. de 219\n Summary : Responsável pelas gerência financeira da unidade de negócios de perfuração\n \n • Reporte ao diretor financeiro e ao diretor superintendente da unidade de negócios\n • Responsável por toda área de finanças da unidade de negócios de perfuração\n • Gerenciamento de equipe de 25 profissionais, com 5 coordenadores nas áreas de controladoria, contas a pagar, medição de serviços, contas a receber, patrimônio e programa de segurança empresarial\n Location : Macaé e Região, Brasil\n \n Job Title : Gerente de controladoria\n Company name : Ocyan\n Period : mai. de 213 – mai. de 216\n Summary : • Reporte ao diretor financeiro\n • Responsável pela gerência de controladoria da unidade de negócios de perfuração\n • Responsável pela revisão e controle dos gastos de Opex e Capex de sete unidades de perfuração offshore e a base de apoio onshore\n • Responsável pela elaboração e acompanhamento do orçamento da unidade de negócio junto aos gerentes das unidades de perfuração, responsáveis por centro de custo, diretor da UN e acionistas da empresa\n Location : Macaé e Região, Brasil\n \n Job Title : Analista contábil senior\n Company name : Ocyan\n Period : abr. de 211 – mai. de 213\n Summary : • Reporte ao controller corporativo\n • Responsável pela revisão e acompanhamento da contabilização nos centros de custo conforme os pronunciamentos contábeis em exercício assim como a avaliação e implementação de novos pronunciamentos\n • Supervisão do fechamento contábil da empresa prestando suporte para as unidades de negócio e garantindo a integridade contábil\n • Avaliação dos impactos contábeis das movimentações e instrumentos societários\n • Apoio na elaboração das demonstrações financeiras da empresa\n Location : Rio de Janeiro e Região, Brasil\n \n \n Job Title : Auditor senior\n Company name : Ernst & Young Terco\n Period : nov. de 27 – mar. de 211\n Summary : • Planejamento e gerenciamento das equipes de auditoria externa no desenvolvimento dos testes de auditoria de acordo com a metodologia EY\n • Análise de cash flow e budget;\n • Revisão da consolidação contábil, análise da adequação a normas contábeis, lei 11638/7;\n • Preparo e revisão dos relatórios de auditoria e pareceres;\n Location : Rio de Janeiro e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Professional certifications: MBA\n Certifications: Title : CRC\n Period : Emitido em dez. de 2010 - Nenhuma data de expiração\n Issuing Authority : Conselho Regional de Contabilidade do Rio de Janeiro - CRC RJ"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Insper\n Speciality : Master of Business Administration (MBA), Management and Finance\n Period : 217 – 218\n Summary : Executive Finance MBA\n School name : Universidade Candido Mendes\n Speciality : Ciências Contábeis, Contabilidade e finanças\n Period : 28 – 21\n \n School name : Pontifícia Universidade Católica do Rio de Janeiro\n Speciality : Administração de empresas, Finanças, administração\n Period : 23 – 28"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "142390cc-be44-4f0d-8b35-91c3addeb4a2",
+    "id": "b3a3e8cf-3cd1-4059-a656-9ffedb098d60*142390cc-be44-4f0d-8b35-91c3addeb4a2",
+    "talent": {
+      "updatedAt": "2023-12-20T14:04:36.279Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:04:36.279Z",
+      "linkedinUsername": "luiz-colin-b4a8a260",
+      "email": "luiz_colin@yahoo.com.br",
+      "phone": "11993774638",
+      "name": "Luiz Colin",
+      "id": "142390cc-be44-4f0d-8b35-91c3addeb4a2"
+    },
+    "timeInCurrentStage": 61412100461
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.545Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Especialista Contábil"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Especialista Contábil\n Company name : Grupo Equatorial Energia\n Period : set. de 22 – o momento\n Summary : Elaboração e revisão das demonstrações financeiras societárias e regulatórias, de acordo com as Normas Contábeis Brasileiras e Normas do Setor Elétricos vigentes, para atendimentos da CVM e ANEEL Avaliação de contabilização advindas de novos CPC's/IFRS's, estudo quanto aos requerimentos mínimos de divulgação exigidos pelos CPC's/IFRS's Elaboração de modelagem contábil (Due Diligence) para projetos de aquisição Realização de diagnóstico interno e elaboração de relatório de pontos controles internos\n Location : São Luís e Região\n \n Job Title : Supervisora de Auditoria Contábil\n Company name : KPMG Brasil\n Period : out. de 219 – set. de 22\n Summary : -Acompanhamento de todos os processos de auditoria de Demonstrações Financeiras (Balanço Patrimonial, DRE, DMPL, DRA, DFC e Notas explicativas) e Reportings Packages, confecção de relatórios de controles internos\n -Execução de procedimentos de auditoria, seguindo as normas CPC, NBC TA, ISA, IFRS, BR GAAP, US GAAP e CVM\n -Elaboração de fluxos de controles internos, inclusive SOX e matriz de riscos\n -Definição de materialidade, contas significativas e riscos significativos Revisão analítica de contas e índices financeiros, testes substantivos, testes de detalhes, SAP, confirmação externa e amostragens\n -Gerenciamento de equipes, desenvolvimento de pessoas e aconselhamento de carreira\n -Desenvolvimento de trabalhos em diferentes segmentos empresarias, como Energético, Indústrias diversas, Construção Civil, Serviços Financeiros e de Educação, com foco em análise de contas de Receita e Custos de vendas e prestação de serviços, Contas a receber e a pagar, Estoques, Caixa e equivalentes de caixa, Aplicações financeiras, Empréstimos, Imobilizado e Intangível, Contingências, Leasing, Partes relacionadas\n -Uso de ferramentas tecnológicas relacionadas aos procedimentos de auditoria dentro da firma (TAACs e SATs, Cognitivas e Data & Analytics, como IDEA e CaseWare) e do pacote Microsoft Office (Excel, Word, Power Point)\n Location : Salvador e Região, Brasil\n \n Job Title : Auditora Contábil Sênior B\n Company name : KPMG Brasil\n Period : out. de 218 – set. de 219\n Location : Salvador e Região, Brasil\n \n Job Title : Auditora Contábil Sênior C\n Company name : KPMG Brasil\n Period : out. de 217 – set. de 218\n Location : Salvador e Região, Brasil\n \n Job Title : Assistente de Auditoria Contábil A\n Company name : KPMG Brasil\n Period : out. de 216 – set. de 217\n Location : Belém e Região, Brasil\n \n Job Title : Assistente de Auditoria Contábil B\n Company name : KPMG Brasil\n Period : mai. de 216 – set. de 216\n Location : Belém e Região, Brasil\n \n Job Title : Trainee de Auditoria Contábil\n Company name : KPMG Brasil\n Period : set. de 215 – abr. de 216\n Location : Belém e Região, Brasil\n \n Job Title : Analista Contábil\n Company name : Conceito Contabilidade E Consultoria\n Period : jun. de 214 – ago. de 215\n Summary : -Realização de lançamentos contábeis, elaboração de demonstrativos e planilhas de controle financeiro e conciliação bancária\n -Acompanhamento de rotinas de fechamento contábil e financeiro\n -Realização e transmissão de declarações de imposto de renda pessoa física e jurídica\n -Alteração e constituição de contratos e estatutos sociais, bem como a formalização de processos em órgão públicos\n Location : Belém e Região, Brasil\n \n \n Job Title : Apoio Contábil às Promotorias\n Company name : Ministério Público do Pará\n Period : mai. de 212 – dez. de 213\n Summary : -Análise de prestação de contas de entidades sem fins lucrativos de interesse social, incluindo demonstrativos contábeis, DIPJ, RAIS, Estatuto Social, entre outros documentos\n -Elaboração de diligências, pareceres e atestados de regular funcionamento, e encaminhamento para aprovação da promotoria\n Location : Belém e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : CNAI-QTG\n Period : Emitido em nov. de 2019 - Nenhuma data de expiração\n Issuing Authority : CFC - Conselho Federal de Contabilidade (CFC)\n Title : Fundamentos em Gestão de Projetos\n Period : Emitido em jun. de 2017 - Nenhuma data de expiração\n Issuing Authority : Projetti Inovatti - Consultoria e Treinamento em Gestão de Projetos\n \n Title : CRC/PA\n Period : Emitido em mai. de 2014 - Nenhuma data de expiração\n Issuing Authority : CFC - Conselho Federal de Contabilidade (CFC)"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Federal do Pará\n Speciality : Bacharelado, Ciências Contábeis\n Period : 21 – 214\n Courses: Title : Auditoria e Contabilidade; Title : Auditoria e Contabilidade; Title : Auditoria e Contabilidade; Title : Auditoria e Contabilidade; Title : Auditoria e Contabilidade; Title : Auditoria e Contabilidade; \n Title : Auditoria e Contabilidade"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "b0527807-e016-44f0-ba26-b2c064528140",
+    "id": "b3a3e8cf-3cd1-4059-a656-9ffedb098d60*b0527807-e016-44f0-ba26-b2c064528140",
+    "talent": {
+      "updatedAt": "2023-12-20T13:53:39.686Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:53:39.686Z",
+      "linkedinUsername": "paula-rocha-2019",
+      "email": "paulanrocha@hotmail.com",
+      "phone": "91993850009",
+      "name": "Paula Rocha",
+      "id": "b0527807-e016-44f0-ba26-b2c064528140"
+    },
+    "timeInCurrentStage": 61412400461
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.530Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Executivo Corporativo de Contabilidade, Consolidação e Divulgação"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Executivo Corporativo de Contabilidade, Consolidação e Divulgação\n Company name : Grupo Equatorial Energia\n Period : mai. de 22 – o momento\n Location : São Luís, Maranhão\n \n Job Title : Coordenador de Controladoria\n Company name : Fertgrow\n Period : ago. de 219 – abr. de 22\n Location : São Luís e Região, Brasil\n \n Job Title : Analista Sênior de Consolidação, Reporting e Contabilidade Corporativa\n Company name : Equatorial Energia\n Period : set. de 217 – jul. de 219\n Location : São Luís e Região, Brasil\n \n \n Job Title : Sênior de Auditoria Externa | \"Big Four\"\n Company name : EY\n Period : ago. de 212 – jul. de 217\n Location : Fortaleza e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Professional certifications: FP&A\n Certifications: Title : CNAI - Exame de Qualificação Técnica\n Period : Emitido em set. de 2015 - Nenhuma data de expiração\n Issuing Authority : CFC - Conselho Federal de Contabilidade (CFC)\n \n Title : CRC - Registro no Órgão de Classe\n Period : Emitido em mar. de 2015 - Nenhuma data de expiração\n Issuing Authority : CFC - Conselho Federal de Contabilidade (CFC)"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade de São Paulo\n Speciality : Master of Business Administration - MBA, Finanças e Controladoria\n Period : 22 – 221\n \n School name : Universidade Federal do Ceará\n Speciality : Bacharel em Ciências Contábeis, Contabilidade\n Period : 28 – 214"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "3e53ce55-f249-421c-892f-7019479edc37",
+    "id": "b3a3e8cf-3cd1-4059-a656-9ffedb098d60*3e53ce55-f249-421c-892f-7019479edc37",
+    "talent": {
+      "company": "Alubar",
+      "createdAt": "2023-12-20T13:51:47.716Z",
+      "email": "rbezerra960@gmail.com",
+      "linkedinUsername": "rafael-bezerra-81575853",
+      "name": "Rafael Bezerra",
+      "phone": "",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-05-05T17:12:10.638Z",
+      "id": "3e53ce55-f249-421c-892f-7019479edc37"
+    },
+    "timeInCurrentStage": 61413000461
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.623Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "08/09/1977"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "18000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês: Avançado"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Não Diverso"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador Tributário/Fiscal"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador Tributário/Fiscal\n Company name : Omega Energia\n Period : jul. de 221 – o momento\n Location : São Paulo, São Paulo, Brasil\n \n Job Title : Corporate Tax Coordinator - Holding\n Company name : GRUPO NC\n Period : mai. de 219 – jul. de 221\n Summary : • Participar da Estruturação da área de Tax Corporativo do Grupo NC (Farmacêutica, Rádio e TV, Construção e Incorporação, Energia e Cosméticos);\n • Suporte ao CSI (Central de Serviços Compartilhados) no que tange a legislação, melhorias de processos, bem como acompanhamento e análise dos KPI´s (compliance das obrigações acessórias e apurações) dos tributos diretos e indiretos;\n • Suporte ao Jurídico Tributário na fiscalização e contencioso tributário; Suporte a auditoria interna e externa;\n • Tax Business partner - projetos de revisão de operações, novos produtos e processos junto aos demais stakeholders, a fim de identificar redução de risco tributário e eficiência tributária;\n • Planejamento Tributário- reestruturação de processos, societário e de operações;\n • Manutenção dos Incentivos fiscais federais e estaduais (Inovação tecnológica, PPB, Lucro da Exploração, Crédito Presumido de ICMS, etc);\n • Representar as empresas do grupo em reuniões junto aos órgãos governamentais, bem como associações e sindicatos dos ramos de atuação do grupo;\n • Atendimento as consultorias tributárias externas e demais escritórios\n Location : Hortolândia, São Paulo\n \n Job Title : Tax Coordinator\n Company name : Decolar.com\n Period : set. de 217 – mai. de 219\n Summary : Tax Compliance dos tributos diretos (IRPJ/CSLL) e cumprimento das obrigações acessórias (ECF);Transfer Pricing; Suporte Demonstração Financeira; Report Internacional\n Revisão de processos operacionais para propor/definir melhorias; Planejamento tributário - Suporte às demandas do planejamento estratégico Novos Negócios e novos projetos Análise e acompanhamento de novas legislações e suporte às demais áreas; \n Atendimento à fiscalização e auditoria externa; Garantir os controles internos (SOX)\n Location : Barueri, São Paulo\n \n Job Title : Tax Consultant\n Company name : Autônoma\n Period : jan. de 217 – ago. de 217\n Summary : Atuação na prestação de serviços de Consultoria Tributária em trabalhos de levantamento de créditos de ICMS, IPI, PIS/COFINS, revisão de obrigações acessórias (EFD ICMS/IPI, EFD Contribuições), reestruturação societária, identificação de aplicação dos benefícios fiscais (Drawback, RECOF, Reintegra, etc); \n Apuração/Revisão dos tributos diretos IRPJ/CSLL; Revisao de obrigacoes acessorias (ECF, Perdcomp, etc) Revisão de fluxo de processo e identificação de melhoria; Redução de carga tributária; Estudos e estimativas de novas operações; Revisão Transfer Princing;\n Location : São Paulo e Região, Brasil\n \n Job Title : Gestora de Planejamento Tributário de Tributos Diretos e Indiretos\n Company name : GRUPO SBF\n Period : set. de 215 – ago. de 216\n Summary : • Estruturar equipe e projetos de planejamento tributário; Realizar estudos de viabilidade e implantação de planejamento tributário - Lojas Físicas e e-commerce; Revisão da carga tributária dos tributos ICMS, ICMS/ST, PIS/COFINS, IRPJ/CSLL e incentivos fiscais; Cruzamentos das obrigações acessórias; Regularização cadastral, Certidões e Parcelamentos (federais e estaduais); Atendimento a fiscalização e à auditoria; Acompanhar alterações da legislação tributária que impactam varejo e o e-commerce (diretos e indiretos); Preparar estimativa de recolhimento dos tributos anual e acompanhar o impacto no orçamento; Gestão de equipe;\n • Análise impactos tributários/contábeis e implantação de novas operações e projetos fiscais; revisão de processos e procedimentos fiscais para otimização de riscos e customização do sistema; Revisão de ressarcimento de ICMS-ST /SP (CAT 17/99)\n Location : São Paulo, São Paulo\n \n Job Title : Corporate Tax Planning Specialist\n Company name : Marfrig Global Foods\n Period : jul. de 214 – ago. de 215\n Summary : Reporte direto ao Diretor Financeiro e ao Diretor Jurídico, responsável por: • Acompanhamento de carga tributária efetiva Estudos impactos fiscais/contábeis das alterações na legislação tributária Suporte à implantação de projetos fiscais;\n • Planejamento Tributário - Mapeamento e adequação do fluxo das operações para redução de risco fiscal, saldo credor e de carga tributária; participar de reuniões técnicas junto aos órgãos governamentais; Atendimento à fiscalização e à auditoria, emissão de pareceres fiscais; Suporte as informações da Demonstração Financeira; Estudos/estimativas para negociação e implantação de incentivos fiscais de ICMS; Consultoria tributária às demais áreas de negócio; Liderança de equipe\n Location : Itupeva - SP\n \n Job Title : Indirect Tax Coordinator IV - Incentive Tax\n Company name : Cervejaria Ambev\n Period : out. de 212 – abr. de 214\n Summary : • Estruturar a área (equipe, processos e atividades) de Incentivos Fiscais e Regimes Especiais estaduais e federais Suporte à implantação de nova versão do SAP; Implantação do projeto de customização das apurações dos incentivos fiscais de ICMS no ERP (SAP/ Mastersaf); Revisão dos procedimentos fiscais com redução de risco fiscal e aumento na captura dos incentivos estaduais; Estimar e acompanhar impactos tributários no orçamento;\n • Suporte à negociação de incentivos fiscais; Gestão e liderança de equipe\n Location : Jaguariuna - SP\n \n Job Title : Corporate Tax Planning Coordinator\n Company name : Saint-Gobain Brasil\n Period : set. de 211 – set. de 212\n Summary : Reporte direto ao Diretor Financeiro e à Gerente de Controladoria, responsável por: • Estruturar os projetos de planejamento tributário (Brasilit, Placo, Isover); Acompanhar a carga tributária efetiva tributos diretos e indiretos; Revisão de apuração fiscal, das obrigações acessórias e dos procedimentos fiscais redução de risco fiscal; suporte à implantação de projetos fiscais tributos diretos e indiretos; identificar estratégias de planejamento tributário para redução de carga tributária;\n • Estudos/Estimativas de impacto fiscal/contábil de novos produtos, implantação de novas fábricas, novas obrigações acessórias e novas operações comercias; Estimativas para suporte na negociação dos incentivos fiscais federais e estaduais; suporte às demais áreas da empresa; Análise de impactos e definição das regras sistêmicas trazidas pelas alterações tributárias; Treinamento técnico aos responsáveis da área de negócio; Liderança de Equipe\n Location : São Paulo, São Paulo\n \n Job Title : Senior Indirect Tax Consultant\n Company name : PwC\n Period : jul. de 29 – mar. de 211\n Location : Campinas e Região, Brasil\n \n Job Title : Indirect Tax Consultant\n Company name : PwC\n Period : abr. de 28 – jun. de 29\n Location : Campinas e Região, Brasil\n \n Job Title : Analista Fiscal Pleno\n Company name : Galena Farmacêutica\n Period : mar. de 26 – dez. de 27\n Location : Campinas e Região, Brasil\n \n \n Job Title : Analista Contábil Fiscal\n Company name : SHV Gas\n Period : fev. de 25 – mar. de 26\n Location : Paulínia, São Paulo"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : English Click - Pronuncian\n Period : Emitido em nov. de 2020 - Nenhuma data de expiração\n Issuing Authority : American Ways\n Title : Professional & Self Coaching\n Period : Emitido em mar. de 2019 - Nenhuma data de expiração\n Issuing Authority : Instituto Brasileiro de Coaching - IBC\n \n Title : Certificado Moving Up 3.1\n Period : Emitido em set. de 2018 - Nenhuma data de expiração\n Issuing Authority : high stakes academy"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/rosimeireespecialistafiscal"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "9dbdef85-b05e-4082-8feb-492a1eef8b26",
+    "id": "b3a3e8cf-3cd1-4059-a656-9ffedb098d60*9dbdef85-b05e-4082-8feb-492a1eef8b26",
+    "talent": {
+      "updatedAt": "2023-12-20T14:02:32.858Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:02:32.858Z",
+      "linkedinUsername": "rosimeireespecialistafiscal",
+      "email": "rosimeire.especialistafiscal@gmail.com",
+      "phone": "5519993042627",
+      "name": "Rosimeire Santos",
+      "id": "9dbdef85-b05e-4082-8feb-492a1eef8b26"
+    },
+    "timeInCurrentStage": 61413000461
+  }
+]

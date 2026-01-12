@@ -1,0 +1,61 @@
+[
+  {
+    "createdAt": "2024-10-10T17:23:01.811Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2024-02-14T21:12:00.057Z",
+        "name": "Listagem",
+        "id": "01HPMQCM9SD9T4ENZ31GTVTFV9",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "type": "listing",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2024-02-14T21:12:00.057Z"
+      },
+      "createdAt": "2024-02-14T21:12:00.057Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2024-02-14T21:12:00.057Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "a7493d83-6267-4662-b36b-432dd03494f3",
+    "updatedAt": "2024-10-10T17:25:57.574Z",
+    "userId": "c149b607-939e-4fea-bc65-0f29d2b9a406",
+    "userName": "Guto Polycarpo",
+    "id": "ab1f7522-7466-4480-abe4-83c6e021761d*a7493d83-6267-4662-b36b-432dd03494f3",
+    "tags": [
+      {
+        "createdAt": "2024-10-10T17:23:57.759Z",
+        "color": "#4ac4d4",
+        "name": "1-shortlist",
+        "id": "01J9VQAVNZG3CNX2JBS9NPFRZ8",
+        "userName": "Guto Polycarpo",
+        "userId": "c149b607-939e-4fea-bc65-0f29d2b9a406",
+        "updatedAt": "2024-10-10T17:24:20.251Z"
+      }
+    ],
+    "talent": {
+      "company": "",
+      "contactMethod": "email",
+      "createdAt": "2024-01-17T12:26:04.591Z",
+      "email": "guto.polycarpo@peopleoriented.com.br",
+      "headline": "",
+      "linkedinUsername": "guto-polycarpo",
+      "location": "",
+      "name": "Guto Polycarpo",
+      "phone": "+5521988287899",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQFTYJLWvLf9nA/profile-displayphoto-shrink_200_200/0/1633543067659?e=1727308800&v=beta&t=OpODf0RhpMi1ybPp_dcEN5BYEs-vFyA2c0kgERPNTEM",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-10-10T18:03:36.258Z",
+      "userId": "c149b607-939e-4fea-bc65-0f29d2b9a406",
+      "userName": "Guto Polycarpo",
+      "id": "a7493d83-6267-4662-b36b-432dd03494f3"
+    },
+    "timeInCurrentStage": 39674814755
+  }
+]

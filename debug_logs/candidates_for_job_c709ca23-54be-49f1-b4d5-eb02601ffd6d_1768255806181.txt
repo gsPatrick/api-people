@@ -1,0 +1,4364 @@
+[
+  {
+    "importedAt": "2023-12-20T14:45:28.593Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "BRK Ambiental"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/wilson-luiz-feliciano-748bb297"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T16:44:36.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T16:44:36.000Z",
+    "talentId": "0013cd7f-dd0d-4fd7-b2aa-66b36e0d1df5",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*0013cd7f-dd0d-4fd7-b2aa-66b36e0d1df5",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.816Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.816Z",
+      "email": "orgfeliciano@gmail.com",
+      "phone": "",
+      "name": "Wilson Luiz Feliciano",
+      "id": "0013cd7f-dd0d-4fd7-b2aa-66b36e0d1df5"
+    },
+    "timeInCurrentStage": 68707530026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.580Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "BRK Ambiental"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/álvaro-viana-dos-santos-ba7999233"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T16:11:54.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T16:11:54.000Z",
+    "talentId": "19cbabef-a8f0-414e-8430-a99c1f6e2a6f",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*19cbabef-a8f0-414e-8430-a99c1f6e2a6f",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.441Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.441Z",
+      "email": "importacao512@importacaoinhire.com",
+      "phone": "",
+      "name": "Álvaro Viana dos Santos",
+      "id": "19cbabef-a8f0-414e-8430-a99c1f6e2a6f"
+    },
+    "timeInCurrentStage": 68709492026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.513Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "G4S"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Tax Coordinator"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:15:02.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:15:02.000Z",
+    "talentId": "90c7201e-9009-4cf8-8067-e12f3304dfa7",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*90c7201e-9009-4cf8-8067-e12f3304dfa7",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.486Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.486Z",
+      "email": "anadrika@yahoo.com.br",
+      "phone": "11965610743",
+      "name": "Adriana Faria",
+      "id": "90c7201e-9009-4cf8-8067-e12f3304dfa7"
+    },
+    "timeInCurrentStage": 68630104026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.825Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Aegea Saneamento e Participações S.A."
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/joanaandreazzaclaudino"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T20:48:31.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T20:48:31.000Z",
+    "talentId": "e3e194aa-5107-4fb0-964f-c593603cfd3b",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*e3e194aa-5107-4fb0-964f-c593603cfd3b",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.110Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.110Z",
+      "email": "joanaacsantos@gmail.com",
+      "phone": "",
+      "name": "Joana Andreazza Claudino",
+      "id": "e3e194aa-5107-4fb0-964f-c593603cfd3b"
+    },
+    "timeInCurrentStage": 68692895026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.918Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Grupo Equatorial Energia"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/frederico-nolasco-8aa36054"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T13:58:31.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T13:58:31.000Z",
+    "talentId": "f52fd796-5588-4dfb-8a21-0c526901926c",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*f52fd796-5588-4dfb-8a21-0c526901926c",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.158Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.158Z",
+      "email": "importacao4296@importacaoinhire.com",
+      "phone": "",
+      "name": "Frederico Nolasco",
+      "id": "f52fd796-5588-4dfb-8a21-0c526901926c"
+    },
+    "timeInCurrentStage": 68631095026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.489Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Aegea Saneamento e Participações S.A."
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/mariana-rabha"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T20:57:45.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T20:57:45.000Z",
+    "talentId": "ed761abb-72be-441e-b2a9-1fae91fccf09",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*ed761abb-72be-441e-b2a9-1fae91fccf09",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.676Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.676Z",
+      "email": "importacao7647@importacaoinhire.com",
+      "phone": "",
+      "name": "Mariana Rabha",
+      "id": "ed761abb-72be-441e-b2a9-1fae91fccf09"
+    },
+    "timeInCurrentStage": 68692341026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.988Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/andreia-gusmao-de-oliveira"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:16:21.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:16:21.000Z",
+    "talentId": "f3550f60-4235-48a8-b5a6-82fbaee055a6",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*f3550f60-4235-48a8-b5a6-82fbaee055a6",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.062Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.062Z",
+      "email": "importacao995@importacaoinhire.com",
+      "phone": "",
+      "name": "Andreia Gusmao de Oliveira",
+      "id": "f3550f60-4235-48a8-b5a6-82fbaee055a6"
+    },
+    "timeInCurrentStage": 68630025026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.535Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Grupo Águas do Brasil"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/adriana-calil"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:14:25.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:14:25.000Z",
+    "talentId": "15b8dcac-375d-45ef-b527-95883933aa8e",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*15b8dcac-375d-45ef-b527-95883933aa8e",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.210Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.210Z",
+      "email": "importacao69@importacaoinhire.com",
+      "phone": "",
+      "name": "Adriana Calil Faria",
+      "id": "15b8dcac-375d-45ef-b527-95883933aa8e"
+    },
+    "timeInCurrentStage": 68630141026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.140Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Grupo Águas do Brasil"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/rodney-martins-argolo-13402aa3"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:17:06.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:17:06.000Z",
+    "talentId": "d0549e1a-9769-4906-ba06-4c9121df495e",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*d0549e1a-9769-4906-ba06-4c9121df495e",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.830Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.830Z",
+      "email": "importacao9771@importacaoinhire.com",
+      "phone": "",
+      "name": "Rodney Martins Argolo",
+      "id": "d0549e1a-9769-4906-ba06-4c9121df495e"
+    },
+    "timeInCurrentStage": 68629980026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.393Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/vinícius-da-mata-5753a21b9"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T17:19:55.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T17:19:55.000Z",
+    "talentId": "0a9913f6-dc05-4262-835a-ba4f8189a0a6",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*0a9913f6-dc05-4262-835a-ba4f8189a0a6",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.252Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.252Z",
+      "email": "importacao11137@importacaoinhire.com",
+      "phone": "",
+      "name": "Vinícius da Mata",
+      "id": "0a9913f6-dc05-4262-835a-ba4f8189a0a6"
+    },
+    "timeInCurrentStage": 68705411026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.440Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/jonas-lopes1"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T16:09:16.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T16:09:16.000Z",
+    "talentId": "50acdea9-f13d-4016-877f-64a1504d5d4a",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*50acdea9-f13d-4016-877f-64a1504d5d4a",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.881Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.881Z",
+      "email": "jonash.lopes@outlook.com",
+      "phone": "",
+      "name": "Jonas Lopes",
+      "id": "50acdea9-f13d-4016-877f-64a1504d5d4a"
+    },
+    "timeInCurrentStage": 68709650026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.271Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/lívio-gabriel-ciscotto-brandão-733272105"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T22:35:25.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T22:35:25.000Z",
+    "talentId": "e989edee-c8ec-4222-ba03-9882cee2c14c",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*e989edee-c8ec-4222-ba03-9882cee2c14c",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.257Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.257Z",
+      "email": "importacao6532@importacaoinhire.com",
+      "phone": "",
+      "name": "Lívio Gabriel Ciscotto Brandão",
+      "id": "e989edee-c8ec-4222-ba03-9882cee2c14c"
+    },
+    "timeInCurrentStage": 68686481026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.677Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Grupo Águas do Brasil"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/natan-cezario-5a053a20"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:20:38.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:20:38.000Z",
+    "talentId": "8819457d-9117-4e83-b34c-935cb0e7c7fa",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*8819457d-9117-4e83-b34c-935cb0e7c7fa",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.714Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.714Z",
+      "email": "importacao8240@importacaoinhire.com",
+      "phone": "",
+      "name": "Natan Cezario",
+      "id": "8819457d-9117-4e83-b34c-935cb0e7c7fa"
+    },
+    "timeInCurrentStage": 68629768026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.355Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/ana-paula-molina-306387238"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:14:01.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:14:01.000Z",
+    "talentId": "b2ba9085-8998-4eb0-81c5-79b8268b1bbf",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*b2ba9085-8998-4eb0-81c5-79b8268b1bbf",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.696Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.696Z",
+      "email": "importacao725@importacaoinhire.com",
+      "phone": "",
+      "name": "Ana Paula Molina",
+      "id": "b2ba9085-8998-4eb0-81c5-79b8268b1bbf"
+    },
+    "timeInCurrentStage": 68630165026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.612Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/fernanda-barreto-de-oliveira-reis-29aa4931"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T16:42:43.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T16:42:43.000Z",
+    "talentId": "ebc95a17-4a53-42cf-b155-eaff1fc3fadc",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*ebc95a17-4a53-42cf-b155-eaff1fc3fadc",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.300Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.300Z",
+      "email": "importacao3882@importacaoinhire.com",
+      "phone": "",
+      "name": "Fernanda Barreto de Oliveira Reis",
+      "id": "ebc95a17-4a53-42cf-b155-eaff1fc3fadc"
+    },
+    "timeInCurrentStage": 68707643026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.737Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Iguá Saneamento"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/thaisthiemysakamoto"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T17:18:13.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T17:18:13.000Z",
+    "talentId": "435507ee-6b8b-4e84-8abf-f46dfde48834",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*435507ee-6b8b-4e84-8abf-f46dfde48834",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.402Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.402Z",
+      "email": "importacao10621@importacaoinhire.com",
+      "phone": "",
+      "name": "Thais Thiemy Sakamoto",
+      "id": "435507ee-6b8b-4e84-8abf-f46dfde48834"
+    },
+    "timeInCurrentStage": 68705513026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.933Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/luis-carlos-da-silva-júnior-1ba589182"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T17:18:19.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T17:18:19.000Z",
+    "talentId": "e8d2196e-7af6-4890-83f0-19a8ca6e0c10",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*e8d2196e-7af6-4890-83f0-19a8ca6e0c10",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.720Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.720Z",
+      "email": "louiscarlos10@icloud.com",
+      "phone": "",
+      "name": "Luis Carlos da Silva Júnior",
+      "id": "e8d2196e-7af6-4890-83f0-19a8ca6e0c10"
+    },
+    "timeInCurrentStage": 68705507026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.312Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/claudio-rocha-de-oliveira-89311730"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:00:04.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:00:04.000Z",
+    "talentId": "e820dfc7-27b0-4a33-8669-ee054e8cd86a",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*e820dfc7-27b0-4a33-8669-ee054e8cd86a",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.335Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.335Z",
+      "email": "importacao2258@importacaoinhire.com",
+      "phone": "",
+      "name": "Claudio Rocha de Oliveira",
+      "id": "e820dfc7-27b0-4a33-8669-ee054e8cd86a"
+    },
+    "timeInCurrentStage": 68631002026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.198Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/jones-maia-de-andrade-164801238"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T22:39:40.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T22:39:40.000Z",
+    "talentId": "7421163e-18a3-4398-ab16-137b048acf4c",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*7421163e-18a3-4398-ab16-137b048acf4c",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.413Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.413Z",
+      "email": "importacao5561@importacaoinhire.com",
+      "phone": "",
+      "name": "Jones Maia de Andrade",
+      "id": "7421163e-18a3-4398-ab16-137b048acf4c"
+    },
+    "timeInCurrentStage": 68686226026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.796Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/rodrigo-da-silva-pereira-a4b569169"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T16:15:55.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T16:15:55.000Z",
+    "talentId": "66a53ca3-94f8-4351-82c4-e63028ea466c",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*66a53ca3-94f8-4351-82c4-e63028ea466c",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.497Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.497Z",
+      "email": "rodrigodspereira@hotmail.com",
+      "phone": "22997092049",
+      "name": "Rodrigo da Silva Pereira",
+      "id": "66a53ca3-94f8-4351-82c4-e63028ea466c"
+    },
+    "timeInCurrentStage": 68709251026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.711Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas de Teresina"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/paula-karolini-de-souza-503799162"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T13:58:21.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T13:58:21.000Z",
+    "talentId": "9dbf82d3-76dd-4558-9848-f29da970d927",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*9dbf82d3-76dd-4558-9848-f29da970d927",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.013Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.013Z",
+      "email": "importacao8593@importacaoinhire.com",
+      "phone": "",
+      "name": "PAULA KAROLINI DE SOUZA",
+      "id": "9dbf82d3-76dd-4558-9848-f29da970d927"
+    },
+    "timeInCurrentStage": 68631105026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.766Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/rogerbayeh"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:17:32.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:17:32.000Z",
+    "talentId": "2906ef75-7718-46e8-9071-0d346a3fa4ff",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*2906ef75-7718-46e8-9071-0d346a3fa4ff",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.113Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.113Z",
+      "email": "importacao9952@importacaoinhire.com",
+      "phone": "",
+      "name": "Roger Bayeh",
+      "id": "2906ef75-7718-46e8-9071-0d346a3fa4ff"
+    },
+    "timeInCurrentStage": 68629954026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.074Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Iguá Saneamento"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/matheus-reato"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T13:57:39.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T13:57:39.000Z",
+    "talentId": "abbfc557-5594-4823-85df-ba92c9648bee",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*abbfc557-5594-4823-85df-ba92c9648bee",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.220Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.220Z",
+      "email": "importacao7842@importacaoinhire.com",
+      "phone": "",
+      "name": "Matheus Reato",
+      "id": "abbfc557-5594-4823-85df-ba92c9648bee"
+    },
+    "timeInCurrentStage": 68631147026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.810Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "BRK Ambiental"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/mariana-assef-s-douglas-12263a27"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T16:14:38.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T16:14:38.000Z",
+    "talentId": "5260185d-5f58-4792-8322-1109b5474ae3",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*5260185d-5f58-4792-8322-1109b5474ae3",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.412Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.412Z",
+      "email": "mari_assef@yahoo.com.br",
+      "phone": "11974677923",
+      "name": "Mariana Assef S. Douglas",
+      "id": "5260185d-5f58-4792-8322-1109b5474ae3"
+    },
+    "timeInCurrentStage": 68709328026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.638Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Grupo Águas do Brasil"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/esrodrigues"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T13:57:24.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T13:57:24.000Z",
+    "talentId": "d177a4d5-8184-4318-8d35-2178fe045daf",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*d177a4d5-8184-4318-8d35-2178fe045daf",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.836Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.836Z",
+      "email": "importacao3469@importacaoinhire.com",
+      "phone": "",
+      "name": "Estéfane Rodrigues",
+      "id": "d177a4d5-8184-4318-8d35-2178fe045daf"
+    },
+    "timeInCurrentStage": 68631162026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.163Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "BRK Ambiental"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/edson-bortolozzo-16a19a105"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T16:08:08.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T16:08:08.000Z",
+    "talentId": "1c721267-ffe0-4acf-9143-c89fd374b24f",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*1c721267-ffe0-4acf-9143-c89fd374b24f",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.290Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.290Z",
+      "email": "bortolozzo.edson@gmail.com",
+      "phone": "",
+      "name": "Edson Bortolozzo",
+      "id": "1c721267-ffe0-4acf-9143-c89fd374b24f"
+    },
+    "timeInCurrentStage": 68709718026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.325Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Aegea Saneamento e Participações S.A."
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/joão-carvalho-86551424a"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:22:35.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:22:35.000Z",
+    "talentId": "cc85ddbd-c895-4db0-aac2-6b4ceb6be756",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*cc85ddbd-c895-4db0-aac2-6b4ceb6be756",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.530Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.530Z",
+      "email": "importacao5433@importacaoinhire.com",
+      "phone": "",
+      "name": "João Carvalho",
+      "id": "cc85ddbd-c895-4db0-aac2-6b4ceb6be756"
+    },
+    "timeInCurrentStage": 68629651026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.218Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas de Teresina"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/bruno-nunes-95225018a"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:19:44.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:19:44.000Z",
+    "talentId": "2ae44ca3-e2a1-4b2b-a71d-8012dbd778eb",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*2ae44ca3-e2a1-4b2b-a71d-8012dbd778eb",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.553Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.553Z",
+      "email": "importacao1566@importacaoinhire.com",
+      "phone": "",
+      "name": "Bruno Nunes",
+      "id": "2ae44ca3-e2a1-4b2b-a71d-8012dbd778eb"
+    },
+    "timeInCurrentStage": 68629822026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.565Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "BRK Ambiental"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/fernando-junior-9682b3a0"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T22:39:57.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T22:39:57.000Z",
+    "talentId": "521171af-d964-426b-ac08-179da6854f29",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*521171af-d964-426b-ac08-179da6854f29",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.487Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.487Z",
+      "email": "importacao4034@importacaoinhire.com",
+      "phone": "",
+      "name": "Fernando Junior",
+      "id": "521171af-d964-426b-ac08-179da6854f29"
+    },
+    "timeInCurrentStage": 68686209026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.016Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/dangelocampos"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T13:56:39.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T13:56:39.000Z",
+    "talentId": "70e51f4f-a939-423b-857c-3ca748eeb0fe",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*70e51f4f-a939-423b-857c-3ca748eeb0fe",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.642Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.642Z",
+      "email": "importacao5638@importacaoinhire.com",
+      "phone": "",
+      "name": "Jose Dangelo Campos",
+      "id": "70e51f4f-a939-423b-857c-3ca748eeb0fe"
+    },
+    "timeInCurrentStage": 68631207026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.904Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Aegea Saneamento e Participações S.A."
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/wallas-rangel-709a3a177"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T16:45:38.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T16:45:38.000Z",
+    "talentId": "16473af4-3e80-458e-bb38-98cf30d599d7",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*16473af4-3e80-458e-bb38-98cf30d599d7",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.468Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.468Z",
+      "email": "wallasegrazi97@gmail.com",
+      "phone": "",
+      "name": "Wallas Rangel",
+      "id": "16473af4-3e80-458e-bb38-98cf30d599d7"
+    },
+    "timeInCurrentStage": 68707468026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.133Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Grupo Equatorial Energia"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/rafael--avila"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:16:43.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:16:43.000Z",
+    "talentId": "80dd4e9c-7bf1-4f46-b55e-5f2d823d20d7",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*80dd4e9c-7bf1-4f46-b55e-5f2d823d20d7",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.572Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.572Z",
+      "email": "importacao8983@importacaoinhire.com",
+      "phone": "",
+      "name": "Rafael Avila",
+      "id": "80dd4e9c-7bf1-4f46-b55e-5f2d823d20d7"
+    },
+    "timeInCurrentStage": 68630003026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.661Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Equatorial Serviços"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/lean-macau-19925052"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:17:17.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:17:17.000Z",
+    "talentId": "ed948d0c-6fe8-4f31-9d4b-25a3c7493541",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*ed948d0c-6fe8-4f31-9d4b-25a3c7493541",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.325Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.325Z",
+      "email": "importacao6187@importacaoinhire.com",
+      "phone": "",
+      "name": "Lean Macau",
+      "id": "ed948d0c-6fe8-4f31-9d4b-25a3c7493541"
+    },
+    "timeInCurrentStage": 68629969026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.247Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "BRK Ambiental"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/eduardocurtis"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:19:55.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:19:55.000Z",
+    "talentId": "5a7a616b-c722-4a4e-b848-c2afc041c8aa",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*5a7a616b-c722-4a4e-b848-c2afc041c8aa",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.437Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.437Z",
+      "email": "importacao3161@importacaoinhire.com",
+      "phone": "",
+      "name": "Eduardo Gonzales de Curtis",
+      "id": "5a7a616b-c722-4a4e-b848-c2afc041c8aa"
+    },
+    "timeInCurrentStage": 68629811026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.299Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "BRK Ambiental"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/flaviochagas"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T16:44:55.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T16:44:55.000Z",
+    "talentId": "76632d09-9f61-4c2e-8a07-6e54238d95fa",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*76632d09-9f61-4c2e-8a07-6e54238d95fa",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.165Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.165Z",
+      "email": "flaviochagasadm@gmail.com",
+      "phone": "82993172787",
+      "name": "Flavio Chagas",
+      "id": "76632d09-9f61-4c2e-8a07-6e54238d95fa"
+    },
+    "timeInCurrentStage": 68707511026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.327Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/ivan-anderson-nunes-chaves-a193b3222"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:15:36.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:15:36.000Z",
+    "talentId": "677027ba-2fa6-49df-b1d0-b267e5781f72",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*677027ba-2fa6-49df-b1d0-b267e5781f72",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.835Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.835Z",
+      "email": "importacao5189@importacaoinhire.com",
+      "phone": "",
+      "name": "Ivan Anderson Nunes Chaves",
+      "id": "677027ba-2fa6-49df-b1d0-b267e5781f72"
+    },
+    "timeInCurrentStage": 68630070026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.878Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Grupo Águas do Brasil"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/peterson-oliveira-neto-82836069"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:16:10.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:16:10.000Z",
+    "talentId": "2f23c2d5-ebbe-4bf3-9b4a-d27b87aa3c9b",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*2f23c2d5-ebbe-4bf3-9b4a-d27b87aa3c9b",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.548Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.548Z",
+      "email": "importacao8855@importacaoinhire.com",
+      "phone": "",
+      "name": "Peterson Oliveira Neto",
+      "id": "2f23c2d5-ebbe-4bf3-9b4a-d27b87aa3c9b"
+    },
+    "timeInCurrentStage": 68630036026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.263Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/herik-lobo"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T16:16:30.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T16:16:30.000Z",
+    "talentId": "6aef9bce-7c26-4d46-ab0f-583c68b69614",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*6aef9bce-7c26-4d46-ab0f-583c68b69614",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.979Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.979Z",
+      "email": "importacao4965@importacaoinhire.com",
+      "phone": "",
+      "name": "Herik Lobo",
+      "id": "6aef9bce-7c26-4d46-ab0f-583c68b69614"
+    },
+    "timeInCurrentStage": 68709216026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.211Z",
+    "stage": {
+      "phase": {
+        "name": "Fit Cultural",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBNAFWBCQT3K9RN9ATK",
+        "type": "culturalFit",
+        "order": 5,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Teste",
+      "id": "4",
+      "userName": "Inhire",
+      "type": "culturalInterview",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 4
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas de Manaus S.A."
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/bruno-bento-de-souza-85a519b8"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T13:57:58.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T13:57:58.000Z",
+    "talentId": "281f74a0-bcf9-4fcc-bfe3-0b550c392afb",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*281f74a0-bcf9-4fcc-bfe3-0b550c392afb",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.998Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.998Z",
+      "email": "importacao1465@importacaoinhire.com",
+      "phone": "",
+      "name": "Bruno Bento de Souza",
+      "id": "281f74a0-bcf9-4fcc-bfe3-0b550c392afb"
+    },
+    "timeInCurrentStage": 68257444026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.275Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/elvys-melo-36478021a"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:15:21.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:15:21.000Z",
+    "talentId": "500238fd-d0d5-4b9a-a723-34da5d762ea6",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*500238fd-d0d5-4b9a-a723-34da5d762ea6",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.514Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.514Z",
+      "email": "importacao3352@importacaoinhire.com",
+      "phone": "",
+      "name": "Elvys Melo",
+      "id": "500238fd-d0d5-4b9a-a723-34da5d762ea6"
+    },
+    "timeInCurrentStage": 68630085026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.958Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/guilherme-passos-884133160"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T16:11:01.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T16:11:01.000Z",
+    "talentId": "938ba3bb-52fe-40a3-a51e-252476a6d5e3",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*938ba3bb-52fe-40a3-a51e-252476a6d5e3",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.160Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.160Z",
+      "email": "gd.passos95@gmail.com",
+      "phone": "",
+      "name": "Guilherme Passos",
+      "id": "938ba3bb-52fe-40a3-a51e-252476a6d5e3"
+    },
+    "timeInCurrentStage": 68709545026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.046Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/og-bonavita-7331ab36"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T22:35:16.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T22:35:16.000Z",
+    "talentId": "4b3e6de4-afca-415a-8e47-c559bdf114a2",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*4b3e6de4-afca-415a-8e47-c559bdf114a2",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.458Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.458Z",
+      "email": "importacao8370@importacaoinhire.com",
+      "phone": "",
+      "name": "Og Bonavita",
+      "id": "4b3e6de4-afca-415a-8e47-c559bdf114a2"
+    },
+    "timeInCurrentStage": 68686490026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.528Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/leonardo-santana-71615a11b"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T13:57:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T13:57:00.000Z",
+    "talentId": "da22060d-c2a2-4d58-a7cd-3b1a252b29bd",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*da22060d-c2a2-4d58-a7cd-3b1a252b29bd",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.921Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.921Z",
+      "email": "importacao6371@importacaoinhire.com",
+      "phone": "",
+      "name": "Leonardo Santana",
+      "id": "da22060d-c2a2-4d58-a7cd-3b1a252b29bd"
+    },
+    "timeInCurrentStage": 68631186026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.189Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/jose-antonio-1a2b3b1a0"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T17:27:46.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T17:27:46.000Z",
+    "talentId": "b9a8fb26-837f-43d1-9333-2751c3270cf9",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*b9a8fb26-837f-43d1-9333-2751c3270cf9",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.908Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.908Z",
+      "email": "importacao5607@importacaoinhire.com",
+      "phone": "",
+      "name": "Jose Antonio",
+      "id": "b9a8fb26-837f-43d1-9333-2751c3270cf9"
+    },
+    "timeInCurrentStage": 68704940026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.715Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "BRK Ambiental"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/mariana-dornellas-a8540684"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T17:27:57.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T17:27:57.000Z",
+    "talentId": "e218f7a9-631b-457e-a41a-604723f51de7",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*e218f7a9-631b-457e-a41a-604723f51de7",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.784Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.784Z",
+      "email": "maripdornellas@yahoo.com.br",
+      "phone": "",
+      "name": "Mariana Dornellas",
+      "id": "e218f7a9-631b-457e-a41a-604723f51de7"
+    },
+    "timeInCurrentStage": 68704929026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.360Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "BRK Ambiental"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/hugo-morinelli"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:19:21.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:19:21.000Z",
+    "talentId": "a3faa500-2c83-443c-bffb-14c66c40a6c8",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*a3faa500-2c83-443c-bffb-14c66c40a6c8",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.098Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.098Z",
+      "email": "hmorinelli@gmail.com",
+      "phone": "",
+      "name": "Hugo Morinelli",
+      "id": "a3faa500-2c83-443c-bffb-14c66c40a6c8"
+    },
+    "timeInCurrentStage": 68629845026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.463Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Aegea Saneamento e Participações S.A."
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/caio-cunha-9404615a"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T20:47:54.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T20:47:54.000Z",
+    "talentId": "e49d2bd4-e9e4-41bb-9014-309eec6310f6",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*e49d2bd4-e9e4-41bb-9014-309eec6310f6",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.636Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.636Z",
+      "email": "caioccunha@hotmail.com",
+      "phone": "",
+      "name": "Caio Cunha",
+      "id": "e49d2bd4-e9e4-41bb-9014-309eec6310f6"
+    },
+    "timeInCurrentStage": 68692932026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.483Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Grupo Águas do Brasil"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/ana-luiza-velbert-gabrig-3224b38b"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:22:14.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:22:14.000Z",
+    "talentId": "fe60a299-3cf9-4318-a6ea-77920126ec8f",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*fe60a299-3cf9-4318-a6ea-77920126ec8f",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.170Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.170Z",
+      "email": "importacao680@importacaoinhire.com",
+      "phone": "",
+      "name": "Ana Luiza Velbert Gabrig",
+      "id": "fe60a299-3cf9-4318-a6ea-77920126ec8f"
+    },
+    "timeInCurrentStage": 68629672026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.031Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/rodrigo-lopes-de-carvalho-0541b5a5"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T13:58:49.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T13:58:49.000Z",
+    "talentId": "ced8a32b-d0ee-4be0-91e6-ccef8346542a",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*ced8a32b-d0ee-4be0-91e6-ccef8346542a",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.265Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.265Z",
+      "email": "importacao9864@importacaoinhire.com",
+      "phone": "",
+      "name": "Rodrigo Lopes de Carvalho",
+      "id": "ced8a32b-d0ee-4be0-91e6-ccef8346542a"
+    },
+    "timeInCurrentStage": 68631077026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.469Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/karine-mahon-b29775123"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T22:38:32.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T22:38:32.000Z",
+    "talentId": "4600d9a3-b25b-4777-a4e5-70a5268e5655",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*4600d9a3-b25b-4777-a4e5-70a5268e5655",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.587Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.587Z",
+      "email": "importacao5983@importacaoinhire.com",
+      "phone": "",
+      "name": "Karine Mahon",
+      "id": "4600d9a3-b25b-4777-a4e5-70a5268e5655"
+    },
+    "timeInCurrentStage": 68686294026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.622Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/arthur-aldred-b67b19196"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T16:08:32.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T16:08:32.000Z",
+    "talentId": "0abafda7-ca32-4247-b95e-8377e650d728",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*0abafda7-ca32-4247-b95e-8377e650d728",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.286Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.286Z",
+      "email": "arthuraldred@hotmail.com",
+      "phone": "",
+      "name": "Arthur Aldred",
+      "id": "0abafda7-ca32-4247-b95e-8377e650d728"
+    },
+    "timeInCurrentStage": 68709694026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.168Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/hiulha-silva-6a629ab2"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T20:57:34.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T20:57:34.000Z",
+    "talentId": "418a7852-1e03-469c-8506-e4bee23ce9c3",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*418a7852-1e03-469c-8506-e4bee23ce9c3",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.619Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.619Z",
+      "email": "importacao4982@importacaoinhire.com",
+      "phone": "",
+      "name": "Hiulha Silva",
+      "id": "418a7852-1e03-469c-8506-e4bee23ce9c3"
+    },
+    "timeInCurrentStage": 68692352026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.379Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "BRK Ambiental"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/daniel-lima-09221926"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T16:16:09.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T16:16:09.000Z",
+    "talentId": "22fcc33e-2d5b-465f-8844-83d038aeb9e4",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*22fcc33e-2d5b-465f-8844-83d038aeb9e4",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.226Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.226Z",
+      "email": "daniel_uft@yahoo.com.br",
+      "phone": "",
+      "name": "Daniel Lima",
+      "id": "22fcc33e-2d5b-465f-8844-83d038aeb9e4"
+    },
+    "timeInCurrentStage": 68709237026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.390Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Sinch"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "13/03/1981"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "19500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "PLR (6 Salários), Plano de Saúde, Alimentação, Seguro de Vida, Previdência Privada (1:1)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Riscos e Compliance"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 Filha"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T16:10:35.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T16:10:35.000Z",
+    "talentId": "e513a66b-878c-49c3-81a1-4a0b5587f193",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*e513a66b-878c-49c3-81a1-4a0b5587f193",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.775Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.775Z",
+      "email": "rodrigosrsousa@gmail.com",
+      "phone": "11982826262",
+      "name": "Rodrigo Sousa",
+      "id": "e513a66b-878c-49c3-81a1-4a0b5587f193"
+    },
+    "timeInCurrentStage": 68709571026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.343Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "BRK Ambiental"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/mayconjulião1409"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:20:04.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:20:04.000Z",
+    "talentId": "6818dd77-f621-42ae-9365-013a68274688",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*6818dd77-f621-42ae-9365-013a68274688",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.109Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.109Z",
+      "email": "importacao7944@importacaoinhire.com",
+      "phone": "",
+      "name": "Maycon Julião",
+      "id": "6818dd77-f621-42ae-9365-013a68274688"
+    },
+    "timeInCurrentStage": 68629802026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.223Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "BRK Ambiental"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/karina-de-fatima-pereira-5496b8149"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T20:57:27.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T20:57:27.000Z",
+    "talentId": "9c3a6bd2-62b6-4787-a419-d269ed319385",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*9c3a6bd2-62b6-4787-a419-d269ed319385",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.307Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.307Z",
+      "email": "kafpereira@gmail.com",
+      "phone": "",
+      "name": "Karina de Fatima Pereira",
+      "id": "9c3a6bd2-62b6-4787-a419-d269ed319385"
+    },
+    "timeInCurrentStage": 68692359026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.110Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Aegea Saneamento e Participações S.A."
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/lucas-nass-de-andrade-88213b184"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:16:52.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:16:52.000Z",
+    "talentId": "6023e4f6-2922-40ec-82df-f909958f869c",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*6023e4f6-2922-40ec-82df-f909958f869c",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.403Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.403Z",
+      "email": "importacao6661@importacaoinhire.com",
+      "phone": "",
+      "name": "Lucas Nass de Andrade",
+      "id": "6023e4f6-2922-40ec-82df-f909958f869c"
+    },
+    "timeInCurrentStage": 68629994026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.690Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Aegea Saneamento e Participações S.A."
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/aline-marchezan-rampelotto-03367b174"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T17:27:36.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T17:27:36.000Z",
+    "talentId": "106d3d9f-90d9-4512-b9c9-e324489eef1d",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*106d3d9f-90d9-4512-b9c9-e324489eef1d",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.706Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.706Z",
+      "email": "importacao434@importacaoinhire.com",
+      "phone": "",
+      "name": "Aline Marchezan Rampelotto",
+      "id": "106d3d9f-90d9-4512-b9c9-e324489eef1d"
+    },
+    "timeInCurrentStage": 68704950026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.649Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Grupo Equatorial Energia"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/edison-rodrigues-telecom"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:22:56.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:22:56.000Z",
+    "talentId": "8364c619-3e27-4609-a6c8-38d46f762ff8",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*8364c619-3e27-4609-a6c8-38d46f762ff8",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.210Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.210Z",
+      "email": "importacao3069@importacaoinhire.com",
+      "phone": "",
+      "name": "Edison Rodrigues",
+      "id": "8364c619-3e27-4609-a6c8-38d46f762ff8"
+    },
+    "timeInCurrentStage": 68629630026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.422Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Aegea Saneamento e Participações S.A."
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/paulo-silva-82822619a"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T22:36:43.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T22:36:43.000Z",
+    "talentId": "37c24ce8-66bb-4f4f-acf8-52556271d4e6",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*37c24ce8-66bb-4f4f-acf8-52556271d4e6",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.547Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.547Z",
+      "email": "importacao8726@importacaoinhire.com",
+      "phone": "",
+      "name": "paulo Silva",
+      "id": "37c24ce8-66bb-4f4f-acf8-52556271d4e6"
+    },
+    "timeInCurrentStage": 68686403026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.509Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/dyocil-menezes-18573143"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:15:54.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:15:54.000Z",
+    "talentId": "2d812497-311a-48fb-bd2e-9dd794d3afae",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*2d812497-311a-48fb-bd2e-9dd794d3afae",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.728Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.728Z",
+      "email": "importacao3037@importacaoinhire.com",
+      "phone": "",
+      "name": "Dyocil Menezes",
+      "id": "2d812497-311a-48fb-bd2e-9dd794d3afae"
+    },
+    "timeInCurrentStage": 68630052026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.237Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Águas do Rio"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/deividy-de-almeida-carvalho"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-09T17:28:12.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-09T17:28:12.000Z",
+    "talentId": "bf1d3e5d-4813-423d-b1fa-36fcce0947c3",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*bf1d3e5d-4813-423d-b1fa-36fcce0947c3",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.817Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.817Z",
+      "email": "eng.deividy@gmail.com",
+      "phone": "",
+      "name": "Deividy de Almeida Carvalho",
+      "id": "bf1d3e5d-4813-423d-b1fa-36fcce0947c3"
+    },
+    "timeInCurrentStage": 68704914026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.852Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Grupo Águas do Brasil"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/munique-tardin-45ab8477"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:16:31.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:16:31.000Z",
+    "talentId": "9a343853-d446-4d09-8be5-6216e278d67a",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*9a343853-d446-4d09-8be5-6216e278d67a",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:50.748Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:50.748Z",
+      "email": "importacao8137@importacaoinhire.com",
+      "phone": "",
+      "name": "Munique Tardin",
+      "id": "9a343853-d446-4d09-8be5-6216e278d67a"
+    },
+    "timeInCurrentStage": 68630015026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.552Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Grupo Equatorial Energia"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/jorge-aquino-47516846"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:18:05.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:18:05.000Z",
+    "talentId": "8a882ceb-76de-433a-9296-4debf2d17624",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*8a882ceb-76de-433a-9296-4debf2d17624",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.634Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.634Z",
+      "email": "importacao5568@importacaoinhire.com",
+      "phone": "",
+      "name": "Jorge Aquino",
+      "id": "8a882ceb-76de-433a-9296-4debf2d17624"
+    },
+    "timeInCurrentStage": 68629921026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:29.419Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "ÁGUAS GUARIROBA S.A."
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/daniel-moreira-0b3522a1"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:10:56.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:10:56.000Z",
+    "talentId": "43290c59-f5fe-4f55-9369-d0ad91e69c1e",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*43290c59-f5fe-4f55-9369-d0ad91e69c1e",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.048Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.048Z",
+      "email": "importacao2507@importacaoinhire.com",
+      "phone": "",
+      "name": "Daniel Moreira",
+      "id": "43290c59-f5fe-4f55-9369-d0ad91e69c1e"
+    },
+    "timeInCurrentStage": 68630350026
+  },
+  {
+    "importedAt": "2023-12-20T14:45:28.301Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Grupo Águas do Brasil"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/mariele-aguiar-albertini-26719a105"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-11-10T14:20:18.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-11-10T14:20:18.000Z",
+    "talentId": "98558c29-88e1-4b27-8622-526676ce2a43",
+    "id": "c709ca23-54be-49f1-b4d5-eb02601ffd6d*98558c29-88e1-4b27-8622-526676ce2a43",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:51.320Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:51.320Z",
+      "email": "importacao7686@importacaoinhire.com",
+      "phone": "",
+      "name": "Mariele Aguiar Albertini",
+      "id": "98558c29-88e1-4b27-8622-526676ce2a43"
+    },
+    "timeInCurrentStage": 68629788026
+  }
+]

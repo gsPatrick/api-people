@@ -1,0 +1,2153 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:21.835Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "15/03/1983"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "14800"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "8.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Elétrica",
+          "id": "9351680b-8549-4071-98fc-d485b31dc312",
+          "label": "Engenharia Elétrica"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade federal do Mato Grosso do Sul"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Key Account / Vendas - Serviços em Energia e Eficiência Energética"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 (5 meses)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Key Account / Vendas - Serviços em Energia e Eficiência Energética\n Company name : CPFL Soluções\n Period : jul. de 214 – o momento\n Summary : Responsável por vendas turn-key de subestações e Linhas de transmissão.\n Location : Campinas\n Job Title : Sales Engineer at EFACEC\n Company name : Efacec\n Period : mai. de 213 – jul. de 214\n Summary : Responsible for Energy Automation Sales in Brazil\n Job Title : Sales Engineer at ABB\n Company name : ABB\n Period : mai. de 212 – mai. de 213\n Summary : Responsible for Energy Automation Sales for all Distribution utilities & Industries in Brazil\n Location : Guarulhos - SP\n Job Title : Tendering Engineer\n Company name : Schneider Electric (AREVA T&D)\n Period : set. de 21 – mai. de 212\n Summary : Responsible for technical solution and Comercial, mitigate risks and create opportunities, manage scope, time, quality and price. Strong interaction with the internal areas of the unit, such as operation, design, legal, purchasing and contracts aimed at optimization of the solution.Experience with Transmission and Distribution Utilities..\n Job Title : Automation Engineer\n Company name : Efacec\n Period : jan. de 28 – set. de 21\n Job Title : Trainee Engineer\n Company name : Enersul, Rede Energia\n Period : 26 – 28"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : FIA - Fundacao Instituto de Adminitracao\n Speciality : MBA Gestao de Negocios, MBA\n Period : 212 – 214\n School name : Universidade Federal de Mato Grosso do Sul\n Speciality : Engineer's degree, Eletrical Engeneering"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d9b096c6-1539-4173-9ac9-d89e682a4245",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*d9b096c6-1539-4173-9ac9-d89e682a4245",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:07.641Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:07.641Z",
+      "linkedinUsername": "fabrício-moisés-93841218",
+      "email": "fabricio_moises@hotmail.com",
+      "phone": "11986150408",
+      "name": "Fabrício Moisés",
+      "id": "d9b096c6-1539-4173-9ac9-d89e682a4245"
+    },
+    "timeInCurrentStage": 61412054947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.652Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Comercialização Pleno"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Comercialização Pleno\n Company name : Trinity Energia\n Period : ago. de 219 – o momento\n Summary : • Relacionamento com produtores independentes e autoprodutores de energia elétrica\n • Relacionamento com comercializadoras, concessionárias e órgãos reguladores do Setor Elétrico Brasileiro\n • Definição de estratégias de comercialização de curto e longo prazo\n • Apresentações técnicas sobre o mercado de energia elétrica\n • Análises e acompanhamento regulatório do Setor Elétrico Brasileiro\n • Suporte à elaboração de propostas comerciais\n Location : São Paulo e Região, Brasil\n \n Job Title : Executivo de Relacionamento - Geradores\n Company name : EIG - Empresa de Inteligência em Gestão de Energia\n Period : mai. de 219 – jul. de 219\n Summary : • Relacionamento com clientes de geração de energia elétrica\n • Relacionamento com comercializadoras\n • Definição de estratégias de comercialização de curto e longo prazo\n • Apresentações técnicas sobre o mercado de energia elétrica\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista de Usinas Jr.\n Company name : EIG - Empresa de Inteligência em Gestão de Energia\n Period : nov. de 218 – mai. de 219\n Summary : • Balanço energético de usinas\n • Suporte em apresentações ténicas\n • Estratégias de sazonalização\n • Provisionamento de receitas\n • Consultoria em análises de viabilidade\n Location : São Paulo e Região, Brasil\n \n Job Title : Estagiário\n Company name : EIG - Empresa de Inteligência em Gestão de Energia\n Period : jan. de 218 – out. de 218\n Summary : • Acompanhamento diário de consumo e geração de clientes;\n • Elaboração de relatórios gerenciais mensais;\n • Elaboração de análises técnicas e regulatórias;\n • Análise de balanço energético e de lastro de energia;\n • Análise de relatórios provenientes do DRI;\n • Acompanhamento de atendimento de contratos no ACR e no ACL;\n • Estudo das regras e procedimentos de comercialização de energia elétrica\n Location : São Paulo, São Paulo\n \n Job Title : Presidente\n Company name : Centro Acadêmico de Engenharia de Energia - UNIFEI\n Period : jun. de 215 – out. de 216\n Summary : • Gestão de pessoas\n • Organização de eventos e visitas ténicas\n • Representação estudantil\n \n \n Job Title : Diretor financeiro\n Company name : Centro Acadêmico de Engenharia de Energia - UNIFEI\n Period : mar. de 214 – jun. de 215\n Summary : • Gestão da equipe financeira\n • Captação de recursos financeiros\n • Responsável pelos processos de recebimentos, pagamentos, faturamentos e gestão de caixa\n • Decisão de investimentos"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Pós-graduação Lato Sensu - MBA Executivo, Negócios do Setor Elétrico\n Period : 221 – 222\n \n School name : Universidade Federal de Itajubá\n Speciality : Bacharelado, Engenharia de Energia\n Period : 213 – 218\n Summary : • Trabalho final de graduação em análise experimental da geração de energia elétrica através de motores de combustão interna a partir de resíduos de eucalipto via rota termoquímica (gaseificação de biomassa)"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "c909def4-f207-42a5-bd85-6663edbf4c2a",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*c909def4-f207-42a5-bd85-6663edbf4c2a",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:35.573Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:35.573Z",
+      "linkedinUsername": "gustavohsmorais",
+      "email": "gustavohsmorais@outlook.com",
+      "phone": "11970422321",
+      "name": "Gustavo Henrique Morais",
+      "id": "c909def4-f207-42a5-bd85-6663edbf4c2a"
+    },
+    "timeInCurrentStage": 61412354947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.621Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "15/07/1983"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "14500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "10.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Mackenzie"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Head Of Commercial Department"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "sem filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Head Of Commercial Department\n Company name : Thymos Energia\n Period : out. de 219 – o momento\n Summary : - Liderança de equipe comercial para fechamento de novos negócios junto ao mercado Livre de Energia (envolvendo o Ambiente de Contratação Livre - ACL e Ambiente de Contratação Regulado - ACR)\n - Administração da unidade de negócio da cia, reportando resultados de vendas, operações e administrativos;\n - Criação, definição e implantação de estratégias comerciais;\n - Gerenciamento de ações comerciais pré e pós-Vendas\n Location : São Paulo e Região, Brasil\n Job Title : Comercial\n Company name : Delta Energia\n Period : fev. de 216 – out. de 219\n Summary : - Prospecção, avaliação e desenvolvimento de negócios junto ao mercado Livre de Energia (envolvendo o Ambiente de Contratação Livre - ACL e Ambiente de Contratação Regulado - ACR)\n - Modelação e estruturação de produtos e serviços destinados a tal mercado, considerando os dados específicos de cada cliente\n - Gestão contínua do relacionamento com os clientes"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Master of Business Administration - MBA, Gestão Estratégica e Econômica de Negócios\n Period : 218 – 219\n School name : Universidade Presbiteriana Mackenzie\n Speciality : Administração de Empresas\n Period : 211 – 215\n School name : Sapienza Università di Roma\n Speciality : Ragioneria\n Period : 27 – 28\n School name : Università degli Studi di Perugia\n Speciality : Diploma\n Period : 25 – 26"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "db5f4b48-a471-4720-b688-985c0833f458",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*db5f4b48-a471-4720-b688-985c0833f458",
+    "talent": {
+      "updatedAt": "2023-12-20T13:57:27.887Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:57:27.887Z",
+      "linkedinUsername": "felipe-furlan-·-829b1213a",
+      "email": "felipe.furlan@thymosenergia.com.br",
+      "phone": "11982062219",
+      "name": "Felipe Furlan .·",
+      "id": "db5f4b48-a471-4720-b688-985c0833f458"
+    },
+    "timeInCurrentStage": 61412054947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.712Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Nacional de Produtos e Serviços - Consultoria e Gerenciamento de Energia"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente Nacional de Produtos e Serviços - Consultoria e Gerenciamento de Energia\n Company name : ENGIE Brasil\n Period : ago. de 218 – o momento\n Location : Porto Alegre, Rio Grande do Sul, Brazil\n \n Job Title : Gestor de Novos Negócios\n Company name : GVENERGY | Consultoria Independente\n Period : out. de 212 – ago. de 218\n Summary : Responsável por apoiar CEO’s, CFO’s e Diretores de empresas na área de suprimentos com o gerenciamento do custo de energia, buscando oportunidades de economia e implementando práticas sustentáveis de negócios;Desenvolvimento de Planos Estratégico de Gestão de Risco relacionado ao Mercado de Energia;Responsável por Inteligência de Mercado de Energia, Compras Estratégicas e Gerenciamento do Portfólio em favor a clientes da GV Energy;\n Location : Porto Alegre e Região, Brasil\n \n Job Title : Gestor Comercial e Exportação\n Company name : Elster Medição de Energia Ltda\n Period : jan. de 23 – out. de 212\n Summary : Gestão da área de exportação, prospecção de novos negócios nos principais mercados de atuação e outros mercados;Estruturação de distribuidores e agentes no Brasil e no exterior, monitorando resultados e estabelecendo relacionamentos de longo prazo; Negociação/vendas com principais clientes da Região Sul e Sudeste do Brasil e do Exterior; Participação na definição e desenvolvimento do planejamento estratégico/tático; Elaboração do plano de venda nacional e de exportação com acompanhamento dos mesmos;Acompanhamento do faturamento de exportação e implementação de ações para atingimento das metas;Aumento do market share da unidade de negócios do Brasil;Intercâmbio de informações estratégicas com demais gerentes de exportação das unidades de negócio do grupo (Alemanha, EUA, Inglaterra e Argentina); Responsável pelo redirecionamento estratégico frente ao posicionamento de novos produtos e tecnologia gerando maior valor agregado nas operações de vendas;Coordenação e participação em feiras e eventos no Brasil e no exterior.\n Location : Porto Alegre, RS, Brazil\n \n Job Title : Gestor de Negócios Internacionais\n Company name : ABB\n Period : fev. de 2 – set. de 23\n Summary : Negociação/vendas de produtos e soluções nos cinco continentes;Elaboração da previsão de vendas de exportação de curto e médio prazo, fornecendo informações estratégicas para o planejamento de materiais/fábrica;Mapeamento das tendências nos principais mercados de atuação, visualizando novos negócios;Acompanhamento das atividades Pós-Vendas Exportação; Responsável pelo crescimento de 3% das vendas internacionais em três anos, aumentando a participação das exportações de 1% para 3% em relação ao faturamento total da empresa por meio da abertura de novos mercados no Oriente Médio, África, Rússia e Hong Kong\n Location : Cachoeirinha, RS Brazil\n \n \n Job Title : Analista de Importação e Exportação\n Company name : Bunge\n Period : mai. de 1995 – fev. de 2\n Summary : .\n Location : Esteio, RS Brazil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas / FGV\n Speciality : MBA em Negociação, Business Administration\n Period : 211 – 212\n School name : Escola Superior de Propaganda e Marketing\n Speciality : MBA em Gestão de Marketing, Marketing\n Period : 1999 – 2\n \n School name : Universidade do Vale do Rio dos Sinos\n Speciality : Formação Superior em Administração de Empresas - Negócios Internacionais, Comércio Exterior\n Period : 1993 – 1998"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "9bdbcb91-190f-48d7-a54a-232646738baa",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*9bdbcb91-190f-48d7-a54a-232646738baa",
+    "talent": {
+      "updatedAt": "2023-12-20T13:55:33.741Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:55:33.741Z",
+      "linkedinUsername": "alessandro-ribeiro",
+      "email": "alessandroribeiro73@gmail.com",
+      "phone": "51981495272",
+      "name": "Alessandro Ribeiro",
+      "id": "9bdbcb91-190f-48d7-a54a-232646738baa"
+    },
+    "timeInCurrentStage": 61412354947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.499Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Consultor Energia"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Consultor Energia\n Company name : Suzano\n Period : mar. de 219 – o momento\n Summary : • Relação Comercial Mercado;• Elaboração e Execução estratégia Compra e Venda;• Implementação Estratégia intra plantas;• Regulação do setor elétrico;• Implementação planos Eficiência Energética.\n Location : São Paulo e Região, Brasil\n \n Job Title : Representante de Clientes no Mercado Livre de Energia\n Company name : CPFL Energia\n Period : mai. de 218 – mar. de 219\n Summary : • Garantir o atendimento a clientes de todos os portes (Grupo A - Tensão contratada acima de 2,3 KV);• Elaborar estudos e relatórios aos clientes garantindo a solução de todos os problemas, dos mais básicos aos mais complexos dos clientes, relacionados ao Mercado Livre ou cativo;• Participar de todas as atividades chaves da Representação CCEE (Faturamento, Gestão de Relatórios, Adesão ao Mercado Livre, Gestão de Contratos, Validação de Contratos de Compra de Energia, suporte ao cliente);• Garantir a adesão de todos os clientes dentro do prazo;• Coordenar reuniões com clientes a fim de garantir o conhecimento e entendimento de todos sobre as operações da CCEE;• Atendimento e envolvimento com clientes internos e externos no desenvolvimento de ferramentas que agreguem no negócio do Grupo CPFL, e ao cliente;• Ser o ponto focal do relacionamento do cliente com a CPFL;• Prospectar clientes de representação para a CPFL.\n Location : Campinas e Região, Brasil\n \n Job Title : Analista de Gestão de Energia e Representação de Consumidores Livres\n Company name : CPFL Energia\n Period : abr. de 217 – mai. de 218\n Summary : • Elaborar e revisar estudos e relatórios aos clientes garantindo a solução de todos os problemas mais complexos dos clientes no Mercado Livre; • Participar de todas as atividades chaves da Representação CCEE (Faturamento, Gestão de Relatórios, Adesão ao Mercado Livre, Gestão de Contratos, Validação de Contratos de Compra de Energia, suporte ao cliente); • Garantir a adesão de todos os clientes dentro do prazo; • Auxiliar a preparação de reuniões com clientes a fim de garantir o conhecimento e entendimento de todos sobre as operações da CCEE; • Atendimento e envolvimento com clientes internos no desenvolvimento de ferramentas que agreguem ao negócio;• Auxiliar e orientar os demais colegas com menor experiência em atividades com maior complexidade e pontos críticos.\n Location : Campinas\n \n Job Title : Analista de Relacionamento Grandes Clientes e Poder Público\n Company name : CPFL Energia\n Period : jan. de 216 – mar. de 217\n Summary : • Análisar, elaborar, controlar e gerir os processos comerciais relativos ao atendimento aos consumidores do Grupo A (ACR e ACL) e Poder Público, pertencentes à área de concessão da distribuidora.• Realizar a gestão de todos os contratos relacionados ao ambientes de contratação regulada (OBRAS/CUSD/CCD/CCER/CFEE), eliminando quaisquer riscos de prejuízos financeiro e a imagem da marca CPFL Energia.• Elaborar contratos, alterações e rescisões contratuais quando solicitado pelo consumidor e conforme legislação vigente.• Contribuir com melhorias nos processos e normas, rotinas diárias e nos sistemas de gestão comercial, buscando soluções para ampliar e otimizar os canais de relacionamento.• Apoiar no cumprimento das legislações que regem o setor para mitigação de riscos regulatórios.• Atuar em campanhas de comunicação aos clientes relativas aos assuntos de interesse da CPFL ou demandados pelos orgãos reguladores.• Promover o relacionamento com os consumidores de forma eficiente, visando consolidar a marca CPFL, prospectando maior produtividade e assertividade nas oportunidades de negócios.• Acompanhar relatórios com os indicadores regulados e de qualidade dos processos, analisar os resultados obtidos e atuar proativamente.\n Location : Campinas e Região, Brasil\n \n Job Title : Técnico de Operação\n Company name : CPFL Energia\n Period : mai. de 29 – dez. de 215\n Summary : • Gestão dos ativos de distribuição;• Operação de sistemas elétricos e de seus equipamentos agregados;• Supervisão e controle de subestações e linhas com foco nos parâmetros elétricos;• Liderança de equipes de campo no que tange fornecimento de energia, manutenção e operação em 15kV;• Suporte técnico e atendimento à clientes, parceiros e permissionárias;• Planejamento da operação com base em demandas de serviço e condições meteorológicas;• Elaboração de documentos para intervenções e testes nas redes; • Análise de indicadores técnicos e de desempenho;• Composição de relatórios técnicos e esquemas de contingência;• Desenvolvimento e aplicação de treinamentos técnicos na área de operação do sistema elétrico.\n Location : Campinas e Região, Brasil\n \n Job Title : Operador de Recuperação de crédito\n Company name : Nelson Paschoalotto Advogados Associados\n Period : fev. de 29 – mai. de 29\n Summary : Recuperação de crédito de processos judiciais frente a instituições financeiras, por meio de acordos junto com ao autor.\n Location : Bauru e Região, Brasil\n \n \n Job Title : Estágiário\n Company name : CPFL Energia\n Period : jan. de 27 – dez. de 28\n Summary : Projeto, programação e acompanhamento de obras na rede de distribuição. Análise e ressarcimento de danos de natureza elétrica.\n Location : Bauru e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Lean Canvas\n Period : Emitido em abr. de 2017 - Nenhuma data de expiração\n Issuing Authority : Inova Unicamp Innovation Agency\n \n Title : Fórum Internacional \"A energia na cidade do Futuro - Visão 2030\"\n Period : Emitido em mar. de 2015 - Nenhuma data de expiração\n Issuing Authority : CPFL Energia"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Dom Cabral\n Speciality : Pós-graduação Lato Sensu, Finanças, Gestão de Negócios com Enfase em Finanças\n Period : 22 – 221\n School name : Universidade Estadual de Campinas\n Speciality : Superior, Engenharia Elétrica e Eletrônica\n Period : 215 – 22\n School name : Anhanguera Educacional\n Speciality : Superior, Direito\n Period : 28 – 212\n \n School name : ETEC Philadelpho Gouvea Netto\n Speciality : Técnico, Telecomunicações\n Period : 26 – 27"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d11ed0c8-b562-4cb2-9b30-bbcb5d3768be",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*d11ed0c8-b562-4cb2-9b30-bbcb5d3768be",
+    "talent": {
+      "updatedAt": "2023-12-20T14:08:10.515Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:08:10.515Z",
+      "linkedinUsername": "fabio-campanholo-a0576bb7",
+      "email": "campanholo90@gmail.com",
+      "phone": "19994092136",
+      "name": "Fabio Campanholo",
+      "id": "d11ed0c8-b562-4cb2-9b30-bbcb5d3768be"
+    },
+    "timeInCurrentStage": 61412354947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.529Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Especialista de Inteligência de Mercado"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Especialista de Inteligência de Mercado\n Company name : Compass Gás e Energia\n Period : out. de 22 – o momento\n Summary : Monitorar todas as variáveis que influenciam na formação dos preços de energia elétrica com ênfase na política de operação, variação de armazenamento, Energia Natural Afluente, vazão por bacia, carga, limites de transmissão, entrada de novos empreendimentos, expectativa de expansão, alterações regulatórias, cronograma de manutenção dos agentes geradores, aprimoramentos metodológicos, etc para incorporação na formulação dos cenários de preços futuros através dos modelos de otimização energética NEWAVE, DECOMP e DESSEM\n \n Domínio dos processos associados à formação de preço de energia e responsável pela estruturação do processo do modelo DESSEM (preço horário), bem como análise comparativa de resultados quando comparados com o modelo DECOMP (preço semanal, por patamar de carga)\n Location : São Paulo, Brasil\n \n Job Title : Engenheiro de Sistemas de Potência Pleno\n Company name : ONS - Operador Nacional do Sistema Eletrico\n Period : dez. de 219 – out. de 22\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Engenheiro de Sistemas de Potencia Jr\n Company name : ONS - Operador Nacional do Sistema Eletrico\n Period : ago. de 217 – dez. de 219\n Summary : Coordenação do Programa Mensal de Operação – PMO, a partir do uso do modelo DECOMP, desenvolvido pelo CEPEL, fornecendo diretrizes para a Programação Diária da Operação do Sistema Interligado Nacional\n Implementação do processo do modelo de despacho semanal – DESSEM para a formação de preço, com o objetivo de refinar as diretrizes de curto prazo e servir de ferramenta auxiliar para definição das diretrizes operativas seguidas pela equipe de Programação Diária da Operação e para a obtenção na precificação horária\n \n Realização de apresentações mensais no PMO para os agentes do Setor Elétrico\n \n Interação direta com entidades do Setor Elétrico a respeito dos parâmetros utilizados para formação de preço, principalmente com a ANEEL e CCEE\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Palestrante convidado\n Company name : Câmara de Comercialização de Energia Elétrica - CCEE\n Period : nov. de 218\n Summary : Curso de Capacitação de Agentes\n A Câmara de Comercialização de Energia Elétrica (CCEE), em parceria com o Operador Nacional do Sistema (ONS), ministra um curso regular para os agentes associados com o objetivo de capacitá-los em relação aos modelos de otimização utilizados para a precificação\n \n Neste evento fui responsável pelo treinamento relacionado aos dados de entrada e saída do modelo DECOMP\n Location : São Paulo, Brasil\n \n Job Title : Estagiária\n Company name : ONS - Operador Nacional do Sistema Elétrico\n Period : abr. de 216 – jun. de 217\n Summary : Estágio na gerência de Programação da Operação\n Participação na confecção do Programa Mensal de Operação – PMO, a partir do uso do modelo DECOMP, desenvolvido pelo CEPEL; Elaboração de apresentações mensais que envolvem a avaliação do mês anterior ao mês em estudo, bem como avaliação das condições futuras da operação; Aprimoramento, desde de novembro de 216, do modelo de despacho semanal – DESSEM, também elaborado pelo CEPEL, com o objetivo de refinar as diretrizes de curto prazo e servir de ferramenta auxiliar para definição das diretrizes operativas seguidas pela equipe de Programação Diária da Operação e para a obtenção na precificação horária da energia elétrica\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Desenhista Cadista\n Company name : Chemtech\n Period : mar. de 212 – jun. de 213\n Summary : Colaboração em projetos, como RNEST e FPSO OSX, onde foram realizados projetos de iluminação, força e aterramento de instalações de refinarias\n Location : Rio de Janeiro Area, Brazil\n \n \n Job Title : Estagiária Técnica de Eletrotécnica\n Company name : Chemtech\n Period : jan. de 211 – fev. de 212\n Summary : Excelente experiencia com auxilio de profissionais muito capacitados e sempre dispostos a orientar Foi possível aperfeiçoar os conhecimentos adquiridos durante o curso técnico e ganhar novos conhecimentos técnicos e de novas ferramentas de desenho e modelagem"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Curso de Inglês Completo\n Issuing Authority : BRASAS English Course"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Pontifícia Universidade Católica do Rio de Janeiro\n Speciality : Mestrado em Sistemas de Energia Elétrica, Engenharia Elétrica\n Period : 219 – 22\n School name : Universidade Estadual de Campinas\n Speciality : Curso de Coordenação da Operação de Sistemas Eletroenergéticos – MiniCOSE, Engenharia Elétrica\n Period : 218 – 218\n Summary : O curso MINICOSE é um curso de extensão universitária com 12 horas de carga horária oferecido pela Escola de Extensão da UNICAMP para profissionais do setor elétrico brasileiro., O curso tem como objetivo propiciar aos participantes conhecimentos nas técnicas de programação matemática, de séries temporais, de redes neurais e de recursos hídricos com aplicações em sistemas de energia elétrica nas áreas de planejamento e programação da operação energética e análise de risco e comercialização de energia.\n School name : Cork Institute of Technology\n Speciality : Graduação Sanduíche de Engenharia Elétrica, Engenharia Elétrica, Foram cursados 2 semestres do curso \"Electrical Power Systems\".\n Period : 214 – 215\n Summary : Bolsa de estudos da CAPES. Intercâmbio estudantil pela graduação, onde foi possível desenvolver a lingua inglesa, aprender a lidar com artigos e termos técnicos em inglês, dar continuidade aos estudos da graduação em uma excelente faculdade irlandesa e obter ótimo aproveitamento das matérias cursadas em dois semestres.\n School name : Cefet/RJ - Centro Federal de Educação Tecnológica Celso Suckow da Fonseca\n Speciality : Engenharia Elétrica, Eletrotécnica\n Period : 211 – 217\n School name : Cefet/RJ - Centro Federal de Educação Tecnológica Celso Suckow da Fonseca\n Speciality : Técnico em Eletrotécnica, Elétrica\n Period : 28 – 21\n \n School name : Colégio Pedro II\n Speciality : Ensino médio\n Period : 28 – 21"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "cb80b7c3-5828-4436-9809-7aabbf028c7a",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*cb80b7c3-5828-4436-9809-7aabbf028c7a",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:39.700Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:39.700Z",
+      "linkedinUsername": "thamires-baptista-18130b102",
+      "email": "baptista.thamires@gmail.com",
+      "phone": "21989861890",
+      "name": "Thamires Baptista",
+      "id": "cb80b7c3-5828-4436-9809-7aabbf028c7a"
+    },
+    "timeInCurrentStage": 61412354947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.922Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "09/08/1969"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "8000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45048"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "de mercado"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Gestão de Produtos - Energia"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2 (27 e 24)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de Gestão de Produtos - Energia\n Company name : Agis Distribuição\n Period : nov. de 22 – o momento\n Location : Campinas, São Paulo, Brasil\n Job Title : Especialista em Sistemas de Energia em Aplicações Críticas\n Company name : Engetron\n Period : jun. de 22 – nov. de 22\n Location : São Paulo, Brasil\n Job Title : Executivo de Vendas - Canais de Integradores & Contas Corporativas\n Company name : Engetron\n Period : jan. de 219 – nov. de 22\n Summary : A Engetron desenvolve desde 1976 alta tecnologia em nobreaks para o mercado corporativo, sendo hoje a principal fornecedora 1% Nacional em soluções de energia ininterrupta para missão crítica\n Para garantir a confiabilidade e a alta disponibilidade dos sistemas de energia, a Engetron possui um criterioso processo de pré-venda, que envolve a análise da infraestrutura energética de seus clientes e o dimensionamento de soluções de energia eficientes para as mais diversas aplicações\n A credibilidade da marca Engetron é reforçada pela inovação e qualidade de seus produtos, eficiência logística, agilidade do atendimento pós- venda e qualificação da sua rede de assistências técnicas autorizadas, presente em todo o território nacional\n Location : São Paulo e Região, Brasil\n Job Title : UPS Product Manager& Sales Manager\n Company name : ABB\n Period : dez. de 213 – jun. de 217\n Summary : •Estabelecer e manter relações com os Clientes e Canal de Distribuição, identificar e desenvolver oportunidades de mercado para alcançar vendas estando em linha com as estratégias de negócios da ABB\n •Desenvolver, implementar e executar estratégias para expandir o negócio de UPS e Condicionadores de Energia e atender às metas de crescimento\n •Trabalhar em estreita colaboração com os departamentos de engenharia das organizações dos nossos clientes (externo e interno) para a realização de análises e estudos que irão apoiar nas suas necessidades para melhorar a produtividade de seus sistemas através das nossas soluções\n •Realizar previsões de negócios nos prazos mensal, trimestral e anual\n •Buscar e realizar apresentações Road Map e Workshop de Produtos aos clientes\n •Analisar os concorrentes, dados do mercado e contribuir para o melhor posicionamento de preços e margens da divisão\n Location : São Paulo Area, Brazil\n Job Title : Senior Channel Sales Manager\n Company name : APC by Schneider Electric\n Period : ago. de 29 – out. de 213\n Summary : Gerenciar e ser o principal ponto de contato para os parceiros das alianças existentes - Total de 8 revendas Enterprise especialistas em energia (Secure Power) e especialistas na oferta de infraestrutura para Data Center e ambientes de TI (Integradores)\n • Buscar agressivamente junto com os parceiros maximizar as vendas e o potencial da parceria através de melhores práticas de vendas , treinamento e suporte\n • Gerenciar os pedidos de vendas e fornecer o status aos parceiros e envolvidos \n • Comunicação com os parceiros sobre novos produtos e ofertas de serviços \n • Criar sistemas e procedimentos para agilizar a gestão de parceiros - seguindo o Programa de Canais e novas estratégias\n • Aprender continuamente sobre novos produtos e melhorar as habilidades de venda, transferindo conhecimento técnico e comercial\n • Fornecimento de relatórios semanais de pipeline e forecast\n • Atender e participar de reuniões de vendas , eventos e seminários - muitos destes como palestrante\n • Preparar apresentações, relatórios e argumentações para a reversão de vendas para o cliente final atrelado ao canal, apresentando melhor solução, retorno de investimento ROI e benefícios\n • Definição e execução do Business Plan anual para cada revendedor, seguindo a estratégia de metas e resultados observando o potencial e estrutura de cada parceiro\n • Junto com MKT aplicar o Budge e os recursos designados para a vertical de canais (Rebate - MDF - Brindes - Anuncios, Eventos, etc) buscando reverter os investimentos em resultados de vendas e comunicação\n • Juntamente com a Gerencia de produtos, desenvolver e divulgar listas de preços para o canal, garantir a rentabilidade estipulada e apoiar tecnicamente o canal para a integração de produtos de fabricação local para melhor posicionamento de preços e competitividade (Miscelâneos para Bancos de baterias - Transformadores - Gabinetes Elétricos, etc)\n Location : Brazil\n Job Title : Sales Account Manager\n Company name : Vertiv\n Period : mar. de 27 – ago. de 29\n Location : Brazil\n Job Title : Channel Sales Account Manager\n Company name : APC by Schneider Electric\n Period : ago. de 24 – mar. de 27\n Summary : Responsável pelo gerenciamento dos Distribuidores APC buscando evolução do sell-in e incremento de sell-out junto às revendas;\n Gestão do pipeline e forecast trimestral;\n Acompanhamento do estoque, focando novas reposição e acompanhamento de line-up;\n Preparação do business plan anual para os distribuidores estipulando metas e estratégias;\n Elaboração de campanhas, eventos, promoções, road show;\n Job Title : Field Service Technician\n Company name : APC by Schneider Electric\n Period : dez. de 2 – ago. de 24\n Location : Brazil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Escola Tecnica de Eletronica e Eletrotecnica Elite\n Speciality : Tecnico em Eletronica\n Period : 1986 – 199\n Courses: Title : Desvendando a Industria 4."
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "2b7ce3a6-aa66-41a1-9e03-88bc1ac388bd",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*2b7ce3a6-aa66-41a1-9e03-88bc1ac388bd",
+    "talent": {
+      "updatedAt": "2023-12-20T14:00:02.758Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:00:02.758Z",
+      "linkedinUsername": "ricardo-rios-48666935",
+      "email": "ricardo.rios1969@gmail.com",
+      "phone": "11944481969",
+      "name": "Ricardo Rios",
+      "id": "2b7ce3a6-aa66-41a1-9e03-88bc1ac388bd"
+    },
+    "timeInCurrentStage": 61412054947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.953Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "31/07/1989"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "7200"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "8.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Biológicas",
+          "id": "b4a7225b-57a9-41cc-ba29-81bc917a6c22",
+          "label": "Ciências Biológicas"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Federal de São Carlos"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenadora de Inside Sales"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "sem filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenadora de Inside Sales\n Company name : Esfera Energia\n Period : jan. de 221 – o momento\n Summary : Reestruturação de processos e metodologias da equipe de Inside Sales. Implementação de máquina de aquisição de novos clientes, bem como redefinição de funis e estratégias da área comercial da empresa.Liderança de BDRs (business development representative), implementação de KPIs e OPIs, definição de pitch de vendas de acordo com cada persona atendida.\n Location : São Paulo, Brasil\n Job Title : Coordenadora de Vendas (Inside&Field Sales)\n Company name : Arquivei\n Period : mai. de 22 – jan. de 221\n Summary : Liderança de equipe sênior na área de Sales, desde prospecção até o fechamento com acompanhamento de pipeline de vendas ponta-a-ponta. Atuo também na revisão de processos de vendas, treinamentos de equipes e trabalho para garantir o engajamento do time de Sales ao DNA e estratégia empresarial. Através do acompanhamento dos KPIs garanto correções nos processos vigentes e entrego insights e repports à alta gestão. Sou um dos ponto de contato com áreas parceiras (Customer Succes, Produto, TechOps, RevOps, Engenharia, Jurídico e Marketing). Auxilio também no desenvolvimento das supervisões de vendas.\n Location : São Carlos, São Paulo\n Job Title : Supervisora de Inside Sales - Closers e BDRs\n Company name : Arquivei\n Period : jan. de 22 – mai. de 22\n Summary : Liderança de times de closers de segmentos seniores em Inside Sales (Mid Market e Transportadoras) e em Field Sales (Enterprise), bem como do time de prospecção de empresas de médio e grande portes. Integrante de Squad (representando time de negócios) focada em otimização da etapa de aquisição de novos clientes.Desenvolvimento de práticas de gestão com a equipe liderada: 1:1, Feedback de discurso, Forecasting, Touchpoints de resultados, Acompanhamento de KPIs pertinentes às áreas.\n Location : São Carlos e Região, Brasil\n Job Title : Supervisora de Business Development\n Company name : Arquivei\n Period : set. de 219 – jan. de 22\n Summary : Liderança do time de prospecção de empresas de médio e grande portes tanto para vendas quanto para eventos, através dos canais inbound e outbound marketing. Ideação e viabilização de eventos corporativos para público Enterprise, além da participação como representante de negócios no Projeto Persona Enterprise cujo foco foi compreender a jornada das notas fiscais e também a jornada do profissional da área fiscal e de compras em empresas líderes de mercado e/ou de grande porte. Desenvolvimento de práticas de gestão com a equipe liderada: 1:1, Feedback de discurso, Forecasting, Touchpoints de resultados, Acompanhamento de KPIs pertinentes às áreas.\n Location : São Carlos e Região, Brasil\n Job Title : Business Development Representative\n Company name : Arquivei\n Period : ago. de 218 – set. de 219\n Summary : Atuei na área de prospecção de novos negócios, com foco em compreender a necessidade dos mercados Enterprise e Mid Market frente à gestão de documentos fiscais com consequente entrega de valor e urgência em viabilizar o contato do lead com o SaaS. A plataforma Arquivei entrega mais do que gestão de DFes (NFes, NFSes, CTes, MDFes, NFCes/SAT), permite acesso à inteligência de dados para empresas inovadoras e que traçam estratégias disruptivas.\n Location : São Carlos e Região, Brasil\n Job Title : Consultora de atendimento à empresas e instituições de ensino\n Company name : CIEE - Centro de Integração Empresa-Escola\n Period : nov. de 217 – ago. de 218\n Summary : Atuei como consultora em estágios e programas de aprendizagem legal, proporcionando desenvolvimento de pessoal especializado e assertividade na contratação final. Organizei diversos processos seletivos para órgãos públicos (SAAE e Prefeituras da região de Araraquara) e empresas de grande porte (Syngenta, CAST Group, DXC Technology, Itaú Unibanco, dentre outras).\n Location : Araraquara, São Paulo\n Job Title : Consultora de Inovação\n Company name : Sebrae - Serviço Brasileiro de Apoio às Micro e Pequenas Empresas\n Period : jun. de 215 – nov. de 217\n Summary : O Programa Agentes Locais de Inovação – ALI é um acordo de cooperação técnica entre o CNPq e o Sebrae, com o objetivo de promover a prática continuada de ações de inovação nas empresas de pequeno porte, por meio de orientação proativa e personalizada. Como Agente Local de Inovação (ALI) visitei empreendimentos, diagnostiquei pontos fracos e apresentei soluções, oferecendo respostas às demandas do negócio. As mudanças geraram impacto direto na gestão empresarial, na melhoria de produtos e processos e na identificação de novos nichos de mercado para produtos. Cerca de 57 empresas foram acompanhadas por um período de 3 meses, sendo avaliadas por seu amadurecimento de gestão e inovação de 3 em 3 meses.Neste período, houve organização de evento focado em rodadas de negócios, cujo foco era fortalecer o núcleo empresarial acompanhado por todos os agentes, visando desenvolvimento de novos negócios e parcerias entre aquela rede de empresários. Lançamos, após este evento, o Portal ALI de Negócios, que é uma plataforma online onde os empresários contemplados pelo programa podem realizar contatos, anúncios e acessar um feed de notícias movimentado por pessoas que compõem a rede.\n Location : São Carlos, SP\n Job Title : Instrutora de língua inglesa\n Company name : UPTIME - Seja Fluente - Viva o Inglês\n Period : set. de 212 – fev. de 213\n Summary : Ensinei língua inglesa para adolescentes e adultos, além de desenvolver novas técnicas de ensino.\n Location : Campinas e Região, Brasil\n Job Title : Estagiário\n Company name : Embrapa\n Period : jun. de 211 – jul. de 212\n Summary : Desenvolvimento de projeto relacionado à microbiologia fúngica, visando produção enzimática à nível industrial. Cumprimento de cronograma, apresentação de resultados e reuniões periódicas de grupo.\n Location : São Carlos e Região, Brasil\n Job Title : Estagiária\n Company name : UFSCar - Federal University of São Carlos\n Period : mar. de 29 – mai. de 211\n Summary : Desenvolvimento de projeto de pesquisa fomentado pela iniciativa privada com o intuito de otimizar uma vacina pré-existente no mercado veterinário.\n Location : Departamento de Engenharia Química - São Carlos"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Gestão de Key Accounts\n Period : Emitido em jun. de 2021 - Nenhuma data de expiração\n Issuing Authority : LinkedIn\n Title : Técnicas de Persuasão em Vendas\n Period : Emitido em jun. de 2021 - Nenhuma data de expiração\n Issuing Authority : LinkedIn\n Title : Inteligência Emocional\n Period : Emitido em mai. de 2021 - Nenhuma data de expiração\n Issuing Authority : Escola Conquer"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Estadual Paulista Júlio de Mesquita Filho\n Speciality : Master's degree\n Period : 213 – 215\n School name : Universidade Federal de São Carlos\n Speciality : Bacharelado\n Period : 28 – 212"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "3240e0c7-95ee-4294-a292-a43484d1e6de",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*3240e0c7-95ee-4294-a292-a43484d1e6de",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:06.754Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:06.754Z",
+      "linkedinUsername": "gabriela-azarias",
+      "email": "gabriela.sa.azarias@gmail.com",
+      "phone": "19984409911",
+      "name": "Gabriela De Sá Azarias",
+      "id": "3240e0c7-95ee-4294-a292-a43484d1e6de"
+    },
+    "timeInCurrentStage": 61412054947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.743Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "16/11/1987, 01/11/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "23000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "de mercado + compra de ações com desconto, PLR (4,5 Salários), Plano de Saúde, Plano Odontológico, Alimentação no Local, Seguro de Vida e Transporte."
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Elétrica",
+          "id": "9351680b-8549-4071-98fc-d485b31dc312",
+          "label": "Engenharia Elétrica"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "UFES"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Brazil Energy Commercial Manager, Consultor de Energia"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "sem filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Brazil Energy Commercial Manager\n Company name : Dow\n Period : jan. de 22 – o momento\n Summary : Responsible for providing competitive, reliable and sustainable power, natural gas and steam for Dow sites in Brazil.\n Location : São Paulo e Região, Brasil\n Job Title : Coordenador de Gestão\n Company name : Votorantim Cimentos\n Period : jul. de 217 – dez. de 219\n Summary : • Implemented management model to all 24 factories in Brazil• Created a assessment to evaluate operational performance & drive continuous improvement• Lead a business plan with 25 R$ MM of investment (Board approval)• Developed business masterplan for 6 factories in Brazil• Excellent communication skills to all levels of organization (with strong connection to C-level )\n Location : São Paulo, São Paulo\n Job Title : Consultor de Energia II\n Company name : Votorantim Cimentos\n Period : out. de 216 – jun. de 217\n Summary : • Responsible for the power balance optimization of 24 factories & 6 hydropower plants (short, medium & long term projections)• Definition of the corporative Energy Trading Strategy & consequently Approval of Power Negotiations with C-level (annual results of strategy > 5 MMR$/year)• Implementation of Power Risk Management Policy and presentation/validation to the Board• Responsible for power cost management with high connection to plant managers to implement projects & opportunities• Created a portfolio of 1 R$MM/y of investments in energy efficiency• Construction of 13 solar generation projects onsite for power supply• Representing the company in external associations (ABRACE, ABIAPE)\n Location : São Paulo, São Paulo\n Job Title : Energy Consultant III\n Company name : Votorantim Cimentos\n Period : out. de 214 – set. de 216\n Summary : • Responsible for the power balance optimization of 24 factories & 6 hydropower plants (short, medium & long term projections)• Definition of the corporative Energy Trading Strategy & consequently Approval of Power Negotiations with C-level (annual results of strategy > 5 MMR$/year)• Implementation of Power Risk Management Policy and presentation/validation to the Board• Responsible for power cost management with high connection to plant managers to implement projects & opportunities• Created a portfolio of 1 R$MM/y of investments in energy efficiency• Construction of 13 solar generation projects onsite for power supply• Representing the company in external associations (ABRACE, ABIAPE)\n Location : São Paulo\n Job Title : Energy Trader\n Company name : Votorantim Energia\n Period : nov. de 212 – out. de 214\n Summary : • Lead a bid in government auction with 4 BI R$ revenue & 1,5 BI ebitda• Responsible for all trading operations of free market Energy (average 5 R$MM/month in trading operations)• Developed market intelligence scenarios• Responsible for the balance management of the trading area• Structured a portfolio of power supply for trading operations• Implementation of 1stwave of new business plan that is current the company business model• Representing the company in external associations (ABRACEEL)\n Location : São Paulo e Região, Brasil\n Job Title : Middle Office Energy Analyst\n Company name : Votorantim Energia\n Period : jan. de 211 – nov. de 212\n Summary : • Scenario development for Business Plan approval• Power Portfolio & Risk Management using @risk• Price projections for decision making process using computational softwares(newave& decomp)• Implementation of next week price forecast (increase decompassertiveness)• Representing the company in external associations (ONS & CCEE)• Votorantim Group Trainee\n Job Title : Power Generation Intern\n Company name : ArcelorMittal\n Period : jan. de 21 – dez. de 21\n Summary : •Power & steam production & maintenance optimization\n Location : Vitória e Região, Brasil\n Job Title : Power Generation Intern\n Company name : Braskem\n Period : jul. de 28 – jun. de 29\n Summary : •Power & steam production & maintenance optimization\n Location : Camaçari e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Federal do Espírito Santo (Oficial)\n Speciality : Bachelor of Engineering (B.E.), Electrical Engineering\n Period : 25 – 21\n Summary : Enfase em Sistemas de Energia\n School name : Fundação Getulio Vargas\n Speciality : Master of Business Economics (MBE), Economia e Gestão Empresarial\n Period : 214 – 215\n Courses: Title : 6sigma - Green Belt; Title : Negociação Estratégica e Gestão de Conflitos; \n Title : PMI"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "3d8d3f16-e219-4056-b87d-d084d422ad5b",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*3d8d3f16-e219-4056-b87d-d084d422ad5b",
+    "talent": {
+      "updatedAt": "2023-12-20T14:09:17.629Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:09:17.629Z",
+      "linkedinUsername": "rodrigodnborges",
+      "email": "rodrigodnborges@gmail.com",
+      "phone": "119757469701175",
+      "name": "Rodrigo Borges",
+      "id": "3d8d3f16-e219-4056-b87d-d084d422ad5b"
+    },
+    "timeInCurrentStage": 61412054947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.892Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "20/01/1974"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "16500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "6.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "de mercado + carro + cursos e treinamentos + stock a cada 4 anos"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "UMC"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Nacional de Produtos e Servicos | Geração Distribuida"
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": {
+          "value": "Separado(a)",
+          "id": "59c5b0bd-f19d-41c1-88f0-3636592206e9",
+          "label": "Separado(a)"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "sem filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente Nacional de Produtos e Servicos | Geração Distribuida\n Company name : ENGIE Brasil\n Period : ago. de 22 – o momento\n Location : São Paulo, Brasil\n Job Title : Gerente Regional | Geração Distribuída Energia\n Company name : ENGIE Brasil\n Period : mai. de 216 – ago. de 22\n Summary : •Responsável pela prospecção de novos negócios e vendas de soluções de energia renováveis e serviços de eficiência energética.•Realizar grandes negociações a clientes B2B - PPA on site e off site - suporte gerencial a equipe de campo visando o fechamento de contratos, respeitando as políticas internas de margens e custos de projetos asset based (BOT) - asset light (EPC).•Auxiliar no desenvolvimento de novas soluções em energia e gerenciamento do ciclo contratual: Comercial - Documentação Técnica – Jurídico - Financeiro e Operações.•Gestão de indicadores de performance/metas mensais da unidade operacional.•Elaboração de estratégias, campanhas, parcerias institucionais, planejamento de vendas e gestão de equipe comercial (coordenadores – consultores – especialistas).\n Location : São Paulo, Brasil\n Job Title : Gerente de Vendas Nacional | Geração Distribuída de Energia\n Company name : SolarWorld\n Period : dez. de 214 – abr. de 216\n Summary : - Atendimento direto a clientes B2B, elaboração de pré-dimensionamento de projetos e administração de propostas comerciais, visando a efetivação da venda com a melhor margem e/ou volume.- Elaboração de estratégias, processos, planejamento de vendas e administração de contratos, bem como realizar o gerenciamento e treinamento da equipe de vendas internas e externas.- Desenvolvimento de budget, análise de KPI’s, administração de projetos e abertura de novos canais de distribuição para a venda de equipamentos e soluções para o mercado.- Mapeamento e abertura de mercado e novos negócios, bem como formar parcerias com fornecedores.\n Location : São Paulo, Brasil\n Job Title : Gerente Comercial | Geração Distribuída de Energia & Storage Energy\n Company name : CEGASA Energía, S.L.U\n Period : fev. de 211 – out. de 214\n Summary : - Responsável pela validação e implantação de toda a cadeia de processo comercial, logístico e de qualidade da empresa no Brasil, bem como montar parcerias estratégicas com fornecedores chaves.- Mapeamento e abertura de novos mercados, prestando atendimento direto aos clientes, realizando estratégias e planejamento de vendas, administrando clientes e/ou contratos.- Análise de custos e/ou preços, administração de propostas comerciais, gestão e treinamento das equipes de vendas internas e externas, com atendimento em todo o Brasil.- Elaboração de budget, acompanhamento de KPI’s, previsões, indicadores e gerenciamento de projetos.\n Location : São Paulo, Brasil\n Job Title : Gerente de Contas | Geração Distribuída de Energia & Storage Energy\n Company name : UNICOBA\n Period : dez. de 21 – set. de 21\n Summary : - Responsável pelo atendimento e vendas a clientes de médio e grande porte, na venda de produtos storage energy e projetos de energia solar, bem como abrir canais de distribuição no varejo.- Gerenciamento da equipe de representantes comerciais da região Sudeste, realizando a abertura de mercado, desenvolvimento de novos negócios e ministrando treinamentos técnicos.- Criação de campanhas e promoções para o aumento das vendas, além de analisar a margem de lucro.- Elaboração de relatórios gerenciais e performance de vendas, mercado e concorrência.\n Location : São Paulo, Brasil\n Job Title : Consultor Comercial\n Company name : Aptar\n Period : out. de 2 – set. de 21"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Greening the Economy: Sustainable Cities\n Period : Emitido em abr. de 2020 - Nenhuma data de expiração\n Issuing Authority : Lund University\n Title : Growth AGRO\n Period : Emitido em abr. de 2020 - Nenhuma data de expiração\n Issuing Authority : FIA Business School\n Title : Cadeia Produtiva do Biogas e Aplicação Energética\n Period : Emitido em nov. de 2019 - Nenhuma data de expiração\n Issuing Authority : CIBiogás"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Tecnológica Federal do Paraná\n Speciality : MBA, Tecnologia Cadeia Produtiva do Biogas\n Period : 22 – 221\n School name : Universidade Federal do Paraná\n Speciality : MBA em Gestão de Projetos Sustentáveis e Inovações Ambientais, Energia e Sustentabilidade\n Period : 22 – 221\n School name : Escola Superior de Agricultura Luiz de Queiroz - ESALQ/USP\n Speciality : MBA em Gestão de Agronegócio e Bioenergia\n Period : 219 – 221\n School name : Universidade Federal do Paraná\n Speciality : MBA em Gestão de Energias Renováveis e Biocombustíveis, Energia e Sustentabilidade\n Period : 218 – 22\n School name : Universidade de São Paulo\n Speciality : MBA em Gestão de Varejo e Mercado Consumidor\n Period : 216 – 218\n School name : Universidade de São Paulo\n Speciality : MBA em Gestão Estratégica de Negócios\n Period : 214 – 216\n School name : Universidade de Mogi das Cruzes\n Speciality : Graduação em Administração de Empresas\n Period : 23 – 26"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "2dadccef-e984-4403-9e9b-dfc401147143",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*2dadccef-e984-4403-9e9b-dfc401147143",
+    "talent": {
+      "updatedAt": "2023-12-20T13:57:59.283Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:57:59.283Z",
+      "linkedinUsername": "charles-bispo",
+      "email": "bispo.correio@gmail.com",
+      "phone": "11963584053",
+      "name": "Charles Gonçalves Bispo",
+      "id": "2dadccef-e984-4403-9e9b-dfc401147143"
+    },
+    "timeInCurrentStage": 61412054947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.682Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenadora de Comercialização de Energia"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenadora de Comercialização de Energia\n Company name : Raízen\n Period : abr. de 221 – o momento\n Summary : Consolidação e gestão dos portfólios de energia, recomendação de estratégias comerciais, responsável pela condução de estudos de inteligência de mercado, análises de pricing, gestão de risco comercial e de mercado\n Location : Brasil\n \n Job Title : Analista de Comercialização de Energia Sênior\n Company name : Raízen\n Period : nov. de 217 – abr. de 221\n Summary : Gestão de portfólio e definição de estratégias comerciais; Gestão regulatória com interface junto a MME, Aneel e CCEE; Inteligência de mercado e acompanhamento de fundamentos de preço; Gestão de lastro, média móvel e modelagem de otimização para sazonalização da garantia física; Elaboração de propostas de hedge; Suporte ao comitê executivo\n Location : Piracicaba, São Paulo\n \n Job Title : Analista de Comercialização de Energia Pleno\n Company name : Raízen\n Period : jan. de 215 – out. de 217\n Summary : Gestão de backoffice junto à CCEE; Registro, validação e ajuste de contratos; Gestão contratual e acompanhamento da entrega no ACR; Responsável pelo balanço energético; Gestão da medição; Atuação comercial e análise de cotações; Cálculo e monitoramento de desconto TUSD/TUST; Gestão da contratação de demanda; Simulação de contabilização da CCEE e acompanhamento de liquidação financeira; Atendimento a auditorias internas/externas\n Location : Piracicaba, São Paulo\n \n Job Title : Analista Planejamento Bioenergia Jr.\n Company name : Raízen\n Period : jan. de 213 – dez. de 214\n Summary : Elaboração e acompanhamento de orçamento, forecast, fluxo de caixa e relatórios gerenciais; Responsável pelo fechamento contábil e provisões financeiras; Gestão de OPEX e CPV; Gestão de faturamento e de contas a pagar/receber; Acompanhamento de aporte de garantias; Gestão de execução dos controles SOX da área; Acompanhamento de KPI’s; Acompanhamento de ressarcimento junto às distribuidoras; Apoio e acompanhamento das rotinas junto à CCEE\n Location : Piracicaba e Região, Brasil\n \n Job Title : Analista de Planejamento de Mercado\n Company name : Imobiliária Santa Cruz\n Period : mar. de 211 – dez. de 212\n Summary : Responsável pela gestão da carteira de locação, possibilitando real ampliação, através da prospecção de novos negócios/clientes, manutenção de relacionamentos sólidos e gestão dos pagamentos e recebimentos \n Atuação na área comercial por meio da elaboração de estratégias provenientes de estudos de mercado com o objetivo de expandir a atuação da empresa, captar as necessidades dos clientes e otimizar o atendimento Por meio desse trabalho, foi possível criar melhor assertividade nas ações de divulgação da empresa \n Responsável pela gestão financeira da empresa, elaboração de demonstrativos e otimização de investimentos, além da implantação de sistema operacional financeiro\n Location : Piracicaba\n \n Job Title : Diretora de Marketing\n Company name : Centro de Voluntariado Universitário\n Period : mar. de 21 – mar. de 211\n Summary : Legalização institucional;\n Organização de eventos;\n Desenvolvimento de materiais publicitários;\n Criação de estratégias de divulgação e gerenciamento de mídias sociais;\n Delineamento de objetivos e estratégias de Marketing\n Location : Ribeirão Preto\n \n Job Title : Estagiária\n Company name : Arantes e Silva\n Period : ago. de 21 – fev. de 211\n Summary : Atuação na área financeira, analisando e compilando dados, calculando margens de projetos e gerindo o orçamento e as despesas, possibilitando o investimento inteligente dos recursos da empresa e melhora da eficiência operacional com a redução dos custos\n Elaboração de demonstrativos e relatórios para a alta direção da empresa, formulação de análises de mercado e pesquisas de atendimento Os resultados desse trabalho foram a ampliação do nicho de mercado atendido e a maior retenção e fidelização dos clientes\n Location : Piracicaba Area, Brazil\n \n \n Job Title : Estagiária\n Company name : FUNDACE\n Period : fev. de 21 – jul. de 21\n Summary : Desenvolvimento de análises ambientais e organizacionais; Elaboração de diagramas causais e de mapas conceituais; Realização de análises acadêmicas e leigas de notícias, disponibilizadas no portal da FEA-RP Estágio social com duração de seis meses\n Location : Ribeirão Preto Area, Brazil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : FIA Business School\n Speciality : Curso de Extensão, Estatística Aplicada a Negócios\n Period : 22 – 221\n School name : Fundação Getulio Vargas / FGV\n Speciality : Pós-Graduação em Administração, Business Administration and Management, General\n Period : 212 – 214\n \n School name : Universidade de São Paulo\n Speciality : Bacharel em Administração, Business Administration and Management, General\n Period : 28 – 211\n Summary : Iniciação científica\n Courses: Title : Curso de Extensão Análise da Viabilidade Econômico-financeira de Projetos de Investimento -USP; Title : Francês nível A2 - Instituto Católico de Paris; \n Title : Gerência de Riscos em Comercialização de Energia - CTEE"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "5309fb63-bff0-4426-b440-0214c307faa1",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*5309fb63-bff0-4426-b440-0214c307faa1",
+    "talent": {
+      "updatedAt": "2023-12-20T13:54:31.514Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:54:31.514Z",
+      "linkedinUsername": "bruna-salvanha-silva",
+      "email": "brunasalvanha@gmail.com",
+      "phone": "19981325544",
+      "name": "Bruna Salvanha Silva",
+      "id": "5309fb63-bff0-4426-b440-0214c307faa1"
+    },
+    "timeInCurrentStage": 61412354947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.441Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Suprimentos"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de Suprimentos\n Company name : MEZ ENERGIA\n Period : out. de 22 – o momento\n \n Job Title : Comprador Sênior\n Company name : MEZ ENERGIA\n Period : mar. de 22 – o momento\n Location : São Paulo, Brasil\n \n Job Title : Coordenador de Projetos BPO\n Company name : Level Group BR\n Period : mai. de 219 – out. de 219\n Summary : Coordenação de equipe de Compradores, assistentes e auxiliares, dedicados ao atendimento de clientes em diversos segmentos, como Alimentos, Hospitalar, Energia, Mineração, Fertilizantes, aviação, entre outros\n Condução de Bids estratégicos para aquisição de Serviços Administrativos, Facilities, Capex e MRO\n Location : Barueri, São Paulo\n \n Job Title : Analista de Compras Estratégicas\n Company name : ISA CTEEP\n Period : nov. de 217 – fev. de 219\n Summary : Gestor de categoria de compras, responsável por compras Estratégicas de equipamentos para Subestações de Energia, Manutenção, Projetos e Facilities\n Construção de Capex para processos de Leilões Aneel, para novas concessões de subestações e linhas de transmissão\n Revisão de contratos e criação de novos acordos de prestação de serviços\n \n Utilização de metodologia Strategic Sourcing, onde aplicavel, usuario de ERP SAP-Ariba, pedidos e contratos\n Location : São Paulo, São Paulo\n \n Job Title : Analista de Compras Usina\n Company name : Brookfield Renewable Energy Group (Brookfield Energia Renovavel)\n Period : nov. de 216 – nov. de 217\n Summary : Responsavel por compras MRO para 4 Usinas de Geração de Energia Elétrica por Biomassa no Sudeste e Centro Oeste\n Compra de peças e serviços para todo o site como: Caldeira, Turbinas, sistema de águas, sala de comando, automação, isolamento, serviços de caldeiraria, usinagem, solda, civil e elétrica\n Aquisição de Biomassa( bagaço e cavaco) assim como toda logistica de transporte, carga e descarga\n \n Auxilio na gestão de fornecedores, quanto as normas de segurança, saude e meio ambiente, para acesso e prestação de serviços nas Usinas\n \n Base situada no Municipio de Bocaina, interior de SP\n Location : Bocaina, São Paulo\n \n \n Job Title : Comprador\n Company name : Solaris Equipamentos e Serviços\n Period : set. de 212 – set. de 216\n Summary : Compras logisticas para equipamentos de grande porte, OPEX para linha de Geradores, Plataforma aérea, manipuladores de carga e compressores\n Desenvolvimento de fornecedores, manutenção do sistema de qualidade Gestão da Expedição e Recebimento de Equipamentos\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Centro Universitário FEI\n Speciality : Master of Business Administration (MBA), Gestão da Cadeia de Suprimentos e Logística\n Period : 214 – 215\n School name : Anhanguera Educacional\n Speciality : Bacharel, Engenharia de Produção\n Period : 28 – 212\n \n School name : Anhanguera Educacional\n Speciality : Tecnólogo, Processos de Produção Mecânica e Usinagem\n Period : 23 – 28"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "15bd3cc4-ee45-4411-b655-f23099108006",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*15bd3cc4-ee45-4411-b655-f23099108006",
+    "talent": {
+      "updatedAt": "2023-12-20T13:56:59.564Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:56:59.564Z",
+      "linkedinUsername": "fabiano-melo-miguel-366a8849",
+      "email": "fmiguel31@icloud.com",
+      "phone": "11974482506",
+      "name": "Fabiano Melo Miguel",
+      "id": "15bd3cc4-ee45-4411-b655-f23099108006"
+    },
+    "timeInCurrentStage": 61412354947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.988Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "29/10/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "16500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "6.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Vale Refeição, Vale Alimentação, Plano de Saúde, Plano Odontológico, Previdência Privada, Stock Options (1k dólares ao ano)"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "PUCRJ"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "7960371d-4b58-4993-91a5-56e368b8315f",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*7960371d-4b58-4993-91a5-56e368b8315f",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:59.509Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:59.509Z",
+      "email": "importacao4597@importacaoinhire.com",
+      "phone": "21973768047",
+      "name": "Glauber Nemitz",
+      "id": "7960371d-4b58-4993-91a5-56e368b8315f"
+    },
+    "timeInCurrentStage": 61412354947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.864Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "22/03/1984"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "78000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "de mercado + 11k (dólares em stock options por ano)"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "usp"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "sem filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "77e2a3ee-de09-40f3-b1a1-34609de71f54",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*77e2a3ee-de09-40f3-b1a1-34609de71f54",
+    "talent": {
+      "updatedAt": "2023-12-20T14:07:58.404Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:07:58.404Z",
+      "email": "patriciahirata@yahoo.com.br",
+      "phone": "5511983774661",
+      "name": "Patricia Hirata",
+      "id": "77e2a3ee-de09-40f3-b1a1-34609de71f54"
+    },
+    "timeInCurrentStage": 61412054947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.605Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Energia"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Gerente de Energia\n Company name : Terra Bioenergia\n Period : 1986 – o momento\n Summary : Elaboração, Implantação de projetos para produção de Biogás e suas aplicações com participação de capital\n Location : Mato Grosso\n \n Job Title : Gerente de Energia\n Company name : Terra Bioenergia\n Period : 1986 – o momento\n Summary : Desenvolvimento, Implantação de Projetos de geração de Biogás e suas aplicações\n Location : Mato Grosso\n \n Job Title : Responsável Técnico de Projeto.\n Company name : TERRABIOENERGIA\n Period : mar. de 1992 – o momento\n Summary : Elaboração, Instalação de Reatores Horizontal e Vertical, Desnitrificação de efluentes\n \n \n Job Title : Gerente de Projeto\n Company name : TERRABIOENERGIA\n Period : nov. de 1989 – o momento\n Summary : Desenvolvemos e Implantamos ETEs, Operamos Processos Anaeróbios diversosReuso da água, Geração de Energia e Biometano\n Company 2: TERRABIOENERGIA"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : UN-ANHANGUERA\n Speciality : ENGENHARIA, BIOTECNOLOGIA\n Period : 212 – 215\n School name : Escola Vocacional Prof.Luiz Antonio Machado\n Speciality : Tec. em Eficiencia da Produção, Agricola\n Period : 1991 – 1992\n \n School name : Esc.Tec. Agricola Est.José Bonifacio de Jaboticabal\n Speciality : Téc. extensionista, pecuária de corte, Ensino Médio\n Period : 1971 – 1973"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "fa14a664-1c14-4780-a787-4058813a1ea7",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*fa14a664-1c14-4780-a787-4058813a1ea7",
+    "talent": {
+      "updatedAt": "2023-12-20T13:56:01.250Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:56:01.250Z",
+      "linkedinUsername": "biodigestor",
+      "email": "terrabioenergia@gmail.com",
+      "phone": "66996866166",
+      "name": "Eurípedes Alves",
+      "id": "fa14a664-1c14-4780-a787-4058813a1ea7"
+    },
+    "timeInCurrentStage": 61412354947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.805Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de energia e gás natural"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Gerente de energia e gás natural\n Company name : Gerdau\n Period : abr. de 219 – o momento\n Location : São Paulo, São Paulo, Brazil\n Job Title : Gerente de gases e energia\n Company name : Gerdau\n Period : set. de 218 – abr. de 219\n Job Title : Technical Manager\n Company name : Gerdau\n Period : jan. de 214 – set. de 218\n Location : São Paulo e Região, Brasil\n Job Title : Energy Advisor\n Company name : Gerdau\n Period : jul. de 28 – dez. de 213\n Job Title : Trainee - Energy\n Company name : Gerdau\n Period : jan. de 26 – jun. de 28\n Job Title : Diretor Superintendente\n Company name : Dona Francisca Energética S.A\n Period : set. de 22 – o momento\n Location : Agudo, Rio Grande do Sul, Brasil\n Job Title : Conselheiro\n Company name : ABIAPE\n Period : fev. de 219 – o momento\n Location : Brasília e Região, Brasil\n Job Title : Technical Support Analyst\n Company name : Unisinos\n Period : 1998 – 26\n Summary : Network Security\n WAN & LAN servers and services management (DNS, e-mail, webservers, monitoring, access)\n Experience includes Linux, Solaris, Windows Server, Cisco and SNMP services\n Location : Porto Alegre e Região, Brasil\n Job Title : Estagiário\n Company name : Fundação Escola Técnica Liberato Salzano Vieira da Cunha\n Period : jan. de 1994 – dez. de 1995\n Location : Novo Hamburgo e Região, Brasil\n Company 2: Dona Francisca Energética S.A\n Company 3: ABIAPE"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Federal do Rio Grande do Sul\n Speciality : Especialização, Gestão Empresarial\n Period : 28 – 29\n School name : Universidade do Vale do Rio dos Sinos\n Speciality : Bacharel, Engenharia Elétrica - Ênfase em Controle e Automação\n Period : 1998 – 25\n School name : Fundação Escola Técnica Liberato Salzano Vieira da Cunha\n Speciality : Técnico, Eletrônica\n Period : 1992 – 1996"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "858094c9-d744-4560-813d-4ea999144f68",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*858094c9-d744-4560-813d-4ea999144f68",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:44.976Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:44.976Z",
+      "linkedinUsername": "marcos-prudente-59849738",
+      "email": "prudente@gmail.com",
+      "phone": "5511992191622",
+      "name": "Marcos Prudente",
+      "id": "858094c9-d744-4560-813d-4ea999144f68"
+    },
+    "timeInCurrentStage": 61412954947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.559Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "07/01/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "10500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "de mercado + previdência"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Elétrica",
+          "id": "9351680b-8549-4071-98fc-d485b31dc312",
+          "label": "Engenharia Elétrica"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "CEFET-RJ"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "GPMM - Commercial Specialist in Charge - Productivity Projects"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "sem filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : GPMM - Commercial Specialist in Charge - Productivity Projects\n Company name : White Martins\n Period : jan. de 216 – o momento\n Summary : Responsável pela negociação e aquisição de equipamentos de todos os portes e contratação de serviços voltados para produtividade de plantas de produção de líquidos e gases oriundos do ar em toda a América do Sul. Participação técnica e comercial em acordos globais e processos de cotações. Criação e gestão de contratos voltados para gestão de energia e quaisquer outros serviços de alta demanda e repetibilidade. Responsável pela coordenação e aquisição de equipamentos e serviços até suas entregas. Gestão de fornecedores desde a sua qualificação técnica até a comercial por meio de KPIs.\n Location : Rio de Janeiro, Brasil\n Job Title : GPMM - Electrical Equipment Sourcing Enginner\n Company name : White Martins\n Period : jan. de 213 – jan. de 216\n Summary : Responsável pela negociação e aquisição de equipamento elétricos, tais como painéis, motores, transformadores, etc. – para projetos de engenharia na implantação de novas plantas de separação de gases do ar em toda América do Sul. Participação técnica e comercial em acordos globais para a commodity de equipamentos elétricos e processos de cotações, além de cálculos para estimativa em novos negócios. Responsável pela coordenação desde a aquisição dos equipamentos até as suas entregas.\n Job Title : Advisory Council Member\n Company name : GLG\n Period : out. de 213 – o momento\n Summary : Responsável pela integração com clientes da empresa por meio de minhas áreas de conhecimento (engenharia elétrica, suprimentos, aquisições e contratações, acordos globais, investimentos empresariais, etc.).\n Location : Rio de Janeiro, Brasil\n Job Title : Maintenance Manager\n Company name : Ancar Ivanhoe Shopping Centers\n Period : fev. de 212 – dez. de 212\n Summary : Responsável pela área e equipe de manutenção do empreendimento Rio Design Barra. Responsável pelas áreas de manutenção corretiva e preventiva de equipamentos elétricos e mecânicos – além da área civil - e gerenciador da área de utilidades (energia, água e refrigeração). Apoio à área de operações gerenciando contratos de prestação de serviços nas áreas de manutenção, operações e obras em geral.\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Industrial Trainee\n Company name : EBSE Engenharia de Soluções\n Period : set. de 211 – fev. de 212\n Summary : Análise de falhas em sistemas de planejamento e controle para manutenção preventiva e corretiva de equipamentos elétricos e mecânicos, sendo responsável pela implantação da NR12 em máquinas eletromecânicas (prensas hidráulicas, calandras e pontes rolantes).\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Operations Trainee\n Company name : NorteShopping - BRMalls\n Period : set. de 21 – ago. de 211\n Summary : Análise e acompanhamento de contratos de prestação de serviços nas áreas de manutenção, operação e obras. Apoio no controle de medições e gerenciamento da qualidade de serviços, bem como avaliação de resultados. Apoio a novas contratações de serviços de engenharia, orçamentos, cronogramas e acompanhamento de projetos e obras.\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Electrical Trainee\n Company name : White Martins\n Period : abr. de 28 – mar. de 21\n Summary : Desenvolvimento de diagrama unifilares de baixa, alta e média tensão, estudos de queda de tensão, curto circuito, seletividade, ATPV, desenvolvimento de especificações, parecer técnico em equipamentos elétricos e demais estudos oriundos do software SKM.\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Field Operations Supervisor\n Company name : Schlumberger\n Period : abr. de 27 – dez. de 27\n Summary : Estudo e avaliação de perfis de poços de petróleo, estudos de cimentação e canhoneio em poços para produção, atuando nas cidades de Macaé (RJ) e Aracaju (SE).\n Location : Macaé e Região, Brasil\n Company 2: GLG"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade do Estado do Rio de Janeiro\n Speciality : Master of Business Administration (MBA), Project Management\n Period : 214 – 215\n School name : Ibmec\n Speciality : Master of Business Administration (MBA), Business Management\n Period : 212 – 213\n School name : Centro Federal de Educação Tecnológica Celso Suckow da Fonseca\n Speciality : Bachelor of Engineering (B.Eng.), Engenharia Elétrica (Eletrotécnica)\n Period : 26 – 211\n School name : FAETEC\n Speciality : Expert, Eletrônica\n Period : 21 – 24"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "8c6576e9-776a-47e7-b1e6-fd241713f8fa",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*8c6576e9-776a-47e7-b1e6-fd241713f8fa",
+    "talent": {
+      "updatedAt": "2023-12-20T14:02:32.221Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:02:32.221Z",
+      "linkedinUsername": "felipe-eymard-65547788",
+      "email": "felipeymard@yahoo.com.br",
+      "phone": "21988201708",
+      "name": "Felipe Eymard",
+      "id": "8c6576e9-776a-47e7-b1e6-fd241713f8fa"
+    },
+    "timeInCurrentStage": 61412054947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.574Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "31/03/1994"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "65000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "VA, Odonto, Plano de Saude, Academia"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Agente Comercial Sr."
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "41bcb655-1c92-4268-8b56-94c1f3371601",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*41bcb655-1c92-4268-8b56-94c1f3371601",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:32.651Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:32.651Z",
+      "email": "luisa.oliveira@ufrgs.br",
+      "phone": "51998508044",
+      "name": "Luísa Zefredo de Oliveira",
+      "id": "41bcb655-1c92-4268-8b56-94c1f3371601"
+    },
+    "timeInCurrentStage": 61412354947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.773Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "27/06/1984"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "12000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45047"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "de mercado + cursos"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Matemática",
+          "id": "5ff95e30-3026-4b64-9e19-04a34bbd60d2",
+          "label": "Matemática"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Estadual do Sudoeste da Bahia"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Market Information Specialist"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Market Information Specialist\n Company name : Câmara de Comercialização de Energia Elétrica - CCEE\n Period : jan. de 221 – o momento\n Location : São Paulo, Brasil\n Job Title : Analista Sênior de Mercado de Energia\n Company name : Câmara de Comercialização de Energia Elétrica - CCEE\n Period : mar. de 219 – jan. de 221\n Summary : Especialista em Regras e Procedimentos de Comercialização de Energia Elétrica / Conhecimento em legislação sobre o Mercado de Energia / Treinamentos ministrados para diferentes Agentes do Setor Elétrico, como Consumidores Livres, Distribuidores, Geradores e Comercializadores / Apresentações para Associações Setoriais no Brasil e comitivas estrangeiras, bem como instituições do setor e universidades / Sistemática dos Leilões Regulados de Energia Elétrica / Usuário em nível avançado dos sistemas computacionais da CCEE, como Consulta Dinâmica e CliqCCEE\n Location : São Paulo, Brasil\n Job Title : Analista de Mercado de Energia Elétrica\n Company name : Câmara de Comercialização de Energia Elétrica - CCEE\n Period : set. de 211 – fev. de 219\n Summary : Conhecimento em Regras e Procedimentos do Mercado de Energia Elétrica Brasileiro / Informações especializadas para Agentes da CCEE (Consumidores Livre e Especiais, Geradores, Comercializadores e Distribuidores), Instituições do Setor Elétrico e Universidades\n Sistemas da CCEE: registro e validação de contratos no CliqCCEE / Processo de Adesão à CCEE / Relatórios ao mercado / Regras de Medição de Energia, Garantia Física, Balanço Energético, Preço de Liquidação das Diferenças — PLD, Liquidação Financeira, Desconto na TUSD/TUST, Energia de Reserva / Submissão de dados de medição de geração e consumo / Leilões Regulados de contratação\n Location : São Paulo, Brasil\n Job Title : Instrutora de Curso Técnico\n Company name : Master.D Brasil\n Period : fev. de 211 – set. de 211\n Summary : Instalação e teste em Sistemas de Energia Solar Fotovoltaica e Térmica, bem como em Sistemas de Energia Eólica / Desenvolvimento de projetos e configurações de equipamentos / Relatórios para a coordenação / Planos de Aprendizagem / Suporte à equipe de vendas / Ensino presencial e à distância\n Location : São Paulo, Brasil\n Job Title : Pesquisadora em Energia\n Company name : Universidade Federal do ABC\n Period : 29 – 211\n Summary : Pesquisa científica sobre o indicador de qualidade do atendimento DIC – Duração de Interrupção por Unidade Consumidora em sistemas fotovoltaicos domiciliares / Leitura de textos técnicos e acadêmicos em diferentes idiomas / Pesquisa junto a órgãos setoriais e empresas atuantes no programa governamental Luz para Todos / Reuniões de alinhamento periódicas com orientador de pesquisa / Elaboração de artigos científicos e apresentações para revistas, congressos e demais eventos / Apresentação e defesa de dissertação de Mestrado / bolsista da agência de fomento à pesquisa CAPES –Coordenação de Aperfeiçoamento de Pessoal de Nível Superior\n Location : Santo André - SP\n Job Title : Professora Ciências Exatas\n Company name : Ensino Médio e Pré-vestibular\n Period : 26 – 29\n Summary : Preparação e aplicação de aulas das disciplinas Matemática, Estatística, Finanças e Física para escolas, cursos preparatórios para vestibular e particulares preparatórios para concurso\n Location : Vitória da Conquista - BA\n Job Title : Estagiária do Laboratório Ambiental\n Company name : INB\n Period : jan. de 24 – jun. de 24\n Summary : Preparação de amostras para análise de qualidade da água dos pontos de monitoramento da mina / Coleta de dados meteorológicos com sistema computacional específico / Elaboração de Relatórios para o IBAMA (Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis) e a CNEN (Comissão Nacional de Energia Nuclear)\n Location : Caetité - BA"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Senac São Paulo - Francisco Matarazzo\n Speciality : Especialização, Finanças Corporativas\n Period : 218 – 219\n School name : UFABC - Universidade Federal do ABC\n Speciality : Mestrado, Energia\n Period : 29 – 211\n Summary : •Dissertação: Qualidade do fornecimento de energia elétrica em sistemas isolados segundo o parâmetro de continuidades DIC. / Disponível em: http://www.biblioteca.ufabc.edu.br•Artigos publicados: O uso de indicadores de qualidade no fornecimento de energia elétrica utilizando sistemas fotovoltaicos domiciliares. Avances en Energías Renovables y Medio Ambiente, 211 / Riscos e perigos em instalações fotovoltaicas domiciliares e a importância da sua normatização. III Congresso Brasileiro de Energia Solar, 21., Representante dos estudantes no Conselho de Ensino e Pesquisa (ConsEPE).\n School name : Universidade Estadual do Sudoeste da Bahia\n Speciality : Matemática\n Period : 24 – 28\n Summary : Pesquisa Científica e Publicações sobre Educação Matemática com o Grupo de Estudos em Educação Matemática - GEEM / Representante Estudantil no Centro Acadêmico Gestão \"Bicho de 7 cabeças\" / \n Organizadora do Evento Acadêmico \"III Semana de Matemática da UESB\" / Curso de Dança Contemporânea.\n School name : CEFET / IFBA\n Speciality : Técnico em Meio Ambiente (Pós-Médio), Environment and Natural Resources\n Period : 22 – 23\n School name : CCE - PUC-Rio\n Speciality : Pós-graduação Lato Sensu - Especialização, Energia\n Period : 221 – 222\n Summary : Mercado de Energia | Regulação | Características técnicas | Derivativos de Energia\n Courses: Title : 29. Energy Efficiency. UFABC. 18h; Title : 29. Fossil fuels. UFABC. 144h; Title : 29. Photovoltaic Solar Energy. UFABC. 18h; Title : 29. Renewable Energy - Biomass. UFABC. 144h; Title : 21. Energy Seminars. UFABC. 144h; Title : 21. Energy, Development and Sustainability. UFABC. 144h; Title : 212. Energy economics. UFABC. 18h; Title : 213. General English course. St Giles Vancouver. 76 lessons; Title : 214 - present. English Private Lessons; Title : 215. English Language Course. Cork English College. 1h; Title : 216 - present. Spanish Private Lessons; Title : 218. Accounting and Analysis of Financial Statements. SENAC. 32h; Title : 218. Assertive communication. SENAC. 3h; Title : 218. Budget Management and Costs. SENAC. 32h; Title : 218. Corporate Governance. SENAC. 16h; Title : 218. Derivatives – Future Market, Swaps and Options. SENAC. 16h; Title : 218. Financial Markets and Economic Scenarios. SENAC. 32h; Title : 218. Investment Analysis and Valuation. SENAC. 32h; Title : 218. Statistics Applied to Finance. SENAC. 32h; \n Title : 219. Business Law and Tax Planning. SENAC. 32h"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "f8a83632-9d4d-4e1e-946c-8320d2726599",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*f8a83632-9d4d-4e1e-946c-8320d2726599",
+    "talent": {
+      "updatedAt": "2023-12-20T14:02:03.265Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:02:03.265Z",
+      "linkedinUsername": "cristiane-andrade-energy-market",
+      "email": "cristianebrito.andrade@gmail.com",
+      "phone": "11965497194",
+      "name": "Cris Andrade",
+      "id": "f8a83632-9d4d-4e1e-946c-8320d2726599"
+    },
+    "timeInCurrentStage": 61412054947
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.471Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "04/02/1983"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "24200"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "de mercado + previdência + carro"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Presbiteriana Mackenzie"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Contratação de Energia"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 ( 3 anos)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de Contratação de Energia\n Company name : EDP Brasil\n Period : ago. de 22 – o momento\n Location : São Paulo, Brasil\n Job Title : Gerente de Planejamento e Controle\n Company name : EDP Brasil\n Period : mar. de 218 – ago. de 22\n Location : São Paulo e Região, Brasil\n Job Title : Gerente de Contabilidade\n Company name : EDP Brasil\n Period : mar. de 216 – mar. de 218\n Location : São Paulo, São Paulo\n Job Title : Gerente de Controladoria\n Company name : EDP Brasil\n Period : out. de 213 – mar. de 216\n Location : Fortaleza e Região, Brasil\n Job Title : Contador\n Company name : EDP Brasil\n Period : ago. de 212 – set. de 213\n Job Title : Especialista em contabilidade\n Company name : EDP Brasil\n Period : fev. de 24 – jul. de 212\n Job Title : Trainee\n Company name : Mackenzie Presbyterian University\n Period : jan. de 23 – fev. de 24\n Location : São Paulo e Região, Brasil\n Job Title : Payroll Assistant\n Company name : PLAZA PAULISTA ADM SHOPPING CENTERS\n Period : out. de 1999 – nov. de 22\n Location : SÃO PAULO"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Mestrado Profissional em Gestão para Competitividade, Finanças e Controladoria\n Period : 217 – 219\n School name : FIPECAFI\n Speciality : MBA Controller, Controller\n Period : 28 – 21\n School name : Universidade Presbiteriana Mackenzie\n Speciality : Bacharel, Ciências Contábeis\n Period : 22 – 26\n School name : EMEF DERVILLE ALLEGRETTI\n Speciality : TÉCNICO, TÉCNICO EM CONTABILIDADE\n Period : 2 – 21"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "4d34693a-3355-44da-a555-f1079a7c94d4",
+    "id": "4fffcb5c-962b-4f22-9703-7590e791be48*4d34693a-3355-44da-a555-f1079a7c94d4",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:44.510Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:44.510Z",
+      "linkedinUsername": "leonery",
+      "email": "leonery01@gmail.com",
+      "phone": "5511997625516",
+      "name": "LEONARDO NERY DOS SANTOS",
+      "id": "4d34693a-3355-44da-a555-f1079a7c94d4"
+    },
+    "timeInCurrentStage": 61412054947
+  }
+]

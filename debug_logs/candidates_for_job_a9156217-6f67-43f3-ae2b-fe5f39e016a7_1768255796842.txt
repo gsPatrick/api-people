@@ -1,0 +1,4422 @@
+[
+  {
+    "importedAt": "2023-12-20T14:44:49.540Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Omega Energia"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "10/09/1984"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "10300"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador Fiscal"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 filha de 2 anos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T17:00:27.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2023-06-07T17:00:27.000Z",
+    "talentId": "211eefed-5f13-4602-9801-bbb9ec5c9ee5",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*211eefed-5f13-4602-9801-bbb9ec5c9ee5",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:12.675Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:12.675Z",
+      "email": "joelfariasramos@gmail.com",
+      "phone": "11947480410",
+      "name": "Joel Ramos",
+      "id": "211eefed-5f13-4602-9801-bbb9ec5c9ee5"
+    },
+    "timeInCurrentStage": 80940698572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.071Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "AES Brasil"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "24/09/1981"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "43000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "6"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês: Avançado"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Indiferente - SIM"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Não Diverso"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor de Controladoria e Planejamento Tributário"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/pedro-vitagliano-teixeira-96827313"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-15T21:35:06.000Z",
+    "source": "import",
+    "reason": "underqualified",
+    "userId": null,
+    "updatedAt": "2023-06-15T21:35:06.000Z",
+    "talentId": "71cc22dd-884e-4745-a2b2-a2c4d1c5e6c2",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*71cc22dd-884e-4745-a2b2-a2c4d1c5e6c2",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:10.512Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:10.512Z",
+      "email": "pedro.teixeira@aes.com",
+      "phone": "11966168127",
+      "name": "Pedro Vitagliano Teixeira",
+      "id": "71cc22dd-884e-4745-a2b2-a2c4d1c5e6c2"
+    },
+    "timeInCurrentStage": 80939597572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.622Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "EDP Renewables"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/marcello-sobrinho-719b8a73"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-23T00:50:20.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-23T00:50:20.000Z",
+    "talentId": "92a6fc17-0e5e-4b2b-9896-f973d0dff11a",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*92a6fc17-0e5e-4b2b-9896-f973d0dff11a",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:11.439Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:11.439Z",
+      "email": "marcello.sobrinho@yahoo.com.br",
+      "phone": "",
+      "name": "Marcello Sobrinho",
+      "id": "92a6fc17-0e5e-4b2b-9896-f973d0dff11a"
+    },
+    "timeInCurrentStage": 80774376572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.187Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Siemens Gamesa"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Tax Manager"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "eda76e10-3894-45d8-9427-0a4ba4624136",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SE",
+          "id": "712ef10a-c84e-4d33-9ad5-14e8b39b7e94",
+          "label": "SE"
+        }
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/marliane-controladoria"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-14T04:28:35.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2023-06-14T04:28:35.000Z",
+    "talentId": "3e0f38cf-e371-44e0-b147-6593ff855893",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*3e0f38cf-e371-44e0-b147-6593ff855893",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:06.495Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:06.495Z",
+      "email": "marlianescarvalho@gmail.com",
+      "phone": "",
+      "name": "Marliane Carvalho",
+      "id": "3e0f38cf-e371-44e0-b147-6593ff855893"
+    },
+    "timeInCurrentStage": 80940773572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:49.696Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "ALUPAR"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "02/04/1982"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "16000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês: Intermediário"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Não Diverso"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenadora Fiscal e Tributário"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/elenribeiro"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T17:00:50.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T17:00:50.000Z",
+    "talentId": "33b0aa4a-f908-43f5-a063-bd4264fd01b5",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*33b0aa4a-f908-43f5-a063-bd4264fd01b5",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:06.464Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:06.464Z",
+      "email": "elen.elizabeth@gmail.com",
+      "phone": "11979946690",
+      "name": "Elen Ribeiro",
+      "id": "33b0aa4a-f908-43f5-a063-bd4264fd01b5"
+    },
+    "timeInCurrentStage": 80937339572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.400Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Omega Energia"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "17/03/1988"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "8500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Indiferente - SIM"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Não Diverso"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista Tributário Sênior - Diretos"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Analista",
+          "id": "011022e1-284a-413f-8d86-8b72a9126952",
+          "label": "Analista"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/davidy-cristiano-germano-615552121"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-21T01:44:12.000Z",
+    "source": "import",
+    "reason": "underqualified",
+    "userId": null,
+    "updatedAt": "2023-06-21T01:44:12.000Z",
+    "talentId": "2638ab4e-ce99-4d35-b7fd-0dd22e59d8f0",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*2638ab4e-ce99-4d35-b7fd-0dd22e59d8f0",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:13.452Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:13.452Z",
+      "email": "davidy_cris@hotmail.com",
+      "phone": "19996401498",
+      "name": "Davidy Cristiano Germano",
+      "id": "2638ab4e-ce99-4d35-b7fd-0dd22e59d8f0"
+    },
+    "timeInCurrentStage": 80939862572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:49.650Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Copel"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/tatiane-ramthun-gumz-80064b22"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T17:10:47.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T17:10:47.000Z",
+    "talentId": "99c4accb-ead7-47b1-b954-bb9927a38db5",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*99c4accb-ead7-47b1-b954-bb9927a38db5",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:09.948Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:09.948Z",
+      "email": "importacao10539@importacaoinhire.com",
+      "phone": "",
+      "name": "Tatiane Ramthun Gumz",
+      "id": "99c4accb-ead7-47b1-b954-bb9927a38db5"
+    },
+    "timeInCurrentStage": 82097949572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.271Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "CPFL Energia"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Planejamento Tributário"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T16:31:17.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T16:31:17.000Z",
+    "talentId": "7beac6f3-d143-49e0-b163-acbafcd18323",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*7beac6f3-d143-49e0-b163-acbafcd18323",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:06.725Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:06.725Z",
+      "email": "alefcastellani@gmail.com",
+      "phone": "19996150381",
+      "name": "Alexandre Castellani",
+      "id": "7beac6f3-d143-49e0-b163-acbafcd18323"
+    },
+    "timeInCurrentStage": 82100319572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:49.773Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBK6D09GEMVEM6E2FR9",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "ENGIE"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/cintia-fito-2733a2159"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-23T00:48:36.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-23T00:48:36.000Z",
+    "talentId": "ce7816e2-a574-477e-b13b-f64fd37788be",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*ce7816e2-a574-477e-b13b-f64fd37788be",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:07.633Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:07.633Z",
+      "email": "importacao2143@importacaoinhire.com",
+      "phone": "21994656088",
+      "name": "Cintia Fito",
+      "id": "ce7816e2-a574-477e-b13b-f64fd37788be"
+    },
+    "timeInCurrentStage": 80355828572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.130Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "EDP Brasil"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "21/12/1981"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "28800"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Direito",
+          "id": "e68ab20b-5070-44b2-b67c-5fbf8f0b80b8",
+          "label": "Direito"
+        }
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês: Avançado"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Gênero"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Executive Tax Manager"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "eda76e10-3894-45d8-9427-0a4ba4624136",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/anna-carolina-c-7a11817"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T16:39:50.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T16:39:50.000Z",
+    "talentId": "78122faa-e578-4529-8d18-e63f697a3ee7",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*78122faa-e578-4529-8d18-e63f697a3ee7",
+    "talent": {
+      "updatedAt": "2023-12-20T13:48:46.636Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:48:46.636Z",
+      "email": "mattioli.anna@gmail.com",
+      "phone": "11971705277",
+      "name": "Anna Carolina C.",
+      "id": "78122faa-e578-4529-8d18-e63f697a3ee7"
+    },
+    "timeInCurrentStage": 80937270572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:49.518Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "AES Eletropaulo"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "24/05/1989"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "22000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "8"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "14"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Direito",
+          "id": "e68ab20b-5070-44b2-b67c-5fbf8f0b80b8",
+          "label": "Direito"
+        }
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês: Intermediário"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Indiferente - SIM"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Não Diverso"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Tax Manager"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "eda76e10-3894-45d8-9427-0a4ba4624136",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "MA",
+          "id": "00330d5b-fd5b-4eba-b2fe-747c38f1476e",
+          "label": "MA"
+        }
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T17:07:57.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T17:07:57.000Z",
+    "talentId": "baddb6ec-5c6c-45bd-8386-cb044a88d642",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*baddb6ec-5c6c-45bd-8386-cb044a88d642",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:08.143Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:08.143Z",
+      "email": "ggoncalves75@hotmail.com",
+      "phone": "19998306344",
+      "name": "Guilherme Gonçalves",
+      "id": "baddb6ec-5c6c-45bd-8386-cb044a88d642"
+    },
+    "timeInCurrentStage": 80937406572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.462Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Braslight"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/fernando-junior-14308a22"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T17:13:27.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T17:13:27.000Z",
+    "talentId": "ce3b0afc-be25-4ea5-8ad0-7be6b3b250d7",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*ce3b0afc-be25-4ea5-8ad0-7be6b3b250d7",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:07.848Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:07.848Z",
+      "email": "faajunior3@gmail.com",
+      "phone": "2180077744",
+      "name": "Fernando Junior",
+      "id": "ce3b0afc-be25-4ea5-8ad0-7be6b3b250d7"
+    },
+    "timeInCurrentStage": 80875526572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:49.854Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Neoenergia"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/wedson-peres-52a31723"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T17:00:07.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T17:00:07.000Z",
+    "talentId": "8cc331f1-3d7d-4d52-a6cc-090fce48eaf7",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*8cc331f1-3d7d-4d52-a6cc-090fce48eaf7",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:11.429Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:11.429Z",
+      "email": "importacao11333@importacaoinhire.com",
+      "phone": "",
+      "name": "Wedson Peres",
+      "id": "8cc331f1-3d7d-4d52-a6cc-090fce48eaf7"
+    },
+    "timeInCurrentStage": 82098589572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.537Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "TAESA - Transmissora Aliança de Energia Elétrica S.A."
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/gabriel-cypriano-15318157"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T17:08:27.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T17:08:27.000Z",
+    "talentId": "e2cb8dfd-a432-4068-8ad4-888b9ad3d77d",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*e2cb8dfd-a432-4068-8ad4-888b9ad3d77d",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:10.126Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:10.126Z",
+      "email": "importacao4326@importacaoinhire.com",
+      "phone": "",
+      "name": "Gabriel Cypriano",
+      "id": "e2cb8dfd-a432-4068-8ad4-888b9ad3d77d"
+    },
+    "timeInCurrentStage": 82098089572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:49.989Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Neoenergia"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "5/28/81"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "24000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Tax Manager"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "sem filhos"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T16:59:48.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T16:59:48.000Z",
+    "talentId": "e9963908-f7e8-436d-bec9-1823fc06a10f",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*e9963908-f7e8-436d-bec9-1823fc06a10f",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:06.538Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:06.538Z",
+      "email": "arthursolomon@gmail.com",
+      "phone": "21996205052",
+      "name": "Arthur Solomon",
+      "id": "e9963908-f7e8-436d-bec9-1823fc06a10f"
+    },
+    "timeInCurrentStage": 82098608572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:49.681Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "GE Renewable Energy"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/gilmar-stucchi-02533a6"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-23T00:48:16.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-23T00:48:16.000Z",
+    "talentId": "d7f27a4d-269d-45d3-b622-3a843ea7b5c4",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*d7f27a4d-269d-45d3-b622-3a843ea7b5c4",
+    "talent": {
+      "updatedAt": "2023-12-20T13:48:51.885Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:48:51.885Z",
+      "email": "importacao4520@importacaoinhire.com",
+      "phone": "",
+      "name": "Gilmar Stucchi",
+      "id": "d7f27a4d-269d-45d3-b622-3a843ea7b5c4"
+    },
+    "timeInCurrentStage": 80774500572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.491Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Enel Brasil"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/camila-messias-b9105424"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T17:11:54.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T17:11:54.000Z",
+    "talentId": "be2a203c-18e6-427f-93f9-3b89e7e78e41",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*be2a203c-18e6-427f-93f9-3b89e7e78e41",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:11.672Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:11.672Z",
+      "email": "importacao1694@importacaoinhire.com",
+      "phone": "",
+      "name": "Camila Messias",
+      "id": "be2a203c-18e6-427f-93f9-3b89e7e78e41"
+    },
+    "timeInCurrentStage": 82097882572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.564Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "BP Bunge Bioenergia"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "11/02/1982"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "31000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Direito",
+          "id": "e68ab20b-5070-44b2-b67c-5fbf8f0b80b8",
+          "label": "Direito"
+        }
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Não Diverso"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Senior Legal Tax Manager"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "eda76e10-3894-45d8-9427-0a4ba4624136",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/ana-carolina-pedrazini-albano-tomasoni-14a81018"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-23T00:41:27.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-23T00:41:27.000Z",
+    "talentId": "40788fab-2fc6-4eb1-abc5-275e475172b9",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*40788fab-2fc6-4eb1-abc5-275e475172b9",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:12.343Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:12.343Z",
+      "email": "carolinapedrazini@gmail.com",
+      "phone": "11994941041",
+      "name": "Ana Carolina Pedrazini Albano Tomasoni",
+      "id": "40788fab-2fc6-4eb1-abc5-275e475172b9"
+    },
+    "timeInCurrentStage": 80256607572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.366Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "#N/D"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "28/03/1983"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "10000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês: Intermediário"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Não Diverso"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Tax Coordinator"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "PR",
+          "id": "ddacebd3-b647-4eb4-b74a-be67c4653033",
+          "label": "PR"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-22T21:44:08.000Z",
+    "source": "import",
+    "reason": "underqualified",
+    "userId": null,
+    "updatedAt": "2023-06-22T21:44:08.000Z",
+    "talentId": "3c3b25b2-c0a2-4b85-af5b-876e697532b1",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*3c3b25b2-c0a2-4b85-af5b-876e697532b1",
+    "talent": {
+      "updatedAt": "2023-12-20T13:48:43.150Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:48:43.150Z",
+      "email": "valnei.wos@gmail.com",
+      "phone": "41999213193",
+      "name": "Valnei Wos",
+      "id": "3c3b25b2-c0a2-4b85-af5b-876e697532b1"
+    },
+    "timeInCurrentStage": 80255985572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.252Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "02/05/1990"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "25500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Direito",
+          "id": "e68ab20b-5070-44b2-b67c-5fbf8f0b80b8",
+          "label": "Direito"
+        }
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês: Avançado"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Gênero"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Tax Manager"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "eda76e10-3894-45d8-9427-0a4ba4624136",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "MG",
+          "id": "fd9a75a0-f705-48e8-9abe-cb8601c06067",
+          "label": "MG"
+        }
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/luiza-lopes-8168a887"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T17:10:12.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T17:10:12.000Z",
+    "talentId": "77439742-4f16-4f56-88c9-8e6323bb7385",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*77439742-4f16-4f56-88c9-8e6323bb7385",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:07.852Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:07.852Z",
+      "email": "ana_lu_lopes@hotmail.com",
+      "phone": "5531971152548",
+      "name": "Luiza Lopes",
+      "id": "77439742-4f16-4f56-88c9-8e6323bb7385"
+    },
+    "timeInCurrentStage": 80937747572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:49.931Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "CPFL Energia"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "27/04/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "28000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Direito",
+          "id": "e68ab20b-5070-44b2-b67c-5fbf8f0b80b8",
+          "label": "Direito"
+        }
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês: Avançado"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Não Diverso"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Planejamento Tributário"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "eda76e10-3894-45d8-9427-0a4ba4624136",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/filipe-rezende-do-amaral-61084b22"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T16:31:56.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T16:31:56.000Z",
+    "talentId": "099cbf16-ff8c-441f-8e08-40ebf90b7c55",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*099cbf16-ff8c-441f-8e08-40ebf90b7c55",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:11.076Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:11.076Z",
+      "email": "rezende.amaral@gmail.com",
+      "phone": "19996228944",
+      "name": "Filipe Rezende do Amaral",
+      "id": "099cbf16-ff8c-441f-8e08-40ebf90b7c55"
+    },
+    "timeInCurrentStage": 80941134572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:49.589Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Gamesa Eólica Brasil Ltda."
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/eugenie-tanner-6430a670"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-23T00:47:38.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-23T00:47:38.000Z",
+    "talentId": "c3fa7862-1857-4d5e-8ea8-0a80faa0c10a",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*c3fa7862-1857-4d5e-8ea8-0a80faa0c10a",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:13.073Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:13.073Z",
+      "email": "importacao3491@importacaoinhire.com",
+      "phone": "",
+      "name": "Eugenie Tanner",
+      "id": "c3fa7862-1857-4d5e-8ea8-0a80faa0c10a"
+    },
+    "timeInCurrentStage": 80774538572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:49.714Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "CELESC - Centrais Elétricas de Santa Catarina"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/pablo-luís-cavalheiro-cardoso-51412546"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T17:14:16.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T17:14:16.000Z",
+    "talentId": "e4bfe422-0400-4079-8008-f04a19ba63ea",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*e4bfe422-0400-4079-8008-f04a19ba63ea",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:05.419Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:05.419Z",
+      "email": "importacao8428@importacaoinhire.com",
+      "phone": "",
+      "name": "Pablo Luís Cavalheiro Cardoso",
+      "id": "e4bfe422-0400-4079-8008-f04a19ba63ea"
+    },
+    "timeInCurrentStage": 82097740572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.383Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "#N/D"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/kamila-a-barbosa-geo-67239a61"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-23T00:42:01.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-23T00:42:01.000Z",
+    "talentId": "2067492e-bedd-454c-bd9a-43b7365f02da",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*2067492e-bedd-454c-bd9a-43b7365f02da",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:05.345Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:05.345Z",
+      "email": "importacao5941@importacaoinhire.com",
+      "phone": "",
+      "name": "Kamila A. Barbosa Geo",
+      "id": "2067492e-bedd-454c-bd9a-43b7365f02da"
+    },
+    "timeInCurrentStage": 80774875572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:49.742Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "ENGIE Brasil"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "18/05/1977"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "16900"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Não Diverso"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de Tax"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SC",
+          "id": "315e56b3-d7d4-47bf-95a8-d810c2ad557a",
+          "label": "SC"
+        }
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/fernando-fedulo-b4b4362a"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T03:12:07.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T03:12:07.000Z",
+    "talentId": "05520249-f436-41ab-bd17-64211cca11c3",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*05520249-f436-41ab-bd17-64211cca11c3",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:14.397Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:14.397Z",
+      "email": "f.fedulo@gmail.com",
+      "phone": "48991039370",
+      "name": "Fernando Fedulo",
+      "id": "05520249-f436-41ab-bd17-64211cca11c3"
+    },
+    "timeInCurrentStage": 80940868572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.305Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "CPFL - Piracicaba"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "9/12/74"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Contábil e Fiscal"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T17:02:02.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T17:02:02.000Z",
+    "talentId": "42e0aa4d-d901-4fbd-be64-99318cb07e32",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*42e0aa4d-d901-4fbd-be64-99318cb07e32",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:13.299Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:13.299Z",
+      "email": "importacao2591@importacaoinhire.com",
+      "phone": "",
+      "name": "Daniela Ribeiro Mendes",
+      "id": "42e0aa4d-d901-4fbd-be64-99318cb07e32"
+    },
+    "timeInCurrentStage": 82098474572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.158Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "AES Brasil"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "1/23/85"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador Fiscal"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 filho (2 anos e meio)"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/carla-c-delgado-legieri-00546a66"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T17:07:05.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T17:07:05.000Z",
+    "talentId": "26e910c0-6cc3-49d8-9136-a9ba1b43f075",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*26e910c0-6cc3-49d8-9136-a9ba1b43f075",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:07.281Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:07.281Z",
+      "email": "carla.cdelgado@yahoo.com.br",
+      "phone": "987355634",
+      "name": "Carla C. Delgado Legieri",
+      "id": "26e910c0-6cc3-49d8-9136-a9ba1b43f075"
+    },
+    "timeInCurrentStage": 80788524572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.221Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Enel Brasil"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/janaina-nogueira-carvalho"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-14T04:17:18.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-14T04:17:18.000Z",
+    "talentId": "fc56df89-85a7-41f2-affa-f930b7ed3ae0",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*fc56df89-85a7-41f2-affa-f930b7ed3ae0",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:11.857Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:11.857Z",
+      "email": "janaluiza73@gmail.com",
+      "phone": "21993578965",
+      "name": "Janaina Nogueira Carvalho",
+      "id": "fc56df89-85a7-41f2-affa-f930b7ed3ae0"
+    },
+    "timeInCurrentStage": 81539558572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.336Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "ENGIE Brasil"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "12/10/1973"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "20000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "2.5"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2.5"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês: intermediario"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Não Diverso"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente financeiro"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "eda76e10-3894-45d8-9427-0a4ba4624136",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 (18 anos)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SC",
+          "id": "315e56b3-d7d4-47bf-95a8-d810c2ad557a",
+          "label": "SC"
+        }
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/girlane-ramos"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T03:12:47.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T03:12:47.000Z",
+    "talentId": "70fcde24-050e-4ade-9bd8-6ae8e25cde23",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*70fcde24-050e-4ade-9bd8-6ae8e25cde23",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:06.092Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:06.092Z",
+      "email": "girlane.souza@gmail.com",
+      "phone": "48991447330",
+      "name": "Girlane Ramos de Souza",
+      "id": "70fcde24-050e-4ade-9bd8-6ae8e25cde23"
+    },
+    "timeInCurrentStage": 80940980572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.018Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "AES Eletropaulo"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "07/09/1968"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "17000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Não Diverso"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenadora de Impostos Indiretos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/sonia-maria-medeiros-58b61a20"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-21T01:45:31.000Z",
+    "source": "import",
+    "reason": "behavioral",
+    "userId": null,
+    "updatedAt": "2023-06-21T01:45:31.000Z",
+    "talentId": "db0838aa-6b9f-48aa-8e4d-c58c87440e76",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*db0838aa-6b9f-48aa-8e4d-c58c87440e76",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:05.407Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:05.407Z",
+      "email": "s.m.medeiros@hotmail.com",
+      "phone": "998038920",
+      "name": "Sonia Maria Medeiros",
+      "id": "db0838aa-6b9f-48aa-8e4d-c58c87440e76"
+    },
+    "timeInCurrentStage": 80940400572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.445Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "CPFL Energia"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/rffricardo"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-23T00:47:50.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-23T00:47:50.000Z",
+    "talentId": "5e1edb6b-7a63-4f15-9341-a2838ea69873",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*5e1edb6b-7a63-4f15-9341-a2838ea69873",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:05.342Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:05.342Z",
+      "email": "rff.ricardo@hotmail.com",
+      "phone": "",
+      "name": "Ricardo Ferreira",
+      "id": "5e1edb6b-7a63-4f15-9341-a2838ea69873"
+    },
+    "timeInCurrentStage": 80774526572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:49.875Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Vestas"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/luis-fernando-de-jesus-1965222b"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-23T00:48:56.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-23T00:48:56.000Z",
+    "talentId": "d6ecfc2e-9d89-4736-8b95-1ab27dd8816b",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*d6ecfc2e-9d89-4736-8b95-1ab27dd8816b",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:10.812Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:10.812Z",
+      "email": "importacao6849@importacaoinhire.com",
+      "phone": "11944834839",
+      "name": "Luis Fernando de Jesus",
+      "id": "d6ecfc2e-9d89-4736-8b95-1ab27dd8816b"
+    },
+    "timeInCurrentStage": 80774460572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.591Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Fortescue Future Industries"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/daniela-cunha-pizzo"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-23T00:43:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-23T00:43:00.000Z",
+    "talentId": "8634e370-090d-4317-adeb-4fbe768903b2",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*8634e370-090d-4317-adeb-4fbe768903b2",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:05.999Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:05.999Z",
+      "email": "importacao2565@importacaoinhire.com",
+      "phone": "11981221016",
+      "name": "Daniela Cunha Pizzo",
+      "id": "8634e370-090d-4317-adeb-4fbe768903b2"
+    },
+    "timeInCurrentStage": 80774816572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:49.960Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBK6D09GEMVEM6E2FR9",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "ENGIE Brasil"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/sabrina-maccarini-a2510528"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T03:11:31.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T03:11:31.000Z",
+    "talentId": "ad81460d-f64d-4689-bdaa-a974e8de83f7",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*ad81460d-f64d-4689-bdaa-a974e8de83f7",
+    "talent": {
+      "updatedAt": "2023-12-20T13:48:45.747Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:48:45.747Z",
+      "email": "sabrinajuliana@hotmail.com",
+      "phone": "48991298607",
+      "name": "Sabrina Maccarini",
+      "id": "ad81460d-f64d-4689-bdaa-a974e8de83f7"
+    },
+    "timeInCurrentStage": 80941245572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.055Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "CTG Brasil"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/romano-pereira-da-silva-830b3b3a"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-22T22:36:30.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-22T22:36:30.000Z",
+    "talentId": "6f7acff3-7aad-4bae-a935-62901ec848ea",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*6f7acff3-7aad-4bae-a935-62901ec848ea",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:14.623Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:14.623Z",
+      "email": "romano_psilva@hotmail.com",
+      "phone": "",
+      "name": "Romano Pereira da Silva",
+      "id": "6f7acff3-7aad-4bae-a935-62901ec848ea"
+    },
+    "timeInCurrentStage": 80774213572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:49.794Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "GE Renewable Energy"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/rafaelalban"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-23T00:35:40.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-23T00:35:40.000Z",
+    "talentId": "263fa2af-b05e-49cf-bd17-274ad83ab925",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*263fa2af-b05e-49cf-bd17-274ad83ab925",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:14.106Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:14.106Z",
+      "email": "ralban002@gmail.com",
+      "phone": "",
+      "name": "Rafael Albán",
+      "id": "263fa2af-b05e-49cf-bd17-274ad83ab925"
+    },
+    "timeInCurrentStage": 80775256572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:49.905Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Light"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "17/10/1994"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "12000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "LGBTQ+"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador Tributário"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/elias-guzzo-78a66186"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T17:13:43.000Z",
+    "source": "import",
+    "reason": "underqualified",
+    "userId": null,
+    "updatedAt": "2023-06-07T17:13:43.000Z",
+    "talentId": "7ba1c67f-cc46-4c44-be71-e7b9594ed967",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*7ba1c67f-cc46-4c44-be71-e7b9594ed967",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:14.778Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:14.778Z",
+      "email": "elias.guzzo1@gmail.com",
+      "phone": "21998101413",
+      "name": "Elias Guzzo",
+      "id": "7ba1c67f-cc46-4c44-be71-e7b9594ed967"
+    },
+    "timeInCurrentStage": 80937900572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:49.624Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "EletroPaulo"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/adilson-gomes-2605a115"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-14T04:16:25.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-14T04:16:25.000Z",
+    "talentId": "0447d5dc-7353-4bb2-9e1c-2cae80b9581b",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*0447d5dc-7353-4bb2-9e1c-2cae80b9581b",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:08.008Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:08.008Z",
+      "email": "importacao51@importacaoinhire.com",
+      "phone": "",
+      "name": "Adilson Gomes",
+      "id": "0447d5dc-7353-4bb2-9e1c-2cae80b9581b"
+    },
+    "timeInCurrentStage": 81539611572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.205Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Enel"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "15/09/1977"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "40000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês: Avançado"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Não Diverso"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Head of Tax Affairs"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/michelle-nogueira-22393562"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T17:12:40.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T17:12:40.000Z",
+    "talentId": "8caa12ec-f1d3-4345-a093-72119e81e769",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*8caa12ec-f1d3-4345-a093-72119e81e769",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:09.849Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:09.849Z",
+      "email": "michelle_rnogueira@hotmail.com",
+      "phone": "21988030119",
+      "name": "Michelle Nogueira",
+      "id": "8caa12ec-f1d3-4345-a093-72119e81e769"
+    },
+    "timeInCurrentStage": 80937860572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:49.555Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Goldwind"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/thálita-clemente-5a352921"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-23T00:45:26.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-23T00:45:26.000Z",
+    "talentId": "064a5283-4331-45c3-9cd1-d632696c4ebf",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*064a5283-4331-45c3-9cd1-d632696c4ebf",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:12.980Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:12.980Z",
+      "email": "importacao10640@importacaoinhire.com",
+      "phone": "",
+      "name": "Thálita Clemente",
+      "id": "064a5283-4331-45c3-9cd1-d632696c4ebf"
+    },
+    "timeInCurrentStage": 80774670572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:49.824Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "ENGIE Brasil"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "05/02/1981"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "3600"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Não Diverso"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista Fiscal Sr."
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Analista",
+          "id": "011022e1-284a-413f-8d86-8b72a9126952",
+          "label": "Analista"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SC",
+          "id": "315e56b3-d7d4-47bf-95a8-d810c2ad557a",
+          "label": "SC"
+        }
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/leandro-freyesleben-lima-45787469"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-21T01:44:46.000Z",
+    "source": "import",
+    "reason": "underqualified",
+    "userId": null,
+    "updatedAt": "2023-06-21T01:44:46.000Z",
+    "talentId": "914d788f-34c6-4977-8a4e-5650eee57f0e",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*914d788f-34c6-4977-8a4e-5650eee57f0e",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:08.128Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:08.128Z",
+      "email": "lefreyesleben@hotmail.com",
+      "phone": "48991551153",
+      "name": "Leandro Freyesleben Lima",
+      "id": "914d788f-34c6-4977-8a4e-5650eee57f0e"
+    },
+    "timeInCurrentStage": 80940046572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.520Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "CPFL Energia S.A"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "11/20/79"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "14500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Supervisor Fiscal"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-07T16:32:20.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-07T16:32:20.000Z",
+    "talentId": "23d4c3dd-13ef-4d07-99e0-aa31d8bd5700",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*23d4c3dd-13ef-4d07-99e0-aa31d8bd5700",
+    "talent": {
+      "updatedAt": "2023-12-20T13:02:09.157Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:02:09.157Z",
+      "email": "vbmarta@cpfl.com.br",
+      "phone": "19996697786",
+      "name": "Vinicius Marta",
+      "id": "23d4c3dd-13ef-4d07-99e0-aa31d8bd5700"
+    },
+    "timeInCurrentStage": 82100256572
+  },
+  {
+    "importedAt": "2023-12-20T14:44:50.418Z",
+    "stage": {
+      "phase": {
+        "name": "Abordagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Enel"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "24/02/1974"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "24000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Direito",
+          "id": "e68ab20b-5070-44b2-b67c-5fbf8f0b80b8",
+          "label": "Direito"
+        }
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Gênero"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Tax Risk Manager"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "eda76e10-3894-45d8-9427-0a4ba4624136",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/joana-facó-494370a"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-06-21T01:47:24.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-06-21T01:47:24.000Z",
+    "talentId": "dcd80e62-9d6d-49d7-a212-a437f2970540",
+    "id": "a9156217-6f67-43f3-ae2b-fe5f39e016a7*dcd80e62-9d6d-49d7-a212-a437f2970540",
+    "talent": {
+      "updatedAt": "2023-12-20T13:48:46.727Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:48:46.727Z",
+      "email": "joana_faco@yahoo.com.br",
+      "phone": "21991041708",
+      "name": "Joana Facó",
+      "id": "dcd80e62-9d6d-49d7-a212-a437f2970540"
+    },
+    "timeInCurrentStage": 80540963572
+  }
+]

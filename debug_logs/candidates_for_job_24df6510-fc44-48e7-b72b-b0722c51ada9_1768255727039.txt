@@ -1,0 +1,93 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:52.811Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor de Negócios EAD - Kroton Digital"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Diretor de Negócios EAD - Kroton Digital\n Company name : Kroton\n Period : out. de 217 – o momento\n Summary : Executivo da Operação Digital na Região Sudeste com responsabilidade sobre as dimensões comercial, operacional, financeira e acadêmica de toda a rede de unidades parceiras\n Location : Bahia\n \n Job Title : Diretor Regional EAD\n Company name : Kroton\n Period : mai. de 215 – out. de 217\n Summary : Executivo da Operação Digital na Região Nordeste\n \n Job Title : Diretor de Educação Corporativa e Novos Projetos\n Company name : Universidade Salvador\n Period : abr. de 213 – abr. de 215\n Summary : Executivo da Operação Digital da Universidade e com participação na equipe multidisciplinar que elaborou o modelo Digital da Rede Laureate \n Diretor das unidades de negócio em Feira de Santana, ampliando a oferta de cursos, e Cursos Técnicos, concebendo e montando as estruturas operacional, acadêmica e de captação\n Location : Salvador Area, Brazil\n \n Job Title : Reitor\n Company name : IBMR - Laureate International Universities\n Period : jul. de 211 – jul. de 212\n Summary : Responsável pelo desenvolvimento e implantação de novo modelo acadêmico para cursos de graduação e pós-graduação com reestruturação curricular e gestão docente integradas em Escolas Participação no processo de remodelagem organizacional do Centro Universitário com a ampliação do número de cursos e abertura de novo Campus\n Location : Rio de Janeiro\n \n Job Title : Pró-reitor de Graduação\n Company name : Universidade Salvador\n Period : jul. de 21 – jul. de 211\n Summary : Responsável pela reestruturação acadêmica e gestão docente de cursos de graduação (presencial e digital) durante o processo de integração à Rede Laureate, com implantação de novos cursos de graduação nos campi de Salvador e Feira de Santana\n \n Job Title : Adjunto da Reitoria para Educação a Distância\n Company name : Universidade Salvador\n Period : jul. de 29 – jul. de 21\n Summary : Modelagem e execução do projeto de expansão do Ensino Digital da UNIFACS, através da abertura de novas unidades parceiras, e com o desenvolvimento e implantação de novos cursos preservando o equilíbrio das dimensões acadêmica, financeira e operacional\n \n Job Title : Diretor Geral\n Company name : Faculdade Ruy Barbosa\n Period : jul. de 28 – mai. de 29\n Summary : Executivo responsável pelo processo de integração ao Grupo Fanor e, posteriormente, à DeVry Education Group (hoje Adtalem Global Education) Líder na reengenharia acadêmica, financeira, operacional e na expansão das operações da Instituição, englobando o estudo de novos Campi e cursos\n Location : Salvador\n \n Job Title : Diretor Acadêmico\n Company name : Faculdade Ruy Barbosa\n Period : mai. de 21 – jul. de 28\n Summary : Executivo da gestão acadêmica dos cursos de graduação, pós-graduação, de projetos de autorização e reconhecimento de cursos, captação e retenção de alunos, capacitação e aperfeiçoamento de professores\n \n \n Job Title : Assessor de Planejamento\n Company name : Faculdade Ruy Barbosa\n Period : ago. de 1998 – mai. de 21\n Summary : Líder do projeto de certificação do Programa de Qualidade da Faculdade Ruy Barbosa com base na Norma ISO92/94 Executivo responsável pela modelagem e implantação do Programa de Pós-graduação Lato Sensu e pelas áreas de captação e rematrícula"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Gestão de Desempenho e Meritocracia\n Period : Emitido em out. de 2014 - Nenhuma data de expiração\n Issuing Authority : BSP - Business School Sao Paulo\n Title : Gestão de Mudança\n Period : Emitido em nov. de 2013 - Nenhuma data de expiração\n Issuing Authority : BSP - Business School Sao Paulo\n \n Title : Comunicação\n Period : Emitido em out. de 2013 - Nenhuma data de expiração\n Issuing Authority : BSP - Business School Sao Paulo"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Moderna de Lisboa\n Speciality : Mestrado, Relações Internacionais\n Period : 1997 – 21\n Summary : Mercosul - Integração Regional\n School name : Faculdade Ruy Barbosa\n Speciality : Graduação, Administração\n Period : 1992 – 1996\n Summary : Primeiro aluno a receber a Láurea Acadêmica de Honra ao Mérito da Faculdade Ruy Barbosa\n \n School name : UFBA - Universidade Federal da Bahia\n Speciality : Doutorado, Administração\n Period : 27 – 27\n Summary : Aluno Especial de Disciplinas no Doutorado em Administração"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "e98e7046-1d41-4e2d-a8cf-00ae19faf6d7",
+    "id": "24df6510-fc44-48e7-b72b-b0722c51ada9*e98e7046-1d41-4e2d-a8cf-00ae19faf6d7",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:18.270Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:18.270Z",
+      "linkedinUsername": "adriano-miranda-a9a2043",
+      "email": "adrianolbmiranda@me.com",
+      "phone": "71988989090",
+      "name": "Adriano Miranda",
+      "id": "e98e7046-1d41-4e2d-a8cf-00ae19faf6d7"
+    },
+    "timeInCurrentStage": 61412326150
+  }
+]

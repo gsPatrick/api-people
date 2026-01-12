@@ -1,0 +1,3296 @@
+[
+  {
+    "importedAt": "2024-02-08T18:40:02.073Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "08/07/1988"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "19000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Psicologia",
+          "id": "0a31ad8a-c73e-4635-a450-2bd62ddcecf9",
+          "label": "Psicologia"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Executive Manager Human Resources, EHS and Internal Communication"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "MG",
+          "id": "fd9a75a0-f705-48e8-9abe-cb8601c06067",
+          "label": "MG"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Executive Manager Human Resources, EHS and Internal Communication\n Company name : Lojas Edmil\n Period : out de 22 - o momento – out de 22 - o momento\n Summary : Responsible for Human Resources, EHS and Internal Communication areas with the autonomy to define the strategy for the responbsible ares, to support the development of leaders, recruitment and selection, development, career, salary structure, training, organizing, succession plan, adjusting the profile of the group's professionals with the strategies defined by the company. Responsible to conduct the process of Strategic planning for the Edmil´s group, to support the business and the communication of the team.\n Also for the the policy of Health, Safety Engineering and Environment.\n Location : Elói Mendes, Minas Gerais, Brasil\n \n Job Title : Manufacturing, EHS & Quality HRBP Manager\n Company name : Whirlpool Corporation\n Period : mar de 219 - out de 22 – mar de 219 - out de 22\n Summary : HRBP manager for Manufacturing and EHS structure at Whirlpool Corporation. Monitoring Whirlpool Corporation business strategy to support the development of leaders, and individual contributors, following the development, career and salary structure, training, organizing, succession plan, adjusting the profile of the group's professionals with the strategies defined by the company. Promotion indicators, turnover, overtime, headcount, job rotation, training, performance, policies and processes\n Location : São Paulo, Brasil\n \n Job Title : HRBP Coordinator (Coordenação HRBP)\n Company name : FCA Latam (Fiat Chrysler Automobiles)\n Period : 218 - 219 – 218 - 219\n Summary : Responsible for the HRBP coordination of the Engine and Transmission for the industrial plant in Latin America. Monitoring FCA group business strategy in order to follow the development,\n career and salary structure, training, organizing, adjusting the profile of the group's\n professionals with the strategies defined by the company. Promotion indicators,\n turnover, overtime, headcount, job rotation, training, performance, policies and\n processes.\n Location : Belo Horizonte e Região, Brasil\n \n Job Title : Latam Commercial HR Business Partner Specialist\n Company name : FCA Fiat Chrysler Automobiles\n Period : out de 217 - out de 218 – out de 217 - out de 218\n Summary : Monitoring FCA group business strategy in order to follow the development,\n career and salary structure, training, organizing, adjusting the profile of the group's\n professionals with the strategies defined by the company. Promotion indicators,\n turnover, overtime, headcount, job rotation, training, performance, policies and\n processes.\n Location : São Paulo\n \n Job Title : LATAM Finance and Financial Services HR Business Partner Sr Analyst\n Company name : Banco Fidis S/A\n Period : jul de 215 - out de 217 – jul de 215 - out de 217\n Summary : Monitoring FCA group business strategy in order to follow the development,\n career and salary structure, training, organizing, adjusting the profile of the group's\n professionals with the strategies defined by the company. Promotion indicators,\n turnover, overtime, headcount, job rotation, training, performance, policies and\n processes.\n Location : Belo Horizonte, Minas Gerais, Brazil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : ICI - Integrated Coaching Institute\n Speciality : Gestão de Recursos Humanos\n Degree : Curso de Formação e Certificação Internacional em Coaching Integrado\n Period : 219 - 219\n \n School name : Ibmec\n Speciality : Administração e Negócios\n Degree : Pós Graduação - Gestão de Negócios\n Period : 213 - 214\n \n School name : Universidade FUMEC\n Speciality : Ciências Humanas\n Degree : Psicologia\n Period : 27 - 212"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "310d1c91-47cc-4d2d-9923-97845ce1aa5b",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*310d1c91-47cc-4d2d-9923-97845ce1aa5b",
+    "talent": {
+      "updatedAt": "2023-12-20T13:54:40.127Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:54:40.127Z",
+      "linkedinUsername": "luciana-botrel-vilela-3134762a",
+      "email": "luvilela87@hotmail.com",
+      "phone": "35998133551",
+      "name": "Luciana Botrel Vilela",
+      "id": "310d1c91-47cc-4d2d-9923-97845ce1aa5b"
+    },
+    "timeInCurrentStage": 61412029322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.555Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "HR Manager BP"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : HR Manager BP\n Company name : Loggi\n Period : nov. de 219 – o momento\n Location : São Paulo e Região, Brasil\n \n Job Title : Product, Engineer and Data Analytics - HR Business Partner\n Company name : Loggi\n Period : nov. de 218 – nov. de 219\n Location : São Paulo e Região, Brasil\n \n Job Title : HR Business Partner and Performance Lead\n Company name : Loggi\n Period : jul. de 218 – nov. de 218\n Summary : - Atuação estratégica para áreas corporativas (Legal, Finance, Procurement, Business Intelligence, People and Communication).- Cuidar da experiência do colaborador como um todo: necessidade de treinamento, cultura, onboarding de área, construção de feedbacks, plano de carreira e desenvolvimento dos colaboradores, avaliação de desempenho, conflitos e análise de demanda das áreas com objetivo de alavancar a performance dos colaboradores e assim o cumprimento da missão da Loggi.- Responsável pelo planejamento, criação, operacionalização e comunicação do modelo de avaliação de desempenho dos colaboradores com foco em desenvolvimento bem como seus significados, treinamentos e consequências.\n Location : São Paulo, São Paulo\n \n Job Title : Head de Recursos Humanos\n Company name : eduK\n Period : out. de 217 – jul. de 218\n Location : São Paulo e Região, Brasil\n \n Job Title : Especialista de Pessoas / Recursos Humanos\n Company name : eduK\n Period : jun. de 215 – out. de 217\n Summary : • Recrutamento e seleção principalmente focado em produto, tecnologia, áudio visual e marketing de performance garantindo todo o processo de contratação e integração. Incluindo avaliação por valores.• Liderança dos processos de recrutamento e seleção para posições operacionais.• Planejamento, criação e implantação do ciclo de desenvolvimento (avaliação de desempenho).• Avaliação e implementação de melhorias para engajamento dos colaboradores.• Familiarização com questões empresariais e funcionais, a fim de influenciar eficazmente líderes no grupo de clientes.• Criação e acompanhamento dos KPIs da área.• Planejamento e implantação de cargos e salários.• Elaboração de todos os treinamentos da empresa.• Criação e condução do programa de estágio e aprendizes• Criação e condução do programa de mentoria.• Desenho e implantação de novos processos e políticas (férias, ponto, assistência médica, táxi, VR/VA, recrutamento e seleção, etc).• Revisão dos valores e cultura da empresa bem como sua manutenção (grupo de cultura).• Planejar, criar e operacionalizar comunicação interna e eventos. • Elaboração e operacionalização da avaliação do período de experiência.• Entrevista de desligamento.\n Location : São Paulo e Região, Brasil\n \n Job Title : Consultora de Recursos Humanos\n Company name : Etna Móveis e Decoração\n Period : mai. de 213 – mai. de 215\n Summary : • Recrutamento e Seleção para posições corporativas. Levantamento de perfil, divulgação, recrutamento, testes, entrevista presencial e Skype. Responsável pelo processo como um todo.• Programa de Trainees da empresa.• Implantação de sistema.• Criação de campanhas internas.• Indicadores da área • Consultora e atendimento a áreas internas.\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista de Recursos Humanos\n Company name : Neovista Consultoria em RH\n Period : fev. de 213 – mai. de 213\n Summary : Hunting para posições executivas; Abordagem de candidatos; Mapeamento de mercado; Elaboração de relatórios.\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista de Gente e Gestão\n Company name : Gafisa\n Period : jun. de 211 – jan. de 212\n Summary : Business Partner Financeiro e Jurídico;Recrutamento e seleção dos candidatos à trainees; Responsável pelo acompanhamento e apoio a elaboração do orçamento da área; Estruturação de software para acompanhamento de treinamentos; Apoio à estruturação de Programas in company; Responsável pelo software SPP para treinamentos e fins de educação empresarial; Responsável por toda a logística de treinamentos;Elaboração de relatório da área de treinamentos;Identificação de necessidade de treinamentos para todos os cargos; Elaboração de treinamentos voltados para área de Recursos Humanos;\n Location : São Paulo\n \n \n Job Title : Estagiária em Recursos Humanos\n Company name : Braskem\n Period : jan. de 21 – mai. de 211\n Summary : Apoio aos Programas voltados aos jovens – estágio, trainee; Elaboração de logística de treinamentos; Desenho e desenvolvimento do Programa de Jovens Aprendizes; Responsável pela condução do programa de reconhecimento profissional;\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Fundação Getulio Vargas\n Speciality : Bacharel em Administração de Empresas, Business Administration and Management, General\n Period : 27 – 211\n Summary : trabalho voluntário\n \n School name : FIA - Fundação Instituto de Administração\n Speciality : Modelos de Gestão Estratégic​a de Pessoas, Human Resources Management/Personnel Administration, General\n Period : 213 – 214\n Courses: Title : Técnicas de Negociação - Fundação Getulio Vargas – 4horas – Fev/21"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "2cbe1e5f-b4ad-4bb1-b7b4-79b866292b3c",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*2cbe1e5f-b4ad-4bb1-b7b4-79b866292b3c",
+    "talent": {
+      "updatedAt": "2023-12-20T14:00:25.572Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:00:25.572Z",
+      "email": "patyroit@gmail.com",
+      "phone": "55960515727",
+      "name": "Patricia Roitburd",
+      "id": "2cbe1e5f-b4ad-4bb1-b7b4-79b866292b3c"
+    },
+    "timeInCurrentStage": 61412929322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.217Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "HR Manager"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "9483522b-926b-4f68-972b-ccf6e30fdc6a",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*9483522b-926b-4f68-972b-ccf6e30fdc6a",
+    "talent": {
+      "updatedAt": "2023-12-20T13:53:45.059Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:53:45.059Z",
+      "email": "rebaccarat@yahoo.com.br",
+      "phone": "50762792647",
+      "name": "Renata Baccarat",
+      "id": "9483522b-926b-4f68-972b-ccf6e30fdc6a"
+    },
+    "timeInCurrentStage": 61412929322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:01.971Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "25000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45048"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "de mercado, pp(1,5)"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Recursos Humanos",
+          "id": "6be18bc7-44b4-4987-b869-1dfcf4ffc61b",
+          "label": "Recursos Humanos"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "HR Manager Transition Leader BP"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2 filhas"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : HR Manager Transition Leader BP\n Company name : GE\n Period : dez. de 213 – o momento\n Summary : • To support GE global portfolio change facilitated smooth transitions from GE People Operations HR structure to the Buyers ensuring the Employee Matter Agreement and exit from HR TSA and GESA for the businesses such as Power and Water, Renewables, O&G, Transportation, Healthcare Biopharma, Industrial Solution, GE Capital and others.• Leading global acquisitions integrating more than 8. Employees into HR and Global Operations HR designated standard platforms and processes managing benefits comparability, employment contract, change management, transfers and best practices• Understands business imperatives and people impacts of the company strategy identifying opportunities and barriers to effective integration through partnerships with business stakeholders and leadership; working with the internal client’s group to achieve the organization strategy.• Leading the integration towards to HR Operations, Payroll, Benefits, Labor Management, Harmonization of compensation package, Communication, Change Management to ensure a smooth transition.• Leading divestiture/disposition supporting more than 1. employees’ s transitions serving as Data Controller to ensure integrity of processes, databases, reporting, compliance and project plan execution. • I supported several and complex discussions to engage the Buyers in the right path, protecting the People Operations HR processes avoiding rework to keep their capacity to support the disposition projects. • Challenging the status quo looking for different ways of working embracing Lean mindset for improvements. Support direct conversations as needed eliminating the back and forth discussions connecting the dots with HR experts and different workstreams from GE and Buyers such as finance, IT, Sourcing and Digital. • Managing with Global M&A resources to ensure smooth hand-off to regional/local HR resources• Lean approach managing VOC and M&A QMIs to share the pipeline of M&A activities across GE Businesses.\n Location : Latin America\n \n Job Title : Corporative HR Manager\n Company name : DASA\n Period : out. de 212 – out. de 213\n Summary : • Leading HR Operations and Shared Service for (Personal Administration, Payroll, Benefits, Labor Management and Union Relations) for 15 companies, 7 regionals, 2k employees, 5 Unions and 5k contractors.• Every process integrated with Compensation, Communication and Business Development.• Budget definition, Rules and Profit Sharing program preparation.• Main projects: Time & Attendance control (23 equipments installed), Health plan cost reduction 4MM USD, other benefits cost reduction 1,5MM USD, SLA definition.\n Location : São Paulo Area, Brazil\n \n Job Title : Human Resource Manager Latin America\n Company name : Netshoes\n Period : set. de 211 – set. de 212\n Summary : • Award for the 15 best Companies to work in Brasil (Exame.com 212).• HR policies Implementation for Brazil, Argentina and Mexico to support company growth• Budget control, Overtime cost reduction and headcount control.• Union agreement, best practices, Time & Attendance control, Payroll rules, profit sharing and others demands to support company growth and compliance.• Business Partner of the following areas as risk management, marketing, commercial, call center, financial and administrative• SAP implementation for Payroll and HR functions based on audit and compliance• Supporting the company culture across Latin America as business partners.• Hiring process Implementation of attract professional with disability named as (PCD) according to Brazilian law and international legislation (OIT).\n Location : Sao Paulo\n \n Job Title : HRBP Manager\n Company name : Capgemini\n Period : abr. de 21 – mai. de 211\n Summary : • Support the BPO company growth (3% in one year) in Brazil aligned with regional perspective.• Support on shore and off shore process through the organization as business strategy.• Inspiring leaders across the company to focus on company goals.• Head of HR policies, BCP (Business Continuity Plan), internal communication and HR Operations.• Support logistics for implementation.• Workshops preparation in partnership with global team to cascade the company goals• Integrating new business, structure definition and communication phase• Compensation market research identifying the best approach to apply new rate card.• Profit sharing Implementation according to company goals and union agreement.• Turnover reduction working in partnership with the business• Budget responsibility and headcount control aligned with Blue Book guidance.• Development and training to the management team cross multiple levels as Global English Project implementation, e-learning, six sigma as business needs.\n Location : São Paulo Area, Brazil\n \n Job Title : HRO Manager\n Company name : Convergys\n Period : dez. de 27 – mar. de 21\n Summary : • Support the outsourcing HR Transformation Project to Johnson & Johnson (Payroll, Compensation, Recruitment, Benefits) leading Worforce Inteligence Management team for 18 countries in Latam: Brazil, Argentina, Chile, Mexico, Venezuela, Colombia and others.• Implementing SAP R3 and HR Portal for Employee Self Service system.• Post implementation, I owned the management in the operation phase for Latin America to the following countries; Brazil, Argentina, Chile, Paraguay, Uruguay. • Participation in Six Sigma Project training, Process Mapping, DMAIC and PDCA.\n Location : São Paulo Area, Brazil\n \n Job Title : Senior HR Consultant\n Company name : TMF\n Period : ago. de 26 – dez. de 27\n Summary : ** BPO business acquired from Ernst & Young. **• Accountable for Human Resource service for clients such as: Ernst & Young, Hershey’s Brazil, SAP system, BT Communications, JPMorgan Chase Vastera, PPD Brazil Clinic Research, SIAMAR Training, Gartner Group, Goldman Bank and Goldman Representation;• Service delivery, consulting in HR business supporting HR Operations (payroll, benefits, personal administration, Union relations, for 4 companies, 8k employees.• Staff plan - Developing and training – Planning the annual training to the team;• Cost Control - Budget, overtime and turnover reduction;• HR system implementation (Protheus), metrics and SLAs.\n Location : São Paulo Area, Brazil\n \n \n Job Title : Senior HR Consultant Leader\n Company name : Ernst & Young\n Period : ago. de 21 – dez. de 27\n Summary : • Accountable for Human Resource service for clients such as: Hershey’s Brazil, SAP system, BT Communications, JPMorgan Chase Vastera, PPD Brazil Clinic Research, SIAMAR Training, Gartner Group, Goldman Bank and Goldman Representation.• Responsible for HR service delivery regarding to payroll, benefits and HR Operations. • Delivering HR services for 4 companies with 8. employees.• Staff - Annual development and training plan.• Cost management - Effective budget control, overtime and turnover reduction.• Protheus Implementation to assure overtime control, payroll, data management, accounting and GL, accruals, benefits administration and HR Operations.\n Location : São Paulo Area, Brazil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Human Resources in the On-Demand Economy\n Period : Emitido em nov. de 2017 - Nenhuma data de expiração\n Issuing Authority : LinkedIn\n Title : Public Speaking Foundations\n Period : Emitido em nov. de 2017 - Nenhuma data de expiração\n Issuing Authority : LinkedIn\n \n Title : Blogging for Your Business\n Period : Emitido em ago. de 2017 - Nenhuma data de expiração\n Issuing Authority : LinkedIn"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : University of Virginia\n Speciality : Design Thinking, Management Information Systems, General, Internation Certification\n Period : 217 – 217\n Summary : Innovation process and Disruptive way of doing things, inpiring others and solving problems.\n Darden’s Specialization in Design Thinking and Innovation empowers a creative catalyst with a systemic approach to innovation in the workplace. Whether work in business, health care, education or nonprofit, this hands-on training in the core principles of design thinking and leadership helps to solve business challenges.\n School name : General Eletric - Crotonville Corporative University\n Speciality : Due Diligence\n Period : 214 – 214\n Summary : DD holds the performance of investigation that contributes significantly to support decision making by enhancing the amount and quality of information available to decision makers and by ensuring that this information is systematically used to deliberate in a reflexive manner on the decision at hand and all its costs, benefits, and risks.\n School name : Fundação Getúlio Vargas\n Speciality : Balanced Scorecard\n Period : 21 – 21\n \n School name : University July 9\n Speciality : Human Resource Graduation, Human Resources Management and Services\n Period : 21 – 23"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "29f1d023-4dcd-4c0a-ac89-212972c4c076",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*29f1d023-4dcd-4c0a-ac89-212972c4c076",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:57.483Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:57.483Z",
+      "email": "deni45teixeira@gmail.com",
+      "phone": "11966428268",
+      "name": "Denival Santos",
+      "id": "29f1d023-4dcd-4c0a-ac89-212972c4c076"
+    },
+    "timeInCurrentStage": 61412029322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.406Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "28/09/1985"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "23500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "6.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "todos de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Psicologia",
+          "id": "0a31ad8a-c73e-4635-a450-2bd62ddcecf9",
+          "label": "Psicologia"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Presbiteriana Mackenzie"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Raça & Etnia"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Diversidade, Desenvolvimento e Aprendizagem"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "eda76e10-3894-45d8-9427-0a4ba4624136",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "Sem filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Gerente de Diversidade, Desenvolvimento e Aprendizagem\n Company name : InterCement\n Period : ago. de 22 – o momento\n Location : São Paulo, Brasil\n Job Title : Coordenadora de Desenvolvimento Organizacional\n Company name : InterCement\n Period : nov. de 218 – jul. de 22\n Summary : Responsável por Desenvolvimento e Aprendizagem Organizacional, tendo como principal desafio o reposicionamento da área e de seus processos para ampliar a atuação local para um escopo corporativo global.\n Location : São Paulo Area, Brazil\n Job Title : Sócia-Consultora\n Company name : Enredo Consultoria\n Period : jun. de 219 – o momento\n Location : São Paulo e Região, Brasil\n Job Title : Coordenadora de Educação Corporativa\n Company name : GOL Linhas Aéreas Inteligentes\n Period : ago. de 215 – out. de 218\n Summary : Como responsável pela Educação Corporativa, tive a oportunidade de encabeçar e implementar projetos inovadores e estruturantes de desenvolvimento, alavancando a trajetória de transição da marca e cultura GOL, de uma indústria focada em processos e baixo custo para uma companhia focada em pessoas e em oferecer a melhor experiência de voar. Entre os principais projetos que desenvolvi e liderei estão: Governança de Treinamento (Universidade Corporativa): reposicionamento da Educação Corporativa com o objetivo de construir uma cultura de aprendizagem para sustentar a nova Cultura e Valores Organizacionais e a entrega de uma experiência de voar positiva e consistente aos clientes. Humanização do Atendimento (Conectar para Servir): projeto que se tornou um importante case de atendimento e teve o desafio de transformar a percepção do cliente e promover uma experiência mais próxima e individualizada com a GOL, por meio da construção e disseminação de um modelo de atendimento humanizado que tem por base os princípios da Comunicação Não Violenta (CNV), da Educação Horizontal e da Empatia. Startup School (Trainee): nova proposta de programa de talentos para alavancar os desafios de projetos estratégicos atuais e futuros da GOL, por meio de um time autogerido de Trainees focado em buscar, utilizando métodos ágeis em um modelo específico de governança e atuação, soluções e alternativas que atendam ao dinamismo do mercado e impulsionem a inovação na companhia.Além de ter sido responsável pela condução e acompanhamento dos demais processos e programas de desenvolvimento: Diversidade e Inclusão, Programa de Compliance, de Reconhecimento Interno, Onboarding, Estágio, Carreira e Sucessão.\n Location : São Paulo e Região, Brasil\n Job Title : Analista RH Sr (Educação e Desenvolvimento Organizacional)\n Company name : GOL Linhas Aéreas Inteligentes\n Period : mai. de 213 – jul. de 215\n Summary : Responsável por desenhar e executar os principais projetos e processos de desenvolvimento da área: Carreira e Sucessão, Gestão de Desempenho, Cultura, Academia de Liderança, Academia de Atendimento e Academia de Vendas.\n Location : São Paulo Area, Brazil\n Job Title : Analista RH Sr (Treinamento e Desenvolvimento)\n Company name : Fugro\n Period : set. de 212 – abr. de 213\n Summary : Responsável por todos os processos e iniciativas de desenvolvimento: Gestão de desempenho: revisão do processo e das ferramentas de avaliação de competências. Gestão por competências: revisão das competências comportamentais e funcionais da companhia. Formação de líderes: construção e acompanhamento de ações de formação da liderança.Treinamento: desenvolvimento de conteúdos de treinamentos (presenciais e online) corporativos.\n Location : Macaé Area, Brazil\n Job Title : Analista RH Pl (Treinamento e Desenvolvimento)\n Company name : Itautec\n Period : jun. de 21 – ago. de 212\n Summary : Participei do momento de transformação cultural da Itautec que deixava um modelo de gestão familiar para se reposicionar no mercado, e tive a oportunidade de vivenciar a profissionalização de Recursos Humanos e o desenho da área de Desenvolvimento Organizacional. Apoiei a implementação do processo de Gestão de Desempenho, da Pesquisa de Clima e do modelo de Competências e liderei a construção e implementação da Academia de Liderança, das Escolas de Negócio, do Programa de Jovens Talentos e da plataforma LMS.\n Location : São Paulo Area, Brazil\n Job Title : Analista RH Jr (T&D, R&S e Comunicação Interna)\n Company name : Cyrela Brazil Realty S/A Empreendimentos e Participacoes\n Period : mai. de 29 – mai. de 21\n Location : São Paulo Area, Brazil\n Job Title : Consultora RH (R&S)\n Company name : Pró Recursos Humanos\n Period : set. de 27 – mai. de 29\n Location : São Paulo Area, Brazil\n Company 2: Enredo Consultoria"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas / FGV\n Speciality : Pós-graduação, Administração de empresas\n Period : 212 – 214\n School name : Universidade Presbiteriana Mackenzie\n Speciality : BS, Psicologia\n Period : 23 – 28"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "cc6236d1-0db1-4d49-a163-f4d5338efb5e",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*cc6236d1-0db1-4d49-a163-f4d5338efb5e",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:56.234Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:56.234Z",
+      "linkedinUsername": "ayumilari",
+      "email": "ayularissa@gmail.com",
+      "phone": "5511984509961",
+      "name": "Ayumi Larissa Haguihara",
+      "id": "cc6236d1-0db1-4d49-a163-f4d5338efb5e"
+    },
+    "timeInCurrentStage": 61412029322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:01.849Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "27000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "6"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "PUCRS"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "81cd3f52-1d0b-4f28-8cd7-266e8e46e597",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*81cd3f52-1d0b-4f28-8cd7-266e8e46e597",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:58.893Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:58.893Z",
+      "email": "agzanirati@gmail.com",
+      "phone": "11992828202",
+      "name": "Andrea Zanirati",
+      "id": "81cd3f52-1d0b-4f28-8cd7-266e8e46e597"
+    },
+    "timeInCurrentStage": 61412029322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.496Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "01/01/1990"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "18400"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "9"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "HR Business Partner Manager"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : HR Business Partner Manager\n Company name : Volkswagen do Brasil\n Period : nov de 221 - o momento – nov de 221 - o momento\n Location : São Bernardo do Campo, São Paulo, Brasil\n \n Job Title : Talent Management and Culture Transformation Manager for South America\n Company name : Nissan Motor Corporation\n Period : mai de 221 - nov de 221 – mai de 221 - nov de 221\n Location : Brasil\n \n Job Title : South America Talent Management and HR4HR\n Company name : Nissan Motor Corporation\n Period : nov de 22 - mai de 221 – nov de 22 - mai de 221\n Summary : Talent Management Planning for Brazil, Argentina, Chile and Peru.\n HR Business Partner for HR South America\n Location : Brasil\n \n Job Title : Regional HRBP | LATAM\n Company name : Nissan Motor Corporation\n Period : fev de 219 - out de 22 – fev de 219 - out de 22\n Summary : Scope: Marketing and Sales, Legal, Business Strategy, Communications, Government Affairs and Human Resources\n Location : São Paulo, Brasil\n \n Job Title : Regional HRBP | LATAM\n Company name : Groupe Renault\n Period : nov de 215 - jul de 217 – nov de 215 - jul de 217\n Summary : Scope: Marketing & Sales, R&D, Customer, Quality and Projects\n Location : Argentina\n \n Job Title : HRBP\n Company name : Groupe Renault\n Period : set de 212 - out de 215 – set de 212 - out de 215\n Summary : 214 - 215 | Scope: R&D, Customer Quality, Purchasing and Projects\n \n 212 - 214 | Scope: Manufacturing Functions\n Location : Curitiba\n \n Job Title : Account Business Manager\n Company name : Itaú Unibanco\n Period : out de 29 - set de 212 – out de 29 - set de 212\n \n Job Title : HR Development\n Company name : Nunesfarma Distribuidora de Produtos Farmacêuticos LTDA\n Period : mai de 29 - set de 29 – mai de 29 - set de 29"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Como Engajar os Colaboradores\n Period : Emitido em jun de 2021-Sem data de expiração\n Issuing Authority : LinkedIn\n \n Title : Developing a Competitive Strategy\n Period : Emitido em jan de 2021-Sem data de expiração\n Issuing Authority : LinkedIn\n \n Title : Managing Virtual Teams\n Period : Emitido em jan de 2021-Sem data de expiração\n Issuing Authority : LinkedIn\n \n Title : Risk-Taking for Leaders\n Period : Emitido em jan de 2021-Sem data de expiração\n Issuing Authority : LinkedIn\n \n Title : Business Storytelling with C.C. Chapman\n Period : Emitido em dez de 2020-Sem data de expiração\n Issuing Authority : LinkedIn\n \n Title : Executive Decision-Making\n Period : Emitido em dez de 2020-Sem data de expiração\n Issuing Authority : LinkedIn\n \n Title : Measuring Business Performance\n Period : Emitido em dez de 2020-Sem data de expiração\n Issuing Authority : LinkedIn\n \n Title : Solving Business Problems\n Period : Emitido em dez de 2020-Sem data de expiração\n Issuing Authority : LinkedIn\n \n Title : Understanding Business\n Period : Emitido em dez de 2020-Sem data de expiração\n Issuing Authority : LinkedIn"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : HSM University\n Speciality : Gestão Estratégica de Negócios\n Degree : Postgraduate Degree\n Period : nov de 221 - dez de 222\n \n School name : Universidade Positivo\n Degree : Bachelor of Business Administration (B.B.A.)\n Period : 27 - 21"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "0290ec59-fe08-45e4-940c-7a642f957d62",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*0290ec59-fe08-45e4-940c-7a642f957d62",
+    "talent": {
+      "updatedAt": "2023-12-20T13:54:46.064Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:54:46.064Z",
+      "linkedinUsername": "evelynberti",
+      "email": "evelynbb.assuncao@gmail.com",
+      "phone": "24992130236",
+      "name": "Evelyn Berti",
+      "id": "0290ec59-fe08-45e4-940c-7a642f957d62"
+    },
+    "timeInCurrentStage": 61412029322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.436Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Elétrica",
+          "id": "9351680b-8549-4071-98fc-d485b31dc312",
+          "label": "Engenharia Elétrica"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "24ca1ba8-981e-4ea2-8b33-c21d421671bb",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*24ca1ba8-981e-4ea2-8b33-c21d421671bb",
+    "talent": {
+      "updatedAt": "2023-12-20T13:55:42.988Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:55:42.988Z",
+      "email": "paulo.menezes@oncoclinicas.com",
+      "phone": "",
+      "name": "Paulo Menezes Neto",
+      "id": "24ca1ba8-981e-4ea2-8b33-c21d421671bb"
+    },
+    "timeInCurrentStage": 61412929322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.466Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "01/01/1977"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "25000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "7"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Human Resources Manager"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Human Resources Manager\n Company name : ABB Brasil\n Period : jan. de 22 – o momento\n Summary : HR Business Partner Manager for Eletrification Division of Brazil\n Location : São Paulo, São Paulo\n \n Job Title : Human Resources Manager\n Company name : Siemens\n Period : mar. de 211 – jul. de 219\n Summary : • HR Site Lead for Jundiai Siemens Plants - the biggest energy factory in Latin America;• Responsible for organizing the open house with the employees' family members;• Responsible as HR Manager for a 2 Billion BRL - Belo Monte HVDC Project in Brazil;• Multidisciplinary team management with focus on providing solution to the business;• Definition and approval of strategic planning and HR budget;• Strategy and implementation of a leadership program to capacity the blue collar leaders;• Negotiation and approval a bank of hours with the union to blue collars employees and integrate the control with the payroll system generating an expressive saving in overtime payment; • Professional monitoring in order to identify talents and propose with focus on retention an idividual development plan;• Support in restructuring the Business Unit with focus on productivity and costs reduction;• Monitoring issues and union negotiations for the manufacturing plants in Jundiaí/SP – Brazil;• Setting and integration of new leaders for systemic knowledge on HR processes;• Definition of an action plan to address the topics related to organization survey; • Trainer of the HR game leadership development training in the Comp&Ben area.• Lead the HR Work Stream in Brazil with direct interface with the Global Team in the M&A (Merger and acquisition) for three companies since the due diligence process till the integration in the payroll system considering the compensation and benefits harmony and correcting the relevant distortions; • Lead the HR Work Stream in the M&A (Merger and Acquisition) for a small company since the due diligence process till the integration in the payroll system considering the compensation and benefits harmony and correcting the relevant distortions;• Responsible for the Carve-Out of Monitoring, a Building Technologies Business Unit and closing the operation in Brazil.\n Location : Jundiaí, São Paulo - Brasil\n \n Job Title : Senior Human Resources Analyst\n Company name : Siemens\n Period : set. de 27 – fev. de 211\n Summary : • Responsible for developing and implementing a Performance and Meritocracy recognition tool (Salary Plan);• Support to HR director in disseminating and implementing HR policies;• Advising units and business area managers on the application of corporate HR policies with the purpose to support people management;• Support to managers for analysis and review of the organizational structure, process analysis, job rotation, succession planning and other people management practices;• Participation in group dynamics for hiring interns under the talent development program;• Supporting the employees answering general questions.\n Location : São Paulo e Região, Brasil\n \n Job Title : Senior Human Resources Analyst\n Company name : Alstom\n Period : ago. de 25 – ago. de 27\n Summary : • Responsible for implementing HR People Analytics reports that help managers and executives make better decisions regarding their employees, workforce and structure;• Participation in the implementation, with the union agreement, of PLR processes, stock and executive annual bonus;• Creation of HR Policies with focus on continuous improvement to support the employees in Comp&Ben aspects; • Reset for the job description process and market mapping;• Responsible for compensation and benefit researches.\n Location : São Paulo e Região, Brasil\n \n Job Title : Senior Human Resources Analyst\n Company name : Alstom\n Period : mar. de 22 – jul. de 25\n Summary : • Responsible for the payroll process including; Hiring, Termination, Vacation and Benefits among others;• Automation of manually payroll process with focus on productivity.• Supporting the employees answering general questions.\n Location : São Paulo e Região, Brasil\n \n Job Title : Senior Human Resources Analyst\n Company name : Chemetall\n Period : jan. de 1999 – jan. de 22\n Summary : • Responsible for the implementation and execution of the “Personal” payroll system;• Development of HR policies and procedures for all HR subsystems;• Supporting employees answering general questions.\n Location : São Paulo e Região, Brasil\n \n Job Title : Personal Administration Assistant\n Company name : Coopermetro do Brasil\n Period : abr. de 1997 – jan. de 1999\n Summary : • Responsible for the implementation and execution of the “Personal” payroll system;• Delivery of transportation vouchers and restaurant tickets, filling out transportation voucher applications, among other operational activities.\n \n \n Job Title : Human Resources Assistant\n Company name : Metalurgica Ventisilva\n Period : nov. de 1992 – mar. de 1997\n Summary : • Beginning of my career in Personal Administration and Human Resources area;• Manual inputs of Overtime, absence and other information in payroll system.\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : UNINOVE\n Speciality : Bacharelado em Administração, Business Administration"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "63cdb9e7-193a-45d2-a591-532ebf5c6389",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*63cdb9e7-193a-45d2-a591-532ebf5c6389",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:15.139Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:15.139Z",
+      "email": "importacao502@importacaoinhire.com",
+      "phone": "11997975834",
+      "name": "Alvaro Andrade",
+      "id": "63cdb9e7-193a-45d2-a591-532ebf5c6389"
+    },
+    "timeInCurrentStage": 61412029322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:01.877Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "HR Manager"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : HR Manager\n Company name : Procter & Gamble\n Period : jan de 219 - o momento – jan de 219 - o momento\n Location : São Paulo\n \n Job Title : HR Partner\n Company name : Cerner Corporation\n Period : nov de 214 - out de 218 – nov de 214 - out de 218\n Location : São Paulo Area, Brazil\n \n Job Title : Human Resources Senior Professional\n Company name : CSC\n Period : dez de 29 - out de 214 – dez de 29 - out de 214\n Summary : HR Generalist focused on Career Development, Compensation, Appraisal Process. Implentation of company's new job frame structure\n Location : CSC\n \n Job Title : Marketing and Communications Analyst\n Company name : BearingPoint\n Period : mar de 28 - dez de 29 – mar de 28 - dez de 29\n Summary : Experience in Knowledge Management, Corporate, Communication, Events, Corporate Responsibility."
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/tatianayamasaki/"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "ae366bcb-8710-4c8c-bc43-95246ccfbf8b",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*ae366bcb-8710-4c8c-bc43-95246ccfbf8b",
+    "talent": {
+      "createdAt": "2023-12-20T13:50:39.644Z",
+      "email": "tati.yama@gmail.com",
+      "linkedinUsername": "tatianayamasaki",
+      "name": "Tatiana Yamasaki",
+      "phone": "11985043377",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-05T13:41:54.090Z",
+      "id": "ae366bcb-8710-4c8c-bc43-95246ccfbf8b"
+    },
+    "timeInCurrentStage": 61412929322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.607Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "26/08/1978"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "18000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "saúde/ refeitório no local/ VA (25)/ gympass – bônus de 2% mensal."
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Psicologia",
+          "id": "0a31ad8a-c73e-4635-a450-2bd62ddcecf9",
+          "label": "Psicologia"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "unip"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "HR Business Partner Coordinator"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2 (7 e 4 anos)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "fcb3c703-180b-4c7b-95ba-8b1a1b84fa23",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*fcb3c703-180b-4c7b-95ba-8b1a1b84fa23",
+    "talent": {
+      "updatedAt": "2023-12-20T13:54:18.177Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:54:18.177Z",
+      "email": "renatanobrega.rh@gmail.com",
+      "phone": "11971308325",
+      "name": "Renata Nobrega",
+      "id": "fcb3c703-180b-4c7b-95ba-8b1a1b84fa23"
+    },
+    "timeInCurrentStage": 61412029322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.161Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Recursos Humanos"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "131e7378-355f-411d-8236-8afa2d2d91c9",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*131e7378-355f-411d-8236-8afa2d2d91c9",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:21.118Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:21.118Z",
+      "email": "importacao3250@importacaoinhire.com",
+      "phone": "11982541994",
+      "name": "Elaine Cristina Poli",
+      "id": "131e7378-355f-411d-8236-8afa2d2d91c9"
+    },
+    "timeInCurrentStage": 61412929322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.187Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Mentor Volunteer"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Mentor Volunteer\n Company name : Instituto PROA\n Period : ago de 221 - o momento – ago de 221 - o momento\n Summary : • Mentor of ONG delivering volunteer work to support young people to find their first job.\n Location : São Paulo, Brasil\n \n Job Title : HR Director - Professional Beauty Brazil & Latam\n Company name : Coty\n Period : jan de 218 - jul de 221 – jan de 218 - jul de 221\n Summary : • Report to the GM (Latam) and the SVP HR (Global). Team of 5 direct and 4 indirect reports;\n • In partnership with business leaders, creating and maintaining the business growth and competitive advantage through people, culture and systems for Coty Professional Beauty;\n • Improving productivity and capability through delivering future of productivity & growth targets;\n • Performing a skilled leadership in all HR quadrants: strategic partner, change agent, employee champion and specialist;\n • Leading the diversity, equality and inclusion committee;\n • Leading the company’s spin-off process, from Coty group (4%) to KKR (6%), establishing the new Wella Company and culture as a standalone organization;\n • Recognized as the best engagement survey globally with 83% of satisfaction and 4% of turnover in FY21 vs. FY2.\n Location : São Paulo, Brasil\n \n Job Title : HR Director - Wella Brazil\n Company name : Coty\n Period : jul de 216 - dez de 217 – jul de 216 - dez de 217\n Summary : • Report to the GM (Brazil) and the VP HR (Almea). Team of 2 direct and 1 indirect reports;\n • Leading Wella cultural transformation and people transition to be high performance organization;\n • Leading Coty post M&A process to harmonize the corporate compensation & benefits structures.\n Location : Rio de Janeiro, Brasil\n \n Job Title : HR Director - P&G Employee Relations & Wella Brazil\n Company name : Procter & Gamble\n Period : dez de 214 - jun de 216 – dez de 214 - jun de 216\n Summary : • Report to the VP HR (Brazil) and the Wella GM (Brazil). Team of 4 direct and 3 indirect reports;\n • Leading the Employee and Labor Relations area of P&G Brazil, managing all country ER/Labor investigations and action plans;\n • Transforming and sustaining the Culture change from the Wella legacy to P&G aiming to support the business growth through people, culture and systems to develop a high-performance organization;\n • Leading the campus team committee and internship program design;\n • Leading P&G - Wella’s Organization transition to Coty group; shut downing the Office and transferring 3 employees being 5 families from Rio de Janeiro to São Paulo city.\n Location : Rio de Janeiro, Brasil\n \n Job Title : HR Executive Manager - Manufacturing\n Company name : Procter & Gamble\n Period : jul de 21 - nov de 214 – jul de 21 - nov de 214\n Summary : • Report to the site GM and the HR Director (Brazil). Team of 7 direct and 6 indirect reports;\n • Performing Organizational Development, Leadership Development, HR Strategic & Operational department, handling an organization of 1,2 employees and 5 contractors.\n • Leading the restructuring and downsizing project to maximize the operational efficiency; reducing the staff from 1,6 to 1,2;\n • Leading 3 Committees: diversity & inclusion, social responsibility, and campus team;\n • Leading Latam’s Organization Development & Capability pillars including 5 countries: Brazil, Argentina, Chile, Mexico, and Venezuela;\n • Recognized as the best engagement survey globally with 87% of satisfaction in FY14.\n Location : Louveira, São Paulo, Brasil\n \n Job Title : HR Business Partner Manager - Corporate\n Company name : Procter & Gamble\n Period : jul de 28 - jun de 21 – jul de 28 - jun de 21\n Summary : • Report to the HR Director (Brazil). Team of 2 direct reports in SP;\n • Serving as HR BP for Corporate Finance, Marketing, Supply Chain, Legal, PUR, ER, IT and HR functions;\n • Establishing and developing the HR’s work processes based on high-performance organization strategies as follows: Leadership Development, Assessment, Talent Acquisition, Capability, Training & Development, Talent Development, Diversity & Inclusion and Compensation & Benefits.\n Location : São Paulo, Brasil\n \n Job Title : Compensation & Benefits Consultant\n Company name : Aon\n Period : fev de 23 - mar de 24 – fev de 23 - mar de 24\n Summary : • Conducting salary surveys using data bases and customized studies; Regional surveys of Total Compensation TCM management; Union agreement management; Merit increase policy and Variable Pay programs management; Compensation & Benefits market assessments vs. HR strategic requirements; C&B harmonization and study analysis.\n Location : São Paulo, Brasil\n \n Job Title : HR Trainee (management program)\n Company name : Nestlé\n Period : jan de 21 - jun de 22 – jan de 21 - jun de 22\n Location : São Paulo, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : MBTI for Leadership\n Period : Emitido em jun de 2020-Sem data de expiração\n Issuing Authority : The Myers-Briggs Company"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : FIA Business School\n Speciality : Human Resources Management/Personnel Administration\n Degree : Master of Business Administration (MBA)\n Period : 29 - 21\n \n School name : Universidade Presbiteriana Mackenzie\n Speciality : Business Administration and Management\n Degree : Bachelor of Business Administration (BBA)\n Period : 1999 - jan de 22\n Summary : Atividades e grupos: Atlética de Esportes e Futebol\n \n School name : Etec Getúlio Vargas\n Speciality : Mechanical Engineering/Mechanical Technology/Technician\n Degree : Técnico\n Period : 1994 - 1998\n Summary : Atividades e grupos: Futebol"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "4caba475-39b2-4935-943b-fa39f7e5d635",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*4caba475-39b2-4935-943b-fa39f7e5d635",
+    "talent": {
+      "company": "",
+      "createdAt": "2023-12-20T13:53:08.253Z",
+      "email": "danielcanada4@hotmail.com",
+      "headline": "",
+      "linkedinUsername": "daniel-stoilov",
+      "location": "",
+      "name": "Daniel Stoilov",
+      "phone": "",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQH3X5QKD1fWWA/profile-displayphoto-shrink_200_200/0/1712533872384?e=1718841600&v=beta&t=MMUu5o_7WW4AREu4YDIkYF_FxE1lc4NBQFQHRCdCvaY",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-04-16T18:42:55.209Z",
+      "id": "4caba475-39b2-4935-943b-fa39f7e5d635"
+    },
+    "timeInCurrentStage": 61412929322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:01.907Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "25000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "45022"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45052"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Química",
+          "id": "72241092-ea09-490a-9f4d-8cd01e1c6aa7",
+          "label": "Química"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Quality and Process Manager"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "6cd51329-0784-4b53-8070-933f1b92013b",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*6cd51329-0784-4b53-8070-933f1b92013b",
+    "talent": {
+      "updatedAt": "2023-12-20T13:52:12.393Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:52:12.393Z",
+      "email": "f.bellotti@uol.com.br",
+      "phone": "21996379292",
+      "name": "Fabricio Bellotti",
+      "id": "6cd51329-0784-4b53-8070-933f1b92013b"
+    },
+    "timeInCurrentStage": 61412029322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:01.817Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "20/09/1983"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "34700"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "6"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "6"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Publicidade",
+          "id": "9b93bdb0-8d47-4819-873d-06af51a3d08f",
+          "label": "Publicidade"
+        }
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Gênero"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "People & Organization Sr. Manager"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "eda76e10-3894-45d8-9427-0a4ba4624136",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : People & Organization Sr. Manager\n Company name : Novartis Oncology\n Period : fev de 22 - o momento – fev de 22 - o momento\n Location : São Paulo\n \n Job Title : Gerente de desenvolvimento organizacional, Remuneração e Benefícios e Comunicação interna\n Company name : Comgás\n Period : fev de 218 - fev de 22 – fev de 218 - fev de 22\n Location : São Paulo e Região, Brasil\n \n Job Title : Gerente de RH (HRBP, Atração e Seleção, Folha de pgto e Gestão de Saúde)\n Company name : JBS\n Period : out de 215 - jan de 218 – out de 215 - jan de 218\n Location : São Paulo e Região, Brasil\n \n Job Title : Consultora de Desenvolvimento Organizacional e Gestão de Talentos\n Company name : Novartis\n Period : out de 213 - set de 215 – out de 213 - set de 215\n Location : São Paulo e Região, Brasil\n \n Job Title : HR Business Consultant\n Company name : Novartis\n Period : jun de 212 - out de 213 – jun de 212 - out de 213\n Location : São Paulo e Região, Brasil\n \n Job Title : Coordenadora de Treinamento e Desenvolvimento da Força de Vendas\n Company name : Novartis\n Period : jun de 21 - jun de 212 – jun de 21 - jun de 212\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Gestão de Negócios\n Degree : MBA\n Period : 29 - 21\n \n School name : ESPM Escola Superior de Propaganda e Marketing\n Degree : Gestão de Pessoas e Desenvolvimento da Inteligência Emocional\n Period : 28 - 28\n \n School name : Pacific Language Institute\n Speciality : Língua Inglesa\n Degree : Inglês Avançado\n Period : 28 - 28\n \n School name : FASP - Faculdades Associadas de São Paulo\n Speciality : Publicidade\n Degree : Bacharel em Direção e Criação Publicação Publicitária"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "154ae99c-c087-4e36-ab03-68b62f227565",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*154ae99c-c087-4e36-ab03-68b62f227565",
+    "talent": {
+      "updatedAt": "2023-12-20T13:50:55.676Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:50:55.676Z",
+      "linkedinUsername": "carolina-andrusyszyn-40149540",
+      "email": "carolina.andru1@gmail.com",
+      "phone": "11984220661",
+      "name": "Carolina Andrusyszyn",
+      "id": "154ae99c-c087-4e36-ab03-68b62f227565"
+    },
+    "timeInCurrentStage": 61412029322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.354Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "01/10/1971"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "18500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "45049"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45049"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "todos de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Tecnologia da Informação",
+          "id": "5079741f-3ead-453e-8738-779ba56835ee",
+          "label": "Tecnologia da Informação"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Coppe-UFRJ"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "HR Operations Manager"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 filha - 13 anos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "ee139e2f-8282-474f-8bce-f603607d3727",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*ee139e2f-8282-474f-8bce-f603607d3727",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:15.348Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:15.348Z",
+      "email": "cinthia.zanotelli@seguradoralider.com.br",
+      "phone": "",
+      "name": "Cinthia Zanotelli",
+      "id": "ee139e2f-8282-474f-8bce-f603607d3727"
+    },
+    "timeInCurrentStage": 61412929322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.378Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "29000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45048"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Sr Human Resouces Manager"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "b00019a6-06d2-40f8-853e-0b29825bc9c2",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*b00019a6-06d2-40f8-853e-0b29825bc9c2",
+    "talent": {
+      "updatedAt": "2023-12-20T14:04:47.822Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:04:47.822Z",
+      "email": "importacao9582@importacaoinhire.com",
+      "phone": "11999028938",
+      "name": "Ricardo Luiz de Andrade",
+      "id": "b00019a6-06d2-40f8-853e-0b29825bc9c2"
+    },
+    "timeInCurrentStage": 61412029322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.099Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "HRBP Coordinator"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : HRBP Coordinator\n Company name : ISA CTEEP\n Period : jun. de 219 – o momento\n Location : São Paulo e Região, Brasil\n \n Job Title : Coordenador Desenvolvimento Humano e Organizacional\n Company name : ISA CTEEP\n Period : fev. de 219 – jun. de 219\n Location : São Paulo e Região, Brasil\n \n Job Title : Especialista Talento Organizacional\n Company name : Interconexión Eléctrica S.A. E.S.P\n Period : ago. de 215 – jan. de 219\n Summary : Revisão dos modelos de competências organizacionais e técnicas. (Revisão de 7 competências).Desenho da Marca e do pipeline para Liderança.Desenho do Programa de Liderança para 76 executivos e 3 colaboradores chave para a organização. Desenho de metodologia e indicadores associados ao ciclo do talento.Apoio no desenho de metodologia para identificação de sucessores e planos de desenvolvimento individual.Implementação de sistema para gestão de aprendizagem, gestão de desempenho e competências com capilaridade Latino América (Success Factors).Desenvolvimento de 4 cursos virtuais a partir da identificação dos conhecimentos críticos do negócio.Construção de guias para fortalecimento das competências organizacionais por meio da metodologia 7/ 2/1. Elaboração de Integração Corporativa, modalidade virtual, para todos oito países e 4 unidades de negócio.Estruturação do Programa de idiomas para cargos chave e críticos da organização.Desenho e aplicação de plano de transição de carreira para cargos gerenciais.\n Location : Colômbia, Medellín\n \n Job Title : Analista de Treinamento & Desenvolvimento\n Company name : CTEEP\n Period : abr. de 211 – dez. de 215\n Summary : Coordenação da gestão de desempenho para os cargos: executivos, profissionais e técnicos. Desenho e gestão dos programas de trainees e de estágio, programa estratégico de especialização acadêmica no exterior e Programa de Integração.Desenvolvimento de treinamentos nas modalidades presencial e online (comportamental e técnico).Levantamento de diagnóstico de treinamentos, planejamento, desenvolvimento e gestão de cursos técnicos e comportamentais nas metodologias presencial, on the Job e online para 5 regionais e sede, (Público alvo 1.4 colaboradores).Desenvolvimento da trilha de aprendizagem para cargos da área técnica, com base nas competências funcionais e organizacionais do grupo.Facilitador de ideias para gestão do conhecimento: desenvolvimento de micro-learing para demonstração de manutenção em equipamentos, com o intuito de otimizar processos.\n Location : São Paulo Area, Brazil\n \n Job Title : Técnico de Treinamento\n Company name : Banco Itau Unibanco S.A - Stocco\n Period : dez. de 29 – mar. de 211\n Summary : Coordenação logística a nível Brasil de treinamentos (Projeto Migração), 8 turmas – 4.2 colaboradores, para os gerentes de agência Itaú Unibanco. Análise e contratação de fornecedores para apoio logístico (locação de espaços, equipamentos e gráficas para confecção de materiais); convocação e controle de inscritos e absenteísmo.Acompanhamento e análise das avaliações de reação, controle financeiro de despesas por treinamento; realização dos processos de treinamento de acordo com a NBR ISSO 115.Apoio nos Programas de Trainees da Área Empresas (responsável pelo acompanhamento dos trainees durante todo programa, coordenação para realização da grade de treinamentos e logística), a fim de desenvolver competências técnicas e comportamentais em todas as áreas de negócio.Planejamento, execução e acompanhamento do cronograma do programa de formação de novos gerentes.\n Location : São Paulo Area, Brazil\n \n Job Title : Analista de Treinamentos\n Company name : Certisign\n Period : fev. de 27 – nov. de 29\n Summary : Responsável pelo planejamento anual de treinamentos; formatação de propostas para cursos; tabulação de pesquisas e análises quantitativas e qualitativas; controle de inscrições e da agenda dos instrutores; comunicação com alunos; desenvolvimento do conteúdo para treinamentos e-learning e logística de treinamentos abertos e in company.\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Consultor\n Company name : Sitel do Brasil Ltda\n Period : fev. de 24 – mar. de 27\n Summary : Elaboração de treinamentos relacionados aos produtos; treinamentos práticos e teóricos/ instrutor interno.\n Location : São Paulo Area, Brazil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Gestão de Novos Gerentes\n Period : Emitido em jun. de 2019 - Nenhuma data de expiração\n Issuing Authority : LinkedIn\n \n Title : DELE - Diploma de Espanhol como Língua Estrangeira\n Period : Emitido em ago. de 2008 - Nenhuma data de expiração\n Issuing Authority : Instituto Cervantes - Ministério da Educação, Política Social e Esportes"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidad EAFIT\n Speciality : Mestrado Profissional em Gerência de Desenvolvimento Humano, Desenvolvimento de Recursos Humanos\n Period : 216 – 219\n School name : Universidade Presbiteriana Mackenzie\n Speciality : Pós-Graduado, Gestão Estratégica de Pessoas, A\n Period : 21 – 212\n Summary : Curso direcionado a capacitação de profissionais para atuarem na administração de recursos humanos de maneira estratégica contribuindo para o crescimento da organização. Monografia elaborada a partir da necessidade real de uma organização em estruturar a tradicional área de T&D em uma área de educação corporativa, com o tema: agregando valor ao negócio por meio de um programa de educação corporativa.\n \n School name : Centro Universitário Ibero-Americano\n Speciality : Graduação, Relações Internacionais\n Period : 22 – 26\n Summary : Curso direcionado as relações entre organizações governamentais e/ou não governamentais, entre estados e povos. Bacharel em Relações Internacionais, tendo como principal foco de estudo os países da América central e do Norte. Trabalho de conclusão de curso intitulado como: A Política Externa Norte-Americana em duas faces: da contenção à prevenção (1947/21) - uma análise comparativa entre as Doutrinas Truman, Clinton e Bush.\n Courses: Title : 6Ds of Breakthrough Learning; Title : Desenvolvimento de Analista de Treinamento e Desenvolvimento; Title : Design Instrucional; Title : Formação de Auditores Internos da Qualidade 91:28; Title : Planejamento e Gerência de Projetos com Ênfase no PMI; \n Title : Programa de Liderança - O líder adaptativo"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "cae688a3-3c57-4194-87ad-8c1bab6667bd",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*cae688a3-3c57-4194-87ad-8c1bab6667bd",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:55.644Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:55.644Z",
+      "email": "importacao9474@importacaoinhire.com",
+      "phone": "11947920452",
+      "name": "Renato Perez Rodrigues",
+      "id": "cae688a3-3c57-4194-87ad-8c1bab6667bd"
+    },
+    "timeInCurrentStage": 61412929322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.133Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "HR Manager - PAS Brazil"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : HR Manager - PAS Brazil\n Company name : Aker Solutions\n Period : set de 218 - o momento – set de 218 - o momento\n Location : Macaé, Rio de Janeiro\n \n Job Title : HR Business Partner\n Company name : Aker Solutions\n Period : jan de 213 - set de 218 – jan de 213 - set de 218\n Location : Macaé Area, Brazil\n \n Job Title : HR Analyst\n Company name : AES Eletropaulo\n Period : set de 29 - jan de 213 – set de 29 - jan de 213\n Location : São Paulo Area, Brazil\n \n Job Title : HR Consultant\n Company name : Adecco Group\n Period : dez de 27 - set de 29 – dez de 27 - set de 29\n Location : São Paulo Area, Brazil\n \n Job Title : HR Intern\n Company name : MAHLE\n Period : jan de 25 - jan de 26 – jan de 25 - jan de 26\n Location : Itajubá"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Degree : Executivo Internacional em Gestão de Pessoas\n Period : 29 - 211\n \n School name : FEPI - Centro Universitário de Itajubá\n Degree : Psicologia\n Period : 21 - 25"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "cdd54532-d07e-4a31-84b1-af3e8fbccc9d",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*cdd54532-d07e-4a31-84b1-af3e8fbccc9d",
+    "talent": {
+      "company": "The Mosaic Company",
+      "createdAt": "2023-12-20T14:01:06.984Z",
+      "email": "caca-paiva@hotmail.com",
+      "headline": "",
+      "linkedinUsername": "camila-paiva-34134b11",
+      "location": "",
+      "name": "Camila Paiva",
+      "phone": "5522998309006",
+      "picture": "https://media.licdn.com/dms/image/C5603AQF58BKilbdGDA/profile-displayphoto-shrink_200_200/0/1517752759883?e=1718236800&v=beta&t=P1yFyAYjzTmAQf7Qvc6D6roGyEmsiLbLy6-p837unko",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-09T15:44:33.754Z",
+      "id": "cdd54532-d07e-4a31-84b1-af3e8fbccc9d"
+    },
+    "timeInCurrentStage": 61412929322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.325Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "19/10/1979"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "30000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "6.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "7.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Todos de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Federal do Ceará Universidade Federal do Ceará"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": "Universidade de São Paulo\n DiplomaMBAÁrea de estudoRecursos Humanos"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Recursos Humanos"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2 filhos - 6 anos e 3 anos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de Recursos Humanos\n Company name : Alupar\n Period : ago. de 212 – o momento\n Summary : Na Alupar, desde a admissão atuo como head da área de Recursos Humanos da Holding e dos negócios de Transmissão, Geração e Comercialização de Energia e Obras em Implantação. Sendo responsável pela criação de estratégias para Recrutamento e Seleção, Implantação de Plano de Carreira e Remuneração, Plano de Recompensas (incentivos de curto e longo prazo), programa de Treinamento e Desenvolvimento, Educação Continuada, Avaliação de Desempenho, Plano de Desenvolvimento de Líderes, Gestão de Conhecimento, Clima e Cultura Organizacional e Definição de Politicas e procedimentos Corporativos; além das responsabilidades Legais da área de RH: portfólio de Benefícios, Folha de Pagamento, Relações Trabalhistas e Sindicais e Segurança do Trabalho. Atuo com paixão e ética. E tenho a constante preocupação de alinhar os valores dos colaboradores à estratégia dos negócios.Acredito que as pessoas querem e podem contribuir para o trabalho, e que, no trabalho, é possível realizar coisas grandes das quais se orgulharão.\n Location : São Paulo e Região, Brasil\n Job Title : Gerente de Recursos Humanos\n Company name : Vanguarda Agro S/A\n Period : abr. de 26 – mai. de 212\n Summary : Iniciei minhas atividades na Brasil Ecodiesel em Fortaleza/CE (abril/26), na função de Analista de Gestão de Pessoas com especialidade em Folha de Pagamento e os encargos sociais. Em março/29, assumi a Coordenação de toda a área de RH da Brasil Ecodiesel e, em março/21, fui responsável pelo processo de transição e unificação dos 2 escritórios corporativos, localizados em Fortaleza-CE e Rio de Janeiro-RJ, para a cidade de São Paulo (contratação de cerca de 7 novos colaboradores para o escritório corporativo). No período de outubro/211 a maio/212, fui responsável pelo processo de fusão de todos os processos/políticas de RH de 3 empresas, Maeda Agroindustrial (matriz em Goiás), Vanguarda do Brasil (matriz em Mato Grosso) e Brasil Ecodiesel S/A (matriz em São Paulo)), que vieram a compor o novo grupo V-Agro (foco no agronegócio). As atividades foram concentradas na sede da empresa Vanguarda do Brasil, na cidade de Nova Mutum-MT. Os mais de 6 anos no grupo me resultaram numa ampla experiência em todos os subsistemas da área de Recursos Humanos, com destaque em processos de Recrutamento e Seleção em grande escala, negociações de acordos coletivos com Sindicatos e mediações com a Superintendência do Trabalho (DRT), criação de plano de trabalho entre RH e área Jurídica com redução significativa do contencioso trabalhista (foco na prevenção, treinamento de prepostos/testemunhas e auxílio na estruturação da defesa), implantação de metodologias para organização da área de Folha de Pagamento e seus encargos legais e trabalho focado em garantir a perpetuidade do conhecimento dentro da empresa (gestão do conhecimento e formação de sucessores).\n Location : Fortaleza-CE / São Paulo-SP / Nova Mutum-MT\n Job Title : Analista de Recursos Humanos\n Company name : Barreira & Associados LTDA\n Period : mai. de 25 – abr. de 26\n Summary : Na Barreira e Associados, escritório de assessoria Contábil e Jurídica, fui responsável por todos os processos de Folha de Pagamento e seus encargos sociais de mais de 6 empresas, entre elas a Lanlink (representante da Microsoft no Brasil). Atuei como preposta da empresa em audiências e fiscalizações trabalhistas e em homologações rescisórias de ex-empregados em seus respectivos sindicados.\n Location : Fortaleza e Região, Brasil\n Job Title : Analista de Recursos Humanos\n Company name : VMJD Montagem Industrial LTDA\n Period : mar. de 23 – abr. de 25\n Summary : Na VMJD atuei em todos os processos de Folha de Pagamento, Encargos Trabalhistas, Cálculos Rescisórios, Férias e demais rotinas do Departamento Pessoal. A empresa era uma prestadora de Serviços para grandes grupos, tais como Consórcio Construtor Camargo Correia e Queiroz Galvão, Vicunha NE, White Martins e Metalic SA. Era também responsável por todo o levantamento de HH (Homem Hora) para fechamento das faturas mensais pela contraprestação dos serviços realizados nessas empresas.\n Location : Fortaleza - CE"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade de São Paulo\n Speciality : MBA, Recursos Humanos\n Period : 21 – 211\n School name : Universidade Federal do Ceará\n Speciality : Bacharel, Ciências Contábeis"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "2ff8fa56-401c-49b3-82fe-bef0a518fa4d",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*2ff8fa56-401c-49b3-82fe-bef0a518fa4d",
+    "talent": {
+      "updatedAt": "2023-12-20T13:54:41.741Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:54:41.741Z",
+      "email": "soraialeite.rh@gmail.com",
+      "phone": "11988955577",
+      "name": "Soraia Leite",
+      "id": "2ff8fa56-401c-49b3-82fe-bef0a518fa4d"
+    },
+    "timeInCurrentStage": 61412029322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.578Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "16/10/1978"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "24000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "2 carros, de mercado, pp (1/1)"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Psicologia",
+          "id": "0a31ad8a-c73e-4635-a450-2bd62ddcecf9",
+          "label": "Psicologia"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Federal de São João DelREi"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "HR Business Partner Manager"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "4c3372e9-dc3b-4bb0-9d7a-31086f4c5848",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*4c3372e9-dc3b-4bb0-9d7a-31086f4c5848",
+    "talent": {
+      "updatedAt": "2023-12-20T13:54:43.982Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:54:43.982Z",
+      "email": "pospsileo@hotmail.com",
+      "phone": "5512981055051",
+      "name": "Leonardo Silva",
+      "id": "4c3372e9-dc3b-4bb0-9d7a-31086f4c5848"
+    },
+    "timeInCurrentStage": 61412029322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:01.682Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "27/02/1979"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "25600"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "assistencia médica, odontologica, seguro de vida.carro e combustivel"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de RH, Segurança e Meio Ambiente"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "Sem filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de RH, Segurança e Meio Ambiente\n Company name : Martinrea International\n Period : ago de 217 - fev de 221\n Location : Monte Mor\n \n Job Title : Gerente de RH, Segurança e Meio Ambiente\n Company name : MAHLE\n Period : ago de 21 - ago de 217\n Location : Jaguariuna\n \n Job Title : Gerente de RH LATAM\n Company name : A.P. Moller - Maersk\n Period : out de 27 - ago de 21\n Location : Sao Paulo\n \n Job Title : Analista de RH Sr\n Company name : Itron\n Period : out de 26 - out de 27\n Location : Campinas Area, Brazil\n \n Job Title : Analista de RH Jr\n Company name : Merck\n Period : mar de 24 - out de 26\n Location : Campinas\n \n Job Title : Estagiária de RH\n Company name : Rhodia Brasil\n Period : jan de 23 - mar de 24\n Location : Paulinia"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Estadual de Campinas\n Speciality : Gestão da Qualidade\n Degree : Pós-graduação Lato Sensu - Especialização\n Period : 22 - 29\n \n School name : Pontifícia Universidade Católica de Campinas\n Speciality : Administração\n Degree : Graduação\n Period : 1997 - 2\n Courses: Title : Certificação HCMBOK® HCMP®; Title : Personal and Professional Coaching"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "056313a1-805f-45ec-a860-e79194ddc20b",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*056313a1-805f-45ec-a860-e79194ddc20b",
+    "talent": {
+      "updatedAt": "2023-12-20T13:57:59.024Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:57:59.024Z",
+      "linkedinUsername": "maria-carolina-sims-10098a12",
+      "email": "carol.atc@gmail.com",
+      "phone": "19981330580",
+      "name": "Maria Carolina Sims",
+      "id": "056313a1-805f-45ec-a860-e79194ddc20b"
+    },
+    "timeInCurrentStage": 61412929322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.525Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "18/08/1984"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "30000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "6"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "12"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Psicologia",
+          "id": "0a31ad8a-c73e-4635-a450-2bd62ddcecf9",
+          "label": "Psicologia"
+        }
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Gênero"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "People Acquisition and Development Manager"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "6ed526e3-4151-4e25-9a49-85176fb45812",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*6ed526e3-4151-4e25-9a49-85176fb45812",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:10.731Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:10.731Z",
+      "email": "aengelender@br.loreal.com",
+      "phone": "21976272732",
+      "name": "Alice Engelender",
+      "id": "6ed526e3-4151-4e25-9a49-85176fb45812"
+    },
+    "timeInCurrentStage": 61412029322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.270Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "33000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "HR Manager"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "760b4dd2-e4bb-4e43-990d-2e9f5080c09a",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*760b4dd2-e4bb-4e43-990d-2e9f5080c09a",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:41.750Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:41.750Z",
+      "email": "tatiane.mansilia@braskem.com\n tatiane.mansilia@braskem.com.br",
+      "phone": "",
+      "name": "Tatiane Mansilia",
+      "id": "760b4dd2-e4bb-4e43-990d-2e9f5080c09a"
+    },
+    "timeInCurrentStage": 61412029322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:01.999Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "30/12/1982"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "21500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "1.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "1.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "todos de mercado + carro"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Comunicação Social",
+          "id": "e5b3cfa3-f5c5-42cb-aefc-1b0f757be277",
+          "label": "Comunicação Social"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "USCS - Universidade Municipal de São Caetano do Sul"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": "Fundação Getulio Vargas\n Área de estudoBusiness Administration"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "HR Business Partner"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "Sem filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "b20bf0b0-0076-48e5-a21a-516a5ba8f841",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*b20bf0b0-0076-48e5-a21a-516a5ba8f841",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:23.936Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:23.936Z",
+      "email": "ligiaflavia@yahoo.com.br",
+      "phone": "11981579159",
+      "name": "Ligia Stafocher",
+      "id": "b20bf0b0-0076-48e5-a21a-516a5ba8f841"
+    },
+    "timeInCurrentStage": 61412029322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:01.937Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "09/11/1981"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "20000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "auxílio creche (5 reais cada um), VR, VA, PP, plano de saúde"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Psicologia",
+          "id": "0a31ad8a-c73e-4635-a450-2bd62ddcecf9",
+          "label": "Psicologia"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Pontifícia Universidade Católica de Campinas"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Recursos Humanos"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2 filhos pequenos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de Recursos Humanos\n Company name : Neoenergia\n Period : fev. de 218 – o momento\n Summary : Responsável pela gestão do time na definição e condução da estratégia de Desenvolvimento de Pessoas/ Talent do Grupo Iberdrola no Brasil, realizando a interface com o RH Global, exportando práticas e aplicando o modelo no Brasil (considerando as especificidades e necessidades de cada uma das empresas), em processos como:- Elaboração e gestão de políticas, práticas e programas de Desenvolvimento Organizacional (Recrutamento e Seleção, Treinamento e Desenvolvimento, Avaliação de Desempenho, Desenvolvimento da Liderança, Sucessão, Pesquisa de Clima Organizacional, entre outros) para todo o grupo Neoenergia no Brasil.- Interface com Recursos Humanos Global (Iberdrola) para a definição da estratégia de desenvolvimento organizacional do grupo, tropicalização das práticas e repasse às áreas de Recursos Humanos locais (5 empresas no Brasil) para a execução.- Elaboração e gestão de indicadores estratégicos de desenvolvimento.\n Location : Campinas\n Job Title : Coordenador de Desenvolvimento Organizacional/ Talent\n Company name : Elektro\n Period : mar. de 215 – fev. de 217\n Summary : Responsável pela gestão de equipe para o desenvolvimento e gestão de ações e programas de Recrutamento e Seleção, Treinamento e Desenvolvimento, como:- Gestão das Pesquisas de Clima Organizacional (metodologias GPTW - Época e FIA – Exame/ Você SA), trabalho que resultou no reconhecimento da empresa como a Melhor Empresa para Trabalhar no Brasil por 7 vezes consecutivas, com destaque na categoria Desenvolvimento de Pessoas;- Gestão do Processo de Avaliação de Desempenho 36º para 1% dos colaboradores;- Gestão da Universidade Elektro (Universidade Corporativa);- Gestão da Escola de Líderes (desenvolvimento e implantação de ações e programas para todos os níveis da liderança, potenciais, sucessores de curto, médio e longo prazo);- Elaboração e implantação de Programa interno de Tutoria/ Leader Coach;- Sucessão; - Programa de Estágio; - Gestão dos processos de Recrutamento, Seleção e Integração;- Gestão dos programas de Qualidade de Vida e Saúde.\n Location : Campinas\n Job Title : Especialista em desenvolvimento organizacional\n Company name : Elektro\n Period : jul. de 213 – mar. de 215\n Summary : Principais projetos:- Programa de Desenvolvimento da Liderança,- Criação e gestão de Rede Social Interna;- Desenvolvimento e Implantação de programa específico para os primeiros níveis de gestão (principais ferramentas de um gestor);- Reestruturação do Programa de Estágio.\n Location : Campinas\n Job Title : Analista de Recursos Humanos\n Company name : Elektro\n Period : jun. de 27 – jul. de 213\n Summary : Principais Realizações:- Desenho e Implantação da Carreira em Y na organização;- Elaboração de programa com foco no desenvolvimento e formação de Potenciais para posições de gestão e especialidade;- Projeto de Primarização - Contratação e formação de 9 pessoas em 1 ano (definição de estratégias de RH para desenho da estrutura, recrutamento, seleção e treinamento e change management).\n Location : Campinas"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Amana-key\n Speciality : APG Executivo Senior\n Period : 217 – 217\n School name : ICI - Integrated Coaching Institute\n Speciality : Formação e Certificação em Coaching\n Period : 215 – 215\n School name : Fundação Getulio Vargas\n Speciality : Pós Graduação/ Especialização, Administração e Negócios\n Period : 27 – 28\n School name : Pontifícia Universidade Católica de Campinas\n Speciality : Licenciatura e Bacharelado em Psicologia, Psicologia\n Period : 2 – 24\n Courses: Title : Especialização em Consultoria Interna de Recursos Humanos - Ornellas & Associados"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "f2b2ceab-7911-4b8f-8d05-417396f3fb79",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*f2b2ceab-7911-4b8f-8d05-417396f3fb79",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:01.113Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:01.113Z",
+      "email": "mirella.ficoni@neoenergia.com",
+      "phone": "551981440866",
+      "name": "Mirella Ficoni",
+      "id": "f2b2ceab-7911-4b8f-8d05-417396f3fb79"
+    },
+    "timeInCurrentStage": 61412029322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:01.718Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Senior Executive Manager HRBP"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Senior Executive Manager HRBP\n Company name : The Mosaic Company\n Period : ago de 22 - o momento – ago de 22 - o momento\n Summary : A Mosaic Fertilizantes é uma empresa americana, uma das maiores produtoras de fertilizantes do mundo, que nos últimos anos passou por um intenso processo de transformação. Meus principais objetivos como BP apoiando o Vice-Presidente de Operações são fortalecer a cultura Mosaic em suas 15 unidades industriais no Brasil e Paraguai e 4 COE's. Nos últimos anos a Mosaic, como estratégia de crescimento, adquiriu a operação da vale fertilizantes, que passou de 1. para 7. funcionários com uma operação complexa espalhada por todo o Brasil que inclui Instalações Industriais de mineração e química em seu processo produtivo espalhadas por 1 estados diferentes administrando um RH equipe de 14 pessoas entre Gerentes e Especialistas Sênior. Como parceiro estratégico de negócios desenvolvo com minha equipe em estreita colaboração com 8 diretores industriais (líderes de operações de mineração e plantas de mineração química) e 4 DIRETORES DE COEs (EHS, Projetos, Processos Industriais e Mineração) iniciativas que promovem o ambiente de trabalho em qualidade e diversidade, iniciativas que garantem a formação da força de trabalho do futuro motivada pela transformação do negócio.\n Location : Brasil\n \n Job Title : Head of HR Philips Brasil - Executive Position\n Company name : Philips\n Period : abr de 219 - ago de 22 – abr de 219 - ago de 22\n Summary : Como Head de RH Brasil, era responsável por todas as operações de RH no País que consistem em uma Fábrica de bens de consumo com 7 funcionários em Varginha, um Escritório Comercial em São Paulo com 65 funcionários e um Centro de P&D Tecnológico em Blumenau com 8 funcionários, gerenciando um orçamento de R$ 4 milhões em três diferentes Negócios, Informática em Saúde, Sistemas de Saúde (B2B) e Saúde Pessoal (B2C).\n Como Parceiro de Negócios fazia parte do Conselho Executivo da Organização no Brasil e apoiava a estrutura no desenvolvimento e condução da Estratégia do negócio, traduzindo os objetivos estratégicos da Organização em um plano de pessoas eficaz.\n Atuei no gerenciamento de mudanças que apoiaram na transformação constante do negócio.\n Principais Entregáveis:\n Transferência do CSC do Panamá para Varginha consolidando mais de 3 posições\n Projeto de M&A com a aquisição da Carestream empresa de software em Saúde (sendo ponto focal para LATAM)\n Projeto de Spin-off da linha de kitchen Appliance incluindo a Walita (projeto global sendo ponto focal para LATAM)\n Em parceria com o Global desenvolvimento e desdobramento das ações de talento (baseada em data analytics) para todo LATAM\n Redesenho Organizacional das áreas de B2B e B2C para projeto de Transformação Global da Organização\n Transição da posição de COE, CFO e GM da Organização no Brasil em 219/2\n Liderança de RH para LATAM na construção do negócio de Software da Organização no Brasil.\n Location : Brasil\n \n Job Title : HR Manager Business Partner\n Company name : Philips\n Period : jun de 218 - abr de 219 – jun de 218 - abr de 219\n Location : Brasil\n \n Job Title : Senior Human Resources Manager - BP\n Company name : Enseada\n Period : out de 212 - nov de 217 – out de 212 - nov de 217\n Summary : Como Gerente Snr. de RH em projeto de R$ 12 Bilhões, na construção de 6 Navios Perfuradores fui responsável pelo desenvolvimento do plano de mobilização e desmobilização das Unidades Industriais Inhaúma-RJ e Paraguaçu-BA, cada uma com 7. e 1.2 funcionários , respectivamente. Contribuiu para a gestão do conhecimento no programa de Transferência de Tecnologia entre Enseada e Kawasaki Japão, envolvendo a transferência de mais de 9 colaboradores expatriados entre brasileiros e japoneses.\n Em parceria com o SENAI e Prefeituras do entorno dos empreendimentos desenvolvi um programa de capacitação voltado para a indústria naval, que ofereceu capacitação a mais de 2.4 jovens em cinco comunidades do entorno, com o objetivo de formar uma mão de obra bem treinada e contribuir para o desenvolvimento social local.\n Desenvolvi programa de carreira para mão de obra operacional (plano de carreira para nível operacional, criação do operador multifunção).\n Responsável por desenvolver e implantar o programa regional de Infraestrutura, relacionado à operação de uma nova Unidade Industrial localizada no recôncavo Baiano, envolvendo a coordenação com entes públicos e privados com o objetivo de melhorar a segurança (polícia), educação (escolas) e saúde (hospitais locais) e beneficiando as comunidades locais e arredores.\n \n Principais entregáveis\n Implantação do programa de transferência de tecnologia entre Kawasaki e Enseada garantindo um impacto positivo na curva físico-financeira do projeto e no histograma de pessoal;\n Ambientação do VP de Operações e GM das Unidades Industriais, ambos Japoneses.\n Programa efetivo de educação industrial voltado para a comunidade, garantindo a renovação da mão de obra local.\n Entrega de Equipamentos Públicos importantes para a comunidade no recôncavo Baiano (1 UPA, 1 central de polícia integrada, 5 centros de formação em parceria com o SENAI)\n Location : RJ / Bahia\n \n Job Title : HR Manager - BP\n Company name : Odebrecht Realizações Imobiliárias\n Period : jun de 211 - out de 212 – jun de 211 - out de 212\n Summary : Mobilização de empreendimento Imobiliário em Porto Velho – RO, composto por 15 condomínios e VGV estimado de R$ 3 milhões, efetivo de 2. homens.\n \n Responsável por todos os subsistemas de RH, relações Sindicais e áreas administrativas.\n \n Responsável por desenvolver e implantar programas de treinamento, desenvolvimento e Cultura, capazes de aumentar a produtividade e reduzir o “turnover”, objetivando a certificação ISO 91.\n \n Responsável pela negociação Sindical em ambiente adverso e hostil, devido ao momento de pleno emprego na região, o que ampliava o desafio na negociação, considerando o “traget” financeiro do empreendimento.\n \n Responsável pela gestão do programa de “Compliance” para mão de obra do contrato e terceiros.\n Location : Rondônia - RO\n \n Job Title : Human Resources Coordinator - BP\n Company name : Odebrecht Africa Emirados Árabes\n Period : fev de 29 - jun de 211 – fev de 29 - jun de 211\n Summary : Atuei em dois empreendimentos no país, um na cidade de Caala (mobilização e desmobilização do empreendimento), localizado em povoado à 7 km da capital Luanda e outro na capital Luanda (manutenção dos contratos de saneamento básico na Capital).\n \n Formatação e implantação de programas de liderança, cultura e capacitação técnica (incluindo alfabetização), para substituição da mão de obra brasileira por mão de obra Angolana, com foco no desenvolvimento de liderança local.\n \n Responsável por todos os subsistemas da área de RH (folha de pagamento em moeda local, Real e dólar) e administrativo (desenvolvimento/gestão de contratos administrativos de serviços à Pessoas alimentação, transporte, segurança patrimonial, passagens e vistos, moradia).\n \n Acompanhamento das negociações sindicais com sindicato local.\n Location : Angola"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Degree : Master of Business Administration (MBA)\n Period : 217 - 22\n \n School name : Universidade Anhembi Morumbi\n Degree : Administração em Finanças\n \n School name : MSW Educação e Consultoria\n Degree : Programa de Desenvolvimento de Empresários\n \n School name : Fundação Dom Cabral\n Degree : Academia de Liderança - The Leadership Pipeline\n Period : 22 - 221"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "8d6cd476-45e5-4ec0-a6df-f3eb7e394e96",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*8d6cd476-45e5-4ec0-a6df-f3eb7e394e96",
+    "talent": {
+      "company": "",
+      "createdAt": "2023-12-20T14:09:08.707Z",
+      "email": "niloalbano@hotmail.com",
+      "headline": "",
+      "linkedinUsername": "danilo-albano-67b45a37",
+      "location": "",
+      "name": "Danilo Albano",
+      "phone": "553498345256",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQHByFa1Smv1sw/profile-displayphoto-shrink_200_200/0/1588791311698?e=1726099200&v=beta&t=V0Jp34bXn1elIqxglxxsZx2E9Odw_zRyPFTBEyDfKNg",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-07-12T20:24:11.911Z",
+      "id": "8d6cd476-45e5-4ec0-a6df-f3eb7e394e96"
+    },
+    "timeInCurrentStage": 61412929322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:01.762Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "09/09/1990"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "24000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "8"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "8"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Head Of Human Resources"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Head Of Human Resources\n Company name : Focus Financeira\n Period : out de 221 - o momento – out de 221 - o momento\n Location : São Paulo, Brasil\n \n Job Title : Head of Talent Acquisition, Brazil\n Company name : IBM\n Period : jun de 221 - out de 221 – jun de 221 - out de 221\n Summary : Talent Acquisition Leader for IBM Brazil. Leading a team of around 5 employees (direct and indirect reports), defining end to end strategy and execution plan for TA team to support IBM growth strategy in Brazil.\n 2nd line manager.\n +15 openings covered per year\n \n Job Title : HR Leader Latin America for Cloud, Software, Hardware and Sales Organizations\n Company name : IBM\n Period : ago de 218 - jun de 221 – ago de 218 - jun de 221\n Summary : HR Leader responsible for the people strategy for the following areas at LatAm level:\n - Cloud\n - Watson (Artificial Intelligence)\n - Software legacy\n - Hardware\n - IGF (IBM Bank)\n - CFO/Finance\n - COO/ Operation\n - Sales (F2F, Digital and Business Partners)\n Location : São Paulo, São Paulo\n \n Job Title : Manager, Executive Succession & Development Leader for Latin America\n Company name : IBM\n Period : set de 217 - jul de 218 – set de 217 - jul de 218\n Location : São Paulo, São Paulo"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : IBM Agile Explorer\n Period : Emitido em nov de 2018-Sem data de expiração\n \n Title : Blue Core Coach\n Period : Emitido em jul de 2018-Sem data de expiração\n Issuing Authority : IBM\n \n Title : IBM Certified Manager\n Period : Emitido em jan de 2018-Sem data de expiração\n Issuing Authority : IBM\n \n Title : IBM Mentor\n Period : Emitido em jan de 2018-Sem data de expiração\n Issuing Authority : IBM"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Insper\n Speciality : Executive MBA\n Degree : Master of Business Administration - MBA\n Period : 219 - 22\n \n School name : Pontifícia Universidade Católica de São Paulo\n Speciality : Administração de Empresas\n Degree : Bachelor of Business Administration (B.B.A.)\n Period : 28 - 212"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "99ff295e-082f-4d8b-9528-b618cc3bcc74",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*99ff295e-082f-4d8b-9528-b618cc3bcc74",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:41.170Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:41.170Z",
+      "linkedinUsername": "diegopaiva1",
+      "email": "diegoapo1988@hotmail.com",
+      "phone": "11981862587",
+      "name": "Diego Paiva",
+      "id": "99ff295e-082f-4d8b-9528-b618cc3bcc74"
+    },
+    "timeInCurrentStage": 61412929322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.245Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "17000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de RH"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "f9bc1fa5-dae8-4274-8fbd-9876a485f6e9",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*f9bc1fa5-dae8-4274-8fbd-9876a485f6e9",
+    "talent": {
+      "updatedAt": "2023-12-20T14:02:43.934Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:02:43.934Z",
+      "email": "clara.ronquetti@gmail.com",
+      "phone": "1123598038",
+      "name": "Clara Cristina Ronquetti",
+      "id": "f9bc1fa5-dae8-4274-8fbd-9876a485f6e9"
+    },
+    "timeInCurrentStage": 61412029322
+  },
+  {
+    "importedAt": "2024-02-08T18:40:01.792Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "32000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Psicologia",
+          "id": "0a31ad8a-c73e-4635-a450-2bd62ddcecf9",
+          "label": "Psicologia"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "universidade federal mato grosso do sul"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "People Business Partner Manager"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "e1604f28-834c-49c2-93d9-79959acf93b6",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*e1604f28-834c-49c2-93d9-79959acf93b6",
+    "talent": {
+      "updatedAt": "2023-12-20T13:54:45.251Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:54:45.251Z",
+      "email": "britto_flavio@hotmail.com",
+      "phone": "5511963835521",
+      "name": "Flavio Britto",
+      "id": "e1604f28-834c-49c2-93d9-79959acf93b6"
+    },
+    "timeInCurrentStage": 61412029323
+  },
+  {
+    "importedAt": "2024-02-08T18:40:02.297Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "20/10/1970"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "15000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "3.75"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "todos de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Psicologia",
+          "id": "0a31ad8a-c73e-4635-a450-2bd62ddcecf9",
+          "label": "Psicologia"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "PUCSP"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "HRBP"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 filho - 12 anos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gente e Gestão\n Company name : Construtora Tenda S.A\n Period : abr. de 218 – o momento\n Location : São Paulo e Região, Brasil\n Job Title : Gerente de RH\n Company name : Speedo\n Period : jun. de 213 – mai. de 217\n Location : São Paulo Area, Brazil\n Job Title : Coordenadora de Recursos Humanos\n Company name : Shoestock\n Period : nov. de 211 – jan. de 213\n Job Title : Coordenadora de Consultoria Interna de Recursos Humanos\n Company name : Grupo SHC (Citroen, Jac Motors, Jaguar, Aston Martin)\n Period : fev. de 21 – nov. de 211\n Location : São Paulo Area, Brazil\n Job Title : Coordenador Treinamento e Seleção\n Company name : Lojas Renner\n Period : fev. de 2 – dez. de 28\n Job Title : Analista de RH\n Company name : Siciliano S/A\n Period : dez. de 1997 – jan. de 2\n Location : São Paulo Area, Brazil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Pontifícia Universidade Católica de São Paulo\n Speciality : graduação, Psicologia"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "affc00e5-38a9-4518-972e-f9c29de321f9",
+    "id": "2bc2c17d-a2e9-4eba-bc37-1b2788c55ce9*affc00e5-38a9-4518-972e-f9c29de321f9",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:25.733Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:25.733Z",
+      "email": "importacao10293@importacaoinhire.com",
+      "phone": "11993134044",
+      "name": "Silvia Helena Casmal",
+      "id": "affc00e5-38a9-4518-972e-f9c29de321f9"
+    },
+    "timeInCurrentStage": 61412029323
+  }
+]

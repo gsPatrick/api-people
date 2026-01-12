@@ -1,0 +1,2763 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:33.346Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "01/01/1984"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "10000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Unifeob"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Treasury Consultant"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Treasury Consultant\n Company name : Alcoa\n Period : dez. de 218 – o momento\n Location : Poços de Caldas, Minas Gerais, Brazil\n \n Job Title : Treasury Back Office Supervisor\n Company name : Alcoa\n Period : mar. de 213 – nov. de 218\n Summary : Responsible for coordinating Treasury Back Office activities for Latin America, North America, Europe and Australia regions, including: Daily Cash Flow process, Cash Settlement, Treasury related Accounting and Reconciliation, and Internal Controls\n Location : Poços de Caldas Area, Brazil\n \n Job Title : Treasury Back Office Analyst\n Company name : Alcoa\n Period : jul. de 21 – fev. de 213\n Summary : Treasury operations, financial accounting - BRGAAP/USGAAP, debt control, Intercompany loans control, interest income/expense analysis and forecast, foreign currency exposure analysis and control, Internal controls and compliance, SOX audit, derivatives accounting and control, management reports\n Location : Poços de Caldas Area, Brazil\n \n Job Title : Treasury Back Office Assistant\n Company name : Alcoa\n Period : out. de 28 – jun. de 21\n Summary : Support North America Treasury, Accounts Receivable and Accounts Payable activities; Financial accounting analysis and reconciliation; Treasury operations accounting and control\n Location : Poços de Caldas Area, Brazil\n \n \n Job Title : Intern - Treasury Back Office\n Company name : Alcoa\n Period : out. de 27 – set. de 28\n Summary : Projected cash flow planning and control, daily cash flow analysis and control, bank reconciliation, management reports, metrics and indexes control"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : FGV - Fundação Getulio Vargas\n Speciality : Master of Business Administration (MBA), Finance\n Period : 212 – 214\n School name : University of Miami Business School\n Speciality : Global Business Program\n Period : 216 – 216\n School name : UNIFEOB\n Speciality : Bachelor's degree, Business Administration\n Period : 25 – 28\n \n School name : University of Pittsburgh Katz Graduate School of Business\n Speciality : Alcoa Management Essentials Program\n Period : 218 – 218"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "bd9ab5cb-5629-46cf-82dc-84bd3328d93c",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*bd9ab5cb-5629-46cf-82dc-84bd3328d93c",
+    "talent": {
+      "updatedAt": "2023-12-20T14:06:28.422Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:06:28.422Z",
+      "linkedinUsername": "cecantos",
+      "email": "carlos.cantos@hotmail.com.br",
+      "phone": "19997074144",
+      "name": "Carlos Eduardo Cantos",
+      "id": "bd9ab5cb-5629-46cf-82dc-84bd3328d93c"
+    },
+    "timeInCurrentStage": 61412934775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.046Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "18000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Head de OTC e Tesouraria Brasil"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Head de OTC e Tesouraria Brasil\n Company name : Henkel\n Period : mai. de 221 – o momento\n Location : São Paulo, Brazil\n Job Title : Analista de Crédito e Cobrança (OTC) Sênior\n Company name : Henkel\n Period : ago. de 22 – abr. de 221\n Summary : - Atuar como Business Partner do negócio, monitorando constantemente o mercado, avaliando novos projetos e oportunidades\n - Executar e acompanhar rotinas da equipe de Crédito e Cobrança de acordo com as políticas da empresa – análise e aprovação diária de pedidos de vendas, criação de novos clientes, análise de risco, análise de crédito/balanço/DRE, atualização de relatórios, suporte a conciliação bancária/ cash allocation, reuniões com área comercial e clientes para negociação de dívidas e avaliação de oportunidades\n - Dar suporte a redução dos níveis de overdue de clientes das diversas áreas de negócio através do acompanhamento próximo do comportamento de pagamento dos clientes, em conjunto com o time de vendas, Customer Service e Share Service Center\n Location : São Paulo\n Job Title : Analista de Tesouraria Sênior\n Company name : Henkel\n Period : mai. de 218 – jul. de 22\n Summary : - Key user e principal contato à execução e implantação de projetos regionais e globais no Brasil para Tesouraria – em 219, o principal projeto é de atualização, integração e harmonização do SAP globalmente\n - Liderança e operacionalização diária do controle do fluxo de caixa – garantia de liquidez do caixa\n - Reporte recorrente da posição do caixa, bem como seu forecast e desvios do realizado vs planejado aos Heads locais e regionais de Tesouraria e Finanças\n - Contratação e controle de operações de FX (Spot, NDFs) – 36 T e Citi Pulse\n - Efetivação de todos os pagamentos e recebimentos em outras moedas (importação, exportação, pagamentos e recebimentos financeiros), interface diária com Trade e Tax \n - Responsável pela implantação de um projeto de automatização de pagamentos internacionais\n - Relacionamento com os bancos – o principal contato com os bancos para todos os temas financeiros e temas relacionados ao negócio\n - Garantia ao cumprimento local do Corporate Standard da Henkel\n - Monitoramento constante do mercado para demandas de captação e investimento\n - Monitoramento e reporte de tendências, riscos e soluções para todos os temas de tesouraria e mercado (assim como moedas, juros, índices econômicos)\n Location : São Paulo, Brasil\n Job Title : Trainee de Tesouraria\n Company name : CHS América do Sul\n Period : mar. de 217 – abr. de 218\n Summary : - Contratação e controle de operações de FX e hedges (NDFs) diariamente – Bloomberg\n - Contratação, controle e liquidação de dívidas de trade finance e capital de giro (Club Deal, ACCs, PPEs, 4131, CDCA, FINIMP, Intercompany loans)\n - Suporte ao controle do fluxo de caixa de curto e médio prazo – contas em BRL e USD\n - Contato com a CHS Europa e EUA para o pagamento/captação de dívidas\n - Elaboração e envio diário e semanal de relatório de mercado com indicadores econômicos e com as principais notícias que podem impactar o negócio da Companhia\n - Contato com a contabilidade para alinhamento das operações realizadas e atividades de fechamento mensal (dívidas, NDFs)\n - Contato com jurídico para negociação de contratos e definição de procedimentos com os bancos\n - Relacionamento com bancos\n - Suporte à implantação de novos sistemas e as áreas de negócios\n Location : São Paulo, Brasil\n Job Title : Program Manager\n Company name : iPL - Institute of Performance and Leadership\n Period : jan. de 216 – fev. de 217\n Summary : - Responsável pela gestão de programas corporativos customizados à clientes nacionais e internacionais\n - Planejamento, monitoramento, controle e execução dos programas/contratos\n - Gerenciamento de prazos e pessoas para o sucesso das entregas\n - Controle dos custos e orçamento de cada um dos contratos\n - Monitoramento de desempenho e satisfação de todos os steakholders, em especial dos clientes\n Location : São Paulo, Brasil\n Job Title : Pesquisadora Associada\n Company name : Insper\n Period : jan. de 215 – fev. de 217\n Summary : •Participação no grupo Insper Metricis no desenvolvimento de pesquisas e na elaboração de estudos de caso (com objetivo de ensino e/ou de replicação de experiências) \n •Participação em projetos externos de consultoria e pesquisa\n Location : São Paulo, Brasil\n Job Title : Estagiária de Controladoria\n Company name : Suzano Papel e Celulose\n Period : out. de 211 – dez. de 212\n Summary : - Responsável pelo processo mensal de fechamento gerencial e Rolling Forecasts, envolvendo desde a captação e consolidação dos dados até a elaboração das apresentações pertinentes\n - Responsável pela implantação do sistema operacional IBM – Cognos TM1\n Location : São Paulo, Brasil\n Job Title : Estagiária\n Company name : FIA - Fundação Instituto de Administração\n Period : out. de 29 – dez. de 21\n Summary : •CEATS - Centro de Empreendedorismo Social e Administração em Terceiro Setor – apoio na parceria com a Fundação Telefônica no ‘III Encontro Internacional contra o Trabalho Infantil’ e o curso virtual sobre ‘como fazer um plano de ação para prevenir e erradicar o trabalho infantil’\n •PROGEP - Programa de Estudos em Gestão de Pessoas - apoio no desenvolvimento e execução da pesquisa DEPLHI RH 215, envolvendo gestores das empresas das Maiores e Melhores da revista Exame\n Location : São Paulo, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "EA"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : MBA USP/Esalq\n Speciality : MBA, Finanças e Controladoria\n Period : 22 – 222\n School name : Universidade de São Paulo / USP\n Speciality : Mestre em Administração de Empresas, Administração de Empresas - Economia de Empresas\n Period : 213 – 215\n Summary : Estudou a relação entre instituições e empreendedorismo de acordo com o nível de desenvolvimento dos países. Orientação da Profª Drª Sylvia Saes., Pesquisadora CORS – Center for Organization Studies – núcleo de pesquisa da Universidade de São Paulo. Participou em projetos de pesquisa e no planejamento e execução da conferência anual do grupo, o RWIO - Research Workshop on Institutions and Organizations. Também participou e organizou grupos de estudos, eventos e treinamentos.\n School name : Universidade de São Paulo\n Speciality : Bacharelado, Administração de Empresas\n Period : 28 – 212\n Summary : De 28 a 21: PET – Programa de Educação Tutorial – participou de atividades envolvendo pesquisa, ensino, extensão e foi coordenadora interna do grupo.\n De 28 a 29: Membro da AIESEC FEA USP.\n School name : Stockholm University\n Speciality : Bacharelado, Administração de Empresas\n Period : 211 – 211\n Summary : Intercâmbio acadêmico de um semestre na Universidade de Estocolmo. Durante o semestre, cursou e foi aprovada em três disciplinas:1) Strategic Management 2) Leadership and Management in Organizations 3) Corporate Finance"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "2b5d98ea-a1ab-46ac-8326-6f19a9f46933",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*2b5d98ea-a1ab-46ac-8326-6f19a9f46933",
+    "talent": {
+      "updatedAt": "2023-12-20T13:57:06.055Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:57:06.055Z",
+      "linkedinUsername": "carolinemoron",
+      "email": "carol.moron@gmail.com",
+      "phone": "11981655047",
+      "name": "Caroline Moron",
+      "id": "2b5d98ea-a1ab-46ac-8326-6f19a9f46933"
+    },
+    "timeInCurrentStage": 61412334775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:32.956Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "25/06/1992"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "15000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "FEI - Faculdade de Engenharia Industrial"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de tesouraria"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de tesouraria\n Company name : NovaAgri\n Period : mar. de 221 – o momento\n Location : São Paulo, São Paulo, Brasil\n \n Job Title : Especialista de Tesouraria\n Company name : Raízen\n Period : jul. de 22 – mar. de 221\n Summary : Gestão de Exposição Cambial, Estratégia para Derivativos, FX e gestão de Caixa\n Responsável pelo gerenciamento da exposição cambial da cia, objetivando proteger tanto custos quanto receitas através de precificação e negociação de NDF, swaps, futuros e opções Além de gerenciamento de capital de giro, caixa onshore e offshore, relacionamento bancário e análise de\n resultados\n Location : São Paulo, São Paulo, Brazil\n \n Job Title : Consultor Financeiro de Tesouraria\n Company name : Suzano\n Period : jun. de 218 – jun. de 22\n Summary : (Suzano) Responsável pelo Liability Management e Captação da cia, relacionamento bancário/ investidores e negociação, atendimento às auditorias, análise financeira, contábil e fiscal de novos produtos para Capex e Funding, objetivando novas linhas de crédito e redução do custo de captação e alongamento do prazo\n Sendo responsável por operações que alongaram as dívidas da empresa, diminuindo custo e deixando-a estrategicamente mais preparada para crises e novos projetos, tais como operações de financiamento à exportação de US$ 1,6 bi, emissão de debêntures de R$ 75 mi, emissão de bonds de US$ 2 bi e diversas liquidações de financiamentos caros e/ ou que não faziam mais sentido no perfil da cia Lidero também, em conjunto com Sustentabilidade, discussões de finanças sustentáveis (verdes)\n \n (Fibria, pré-fusão) Nesse período fui responsável por definições de estratégias e precificação de derivativos para hedge (Zero Cost Collar, NDF, Swaps etc para FX, juros, inflação e petróleo), câmbio, controle de exposição cambial, análise da estrutura de capital, desenvolvimento de modelagens financeiras e preparação de apresentações aos Comitês e Conselho, além da elaboração da curva de custos da companhia\n Location : São Paulo e Região, Brasil\n \n Job Title : Especialista de Tesouraria\n Company name : Stone Pagamentos\n Period : out. de 217 – jun. de 218\n Summary : Responsável pelo relacionamento bancário/ investidores e negociação, realizando também a análise financeira, contábil e fiscal de novos produtos para Capex e Funding, objetivando novas linhas de crédito e redução do custo de captação Gerenciar o funding da cia, assim como as linhas de cessão de recebíveis, câmbios, fianças, stand by letter of credit, seguro garantia e investimentos onshore e offshore \n Gestão e redução dos custos de cash (boletos, TEDs, créditos em conta etc), análise de contratos, planejamento de Budget e fluxo de caixa\n \n Principais Resultados:\n • Mapeamento e redução de custos de cash em R$ 2,5 MM por ano;\n • Substituição de fianças bancárias por seguros garantia, reduzindo o custo em R$ 3, por ano;\n • Abertura de novos relacionamentos bancários e novas linhas de crédito que reduziram spreads e diversificaram as contrapartes;\n • Implantação de Hedge Accounting e políticas de Tesouraria\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista de Tesouraria (Trader)\n Company name : Volkswagen Financial Services (Brasil)\n Period : out. de 212 – out. de 217\n Summary : Responsável pela Mesa de Operações do Banco Volkswagen Realizando a gestão de curto e longo prazo de funding (Operações em moeda estrangeira: 4131 e 3844, Letra Financeira, CDB, RDB, FIDC etc), investimentos em renda fixa, fluxo de caixa e projeções, discussões de Budget com o Board, relacionamento bancário e negociação, análise de cenário econômico, câmbios, derivativos de juros e câmbio de acordo com o cenário macro, estruturações de dívidas privadas e em mercado de capitais\n \n Principais Resultados:\n • Criação de todos os processos e políticas para a criação de uma nova empresa do grupo (Locadora);\n • Redução do custo de emissão de Letras Financeiras Públicas de 17,5% CDI (212) \n para 14% CDI (217), assim como redução do tempo de emissão pela metade;\n • Redução do custo de funding em 2,2% CDI, de 213 para 216;\n • Implantação de novos produtos e processos para redução de custo de funding, como cálculo de swaps e nova projeção de fluxo de caixa\n Location : São Paulo e Região, Brasil\n \n Job Title : Técnico de Crédito\n Company name : Volkswagen Financial Services (Brasil)\n Period : dez. de 211 – out. de 212\n Summary : Análise de crédito consórcio e crédito corporate, relatórios e apresentações gerenciais e de acompanhamento de performance (KPIs)\n \n Principais Resultados:\n • Criação de relatório automático (VBA) para mensuração de resultados por analista, aumentando a produtividade em 1%\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Estágio em Seguros Corporativos\n Company name : Volkswagen Financial Services (Brasil)\n Period : out. de 21 – dez. de 211\n Summary : Responsável pelo atendimento às seguradoras e clientes internos, além de análise de documentação e pendências de apólices de seguros Realizando o Backoffice de seguros de automóvel, vida, residencial e empresarial\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Gestão de Profissionais de Alto Potencial\n Period : Emitido em jun. de 2020 - Nenhuma data de expiração\n Issuing Authority : LinkedIn\n Title : Rules for Rising Leaders\n Period : Emitido em jun. de 2020 - Nenhuma data de expiração\n Issuing Authority : LinkedIn\n \n Title : Communicating In the Language of Leadership\n Period : Emitido em mai. de 2020 - Nenhuma data de expiração\n Issuing Authority : LinkedIn"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Centro Universitário FEI\n Speciality : Bacharelado em Administração, Administração de Empresas\n Period : 21 – 213\n Summary : Monitoria e Empresa Júnior.\n \n School name : Centro Paula Souza\n Speciality : Técnico, Gestão de Pequenas Empresas\n Period : 28 – 29\n Courses: Title : @Risk for Finance Application; Title : AE Broadcast; Title : Excel: Macro e VBA; Title : Formação no Mercado de Derivativos Agrícolas - Saint Paul; Title : Intercâmbio no Canadá - Inglês (5 semanas); Title : Plataforma Bloomberg; Title : Plataforma Thomson Reuters; \n Title : ValorPro"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "634fbffe-6ae4-4b34-b800-fd893b2e767b",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*634fbffe-6ae4-4b34-b800-fd893b2e767b",
+    "talent": {
+      "company": "Klabin",
+      "createdAt": "2023-12-20T13:53:21.233Z",
+      "email": "andreinardim@gmail.com",
+      "linkedinUsername": "andreinardim",
+      "name": "Andrei Nardim",
+      "phone": "11980553371",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-04-01T12:23:26.431Z",
+      "id": "634fbffe-6ae4-4b34-b800-fd893b2e767b"
+    },
+    "timeInCurrentStage": 61412934775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.250Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "08/02/1988"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "13000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe + prev privada"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "inglês avançado"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de tesouraria"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "a caminho"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Coordenador de tesouraria\n Company name : Klabin\n Period : mar. de 221 – o momento\n Location : São Paulo, Brasil\n \n Job Title : Fundador\n Company name : interest.com.vc\n Period : jun. de 22 – o momento\n Summary : Criador e Fundador do site wwwinterestcomvc\n Location : São Paulo e Região, Brasil\n \n Job Title : Coordenador financeiro\n Company name : Partage Shopping\n Period : out. de 219 – fev. de 221\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista Financeiro\n Company name : Partage Shopping\n Period : jan. de 218 – out. de 219\n Location : São Paulo\n \n Job Title : Analista de finanças\n Company name : Companhia Siderúrgica Nacional\n Period : jul. de 213 – dez. de 217\n Summary : -Realização de investimentos do caixa da empresa e do grupo – Onshore e Offshore (Fundos de Investimentos, CDBs, Letras Financeiras, Compromissadas, Time Deposit, Certificate of Deposit etc)\n -Fechamento de Câmbio Spot (pagamentos de fornecedores, etc)\n -Realização de algumas operações estruturadas, como Bond, Debêntures de Infraestrutura e CVM 476, forfaitings\n -Realização dos programas de recompra de ações efetuados pela Companhia e de subscrição de Ações\n -Realização dos controles de cartas de fiança e pagamento de comissão\n -Responsável pela realização de relatórios de investimentos e fechamento mensal/trimestral\n -Responsável pelo controle e boletagem de todas as operações da mesa de operações e da Tesouraria\n -Realização de operações de derivativos (Swap cambial, zero cost collar, opções asiáticas OTC (Over-the-counter), opções de minério de ferro, NDF de dólar e euro e BM&F)\n -Contato direto com bancos, mesas de operações e câmbio para a realização de outras atividades, como fianças bancárias, dívidas, garantias, investimentos, etc\n -Precificação de Ativos como: Títulos Públicos, dólar futuro, Swap cambial, Swap Pré-DI, dívidas, operações BNDES, etc\n Location : Sao paulo\n \n Job Title : Analista de Tesouraria Pleno\n Company name : TAM\n Period : ago. de 212 – jul. de 213\n Summary : -Realização de investimentos do caixa da empresa e do grupo – Onshore e Offshore (Fundos de Investimentos, CDBs, Letras Financeiras, Time Deposit, etc)\n -Fechamento de Câmbio Spot (pagamentos de fornecedores, tarifas aeroportuárias, aeronaves, etc)\n -Realização de algumas operações estruturadas, como FINIMP (financiamento de importação) de peças de aeronaves e antecipação de cartão de crédito\n -Responsável pela realização de relatórios de investimentos e fechamento mensal/trimestral\n -Responsável pelo controle e boletagem de todas as operações da mesa de operações e da Tesouraria\n -Realização de operações de liquidação de Hedge (zero cost collar, opções asiáticas de WTI, NDF de dólar, entre outras)\n -Responsável pelo atendimento da demanda de relatórios e operações da Multiplus S/A\n -Contato direto com bancos, mesas de operações e câmbio para a realização de outras atividades, como fianças bancárias, dívidas, garantias, etc\n Location : São Paulo\n \n \n Job Title : Analista de Tesouraria\n Company name : Fibria\n Period : nov. de 211 – ago. de 212\n Summary : - Responsável pelo Middle Office da empresa\n -Estruturei e organizei a conferência de todas as operações realizadas pela mesa de operações, como investimentos do caixa, câmbio, Hedge, dívidas, entre outras operações\n -Responsável pela validação das operações da mesa e tesouraria no sistema Risk Control para assinatura dos diretores e VPs, conforme alçadas\n -Fornecimento de diversos documentos para os bancos, como operações e contratos de Hedge, Contrato Global de Derivativos, fianças bancárias, liquidações de investimentos, etc\n -Estruturei o relatório de controle de câmbio, com todas as operações realizadas, onde era possível verificar todas as informações referentes aos câmbios fechados, como taxas, volume, moedas, etc\n -Elaborava o Book de Tesouraria: um relatório com a visão mensal dos resultados de todos os departamentos de finanças da companhia \n -Conforme a necessidade elaborava relatórios gerenciais e disponibilizava informações para os coordenadores e gerentes\n -Depois de 7 meses, passei a integrar à equipe de Cash Management\n -Fui auxiliar na elaboração do fluxo de caixa da Companhia, reunindo as informações de todas as áreas da empresa \n -Elaborava também relatórios de projeção de resultados, com diferentes cenários para o dólar e preço da celulose/tonelada\n -Fazia diariamente ajustes de classificação errônea do contas a pagar e CAPEX no sistema SAP\n Location : São Paulo e Região, Brasil\n Company 2: interest.com.vc"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : CEA - Certificado de Especialista de Investimentos Anbima\n Period : Emitido em mai. de 2019 - Expira emmai. de 2022\n Issuing Authority : ANBIMA"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : FGV\n Speciality : Pós-Graduação - CEAFE, Finanças, Master in Financial Economics\n Period : 211 – 213\n \n School name : FEI\n Speciality : Bacharel, Administração\n Period : 26 – 21"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "f5675fd4-39b1-461e-96ea-f05d702cdab9",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*f5675fd4-39b1-461e-96ea-f05d702cdab9",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:51.768Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:51.768Z",
+      "linkedinUsername": "marcellopirro",
+      "email": "marcello8288@hotmail.com",
+      "phone": "11964972940",
+      "name": "Marcello Pirró",
+      "id": "f5675fd4-39b1-461e-96ea-f05d702cdab9"
+    },
+    "timeInCurrentStage": 61412334775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.222Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "06/03/1993"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "20000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "7"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Matemática",
+          "id": "5ff95e30-3026-4b64-9e19-04a34bbd60d2",
+          "label": "Matemática"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade de São Paulo / USP"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "inglês: fluente"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Indiferente - SIM"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Não Diverso"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Tesouraria"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "eda76e10-3894-45d8-9427-0a4ba4624136",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de Tesouraria\n Company name : digio\n Period : mar. de 22 – o momento\n Summary : - Estruturação, gestão e liderança da Tesouraria do Digio (4 pessoas);\n \n - Responsável pela captação e aplicação de recursos do Digio, gestão de ALM;\n \n - Homologação oficial BACEN para implantação de SPB Contato direto com BACEN (DEMAB e DEBAN principalmente);\n \n - Project Owner do Projeto de implantação do PIX bo Digio;\n \n - Homologação e implantação de operações financeiras da Tesouraria na CETIP/B3 e na SELIC;\n \n - Estruturação e implantação do SPB do Digio (produção em nov/19) modelo PSTI com a C&M, integração do legado (Matera) com a C&M, migração da liquidação das operações CETIP/B3, SELIC e CIP/CTC/SILOC/SITRAF/SLC;\n \n - Participação ativa na estruturação da conta digital do Digio;\n \n - Orçamento anual de receitas financeiras, custo de funding e despesas da área de Tesouraria;\n \n - Criação de políticas, normas, manuais e guias de procedimento da Tesouraria;\n \n - Reports gerenciais\n Location : São Paulo e Região\n \n Job Title : Analista de Tesouraria Sênior\n Company name : digio\n Period : mar. de 216 – o momento\n Summary : - Estruturação, gestão e liderança da Tesouraria do Digio (4 pessoas);\n \n - Responsável pela captação e aplicação de recursos do Digio, gestão de ALM;\n \n - Homologação oficial BACEN para implantação de SPB Contato direto com BACEN (DEMAB e DEBAN principalmente);\n \n - Homologação e implantação de operações financeiras da Tesouraria na CETIP/B3 e na SELIC;\n \n - Estruturação e implantação do SPB do Digio (produção em nov/19) modelo PSTI com a C&M, integração do legado (Matera) com a C&M, migração da liquidação das operações CETIP/B3, SELIC e CIP/CTC/SILOC/SITRAF/SLC;\n \n - Participação ativa na estruturação da conta digital do Digio;\n \n - Orçamento anual de receitas financeiras, custo de funding e despesas da área de Tesouraria;\n \n - Criação de políticas, normas, manuais e guias de procedimento da Tesouraria;\n \n - Reports gerenciais\n Location : Barueri SP\n \n \n Job Title : Analista de Tesouraria\n Company name : Alelo Brasil\n Period : jul. de 213 – fev. de 216\n Summary : - Estruturação da Tesouraria e do Contas a Pagar do Banco Digio;\n \n - Participação em diversos projetos de estruturação do Banco: Implantação do sistema core banking (Matera), Implantação do SIV (contratos de empréstimo), emissão de CDB, CDI e LF;\n \n - Experiência no relacionando com outros bancos: captação e aplicação de recursos (front e backoffice, títulos públicos e privados), contratação e gestão de serviços bancários (carteiras de cobrança, arquivos de pagamento, folha de pagamento, Banco liquidante na CETIP, SELIC e CIP, custódia de cheques, convênio de débito em conta, fechamento de câmbio);\n \n - Gestão do caixa, fluxo de caixa, fluxo de caixa futuro;\n \n - Controle de tarifas bancárias;\n \n - Elaboração de reports gerenciais;\n \n - Contabilização e conciliação de extrato bancário no SAP;\n \n - Orçamento anual de receitas financeiras, custo de funding e despesas da área de Tesouraria;\n \n - Criação de políticas, normas, manuais e guias de procedimento da Tesouraria"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade de São Paulo\n Speciality : Bachelor's degree, Matemática Aplicada a Negócios\n Period : 28 – 212"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "a51ab426-3d3c-4f13-8782-d6d518d5a2cc",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*a51ab426-3d3c-4f13-8782-d6d518d5a2cc",
+    "talent": {
+      "updatedAt": "2023-12-20T13:55:11.975Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:55:11.975Z",
+      "linkedinUsername": "eliseu-bittencourt-júnior-69003825",
+      "email": "eliseubjunior@hotmail.com",
+      "phone": "11984494970",
+      "name": "Eliseu Bittencourt Júnior",
+      "id": "a51ab426-3d3c-4f13-8782-d6d518d5a2cc"
+    },
+    "timeInCurrentStage": 61412034775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:32.857Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "12 /3/1985"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "11600"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "VR e VA (R$ 1,6,), notebook, banco de horas, estacionamento, plano de saude, odonto, previdência de1,5% encima da contribuição do funcionário."
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Tesouraria Sênior"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Analista de Tesouraria Sênior\n ISA CTEEPISA CTEEP\n jun de 218 - o momento · 4 anos 1 mêsjun de 218 - o momento · 4 anos 1 mês\n São Paulo e Região, BrasilSão Paulo e Região, Brasil\n Responsável pelo fluxo de caixa previsto e realizado das 16 empresas que são controladas pelo grupo no Brasil; Acompanhamento das aplicações financeiras, capex, opex, contas a pagar e receber; Fechamento de câmbios; Relacionamento bancário; Implementação full da ferramenta XRT para automatização de atividades referentes a fluxo de caixa e aplicações financeiras; Estudo e desenvolvimento de metodologia referente a Caixa Mínimo Operacional (CMO); Atuante como facilitador para os outros processos de melhorias da área.Job Title : Analista de Tesouraria Sênior\n Company name : Verallia\n Period : ago de 216 - mai de 218\n Summary : Responsável pelo fluxo de caixa diário do grupo no Brasil, com reporte à diretoria Latam e matriz na França; Gestão e controle de aplicações, empréstimos moeda local e estrangeira, contas a pagar e receber; Responsável pela posição de hedge do grupo, controlando o saldo das operações em moeda estrangeira; Fechamento de câmbios; Relacionamento bancário; Indicadores de performance de caixa previsto/realizado, ambos com reporte à diretoria Latam; Key-user do SAP na tesouraria; Coordenação/Gestão indireta sobre atividades de 2 analistas.\n Location : São Paulo e Região, Brasil\n Job Title : Analista Financeiro Sênior\n Company name : Bunge Alimentos S.A\n Period : nov de 212 - mar de 216\n Summary : Responsável pela exposição cambial diária de todo o grupo no Brasil para tomada de decisão em conjunto com os traders de fazer hedge para proteger a posição; Análise diária de todo balanço atrelado à moeda estrangeira para todas as empresas; Contato com todas as unidades de negócio e áreas do grupo responsáveis pelas informações no sentido de minimizar possíveis gaps de informações nos sistemas base (SAP/Oracle), como também para o entendimento exato que cada operação impacta no balanço; Controle e acompanhamento diário de toda posição de derivativos em aberto, incluindo cash flow’s hedge referente ao programa de Hedge Accounting, cash pooling, contas a pagar/receber, faturamento e estoques.\n Responsável também pelo controle e reporte diário de todo o endividamento do grupo Bunge Brasil.\n Location : São Paulo e Região, Brasil\n Job Title : Analista de Controladoria Pleno\n Company name : Biosev Bioenergia S.A\n Period : jul de 211 - out de 212\n Summary : Abertura de notas explicativas do resultado financeiro para demonstrações financeiras; Fechamento e conciliação contábil para empréstimos, financiamentos e aplicações; Controle/validação de relatórios de variação cambial sobre exportações; Validação/contabilização das operações com derivativos e Hedge Accounting do grupo; Atendimento às demandas de auditoria; Elaboração de relatórios corporativo para reporte na matriz (França); análise/comparativo de movimentações de saldos do resultado financeiro em períodos variados para diretoria.\n Location : São Paulo e Região, Brasil\n Job Title : Analista Contábil Júnior\n Company name : Biosev Bioenergia S.A\n Period : mai de 21 - jul de 211\n Summary : Conciliação de contas patrimoniais do grupo; Fechamento contábil mensal; Atendimento a demandas específicas com relatórios e análises para gerência.\n Location : Sertãozinho-SP\n Job Title : Auditor Externo (Trainee)\n Company name : Ernst & Young Terco\n Period : ago de 29 - mai de 21\n Summary : Auditoria externa em demonstrações contábeis.\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Period : 21 - 212\n School name : Ibracon\n Period : 216 - 216\n \n School name : Robson Camargo - Treinamento e Consultoria\n Period : 216 - 216"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d11e6296-0a57-4e92-92db-dcdc8924bc2f",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*d11e6296-0a57-4e92-92db-dcdc8924bc2f",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:43.594Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:43.594Z",
+      "linkedinUsername": "diogo-zoccolaro-b71ab028",
+      "email": "dzoccolaro@yahoo.com.br",
+      "phone": "11988616988",
+      "name": "Diogo Zoccolaro",
+      "id": "d11e6296-0a57-4e92-92db-dcdc8924bc2f"
+    },
+    "timeInCurrentStage": 61412934775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.317Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista financeiro"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista financeiro\n Company name : Câmara de Comercialização de Energia Elétrica - CCEE\n Period : nov. de 218 – o momento\n Summary : • Elaboração do fluxo de caixa e projeções para otimização do caixa da empresa frente ao planejamento orçamentário e tributário;\n • Modelagem Financeira na avaliação de empresas do setor elétrico, projeção de caixa, FDC, aplicação de WACC, construção de taxa de desconto e análise das demonstrações contábeis\n • Participação na Estruturação do Empréstimo da Conta Covid junto a 16 bancos, liderados pelo BNDES, no valor de R$ 16,1 bilhões\n • Prospecção de investimentos para a organização com base em nível de risco, prazo e rentabilidade adequados; \n • Elaboração do fluxo de caixa e projeções para otimização do caixa da empresa frente ao planejamento orçamentário e tributário; \n • Participação na elaboração de tratativas de inadimplência e parcelamentos de débitos do Mercado de Curto Prazo (MCP);\n • Mediação do relacionamento com as Instituições Financeiras;\n • Mitigação dos riscos financeiros oriundos do negócio; \n • Análise dos processos de faturamento, cobrança, pagamento, conciliação das movimentações financeiras frente aos aspectos orçamentários, contábeis e fiscais de acordo com a legislação vigente\n • Atualização das políticas e procedimentos da Tesouraria\n • Gestão dos indicadores da área e implementação de melhorias tecnológicas aderentes às necessidades do negócio\n • Fechamento de câmbio, fluxo de caixa planejado de longo prazo\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista financeiro\n Company name : Energisa\n Period : jan. de 216 – ago. de 218\n Summary : • Elaboração e análise de rolling forecast e experiência em análise de Cash Flow\n • Elaboração de relatórios gerenciais para identificar necessidade de captação\n • Responsável por acompanhar todas as aplicações financeiras do grupo, manter contato com as entidades financeiras, estabelecer as reciprocidades e negociações bancárias ligadas a atividade da empresa \n • Responsável pela análise de investimentos, em especial renda fixa, oferecendo opções de investimentos para o caixa, atuação diária no mercado financeiro \n • Responsável por criar fundo de investimento exclusivo, participando desde a seleção dos gestores até a definição da carteira e objetivo do fundo \n Análise econômico-financeira de empresas, contratação de fianças bancárias e seguros garantias de todo o grupo Energisa;\n • Garantir e segurar o cumprimento da política de gestão de riscos do grupo, mensurar e controlar os covenants financeiros \n • Experiência Risk Management de toda tesouraria frente ao mercado financeiro e a novos investimentos da companhia\n • Atuação na elaboração de relatórios gerencias para auxiliar tomadas decisões, apresentações e defesas de novos projetos na área Experiência em atender auditoria\n Location : Cataguases e Região, Brasil\n \n Job Title : Economista\n Company name : ABIQUIM Associação Brasileira da Indústria Química\n Period : mar. de 215 – dez. de 215\n Summary : Atuar na elaboração de indicadores para o cenário da indústria química brasileira, índices de quantum, preços, capacidade, emprego, salários, rendimentos, perspectivas futuras, conjuntura econômica Entender analiticamente todo o aglomerado da indústria química no Brasil\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Consultor de investimentos\n Company name : W1 Investment Group\n Period : jul. de 214 – mar. de 215\n Summary : Entender as soluções financeiras existem no mercado tal como: LCI, LCA, LFs, CDB, Tesouro, Mercado de ações, Previdência, Renda fixa, Renda variável, Seguros, dentre outros, para que de forma analítica possa propor aos clientes as melhores soluções que o mercado oferece no âmbito de consultoria financeira e coaching financeiro\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Federal de Juiz de Fora\n Speciality : Economia, Economia\n Period : 29 – 214\n Courses: Title : Análise Econômico-Financeira de Empresas; Title : Análise técnica do mercado financeiro; Title : Bloomberg aplicado a Tesouraria; Title : Excel Avançado voltado a negócios; Title : Formação no mercado de Renda Fixa; \n Title : Python Pro"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "9032f803-5d06-4068-8189-3faabb96ee29",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*9032f803-5d06-4068-8189-3faabb96ee29",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:02.379Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:02.379Z",
+      "linkedinUsername": "joão-guilherme-carvalho-a27bb7161",
+      "email": "joaoguilherme001@hotmail.com",
+      "phone": "",
+      "name": "João Guilherme Carvalho",
+      "id": "9032f803-5d06-4068-8189-3faabb96ee29"
+    },
+    "timeInCurrentStage": 61412934775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:32.940Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "02/07/1982"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "26500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Economia",
+          "id": "72b9c97c-68f7-40f0-b9d8-7a317f72d545",
+          "label": "Economia"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "IBMEC"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "inglês fluente"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Tesouraria"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2 filhas (13 e 1 anos)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Gerente de Tesouraria\n Company name : Trident Energy\n Period : out. de 22 – o momento\n Summary : Responsável pelas operações de Tesourartia e Contas a pagar na Trident energy Brasil\n Location : Rio de Janeiro, Brasil\n Job Title : Dono de 3 Lojas de Franquias\n Company name : Bibi Calçados e Doctor Feet\n Period : mar. de 218 – o momento\n Summary : Sou o proprietário e gerencio 3 lojas de Franquia de dois segmentos diferentes ( Calçados e serviços de saúde) As principais responsabilidades consistem em gerenciar todos os processos do negócio (Compras, Vendas, Marketing, Financeiro, impostos e Pessoas), garantindo a devida adequação a legislação local, assim como a rentabilidade do negócio\n Location : Rio de Janeiro, Brasil\n Job Title : Finance Director\n Company name : Previcoke\n Period : jan. de 213 – abr. de 218\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Líder Global de Processos de Tesouraria\n Company name : The Coca-Cola Company\n Period : jul. de 215 – dez. de 217\n Summary : Responsável pela padronização, simplificação, globalização e escalonamento de todas as operações de Tesouraria gerenciadas pelos Centros de Serviço Compartilhado (Contas a Receber, Contas a Pagar, Projeção de Fluxo de Caixa, Empréstimos, entre outros), trabalhando em conjunto com a Tesouraria Corporativa garantindo o alinhamento estratégico e governança adequada Responsável também por coordenar a implementação de todas as iniciativas corporativas que gerem impacto nas Tesourarias Regionais\n Job Title : Gerente de Tesouraria para América Latina\n Company name : The Coca-Cola Company\n Period : mar. de 211 – jun. de 215\n Summary : Responsável por todas as Operações de Tesouraria para América Latina (Operações Estruturadas e Cash Management), gerenciando 16 funcionários baseados em 3 países tendo como principais responsabilidades: s Revisar e aprovar do processo de Fluxo de Caixa (projeção e plano anual) Justificativa das variações e recomendações referentes a antecipações de movimentos de mercado (taxa de juros e câmbio) s Administrar o caixa de todas as Companhias (+ usd 4 bln ), Empréstimos , Operações de Câmbio , Garantias Bancárias, entre outros s Gerenciar o relacionamento local com as Unidades de Negócio, especialmente em países com situações político econômicas desafiadoras (Argentina e Venezuela) mantendo constante contato com os líderes sêniores de cada região s Diretor Financeiro do Plano de Pensão da Coca-Cola Brasil, incluindo investimentos, reportes e requerimentos regulatórios s Supervisionar o Contas a Pagar, garantindo adequação as políticas de Controles Internos s Gerenciar o Contas a Receber, sendo responsável por explicar os principais indicadores de performance, prover recomendações de planos de ação e gerar melhoria continua dos indicadores de Working Capital (+ Usd 6 bln em faturamento) s Foco em oportunidades de Serviços Compartilhados, identificando oportunidades de sinergia e optimização de processos s Gerenciar o relacionamento bancário de todas as Unidade de Negócio assim como ser o ponto focal referente a assuntos de Tesouraria para todos os clientes, fornecedores e auditorias s Administrar o Programa de Seguros (Local e Global) da Coca-Cola Brasil s Elaborar e explicar reportes para a Matriz, Unidades de Negócio e Grupo\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Analista Senior Internacional\n Company name : The Coca-Cola Company\n Period : jul. de 29 – mar. de 211\n Summary : Responsável por garantir a Governança nos processos de Tesouraria para as Regiões da América do Norte, Europa e Pacífico, tendo entre as principais funções: s Analisar, revisar e coordenar a projeção de fluxo de caixa das Regiões, identificando excessos de liquidez e necessidades de financiamento para tomada de decisão sobre investimentos s Coordenar o gerenciamento do Contas a Receber das Regiões, explicando as principais distorções e provendo recomendações de ações com o intuito de melhoria nos indicadores s Revisar, analisar e prover recomendação formal sobre os planos de investimentos, gerenciando o trade off entre risco e retorno de cada instrumento s Ser o ponto de contato de Unidades de Negócio, Centros de Serviço, Clientes e Fornecedores para todos os assuntos relacionados a Tesouraria s Desenvolver e promover um ambiente seguro, com relação as políticas de Controles Internos, para os processos de Tesouraria, garantindo conformidade e acuracidade de informação para o processo de tomada de decisão s Conduzir a revisão final de metodologia e razoabilidade, para todos os reportes de Tesouraria recebidos das regiões s Gerenciar a interação com os líderes Seniores Corporativos para apresentação e explicação de relatórios gerenciais tais como: Fluxo de Caixa, Contas a Receber, Empréstimos, Receita Financeira, entre outros\n Location : Greater Atlanta Area\n Job Title : Supervisor de Tesouraria\n Company name : The Coca-Cola Company\n Period : mai. de 28 – jun. de 29\n Summary : Responsável (Front Office) por todas as operações de Tesouraria (contratação, contabilização e reporte), incluindo Investimentos, Câmbio, Derivativos, fluxo de Caixa, Garantias Bancárias, Intercompany, Empréstimos, Dividendos e Contas a Receber tendo 2 funcionários terceirizados sob supervisão\n Location : Rio de Janeiro Area, Brazil\n Job Title : Analista de Tesouraria para Brasil, Argentina e Chile\n Company name : Shell\n Period : abr. de 25 – mai. de 28\n Summary : Responsável por controlar (Back Office) as operações de Money Market e Derivativos fechadas pela Mesa de Operações (confirmação, controle, contabilização e reporte), assim como calcular e monitorar a exposição cambial das Companhias do Grupo, tendo 2 estagiários sob supervisão\n Location : Rio de Janeiro e Região, Brasil\n Company 2: Bibi Calçados e Doctor Feet"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : ICSS\n Period : Emitido em dez. de 2014 - Expiroudez. de 2017\n Issuing Authority : Instituto de Certificação de Seguridade Social"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/guilherme-toledo"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "e2572ccc-a4d8-4c08-b643-70a55152baf3",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*e2572ccc-a4d8-4c08-b643-70a55152baf3",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:27.399Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:27.399Z",
+      "linkedinUsername": "guilherme-toledo",
+      "email": "guilherme.toledo@hotmail.com",
+      "phone": "21992766177",
+      "name": "Guilherme Toledo",
+      "id": "e2572ccc-a4d8-4c08-b643-70a55152baf3"
+    },
+    "timeInCurrentStage": 61412034775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.437Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de Tesouraria"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de Tesouraria\n Company name : Natulab Laboratório S.A\n Period : fev. de 221 – o momento\n Summary : Tesouraria\n Location : São Paulo, São Paulo, Brasil\n \n Job Title : Coordenador de Tesouraria\n Company name : Cromex S.A\n Period : jan. de 218 – out. de 22\n Summary : Principais responsabilidades:\n • Gestão Tesouraria (cash flow, contas a pagar/receber, crédito/cobrança e operações câmbio);\n • Manutenção do relacionamento com instituições financeiras, corretoras, fornecedores e clientes;\n • Gerenciamento de fluxo de caixa, captação de linhas de crédito, resgates e aplicações financeiras;\n • Gestão de endividamento, covenants, contratação e controle de apólices de seguro, instrumentos financeiros (ACC/ACE/PPE/CCB/NCE/Debênture), fianças, inadimplência, concessão de crédito cliente, reporte de KPI’s, gestão de orçamento e revisões de políticas da área;\n • Reporte ao Head de Finanças, equipe de 6 colaboradores e atendimento à auditoria (Big Four);\n • Key user FI projeto de migração SAP ECC para plataforma SAP S/4 Hana\n \n Resultados:\n • Go Live projeto de implantação SAP S/4 Hana FI sem interrupções da operação;\n • Implantação ferramenta de gestão de operações financeiras SAGE XRT;\n • Desenvolvimento portal web de cobrança eletrônica; portal extratos e comunicação EDI via VAN;\n • Prospecção e contratação de linhas de crédito para K Giro na ordem de R$ 3MM\n Location : São Paulo, São Paulo, Brasil\n \n Job Title : Supervisor de Tesouraria\n Company name : Mills Estruturas e Serviços de Engenharia S.A\n Period : fev. de 215 – out. de 216\n Summary : Principais responsabilidades:\n • Gerenciamento de Tesouraria Transacional (contas a pagar e receber); gestão orçamento da área;\n • Gestão fluxo de caixa e endividamento, captação linhas de crédito, resgates e aplicações;\n • Operações de câmbio, contratação de hedge (NDF/SWAP) e reporte de KPI’s; ERP próprio;\n • Manutenção do relacionamento bancos e corretoras;\n • Gestão apólices de seguro de RD, RC, frota e property;\n • Reporte ao Gerente Financeiro, equipe de 6 colaboradores e atendimento auditoria Big Four\n \n Resultados:\n • Migração do staff financeiro do Rio de Janeiro para São Paulo;\n • Implantação comunicação bancária (EDI) via VAN aumentando compliance operações financeiras;\n • Captação de linhas de crédito, (BNDES, Leasing e CCB) na ordem de R$ 5 milhões;\n • Aprimoramento de ferramenta de controle de dívida e fluxo de caixa garantindo acuracidade do custo das operações CP/LP e da saúde financeira da empresa reduzindo a variação em ~8%\n Location : São Paulo, São Paulo, Brasil\n \n Job Title : Coordenador Financeiro - CSC\n Company name : Grupo Roncador\n Period : dez. de 213 – fev. de 215\n Summary : Principais responsabilidades:\n • Gestão de Tesouraria Transacional (contas a pagar e receber);\n • Pilotagem de fluxo de caixa, resgate e aplicação de recursos; usuário sistema TOTVS Logix; \n • Manutenção relacionamento bancos, reporte ao Gerente de Backoffice e time de 5 colaboradores;\n • Elaboração, análise e reporte de indicadores, e atendimento auditoria externa Big Four;\n • Gerir o cumprimento dos prazos internos de pagamentos, recebimentos e produtos cash\n \n Resultados:\n • Implantação do CSC com definições de ANS, confecção e revisão de políticas e KPIs da área;\n • Aprimoramento ferramenta de fluxo de caixa, passando de uma assertividade de 5% para 9%\n Location : São Paulo, São Paulo, Brasil\n \n Job Title : Coordenador Financeiro\n Company name : CR Zongshen Fabricadora de Veículos S.A - Kasinski\n Period : abr. de 212 – out. de 213\n Summary : Principais responsabilidades:\n • Gestão de Tesouraria e Contas a Pagar e gerenciamento do fluxo de caixa;\n • Reporte ao Gerente Financeiro e equipe de 8 colaboradores;\n • Captação de linhas de crédito (Debênture, FINIMP, FINAME e CCB);\n • Gestão do endividamento e acuracidade dos custos das operações; usuário TOTVS Protheus;\n • Manutenção relacionamento bancário, operações de câmbio, derivativos/hedge (NDF/SWAP)\n \n Resultados:\n • Captação de linhas de crédito (Debênture, CCB e FINAME) na ordem de R$ 4 milhões para subsidiar crescimento da empresa e substituir linhas de crédito mais onerosas;\n • Implantação ferramentas de comunicação (CNAB), aumentando compliance e mitigando riscos;\n • Desenvolvimento de ferramenta de controle de dívida garantindo acuracidade das operações;\n • Aprimoramento da gestão de fluxo de caixa obtendo visão clara de curto e longo prazo do caixa\n Location : São Paulo, São Paulo, Brasil\n \n Job Title : Analista Financeiro Sênior - Team Leader of Project SAP - FI\n Company name : BRF - Brasil Foods S.A\n Period : abr. de 21 – dez. de 211\n Summary : Principais responsabilidades:\n • Gestão do time de implantação de SAP FI no projeto de integração de sistemas BRF\n \n Resultados:\n • Liderar o Projeto de integração de sistemas SAP FI na fusão entre os grupos Sadia e Perdigão que deu origem a BRF, sendo responsável pela gestão da equipe de Finanças com 12 analistas, atuamos com o objetivo de integrar todos os processos financeiros unificando duas plataformas com diferentes versões SAP, desde a fase de documentação, treinamento até a finalização do suporte pós go-live, garantindo a integração das áreas de contas a receber, contas a pagar, tesouraria, crédito e cobrança, (Mercado Interno e Externo) possibilitando atuação em uma plataforma de sistema única, robusta, segura e atendendo as particularidades de cada negócio como lácteos e agronegócio\n Location : Itajaí, Santa Catarina, Brasil\n \n Job Title : Analista Financeiro Sênior CSC\n Company name : BRF - Brasil Foods S.A\n Period : fev. de 28 – mar. de 21\n Summary : Principais responsabilidades:\n • Key User na criação do Centro de Serviços Compartilhados (CSC) do grupo, captando recursos humanos e na centralização de processos de tesouraria e contas a pagar;\n • Coordenar a elaboração de novos processos financeiros e implantar novas tecnologias e projetos ligados à área financeira especialmente na customização e automação de contas a pagar, desenvolvimento de ferramentas de contratação de risco do sacado\n • Forte atuação na gestão e criação de ferramentas de fluxo de caixa ( ~R$ 13 Bilhões/Ano) para tratamento de seus desvios;\n • Elaborar e avaliar metas, indicadores de desempenho e ANS no modelo Centro de Serviços; suporte à auditoria interna e externa; gerenciamento de desabonos financeiros junto ao Serasa, elaboração e manutenção das políticas internas da área financeira; análise e implementação de novas ferramentas no sistema de pagamentos; implementação de novos produtos e serviços compartilhados\n \n Resultados:\n • Projeto fluxo de caixa crise 28: Renegociação de financiamentos e alongamento de prazos da conta fornecedores com o objetivo de preservar o caixa e manter a operação, ajuste da assertividade de 6% para 95%;\n • Responsável pela estruturação do time de FI na criação do Centro de Serviços Compartilhados (CSC)\n Location : Curitiba, Paraná, Brasil\n \n Job Title : Analista Financeiro Pleno CSC\n Company name : BRF - Brasil Foods S.A\n Period : abr. de 26 – fev. de 28\n Summary : • Operações de Tesouraria, Fluxo de Caixa, Planejamento de Budget & Forecast;\n • Controle de operações de Risco Sacado;\n • Projeção de movimentação financeira para captação de recursos ou aplicações financeiras;\n • Execução de intercâmbio de arquivos bancários\n Location : Curitiba, Paraná, Brasil\n \n \n Job Title : Analista Financeiro JR\n Company name : BRF - Brasil Foods S.A\n Period : jan. de 1998 – mar. de 26\n Summary : • Key User FI na migração do sistema próprio para implantação de ERP SAP R/3 e Up Grade de versão;\n • Garantir o cumprimento dos processos internos de pagamento; suporte gerencial aos gestores de processos regionais no Brasil, clientes internos e fornecedores;\n • Gerenciamento de envio de informações on-line para fornecedores e clientes\n Location : São Paulo, São Paulo, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Pontifícia Universidade Católica do Paraná\n Speciality : Especialização, Gestão por Processos\n Period : 211 – 212\n School name : Saint Paul Escola de Negócios\n Speciality : Derivativos - Produtos e Operações\n Period : 216 – 216\n School name : Faculdades Opet\n Speciality : Bacharel, Administração de Empresas Gestão de Negócios\n Period : 26 – 27\n Summary : http://www.opet.com.br\n School name : UNIFIEO - Centro Universitário FIEO\n Speciality : Bacharel, Administração de Empresas\n Period : 23 – 25\n Summary : http://www.unifieo.br\n \n School name : LAL Language Centres\n Speciality : Intensive English Course, Improve language\n Period : 217 – 217\n Summary : http://lalschools.com/adults/torbay-english-school/, Intensive English Course"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "cultural",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "542224b0-6148-487d-b971-fe9d48d6cc3a",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*542224b0-6148-487d-b971-fe9d48d6cc3a",
+    "talent": {
+      "company": "Frooty",
+      "createdAt": "2023-12-20T14:10:48.326Z",
+      "email": "marcelo.ferreira2302@gmail.com",
+      "linkedinUsername": "marceloferreirasilva",
+      "name": "Marcelo Ferreira",
+      "phone": "11987379891",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-06-09T17:07:58.156Z",
+      "id": "542224b0-6148-487d-b971-fe9d48d6cc3a"
+    },
+    "timeInCurrentStage": 61412934775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:32.915Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "05/05/1984"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "14000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45048"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "inglês avançado"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Tesouraria e Contas a receber"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente Tesouraria e Contas a receber\n Company name : Air Liquide\n Period : jan de 22 - o momento\n Job Title : Coordenador de Tesouraria e Contas a Pagar\n Company name : Air Liquide\n Period : jun de 218 - jan de 22\n Job Title : Tesouraria\n Company name : Avon\n Period : jan de 215 - jun de 218\n Location : São Paulo, São Paulo\n Job Title : Supervisor Financeiro\n Company name : Rodopa Alimentos\n Period : mai de 212 - dez de 214\n Summary : Responsável pelo fluxo de caixa (orçado e realizado), controle do endividamento, notas financeiras explicativas para publicação em balanço, aplicações em renda fixa, reporte a auditoria externa, relatórios para diretoria.\n Job Title : Supervisor Financeiro ME\n Company name : Rodopa Alimentos\n Period : jan de 212 - dez de 214\n Summary : Controle do Contas a Receber ME, acompanhamento dos pagamentos recebidos. Contato com clientes para obtenção de follow up sobre pendências. Execução de transferências entre bancos no exterior, controle das dívidas, pagamentos de contratos de ACC / ACE / pré-pagamento / pagamento antecipado / exim, fechamento de câmbio pronto, conciliação das contas do exterior, análise de documentos de exportação, formação de caixa de recebimentos do exterior, contatos com diversos bancos no Brasil e no exterior. Análise de carta de crédito de exportação.\n Job Title : Analista Câmbio / Financeiro\n Company name : JBS S/A\n Period : ago de 24 - dez de 211\n Summary : Execução de transferências entre bancos no exterior, pagamentos de contratos de ACC / ACE / pré-pagamento / pagamento antecipado / exim, fechamento de câmbio pronto, controle dos contratos fechados c/ bancos amparados em exportações, pagamento de importações, conciliação das contas do exterior, análise de documentos de exportação, Formação de caixa de recebimentos do exterior, preenchimento da derex, consultas no siscomex, Contatos com diversos bancos no Brasil e no Exterior. Fechamento de câmbio com mesa de operação. Análise de carta de crédito de exportação.\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Presbiteriana Mackenzie\n Period : 28 - 29\n School name : Universidade Paulista\n Period : 26 - 27"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "a23f73c6-3a28-4260-999b-9bb33da3a2ba",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*a23f73c6-3a28-4260-999b-9bb33da3a2ba",
+    "talent": {
+      "company": "Vigor",
+      "createdAt": "2023-12-20T14:07:49.123Z",
+      "email": "thiagohanna@gmail.com",
+      "linkedinUsername": "thiago-hanna-45457042",
+      "name": "Thiago Hanna",
+      "phone": "11976707797",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-03-26T12:22:22.016Z",
+      "id": "a23f73c6-3a28-4260-999b-9bb33da3a2ba"
+    },
+    "timeInCurrentStage": 61412934775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:32.887Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "28/08/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "13000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador Contábil"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador Contábil\n Company name : State Grid Brazil Holding S.A\n Period : 216 – o momento\n Summary : • Reporte ao CFO e Gerente Contábil\n • Gestão de Equipes\n • Responsável pelo Projeto XRTE de transmissão de energia atuando como Contador responsável nos anos 218 e 219\n • Controle contábil de contratos Capex e Opex\n • Demonstrações financeiras societárias e regulatórias\n • Envio de informações mensais, trimestrais e anuais ao agente regulador (Aneel)\n • Fechamento contábil e envio de reportes ao controlador\n • Revisão das bases de impostos diferidos e de PIS/COFINS/IRPJ e CSLL\n • Preparação e envio da ECD\n • Atendimento às auditorias internas e externas\n • Revisão de análises contábeis e resultado\n • Participação na migração do sistema RM Totvs para o Protheus\n • Controle de importações e imobilizado\n Cargo anterior: Analista Contábil Sênior\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Analista Contábil e Custos Pleno\n Company name : Queiroz Galvão Óleo e Gás S.A\n Period : 213 – 216\n Summary : • Reporte ao Coordenador de Patrimônio\n • Análise dos custos de materiais das sondas onshore/offshore\n • Conferência de relatórios gerenciais em sistema\n • Controle e análise de adiantamentos para a compra de estoques e ativos e de projetos por centro de custo (Capex/Opex)\n • Análise comparativa de real x orçado dos projetos\n • Participação nos inventários da QGOG com análise sobre o impacto no custo\n • Acompanhamento dos custos das sondas em docagem\n • Cadastro de Ativos em sistema\n • Controle e análise de Intercompany\n • Atendimento à auditoria\n • Sistema Protheus e BI\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Analista Contábil Pleno\n Company name : Estaleiro Mauá\n Period : 213\n Summary : • Análise de contas patrimoniais\n • Análise dos custos de materiais e pessoal dos navios em construção para a Transpetro\n • Análise de centro de custo por projeto e overhead\n • Análise de folha de pagamento\n • Atendimento a auditoria externa\n • Suporte na elaboração das DF’s anuais e notas explicativas\n • Controle e análise de empréstimos e financiamentos\n • Controle e análise de Intercompany\n • Participação na criação de um novo plano de contas do Grupo\n • Sistema RM Totvs\n Location : Niterói\n \n Job Title : Analista Contábil Júnior\n Company name : Grupo Bravante\n Period : 211 – 213\n Summary : • Reporte ao Gerente Contábil\n • Análise de contas patrimoniais\n • Controle e Análise do Contas a receber com aging list\n • Controle e análise dos empréstimos e financiamentos para a construção de navios e estaleiro\n • Análise de custos das embarcações e projetos\n • Análise de Intercompany\n • Suporte na elaboração das DF’s anuais e notas explicativas\n • Participação no processo de migração RM Totvs para o SAP\n • Atendimento a auditoria\n • Sistema SAP\n Location : São Gonçalo - RJ\n \n Job Title : Analista de Controladoria Júnior\n Company name : Brookfield Incorporações CO\n Period : 21 – 211\n Summary : • Análise de contas patrimoniais e de custos e despesas\n • Suporte na elaboração das DF’s anuais e notas explicativas\n • Atendimento à auditoria / Análise de Intercompany\n • Sistema SAP\n Location : Brasil - Rio de Janeiro\n \n Job Title : Assistente Contábil\n Company name : Supergasbras Energia Ltda\n Period : 29 – 21\n Summary : • Análise de contas patrimoniais e de custos de estoque\n • Controle de estoque e imobilizado\n • Fechamento de balancetes por filial\n • Atendimento a auditoria\n • Sistema Datasul\n Location : Brasil - Rio de Janeiro\n \n \n Job Title : Assistente Contábil\n Company name : Álamo Assessoria Contábil\n Period : 27 – 29\n Summary : • Reporte ao Gerente Contábil\n • Execução de tarefas como Análise, Classificação, Composição e Conciliação de contas patrimoniais, conciliação bancária, contas a pagar e a receber\n • Análise de folha de pagamento e relatórios fiscais\n • Gerenciamento de imobilizado através de software específico\n • Controle Fiscal de empresas optantes dos Lucros Presumido, Real e Simples\n • Utilização do sistema integrado ALTERDATA, módulos CONTÁBIL, FISCAL, DP e INSS\n • Controle de livros diário e razão\n Location : Niterói"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Fundação Getulio Vargas\n Speciality : MBA Executivo em finanças: Controladoria, Auditoria e Compliance\n School name : Universidade Candido Mendes\n Speciality : MBA, Contabilidade Internacional\n \n School name : Centro Universitário Plinio Leite\n Speciality : Bacharel, Ciências Contábeis\n Courses: Title : Análise das Demonstrações Contábeis - Cefis; Title : Contabilidade Geral - CRC RJ; Title : Contabilidade Tributária Setor Elétrico- IBEF RJ; Title : Contabilidade Tributária uma Revisão Completa - IPEC RJ; Title : English - Hansa School - Toronto; Title : Excel Avançado - Udemy; Title : IFRS - Fipecafi; Title : IFRS - First Degree - IACAFM; Title : Lucro Real - Cefis; Title : Padrões Contábeis CPC/IFRS - UFRJ; \n Title : Sped Contábil - Cefis"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "3f875259-0fe2-462f-a953-af195096a8d2",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*3f875259-0fe2-462f-a953-af195096a8d2",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:59.084Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:59.084Z",
+      "linkedinUsername": "kelson-carvalho",
+      "email": "kelsoncontabil@gmail.com",
+      "phone": "21987658365",
+      "name": "Kelson Carvalho",
+      "id": "3f875259-0fe2-462f-a953-af195096a8d2"
+    },
+    "timeInCurrentStage": 61412334775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.282Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "05/03/1965"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "26500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Indiferente - SIM"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Não Diverso"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Financeiro / Tesouraria/ Planejamento / Administrativo"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente Financeiro / Tesouraria/ Planejamento / Administrativo\n Company name : Em Transição de Carreira - In Career Transition\n Period : jul. de 221 – o momento\n \n Job Title : Gerente Financeiro\n Company name : Aliter Construcoes e Saneamento Ltda\n Period : jan. de 22 – jun. de 221\n Summary : Gestão de Caixa, tesouraria, planejamento financeiro, acompanhamento fluxo das obras\n Desenvolvimento de políticas internas e controles\n Desenvolvimento de projetos de investimentos, Estrutura Ótima de Capital (Longo Prazo), Capital de Giro (Curto Prazo) e Fundos\n Orientação para o cliente interno e externo, identificando oportunidades de melhorias contínuas para aumento de produtividade, crescimento e eficiência\n Renegociação de contratos com fornecedores, instituições financeiras e reestruturação de equipes\n Acompanhamento dos consórcios de obras junto a Sabesp e licitações junto a órgãos público\n Acompanhamento do Mercado de Concessões e PPP de Saneamento\n Location : São Paulo e Região, Brasil\n \n Job Title : Gerente Financeiro Corporativo\n Company name : Delta Energia\n Period : abr. de 212 – jun. de 219\n Summary : Responsável pela área de Tesouraria e Gestão do Caixa das empresas do grupo e pela área de Suprimentos Corporativo Reportando diretamente para os sócios, gerenciei equipe formada profissionais diretos e outros indiretos locados nas unidades do grupo\n \n • Defini e implementei processos financeiros e de controle que facilitaram o acompanhamento do Fluxo de Caixa e suas variações, identificando previamente os desvios e permitindo a correção e ações para a volta do equilibrio\n • Mapeei Processos de Tesouraria identificando pontos de melhorias e praticando ações como job rotation que resultaram em uma confiança maior na equipe e nas atividades de controle e administração\n • A gestão de investimentos atrelada ao excelente controle do fluxo de caixa realizados por mim e pela equipe, propiciaram significativa elevação na rentabilidade das aplicações financeiras\n • Facilitado pelo excelente relacionamento com Bancos e Seguradoras, negociei e contratei R$ 15 milhões de reais em Cartas de Fiança , possibilitando a atuação da empresa no mercado de energia\n • Realizei ótimas negociações nas renovações de Seguros Patrimoniais, Seguro Garantia, Frota e Saúde proporcionado apropriada cobertura aos riscos \n • Participei ativamente na expansão de negócios do Grupo, alinhado com outros Heads e as diretrizes da empresa\n • Negociei, junto com a equipe de suprimentos, a compra de produtos e serviços, obtendo reconhecidos savings ;\n • Supervisionava a Gestão de Contratos com os Fornecedores, mantendo o bom relacionamento e controle das empresas prestadoras dos serviços\n • Participei, junto com a equipe da Engenharia, dos Novos Projetos de Expansão para as unidades operacionais e administrativas do Grupo, organizando o planejamento das ações necessárias\n Location : São Paulo e Região, Brasil\n \n Job Title : Gerente Financeiro Corporativo\n Company name : Paramount Texteis\n Period : jul. de 26 – fev. de 212\n Summary : Reporte para o proprietário Equipe formada por 13 profissionais \n Responsável por caixa e bancos, crédito e cobrança, contas a pagar e receber, importação e exportação\n \n • Com projeções detalhadas de Fluxo de Caixa, de Capacidade de Alavancagem e Necessidade de Capital, gerei melhorias importantes no Planejamento Financeiro de médio e longo prazo\n • Participei da implementação do Comitê Financeiro junto da diretoria e do dono da Companhia , criando discussões estratégicas com o objetivo de formalizar processos decisórios\n • Divulgava os Resultados Mensais e projeções atualizadas que norteavam os próximos empreendimentos\n • Criei, em parceria com equipe de Contas a Receber e Crédito, Raiting individualizado para crédito das contrapartes no mercado interno e externo, oque facilitou as liberações de créditos mais adequados \n • Renegociei Dividas junto a Instituições Financeiras, obtendo êxito em sua maioria\n • Negociei e contratei Seguros para as unidades fabris\n • Contratei , acompanhei e controlei Operações Financeiras de Giro, 4131, ACC,ACE, Vendor, Compor, Standby, Crédito Rural , etc \n • Participei de Projetos de aberturas de novas lojas junto ao BNDES e de Projetos e ações de Marketing\n Location : SÃO PAULO\n \n Job Title : Coordenador Financeiro Senior\n Company name : Mangels Industrial S.A\n Period : jul. de 1989 – abr. de 26\n Summary : Responsavel pela elaboração, controle e gerenciamento do Caixa Diário e do Fluxo de Caixa, buscando otimização e apontando oportunidades e perspectivas de investimentos e ganhos, com reporte direto ao Diretor Financeiro\n \n • Controlava e acompanhava as Operações de Câmbio e vinculações junto ao Banco Central, Bancos e Despachantes Fazia a interface com Seguradoras de Crédito Internacionais\n • Realizava Aplicações Financeiras e Captações, incluindo operações estruturadas de Export Notes, Pré-Pagamento de Exportação, Cambio Pronto, ACC/ACE; Bid/Performance Bond, Fianças, Vendor/Compror, CDB; Fundos, Desconto e Aquisição de Recebíveis , BNDES, FINIMP, Finame, EXIM , Cartas de Crédito, Hedge, 4131, Swaps\n • Gerenciei, em parceria com o Diretor Financeiro, o endividamento, os limites e linhas de crédito junto a bancos\n • Participei em projetos de Reorganização da Tesouraria incluindo a Racionalização de Controles\n • Participei em projetos de implantação de ERP e atualizações\n • Contratei Seguros Patrimoniais, Acidentes Pessoais e Seguro de Vida em Grupo\n Location : São Paulo\n \n \n Job Title : Analista Administrativo Financeiro\n Company name : Lloyds Bank\n Period : mar. de 1984 – jul. de 1989"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : GDPR - Regulamento Geral de Proteção de Dados: Formação Básica\n Period : Emitido em dez. de 2019 - Nenhuma data de expiração\n Issuing Authority : LinkedIn\n Title : Gestão de Orçamentos em Projetos\n Period : Emitido em dez. de 2019 - Nenhuma data de expiração\n Issuing Authority : LinkedIn\n \n Title : Gestão de Profissionais de Alto Desempenho\n Period : Emitido em dez. de 2019 - Nenhuma data de expiração\n Issuing Authority : LinkedIn"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundacao Getulio Vargas / FGV\n Speciality : GVPEC - Controladoria\n Period : 21 – 211\n School name : USCS - IMES\n Speciality : Bacharel em Administração de Empresas\n Period : 1999\n School name : Inst Qualificação do ensino Continuado - IQDUC\n Speciality : MiniMBA Gestão Empresarial\n \n School name : USCS - IMES\n Speciality : Pós Graduação em Finanças"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "f6d14cfa-2538-4e74-ad7a-9a8492d105ab",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*f6d14cfa-2538-4e74-ad7a-9a8492d105ab",
+    "talent": {
+      "updatedAt": "2023-12-20T14:09:28.616Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:09:28.616Z",
+      "linkedinUsername": "cristinaataidecamara",
+      "email": "cristina.acamara@gmail.com",
+      "phone": "11993992270",
+      "name": "Cristina Ataíde Câmara",
+      "id": "f6d14cfa-2538-4e74-ad7a-9a8492d105ab"
+    },
+    "timeInCurrentStage": 61412034775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:32.839Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "07/08/1984"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "15927"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de Tesouraria e Contas à Pagar"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de Tesouraria e Contas à Pagar\n Company name : Grupo Protege\n Period : fev. de 221 – o momento\n Summary : ✔ Responsável pela gestão de caixa de 5 empresas do grupo\n ✔ Gestão de 54 contas correntes\n ✔ Gestão de empréstimos e financiamentos\n ✔ Gestão de aplicações financeiras\n ✔ Manutenção do relacionamento bancário\n ✔ Gestão de operações de câmbio\n ✔ Responsável por liderar uma equipe de 4 pessoas em todo o processo de preparação de pagamentos, controle do tráfego de arquivos de pagamentos com interface junto às instituições financeiras e vans de transmissão de arquivos e fechamento de caixa\n ✔ Responsável por liderar uma equipe de 5 pessoas em todo o processo de “backoffice” da Tesouraria Operacional e Corporativa\n ✔ Atendimento à auditoria externa\n Location : São Paulo, Brasil\n \n Job Title : Coordenador de Contas à Receber/ Crédito e Cobrança\n Company name : Grupo Protege\n Period : abr. de 218 – jan. de 221\n Summary : ✔ Reestruturação da área de Contas a Receber;\n ✔ Estruturação das áreas de Crédito e Cobrança;\n ✔ Implantação das agências parceiras de cobrança;\n ✔ Implantação da régua de cobrança por segmento de negócio;\n ✔ Responsável pelo cálculo do Impairment conforme padrões IFRS 9;\n ✔ Responsável pelas estratégias de crédito e para redução da inadimplência;\n ✔ Implantação de BPM para capturar proposta de venda e realizar análise de crédito;\n ✔ Responsável pelas estratégias de novas campanhas de incentivos para redução da inadimplência;\n ✔ Responsável por liderar uma equipe de 8 pessoas\n Location : São Paulo e Região, Brasil\n \n Job Title : Coordenador de Tesouraria\n Company name : Claro Brasil\n Period : jan. de 215 – abr. de 218\n Summary : ✔ Responsável pela gestão de caixa de 12 empresas do Grupo;\n ✔ Responsável por liderar uma equipe de 7 pessoas em todo o processo de pagamentos, controle do tráfego de arquivos de pagamentos com interface junto às instituições financeiras e vans de transmissão de arquivos;\n ✔ Aprovação dos arquivos de pagamentos conforme a política de alçadas da empresa;\n ✔ Controle de KPI’s de Tesouraria;\n ✔ Revisão das políticas internas da área para atender a auditoria conforme a Lei da SOX;\n  ( Sarbanes- Oxley)\n ✔ Treinamento para novas operações referente às políticas de Tesouraria;\n ✔ Experiência com o sistema de gestão de caixa Sage XRT;\n ✔ Experiência com ERP’s JDEdwards Enterpriseone de plataforma Oracle versão 811 módulo financeiro; SAP módulo FI – Tesouraria;\n ✔ Controle de 112 contas correntes, conciliadas diariamente; Cash Pooling;\n ✔ Gestão de operações de Finame;\n Location : São Paulo e Região, Brasil\n \n Job Title : Coordenador de Tesouraria e Contas à Pagar\n Company name : NET Oficial\n Period : jan. de 212 – dez. de 214\n Summary : ✔ Responsável pela gestão de caixa de 5 empresas do Grupo;\n ✔ Responsável por liderar uma equipe de 25 pessoas em todo o processo de preparação de pagamentos, controle do tráfego de arquivos de pagamentos com interface junto às instituições financeiras e vans de transmissão de arquivos;\n ✔ Aprovação dos arquivos de pagamentos conforme a política de alçadas da empresa;\n ✔ Controle de KPI’s de Tesouraria;\n ✔ Revisão das políticas internas da área para atender a auditoria conforme a Lei da SOX;\n  ( Sarbanes- Oxley)\n ✔ Treinamento para novas operações referente às políticas de Tesouraria;\n ✔ Experiência com o sistema de gestão de caixa Sage XRT;\n ✔ Experiência com ERP’s JDEdwards Enterpriseone de plataforma Oracle versão 811 módulo financeiro;\n ✔ Controle de 78 contas correntes, conciliadas diariamente; Cash Pooling;\n ✔ Gestão de operações de Finame operacional e financeiro;\n ✔ Relacionamento junto às instituições financeiras para negociação de tarifas de DOC, TED e cobrança em DCC;\n ✔ Responsável pela renovação e gestão das apólices de seguros de Property, D&O, Responsabilidade Civil, Riscos Diversos, Transporte Nacional, Transporte Internacional e Veículos\n Location : São Paulo e Região, Brasil\n \n Job Title : Consultor de Tesouraria\n Company name : NET Oficial\n Period : dez. de 21 – jul. de 212\n Summary : ✔ Levantamento de requisitos para elaboração de Briefing, Escopo de projetos e para abertura de demanda referente a melhorias solicitadas no ERP- JD Edwards Enterpriseone de plataforma Oracle versão 811 módulo financeiro;\n ✔ Manutenção de documentações junto às instituições financeiras, referente a incorporações; destituições de procuradores, solicitações de acessos aos sistemas de Bankline, análise de contratos de prestação de serviços de CPG e dentre outros;\n ✔ Report diário de caixa estimado e D;\n ✔ Emissão de relatórios das movimentações do Contas a Pagar;\n ✔ Fechamento mensal de Tesouraria\n Location : São Paulo\n \n Job Title : Analista sênior de Tesouraria\n Company name : NET Oficial\n Period : nov. de 28 – dez. de 21\n Summary : Preparação de pagamentos para envio de arquivos de agendamentos, CPG\n Atualização de relatórios do Contas a Pagar\n Suporte para os administrativos financeiros das filiais\n Location : São Paulo e Região, Brasil\n \n Job Title : Assistente de Tesouraria\n Company name : NET Oficial\n Period : jul. de 27 – nov. de 28\n Summary : Segregação de solicitações de pagamentos\n Controle de adiantamentos\n Location : São Paulo e Região, Brasil\n \n Job Title : Estagiário de finanças\n Company name : Cushman & Wakefield\n Period : dez. de 26 – jun. de 27\n Summary : ✔ Contas a pagar e a receber, conciliação bancária, fluxo de caixa, emissão da taxa de condomínio, equalização de cotações para compras de suprimentos, elaboração de relatórios financeiros e montagem da pasta de prestação de contas mensal;\n ✔ Gerenciamento das contas ordinárias, extraordinárias, fundo de implantação e fundo de melhorias, elaboração e Forecast do Budget anual no sistema Yardi Voyager\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Assistente de Tesouraria Pleno\n Company name : FIDI - Fundação Instituto de Pesquisa e Estudo de Diagnóstico por Imagem\n Period : jun. de 25 – out. de 26\n Summary : ✔ Cálculo para pagamento dos prestadores de serviços médicos pela tabela SUS Contas a pagar e a receber, fluxo de caixa orçado x real e comprometido; \n ✔ Lançamentos contábeis no sistema SAPIENS e atualização de contratos junto aos prestadores de serviços médicos\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Visão Sistêmica\n Period : Emitido em jun. de 2020 - Nenhuma data de expiração\n Issuing Authority : FRST - Falconi Road of Skills and Talents\n Title : Linguagem e Mindset do Líder\n Period : Emitido em abr. de 2020 - Nenhuma data de expiração\n Issuing Authority : FRST - Falconi Road of Skills and Talents\n \n Title : Liderança que Inspira\n Period : Emitido em mar. de 2020 - Nenhuma data de expiração\n Issuing Authority : FRST - Falconi Road of Skills and Talents"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Faculdade de Economia, Administração e Contabilidade da Universidade de São Paulo\n Speciality : Master of Business Administration (MBA), Economia e Setor Finaneiro\n Period : 214 – 216\n Summary : O curso de MBA na USP agregou em minha formação acadêmica para aumentar o conhecimento no mercado financeiro.\n School name : EF English Live\n Speciality : Inglês, Aperfeiçoamento da língua Inglesa\n Period : 212 – 212\n Summary : Intercâmbio na Inglaterra, Escola EF- Education First para aperfeiçoamento da língua Inglesa . Período: 1/6/213 a 3/6/213\n School name : BSP - Business School São Paulo\n Speciality : Master em Finanças, Finanças\n Period : 211 – 212\n Summary : Master em Finanças. Duração do curso: 1 ano, com módulo internacional na Espanha em Madrid, na Escuela de Organización Industrial. Conclusão do curso 2/212.\n \n School name : Centro Universitário Assunção\n Speciality : Bachelor of Business Administration (BBA), Administração de Empresas\n Period : 26 – 29\n Summary : A graduação na UNIFAI me ajudou a ingressar na área financeira, onde estou trabalhando desde 24."
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "0ee743cb-49ab-4264-9ab1-32e5bdc7dc65",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*0ee743cb-49ab-4264-9ab1-32e5bdc7dc65",
+    "talent": {
+      "updatedAt": "2023-12-20T14:04:16.025Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:04:16.025Z",
+      "linkedinUsername": "tiago-de-sousa-mendonça",
+      "email": "tiago.mendonca07@hotmail.com",
+      "phone": "11997489151",
+      "name": "Tiago de Sousa Mendonça",
+      "id": "0ee743cb-49ab-4264-9ab1-32e5bdc7dc65"
+    },
+    "timeInCurrentStage": 61412334775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.105Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Trade Finance | Cash Management Coordinator"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Trade Finance | Cash Management Coordinator\n Company name : Suzano\n Period : out de 221 - o momento\n Summary : • Trade finance team leader of 3 analysts and an intern;\n • Responsible to manage company’s working capital strategies, focusing on accounts receivables discounts, align with CFO drivers (negotiating over USD 1 billion by quarter);\n • Provide strategic inputs to Financial Board, in order to forecast short term cash position to better liability management decisions and directly linked to debt capital markets operations;\n • Interacting with Company’s Trade Service Team in Austria and Commercial Team in Asia;\n • Focusing on team development and redrawing succession plan.\n Location : São Paulo, Brasil\n \n Job Title : Derivatives Desk Senior Specialist\n Company name : Suzano\n Period : jul de 221 - set de 221\n Summary : • Cash Management team lead and focal point to all company’s negotiating banks;\n • Responsible to manage all company’s and subsidiaries bank and interest accounts, also investments onshore (CDB, LFT, etc) and offshore (Time Deposits);\n • Improving cash management control by remodeling excel cash control file and short / medium term projections by offshore subsidiaries;\n • Close FX (foreign exchange) transactions, selling dollars offshore to buy reais onshore, according to company’s needs;\n • Execute company’s hedge strategies through derivatives (Swaps, Zero Cost Collar and NDF), controlling and reporting to executive board;\n • Developing commodities hedge strategies (Oil and Pulp).\n Location : São Paulo, Brasil\n \n Job Title : Treasury Department Specialist\n Company name : Suzano\n Period : mai de 22 - jun de 221\n Summary : • Trade Finance team lead and focal point to all company’s negotiating banks;\n • Responsible to manage all monthly and quarterly purchase receivables strategy, regarding Asian letter of credits and External Market forfaiting operations (up to USD 1 bln/quarter), achieving discount prices reduction over 45 bps (average) on both front programs;\n • Improved weekly actual cashflow monitor and immediate / short term cash projections, along with implementation of company’s leverage and debt dollarization forecast on same report;\n • Supporting derivatives desk team in hedge strategies, thru control of company’s net dollar exposition (18 months horizon) setting drivers to zero cost collar / NDF operations;\n • In charge of control all Treasury’s administrative expenses, suggesting alternatives to save money and ensure budget, achieving ~2% savings (vs budget) on 22;\n • Developed deep accounts receivable analysis and forecast, always thinking one quarter ahead.\n Location : São Paulo, Brasil\n \n Job Title : Financial Planning and Analysis Specialist\n Company name : Suzano\n Period : fev de 219 - mai de 22\n Summary : • Selected to work as IMO (Integration Management Office) of Synergies Project;\n • Responsible to develop a governance to monitor, control and report Synergies initiatives generated from Suzano’s and Fibria’s merger (closing 14/Jan/19);\n • Managing initiatives status through projects weekly S Curve and monthly monitoring financial calculations, to verify the effective synergy captured, reporting to Executive and Administration Boards and supporting investor relation on disclosure;\n • Interface with main Company’s executives of business units to ensure that proposed initiatives were successfully implemented and encouraging development of new synergies.\n Location : São Paulo e Região, Brasil\n \n Job Title : Financial Planning Analyst\n Company name : Suzano\n Period : set de 214 - jan de 219\n Summary : • Working in corporate FP&A area, analyzing all business units financial performance, focusing and reporting Company’s overall results;\n • Responsible for the review of monthly / quarterly performance presentations (Executive and Administration Boards) supported by comments and management analyzes;\n • Support the Executive Board with financial analyzes of EBITDA, Working Capital, Cash Generation, Cash Flow (Direct) and ROIC;\n • Monitoring, analyzing and reporting Income Statement result, including liability management operations, use of derivatives instruments and hedge strategies;\n • Constant monitoring of business key performance indicators as well as develop new ones, to identify and address solutions to risks / opportunities that may affect company's results;\n • Acting directly in the preparation and consolidation of Budget, Forecast and monthly Closings, as well as acting in the analysis of comparative scenarios;\n • Support the report and monitor of fixed assets investments (CAPEX) to investment committee, to ensure the maximization of return on invested capital;\n • Interface with main Company’s executives, assistance in the preparation of financial analysis and reports, aiming a better decision-making;\n • Support entities in controlling SG&A expenses (OMD), suggesting action plans to deliver budget and encourages the culture of cost reduction in the organization;\n • Supporting analysts and interns on orientation and materials review.\n Location : São Paulo e Região, Brasil\n \n Job Title : Trainee\n Company name : EY\n Period : out de 213 - set de 214\n Summary : Transactions Advisory Services - Consultancy in financial operations of merge and acquisitions transactions, through Due Diligence projects (mergers, acquisitions and spin-offs operations), in order to measure and evaluate the real value of Target, through accounting adjustments of Net Assets, Net Debt and EBITDA multiples.\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Intern\n Company name : Citi\n Period : nov de 212 - out de 213\n Summary : Analysis of the financial structure of large companies that have lines of credit with Citibank or wish to acquire. Through Citi tools, horizontal and macroeconomic analyzes, generate a rating, which allows a better classification of the company as to the possibility of performing your debt or to your risk of default.\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : FECAP\n Period : 215 - 216\n School name : Universidade Presbiteriana Mackenzie\n Period : 21 - 213\n \n School name : Kaplan College - Santa Barbara (CA)\n Period : 211 - 211"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "4ee63f46-d4a2-49f6-959c-081f13a7001c",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*4ee63f46-d4a2-49f6-959c-081f13a7001c",
+    "talent": {
+      "company": "FS Fueling Sustainability",
+      "createdAt": "2023-12-20T14:09:17.997Z",
+      "email": "andre_ritzmann@hotmail.com",
+      "linkedinUsername": "andreritzmann",
+      "name": "André Paiva Ritzmann",
+      "phone": "11973616421",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-03-26T12:27:06.136Z",
+      "id": "4ee63f46-d4a2-49f6-959c-081f13a7001c"
+    },
+    "timeInCurrentStage": 61412034775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:32.783Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "04/04/1979"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "15500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45050"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe + prev privada"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de tesouraria"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2 (6)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de tesouraria\n Company name : CESP\n Period : jun. de 219 – o momento\n Job Title : Especialista em finanças\n Company name : Companhia Siderúrgica Nacional\n Period : mai. de 28 – mai. de 219\n Job Title : Assessor financeiro\n Company name : Comexport\n Period : abr. de 27 – abr. de 28\n Summary : Tesouraria - Contas a Receber\n Location : São Paulo e Região, Brasil\n Job Title : Analista Financeiro júnior\n Company name : MetLife\n Period : out. de 21 – mai. de 24\n Summary : Tesouraria - Contas a Pagar"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : MBA - Gestão em Finanças\n Period : 211 – 213\n School name : Pontifícia Universidade Católica de São Paulo\n Speciality : Bacharelado em Administração de Empresas\n Period : 21 – 25\n School name : Universidade Paulista\n Speciality : Ciências Contábeis\n Period : 26 – 28"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "4b0c7526-faf1-4d49-bbc3-654a9e8bf5df",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*4b0c7526-faf1-4d49-bbc3-654a9e8bf5df",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:00.815Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:00.815Z",
+      "linkedinUsername": "marcio-kunihira-99336aba",
+      "email": "mkunihira@gmail.com",
+      "phone": "11991361322",
+      "name": "Marcio Kunihira",
+      "id": "4b0c7526-faf1-4d49-bbc3-654a9e8bf5df"
+    },
+    "timeInCurrentStage": 61412334775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.190Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenadora de Contas a Pagar, Contas a Receber e Tesouraria"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenadora de Contas a Pagar, Contas a Receber e Tesouraria\n Company name : Santo Antônio Energia\n Period : abr. de 219 – o momento\n Location : São Paulo e Região, Brasil\n \n Job Title : Especialista financeiro\n Company name : Santo Antônio Energia\n Period : nov. de 217 – o momento\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista financeiro Sênior\n Company name : Santo Antônio Energia\n Period : set. de 214 – out. de 217\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista de Tesouraria\n Company name : Santo Antônio Energia\n Period : mar. de 28 – ago. de 214\n \n Job Title : Analista de contas a pagar\n Company name : Santo Antônio Energia\n Period : fev. de 27 – mar. de 28\n Location : São Paulo, São Paulo\n \n \n Job Title : Assistente Administrativo\n Company name : Odebrecht\n Period : abr. de 26 – fev. de 27"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Nove de Julho - Uninove\n Speciality : Bacharel em Administração de Empresas\n Period : 27 – 21"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "3227dee8-031e-4990-8c82-56332b7d17b8",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*3227dee8-031e-4990-8c82-56332b7d17b8",
+    "talent": {
+      "updatedAt": "2023-12-20T14:08:27.930Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:08:27.930Z",
+      "linkedinUsername": "marília-torres-guitar-ernandes-6a5b5968",
+      "email": "mtge_25@hotmail.com",
+      "phone": "",
+      "name": "Marília Torres Guitar Ernandes",
+      "id": "3227dee8-031e-4990-8c82-56332b7d17b8"
+    },
+    "timeInCurrentStage": 61412934775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.375Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente financeiro"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente financeiro\n Company name : Just Fit\n Period : jan de 218 - o momento\n Location : São Paulo e Região, Brasil\n \n Job Title : Coordenador de tesouraria\n Company name : Cencosud S.A\n Period : set de 21 - jan de 218\n Summary : Principais atividades:\n Responsável pelo cashflow mensal e diário das empresas do grupo – composta por 5 redes de supermercado, totalizando 35 pontos de vendas – Faturamento 75 MM/mês;\n Elaboração de relatórios gerenciais e reports financeiros;\n Contratação e renegociação de empréstimos (curto e longo prazo, conta garantida e operações estruturadas);\n Cotação e fechamento de aplicações financeiras – R$ 28 MM/mês;\n Antecipação de Recebíveis junto as adquirentes de cartão de crédito – R$ 3 MM/mês;\n Negociação de taxa de comissão de cartões de crédito/débito, vale alimentação e refeição;\n Gestão dos recebíveis em dinheiro, conciliação e relacionamento com as empresas de transporte valores – R$ 25 MM/mês.\n Responsável pelo fechamento contábil das operações de tesouraria (conciliação bancária) – interface com a área contábil.\n Operações de câmbio: pagamento de mercadorias/serviços | recebimento e pagamento de empréstimos intercompany em moeda estrangeira.\n Apoio ao processo de contratação de seguro patrimonial, seguro garantia, responsabilidade civil, além da gestão dos sinistros – Valor em Risco R$ 1,5 Bi.\n Responsável por criar e controlar procedimentos e políticas da área de tesouraria, conforme a Lei Sarbanes-Oxley, visando atender as exigências de controle e gestão dos controladores do grupo.\n Projetos importantes:\n Renogociação de empréstimos – R$ 1,1 Bi.\n Apoio ao processo concorrência de captura de cartões de créditos.\n Gerencia financeira e coordenação de incorporação de subsidiária do grupo em Fortaleza. Projeto desenvolvido por 8 meses abrangendo as áreas de contas a receber, contas a pagar e tesouraria.\n Participação nos projetos de incorporação de 3 grandes bandeiras (Mercantil Rodrigues – Fat R$ ,6 Bi | Bretas| Fat R$ 2,5 bi e Prezunic | Fat R$ 2,4 bi) envolvendo as rotinas de tesouraria e gerenciamento de numerário.\n \n Job Title : Analista de tesouraria\n Company name : GBarbosa Comercial Ltda\n Period : set de 26 - set de 21\n Summary : Principais atividades:\n Administração Fluxo de Caixa (Orçado x Realizado).\n Estudo de viabilidade financeira para captação de recursos de terceiros.\n Aplicação financeira de disponíveis.\n Rotinas de tesouraria (Contas a pagar/Contas a Receber). Análise de endividamento e controle de operações financeiras.\n Gerenciamento de risco patrimonial. Elaboração de relatórios gerenciais para report aos controladores.\n Rotinas contábeis (Concilição bancária).\n Projetos importantes:\n Implantação do SAP FI/CO\n Revisão dos processos de todas área financeira.\n Location : Brasil\n \n \n Job Title : Bancário\n Company name : Bradesco\n Period : jan de 22 - out de 25\n Summary : BRADESCO\n Location : Aracaju y alrededores, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : FIA - Fundação Instituto de Administração\n Period : 215 - 216\n Summary : Sem título\n School name : Universidade Federal de Sergipe\n Period : 27 - 21\n Summary : UNIVERSIDADE FEDERAL DE SERGIPE\n \n School name : Fundação Getulio Vargas\n Period : 26 - 28"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "ddab4bd7-e2a9-467a-9b13-42c3fb7171f5",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*ddab4bd7-e2a9-467a-9b13-42c3fb7171f5",
+    "talent": {
+      "updatedAt": "2023-12-20T14:11:01.729Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:11:01.729Z",
+      "linkedinUsername": "herbertmenezes",
+      "email": "herbertmenezes17@gmail.com",
+      "phone": "11984009040",
+      "name": "HERBERTT MENEZES",
+      "id": "ddab4bd7-e2a9-467a-9b13-42c3fb7171f5"
+    },
+    "timeInCurrentStage": 61412034775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.411Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "04/04/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "8000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Financeiro"
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": {
+          "value": "Separado(a)",
+          "id": "59c5b0bd-f19d-41c1-88f0-3636592206e9",
+          "label": "Separado(a)"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente Financeiro\n Company name : Repensa Energia\n Period : nov. de 22 – ago. de 221\n Summary : Responsável pela gestão de tributos, formação do preço de venda, auditoria, controle das contas a pagar, controle das aplicações financeiras, controle dos saldos bancários, administração do fluxo de caixa e análise das demonstrações financeiras \n Planejamento, gestão e organização das atividades de controladoria da empresa, observando princípios legais, políticas e diretrizes adotadas, para definir formas de controle orçamentário, contábil e financeiro\n Responsável pelo planejamento e supervisão das rotinas de admissão e desligamento de colaboradores Preparação de estudos de viabilidade econômico-financeira dos novos projetos de investimento da Instituição; \n Validação das propostas de redução de custos, incluindo apresentação dos resultados ao corpo diretivo;\n Estruturação de processos e sistemas relativos à área financeira, analisando, controlando e avaliando as aplicações financeiras, rentabilidade e perfil empresarial; \n Relacionamento com bancos, escritório de advocacia, contabilidade, além da interface com outras áreas Reportar Fluxo de Caixa (Realizado e Previsão) para CEO\n Location : Ribeirão Preto, São Paulo, Brazil\n \n Job Title : Gerente Administrativo Financeiro\n Company name : Deep Desire Acessórios Femininos\n Period : dez. de 217 – nov. de 22\n Summary : Setor: Administrativo Cargo: Sócia Administradora - de Dezembro de 217 até o momento E-commerce de acessórios femininos Criação de um site de vendas, com entrega para todo o território nacional Análise de fornecedores de matéria-prima, compras, logística de entrada, processo de transformação (sou a própria designer da marca), marketing multicanais, atividades comerciais de venda, contas a pagar e receber, emissão de nota fiscal de venda, despacho de mercadoria e acompanhamento de pós-venda Além das atividades operacionais inerentes ao funcionamento do site e da empresa, participação direta com criação e execução das estratégias de venda e de crescimento da marca, assim como da análise de dados financeiros e contábeis\n Location : São Paulo, Brasil\n \n Job Title : Independent Management Consultant\n Company name : Self Employed\n Period : out. de 217 – jul. de 218\n Location : Ribeirão Preto e Região, Brasil\n \n Job Title : Gerente Administrativo Financeiro\n Company name : Blue Sol Energia Solar\n Period : out. de 213 – set. de 217\n Summary : Planejamento e controle do fornecimento de materiais: produtivos / improdutivos da empresa Desenvolver novos fornecedores e fontes alternativas de materiais e / ou insumos, objetivando a qualidade e o custo dos produtos Supervisionar operações com responsabilidades administrativas e operacionais, de vendas, lucratividade, análise de resultados perdas e lucros, controle de estoque Considerar os aspectos ambientais, comerciais, administrativos e financeiros; visando assegurar o adequado atendimento às diretrizes da empresa no que tange à manutenção dos padrões da segurança e qualidade e do retorno financeiro estabelecido pela empresa Promover o alcance das metas preestabelecidas pela empresa e manter a qualidade nos serviços prestados, tomando como base as informações obtidas em auditorias e outras fontes, bem como atuando intensivamente na resolução de possíveis falhas ao longo do processo e evitando desvios Análise crítica, apresentação de dados, contato com clientes externos e internos, contato com fornecedores, negociação, organização (administração do tempo, área de trabalho, definir prioridades)\n Location : Ribeirão Preto, São Paulo, Brasil\n \n Job Title : Analista de Suprimentos\n Company name : Blue Sol Energia Solar\n Period : out. de 212 – out. de 213\n Summary : Administração do banco de dados de fornecedores, com processo periódico e cíclico de novas cotações, realizando também pesquisas no mercado para busca de novos fornecedores, visando identificar as melhores oportunidades de compras\n \n  Negociação direta com fornecedores, objetivando fechamento de compras dentro das melhores condições de preço, qualidade e prazo de entrega\n \n  Implantação do setor de Suprimentos e Compras, atuando na elaboração de procedimentos e pedidos de compras e distribuição de tarefas para a equipe, com melhorias no trato com fornecedores\n \n  Coordenação da requisição de materiais de uso em instalações e consumo interno, atuando também na implantação de procedimentos para compras de materiais de escritório e suprimentos de depósito e para os cursos oferecidos\n \n  Supervisão da equipe operacional no desenvolvimento das rotinas, possibilitando maior estruturação do setor na etapa final de expedição dos produtos da venda\n \n  Emissão de pedidos de compra, com posterior encaminhamento aos fornecedores e acompanhamento do processo de entrega, com cumprimento final de todas as condições negociadas\n \n  Gerenciamento de notas fiscais de entrada e de saída, respondendo também pelo controle de pedidos, garantindo o atendimento dos prazos estabelecidos\n \n  Análise mensal de mercadorias, atualizando indicadores, planilhas e históricos, com foco na elaboração de previsões de demanda de cada produto, gerando classes ABC de produtos mais vendidos e de maior representação econômica\n \n  Elaboração de procedimentos, com constante avaliação do andamento das atividades desenvolvidas, em trabalho conjunto com os demais envolvidos nos processos, procurando obter os resultados desejados\n \n  Gestão da logística de entrada e saída de produtos, acompanhando contatos com transportadores e negociações de melhores condições para atendimento, respondendo também pela implantação de procedimentos de cotação de fretes\n Location : Ribeirão Preto, São Paulo, Brasil\n \n \n Job Title : Estagiária\n Company name : Equipalcool Sistema Ltda\n Period : ago. de 211 – dez. de 211\n Summary : Equipalcool Sistema Ltda\n \n EstagiariaEdit\n \n \n Equipalcool Sistema Ltda\n August 211 – December 211 (5 months)|Sertaozinho - SP\n Execução de rotinas de Planejamento, Programação e Controle da Produção e Manutenção, prestando auxílio também em atividades de melhoria contínua\n \n  Revisão, separação e organização dos desenhos dos produtos fabricados na empresa, inclusive de ordens de produção e materiais, para implantação da ISO 91\n \n  Implantação da ISO na separação, organização e aplicação de procedimentos, resultando em otimização das rotinas de trabalho e diminuição de erros\n \n  Gestão das equipes mantenedoras (mecânica, elétrica e terceiros) na área de Manutenção, cuidando também de rotinas envolvendo ordens de compra\n \n  Responsável pela organização de procedimentos das ordens de manutenção e de programação das manutenções, gerando aumento de produtividade e da vida útil das máquinas\n \n  Organização e estruturação dos processos das áreas, tornando mais fácil e rápida a execução das atividades quando fossem requisitadas\n Location : Sertãozinho - SP"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : MBA USP/Esalq\n Speciality : Master of Business Administration - MBA, Finanças e Controladoria\n Period : 221\n School name : Fundação Dom Cabral\n Speciality : Gestão Econômico Financeira, Finança Executiva\n Period : 216 – 216\n School name : Fundação Armando Alvares Penteado\n Speciality : Especialista, Pós Graduação, Gestão Empresarial\n Period : 212 – 214\n School name : UniSEB COC Interativo\n Speciality : Pós Graduação, Gestão Avançada de Pessoas\n Period : 212 – 214\n School name : UniSEB - Coc Faculdades Coc Ribeirão Preto\n Speciality : Bachelor of Engineering (B.Eng.), Engenharia de Produção\n Period : 27 – 211\n Summary : Formada em Engenharia de Produção\n School name : Unesp - BAURU\n Speciality : Engenharia Civil\n Period : 26 – 28\n School name : Senac São Paulo\n Speciality : Especialista, Marketing e Design de Moda\n Period : 217 – 218\n School name : Senac Brasil\n Speciality : Criação e Técnicas de Montagem de Acessórios de Moda, Desenho de Moda\n Period : 219 – 219\n \n School name : Ecole Supérieure de Relooking - Brasil\n Speciality : Especialista, Consultoria de Imagem & Estilo\n Period : 219 – 219"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "542ede1c-b0d0-4adf-9034-e918e4902690",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*542ede1c-b0d0-4adf-9034-e918e4902690",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:36.242Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:36.242Z",
+      "linkedinUsername": "marcelafrollinimengon",
+      "email": "marcelamengon@gmail.com",
+      "phone": "16991773759",
+      "name": "Marcela Frollini Mengon",
+      "id": "542ede1c-b0d0-4adf-9034-e918e4902690"
+    },
+    "timeInCurrentStage": 61412334775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.136Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "11/06/1974"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "18000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "6.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "ps, po, pp (1/1 4%), gym pass, auxílios"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Centro Universitário Sant'Anna"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": "Fundação Getúlio Vargas\n DiplomaMaster of Business Administration (M.B.A.)Área de estudoBusiness AdministrationNota9,7"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Financeiro Senior - CSC"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 filho - 12 anos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente Financeiro Senior - CSC\n Company name : Via Varejo SA\n Period : jun. de 219 – o momento\n Location : São Caetano do Sul area, Brazil\n \n Job Title : Gerente Financeiro CSC Brasil\n Company name : Serasa Experian\n Period : out. de 216 – mai. de 219\n Summary : Líder do CSC Finanças Brasil, áreas: Contabilidade, Ativo Fixo, Contas a Pagar e Contas a Receber. Gerenciamento do processo de auditoria interna e externa no CSC, criação de Políticas e Procedimentos, implementação de controles internos.\n Location : São Carlos Area, Brazil\n \n Job Title : Manager of Financial Planning Analysis\n Company name : Roche Diagnostics\n Period : fev. de 211 – fev. de 216\n Summary : Responsável pelo processo orçamentário anual e suas revisões mensais, elaboração de propostas comerciais, informações mensais de rentabilidade por cliente, suporte às áreas de negócio. Estudo de viabilidade de projetos comerciais e internos. Suporte direto à presidência, diretorias e às áreas comerciais. Responsável por implementar o processo de revisão mensal do orçamento com apresentação de indicadores e comparação com cenários. Acumulo de função de Controller responsável pelas áreas clássicas de finanças (contabilidade, tesouraria, ativo fixo, contas a pagar e área fiscal), coordenação do processo de auditoria Interna e Externa.\n Location : Brazil - São Paulo\n \n Job Title : Gerente de Projetos CSC Financeiro - América Latina\n Company name : Roche\n Period : 28 – 21\n Summary : Gerenciar e implementar as melhorias de processos no centro de serviços compartilhados e nos países da América Latina. Membro de um grupo externo composto por líderes de CSC para discutir melhores práticas em processos (2 empresas, uma vez a cada dois meses)\n Location : São Paulo Area, Brazil\n \n Job Title : Gerente de Relacionamento CSC Financeiro - América Latina\n Company name : Roche\n Period : 25 – 28\n Summary : Responsável pelo processo de governança do CSC, mensurar e garantir os Acordos de Níveis de Serviços firmados com os países, ponto de contato com todos os gestores do CSC e Diretores Financeiros da região. Anualmente, responsável pela negociação do ANS com os diretores financeiros.\n \n Job Title : Gerente de Contas a Pagar CSC Financeiro\n Company name : Roche\n Period : out. de 24 – abr. de 25\n Summary : Responsável pela contratação e posterior liderança da equipe de 14 funcionários. Registro de todas as notas fiscais das afiliadas da América Latina.\n Location : São Paulo Area, Brazil\n \n Job Title : Projeto CSC – Lider Contas a Pagar\n Company name : Roche\n Period : mar. de 23 – set. de 24\n Summary : Responsável pela revisão e redesenho do processo Contas a Pagar para todos os países da América Latina, bem como, selecionar e implementar as aplicações tecnológicas para viabilizar o processo regional. (Digitalização dos documentos, EDI, etc).\n \n Job Title : Área Financeira\n Company name : Roche\n Period : mai. de 1999 – fev. de 23\n Summary : Coordenador de Políticas e ProcedimentosProjeto SAP – Lider Contas a ReceberAnalista Custo de ProduçãoEstagio em Finanças\n Location : São Paulo Area, Brazil\n \n Job Title : Analista Financeiro\n Company name : BLOCH EDITORES S/A\n Period : jul. de 1997 – abr. de 1999\n Summary : Responsável pela implementação de controle de gastos através de centro de custos para aos programas de TV.\n Location : São Paulo Area, Brazil\n \n Job Title : Assistente Financeiro\n Company name : Porto Seguro\n Period : fev. de 1995 – jun. de 1996\n Summary : Suporte à força de vendas, submeter as propostas de seguro à seguradora, controle dos custos do escritório de vendas, cálculo da comissão dos vendedores, desenvolvimento de uma aplicação para controle das propostas enviadas à seguradora e as comissões pagas para a força de vendas.\n Location : São Paulo Area, Brazil\n \n \n Job Title : Consultor Financeiro\n Company name : IRMÃOS GUIMARÃES CORRETORA C.T.V.M. Ltda\n Period : fev. de 199 – nov. de 1994\n Summary : Suporte aos consultores seniores para fornecer informações financeiras chaves para enviarem aos clientes sobre Mercado de ações, câmbio e produtos financeiros (ex. CDB, investimentos diários, etc).\n Location : São Paulo Area, Brazil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Fundação Getúlio Vargas\n Speciality : Master of Business Administration (M.B.A.), Business Administration, 9,7\n Period : 28 – 29\n \n School name : Centro Universitário Sant'Anna\n Speciality : Bachelor’s Degree, Business Administration\n Period : 1997 – 23\n Courses: Title : Project Management; \n Title : Standard Cost"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "38e0fbc2-2860-4686-a4f8-fffa22d1cc23",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*38e0fbc2-2860-4686-a4f8-fffa22d1cc23",
+    "talent": {
+      "updatedAt": "2023-12-20T13:52:51.055Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:52:51.055Z",
+      "email": "importacao6221@importacaoinhire.com",
+      "phone": "11998216565",
+      "name": "Leandro Domingues",
+      "id": "38e0fbc2-2860-4686-a4f8-fffa22d1cc23"
+    },
+    "timeInCurrentStage": 61412934775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:32.812Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Tesouraria"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de Tesouraria\n Company name : Teleperformance Brasil\n Period : mai. de 22 – o momento\n Summary : Liderando um time de 4 pessoas (analistas e assistentes) e respondendo diretamente ao CFO, tem como principais responsabilidades:\n • Gestão do fluxo de caixa e capital de giro;\n • Projeção e analise fluxo de caixa livre;\n • Gerenciamento das operações de contas a pagar e receber, operações cambiais, intercompany, aplicações financeiras, captação de recursos e relacionamento bancário;\n • Gestão de seguro garantia, fiança bancária e comfort letter (análises contratuais e negociações com bancos e seguradoras);\n • Análise e implantação de melhorias no DSO (days sales outstanding) / DPO (days payments outstanding);\n • Melhorias no processo e otimização da área e do sistema ERP\n Location : São Paulo, São Paulo, Brasil\n \n Job Title : Coordenadora Contábil e Fiscal\n Company name : Teleperformance Brasil\n Period : jul. de 218 – abr. de 22\n Summary : Coordenação de equipe de 7 pessoas, sendo responsável por:\n • Rotinas contábeis e fiscais, fechamento contábil (IFRS), report para França\n • Elaboração e apuração de Imposto de Renda Lucro Real, cálculo Diferido e PIS/COFINS\n • Revisão das Obrigações acessórias anuais ECF (Escrituração Contábil Fiscal) e ECD (Escrituração Contábil Digital)\n • Atendimento à auditoria interna/externa\n • Levantamento de oportunidades e riscos tributários\n • Key-user – projeto revitalização sistema (Protheus – TOTVS)\n Location : São Paulo, São Paulo, Brasil\n \n Job Title : Coordenadora Contábil e Controles Internos\n Company name : Life Fitness\n Period : out. de 216 – jul. de 218\n Summary : • Realização da contabilidade e dos controles internos, fechamento contábil BR GAAP e USGAAP, report para EUA\n • Elaboração e apuração de Imposto de Renda Lucro Real e PIS/COFINS\n • Preparação das Obrigações acessórias anuais ECF (Escrituração Contábil Fiscal) e ECD (Escrituração Contábil Digital)\n • Responsável pela auditoria interna e realização de testes mensais e trimestrais Elaboração de matriz de riscos e controles internos Levantamentos de crédito tributário e oportunidades de ganhos tributários\n • Experiência com procedimentos de incorporação e cisão de Empresas Sistema ERP Microsoft Dynamics AX\n Location : São Paulo, São Paulo, Brazil\n \n Job Title : Coordenadora Contábil\n Company name : Grupo Scalina\n Period : jan. de 216 – out. de 216\n Summary : • Responsável pela área contábil de três empresas do grupo: duas indústrias têxteis e uma rede de lojas, preparando suas demonstrações financeiras conforme os pronunciamentos contábeis e respectivas publicações\n • Cálculo de equivalência patrimonial\n • Apuração de Imposto de Renda e Pis e Cofins\n • Preparação das Obrigações acessórias anuais ECF (Escrituração Contábil Fiscal) e ECD (Escrituração Contábil Digital)\n • Atendimento auditoria externa e auditoria para o processo Due diligence\n • Coordenação de seis pessoas na área contábil Sistema ERP LN\n • Forte trabalho com o time na implementação de novos processos e melhorias para área\n Location : São Paulo, São Paulo, Brasil\n \n Job Title : Coordenadora de Contabilidade\n Company name : Sony Mobile Communications\n Period : jan. de 214 – jan. de 216\n Summary : • Fechamento contábil, análise de variações de resultado ( realizado X orçado)\n • Resposável pelas rotinas de tesouraria, Fluxo de Caixa projetado/diário, relacionamento com bancos, aplicações financeiras, cotação de captação de empréstimos e operações com factoring, análise de impostos incidentes sobre importações de serviços e remessas ao exterior, cotação com os bancos para fechamento de câmbio\n • Preparação das Obrigações acessórias anuais ECF (Escrituração Contábil Fiscal) e ECD (Escrituração Contábil Digital)\n • Coordenação da equipe terceirizada de Faturamento, assuntos relacionados ao ICMS e ICMS ST\n • Atendimento a auditoria interna e externa e fiscalizações\n • Acompanhamento das legislações e parametrizações de novas demandas fiscais no ERP SAP R/3\n Location : São Paulo, São Paulo, Brasil\n \n Job Title : Supervisora Contábil\n Company name : Deloitte Touche Tohmatsu\n Period : abr. de 212 – jul. de 213\n Summary : • Experiência na área contábil, financeira e fiscal de empresas do ramo eletroeletrônico, combustíveis de avião e bens de consumo\n • Coordenação de seis pessoas equipe contábil e financeira\n • Responsável pelo Fechamento Contábil\n • Apução de ICMS, IPI, Pis e Cofins e Imposto de Renda Lucro Real\n • Acompanhamento da legislação de ICMS ST e ICMS\n • Elaboração das declarações acessórias estaduais e federais tais como GIA, GIA ST, EFD Contribuições, DIPJ e Fcont\n • Participação por cinco meses da implementação do EFD Contribuições Pis e Cofins com o ERP SAP em empresa bens de consumo e cosméticos e medicamentos\n Location : São Paulo, São Paulo, Brasil\n \n Job Title : Analista de contabilidade sênior\n Company name : Deloitte Touche Tohmatsu\n Period : jun. de 21 – abr. de 212\n \n Job Title : Accounting Analyst\n Company name : Deloitte Touche Tohmatsu\n Period : ago. de 29 – jun. de 21\n Location : São Paulo\n \n \n Job Title : Jr. Accounting Analyst\n Company name : Deloitte Touche Tohmatsu\n Period : dez. de 27 – ago. de 29"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Conselho Regional de Contabilidade - CRC Ativo\n Period : Emitido em ago. de 2010 - Nenhuma data de expiração\n Issuing Authority : Conselho Regional de Contabilidade do Estado de São Paulo (CRCSP) - Oficial"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : MBA USP/Esalq\n Speciality : Pós Graduação em Finanças e Controladoria\n Period : 223\n School name : FECAP\n Speciality : Pós Graduação em Gestão Tributária\n Period : 213 – 215\n \n School name : Universidade Metodista de São Paulo\n Speciality : Bacharel em Ciências Contábeis, Contabilidade\n Period : 26 – 29\n Courses: Title : Apuração de Imposto de RendaLucro Real Anual/Trimestral- IOB; Title : Banking: Introdução e Fundamentos a Atividade Bancária – INFI|FEBRABAN; Title : Benefícios Fiscais (Lei do bem) – Universidade FIPECAFI – São Paulo/BR.; Title : Contabilidade e Finanças para Inovação: Incentivos Fiscais da Lei do Bem - FIPECAFI; Title : Fluxo de Caixa e Capital de Giro - FGV; Title : Mapeamento de Controles Internos - SOX - FIPECAFI; Title : SPED ECF para Lucro Real Anual/Trimestral e lalur Eletrônico - IOB; \n Title : Substituição Tributária do ICMS SP - ABINEE"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "2acc84f6-f8a0-418e-af6f-61bd06efd5ee",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*2acc84f6-f8a0-418e-af6f-61bd06efd5ee",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:04.712Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:04.712Z",
+      "linkedinUsername": "mayra-correia",
+      "email": "mayra.correia@gmail.com",
+      "phone": "11977646420",
+      "name": "Mayra Correia",
+      "id": "2acc84f6-f8a0-418e-af6f-61bd06efd5ee"
+    },
+    "timeInCurrentStage": 61412334775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.161Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Company name : Burger King do BrasilCoordenador de contas a receberCoordenador financeiro (Contas a pagar) e CSCAnalista financeiro sênior (CSC e contas a pagar)\n Summary : Responsável pela rotina do contas a receber - Dinheiro, delivery, cartões, novos meios de pagamentos, carteiras digitais e cobrança (franqueados) - (Aprox. 24MM – Mês)\n Gestão de transportadoras de valores, custódia e troco.\n Responsável pela conciliação/recebimento dos novos meios de pagamentos e delivery.\n Criação de politicas, processos para cobrança, elaboração e controle do PDD.\n Relacionamento com bancos e adquirentes de cartão.\n Processos de melhorias (Conciliação, cobrança, custos do P&L e novos meios de pagamentos).\n Otimização do Resultado financeiro.\n Liderança direta de 13 pessoas.\n Orçamentos, forecast e acompanhamento : G&A, Share, P&L (Coleta e taxa de cartão), Resultado financeiro e Capital de Giro.\n Gestão de metas/resultados.\n KPI’s para diretoria / CFO (G&A, P&L, Resultado financeiro e Capital de Giro).\n \n Company name : Burger King do BrasilCoordenador de contas a receberCoordenador financeiro (Contas a pagar) e CSCAnalista financeiro sênior (CSC e contas a pagar)\n Summary : Responsável pela rotina do contas à pagar (Aprox. 2 mil títulos mês / 2MM mês).\n Liderança direta de 23 pessoas.\n Gestão de protestos e adiantamentos a fornecedores.\n Capital de Giro (PMP).\n Controle de algumas linhas do resultado financeiro (Rebate/tarifas/multa e juros).\n Controle do processo de requisições, pedidos de compra e acompanhamento de entrada de notas (Processo de P2P - procurement to pay).\n Relacionamento com Bancos.\n Fluxo de caixa e movimentações bancárias (Curto prazo).\n Orçamentos, forecast e acompanhamento : G&A, P&L (Ocupação, água, Luz, Gás e outros), Resultado financeiro e Capital de Giro.\n Gestão de metas/resultados.\n KPI’s para diretoria / CFO (G&A, P&L, Resultado financeiro e Capital de Giro).\n Responsável pelas gestão dos gastos de água, Luz e Gás (Aprox. 72 Lojas)\n Responsável pela Gestão de Aluguel e Condomínio de mais de (Aprox. 72 Lojas)\n Gestão de seguros (E&O, D&O, RO e RCG)\n Aplicações financeiras.\n Reembolso de despesas, cartão corporativo e caixinha dos restaurantes.\n Negociações de risco sacado\n \n Company name : Burger King do BrasilCoordenador de contas a receberCoordenador financeiro (Contas a pagar) e CSCAnalista financeiro sênior (CSC e contas a pagar)\n Summary : CSC\n Desenho do projeto CSC (Entrevistas com todas as áreas até a aprovação do projeto - IBM)\n Controle do processo de requisições, pedidos de compra e acompanhamento de entrada de notas (Processo de P2P - procurement to pay).\n Relatórios (KPI) e controles de SLA.\n Mapeamento de possíveis sistemas para automação do CSC (SAP Ariba, RPA`s, Inteligência Aritifical, SAP SuccessFactors, Work Force Softwaree e Service Now).\n Criação de politicas e procedimentos.\n Gestão dos gastos de água, Luz e Gás (6 Lojas)\n Controle de custo no P&L (Ocupação, água, Luz e Gás).\n Provisões (Ocupação, água, Luz e Gás).\n Cadastro e controle dos débitos automáticos.\n Responsável pela Gestão de Aluguel e Condomínio de mais de (6 Lojas).\n Implantação do Leads (Sistema para controle dos custos de ocupação).\n Controle da linha de juros/multa do resultado financeira.\n Implantação de controles/processo para reduzir a inadimplência (Ocupação, água, Luz e Gás).\n Redução significativa nos cortes de água, luz, gás e também no juros/multa.\n \n Contas a pagar\n Responsável pela rotina do contas à pagar.\n Desenho de novos processos de pagamento.\n Atendimento à auditoria.\n Conciliação bancária.\n Acompanhamento e controle dos adiantamentos,\n Acompanhamento do Resultado financeiro (Rebate/tarifas).\n Capital de Giro (PMP).\n Implantação de projetos (SAP) e melhoria de processos.\n \n Job Title : Fluxo de caixa (previsto, previsto x real e realizado).\n Controle e acompanhamento do endividamento e aplicações.\n Responsável pelas projeções a pagar e a receber.\n Movimentação diária das contas.\n Conciliação de vendas (Recebíveis em cartão/dinheiro).\n Fechamento de câmbio;\n Gestão de bloqueios judiciais.\n KPIs (Variações do caixa, crescimento de vendas, endividamento e aplicações).\n Period : jan de 216 - dez de 216\n Summary : Fluxo de caixa (previsto, previsto x real e realizado).\n Controle e acompanhamento do endividamento e aplicações.\n Responsável pelas projeções a pagar e a receber.\n Movimentação diária das contas.\n Conciliação de vendas (Recebíveis em cartão/dinheiro).\n Fechamento de câmbio;\n Gestão de bloqueios judiciais.\n KPIs (Variações do caixa, crescimento de vendas, endividamento e aplicações).\n \n Job Title : Responsável pela rotina do contas à pagar.\n Conciliação bancária.\n Conciliação de vendas (Recebíveis em cartão/dinheiro).\n Fluxo de caixa.\n Ações de Capital de Giro (Prorrogações/Prazos/Antecipações).\n Registo das movimentações no sistema (Classificações/Contabilização).\n Period : nov de 213 - abr de 215\n Summary : Responsável pela rotina do contas à pagar.\n Conciliação bancária.\n Conciliação de vendas (Recebíveis em cartão/dinheiro).\n Fluxo de caixa.\n Ações de Capital de Giro (Prorrogações/Prazos/Antecipações).\n Registo das movimentações no sistema (Classificações/Contabilização).\n \n \n Job Title : Atividade de cobrança (Emissão de boletos, controle de inadimplência, negociação das faturas em aberto, conciliação, e analise de crédito).\n Registo das movimentações no sistema (Classificações/Contabilização).\n Conciliação contábil.\n Experiência na entrega de impostos (DCTF,SEFIP e DACOM).\n Atividades na área de departamento pessoal (Cálculo da folha de pagamento e impostos).\n Period : abr de 21 - jun de 213\n Summary : Atividade de cobrança (Emissão de boletos, controle de inadimplência, negociação das faturas em aberto, conciliação, e analise de crédito).\n Registo das movimentações no sistema (Classificações/Contabilização).\n Conciliação contábil.\n Experiência na entrega de impostos (DCTF,SEFIP e DACOM).\n Atividades na área de departamento pessoal (Cálculo da folha de pagamento e impostos)."
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Period : 214 - 216\n Summary : O curso é focado para profissionais que atuam ou desejam atuar no mercado financeiro em diferentes áreas. O objetivo deste curso é apresentar e discutir ferramentas e modelos para gestão e tomada de decisão econômico-financeira voltada para as áreas de finanças e controladoria de empresas brasileiras, e multinacionais.\n \n School name : Universidade São Judas Tadeu\n Period : 21 - 213\n Summary : O principal objetivo do curso é ensinar o aluno a estabelecer planos de ordem financeira, econômica e administrativa, estudando as variações do mercado financeiro e a viabilidade de projetos comerciais e empresariais. O estuante pode atuar na macroeconomia, analisando as atividades econômicas de um país ou região, ou na microeconomia, trabalhando junto a empresas ou em projetos mais setorizados."
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "cultural",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "58c9bab8-2cc3-45ca-8d79-1276cd28e56f",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*58c9bab8-2cc3-45ca-8d79-1276cd28e56f",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:39.668Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:39.668Z",
+      "linkedinUsername": "carlos-eduardo-henrique-de-falchi-b4800310a",
+      "email": "de.falchi@hotmail.com",
+      "phone": "11979711341",
+      "name": "Carlos Eduardo Henrique de Falchi",
+      "id": "58c9bab8-2cc3-45ca-8d79-1276cd28e56f"
+    },
+    "timeInCurrentStage": 61412034775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.020Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "01/01/1986"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "17000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Matemática",
+          "id": "5ff95e30-3026-4b64-9e19-04a34bbd60d2",
+          "label": "Matemática"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade de São Paulo"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de Finanças e Tesouraria"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de Finanças e Tesouraria\n Company name : Vigor Alimentos\n Period : mai. de 218 – o momento\n Location : São Paulo, São Paulo\n \n Job Title : Analista de Controladoria Sr.\n Company name : Partage Empreendimentos e Participações\n Period : mai. de 215 – mai. de 218\n Location : São Paulo\n \n Job Title : Analista de Projetos Sr.\n Company name : Magazine Luiza\n Period : mai. de 214 – mai. de 215\n \n Job Title : Analista de Controladoria\n Company name : Usina de Laticinios Jussara S/A\n Period : mai. de 212 – mai. de 214\n \n Job Title : Instrutor\n Company name : SENAI SP\n Period : fev. de 21 – dez. de 212\n \n \n Job Title : Assistente Administrativo\n Company name : Ambev\n Period : out. de 25 – fev. de 28\n Location : Franca - SP"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade de São Paulo\n Speciality : Bacharelado em Matemática Aplicada a Negócios\n Period : 28 – 212\n School name : FIPECAFI - Fundação Instituto de Pesquisas Contábeis, Atuariais e Financeiras\n Speciality : Ciências Contábeis, Contabilidade e Finanças\n Period : 216 – 22\n \n School name : Universidade Presbiteriana Mackenzie\n Speciality : Pós-Graduação, Controladoria e Finanças\n Period : 22 – 221"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d18b16b4-b6da-4052-910f-fecfbf58d117",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*d18b16b4-b6da-4052-910f-fecfbf58d117",
+    "talent": {
+      "updatedAt": "2023-12-20T14:04:27.158Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:04:27.158Z",
+      "linkedinUsername": "talissoncastro",
+      "email": "talissonnn@gmail.com",
+      "phone": "",
+      "name": "Talisson de Oliveira Castro",
+      "id": "d18b16b4-b6da-4052-910f-fecfbf58d117"
+    },
+    "timeInCurrentStage": 61412034775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:32.988Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "23/07/1986"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "28000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "6"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "6.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Matemática",
+          "id": "5ff95e30-3026-4b64-9e19-04a34bbd60d2",
+          "label": "Matemática"
+        }
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "inglês: avançado"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Não Diverso"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de tesouraria"
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "eda76e10-3894-45d8-9427-0a4ba4624136",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de tesouraria\n Company name : EloPar\n Period : abr. de 219 – o momento\n Location : Barueri, São Paulo\n \n Job Title : Coordenador de tesouraria\n Company name : EloPar\n Period : ago. de 215 – mar. de 219\n Summary : Gestão e Remuneração do Caixa (controle de entradas e saídas, eficiência de caixa, investimentos, renda fixa, derivativos para fins de hedge, câmbio)\n MIS (reports diários e mensais para a diretoria executiva)\n Projetos\n Contas a receber (processamento, baixa, controle de recebíveis)\n Contabilização de todos os movimentos de conta corrente e de investimentos\n Location : Barueri\n \n Job Title : Coordenador de tesouraria\n Company name : Alelo Brasil\n Period : mai. de 213 – ago. de 215\n Summary : Gestão e Remuneração do Caixa (controle de entradas e saídas, eficiência de caixa, investimentos, renda fixa, derivativos para fins de hedge, câmbio)\n MIS (reports diários e mensais para a diretoria executiva)\n Projetos\n Precificação de clientes (antecipação de recebíveis)\n Contas a receber (processamento, baixa, controle de recebíveis)\n Contabilização de todos os movimentos de conta corrente e de investimentos\n \n \n Job Title : Analista de crédito\n Company name : Itaú Unibanco\n Period : jul. de 21 – mai. de 213\n Summary : Elaboração da política de créditos com o intuito de controle de inadimplência a partir da aprovação/reprovação de clientes\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Líder do Futuro\n Period : Emitido em jul. de 2019 - Nenhuma data de expiração\n Issuing Authority : Crescimentum"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Saint Paul Escola de Negócios\n Speciality : Master of Business Administration - MBA, Finanças\n Period : 215 – 216\n School name : ILAC\n Speciality : Curso, Inglês\n Period : 215 – 215\n School name : Universidade Federal do ABC - UFABC\n Speciality : Mestre, Matemática Computacional e Aplicada\n Period : 28 – 29\n \n School name : UNESP - Universidade Estadual Paulista \"Júlio de Mesquita Filho\"​\n Speciality : Graduação, Licenciatura em Matemática\n Period : 24 – 27"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "244a9ffb-406b-4633-9719-04d85c1374d8",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*244a9ffb-406b-4633-9719-04d85c1374d8",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:59.700Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:59.700Z",
+      "linkedinUsername": "danilo-bellucci-5a5594a1",
+      "email": "danilobellucci@gmail.com",
+      "phone": "11997399723",
+      "name": "Danilo Bellucci",
+      "id": "244a9ffb-406b-4633-9719-04d85c1374d8"
+    },
+    "timeInCurrentStage": 61412034775
+  },
+  {
+    "importedAt": "2024-02-08T18:39:33.074Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "17000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "VA, VR, plano de saúde, plano odontológico"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Economia",
+          "id": "72b9c97c-68f7-40f0-b9d8-7a317f72d545",
+          "label": "Economia"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Presbiteriana Mackenzie"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": "Especialização em Estratégia de Negócios pelo Insper \n MBA em Finanças Corporativas pela FIA"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Treasury Manager"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "Sem filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Gerente de Tesouraria\n Company name : 2W Energia\n Period : jun. de 221 – o momento\n \n Job Title : Gerente de Tesouraria\n Company name : CGG Trading S.A\n Period : jun. de 219 – dez. de 22\n Summary : - Relacionamento com bancos;\n - Reestruturação de dívidas e garantias (fianças, por ex);\n - Project Finance (BNB, BNDES);\n - Planejamento financeiro, gestão e projeção do fluxo de caixa;\n - Contas a pagar e contas a receber;\n - Negociação de câmbio;\n - Seguros (D&O, operacional, garantia, responsabilidade civil, engenharia e outros)\n - Membro do comitê de tesouraria do TEGRAM (consórcio no porto de Itaqui);\n - Processo de M&A, due diligence;\n - Acompanhamento processos de auditoria;\n - Gestão de equipe\n Location : São Paulo, São Paulo\n \n Job Title : Coordenadora de Tesouraria\n Company name : Louis Dreyfus Company\n Period : nov. de 216 – jan. de 219\n Summary : - Relacionamento com mais de 5 bancos no Brasil e no exterior;\n - Negociação de linhas de crédito (>$2bi), incluindo crédito rural, trade finance e project finance/multilateriais (BNDES, FMO, FCO, FMM, IFC);\n - Planejamento financeiro, projeção do fluxo de caixa e reporte internacional de todas as empresas do Brasil;\n - Acompanhamento processos de auditoria;\n - Gestão das garantias (seguro-garantia e fianças)\n - Administração da liquidez e covenants financeiros;\n - Gestão do processo de hedge cambial (chegando a $3bi de nocional);\n - Membro dos comitês de tesouraria das JVs da Dreyfus no Brasil;\n - Gestão de equipe\n Location : São Paulo Area, Brazil\n \n Job Title : Coordenadora de Tesouraria - Brasil e Paraguai\n Company name : Nidera\n Period : out. de 214 – nov. de 216\n Summary : - Relacionamento com mais de 5 bancos e gestão de mais de $1bi de dívida;\n - Negociação dos termos e condições de estruturas de longo prazo (BNDES, Pré-Pagamento de exportações, 4131, NCE, Estruturas com revolvência) e curto prazo como ACCs, Linhas de Crédito Rural, etc;\n - Planejamento financeiro, projeções de fluxo de caixa e análises de 3 empresas do grupo (Brasil, Cingapura e Paraguai) com reportes internacionais;\n - Administração da liquidez e covenants financeiros;\n - Acompanhamento processos de auditoria;\n - Gestão das garantias (seguro-garantia e fianças)\n - Valuation e Análises de viabilidade financeira para compra ou construção (armazéns, terminais portuários, moinhos, contratos de take-or-pay, etc);\n - Gestão de equipe\n Location : Sao Paulo Area, Brazil\n \n Job Title : Analista de Planejamento Financeiro\n Company name : Nidera\n Period : nov. de 212 – out. de 214\n Summary : - Planejamento financeiro, projeções de fluxo de caixa e análises de 3 empresas do grupo (Brasil, Cingapura e Paraguai);\n - Monitoramento da exposição cambial no Brasil, Paraguai e offshore profit centers (BRL, PYG, EUR);\n - Monitoramento de covenants financeiros;\n - Apresentações para o Board, reportes internacionais, e\n - Relatórios de fechamento mensais\n Location : São Paulo, Brazil\n \n Job Title : Analista de Planejamento Financeiro\n Company name : Brvias\n Period : ago. de 21 – jun. de 211\n Summary : - Participação em estruturação de empréstimo-ponte, financiamentos de curto e longo prazos (debêntures, notas promissórias, Finem/ Finame BNDES);\n - Monitoramento do cronograma físico-financeiro, gestão do fluxo de caixa diário e projeções;\n - Monitoramento de covenants financeiros e obrigações gerais previstas nos contratos de concessão;\n - Coordenação de processo de due diligence e obtenção de rating;\n - Negociação de seguros (responsabilidade civil, engenharia, garantia, etc;\n - Apresentações e reportes\n Location : Sao Paulo Area, Brazil\n \n Job Title : Analista de Planejamento Financeiro\n Company name : Santander Brasil\n Period : ago. de 27 – jul. de 21\n Summary : - Participação no budget anual e fechamento mensal dos números das agências do banco e de produtos;\n - Reportes, análises, apresentação de resultados;\n - Projeção de receitas e análises, baseando-se em campanhas de marketing e cenário econômico;\n - Monitoramento mensal da performance de investimentos em “Folhas de Pagamento”\n Location : Sao Paulo Area, Brazil\n \n \n Job Title : Estagiária\n Company name : TOTVS\n Period : ago. de 26 – ago. de 27\n Summary : Suporte à área comercial\n Location : Sao Paulo Area, Brazil\n Company 2: 2W Energia"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Inteligência emocional\n Period : Emitido em mai. de 2021 - Nenhuma data de expiração\n Issuing Authority : Escola Conquer\n Title : HarvardX - Certificado Verificado para Exercising Leadership: Foundational Principles\n Period : Emitido em fev. de 2021 - Nenhuma data de expiração\n Issuing Authority : edX\n \n Title : Certificação ANBIMA - CPA 20\n Period : Emitido em fev. de 2021 - Expira emjan. de 2024\n Issuing Authority : ANBIMA"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : FIA - Fundação Instituto de Administração\n Speciality : Corporate Finance and Investment Banking\n Degree : Master's Degree\n Period : 212 - 214\n \n School name : Insper\n Speciality : Strategic negotiation and conflit resolution\n Degree : Executive education\n Period : 216 - 216\n \n School name : Universidade Presbiteriana Mackenzie\n Speciality : Economy\n Degree : Bachelor's degree\n Period : 26 - 21"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "21e6b502-c609-490e-9f0d-cd21328bb10d",
+    "id": "2ce5c7e0-29cc-4b13-9f84-757887c847a7*21e6b502-c609-490e-9f0d-cd21328bb10d",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:08.602Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:08.602Z",
+      "linkedinUsername": "carolina-copeiro",
+      "email": "carol_copeira@hotmail.com",
+      "phone": "11998389022",
+      "name": "Carolina Copeiro dos Santos",
+      "id": "21e6b502-c609-490e-9f0d-cd21328bb10d"
+    },
+    "timeInCurrentStage": 61412334775
+  }
+]

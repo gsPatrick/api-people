@@ -1,0 +1,2435 @@
+[
+  {
+    "importedAt": "2024-02-08T18:40:08.973Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "31/08/1993"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "4500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "plano de saude, plano odontologico, vale refeição, vale alimentação"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Logo da empresa Centro Federal de Educação Tecnológica Celso Suckow da Fonseca Centro Federal de Educação Tecnológica Celso Suckow da Fonseca"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista PL de Projetos - PCP"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "nenhum"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista PL de Projetos - PCP\n Company name : YDUQS\n Period : mai de 221 - o momento\n Job Title : Analista PL de Gestão de Contratos e Governança\n Company name : SulAmérica\n Period : set de 218 - mar de 221\n Job Title : Analista Jr de Gestão de Contratos e Governança\n Company name : SulAmérica\n Period : set de 215 - ago de 218\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Analista Jr de Processos\n Company name : SulAmérica\n Period : mai de 215 - ago de 215\n Location : Rio de Janeiro e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Gerenciamento de Projetos\n Degree : Pós-graduação Lato Sensu\n Period : set de 22 - ago de 221\n School name : Centro Federal de Educação Tecnológica Celso Suckow da Fonseca\n Speciality : Administração de Empresas\n Degree : Bacharelado em Administração\n Period : 211 - 217\n Summary : Nota: Conteúdo acadêmico direcionado à Administração Industrial\n School name : Fundação Getulio Vargas\n Speciality : Gestão da qualidade e processos\n Degree : Curso\n School name : Grupo Voitto\n Speciality : Green Belt em Lean Six Sigma\n Degree : Especialista\n School name : Keep Learning School\n Speciality : Reaprendizagem criativa\n Degree : Curso\n School name : Sputnik\n Speciality : Métodos Lean - Agile\n Degree : Curso\n School name : Dan Cockerell - Disney\n Speciality : Liderança mágica\n Degree : Curso\n School name : Conversare Lab\n Speciality : Método Lego Serious Play - Incentivo ao pensamento criativo\n Degree : Curso"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "6f73e386-8c75-4e09-95c0-25a055165611",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*6f73e386-8c75-4e09-95c0-25a055165611",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:13.689Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:13.689Z",
+      "linkedinUsername": "larissa-barbosa-cardoso-5897177b",
+      "email": "larissabc.1@gmail.com",
+      "phone": "21991664757",
+      "name": "Larissa Barbosa Cardoso",
+      "id": "6f73e386-8c75-4e09-95c0-25a055165611"
+    },
+    "timeInCurrentStage": 61412108141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.872Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "19/07/1989"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "10300"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Redes Computacionais",
+          "id": "3bd8dafe-1800-4e3c-8c3b-75a058646a5a",
+          "label": "Redes Computacionais"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista Senior de Governança de TI"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista Senior de Governança de TI\n Company name : Azul Seguros\n Period : dez de 22 - o momento – dez de 22 - o momento\n Summary : Elaborar os processos e documentações de governança em conjunto com equipe de TI\n voltados para melhores práticas de gestão dos serviços: de incidentes, de problemas, de\n mudanças, de ativos, de risco, dentre outros.\n • Atuar ativamente na disseminação da cultura de Governança de TI na organização.\n • Criar e garantir planos de gestão de crise e gestão de mudança.\n • Mapear falhas em processos e atuar nas melhorias.\n • Gerenciar os ativos e contratos de TI da empresa.\n • Garantir a compliance dos processos de TI.\n • Responder as auditorias internas e externas.\n • Desenvolver e manter os indicadores estratégicos.\n • Capacitar e orientar os times internos quanto as práticas e processos definidos.\n • Criar e garantir o plano de continuidade do negócio.\n • Gerenciar todo o processo de gestão do orçamento de TI e execução.\n • Dar suporte à manutenção dos processos dentro da plataforma corporativa da\n Atlassian.\n \n Plataformas utilizadas: Jira Software, Jira Service Desk, Confluence, bitbucket e\n Bamboo, Bizagi, Eazy BI e Power BI.\n Location : Rio de Janeiro, Brasil\n \n Job Title : Especialista de Governança de TI no Senac Departamento Nacional\n Company name : Senac RJ\n Period : ago de 22 - dez de 22 – ago de 22 - dez de 22\n Summary : Planejar e acompanhar a execução dos projetos de Tecnologia da Informação;\n Elaborar orçamento dos projetos e acompanhar a execução reportando aos gestores;\n Implantar e manter ferramentas para gestão de projetos;\n Monitorar e analisar os indicadores de acompanhamento, desempenho e resultados dos\n projetos;\n Conduzir interfaces com as áreas envolvidas nos projetos;\n Identificar os riscos e estudar formas de mitigar impactos e correção das ações;\n Conduzir revisões pós-gerenciamento do projeto(lições aprendidas);\n Preparar relatórios periódicos de acompanhamento, bem como sistematizar e documentar os\n resultados dos projetos da área;\n Disseminar e revisar políticas, normas, processos e procedimentos de Tecnologia da\n Informação;\n Criar, revisar e propor novas soluções com foco na melhoria contínua dos serviços e resultados\n da área;\n Elaborar, emparceria com a gestão ,o plano diretor de Tecnologia da Informação;\n Acompanhar e analisar os indicadores de execução do plano diretor de Tecnologia da\n Informação, reportando os resultados a gerência;\n Location : Rio de Janeiro, Brasil\n \n Job Title : Especialista de Tecnologia II - Analista de BI\n Company name : Rede Globo\n Period : jan de 22 - ago de 22 – jan de 22 - ago de 22\n Summary : Preparação e condução de apresentações de análises críticas da carteira de projetos para debate executivo junto ao board da Tecnologia do Grupo Globo;\n Elaboração e monitoramento de reports, estudos e KPIs, de natureza proativa ou requisitada, contendo análises referentes ao comportamento dos Projetos de Tecnologia do Grupo, utilizando métodos e técnicas estatísticas; Geração de dashboards com base nos estudos realizados, utilizando a ferramenta Microsoft Power BI e técnicas de Storytelling para facilitar o consumo dos dados por toda empresa; Identificar necessidades, interagir e fornecer insights às áreas de Tecnologia, com informações analíticas (descritivas, preditivas e prescritivas) possibilitando a melhoria da gestão e tomada de decisão; Construção e monitoramento de Data Quality, de modo a possibilitar análises adequadas acerca dos dados gerados.\n \n Job Title : Especialista em Tecnologia I\n Company name : Rede Globo\n Period : out de 218 - jan de 22 – out de 218 - jan de 22\n Summary : Atividades - Identificar processos cruciais a partir da estratégia definida pela gestão, estabelecendo graus de maturidade a serem alcançados, a fim de otimizar a produtividade do setor;\n Resolver problemas de negócios usando técnicas orientadas por dados;\n Criação de Dashboards utilizando Power BI;\n Identificar e corrigir desperdícios nos sistemas de processos;\n Definir e formalizar processos;\n Definir indicadores estratégicos;\n Analisar oportunidades de automação de processos;\n Garantir o contínuo alinhamento do portfólio de serviços da área de suporte a sistemas de TV com as necessidades atuais da TVG;\n Assegurar a melhoria contínua dos processos;\n Implementar, gerenciar e manter os processos estabelecidos;\n Location : Rio de Janeiro\n \n Job Title : Consultora de TI\n Company name : Logicalis Brasil\n Period : mar de 216 - out de 218 – mar de 216 - out de 218\n Summary : Atividades: 1) mapear processos de negócio com o objetivo de facilitar a automação destes processos através do desenvolvimento de sistemas de informação; 2) mapear, implementar e gerir processos dentro do departamento de TI, para permitir uma gestão de performance orientada a processos;\n 3) pesquisa, coleta e organização de informações qualitativas e quantitativas relacionadas ao mercado, cliente fornecedores ou tecnologias; 4) Realização de entrevistas, preparação de documentação e apresentação com análises estruturadas. Atualmente prestando serviço de governança corporativa.\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Analista de Projetos - Processos\n Company name : Central IT - Governança Corporativa\n Period : abr de 214 - out de 215 – abr de 214 - out de 215\n Summary : Analista de Projetos Pleno : Profissional da área de Tecnologia da Informação, com grande experiência em:\n - Gerenciamento de Projetos com metodologia PMI\n -Certificação: ITIL Foundation v3 - Analista de Processos ITIL (Gerência de Liberações e Mudanças / Gerência de Crises) – Análise e monitoramento de mudanças em sistemas, análise de pontos críticos, impactos e janelas de implantação;\n - Medir e acompanhar os indicadores de desempenho dos projetos;\n - Analisar e consolidar os Status Reportes do portfólio de projetos;\n - Prover visibilidade sobre o desempenho dos projetos para a alta direção;\n - Controlar os custos dos projetos (orçado x realizado);\n - Assegurar o planejamento, execução e encerramento dos projetos de acordo com a metodologia de Gestão de Projetos;\n -Prover mentoring e coaching aos Líderes de Projetos na utilização da metodologia e ferramentas de Gestão de Projetos;\n - Manter o repositório de dados dos projetos atualizados;\n - Monitorar melhores práticas de gerenciamento de projetos como base para inovação da metodologia de Gestão de Projetos;\n Location : Rio de Janeiro - INTO"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Power BI Experience\n Period : Emitido em ago de 2020-Sem data de expiração\n Issuing Authority : Power BI Experience | Leonardo Karpinski\n \n \n \n \n \n \n \n \n \n \n \n \n \n Title : Lifelong Learning\n Period : Emitido em ago de 2020-Expira em ago de 2022\n Issuing Authority : CertiProf"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Estácio\n Speciality : Gestão de Projetos\n Degree : Pós Graduação\n Period : 214 - 216\n \n School name : Universidade Federal Fluminense\n Speciality : Análise de Sistemas de Computação\n Degree : Analise de Sistemas de Computação\n Period : 213 - 216\n \n School name : Estácio\n Speciality : Rede de Computadores\n Degree : Tecnólogo\n Period : 212 - 214\n \n School name : Instituto de Tecnologia ORT\n Speciality : Informática\n Degree : Tecnico em Informática\n Period : 25 - 27\n Courses: Title : Analista de Negócios; Title : BPMN; Title : COBIT 5"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "9b73bc63-a940-4077-a0c0-4c78da92e6d1",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*9b73bc63-a940-4077-a0c0-4c78da92e6d1",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:58.317Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:58.317Z",
+      "linkedinUsername": "lucianagonzalezrocha",
+      "email": "lucianagonzalez@outlook.com",
+      "phone": "21994676063",
+      "name": "Luciana Gonzalez",
+      "id": "9b73bc63-a940-4077-a0c0-4c78da92e6d1"
+    },
+    "timeInCurrentStage": 61412108141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:09.273Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "02/09/1993"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "7000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "plano de saude, vale refeicao bem baixo de 1 reais por mes, participacao de resultado mas ainda"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade do Estado do Rio de Janeiro / UERJ"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Métodos e Processos Pleno"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Métodos e Processos Pleno\n Company name : americanas s.a\n Period : jul de 221 - o momento\n Job Title : Analista de Métodos e Processos\n Company name : americanas s.a\n Period : jan de 22 - jul de 221\n Summary : • Gestão do Programa interno Lean Seis Sigma da companhia:\n - Consultoria nos projetos Green Belt utilizando metodologia DMAIC.\n - Estruturação de turmas de Green, Black e Yellow Belt.\n • Consultoria interna em projetos e processos da companhia na utilização de ferramentas e métodos (Mapeamento de Processos, PDCA, A3, Ferramentas da Qualidade e Lean)\n • Capacitação e elaboração de treinamentos voltados para excelência operacional\n • Realização de parcerias com Instituições de Ensino brasileiras e Estrangeiras para desenvolvimento de soluções e benchmark do negócio\n Job Title : Coordenador de Manutenção\n Company name : DHL Supply Chain\n Period : fev de 219 - ago de 219\n Location : Itatiaia, Rio de Janeiro\n Job Title : Estagiário\n Company name : DHL Supply Chain\n Period : fev de 218 - jan de 219\n Summary : •Governança Operacional – Desenvolvimento de ferramenta para medir, monitorar e gerir o nível de governança das agendas de todos os níveis hierárquicos do site para reporte da direção e gerência.\n •OMS (Operations Management System) – Ajudar o site a alavancar sua performance, a fim de cumprir e maximizar seu potencial de forma consistente, reduzindo as variações através das definições de padrões de mudança comportamental e gestão da rotina.\n Location : Itatiaia, Rio de Janeiro\n Job Title : Estagiário\n Company name : Groupe PSA\n Period : fev de 216 - fev de 218\n Summary : •Schéma Director - Análise, validação e acompanhamento de planejamento de Investimentos Industriais. Pilotagem de performance econômica de investimentos e contratos. Validação de Requisições de Compras, Pedidos de Compras e Demandas de Investimentos de acordo com o assinado em contrato, legislação da empresa e brasileira. Geração de relatórios de Investimentos e Ativos para Direção da Planta e América Latina. Estudos e Cálculos de Superfície do site para alcance de compactação de equipes e ganhos de custos fixos de energia, água e contratos de limpeza.\n Location : Resende e Região, Brasil\n Job Title : Estagiário Voluntário\n Company name : Universidade do Estado do Rio de Janeiro\n Period : ago de 215 - fev de 216\n Summary : •Voluntário no projeto de Mapeamento de Processos e Simulação, foi realizado o estudo em um dos módulos da empresa Carboox para mapear os processos, definir padrões das operações, cronoanálise, identificação de gargalos, oportunidades e caminho crítico, cálculo e simulação de produtividade.\n Location : Resende e Região, Brasil\n Job Title : Estagiário Bolsista\n Company name : Universidade do Estado do Rio de Janeiro\n Period : ago de 214 - ago de 215\n Summary : •Bolsista na Seção Técnica responsável por auxílio ao corpo de engenheiro e arquiteta do Campus para estudar a viabilidade de projetos na faculdade. Medição e atualização das plantas eletrônicas do campus, estudo da capacidade de refrigeração e iluminação de salas, geração de planilhas para previsão de gastos com aquisição novos ativos e mobiliários para ampliação do Campus, contato com fornecedores de materiais de obra.\n Location : Resende"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "DC, MBA, CA"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Fundação Getulio Vargas\n Speciality : Gestão de Projetos\n Degree : Master of Business Administration - MBA\n Period : 22 - 222\n School name : Universidade do Estado do Rio de Janeiro\n Speciality : Engenharia de Produção\n Degree : Bacharelado em Engenharia\n Period : 213 - 218\n Summary : Estudante cursando Engenharia de Produção na Universidade do Estado do Rio de Janeiro - UERJ - Campus Resende - Faculdade de Tecnologia - FAT.\n Courses: Title : APQP - Advanced Product Quality Planning; Title : Green Belt; Title : Lean Manufacturing"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "ff92d7b1-0a9a-48e0-a8a1-87df9be1bc8f",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*ff92d7b1-0a9a-48e0-a8a1-87df9be1bc8f",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:35.194Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:35.194Z",
+      "linkedinUsername": "lucas-parente-a-c-ferreira-9979496a",
+      "email": "lucasparente_02@hotmail.com",
+      "phone": "21998030068",
+      "name": "Lucas Parente A. C. Ferreira",
+      "id": "ff92d7b1-0a9a-48e0-a8a1-87df9be1bc8f"
+    },
+    "timeInCurrentStage": 61412408141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:09.333Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "13000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0.1"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "plano de saude, plano odontologico, vale refeição, vale alimentação"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia civil",
+          "id": "9556216e-65f1-4fb6-b9a8-a919194e751a",
+          "label": "Engenharia civil"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Puc-Rio"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Project Coordinator"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Project Coordinator\n Company name : Radix Engenharia e Software\n Period : jan de 222 - o momento\n Summary : Project coordinator located in the client (SBM) on Change Management Team: Coordination and follow-up of the Change Management process and activities for 7 FPSOs. Provide guidelines for Operations team and support on decision taking, conduct risk analysis assessments, follow-up budget and EPC steps from each query or change request\n Location : Rio de Janeiro, Brazil\n Job Title : 3rd party Project Coordinator\n Company name : SBM Offshore\n Period : jan de 222 - o momento\n Summary : 3rd party hired fulltime for Coordination and follow-up of the Change Management process and activities for 7 FPSOs. Provide guidelines for Operations team and support on decision taking, conduct risk analysis assessments, follow-up budget and EPC steps from each query or change request\n Location : Rio de Janeiro, Brazil\n Job Title : Project Planning and Control Engineer\n Company name : Kerui Método Construção e Montagem\n Period : mar de 22 - jan de 222\n Summary : Responsible for planning and control the Skids Assembly, Commissioning and Measurement with client Petrobras.\n Responsible for multidisciplinary measurement (GITEC system)\n Coordinate Measurement team and activities of a USD 8 million contract (Exchange Rate from contract signature on Jul/218).\n Location : Itaboraí, Rio de Janeiro, Brazil\n Job Title : Project Planning and Control Engineer\n Company name : Kerui Método Construção e Montagem\n Period : jul de 219 - mar de 22\n Summary : Resident Planning and Project Control Engineer at BJCHI facilities (Thailand), following up the fabrication of 66 skids of the Natural Gas Processing Unit (UPGN-Comperj), expediting activities, supporting on all related areas from planning to procurement, engineering, construction, delivery and logistics, controlling progress, measurements, costs, contractual issues and others.\n Location : Rayong, Thailand\n Job Title : Planning and Project Control Engineer\n Company name : Kerui Método Construção e Montagem\n Period : nov de 218 - jul de 219\n Summary : Responsable for planning and monitoring the activities of the fabrication of 66 skids.\n The project required skills for coordinating and integrating different areas such as engineering, expediting, fabrication, quality, comissioning and contractual admnistration.\n Location : Rio de Janeiro, Rio de Janeiro, Brazil\n Job Title : Planning and Project Control Engineer\n Company name : Kerui Método Construção e Montagem\n Period : jul de 218 - nov de 218\n Summary : PPCP, monthly activity planning ang monitoring, programming jobcards, man power, histogram, KPIs\n Location : Rio de Janeiro, Rio de Janeiro, Brazil\n Job Title : Intern\n Company name : Cerne Engenharia e Projetos\n Period : nov de 215 - mar de 216\n Summary : Civil engineering intern working on structural analysis, calculation and verification\n Job Title : Internship\n Company name : Odebrecht Realizações Imobiliárias\n Period : set de 213 - ago de 214\n Summary : Construction of the Athlete’s Village during the 216 Olympics, consists of seven condominiums with 31 buildings and 3,64 apartments in total on around 8, square meters.\n Working with Engineering coordination.\n Location : Rio de Janeiro Area, Brazil\n Job Title : Operations\n Company name : Disney Parks & Resorts\n Period : nov de 212 - fev de 213\n Summary : -Multitasking and solving problems quickly\n -Dealing with different people and cultures\n -Reciting memorized spiels to large groups\n -Operating attractions while providing a safe and enjoyable experience for Guests and Cast\n -Dispatching ride vehicles, also safely loading and unloading Guests\n -Providing direction to evacuate rides\n -Answering questions and being responsive to special needs and requests\n -Assisting with Entertainment Parade Guest Control\n Job Title : Teaching Assistant\n Company name : PUC-Rio\n Period : jan de 212 - dez de 212\n Summary : Teaching technical drawing for engineering students using AutoCAD\n Company 2: SBM Offshore"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Pontifícia Universidade Católica do Rio de Janeiro\n Degree : Civil Engineering\n Period : 21 - 216\n School name : Fundação Getulio Vargas\n Speciality : Project Management\n Degree : Executive MBA"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d17cdd88-e872-40e3-ae8b-eef02094b80e",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*d17cdd88-e872-40e3-ae8b-eef02094b80e",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:44.889Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:44.889Z",
+      "linkedinUsername": "bruna-mello-costa-877827b1",
+      "email": "brunamelloc@hotmail.com",
+      "phone": "21983577777",
+      "name": "Bruna Mello Costa",
+      "id": "d17cdd88-e872-40e3-ae8b-eef02094b80e"
+    },
+    "timeInCurrentStage": 61412108141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.931Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Governança Corporativa"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Governança Corporativa\n Company name : Vale\n Period : out. de 22 – o momento\n Location : Rio de Janeiro, Brasil\n \n Job Title : Consultor\n Company name : Visagio\n Period : out. de 217 – out. de 22\n Summary : Atuação em projetos de núcleo de transformação, geração de valor, gente e gestão, excelência comercial e apoio ao turnaround em empresas de diversos tamanhos nos setores de comércio exterior, outsourcing de serviços, biotecnologia e mineração, liderando o diagnóstico e desenho de estratégias e ações de melhorias organizacionais até a implantação e operacionalização das soluções. Experiência na aplicação de conceitos de engenharia de processos de negócios, de governança corporativa, técnicas de gestão de projetos, análise estatística de dados, desenvolvimento de ferramentas de simulação, previsão de demanda, otimização e de apoio à decisão de negócios, definição e acompanhamento de indicadores e metas e mapeamento de processos. Participação em diversas frentes de trabalho internas.\n \n Job Title : Consultor de Projetos\n Company name : Fluxo Consultoria\n Period : fev. de 217 – ago. de 217\n Summary : Execução de projetos referentes a área de otimização da produção, modelagem de processos, análise sistêmica por ferramentas lógicas e criação de indicadores.\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Gerente de Projetos\n Company name : Fluxo Consultoria\n Period : set. de 216 – fev. de 217\n Summary : Gerenciar projetos referentes às áreas de otimização da produção industrial e de gestão e criação de novos negócios.Na Fluxo Consultoria, o gerente é o principal responsável pela boa execução do projeto, cumprimento de prazos, organização da equipe e qualidade nas entregas do projeto.São atribuições do gerente:A manutenção de um contato honesto e transparente com os clientes; A liderança a equipe, que conta com estagiários, membros projetistas, diretores, orientadores, assessores administrativo financeiros, assessores de projetos e assessores de gestão de pessoas;A elaboração de documentos como cronograma, análise de riscos, questionário de diagnóstico do projeto e proposta técnica e comercial, bem como o contrato; Garantia de aprendizado para todos os envolvidos com o projeto.\n \n Job Title : Assessor de Marketing\n Company name : Fluxo Consultoria\n Period : set. de 216 – fev. de 217\n Summary : Responsável pela área de divulgação digital e relacionamento da empresaNa Fluxo Consultoria, o assessor de marketing é responsável pela chegada de projetos, divulgação da Empresa, relacionamento com clientes e prospecção de parcerias. São atribuições do assessor de marketing:Acompanhamento de performance de Marketing Digital usando o Google Analytics;Administração de campanhas e anúncios do Google AdWords;Gerenciamento de uma base de Leads e prospecção de projetos através da ferramenta RD Station;Desenvolvimento do Site da Empresa e aperfeiçoamento do SEO (Search Engine Optimization) da Fluxo;Criação de Conteúdo próprio e geração de engajamento em redes sociais;Realização de pesquisas anuais da imagem da empresa perante alunos e instituições da UFRJ (Imagem Fluxo)Estruturação de Análises periódicas dos segmentos de clientes atendidos pela Fluxo;Contato com clientes da Fluxo, a fim de acompanhar a qualidade das entregas e avaliar o desempenho da Empresa, segundo a metodologia NPS (Net Promoter Score);Análises Periódicas de PSCs (pesquisas de satisfação de clientes) segmentadas por engenharia.\n \n \n Job Title : Estudante de Iniciação Científica\n Company name : LNDC - Laboratório de Ensaios Não-Destrutivos, Corrosão e Soldagem\n Period : dez. de 215 – mar. de 216"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Competências profissionais, emocionais e tecnológicas para tempos de mudança\n Period : Emitido em abr. de 2021 - Nenhuma data de expiração\n Issuing Authority : PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul\n Title : Desenvolvendo Times de Alta Performance\n Period : Emitido em abr. de 2021 - Nenhuma data de expiração\n Issuing Authority : Escola Nacional de Administração Pública ENAP\n \n Title : Gestão de Conflitos e Negociação\n Period : Emitido em abr. de 2021 - Nenhuma data de expiração\n Issuing Authority : Escola Nacional de Administração Pública ENAP"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Federal do Rio de Janeiro\n Speciality : Bacharelado em Engenharia, Engenharia de Produção\n Period : 214 – 219\n Summary : O curso de Engenharia de Produção da Escola Politécnica da UFRJ permite o diplomado a atuar no planejamento, projeto, implantação, avaliação e controle de sistemas de produção, baseando-se em conhecimentos especializados das ciências matemáticas, físicas e sociais, em conjunto com os princípios e métodos de análise e de projeto, buscando integrar harmoniosamente homens, máquinas, equipamentos e meio ambiente.O currículo contempla as áreas de Gerência de Produção, Economia e Engenharia Econômica, Métodos Quantitativos, Informática e Automação Industrial, Tecnologias Básicas e Ciências Sociais.\n \n School name : Colégio Pedro II\n Speciality : Ensino Fundamental e Médio, Bacharelado em Ciências e Letras\n Period : 26 – 212\n Summary : Grupo de Teatro, Fotografia, Comissão do Show de Talentos e Grêmio Estudantil"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "5b6748fb-7705-4081-acfb-a06612dbc4ed",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*5b6748fb-7705-4081-acfb-a06612dbc4ed",
+    "talent": {
+      "updatedAt": "2023-12-20T13:57:57.837Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:57:57.837Z",
+      "email": "importacao11048@importacaoinhire.com",
+      "phone": "",
+      "name": "Vicenzzo Paiva",
+      "id": "5b6748fb-7705-4081-acfb-a06612dbc4ed"
+    },
+    "timeInCurrentStage": 61413008141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.802Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "03/06/1997"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "4500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "auxilio alimentacao e plano de saude"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciência da Computação",
+          "id": "31170328-4766-43ac-b200-830fbc8bd302",
+          "label": "Ciência da Computação"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "anhanguera educacional"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de métodos e processos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de métodos e processos\n Company name : americanas s.a\n Period : abr de 222 - o momento\n Summary : Elaboração de Dashboards para Gestão à Vista utilizando Power BI;\n Análise e acompanhamento de indicadores;\n Implementação da melhoria contínua e utilização de ferramentas da Qualidade;\n Análise de contratos e negociação comercial com fornecedores para melhoria dos processos;\n Location : Rio de Janeiro, Brasil\n Job Title : Assistente administrativo\n Company name : americanas s.a\n Period : nov de 216 - abr de 222\n Summary : Preparação e aplicação de treinamentos e material de apoio;\n Mapeamento e modelagem de processos (metodologia BPMN);\n Desenvolvimento de relatórios e apresentações gerenciais;\n Participação no mapeamento da Jornada do Cliente e melhoria dos processos;\n Apoio à TI para projetos de automação de processos;\n Projeto Yellow Belt.\n Location : Rio de Janeiro, Brasil\n Job Title : Assistente de atendimento ao cliente\n Company name : americanas s.a\n Period : fev de 217 - dez de 22\n Summary : Atendimento telefônico ao cliente;\n Emissão de comprovantes fiscais;\n Resposta aos E-mails dos consumidores;\n Gestão das Mídias Sociais (Whatsapp, Facebook, Twitter, Instagram, Reclame aqui);\n Tratamento de chamados internos;\n Apoio aos gestores na elaboração de Planos de Ação;\n Treinamento de novos Jovens Aprendizes."
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Anhanguera Educacional\n Speciality : Ciência da Computação\n Degree : Bacharelado\n Period : jan de 216 - dez de 219\n Summary : Atividades e grupos: Monitor de classe, Anhanguera em Família, Atividade de Responsabilidade Social, Evento Semana da Computação, Giro de Profissões, Jornada da Ciência da Computação.\n School name : Serviço Nacional de Aprendizagem Industrial\n Speciality : Tecnologia em Mecânica Industrial\n Degree : Ensino Técnico\n Period : abr de 214 - fev de 216\n Summary : Atividades e grupos: Tornearia, Fresadora, Retífica, Soldagem, AutoCad, Visita técnica, Certificado de 3º lugar nas olimpíadas de tornearia CNC 215."
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "4d9f866f-6f0c-4ba3-8ba9-6cb1e28a62ad",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*4d9f866f-6f0c-4ba3-8ba9-6cb1e28a62ad",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:12.249Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:12.249Z",
+      "linkedinUsername": "gabriel-alexandre-60446214b",
+      "email": "galex87@hotmail.com",
+      "phone": "21985301545",
+      "name": "Gabriel Alexandre",
+      "id": "4d9f866f-6f0c-4ba3-8ba9-6cb1e28a62ad"
+    },
+    "timeInCurrentStage": 61412108141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:09.401Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Jornalismo",
+          "id": "d9e2b354-001c-4e70-822e-219f7ab9a9f4",
+          "label": "Jornalismo"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Change Management Sr"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Change Management Sr\n Company name : Itaú Unibanco\n Period : jan de 22 - o momento – jan de 22 - o momento\n Summary : * Trabalho lado a lado com as equipes de projetos de TI garantindo a preparação e a estratégia de gestão de mudanças;\n * Desenvolvimento de programas de treinamento, planos de comunicação e todos os recursos necessários para uma mudança bem-sucedida;\n * Apoio e oriento líderes para inspirar os movimentos de transformação e gerenciar os impactos das mudanças;\n * Realização de pesquisas e diagnósticos de engajamento e satisfação dos colaboradores durante as etapas de mudança;\n * Evolução dos processos, ferramentas e frameworks de change management junto aos meus pares, a fim de evoluir nosso modelo de trabalho e a disciplina de gestão das mudanças na organização.\n Location : Brazil\n \n Job Title : Consultora de Change Management e Comunicação\n Company name : UCM Business Solutions\n Period : jul de 219 - jan de 22 – jul de 219 - jan de 22\n Summary : Prestação de consultoria de change management com foco em projetos de transformação digital.\n * Mapeamentos de: As Is - To be (From - To), stakeholders, change network, riscos e impactos;\n * Aplicação de diferentes metodologias de change management à frameworks ágeis;\n * Gestão de stakeholders;\n * Planejamento estratégico de comunicação;\n * Análise e mitigação de riscos e impactos;\n * Construção e análise de indicadores;\n * Condução de treinamentos técnicos e formação de multiplicadores.\n » Principais clientes atendidos: JDE, Diageo e Unilever;\n » Condução de treinamentos para mais de 1.2 promotores de cliente varejista em\n diferentes cidades do Brasil.\n Location : São Paulo\n \n Job Title : Analista de Comunicação Sr\n Company name : Companhia Brasileira de Aluminio\n Period : ago de 218 - dez de 218 – ago de 218 - dez de 218\n Summary : * Gestão dos canais de comunicação;\n * Desenvolvimento e execução de planos de comunicação de abrangência nacional;\n * Líder do projeto de implantação do Workplace.\n Location : Alumínio, São Paulo\n \n Job Title : Analista de Comunicação e Gestão da Mudança Sr\n Company name : KPMG Brasil\n Period : jul de 217 - jul de 218 – jul de 217 - jul de 218\n Summary : * Desenvolvimento de planos de comunicação para projetos de Gestão da Mudança;\n * Produção de conteúdos para mídias internas;\n * Realização de eventos internos e disseminação de projetos globais;\n * Atualização e produção de conteúdo para intranet (SharePoint);\n * Condução do projeto de estruturação da marca empregadora e ações de employer branding;\n * Organização e condução de eventos relacionados à marca empregadora.\n Location : São Paulo, São Paulo\n \n Summary : Principais projetos:\n \n - Conhecendo a Alatur JTB\n Projeto realizado utilizando técnicas de gamification com o objetivo de promover a integração entre as áreas, o conhecimento sobre os diferentes departamentos da empresa e reforçar o senso de pertencimento.\n Resultados: adesão de 3% do quadro de funcionários; envolvimento de 21 áreas, 85% de satisfação.\n \n - Programa Up – Superando as Expectativas\n Programa pautado pelo reconhecimento à qualidade de prestação de serviços internos e externos.\n Resultados: Mais de 4 elogios publicados nos anos de 215 e 216; mais de 1 funcionários premiados em 216.\n \n - Guia do Colaborador\n Criação de uma pronta referência com todas as informações relacionadas a histórico, missão, visão, valores, normas e procedimentos da empresa. Entregue em versão impressa a todos os novos funcionários e em versão digital (revisada anualmente) disponível a todos.\n \n - Treinamento de Comunicação para Liderança\n \n - Implantação do Yammer (rede social corporativa)\n \n Principais atividades:\n * Responsável pela reestruturação, definição de estratégia e planejamento do departamento de comunicação interna;\n * Elaboração de campanhas de endomarketing e eventos internos;\n * Produção de conteúdo para todas mídias internas (vídeo, texto, ilustrações);\n * Implantação do projeto de rede social interna (Yammer) e TV Corporativa;\n * Gestão de budget e monitoramento de indicadores;\n * Gestão de dois analistas (júnior e pleno).\n \n Alguns resultados:\n * Incremento de 3% nos acessos à newsletter interna;\n * Índice satisfação superior a 83% em todas as edições da revista trimestral;\n * 75% de satisfação nas ações de comunicação para liderança;\n * 85% de satisfação com o projeto “Conhecendo a AJ”, relacionado à integração e engajamento."
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Professional certifications: CM, CM\n Certifications: Title : Gestão de produtos digitais: Product Discovery\n Period : Emitido em set de 2021-Sem data de expiração\n Summary : Código da credencial 754ac2b0-5940-46c0-8b90-8a5cc783611f\n Issuing Authority : Alura\n \n \n \n Title : Prosci® Certified Change Practitioner\n Period : Emitido em mai de 2021-Sem data de expiração\n Issuing Authority : Prosci\n \n \n \n \n \n Title : Content Marketing Fundamentals\n Period : Emitido em fev de 2017-Sem data de expiração\n Issuing Authority : LinkedIn\n \n Title : Public Speaking Fundamentals\n Period : Emitido em jan de 2017-Sem data de expiração\n Issuing Authority : LinkedIn\n \n Title : Strategic Planning Fundamentals\n Period : Emitido em jan de 2017-Sem data de expiração\n Issuing Authority : LinkedIn\n \n \n \n Title : Facebook Marketing\n Period : Emitido em mai de 2015-Sem data de expiração\n Issuing Authority : ComSchool\n \n \n \n Title : Especialista em Produção de Conteúdo\n Period : Emitido em jun de 2018-Expira em jun de 2019\n Issuing Authority : Rock Content"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : MBA USP/Esalq\n Speciality : Digital Transformation\n Degree : MBA Digital Business\n Period : out de 221 - jul de 223\n \n School name : Universidade Anhembi Morumbi\n Speciality : Comunicação Corporativa\n Degree : Pós-graduação\n Period : fev de 216 - dez de 217\n \n School name : Universidade de São Paulo\n Speciality : Campo de Públicas\n Degree : Gestão de Políticas Públicas\n Period : 211 - 215\n \n School name : Instituto Politécnico de Coimbra\n Degree : Administração e Finanças\n Period : fev de 213 - ago de 213\n \n School name : ATC Language School (Bray, Ireland)\n Speciality : Idiomas\n Degree : English\n Period : 213 - 213\n \n School name : Universidade São Judas Tadeu\n Speciality : Jornalismo\n Degree : Bacharel\n Period : 27 - 21\n Courses: Title : Comunicação Digital Empresarial; Title : Comunicação Interna - Como engajar funcionários por meios eficientes; Title : Comunicação de Liderança"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "09ebb02a-3040-4228-a0df-3685502c287e",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*09ebb02a-3040-4228-a0df-3685502c287e",
+    "talent": {
+      "updatedAt": "2023-12-20T14:04:12.304Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:04:12.304Z",
+      "linkedinUsername": "patssilva",
+      "email": "patriciasantos057@gmail.com",
+      "phone": "11987265226",
+      "name": "Patrícia Silva",
+      "id": "09ebb02a-3040-4228-a0df-3685502c287e"
+    },
+    "timeInCurrentStage": 61412108141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:09.436Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "03/12/1982"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "4000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "plano de saude, plano odontologico, vale alimentação"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Federal Fluminense / UFF"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Consultor de projetos de TI"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2 filhos (13 e 3)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Consultor de projetos de TI\n Company name : Enel Brasil\n Period : out de 22 - o momento\n Summary : •Responsável por garantir a governança do projeto, gerenciar cronogramas, garantir a organização e conduzir os ciclos desde a concepção até a implantação dos projetos (Go live);\n •Forte atuação na conexão entre as áreas de Negócio, Gerentes de Projeto, Escritório de Projetos, Gestão da Mudança (GMO), Desenvolvimento e demais stakeholders do projeto;\n •Condução de Daily;\n •Coordenação de reuniões de Status Report, Desenvolvimento de Dashboards e Materiais para monitoramento dos resultados e suporte na tomada de decisão;\n •Responsável pela estruturação do Plano de Cutover junto a área de Negócio;\n •Atuação em discussões de alto nível com pensamento crítico para ajudar os líderes a identificar pontos críticos e elaborar planos de ação para resolver os problemas e maximizar os resultados nos projetos de Transformação Digital e Inovação ativos na organização;\n •Responsável por criar e manter atualizada a documentação, planos e relatórios do projeto;\n •Responsável por monitorar o progresso do projeto atuando como ponto de contato para comunicar as partes interessadas sobre a situação do projeto;\n •Responsável por gerenciar as aquisições do projeto;\n •Elaboração, atualização e disseminação das melhores práticas provenientes de Relatórios de Lições Aprendidas;\n •Capacidade de realizar a auto-gestão (organização das demandas recebidas, alinhamento de prioridades, escalonamento/priorização junto aos gestores, gestão do tempo e produtividade);\n •Participação ativa nos projetos de migração dos sistemas financeiro e comercial da Enel Brasil;\n •Contratada pela IMC Saste\n Job Title : Consultor de Processos\n Company name : Consultoria\n Period : abr de 219 - set de 221\n Summary : • Compreensão dos objetivos e metas de negócio dos clientes para alinhamento de expectativas,\n identificação de dores e projeção de ganhos;\n • Realização de mapeamento e redesenho de processos operacionais, estratégicos e/ou\n gerenciais (As Is /To be)\n • Identificação, análise, planejamento, coordenação e implementação de ações de melhorias em\n processos de negócio;\n • Elaboração e análise de KPIs e relatórios de acompanhamento.\n Job Title : Gestor de Contrato de apoio a Gestão do Ativo Marlim Sul (Petrobras)\n Company name : Bureau Veritas Group\n Period : jul de 218 - mar de 219\n Summary : •Responsável pela Gestão de 3 colaboradores de apoio a gestão dos projetos Ativo Marlim Sul;\n •Orientação da equipe na tomada de decisões, resolução de conflitos e gerenciamento da rotina;\n •Realização de feedbacks ao time para a melhoria contínua das atividades dos Projetos;\n •Elaboração de Relatórios e documentos para a Fiscalização do Contrato;\n •Responsável pela Medição Mensal com evidências dos serviços medidos;\n •Responsável por monitorar horas de trabalho e despesas.;\n •Realização do acompanhamento físico e financeiro do contrato, elaborando relatórios periódicos e acompanhando saldo e prazo de forma proativa para evitar aditivos;\n •Identificação rápida dos excedentes ou escassez de recursos e elaboração de planos de redistribuição para projetos de maior prioridade;\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Gestor de Conformidades – UO-Rio/Marlim Sul (Petrobras)\n Company name : Bureau Veritas Group\n Period : mar de 218 - jul de 218\n Summary : •Atuação na garantia do cumprimento de padrões e requisitos aplicáveis, minimizando os riscos de não conformidades em auditorias interna, externa ou autuações e penalizações de Órgãos fiscalizadores;\n •Monitoramento e Controle de Não Conformidades (ANP, Auditoria Interna e IBAMA);\n •Monitoramento e Gestão dos Planos de Ação para Tratamento de Anomalias;\n •Elaboração e Acompanhamento do Painel de Indicadores de NC’s;\n Location : Rio de Janeiro, Brasil\n Job Title : PMO (Escritório de projetos) - UO-Rio - Marlim Sul (Petrobras)\n Company name : Bureau Veritas Group\n Period : dez de 216 - fev de 218\n Summary : •Responsável pelo Planejamento e controle de projetos (escopo, cronograma, recursos, riscos, partes interessadas, integração, aquisição, comunicação e qualidade);\n •Responsável por acompanhar os cronogramas dos projetos e comunicar-se com os responsáveis pelas atividades;\n •Responsável por fazer reniões com Sponsors e Head da área para atualilizar sobre projetos e riscos;\n •Monitoramento da Curva S do Projeto;\n •Organização de reuniões com as lideranças para definição das estratégias e monitoramento do Projeto através de Report Executivo;\n •Elaboração de pauta e ata de reuniões contemplando definições necessárias para resolução de temas críticos;\n •Escalar pontos críticos e decisões para o time de Negócio;\n •Responsável pelo acompanhamento / tratamento dos desvios das Iniciativas;\n •Realização do desdobramento de metas em conjunto com as lideranças;\n •Responsável pelo registro e disseminação de Lições Aprendidas dos Projetos;\n •Responsável por acompanhar e divulgar KPIs.\n Location : Rio de Janeiro, Brasil\n Job Title : Consultor de Projetos - PETROBRAS\n Company name : Hope Serviços\n Period : jul de 211 - fev de 216\n Summary : •Responsável pelo planejamento das atividades dos projetos e obras (partes interessadas, custos, prazos, recursos, escopo, riscos e qualidade) assegurando sua realização dentro dos objetivos da organização;\n •Elaboração de EAP e cronograma do projeto no Microsoft Project e publicação no Microsoft EPM.\n •Controle dos riscos potenciais dos projetos com atuação direta no desenvolvimento de plano de recuperação para possíveis desvios;\n •Planejamento Integrado e Monitoramento do Plano de Manutenção Preventiva, Corretiva e Anual;\n •Elaboração de relatórios gerenciais e análise de Indicadores de desempenho;\n Location : CENPES - Petrobras\n Job Title : Engenheira de Planejamento Pleno - ELETROBRAS\n Company name : STEI Gerenciamento e Representações - Brasil\n Period : out de 21 - jul de 211\n Summary : •Elaboração e acompanhamento do cronograma físico e financeiro e EAP dos projetos ;\n •Elaboração de curvas de avanço físico e financeiro;\n •Elaboração de Relatórios de Acompanhamento;\n •Responsável pelo controle da documentação do Projeto.\n •Principal Projeto: - ELETRONUCLEAR: Construção da Usina Nuclear – Angra 3.\n Location : Rio de Janeiro, Brasil\n Job Title : Engenheira de Planejamento Jr - TRANSPETRO\n Company name : PLANAVE S.A. Estudos e Projetos de Engenharia\n Period : jan de 28 - set de 21\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Estagiária Planejamento e Controle de Obras\n Company name : Grupo ENESA - Página Oficial\n Period : jan de 26 - set de 27\n Location : CSN - Volta Redonda e Votorantim Metais - Barra Mansa"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : MBA - Gerenciamento de Projetos\n Degree : Gerenciamento de Projetos\n Period : 212 - 214\n School name : UFF\n Speciality : Engenharia de Produção\n Degree : Engenheira de Produção\n Period : 22 - 27\n School name : Universidade Federal Fluminense\n Speciality : Engenharia de Produção\n Degree : Engenharia de Produção\n Period : 22 - 27"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "9d85420c-0c7c-47eb-9d52-af115b0b06b6",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*9d85420c-0c7c-47eb-9d52-af115b0b06b6",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:39.001Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:39.001Z",
+      "linkedinUsername": "amandamangabeira",
+      "email": "amanda.n.mangabeira@gmail.com",
+      "phone": "21979293030",
+      "name": "Amanda Mangabeira",
+      "id": "9d85420c-0c7c-47eb-9d52-af115b0b06b6"
+    },
+    "timeInCurrentStage": 61412108141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:09.245Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "11/01/1993"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "14500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "vr, amil, gympass"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Jornalismo",
+          "id": "d9e2b354-001c-4e70-822e-219f7ab9a9f4",
+          "label": "Jornalismo"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "PUC Campinas"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": "especialização em empreendedorismo corporativo"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Events and Change Management Specialist"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Events and Change Management Specialist\n Company name : Via Varejo SA\n Period : ago de 22 - o momento\n Summary : • Líder do desenvolvimento end-to-end para idealização, organização e estruturação de eventos internos e externos, nos modelos presencial, online e híbrido.\n • Análise de métricas e feedback para melhoria contínua.\n • Supervisão da criação de todas as comunicações e conteúdo relacionados aos eventos, com um time de comunicadores e designers.\n • Colaboração com times parceiros e áreas de negócio para criar experiências 36 para todos os públicos.\n • Criação de planos de comunicação, ações e adoção de novos produtos e serviços.\n • Adoção de práticas de inovação e disseminação da cultura hacker e maker com os times de tecnologia (e beyond).\n • Capacitação de colaboradores em comunicação, oratória e apresentação.\n • Engajamento de colaboradores com programas de reconhecimento e valorização individual e em times.\n • Criação de planos de comunicação, ações e adoção de novos produtos e serviços.\n • Análise e gestão de consequências para mudanças.\n Job Title : Change Management Analyst\n Company name : Santander Brasil\n Period : mar de 219 - ago de 22\n Summary : • Responsável pela gestão, planejamento e execução de eventos internos e externos com foco em tecnologia (Meetups, Hackathons, Workshops, Fóruns, etc.).\n • Gerenciamento da equipe de eventos, desenvolvimento de programações de estandes e coordenação de ações no local.\n • Organização de cronogramas e acompanhamento de orçamentos.\n • Condução de reuniões pré-evento, agendas, status, e relatórios completos pós-evento\n • Planejamento, coordenação de fluxo, acompanhamento de oportunidades, gerenciamento de crises e mensuração de resultados em projetos e ações de melhoria interna e mudança de cultura.\n • Planejamento, coordenação de fluxo, acompanhamento de oportunidades, gerenciamento de crises e mensuração de resultados em projetos e ações de melhoria interna e mudança de cultura.\n • Criação e revisão de conteúdo de materiais informativos e comunicados sobre projetos e plataformas internas.\n • Desenvolvimento de apresentações para nível executivo e parceiros.\n • Gestão de ações internas e apresentação para solução de crises.\n • Responsável por estabelecer a reputação da cultura de dados de forma externa e interna.\n • Gestão do fluxo de comunicação focado em informar e orientar os colaboradores em assuntos relacionados à cultura de dados.\n Location : São Paulo, São Paulo, Brazil\n Job Title : Innovation, Marketing and Communications Consultant\n Company name : Bosch USA\n Period : jan de 218 - dez de 218\n Summary : • Coordenação e impulsionamento de projetos de inovação em TI.\n • Planejamento e gestão de eventos internos e externos.\n • Criação e moderação de workshops voltados para os mais diversos temas (Criatividade, Ferramentas de ideação, Marketing Pessoal, entre outros).\n • Responsável pela criação e edição da Newsletter mensal de TI.\n • Apoio ao time local com apresentações criativas.\n • Suporte ao time de Desenvolvimento de Excelência de Negócios.\n - Rollout de workshops e atividades de change management.\n - Avaliação e análise dos resultados.\n • Suporte ao Chicago Connectory (workspace de tecnologia e inovação) na organização de eventos, workshops, entre outros.\n Location : Grande Chicago e Região, Estados Unidos\n Job Title : Innovation and Communications Intern\n Company name : Bosch América Latina\n Period : fev de 217 - ago de 217\n Summary : • Promoção e apoio à inovação na Bosch América Latina aperfeiçoando iniciativas internas de inovação para promover o empreendedorismo\n - Organização e gerenciamento de eventos e treinamentos para impulsionar iniciativas de inovação.\n - Desenvolvimento de material de marketing para tópicos de inovação em TI (posters, videos, flyers, blog posts, etc.).\n - Gerenciamento de comunidades e criação de conteúdo no Bosch Connect (IBM Connections) voltados para comunidades de inovação.\n • Marketing&Comunicação\n - Planejamento, desenvolvimento e execução de eventos, workshops e campanhas.\n - Criação de material de marketing para produtos, serviços, eventos e campanhas internas (posters, videos, flyers, blog posts, etc.).\n - Edição da intranet.\n Location : Campinas e Região, Brasil\n Job Title : IT Regional Customer Engagement Intern\n Company name : Bosch North America\n Period : jan de 216 - dez de 216\n Summary : •Coordenação de Social Business para TI na Região das Américas\n - Responsável por todas as atividades relacionadas a Enterprise 2. and Social Business\n - Responsável por Gerenciamento de Comunidades dentro de plataforma interna de Social Business (IBM Connections)\n - KPI reports\n - Consultoria e treinamento para Gerenciamento de comunidades\n - Treinamento de Bosch Connect (IBM Connections) para colaboradores em Mount Prospect\n - Coordenação e moderação de reunião mensal de Gerentes de Comunidade, oferecendo feedback, atualizações sobre o projeto Enterprise 2. e dicas de uso da plataforma\n •Comunicação\n - Criação de conteúdo para artigo mensal sobre histórias de sucesso entre o departamento de TI e seus clientes internos\n - Desenvolvimento e criação de material de marketing para eventos, campanhas, produtos e serviços (posters, vídeos, flyers, monitores, blog posts, etc.)\n - Editora da Intranet para TI na região das Américas\n •Gerenciamento de eventos\n - Coordenação de eventos locais (All Associates Meetings, Town hall meetings, Hackathon, Executive Talks, Workshops, etc)\n - Suporte em eventos para clientes internos (IT Road Shows nas Américas)\n Location : Grande Chicago e Região, Estados Unidos\n Job Title : Corporate Communications Intern\n Company name : Bosch América Latina\n Period : abr de 214 - out de 215\n Summary : - Criadora de conteúdo e desenvolvimento de jornal corporativo impresso e online (Bosch Zünder Media Family)\n - Interface com agências brasileiras, americanas e alemãs\n - Tradução de documentos e artigos internos\n - Criação de notas fiscais, pedido de compras e atividades relacionadas ao SAP\n - Suporte em campanhas corporativas em temas como Compliance e Visão e Missão Bosch na América Latina\n - Suporte na Campanha de divulgação de visão e missão global \"We are Bosch\"\n - Editora da Intranet para América Latina\n - Responsável por Gerenciamento de Comunidade dentro de plataforma interna de Social Business (IBM Connections)\n Location : Campinas e Região, Brasil\n Job Title : Internal Communications Intern\n Company name : Embrapa\n Period : set de 213 - abr de 214\n Summary : - Criação de conteúdo e desenvolvimento de jornal interno semanal\n - Suporte em eventos internos\n - Manutenção da Intranet\n Location : Campinas e Região, Brasil\n Job Title : Young Apprentice\n Company name : Itaú Unibanco\n Period : mai de 212 - ago de 213\n Summary : - Coordenação e orientação de clientes e não clientes sobre os canais de serviço oferecidos pelo banco\n - Suporte no uso de Caixa Eletrônico\n - Funções Administrativas\n Location : Jaguariúna, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Pontifícia Universidade Católica de Campinas\n Speciality : Comunicação\n Degree : Bacharel em Jornalismo\n Period : 212 - 215\n School name : Universidade Anhembi Morumbi\n Degree : Pós Graduação em Psicologia Organizacional\n Period : fev de 221 - nov de 222\n School name : University of Maryland\n Speciality : Empreendedorismo Corporativo\n Degree : Especialização\n Period : 218 - 218\n Courses: Title : Adobe Indesign; Title : Banking Techniques; Title : Continuous Improvement Process"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "0faa0f6e-a644-4874-b57c-91000a66f8c6",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*0faa0f6e-a644-4874-b57c-91000a66f8c6",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:44.581Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:44.581Z",
+      "linkedinUsername": "aline-pavani-dal-bó-1a25769b",
+      "email": "alinepavanidalbo@gmail.com",
+      "phone": "19996959884",
+      "name": "Aline Pavani Dal'Bó",
+      "id": "0faa0f6e-a644-4874-b57c-91000a66f8c6"
+    },
+    "timeInCurrentStage": 61412108141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.758Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Gestão e Perf. de Governança"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Gestão e Perf. de Governança\n Company name : Vale\n Period : dez. de 219 – o momento\n Summary : Gestão dos processos relacionados à Governança Corporativa da Vale: gestão de contratos, medição de serviços, controle de orçamento, controle de registros e documentos.\n Location : Rio de Janeiro, Rio de Janeiro, Brasil\n \n Job Title : Analista de RH | Melhoria de Processos e Gestão da Informação\n Company name : Clave Consultoria\n Period : set. de 217 – dez. de 219\n Summary : Desde mai/18 atuo em projetos de transformação digital do negócio; revisão e melhoria de processos, com foco na otimização da operação (processos de R&S); elaboração de documentos e sistemáticas; qualificação de banco para gestão do conhecimento e tratamento de dados; elaboração e gestão de KPIs da área de Seleção; liderança técnica e revisão de metas do time de recrutamento (OKR). Utilização do método KANBAN (Trello) para organização das demandas e bizagi para desenho de fluxos. Atuação na área de Search (nível Júnior a Executivo). Atividades: Alinhamento de perfil com o cliente, definição de estratégias para busca ativa (hunting) - por segmento/ localidade/ empresa targets, avaliação do perfil, apresentação de mapeamento de mercado, relatórios e gestão de dados do processo. Apoio no gerenciamento do novo sistema de gestão de processos seletivos e responsável pela definição de sistemática para atualização ativa de seus dados.Atuação na área de Gestão de Projetos de RH - programas de entrada. Atividades: gestão do projeto, divulgação de vagas, recrutamento, comunicação e atendimento aos candidatos, interface com clientes, condução de entrevistas coletivas e gestão de dados.RESULTADOS RELEVANTES:- Definição do padrão utilizado para apresentação de cenário de mercado aos clientes de Seleção;- Implementação do People Analytics no processo de Seleção;- Definição e otimização do relatório (Excel e BI) utilizado para a geração dos indicadores da apresentação de cenário de mercado aos clientes de Seleção;- Definição e elaboração de documentos e sistemáticas da área;- Elaboração e gestão do indicadores gerais e KPIs de Seleção;- Liderança técnica do time de recrutamento e revisão de metas;- Responsável pelo projeto de tratamento de dados do sistema de Gestão dos processos seletivos;- Desenho do fluxo de seleção de Estágio, conduzido internamente, para o cliente Coca-Cola;- Hunting para vagas de Jr a Executivo- todas as áreas.\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Estagiária na área de Qualidade de Processos (Sistema de Gestão Integrado)\n Company name : Chemtech\n Period : abr. de 214 – mar. de 216\n Summary : Estágio na área de Qualidade (SGI), executando atividades para melhoria dos processos da empresa tais como: revisão dos procedimentos e instruções de trabalho/técnicas; mapeamento dos processos; elaboração e revisão dos treinamentos do SGI; cálculo dos indicadores de treinamentos e report à diretoria sobre os treinamentos de cada ciclo; controle de registros das áreas; cadastro de Não conformidades, Oportunidades de Melhorias, Ações Corretivas/ Potenciais; Acompanhamento das Ações Corretivas/ Potenciais em aberto; elaboração/ padronização/ revisão de templates; entre outras atividades.RESULTADOS RELEVANTES- Redefinição de template de Ordem de Compra, alinhada às necessidades de solicitante e comprador;- Definição e desenho do processo de Logística da empresa, junto ao responsável pelo setor;- Responsável por replicar e redesenhar os treinamentos online do SGI na intranet Siemens;- Responsável por replicar e remodelar os indicadores de processos da Siemens, monitorados pelo SGI;- Otimização dos relatórios de medição e monitoramento de eficiência dos treinamentos Online.\n Location : Rio de Janeiro\n \n \n Job Title : Estagiária na área de Recursos Humanos - R&S\n Company name : Fundação Mudes\n Period : set. de 213 – fev. de 214\n Summary : Atuação na área de RH relacionada com as atividades de Recrutamento & Seleção. Dentre essas atividades realizadas: acompanhamento de vagas (Abertura e fechamento das vagas); divulgação das oportunidades; triagem dos currículos; agendamento dos candidatos; entrevistas coletivas, individuais e dinâmicas;feedback aos candidatos acompanhamento do final do processo seletivo; encaminhamento dos aprovados ao setor de documentação.\n Location : Centro - RJ"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Cefet/RJ - Centro Federal de Educação Tecnológica Celso Suckow da Fonseca\n Speciality : Bacharelado em Administração, Administração de Empresas\n Period : 212 – 216\n School name : Universidade Solides\n Speciality : People Analytics\n Period : 219 – 219\n \n School name : Udemy\n Speciality : Modelagem de Processos BPM, BPMN\n Period : 219 – 219"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "0973c3b9-6e2c-4d84-8aec-a592eb70f358",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*0973c3b9-6e2c-4d84-8aec-a592eb70f358",
+    "talent": {
+      "updatedAt": "2023-12-20T14:07:47.703Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:07:47.703Z",
+      "email": "thayssa.ts@gmail.com",
+      "phone": "",
+      "name": "Thayssa Souza",
+      "id": "0973c3b9-6e2c-4d84-8aec-a592eb70f358"
+    },
+    "timeInCurrentStage": 61413008141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:09.214Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "20/03/1993"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "8500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "vale, plano de saude e previdencia"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Candido Mendes"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Projetos Sênior"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Analista de Projetos Sênior\n Company name : Vibra Energia\n Period : ago de 221 - o momento\n Location : Rio de Janeiro, Brasil\n Job Title : Analista de Projetos Sênior (PMO - Projetos Estratégicos)\n Company name : BR Distribuidora\n Period : nov de 22 - o momento\n Summary : Projetos: Pricing B2B-B2B2C, Revisão e Simplificação de Processos, OBZ, Desinvestimentos de ativos, Ambiente Externo e Regulação, Tecnologia e Digital, Novas Fontes de Energia (Geração Distribuída, GNL, Veículos Elétricos, Comercialização de Energia), Aviação e Combustíveis.\n Estruturação do processo de acompanhamento e governança dos principais projetos estratégicos da companhia (através de metodologias ágeis – Scrum e Kanban, priorização de backlog e facilitação de times ágeis). Gestão dos principais projetos estratégicos (priorização, acompanhamento de indicadores de monitoramento e evolução, recursos necessários para cada projeto, etc.). Atuação na interface com todas as Diretorias para garantir a evolução e o acompanhamento dos projetos prioritários. Suporte às áreas na elaboração dos cronogramas, no acompanhamento das ações, controle dos prazos, execução de acordo com o cronograma e escopo, e gestão dos aprendizados. Auxílio no desdobramento do Plano Estratégico em metas, KPIs, cronograma e iniciativas para cada diretoria. Disseminação das metodologias de acompanhamento para as áreas estratégicas da companhia. Elaboração de apresentações para a Gerência e Diretoria evidenciando avanços e pontos críticos nos projetos. Estruturação e organização das informações para geração de dashboards para avaliação dos projetos. Criação de apresentação e reporte mensal para o Conselho de Administração. Atuação no projeto de Revisão e Simplificação de Processos, gerando análise e mapeamento de todos os pontos críticos dentro da organização, criação de plano de ação e acompanhamento dos KPIs ao longo do período de implantação das melhorias.\n Location : Rio de Janeiro, Brasil\n Job Title : Analista de Informações Gerenciais Sênior (PMO - Escritório de projetos) Claro/Net/Embratel\n Company name : Claro Brasil\n Period : mai de 218 - nov de 22\n Summary : Projetos: Fibra Óptica (Fotônico), Rede móvel, Obras de infraestrutura, Mercado Telecom B2B e B2B2C, SWAP, Node B e MDU.\n Responsável pela organização e controle das variáveis de tempo dos projetos da Gerência de Projetos RJ-ES (Evolução, Custos, Alocação de recursos e Milestones). Comunicação e monitoramento entre as partes envolvidas para entendimento dos processos gerando canais de comunicação para respeitar as partes técnicas e expectativas dos stakeholders do projeto. Negociação com empresas terceirizadas para dimensionar e equacionar tempo x custo x produtividade para gerenciamento preciso dos recursos. Análise de Crises mensal para antecipar possíveis problemas e agir em soluções eficazes. Melhoria de Processos e foco na Qualidade das informações e atividades realizadas.\n Análise financeira e provisão de orçamento baseado em projetos e expectativas, totalizando um controle de CAPEX e OPEX superior a 3 milhões ano, análise do investimento de projetos e sua viabilidade fundamental para a emrpesa, controlando fluxo de caixia dos projetos e justificativas no forecast. Acompanhamento e criação de metas para melhoria do sistema. Acompanhamento no SAP de notas de pagamento. Otimização e redução no tempo de operação e melhor análise dos indicadores gerados. Elaboração de relatórios com base na extração e análise de dados (via banco de dados e SQL). Realização de auditorias e criação de metodologias para acompanhamento da evolução dos processos e apresentação a Gerência, através de indicadores e não conformidades mensais. Atuação dinâmica entre outros segmentos que estão envolvidos nos projetos para disseminação de informações. Análise e avaliação de gestão de riscos e metodologia de Gerenciamento de Projetos Ágil baseada no PMBOK 6ª edição.\n Location : Rio de Janeiro e Região, Brasil\n Job Title : QSMS - Corporativo (Offshore/Bunker/Proteção Ambiental/Construção Naval)\n Company name : Grupo Bravante\n Period : ago de 214 - mai de 218\n Summary : Elaboração de Dashboards (KPI’s) e apresentações para gerência, acompanhamento do Gerenciamento de Rotina e reporte mensal de indicadores aos clientes (Petrobras, Shell, Allseas e Total) com foco em finanças e apresentação de itens críticos do setor;\n Realização da Reunião de Análise Crítica, mapeamento de processos e procedimentos. Gestão dos Objetivos e Metas do setor de demandas corporativas. Controle da Matriz de Riscos do segmento de QSMS. Participação na implantação do Compliance;\n Análise e elaboração de orçamentos (real x orçado), geração de relatórios de custos e propostas de redução. Reporte a controladoria e planejamento financeiro de indicadores setoriais. Confecção de indicadores semanais com foco em redução de insumos corporativos;\n Participação em auditorias de clientes (Petrobras, Shell, Subsea7, Total Energia e Statoil) e Certificações ISO. Participações em projetos, controlando cronogramas e custos inerentes às tarefas;\n Planejamento e estruturação de atividades setoriais. Utilização de softwares de SGI como SAP e SEAPACK. Controle de Licenças Operacionais e suas condicionantes. Plano de Manutenção e de Emergências. Auditorias ambientais e reporte ao Ministério do Trabalho, IBAMA e INEA.\n Location : Rio de Janeiro\n Company 2: BR Distribuidora"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Federal Fluminense\n Speciality : Gerenciamento de Projetos\n Degree : Master of Business Administration - MBA\n Period : jan de 219 - jul de 222\n School name : Universidade Candido Mendes\n Degree : Production Engineer\n Period : 211 - 217\n Courses: Title : CNA - Inglês; Title : Controladoria Empresarial; Title : Cultura Inglesa - Inglês"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "0e9a11d7-5679-42b7-8821-ddd845b180ac",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*0e9a11d7-5679-42b7-8821-ddd845b180ac",
+    "talent": {
+      "updatedAt": "2023-12-20T13:56:10.699Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:56:10.699Z",
+      "linkedinUsername": "joão-paulo-tardelli-b0407129",
+      "email": "jpctardelli@gmail.com",
+      "phone": "21998245473",
+      "name": "João Paulo Tardelli",
+      "id": "0e9a11d7-5679-42b7-8821-ddd845b180ac"
+    },
+    "timeInCurrentStage": 61412108141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:09.123Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "21/12/1993"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "8490"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "plano de saude, plano odontologico, vale refeição, vale alimentação"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Farmácia",
+          "id": "9c94095a-9875-4239-bf89-b7c28d2dd826",
+          "label": "Farmácia"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "UFRJ - Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Gestão Sênior"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "nenhum"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Gestão Sênior\n Company name : Bio-Manguinhos / Fiocruz\n Period : abr de 221 - o momento\n Summary : _ Desenho e implementação de modelo de gestão da cadeia produtiva\n _ Governança (tiers) e ferramentas de melhoria contínua\n _ Implementação de Programa 5S\n _ Gerenciamento de resultados\n Location : Rio de Janeiro, Brasil\n Job Title : Analista de Excelência Operacional\n Company name : Abbott\n Period : nov de 218 - abr de 221\n Summary : _ Gerenciamento, análise e report de KPIs\n _ Gerenciamento e execução de projetos Lean-Six Sigma & Agile (melhoria contínua)\n _ Projetos de alto impacto financeiro / CIP\n _ Líder de inovação e Plataforma Tecnológica\n _ Transformação Cultural e Comportamento\n Location : Rio de Janeiro\n Job Title : Analista de Garantia da Qualidade\n Company name : Abbott\n Period : mai de 218 - nov de 218\n Summary : _ Gerenciamento de Controle de Mudanças\n _ Análise de Materiais de Embalagem\n _ Melhoria contínua de processos\n _ Revisão de Procedimentos Operacionais\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Estagiário de Excelência Operacional\n Company name : Abbott\n Period : mai de 217 - abr de 218\n Summary : _ Gerenciamento de KPIs\n _ Suporte em projetos Lean-Six Sigma\n Location : Rio de Janeiro, Rio de Janeiro"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Pontifícia Universidade Católica de Minas Gerais\n Speciality : Gestão de Operações Industriais\n Degree : Master of Business Administration - MBA\n Period : abr de 222 - abr de 223\n Summary : Desenvolvimento de habilidades na análise do desempenho operacional, da gestão financeira e dos demais componentes de uma gestão do dia a dia das empresas. O curso consta de uma sólida base em operações de indústria 3. e 4.; aplicados à gestão, tecnologias aplicadas, financeira e custos.\n School name : Universidade Federal do Rio de Janeiro\n Speciality : Farmácia\n Degree : Bacharelado em Farmácia\n Period : 213 - 219\n Summary : Monografia: Desdobramento Estratégico em Indústrias Farmacêuticas\n Courses: Title : III Escola de Tecnologia Industrial Farmacêutica, Faculdade de Farmácia UFRJ. 4h."
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "5a6bde1f-f0bf-48d1-b6e3-396f417a8a99",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*5a6bde1f-f0bf-48d1-b6e3-396f417a8a99",
+    "talent": {
+      "updatedAt": "2023-12-20T13:54:38.732Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:54:38.732Z",
+      "linkedinUsername": "tiagobrefere",
+      "email": "tiagobrefere@outlook.com",
+      "phone": "21965687748",
+      "name": "Tiago J. Bréfere",
+      "id": "5a6bde1f-f0bf-48d1-b6e3-396f417a8a99"
+    },
+    "timeInCurrentStage": 61412108141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.836Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "25/02/1990"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "7500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Compliance"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Compliance\n Company name : Prudential do Brasil\n Period : dez de 22 - o momento – dez de 22 - o momento\n Summary : - Compliance Sales Practices\n - Elaboração de Políticas, Normas e Procedimentos internos;\n - Criação e execução de processos para disseminação da Cultura de Governança, Riscos e Compliance (GRC)\n - Global Risk Assessments\n - Palestras internas sobre riscos chaves de Compliance\n \n Job Title : Analista de Compliance Sênior\n Company name : Icatu Seguros\n Period : mar de 217 - dez de 22 – mar de 217 - dez de 22\n Summary : - Responsável pela adequação e aderência às normas, instruções e regulações referentes à Previdência Aberta e Fechada e Vida;\n - Consultoria em Compliance de Investimentos, Previdência Aberta e Vida;\n - Elaboração de Políticas, Normas e Procedimentos internos;\n - Responsável pela avaliação dos impactos dos projetos da companhia em relação às questões regulatórias;\n - Mapeamento de riscos do Fundo de Pensão (IcatuFMP) e medição semestral;\n - Mapeamento de legislações e confecção de planos de ação para aderência; entre outras.\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Analista de Compliance Pleno\n Company name : Icatu Seguros\n Period : abr de 216 - mar de 217 – abr de 216 - mar de 217\n Summary : Compliance Consultivo com ênfase em previdência aberta\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Analista de Fundos de Pensão Pleno\n Company name : Icatu Seguros\n Period : set de 213 - mar de 216 – set de 213 - mar de 216\n Summary : Contato e relacionamento com Jurídico, Compliance e Controles Internos.\n Elaboração e acompanhamento junto ao órgão regulador dos processos de adesão e retirada de Patrocinadoras, transferência de gerenciamento e alterações nos Estatutos Sociais e nos Regulamentos dos Planos; Mapeamento de Processos de Entidade Multipatrocinada;\n Atendimento dos Ofícios expedidos pelo órgão regulador;\n Condução do processo Fiscalização do órgão regulador;\n Controle do cumprimento das obrigações legais junto às áreas;\n Acompanhamento e tratamento da Legislação de Previdência Fechada;\n Acompanhamento e controle da estrutura de Governança das Entidades (Planejamento/Suporte das Reuniões dos órgãos estatutários, Realização/apoio do processo eleitoral, controle da renúncia e posse de novos membros);\n Elaboração do Relatório Anual de Informações e Programa de Educação Previdenciária, Elaboração do Relatório e manifestação do Conselho Fiscal;\n Atendimento das solicitações da Auditoria Independente;\n Medição dos Riscos e Controles da Entidade através de sistema próprio para elaboração do Relatório do Conselho Fiscal;\n Controle de toda documentação que envolve o dia-a-dia da Governança dos Fundos de Pensão\n \n Job Title : Pesquisadora PIBIC - CNPq\n Company name : PUC-Rio\n Period : mar de 28 - mar de 21 – mar de 28 - mar de 21\n Summary : Pesquisa apresentada no XVII Seminário de Iniciação Científica da PUC-Rio: \"Identidade Profissional e gênero: o caso das profissionais técnicas que atuam em contextos predominantemente masculinos\"\n Orientadores: José Roberto Gomes da Silva e Leonardo Lima\n Location : Rio de Janeiro e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Certificação Profissional em Investigações Internas Corporativas - CPIIC\n Period : Emitido em nov de 2021-Expira em nov de 2023\n Issuing Authority : LEC - Legal, Ethics & Compliance"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Pontifícia Universidade Católica do Rio de Janeiro\n Speciality : Administração\n Degree : Bacharel\n Period : 27 - 211\n \n School name : KPMG Business School\n Degree : Certificação em Compliance\n Period : 22 - 22\n \n School name : Trevisan Escola de Negócios\n Speciality : Controles Internos e Compliance\n Degree : MBA\n Period : 217 - 22\n \n School name : Cefet/RJ - Centro Federal de Educação Tecnológica Celso Suckow da Fonseca\n Speciality : Técnico em Mecânica\n Degree : Ensino Médio\n Period : 24 - 26"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "725802a9-87f5-4489-999b-64d8e9a0d636",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*725802a9-87f5-4489-999b-64d8e9a0d636",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:12.562Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:12.562Z",
+      "linkedinUsername": "thayna-valentim",
+      "email": "thayna.ohana@gmail.com",
+      "phone": "21972865767",
+      "name": "Thayná Valentim",
+      "id": "725802a9-87f5-4489-999b-64d8e9a0d636"
+    },
+    "timeInCurrentStage": 61412108141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:09.031Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "14/04/1981"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "18250"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "auxilio medico, dental, reembolso de medicamento 7% do valor"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Materiais",
+          "id": "c3bddddd-6b6f-42d5-8c2a-44fe7cf6fafe",
+          "label": "Engenharia de Materiais"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "UFRJ - Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Volunteer Staff"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Volunteer Staff\n Company name : slavefreetrade International\n Period : mar de 222 - o momento\n Location : Suíça - Remoto\n Job Title : Especialista de Contratos e Materiais\n Company name : NTS - Nova Transportadora do Sudeste\n Period : mai de 22 - o momento\n Location : Rio de Janeiro, Brasil\n Job Title : Coordenadora de Materiais e Processos de Manutenção\n Company name : MetrôRio\n Period : set de 218 - mai de 22\n Summary : Responsável pelos processos e equipes de inspeção, engenharia reversa, nacionalização e especificação técnica de materiais.\n Projeto Pró Ativos - Gestora de Mudança do programa que tem por objetivo implementar uma nova forma de trabalho usando a norma ISO 551 como base para tomarmos as melhores decisões para o negócio através gestão estratégica dos ativos.\n Location : Rio de Janeiro\n Job Title : Especialista de Materiais\n Company name : MetrôRio\n Period : mar de 215 - set de 218\n Summary : - Especialista focada em Engenharia Reversa de Materiais buscando soluções para a reposição de sobressalentes de manutenção obsoletos no mercado e nacionalização de materiais importados.\n - Responsável pela seleção de novos materiais para as mais diversas aplicações tendo como resultado o aumento de segurança, confiabilidade, durabilidade e redução de custo.\n - Homologação técnica de Fornecedores de Materiais; - Análise de Falhas de materiais utilizando ensaios destrutivos e não destrutivos para caracterização da causa raiz da falha.\n - Estudo e implementação de um processo de previsão de consumo de materiais de manutenção visando reduzir o capital empregado e aumento de eficiência no processo de planejamento de reposição de estoque.\n Job Title : Coordenadora de Engenharia de Materiais\n Company name : MetrôRio\n Period : jan de 213 - mar de 215\n Summary : Coordenadora responsável pela área de engenharia de materiais tendo como principal foco o controle dos processos de engenharia reversa e especificação técnica de materiais, além das demais atribuições como controle orçamentário da área, indicadores de performance, liderança, desenvolvimento de pessoas.\n - Projeto Taxonomia – Criação e implementação de uma nova arvore de classificação dos materiais de estoque por codificação;\n –Projeto Criticidade - Criação e implementação da metodologia de Criticidade dos sobressalentes de manutenção.\n -Projeto Nacionalização – Criação e implementação do processo de nacionalização das peças do trem chinês visando redução de custo e tempo de reposição dos sobressalentes.\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Estagiária\n Company name : Eletronuclear\n Period : ago de 25 - set de 27\n Summary : - Trabalhos e estudos na área de corrosão, soldagem e, entre outras atividades, avaliação das ligas de aço inox, aço ao carbono, inconel e tipos de corrosão nessas ligas.\n - Acompanhamento dos problemas atuais das usinas junto à UFRJ : “Fratura por Fadiga em Parafusos do Condensador da Turbina”, “Troca do Trocador de Calor de Angra 1”. - Desenvolvimento de um treinamento dos efeitos do ácido bórico em equipamentos e materiais a ser aplicado aos funcionários das usinas.\n - Projeto Final de Curso de Graduação em homologação e qualificação de revestimentos de engenharia - compósitos de matriz epóxi/poliuretano com particulados ou fibras cerâmicas para proteção de equipamentos contra corrosão em ambientes salinos.\n Company 2: NTS - Nova Transportadora do Sudeste"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Como Lidar com Mudanças Inesperadas\n Period : Emitido em mar de 2022-Sem data de expiração\n Issuing Authority : LinkedIn\n Title : Gestão de Profissionais de Alto Desempenho\n Period : Emitido em set de 2021-Sem data de expiração\n Issuing Authority : LinkedIn\n Title : A Linguagem Corporal dos Líderes\n Period : Emitido em out de 2020-Sem data de expiração\n Issuing Authority : LinkedIn\n Title : GDPR - Regulamento Geral de Proteção de Dados: Formação Básica\n Period : Emitido em ago de 2020-Sem data de expiração\n Issuing Authority : LinkedIn\n Title : HCMBOK® to Agile Practitioner\n Period : Emitido em jul de 2020-Sem data de expiração\n Summary : Código da credencial HCMBOK-A-0087\n Issuing Authority : Human Change Management Institute\n Title : HCMP® 3G Expert Professional\n Period : Emitido em mai de 2019-Sem data de expiração\n Summary : Código da credencial HCMP-1-4112\n Issuing Authority : Human Change Management Institute"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : HSM University\n Speciality : Tecnologia\n Degree : Gestão de Inovação\n Period : 22 - 22\n School name : Fundação Getulio Vargas\n Speciality : Gerenciamento de projetos\n Degree : Gerenciamento de Projetos\n Period : 214 - 216\n School name : Universidade Federal Fluminense\n Speciality : Engenharia de Produção\n Degree : Pós-Graduação\n Period : 212 - 214\n School name : Universidade Federal do Rio de Janeiro\n Speciality : Engenharia de Materiais\n Degree : Engenheira\n Period : 2 - 28\n Summary : Atividades e grupos: Participação em jornadas de iniciação cientifica;\n Participação e apresentação de trabalhos em Congressos;\n Publicação de artigos na área de materiais cerâmicos;\n Courses: Title :  - Academia de Formação Consultor SAP MM; Title : 1 - HCMBOK 3G Practitioner - HCMI - Gestão de Mudança; Title : 1 - HCMBOK to Agile Practitioner - Gestão de Mudança Ágil"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d007ff73-8767-4b27-9d75-57248ef84bd4",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*d007ff73-8767-4b27-9d75-57248ef84bd4",
+    "talent": {
+      "updatedAt": "2023-12-20T14:06:50.471Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:06:50.471Z",
+      "linkedinUsername": "dany-pereira-24737824",
+      "email": "danypereir@gmail.com",
+      "phone": "21999831116",
+      "name": "Dany Pereira",
+      "id": "d007ff73-8767-4b27-9d75-57248ef84bd4"
+    },
+    "timeInCurrentStage": 61412108141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:09.093Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "10/04/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Especialista de Gestão"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Especialista de Gestão\n Company name : Log-In Logística Intermodal S/A\n Period : ago de 221 - o momento\n \n Job Title : Analista de Planejamento Sênior\n Company name : Wilson Sons\n Period : ago de 219 - ago de 221\n Summary : - Condução do processo de planejamento estratégico e apoio ao planejamento orçamentário da Diretoria de Desenvolvimento Organizacional;\n - Gestão e governança do processo de metas no Grupo WS;\n - Atuação como ponto focal da metodologia de gestão de metas para os executivos e gestores da Presidência, e como líder técnica da metodologia para os pontos focais de Negócios;\n - Estruturação, implantação e governança de projetos estratégicos utilizando metodologia DMAIC;\n - Ponto focal de inovação junto ao Cubo Itaú.\n \n Job Title : Sócia-administradora\n Company name : A&M Marketing e Eventos\n Period : jan de 217 - jul de 219\n Summary : - Elaboração do planejamento do projeto de evento (tempo, custo, escopo, recursos, qualidade, compras, riscos, comunicação e partes interessadas);\n - Realização de análises de viabilidade financeira dos projetos de eventos, e controle de orçamento;\n - Negociação de prazos e custos com fornecedores;\n - Liderança de equipes terceirizadas e coordenação de atividades dos profissionais envolvidos nos projetos.\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Consultora de Gestão\n Company name : Petrobras\n Period : abr de 212 - jan de 217\n Summary : - Gestão do processo de metas da Diretoria de Desenvolvimento Estratégico de Mercado Fornecedor;\n - Acompanhamento da evolução do cumprimento dos objetivos traçados através da condução de reuniões de status report;\n - Elaboração e análise de KPI's;\n - Controle de informações da Gerência de Cadastro Corporativo de Fornecedores.\n Location : Rio de Janeiro\n \n Job Title : Analista de Controle de Informações\n Company name : Oi S.A\n Period : jun de 21 - abr de 212\n Summary : - Planejamento e controle de informações gerenciais dos processos da Diretoria de Gente e Gestão;\n - Desenvolvimento e acompanhamento de KPI's;\n - Desenvolvimento de ferramentas de apoio à decisão para gestão de processos internos;\n - Gestão dos centros de treinamento e times.\n Location : Rio de Janeiro\n \n Job Title : Trainee\n Company name : EY\n Period : nov de 29 - jun de 21\n Summary : - Mapeamento e estruturação de processos de trabalho, com foco em melhoria contínua;\n - Criação de relatórios e apresentações executivas;\n - Acompanhamento das atividades do cliente e suporte ao gerente do projeto.\n Location : Rio de Janeiro"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Instituto Brasileiro de Mercado de Capitais\n Speciality : Finance\n Degree : Master of Business Administration - MBA\n Period : 218 - 22\n \n School name : Fundação Getulio Vargas\n Speciality : Project Management\n Degree : Master of Business Administration (MBA)\n Period : 214 - 216\n \n School name : Universidade Federal Fluminense\n Speciality : Business Administration and Management\n Degree : Bachelor of Business Administration - BBA\n Period : 25 - 29"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "5a1825d3-6ea8-4f92-bc9c-e9d00ff180b1",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*5a1825d3-6ea8-4f92-bc9c-e9d00ff180b1",
+    "talent": {
+      "updatedAt": "2023-12-20T14:02:01.074Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:02:01.074Z",
+      "linkedinUsername": "marcella-alves-775b29aa",
+      "email": "marcella.af.almeida@gmail.com",
+      "phone": "21988011712",
+      "name": "Marcella Alves",
+      "id": "5a1825d3-6ea8-4f92-bc9c-e9d00ff180b1"
+    },
+    "timeInCurrentStage": 61412108141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:09.301Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "26/03/1978"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "10200"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista - compliance, controles internos e gestão de riscos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista - compliance, controles internos e gestão de riscos\n Company name : ONS - Operador Nacional do Sistema Eletrico\n Period : jan de 219 - o momento – jan de 219 - o momento\n Summary : Gerência Executiva de Compliance, Controles Internos e Gestão de Riscos\n § Identificação, análise e gestão de riscos dos processos críticos do negócio.\n § Padronização de instrumentos normativos, com foco na conformidade dos processos.\n § Desenvolvimento do Programa de Compliance.\n § Análise do cumprimento de leis, regulamentos internos e externos, políticas institucionais e procedimentos.\n § Acompanhamento de processos de Due Diligence Anticorrupção.\n § Atendimento às fiscalizações (ANEEL e TCU).\n § Adequação da empresa à LGPD.\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Governança, riscos e compliance\n Company name : Fundação Vale do Rio Doce Seguridade Social - Valia\n Period : out de 217 - jan de 218 – out de 217 - jan de 218\n \n Job Title : Controle Interno, Compliance e Governança\n Company name : Fundação Vale do Rio Doce Seguridade Social - Valia\n Period : mai de 217 - jan de 218 – mai de 217 - jan de 218\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Analista Master de Risco Operacional e Governança\n Company name : Fundação Vale do Rio Doce Seguridade Social - Valia\n Period : abr de 27 - jan de 218 – abr de 27 - jan de 218\n Summary : § Diagnóstico de controles internos (auditorias internas). Criação de relatórios e pareceres para a Alta Direção. Apoio no processo de tomada de decisão.\n § Proposição de alterações em políticas, normas e procedimentos, de acordo com as melhores práticas de gestão.\n § Gerenciamento de riscos operacionais.\n § Elaboração da matriz de riscos e plano de ação. Reporte de resultados para a Gestão.\n § Responsável pela Gestão de Continuidade de Negócios. Mitigação de riscos de continuidade, riscos de imagem e sanções regulatórias.\n § Desenvolvimento do Programa de Integridade.\n § Análise do processo de Due Diligence Anticorrupção.\n § Elaboração e aplicação de treinamentos relacionados à ética e anticorrupção.\n § Manutenção do Sistema de Gestão da Qualidade (ISO 91).\n § Administração de indicadores de desempenho.\n § Gerenciamento de projetos relacionados à otimização de processos, identificação de gargalos, aumento de produtividade e redução de custos.\n § Atuação como representante da empresa na Comissão de Estudos de Governança nas Organizações (ABNT/CEE-39).\n § Acompanhamento de fiscalizações da PREVIC.\n Location : Rio de Janeiro Area, Brazil\n \n Job Title : Membro\n Company name : Potencial Compliance Brasil\n Period : jun de 218 - 218 – jun de 218 - 218\n \n Job Title : Semi Senior\n Company name : Ernst & Young\n Period : out de 2 - mai de 23 – out de 2 - mai de 23\n Summary : Auditora Externa- atuação como encarregada de equipe com atribuições de planejamento, análise de controles internos e auditoria de demonstrações financeiras, coordenação do andamento dos trabalhos, revisão, entre outros."
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Anticorrupção\n Degree : CPC-A\n Period : 219 - 221\n \n School name : Universidade Candido Mendes\n Speciality : Auditoria e controladoria\n Degree : Pós graduação\n \n School name : Universidade do Estado do Rio de Janeiro\n Speciality : Ciências Contábeis\n Degree : bacharel\n Period : 1996 - 1999"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "3eeb7239-d5de-49d1-9646-3030028ac087",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*3eeb7239-d5de-49d1-9646-3030028ac087",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:48.159Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:48.159Z",
+      "linkedinUsername": "sabrinamoss",
+      "email": "sabmoss@hotmail.com",
+      "phone": "5521992687531",
+      "name": "Sabrina Moss",
+      "id": "3eeb7239-d5de-49d1-9646-3030028ac087"
+    },
+    "timeInCurrentStage": 61412108141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:08.904Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "08/07/1983"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "9000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Comunicação Social",
+          "id": "e5b3cfa3-f5c5-42cb-aefc-1b0f757be277",
+          "label": "Comunicação Social"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de comunicação"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de comunicação\n Company name : Petrobras\n Period : fev. de 29 – o momento\n Summary : Analista de Comunicação /Petrobras – Gerência de Comunicação e Marcas Período: dezembro de 213 até o presente momento.• Gestão de projetos de comunicação interna com foco em programas de gestão de mudança cultural, sensibilização e engajamento dos públicos aos temas de interesse da Cia.• Coordenação de eventos - ambientação dos espaços, logística, elaboração de apresentações para a liderança, monitoramento de reação dos públicos e mapeamento estratégico para antecipar questões e buscar soluções.• Relacionamento institucional com investidores, lideranças, órgãos públicos, diretoria, conselho de administração interno e colônias de pescadores para viabilização de reuniões públicas.\n Location : Rio de Janeiro\n \n Job Title : Coordenadora de Treinamento & Desenvolvimento - Unidade de Exloração e Produção do Rio de Janeiro\n Company name : Petrobras\n Period : nov. de 25 – dez. de 213\n Summary : • Atendimento e consultoria: Programa de Desenvolvimento Gerencial, Gestão de Competências, Gestão da mudança, Gerenciamento de Desempenho e Plano de Desenvolvimento de Recursos Humanos.• Participação na construção da área de Desenvolvimento de Recursos Humanos - elaboração de padrões e normas e construção dos fluxos dos processos. • Coordenação de treinamentos internos - construção das grades de treinamento, inscrições, consolidação de avaliações e acompanhamento de indicadores. • Desenvolvendo campanhas de conscientização, fóruns, palestras e ações de mudança culturalpara a força de trabalho.\n \n \n Job Title : Consultor de Gestão da Mudança / Petrobras – Projeto Sinergia\n Company name : Petrobras\n Period : nov. de 21 – mai. de 25\n Summary : • Elaboração do plano de gestão da mudança para implantação do SAP R/3 na Petrobras: avaliação e monitoramento de impactos, mitigação de riscos.• Desdobramento do plano de comunicação, coordenação de treinamentos, construção de FAQ e mediação de respostas."
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade de São Paulo\n Speciality : MBA em Gestão de Projetos, Universidade de São Paulo (USP)\n Period : 215 – 216\n \n School name : Universidade Castelo Branco - UCB\n Speciality : Bacharelado em Comunicação, Comunicação Social com habilitação em Publicidade e Propaganda\n Period : 25 – 29"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "a0ca045b-1c20-4601-9566-ef2388e37f04",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*a0ca045b-1c20-4601-9566-ef2388e37f04",
+    "talent": {
+      "updatedAt": "2023-12-20T14:02:29.338Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:02:29.338Z",
+      "email": "importacao2147@importacaoinhire.com",
+      "phone": "21971772346",
+      "name": "Cintia Motta Braga",
+      "id": "a0ca045b-1c20-4601-9566-ef2388e37f04"
+    },
+    "timeInCurrentStage": 61412108141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:09.001Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "16/10/1992"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "10000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "vr 8 reais, viagens, home office"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Puc-Rio"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de integração"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de integração\n Company name : Kora Saúde\n Period : nov de 221 - o momento\n Summary : Ser referência nos projetos de integração das novas aquisições do grupo, sendo as principais responsabilidades:\n - Analisar/Consolidar os resultados das novas aquisições e o cumprimento das sinergias de todas as áreas funcionais;\n - Elaborar/Garatir o cumprimento do cronograma de integração das áreas corporativas a partir do closing (plano de 1 dias);\n - Reportar/Apresentar o acompanhamento das integrações para a Diretoria mensalmente.\n - Apoiar a implementação do modelo de Governança e Gestão do novo hospital;\n - Conduzir ações de melhoria contínua no processo de integração (PDCA);\n - Implementar dashboard com indicadores do projeto (Power Bi);\n Location : Brasil\n Job Title : Coordenador de Integração\n Company name : Eleva Educação\n Period : fev de 221 - out de 221\n Summary : Gestão do time de Integrações da Eleva Educação, cuja missão é integrar culturas e processos das mais novas unidades do grupo, com rapidez e qualidade.\n - Estruturar o processo para cada fase da integração, como diligência, planejamento e execução do projeto;\n - Desenvolver o ferramental que suporte o crescimento do grupo, como diligência e gestão de projetos;\n - Garantir a satisfação dos principais Stakeholders (Internos e Externos) com o processo;\n - Fazer a gestão do conhecimento dos projetos concluídos;\n - Analisar os dados dos projetos e identificar oportunidades de melhorias;\n - Consolidar as bases dos projetos e criar Dashboards (Power Bi);\n - Elaborar e ministrar treinamentos sobre temas relacionados a integração;\n Location : Rio de Janeiro, Brasil\n Job Title : Especialista em Integração Pleno\n Company name : Eleva Educação\n Period : out de 22 - fev de 221\n Job Title : Especialista em Integração Júnior\n Company name : Eleva Educação\n Period : jan de 219 - out de 22\n Summary : PMO de projetos de integração (IMO) de novas fusões e aquisições da holding Eleva Educação, responsável pelo controle e andamento do projeto.\n - Acompanhamento/análise da padronização e implementação de sistemas, processos, procedimentos e ferramentas;\n - Execução e controle da Due Diligence Operacional dos deals;\n - Coordenação das diligências financeiras e jurídicas (terceirizadas) das novas unidades do negócio, de forma a garantir a validação das premissas da negociação;\n - Acompanhamento/análise de todas as frentes dos projetos de integração dos deals junto às áreas executoras;\n - Acompanhamento/análise de indicadores dos projetos de integração;\n - Acompanhamento/análise de desempenho financeiro e comercial dos novos negócios.\n Location : Rio de Janeiro, Brasil\n Job Title : Estagiário de Business Inteligence\n Company name : Kenner\n Period : jun de 217 - ago de 217\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Estagiário de projetos\n Company name : Kenner\n Period : dez de 216 - mai de 217\n Location : Rio de Janeiro\n Job Title : Sócio Fundador\n Company name : Dr. Brownie\n Period : out de 214 - nov de 216\n Summary : - Responsável por estruturar toda parte administrativa\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Estagio de Back Office\n Company name : ATIVA Investimentos\n Period : ago de 215 - dez de 215\n Summary : -Liquidação de compra e venda de títulos (CDBs, LCIs, LCAs, etc)\n -Desenvolvimento de macros e planilhas de controle\n Job Title : Estagiário\n Company name : Fator Realty\n Period : out de 212 - set de 214\n Summary : -Estudo de projetos e levantamentos quantitativos\n -Elaboração e acompanhamento de cronogramas\n Location : Rio de Janeiro\n Job Title : Waiter\n Company name : Outback Steakhouse Brasil\n Period : jan de 211 - mai de 211\n Location : Rio de Janeiro, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Pontifícia Universidade Católica do Rio de Janeiro\n Speciality : Engenharia de Produção\n Degree : Bacharelado em Engenharia\n Period : 211 - 217\n School name : MBA USP/Esalq\n Speciality : Gestão de Pessoas com Ênfase em Liderança Organizacional\n Degree : Pós-graduação Lato Sensu - MBA Executivo\n Courses: Title : Laboratório Fundação Estudar"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "b1c97701-659e-4e8f-b482-8bf401d382d2",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*b1c97701-659e-4e8f-b482-8bf401d382d2",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:07.215Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:07.215Z",
+      "linkedinUsername": "leonardo-monteiro-44028170",
+      "email": "monteiroleal10@gmail.com",
+      "phone": "21972598600",
+      "name": "Leonardo Monteiro",
+      "id": "b1c97701-659e-4e8f-b482-8bf401d382d2"
+    },
+    "timeInCurrentStage": 61412108141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:09.176Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "12000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "padrões, gympass, ações da empresa"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Métodos e Processos Sênior"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Métodos e Processos Sênior\n Company name : americanas s.a\n Period : jul de 221 - o momento\n Summary : - Desenvolvimento de treinamentos em metodologias de projeto;\n - Consultoria em projetos de gestão de processos e de melhoria contínua;\n - Gestão compartilhada em projetos estratégicos de gente & gestão.\n - Prospecção de projetos de automação de processos;\n - Identificação, priorização e resolução de problemas aplicada à gestão de produtos;\n - Responsável pela frente de performance corporativa - gerenciamento pelas diretrizes;\n Location : Rio de Janeiro, Brasil\n \n Job Title : Analista de Métodos e Processos Sênior\n Company name : B2W Digital\n Period : mar de 221 - jun de 221\n Summary : - Desenvolvimento e ministração de treinamentos em metodologias de projeto;\n - Consultoria em projetos de gestão de processos e de melhoria contínua;\n - Gestão compartilhada em projetos estratégicos de gente & gestão.\n - Prospecção de projetos de automação de processos;\n Location : Rio de Janeiro, Brasil\n \n Job Title : Analista de Métodos e Processos Pleno\n Company name : B2W Digital\n Period : fev de 22 - mar de 221\n Summary : - Desenvolvimento e ministração de treinamentos em metodologias de projeto;\n - Consultoria em projetos de gestão de processos e de melhoria contínua;\n - Gestão compartilhada em projetos estratégicos de gente & gestão.\n Location : Rio de Janeiro, Brasil\n \n Job Title : Analista de Métodos e Processos Júnior\n Company name : B2W Digital\n Period : jul de 219 - fev de 22\n Summary : - Desenvolvimento e ministração de treinamentos em metodologias de projeto;\n - Desenvolvimento do programa de projetos PDCA para estagiários;\n - Consultoria em projetos de gestão de processos e de melhoria contínua;\n - Desenvolvimento de controles e dashboards para gestão de programas corporativos.\n Location : Rio de Janeiro, Brasil\n \n Job Title : Analista de Melhoria Contínua\n Company name : ICONIC Lubrificantes\n Period : nov de 218 - jul de 219\n Summary : - Auxílio ao processo de joint venture Ipiranga Lubrificantes e Chevron Lubrificantes;\n - Avaliação dos níveis de produção, padrões de qualidade a fim de identificar e\n resolver problemas operacionais, com foco no alcance das metas;\n - Gestão do sistema de controle de produção;\n - Implementação programa de melhoria contínua corporativo em novas plantas;\n - Otimização dos processos existentes através da execução de projetos;\n - Gestão de indicadores de resultado para prospecção de projetos estratégicos\n Location : Rio de Janeiro, Brasil\n \n Job Title : Assistente Administrativo II\n Company name : Ipiranga\n Period : jun de 215 - nov de 218\n Summary : - Gerenciamento de empresas contratadas, supervisionando a execução de obras;\n - Auxílio à implementação do novo programa de melhoria contínua organizacional;\n - Gerenciamento de indicadores de resultado para prospecção de projetos estratégicos;\n - Análise e acompanhamento dos custos indiretos de produção da organização;\n - Monitoramento de múltiplos bancos de dados para acompanhamento de inventário;\n - Implantação do sistema de WMS SIMP, para controle de volumes de movimentações de produtos;\n - Auxílio no processo de cutover Ipiranga e Ipiranga Lubrificantes.\n Location : Rio de Janeiro, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Fundação Getulio Vargas\n Degree : MBA em Gestão Empresarial\n Period : 218 - 22\n \n School name : Universidade do Estado do Rio de Janeiro\n Degree : Graduação em Engenharia Civil\n Period : 21 - 217\n \n School name : Colégio Pedro II\n Degree : Técnico em Meio Ambiente\n Period : 27 - 21\n Courses: Title : Design Thinking; Title : DevOps &Agile Culture; Title : Inteligência Financeira"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "9300bc5c-6ca0-471a-8bf6-6a0c63b2877d",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*9300bc5c-6ca0-471a-8bf6-6a0c63b2877d",
+    "talent": {
+      "updatedAt": "2024-02-08T18:40:07.779Z",
+      "status": "UNKNOWN",
+      "createdAt": "2024-02-08T18:40:07.779Z",
+      "email": "carolineaf.eng@gmail.com",
+      "phone": "+5521981595452",
+      "name": "Caroline Ferreira",
+      "id": "9300bc5c-6ca0-471a-8bf6-6a0c63b2877d"
+    },
+    "timeInCurrentStage": 61412108141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:09.368Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "23/09/1996"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "2400"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "plano de saude, VA/VR - carao de credito 83 reais, plano odontologico"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Química",
+          "id": "da11714a-6a8a-4fd7-a07c-bec3b7c2426d",
+          "label": "Engenharia Química"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "UFRJ - Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Business Analyst Intern"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Business Analyst Intern\n Company name : EloGroup\n Period : abr de 221 - abr de 222\n Summary : Execução de projetos em:\n - Gestão da mudança no contexto de transformação da área de RH de grande mineradora\n - Gestão da mudança no contexto de transformação da área de RH de empresa de transporte marítimo\n - Estudo e implantação de novo modelo de operação da área de RH de empresa de transporte marítimo\n - Atuação em CX com foco no mapeamento da Jornada do Cliente em contexto hospitalar\n Job Title : Estagiário de Customer Success\n Company name : Mercadou\n Period : out de 22 - mar de 221\n Summary : Fui responsável pelo atendimento ao cliente e acompanhamento de indicadores da área de CS. Contribui na definição de estratégias de marketing para retenção e captação de clientes. Além disso, atuei em conjunto com outras áreas da empresa para a melhoria da jornada do cliente, desde a sua experiência em nosso site/aplicativo, até a fatores relacionados a entrega em sua residência.\n Job Title : Gerente de desempenho\n Company name : Legado Consultoria Júnior\n Period : jan de 22 - dez de 22\n Summary : Atuei na área de Treinamento e Performance na Legado Consultoria Jr. onde fui responsável por montar e acompanhar os indicadores do clima organizacional da empresa além de elaborar planos de ação e procurar parcerias que ajudassem o desenvolvimento dos membros.\n Job Title : Gerente de comunicação\n Company name : Legado Consultoria Júnior\n Period : jul de 219 - jan de 22\n Summary : Atuei na área de Comunicação e Marketing Digital na Legado Consultoria Jr. onde fui responsável gerenciar o marketing externo da empresa. Através da análise semanal de indicadores do nosso site e do Google Ads da empresa era possível entender como estava a prospecção passiva de clientes e pensar em planos de ação para melhorar este processo.\n Location : Rio de Janeiro\n Job Title : Bolsista\n Company name : Instituto de Macromoléculas Professora Eloisa Mano - IMA/UFRJ\n Period : fev de 217 - dez de 217\n Summary : Experimentos físicos-químicos com ênfase em síntese orgânica e polimerização para obtenção de um meta polímero para tratamento antitumoral.\n Location : Rio de Janeiro, Rio de Janeiro"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Federal do Rio de Janeiro\n Speciality : Engenharia Bioquímica\n Degree : Bacharelado em Engenharia\n Period : 215 - ago de 222\n School name : IEG - Escola de Negócios\n Degree : MBA Jr.\n Period : 218 - 219"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "2efec692-95e9-455a-a268-33797185a366",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*2efec692-95e9-455a-a268-33797185a366",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:16.650Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:16.650Z",
+      "linkedinUsername": "bruno-de-oliveira-mattos",
+      "email": "brunoolivmatt@gmail.com",
+      "phone": "21969649122",
+      "name": "Bruno de Oliveira Mattos",
+      "id": "2efec692-95e9-455a-a268-33797185a366"
+    },
+    "timeInCurrentStage": 61412108141
+  },
+  {
+    "importedAt": "2024-02-08T18:40:09.061Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "01/02/1994"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "5600"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "plano de saude, odontologico, VR, seguro de vida, previdencia"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Ambiental",
+          "id": "598a6636-103e-4b27-ac21-4c7b88eadd01",
+          "label": "Engenharia Ambiental"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Federal Fluminense / UFF"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Corporate Sustainability & Climate Change Consultant"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Corporate Sustainability & Climate Change Consultant\n Company name : ERM: Environmental Resources Management\n Period : jul de 221 - o momento\n Summary : Working mainly in Due Diligence and ESG risk analysis; ESG strategy and materiality matrix (including double materiality); Climate change and Carbon reduction strategy (including Marginal Abatement Cost Curves (MACC) of greenhouse gases) projects for multinational companies of several sectors such as: financial, power and energy, transportation, oil & gas, agriculture, etc.\n Location : Rio de Janeiro, Brazil\n Job Title : Environmental, Social and Governance Assistant\n Company name : Grupo SOMA\n Period : fev de 22 - jun de 221\n Summary : Responsible for FARM's sustainability reporting process and for mapping and organizing the brand's internal impact indicators within the ESG spheres (environmental, social and governance); the reports are made using the GRI (global reporting Initiative) and SASB models; Preparation of reports of analysis of learning from the reporting process and opportunities for improvement in the corporate practices of the brand in the reported spheres.\n Management of our GHG (greenhouse gas) inventory process, ensuring the organization of the process, the flow of information between internal stakeholders and external consultancy, within the deadlines and appropriate format.\n Relationship management with external partners (reforestation partners, raw material suppliers and other FARM sustainability initiatives: such as Enjoei) and internal customers: areas of operations, style, production, communication.\n Responsible for the memorial and organization of FARM's socio-environmental impact information (raw material with less environmental impact, reforestation program, anima care partnerships), also supporting the management of the brand's projects.\n Identifying bottlenecks and restructuring the core sustainability processes. Results: 1% cutting edge waste diverted from landfill, 1% organic waste from the composted concept house, 5% reduction in the return of gifts from birthdays, a strategy developed for the disposal of textile waste with a profit of 18% over the amount invested\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Environmental Sustainability Intern\n Company name : Grupo SOMA\n Period : abr de 218 - fev de 22\n Summary : I have been hired by Sum Group as the first employee focused specifically on Sustainability, working for the brazilian fashion brand FARM. The main challenge was structuring and implementing new processes.\n Tasked with creating performance indicators to measure the environmental performance\n Responsible to support all the sustainable initiatives of the brand including the waste management, disposal logistics and alternative options to the textile waste.\n Research on textiles with low impact to reduce the environmental footprint of its garments and the circular economy initiatives\n Location : Rio de Janeiro Area, Brazil\n Job Title : Materials Management Intern\n Company name : Baker Hughes, a GE company\n Period : jun de 217 - abr de 218\n Summary : Have been working with Supply Chain\n Forecasted demand in order to plan the timing and amount of consumable materials for factory needs\n Used to elaborate performance indicators to measure the efficiency of the planning process and create action plans to improve weak spots in the chain\n After developing the process and KPIs trained another department to use the same system. Result: training of a team of 4 people from the maintenance department in the use of the same control tool and material planning report.\n Location : Rio de Janeiro Area, Brazil\n Job Title : Finance Administration Coordinator\n Company name : Agrha Consultoria - Empresa Júnior de consultoria nas áreas ambiental e agrícola\n Period : mai de 214 - dez de 214\n Summary : Project pricing\n Control the company expenses and the negotiation margin on price of projects based on the company needs and wastes\n Location : Rio de Janeiro Area, Brazil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "LAC"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Escola Politécnica da UFRJ\n Speciality : Economics and Industrial Engineering\n Degree : Master of Business Administration - MBA\n Period : jul de 221 - jan de 223\n School name : Universidade Federal Fluminense\n Speciality : Environmental Engineering Technology/Environmental Technology\n Degree : Engineer's degree\n Period : set de 213 - dez de 219\n School name : Pontifícia Universidade Católica do Rio de Janeiro\n Speciality : Project Management\n Degree : Project Management and Negotiation\n Period : 22 - 22\n Summary : Certificado.pdf\n School name : Pontifícia Universidade Católica do Rio de Janeiro\n Speciality : General\n Degree : Business Administration and Management\n Period : 22 - 22\n Summary : Certificado Gestão Orientada a Processos.pdf\n School name : University of La Verne\n Speciality : Leading & Coaching the Human Organization\n Degree : General\n Period : 219 - 219\n School name : COPPEAD UFRJ\n Degree : GRI Certified Training Program\n Period : mai de 221 - mai de 221\n Summary : Certificate GRI Certified Training Course\n Courses: Title : Business English; Title : Green Belt; Title : Leading & Coaching the Human Organization"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d1cf7c3e-3bbb-4903-ac44-756853bca3f5",
+    "id": "d3fc787b-2632-484e-979b-ed27ad981770*d1cf7c3e-3bbb-4903-ac44-756853bca3f5",
+    "talent": {
+      "updatedAt": "2023-12-20T14:09:04.461Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:09:04.461Z",
+      "linkedinUsername": "raquel-lemos-001283161",
+      "email": "ra.lemos94@gmail.com",
+      "phone": "21968589141",
+      "name": "Raquel Lemos",
+      "id": "d1cf7c3e-3bbb-4903-ac44-756853bca3f5"
+    },
+    "timeInCurrentStage": 61413008141
+  }
+]

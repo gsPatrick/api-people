@@ -1,0 +1,319 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:24.964Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "10500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Todos do mercado"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "DevOps Developer"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : DevOps Developer\n Company name : Elumini Outdoing IT\n Period : jun. de 22 – o momento\n Summary : Profissional SRE/DevOps responsável pela atuação nas squads da Prudential do Brasil Utilizando as ferramentas Docker e Azure DevOps para ajudar a desenvolver uma melhor agilidade na entrega dos projetos Auxiliando no monitoramento com a criação de dashboards de monitoramento utilizando Dynatrace e Zabbix e buscando pontos de melhorias pautando nas melhores práticas dos fornecedores\n Location : Rio de Janeiro, Brasil\n \n Job Title : Desenvolvedor Sênior\n Company name : Elumini Outdoing IT\n Period : dez. de 219 – jun. de 22\n Summary : Profissional responsável pela execução de projetos internos da companhia Sejam eles de migração de infraestrutura para a AWS e novos domínios, assim como manutenção de projetos legados\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Desenvolvedor sênior\n Company name : Altran\n Period : ago. de 219 – dez. de 219\n Summary : Consultor no banco de investimentos BTG Pactual pela empresa Altran, desenvolvendo com: NET Core, API, Angular, Node, TypeScript, entre outras tecnologias Usando formato de ServerLess na construção de micros serviços na AWS com tecnologias: Lambda, API Gateway, CloudWatch e Amazon Simple Notification Service (Amazon SNS)\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : IT Application Developer\n Company name : IBM\n Period : mai. de 218 – ago. de 219\n Summary : Participei do Time de GBS da IBM e estou alocado no cliente Prudential, onde venho trabalhando em diversos projetos As principais tecnologias envolvindas são: C#NET, Angular, ASPX, MVC, Oracle, TFS, Windows Form e APIs Fui responsável pela criação de algumas APIs e realizar provas de conceitos de alguns projetos internos\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Co-fundador\n Company name : DINO - Divulgador de Notícias\n Period : jun. de 212 – mai. de 217\n Summary : O Dino é a ferramenta que permite a seus usuários disparar releases para diversas mídias ao mesmo tempo, com segmentação das editorias e futuramente com garantia de publicação através de seus parceiros Seu uso aumenta a visibilidade dos produtos e serviços dos clientes na mídia eletrônica e impressa O disparo do release futuramente terá uma rede de milhares de jornalistas e blogs, além das maiores mídias brasileiras\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Desenvolvedor .NET\n Company name : Comunique-se\n Period : jan. de 211 – jun. de 212\n Location : Rio de Janeiro e Região, Brasil\n \n \n Job Title : Desenvolvedor .NET\n Company name : Thera Solutions\n Period : mai. de 21 – jan. de 211"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : DOCKER SWARM: ORQUESTRADOR DE CONTAINERS\n Period : Emitido em nov. de 2020 - Nenhuma data de expiração\n Issuing Authority : Alura\n Title : KAFKA: PRODUTORES, CONSUMIDORES E STREAMS\n Period : Emitido em out. de 2020 - Nenhuma data de expiração\n Issuing Authority : Alura\n \n Title : Criando Apis robustas em C#\n Period : Emitido em mar. de 2020 - Nenhuma data de expiração\n Issuing Authority : Udemy"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Estácio de Sá"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "9d0abeb5-16e1-4d9d-84f9-a26fa1b0b73f",
+    "id": "62583a4f-b749-414e-b544-9a307c40ac8c*9d0abeb5-16e1-4d9d-84f9-a26fa1b0b73f",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:25.115Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:25.115Z",
+      "linkedinUsername": "siriusroberto",
+      "email": "siriusna@gmail.com",
+      "phone": "21983896074",
+      "name": "Sirius Roberto",
+      "id": "9d0abeb5-16e1-4d9d-84f9-a26fa1b0b73f"
+    },
+    "timeInCurrentStage": 61412961045
+  },
+  {
+    "importedAt": "2024-02-08T18:39:25.008Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "8500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Todos do mercado"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "DevOps Engineer"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : DevOps Engineer\n Company name : IK Solution\n Period : out. de 22 – o momento\n Summary : Eu trabalho junto das equipes de desenvolvimento de sistemas das faculdades do grupo Yduqs, para\n configurar novos pipelines de construção e implantação Monitoramento de aplicativos e sistemas por meio de aws Cloudwatch, construção e configuração de pipeline de builds e deploys por azure devops,\n atendimento às demandas das equipes, configuração de novos recursos no aws, implantação e\n mudança de infraestrutura com terraform \n \n - IAC com Terraform\n - AWS EC2\n - AWS SSM\n - AWS RDS\n - AWS DynamoDB\n - AWS S3\n - AWS CloudFront\n - Azure DevOps\n Location : Brasil\n \n Job Title : DevOps Engineer\n Company name : Hicom IT\n Period : jun. de 219 – out. de 22\n Summary : Trabalhei fazendo monitoramento de infraestrutura por meio do AWS cloudwatch, fazendo implantações em produção e desenvolvimento Usei IaC para implementar novos recursos na infraestrutura Monitoramento de sites durante eventos por meio de AWS cloudwatch, implementa em desenvolvimento e produção usando compilação de código jenkins e aws, backup de banco de dados mysql\n \n - IAC com CloudFormation\n - AWS EC2\n - AWS SSM\n - AWS RDS\n - AWS Code Build/ Code Pipeline/ Code Commit\n - Python (Basico) \n - Jenkins (Básico)\n - AWS RDS\n Location : Rio de Janeiro\n \n Job Title : Administrador de Sistemas Cloud\n Company name : Qconcursos.com\n Period : mai. de 215 – mai. de 219\n Summary : Trabalhei cuidando da infraestrutura do site, monitorando através da ferramenta new relic\n e implementação de novos pipelines Monitoramento de sites e servidores, configuração de métricas de alarme Verificação do sistema para novas implantações\n \n - AWS RDS\n - AWS Beanstalk\n - AWS EC2\n - AWS Route 53\n - AWS S3\n - Wordpress hospedado na AWS\n - Linux\n - Mysql (Básico)\n - Nginx (Básico)\n - Cloudflare\n - Git (Básico)\n - Implementação de CI/CD utilizando as ferramentas da AWS Codepipeline e Codedeploy\n - Shell Script (Básico)\n - Python (Básico)\n - New Relic\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Técnico de Suporte\n Company name : Sonda IT\n Period : abr. de 215\n Summary : Monitoração dos links da BR Petrobras e Liquigás através do software Nagios, Atualização de sistemas ASP, Atualização de bats dentro de sistemas, Monitoração das rotinas de backup através da ferramenta Networker, Reinicialização e monitoração de máquinas virtuais através do Vmware vsphere client, atendimento de chamados utilizando o software Máximo, Abertura de chamados junto as operadoras Embratel, Comsat e Oi para verificação dos circuitos de dados e voz das localidades, Recuperação\n de e-mails utilizando a ferramenta Networker, Recuperação de arquivos de rede utilizando as ferramentas Checkpoint, Networker e Avamar, Reset em servidores físicos\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Analista de Suporte Junior\n Company name : Algar Tecnologia\n Period : jan. de 213 – abr. de 215\n Summary : Monitoração dos links da BR Petrobras e Liquigás através do software Nagios, Atualização de sistemas ASP, Atualização de bats dentro de sistemas, Monitoração das rotinas de backup através da ferramenta Networker, Reinicialização e monitoração de máquinas virtuais através do Vmware vsphere client, atendimento de chamados utilizando o software Máximo, Abertura de chamados junto as operadoras Embratel, Comsat e Oi para verificação dos circuitos de dados e voz das localidades, Recuperação\n de e-mails utilizando a ferramenta Networker, Recuperação de arquivos de rede utilizando as ferramentas Checkpoint, Networker e Avamar, Reset em servidores físicos\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Técnico de Suporte\n Company name : Sli Comercio e Representações LTDA\n Period : jan. de 212 – jan. de 213\n Summary : Monitoramento das rotinas de backup utilizando a ferramenta ARCSERVE, Atualização de sistemas Java através da ferramenta Probe, Monitoramento das unidades do Inca, Monitoramento dos links do Datasus e dos Hospitais HCI, HCII e HCIII/IV, Monitoramento dos servidores virtuais através da ferramenta XenCenter, Monitoramento dos storages e blades da IBM\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Técnico de Suporte Sênior - N2\n Company name : Four Network Ltda\n Period : out. de 211 – jan. de 212\n Summary : Instalação e configuração de micros baseados em Windows XP e Windows 7, Instalação e configuração de Office 23, 27 e 21, Manutenção de micros, confecção de Cabos de rede cat5, instalação de switches, instalação e configuração de roteadores wireless, confecção de pontos de rede, configuração de rotinas de backup\n Location : Rio de Janeiro e Região, Brasil\n \n \n Job Title : Técnico de Suporte\n Company name : Sli Comercio e Representações LTDA\n Period : fev. de 21 – nov. de 211\n Summary : Instalação e configuração de servidores baseados em Windows Server 23, Aplicação de políticas para gravação de arquivos usando o Storage Central, Controle de servidores através do remote desktop, Virtualização de máquinas com o Vmware Server, utilização do HP Service desk para atendimento de Ordens de serviço, Abertura de OS junto a HP para resoluções de problemas com servidores HP, instalação e configuração do WSUS, instalação e configuração do IIS, instalação e configuração do\n Coldfusion MX7, instalação de Linux Debian, instalação, configuração do Vmware Esxi 4, instalação e\n configuração do SNMP, instalação e configuração da plataforma wamp (Windows, apache, MySql e Php)\n para servidores Web e Administração do Anti-vírus Officescan 7 e 1\n Location : Rio de Janeiro e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Iniciando com ElasticSearch\n Period : Emitido em set. de 2019 - Nenhuma data de expiração\n Issuing Authority : School of Net\n Title : Automatizando nuvem com AWS CloudFormation\n Period : Emitido em jul. de 2019 - Nenhuma data de expiração\n Issuing Authority : School of Net\n \n Title : Python para Sysadmins\n Period : Emitido em abr. de 2019 - Nenhuma data de expiração\n Issuing Authority : 4linux"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Estácio de Sá\n Speciality : Graduação Tecnológica, Analise e Desenvolvimento de sistemas\n Period : 217 – 22\n \n School name : Etesc - Santa Cruz\n Period : 1999 – 21\n Courses: Title : MCSA Windows Server 212; \n Title : Virtualização de sistemas computacionais"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "13f4bf00-bdf7-44ed-97cc-11a14be88309",
+    "id": "62583a4f-b749-414e-b544-9a307c40ac8c*13f4bf00-bdf7-44ed-97cc-11a14be88309",
+    "talent": {
+      "updatedAt": "2023-12-20T13:52:53.474Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:52:53.474Z",
+      "linkedinUsername": "thiagorchaves",
+      "email": "thiago.romualdo@gmail.com",
+      "phone": "21999519455",
+      "name": "Thiago Chaves",
+      "id": "13f4bf00-bdf7-44ed-97cc-11a14be88309"
+    },
+    "timeInCurrentStage": 61412961045
+  },
+  {
+    "importedAt": "2024-02-08T18:39:24.977Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "23/04/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "8000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Todos do mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Redes Computacionais",
+          "id": "3bd8dafe-1800-4e3c-8c3b-75a058646a5a",
+          "label": "Redes Computacionais"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Especialista de TI"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Especialista de TI\n Company name : IBM\n Period : jan. de 213 – o momento\n \n Job Title : Analista de suporte e infraestrutura\n Company name : IBM\n Period : jul. de 28 – 213\n \n Job Title : Estagiária\n Company name : IBM\n Period : mar. de 27 – jul. de 28\n \n \n Job Title : Estagiária\n Company name : Automatos\n Period : 26"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Cloud Core\n Period : Emitido em mai. de 2021 - Nenhuma data de expiração\n Issuing Authority : IBM\n Title : Media & Entertainment Industry Foundations\n Period : Emitido em jul. de 2019 - Nenhuma data de expiração\n Issuing Authority : IBM\n \n Title : Professional Scrum Master I\n Period : Emitido em dez. de 2017 - Nenhuma data de expiração\n Issuing Authority : Scrum.org"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Estácio de Sá\n Speciality : Graduação em Redes de Computadores\n Period : 25 – 27\n Courses: Title : AIX- IBM; Title : Agile Program Fundamentals - IBM; Title : Agile@IBM - A Taste of agile; Title : COBIT 5 Foundation - PMG Academy; Title : DevOps Foundation; Title : Emerging Technical Leaders Lab - IBM; Title : Fundamentals of Lean Six Sigma - IBM; Title : How YOU Can Improve Client Satisfaction - IBM; Title : ISO/IEC 2 - TI Exames; Title : ITIL - IBM; Title : MCITP Windows Server 28, Implementação e Administração - MCURY; Title : MCTS Windows Server 28 Active Directory -Mcury; Title : MCTS Windows Server 28 Infraestrutura de Redes -Mcury; Title : MCTS Windows Server Virtualization(Hyper-V) – Mcury; Title : Openshift I : Containers & Kubernetes; Title : Scrum Master Training - IBM; Title : ServiceNow; Title : Using Docker: Benefits and Installation; Title : Using Docker: Dockerizing Applications; \n Title : ZLINUX - IBM"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d4fababe-9a87-4d25-8663-9f2bbdff8dec",
+    "id": "62583a4f-b749-414e-b544-9a307c40ac8c*d4fababe-9a87-4d25-8663-9f2bbdff8dec",
+    "talent": {
+      "updatedAt": "2023-12-20T13:55:30.662Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:55:30.662Z",
+      "linkedinUsername": "talitasmm",
+      "email": "talitasoma@gmail.com",
+      "phone": "21982897062",
+      "name": "Talita de S. M. Miranda",
+      "id": "d4fababe-9a87-4d25-8663-9f2bbdff8dec"
+    },
+    "timeInCurrentStage": 61412961045
+  }
+]

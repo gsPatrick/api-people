@@ -1,0 +1,136 @@
+[
+  {
+    "importedAt": "2024-02-08T18:38:47.523Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "18/09/1985"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "17500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "6.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "todos de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Segurança da Informação",
+          "id": "38782bdd-e857-4bf5-a67d-ca0b37933a71",
+          "label": "Segurança da Informação"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Unibersidade Nove de Julho"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de Cibersegurança"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 filho - 3 anos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de Cibersegurança\n Company name : Grupo Boticário\n Period : out. de 22 – o momento\n Location : São Paulo, São Paulo, Brasil\n Job Title : Coordenador de Riscos Cibernéticos\n Company name : Porto Seguro\n Period : ago. de 219 – out. de 22\n Location : São Paulo e Região, Brasil\n Job Title : Coordenador de Segurança da Informação\n Company name : TOTVS\n Period : out. de 217 – ago. de 219\n Summary : Responsável pela coordenação técnica e de pessoas com o intuito de desenvolver e disseminar a cultura de Segurança da Informação na organização elevando-a a um nível cada vez mais executivo.\n Location : São Paulo, São Paulo, Brazil\n Job Title : Especialista em Segurança da Informação\n Company name : TOTVS\n Period : abr. de 215 – out. de 217\n Summary : Especialista de Segurança da Informação com foco no ambiente corporativo fui responsável pela estruturação do time corporativo atuando desde a contratação do time à definição e gestão de implementação do roadmap de processos/ferramentas de segurança.\n Location : São Paulo Area, Brazil\n Job Title : Analista de Segurança da Informação Sênior\n Company name : TOTVS\n Period : mar. de 214 – abr. de 215\n Summary : Analista de Segurança da Informação Sênior com a responsabilidade de desenvolver e implementar processos e componentes/ferramentas de Segurança da informação nos ambientes de Cloud/Datacenter e corporativo da organização. Responsável por responder a incidentes de segurança internos e de clientes no ambiente de Cloud e responsável pela elaboração e monitoração de indicadores para avaliação da aderência das ações de segurança da Informação afim de desenvolver uma cultura de Segurança da Informação na organização (nível executivo e operacional).\n Location : São Paulo Area, Brazil\n Job Title : Consultor em Segurança da Informação\n Company name : ICTS Global\n Period : mar. de 213 – mar. de 214\n Summary : Consultor de Segurança da Informação atuante em diversos projetos de Segurança da Informação e forense digital em clientes de grande porte incluindo projetos de Classificação da Informação, Testes de Intrusão, Análise de Vulnerabilidades, Auditorias ISO 27, etc.\n Job Title : Consultor em Segurança da Informação e Forense\n Company name : TechBiz Forense Digital\n Period : fev. de 28 – jan. de 213\n Summary : Consultor de Segurança da Informação e Forense atuante em diversos projetos de Segurança da Informação, Investigação Forense e Resposta a Incidentes em clientes de grande porte incluindo as principais operadoras de Telefonia, empresas de Televisão, Bancos, Processadoras Transações, etc. Responsável pela consultoria forense à Policia Civil e Instituto de Criminalística de São Paulo atuando em diversos casos de Investigação.\n Location : São Paulo\n Job Title : Analista de Segurança da Informação\n Company name : Grupo Pão de Açúcar\n Period : fev. de 26 – mar. de 28\n Summary : Analista de segurança da informação responsável pelo processo de monitoração e resposta a incidentes, principal processo de segurança avaliado para obtenção da certificação SOX. Responsável pelo processo de certificação digital, investigações e análises forenses.\n Location : São Paulo"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : ACE\n Issuing Authority : Access Data\n Title : Security +\n Issuing Authority : Comptia"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : FIA Business School\n Speciality : Pós-Gradução Cibersegurança e Proteção Digital de Negócios\n Period : 22 – 221\n School name : Unibersidade Nove de Julho\n Speciality : Graduation, Segurança da Informação"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "949e73d7-1389-4be2-bbfc-c4a4375d311b",
+    "id": "2db744bb-f359-4eb6-a319-3059ec161be5*949e73d7-1389-4be2-bbfc-c4a4375d311b",
+    "talent": {
+      "updatedAt": "2023-12-20T14:04:59.875Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:04:59.875Z",
+      "email": "importacao8856@importacaoinhire.com",
+      "phone": "11997767482",
+      "name": "Peterson Sacalão",
+      "id": "949e73d7-1389-4be2-bbfc-c4a4375d311b"
+    },
+    "timeInCurrentStage": 61412936447
+  }
+]

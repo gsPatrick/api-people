@@ -1,0 +1,2862 @@
+[
+  {
+    "importedAt": "2023-12-20T14:43:57.119Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Holiday Inn Goiânia - IHG®"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "July 27"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Financeiro"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Financeiro\n Company name : Holiday Inn Goiânia\n Period : 2017 - Present\n Location : Goiânia e Região, Brasil\n \n Job Title : Analista Financeiro\n Company name : Vivence Hotéis & Resorts\n Period : March 2014 - September 2017\n \n Job Title : Analista Pleno - Financeiro\n Company name : GRUPO IMPERIAL\n Period : July 2011 - December 2013\n Summary : Departamento Financeiro\n Fabricamos e Distribuimos no Centro Oeste, Norte e Nordeste do Brasil as marcas Tampico, Guaraviton, Sucos La Fruit, Refrigerantes Guaraná Goianinho, Ice Cola, Orange e Grapette, Cerveja Imperial Beer, 100% malte Imperial Ouro, Bebida ICE Birinight e Velho Barreiro.\n Location : Trindade Go\n \n Job Title : Encarregada Financeira\n Company name : Global Car\n Period : September 2008 - October 2010\n Summary : Departamento Financeiro\n Location : Gôiania - GO\n Company 2: Vivence Hotéis & Resorts\n Company 3: GRUPO IMPERIAL"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidadade Salgado de Oliveira - Universo\n Degree : Administração de Empresa\n Period : 2003 - 2007"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T17:38:10.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T17:38:10.000Z",
+    "talentId": "ddecab0b-5ccf-4d2c-853c-1866c14ccc66",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*ddecab0b-5ccf-4d2c-853c-1866c14ccc66",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:46.896Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:46.896Z",
+      "linkedinUsername": "nete-andrade-087ba070",
+      "phone": "",
+      "name": "Nete Andrade",
+      "id": "ddecab0b-5ccf-4d2c-853c-1866c14ccc66"
+    },
+    "timeInCurrentStage": 91946213682
+  },
+  {
+    "importedAt": "2023-12-20T14:43:57.207Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "W Palmerston"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T18:01:37.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T18:01:37.000Z",
+    "talentId": "f5e6a117-a62b-4f0d-b151-36d28c97f461",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*f5e6a117-a62b-4f0d-b151-36d28c97f461",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:47.277Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:47.277Z",
+      "email": "importacao7902@importacaoinhire.com",
+      "phone": "",
+      "name": "Mauricio Tiso de Souza",
+      "id": "f5e6a117-a62b-4f0d-b151-36d28c97f461"
+    },
+    "timeInCurrentStage": 91944806682
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.908Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Laboratório Teuto"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "July 29"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês (Full Professional)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "CFO/Diretor de Relações com Investidores no Laboratório Teuto / Conselheiro do SICOOB / VP. IBEF-DF"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : CFO/Diretor de Relações com Investidores no Laboratório Teuto / Conselheiro do SICOOB / VP. IBEF-DF\n Company name : Laboratório Teuto\n Period : March 2018 - Present\n Summary : Empresa de capital aberto com 3.500 funcionários , faturamento R$ 1,5 Bilhões.\n \n - Responsável por uma equipe de 117 colaboradores (Orçamento, Custos, Rentabilidade de Produto, Negociação de Preços, Contabilidade,/Controladoria, Planejamento Financeiro, Tesouraria( Contas a Receber, Contas a Pagar, Fluxo de Caixa), TI, RH, Fiscal e Relacionamento com Investidores)\n - Implantação do custo Standard industrial, comparativos com real e médio para aferição e tratamento, controle e prevenção de perdas. Implantação de metodologia de custos LEAN Financeiro, membro do comitê de Plano Mestre de Produção (PCP/Compras/Produção/vendas e Finanças).\n - Análise de melhor mix, rentabilidade por produto, análise de viabilidade econômico-financeira para lançamentos de novos produtos / clones , troca de dossiês.\n - Recuperação de Impostos Federal e Estadual.\n - Gerenciamento e projeção de fluxo de caixa, controle de despesas, orçamento base zero.\n - Estruturação de Operações Financeiras com maior grau de complexidade (Lançamento de Debêntures 476 com os maiores bancos do país - uma das maiores operações de crédito do Centro-Oeste em 2018).\n - Turn around operacional e financeiro permitindo a recuperação operacional e financeira do negócio.\n - Renegociação de operações financeiras.\n - Negociação de Folha de Pagamentos.\n - Amplo relacionamento com mercado financeiro nacional e internacional, fusões , aquisições, due diligence , atração de sócios minoritários / majoritários .\n -.Auditoria interna/Externa/ Compliance.\n - Preparação da empresa para Abertura de Capital /IPO.\n - Implantação de LGPD.\n Location : Anapolis - Goiás\n \n Job Title : Diretor Financeiro Holding/Relação com Investidores - Professor de Finanças MBA\n Company name : GRUPO JOSÉ ALVES - HOLDING\n Period : July 2015 - March 2018\n Summary : Grupo com atuação no segmento de Bebidas (Coca-Cola Goiás e Tocantins), Ensino (Faculdades Alfa(Goiânia) e Fadisp (São Paulo)), Laboratório Fármaco (Vitamedic), Tecnologia da Informação (R&W - SAP/Oracle), Rastreamento de Veículos (3T) e Real States (NL Negócios Imobiliários), Faturamento superior a R$ 1 Bilhão e mais de 4.500 funcionários.\n \n - Gerenciamento de fluxo de caixa e controle de despesas.\n - Negociações com bancos para levantamento de recursos e renegociação de dividas.\n - Estruturação de Operações Financeiras com maior grau de complexidade (Debêntures,CRI,2770,4131, NP´s, Operações Agrícolas,Fundos Constitucionais, BNDES Direto, Fundos Mezanino), captação da maior operação do Centro-Oeste em NP´s envolvendo investidores internacionais.\n - Fusões e aquisições.\n - Desenvolvimento de planos de recuperação.\n - Documentação de políticas e procedimentos em empresa familiar.\n - Estruturação de área de finanças( Empresa Familiar e Sociedade Anônima)..\n - Preparação de avaliação de empresas com banco de investimento para um IPO.\n - Contatos com Investidores.\n - Orçamento, Custos, Rentabilidade de Produto, Negociação de Preços, Contabilidade, Contas a Receber, Contas a Pagar e Controles Internos. \n . Auditoria interna e interface com advogados externos.\n Location : Goiânia e Região, Brasil\n \n Job Title : Gerente Administrativo & Financeiro Corporativo\n Company name : BIPAR INVESTIMENTOS E PARTICIPAÇÕES S/A\n Period : March 2014 - July 2015\n Summary : Grupo atuando no segmento de Indústria Metalúrgica/Construção Civil/Linhas de Transmissão/PCH´s/Mineração/Pecuária faturamento US$ 600 milhões/ano e 3.000 funcionários.\n \n • Respondendo pela gestão Contábil/Financeira do grupo, promoveu a restruturação da área financeira/contábil, redução do custo de capital (WACC 3°s), mudança na matriz de endividamento, reduzindo a alavancagem no curto prazo. Desenvolvimento e Renegociação de prazos de pagamento junto a fornecedores estratégicos reduzindo a necessidade de capital de giro , implantação de reunião de performance econômico/financeira , Módulo de Finanças (Microssiga), além de orçamento por centros de custos . \n • Estruturação de valuation junto ao Bancos de Investimentos para venda de participação das empresas do Grupo. Experiência em confecção de “Information Memorandum” para atração de investidores.\n \n Job Title : Gerente Administrativo & Financeiro Corporativo\n Company name : RENOSA e SOLAR Br.\n Period : October 2009 - March 2014\n Summary : • Respondendo pela gestão de finanças nos estados do Mato Grosso, Maranhão, Tocantins, Bahia, Alagoas e Sergipe reestruturou a área financeira, implantando gestão de caixa de longo prazo, desenvolvimento de visão financeira indireta (estoques financeiro de impostos e maximização de benefícios fiscais), Net cashflow, projetos, modificação do perfil da dívida captando recursos com custos diferenciados (Fundos Constitucionais, Capital de Giro Comercial, FINAME/FINIMP, BNDES DIRETO, Operações Agrícolas), estudo de linhas e enquadramento de crédito para implantação de unidade fabril em Imperatriz – MA, captação de linhas de crédito internacional(4131,resol.2770) , montagem, captação e controle de operação para lançamento de debêntures não conversíveis (maior operação entre bancos comerciais e empresa do Centro Oeste); fechamento de capital de empresa coligada com recompra de ações, automação de rotinas para segurança de processos administrativos/financeiros no sistema R/3 SAP ,desenvolvimento de sistema COGNOS-IBM -projeção de caixa longo prazo (indireto e direto). \n • Interface com acionistas sul-africanos, quanto a envio de dividendos, desenvolvimento de relatórios diários, semanais e mensais de posição financeira e econômica.\n • Estruturação do Departamento Pessoal quanto a implantação de sistema de gestão integrada (EMS-Datasul), automação das rotinas diárias,implantação de metodologia de prevenção de fraudes em folha de pagamentos, implantação da Portaria 1.510 (marcação automática de ponto eletrônico), com redução em 35% de horas extras, desenvolvimento de plano de cargos e salários com reestruturação das funções e níveis salariais. \n • Análise e controle do CAPEX e OPEX; implantação de célula de análise e acompanhamento de investimentos (VPL, MTIR, PAYBACK), fluxo de caixa descontado (valluation).\n • Usuário Chave da Divisão Financeira no processo de fusão dos Grupos Jereissati (Coca-Cola Norsa - CE), Noroeste (Coca-Cola Renosa - MT) e The Coca-Cola Company.\n Location : Cuiabá e Fortaleza, Brasil\n \n Job Title : Gerente Financeiro\n Company name : Grupo Tavares de Melo\n Period : July 2006 - July 2009\n Summary : Indústrias do Setor Industrial e Agroindustrial , faturamento US$ 1 bilhão/ano e 2.400 funcionários.\n \n • Implantação do ERP-Datasul para a área Contábil, Financeira, Manufatura, Distribuição e Investimentos, estruturação das unidades do grupo quanto a gestão de informações estratégicas e operacionais, uniformização dos procedimentos adm. e financeiros, melhoria na gestão dos estoques através de políticas de ponto de encomenda e estoques de segurança.\n • Responsável pelo Planejamento Estratégico, implementando soluções de sistemas de informações integradas, como o PIMS(Sistema Agrícola para controle de custos) e GESPLAN(Plan. Orçamentário Industrial e Agrícola), projetando receitas x desembolsos, além do “BI”(sistema de ind. de performance via web) Cock Pit e Winmoney(sistema de controle fin.-Caixa,Aplicação e Captação). Relatórios gerenciais para apuração do Lucro(EBITDA). Como Gerente de Projetos implantou as rotinas da manufatura(Custos, Engenharia, PCP), proporcionando maior controle e precisão sobre as atividades fabris nas unidades do Nordeste e Centro Oeste. \n • Implantação de gestão orçamentária, projeção de fluxo de caixa com reportes constantes a Diretoria, gestão de estoques, reduzindo o custo em US$ 1.500.000,00/ano através da diminuição da obsolescência e importação de insumos produtivos. Vivência em operações de captação de recursos nacionais (Capital de Giro e Financiamentos) e internacionais (Operações em US$ e Swap´s) melhorando a gestão financeira. \n • Conhecimentos em avaliação de empresas, oferta e acompanhamento de informações para due diligence e auditorias, levantamento de balanços e balancetes, averiguando gastos, lucros e perdas, melhor utilização dos recursos financeiros e distribuição desses, planejamento tributário quanto a obtenção de incentivos fiscais. Fechamentos contábeis até o 3° dia útil e reuniões mensais de resultado até o 5° dia útil. Na área de qualidade e produtividade possui experiência em certificações ISO, 5S e JUST TIME.\n Location : Recife\n \n Job Title : Supervisor de Planejamento/Negócios\n Company name : GRUPO TAVARES DE MELO\n Period : May 2001 - June 2006\n Summary : Responsável pelo Planejamento Estratégico, implementando soluções de sistemas de informações integradas, como o PIMS(Sistema Agrícola para controle de custos) e GESPLAN(Planejamento Orçamentário Industrial e Agrícola), projetando receitas x desembolsos, além do “BI”(sistema de indicadores de performance via web) Cock Pit e Winmoney(sistema de controle financeiro-Caixa,Aplicação e Captação). Relatórios gerenciais para apuração do Lucro(EBITDA). Como Gerente de Projetos implantou todas as rotinas da manufatura(Custos, Engenharia, PCP), proporcionando maior controle e precisão sobre as atividades fabris nas unidades do Nordeste e Centro Oeste.\n Location : Recife\n \n Job Title : Controller Adm/Financeiro\n Company name : Grupo Cambuci - Penalty Artigos Esportivos\n Period : February 2000 - April 2001\n Summary : Elaboração do orçamento , acompanhamento mensal dos resultados financeiros e comparação com o orçamento, apresentação mensal dos resultados financeiros para a Diretoria, e trimestralmente ao Conselho de Acionistas, gerenciamento de fluxo de caixa direto e indireto, contato com os bancos, recomendação de alternativas de sourcing / investimento, Contabilidade de Custos, Custo de Material, Controle de Estoque, Faturamento, Contas a Receber e Contas a Pagar.\n \n Job Title : Supervisor Adm/Financeiro\n Company name : Votorantim Celulose e Papel S/A\n Period : February 1997 - February 2000\n Summary : Saneamento da carteira de crédito e cobrança, reduzindo a inadimplência de 23% a.m. para 6% a.m. Aumento da carteira comercial em 30 % a.m., implantação de operações de consignação, cartão fidelidade com premiações por volume e margem, terceirização da frota de entrega, reduzindo custos operacionais na ordem de 27% a.a.. Responsável pela implantação de gestão orçamentária por centro de custos e reuniões mensais de resultado até o 5° dia útil de cada mês, implantação do ERP SAP(R/3) módulo de Manufatura com “customização” de informes gerenciais.\n \n Job Title : Gerente Adm/Financeiro\n Company name : Stagliorio Engenharia\n Period : January 1994 - February 1997\n Summary : Reorganização do setores de Custos, Contabilidade, Fiscal, Planejamento, Materiais e Faturamento, redimensionando e capacitando a mão-de-obra direta e indireta nos canteiros de obras. Implantação e consolidação de Sistemas Integrados de Informações (Magnus i - Datasul, Millenium e ADP Sistem- Folha de Pagamentos). Redução dos gastos gerais diretos de materiais na ordem de 15%, terceirização de atividades secundárias, acompanhamento de auditorias externas e realização de auditorias internas. \n Implantação de análise de obra por centro de custos e working capital por obra contratada. Implantação de política de gestão de materiais reduzindo a obsolescência e aumentando o giro dos estoques. \n Abertura de filiais, implantando processos, controles contábeis/fiscais, financeiros e custos.\n Company 2: GRUPO JOSÉ ALVES - HOLDING\n Company 3: BIPAR INVESTIMENTOS E PARTICIPAÇÕES S/A"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Mercado Financeiro e IPO\n Period : November 2020 - Present\n Summary : U2WKvftb8t\n Issuing Authority : FIA ONLINE\n \n Title : Relações com Investidores na Prática: Avançado\n Period : July 2020 - Present\n Summary : 4338328485\n Issuing Authority : FACULDADE FIPECAFI - Fundação Instituto de Pesquisas Contábeis, Atuariais e Financeiras\n \n Title : Consultor Federação das Industrias do Estado da Bahia - Segmento Indústrias Gráficas e Confecções - Programa PATME\n Issuing Authority : Federação das Indústrias do Estado da Bahia -FIEB\n \n Title : Membro IBGC\n Issuing Authority : IBGC - Instituto Brasileiro de Governança Corporativa"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/luiz-lyra-43253230"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T22:44:54.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T22:44:54.000Z",
+    "talentId": "7256e003-0894-4623-8722-4073c2dde6a7",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*7256e003-0894-4623-8722-4073c2dde6a7",
+    "talent": {
+      "company": "Laboratório Teuto",
+      "createdAt": "2023-12-20T13:01:47.092Z",
+      "headline": "",
+      "linkedinUsername": "luiz-lyra-43253230",
+      "location": "",
+      "name": "Luiz Lyra",
+      "phone": "",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQHkJa04uIKXLw/profile-displayphoto-shrink_200_200/0/1686586305409?e=1722470400&v=beta&t=i9_dEMIvzJOnpZ12s10o7PzVQi6oYs3u8jKg5LQ3-AQ",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-06-24T17:21:34.043Z",
+      "id": "7256e003-0894-4623-8722-4073c2dde6a7"
+    },
+    "timeInCurrentStage": 91927809682
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.521Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "BlockIT Security"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "English (Full Professional), Portuguese (Native Or Bilingual)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor financeiro e administrativo"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Diretor financeiro e administrativo\n Company name : BlockIT Security\n Period : January 2018 - Present\n Summary : Sócio da BlockIT, empresa de tecnologia, focada em infraestrutura, segurança de rede e desenvolvimento de sistemas.\n Location : Goiânia e Região, Brasil\n \n Job Title : Gerente de TI\n Company name : Enjoy Hotéis e Resorts\n Period : March 2018 - June 2021\n Location : São Paulo e Região, Brasil\n \n Job Title : Coordenador de projetos\n Company name : Grupo Natos\n Period : March 2016 - January 2018\n Location : Goiânia e Região, Brasil\n \n Job Title : Coordenador de garantia de qualidade\n Company name : Accenture\n Period : March 2007 - March 2016\n Summary : 2007 – atual - ACCENTURE - Empresa multinacional de consultoria.\n \n Cargo: Coordenador de testes da TIM / INTELIG\n Projeto: FQA – TIM / INTELIG\n Atividade: Planejar testes de IT e UAT, treinar e gerir equipe de 14 pessoas, vender novos projetos e manter o relacionamento com o cliente.\n Período: A partir de abr/2015\n \n Cargo: Analista de Sistemas Sênior\n Projeto: Vale – Carve Out\n Atividade: Coordenação dos testes com os usuários (UAT) e acompanhamento da implantação do projeto Carve Out \n Período: out/2014 a abr/2015\n \n Cargo: Analista de Sistemas Sênior - Analista de teste\n Projeto: Vale – BI\n Atividade: Responsável por implantar todo o processo de teste da equipe de BI (Planejar e fazer estimativas de testes, Elaborar plano de teste, executar testes, controlar defeitos, gerar métricas e relatórios gerenciais, vender novos projetos e manter o relacionamento com o cliente). \n Período: abr/2014 a out/2014 \n \n Cargo: Analista de Sistemas Sênior - Líder da Fábrica de testes\n Projeto: Vale – Fábrica de testes\n Atividade: Planejar e fazer estimativas de testes, treinar e gerir equipe de 12 pessoas (6 em Manila/Filipinas), gerar métricas e relatórios gerenciais e captar novas demandas para a área. Responsável pela implantação dos processos de teste no projeto Vale, trabalhando em perfeita sinergia com a equipe de desenvolvimento, tendo aumentado a qualidade das entregas em 45%.\n Período: 2013 a abr/2014\n \n Cargo: Analista de Sistemas Sênior - Líder da equipe de Billing\n Projeto: FQA – INTELIG\n Atividade: Planejar testes de IT e UAT, treinar e gerir equipe de 6 pessoas. Responsável pela implantação de processos automatizados de teste, que resultou no aumento de 30% da produtividade da equipe. \n Período: 2011 a 2013\n \n Cargo: Analista de Sistemas Júnior/Pleno\n Projeto: FQA - TIM\n Atividades: Executar testes funcionais (IT e UAT), validar e configurar ambientes UNIX e banco de dados Oracle.\n Período: 2007 a 2011\n Location : Rio de Janeiro Area, Brazil\n Company 2: Enjoy Hotéis e Resorts\n Company 3: Grupo Natos"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Estácio de Sá\n Speciality : Tecnologia da Informação\n Degree : Sistemas de informação\n Period : 2003 - 2008"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T17:56:41.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T17:56:41.000Z",
+    "talentId": "3a73f234-81e5-44ae-b8d4-8e74e9bfd40b",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*3a73f234-81e5-44ae-b8d4-8e74e9bfd40b",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:47.119Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:47.119Z",
+      "linkedinUsername": "leonardo-cardoso-ab7398a",
+      "phone": "",
+      "name": "Leonardo Cardoso",
+      "id": "3a73f234-81e5-44ae-b8d4-8e74e9bfd40b"
+    },
+    "timeInCurrentStage": 91945102682
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.558Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "BMB Energy"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "September 27"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês , Português"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Chief Financial Officer"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Chief Financial Officer\n Company name : BMB Energy\n Period : June 2022 - Present\n Summary : Temos um sonho grande de transformar a matriz energética das regiões que atuamos, para isso queremos ser reconhecidos como referência de qualidade e eficiência na Geração de energia limpa e sustentável. Nosso maior compromisso é com a inovação e excelência em nossos serviços.\n Location : Goiânia, Goiás, Brasil\n \n Job Title : Gerente de Operações\n Company name : Umuarama Concessionárias\n Period : January 2021 - July 2022\n Summary : Responsável pelas operações da Umuarama Seguros, Umuarama Locadora e Vendas Corporativas.\n Location : Goiânia e Região\n \n Job Title : Gerente de Operações sênior Harley Davidson | KTM\n Company name : Umuarama Concessionárias\n Period : April 2019 - January 2021\n Location : Goiânia e Região, Brasil\n \n Job Title : Gerente Financeiro e Administrativo\n Company name : Star Motors Comercio De Veiculos\n Period : February 2018 - March 2019\n Summary : - Responsável pela Gestão de receitas e elaboração de análise orçamentária e de despesas;\n - Relacionamento com Bancos de Montadora e Bancos;\n - Gestão da Tesouraria, Contas a pagar e contas a receber (CSC);\n - Membro do Conselho de Gestão.\n Location : Goiânia e Região, Brasil\n \n Job Title : Gerente Financeiro Comercial\n Company name : Portal Shopping\n Period : October 2016 - February 2018\n Summary : - Responsável pelo relacionamento com os lojistas negociando lojas, renovações, descontos e novas oportunidades de negócio;\n - Responsável por coordenar a elaboração do Planejamento Estratégico e Orçamento anual e dos próximos cinco anos do Shopping;\n - Controlar as despesas do condomínio mediante acompanhamento dos gastos respeitando os limites orçamentários e procurar alternativas de redução de despesas;\n - Gerar e analisar as informações financeiras e operacionais mensais a fim de direcionar a superintendência e empreendedores na tomada de decisões;\n - Assegurar e analisar informações financeiras a fim de suportar a controladoria e auditoria fiscais externas;\n - Promover o engajamento e acompanhar os resultados junto a equipe nos Programas de Excelência;\n - Realizar a gestão administrativa relacionada as demandas do shopping referente a folha de pagamento, benefícios, interface com as seguradoras e escritórios jurídicos;\n - Assegurar a situação legal do shopping perante aos órgãos e entidades públicas;\n - Realizar a gestão de pessoas;\n - Otimizar a rentabilidade dos empreendedores através de uma adequada análise da utilização dos custos orçados e maximização das receitas.\n Location : Goiânia, Goiás\n \n Job Title : Gerente de Finanças Sênior\n Company name : Grupo Maudi\n Period : January 2012 - February 2016\n Summary : Administração de Carteira com 250 Clientes, Consultoria, Gestão Financeira e Prospecção de Novos Clientes. Com foco no auxílio nas melhores tomadas de decisões de tomada e aplicações de recursos com foco na perenidade e melhoria de performance de resultado dos clientes ativos.\n Location : Goiânia e Região, Brasil\n \n Job Title : Gerente de finanças sênior\n Company name : Grupo Maudi\n Period : January 2012 - February 2016\n \n Job Title : Gerente Empresas Sênior\n Company name : Itaú Unibanco\n Period : May 2006 - November 2011\n \n Job Title : Administrador\n Company name : Goiás Latas Ltda.\n Period : January 1995 - May 2006\n Summary : Sócio proprietário de Autopeças com mais de 32 anos de mercado e uma das líderes do segmento.\n Company 2: Umuarama Concessionárias\n Company 3: Umuarama Concessionárias"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : CPA 10\n Period : August 2013 - August 2015\n Issuing Authority : ANBID"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Fundação Getúlio Vargas - FGV\n Speciality : MBA Gestão de Projetos\n Degree : MBA Gestão de Projetos\n Period : 2008 - 2011\n \n School name : Universidade Estadual de Goiás\n Speciality : Administração de Empresas\n Degree : Bacharelado em Administração\n Period : 2000 - 2005\n Courses: Title : Gestão de Concessionárias"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T18:34:31.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T18:34:31.000Z",
+    "talentId": "27f4ae4a-a947-46e7-aa9f-b696707ba77b",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*27f4ae4a-a947-46e7-aa9f-b696707ba77b",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:47.175Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:47.175Z",
+      "linkedinUsername": "alexandrealvesteixeira27",
+      "phone": "",
+      "name": "Alexandre Alves Teixeira",
+      "id": "27f4ae4a-a947-46e7-aa9f-b696707ba77b"
+    },
+    "timeInCurrentStage": 91942832682
+  },
+  {
+    "importedAt": "2023-12-20T14:43:57.176Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "#N/D"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "September 25"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor Financeiro"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Diretor Financeiro\n Company name : Central de Distribuição Royal Canin Goiânia; VetLog Distribuição de Medicamentos; SomaVet.\n Period : April 2007 - Present"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Degree : Gestão Empresarial\n \n School name : PUC\n Degree : Direito\n \n School name : Universidade Camilo Castelo Branco\n Degree : Fisioterapia"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T21:58:30.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T21:58:30.000Z",
+    "talentId": "9f7840f1-a04c-4be5-a534-103d6be85e1c",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*9f7840f1-a04c-4be5-a534-103d6be85e1c",
+    "talent": {
+      "company": "Central de Distribuição Royal Canin Goiânia; VetLog Distribuição de Medicamentos; SomaVet.",
+      "createdAt": "2023-12-20T13:01:47.324Z",
+      "headline": "",
+      "linkedinUsername": "diego-altoé-26b24a33",
+      "location": "",
+      "name": "Diego Altoé",
+      "phone": "",
+      "picture": "https://media.licdn.com/dms/image/C5603AQHviPlbTj-FhQ/profile-displayphoto-shrink_200_200/0/1516526762968?e=1722470400&v=beta&t=MgTWDNGPsgtK9cGbbUT6rgoPH1pGbkXMKJ4j89J3Xuc",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-05-30T11:47:13.786Z",
+      "id": "9f7840f1-a04c-4be5-a534-103d6be85e1c"
+    },
+    "timeInCurrentStage": 91930593682
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.670Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "#N/D"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Adm Financeiro"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Adm Financeiro\n Company name : Grupo Umuarama\n Period : July 2014 - Present\n Location : Goiânia e Região, Brasil\n \n Job Title : Diretor Financeiro\n Company name : Grupo Umuarama\n Period : July 2014 - July 2014\n Location : Goiania\n \n Job Title : Gerente\n Company name : Bradesco\n Period : June 1985 - July 2014\n Company 2: Grupo Umuarama\n Company 3: Bradesco"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : MBA NEGÓCIOS BANCÁRIOS\n Degree : p\n Period : 2012 - 2014\n \n School name : Unievangelica\n Speciality : Civil e Previdenciário\n Degree : Baixarel em Direito\n Period : 2001 - 2006\n \n School name : Unievangelica de Anapolis\n Speciality : Direito Civil e Previdenciário\n Degree : Baixarel em Direito\n Period : 2001 - 2006"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T22:28:03.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T22:28:03.000Z",
+    "talentId": "27f603f5-d837-4908-9cf1-3e9aaac9d346",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*27f603f5-d837-4908-9cf1-3e9aaac9d346",
+    "talent": {
+      "company": "Grupo Umuarama",
+      "createdAt": "2023-12-20T13:01:47.227Z",
+      "headline": "",
+      "linkedinUsername": "edmilson-souza-94005b84",
+      "location": "",
+      "name": "Edmilson Souza",
+      "phone": "",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQGn9RfUDfLpxA/profile-displayphoto-shrink_200_200/0/1516923296637?e=1722470400&v=beta&t=4wfrd8jI3cE2cLfvRNhKTU4xoQxwPUX9MBYjWuHoHwI",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-05-30T11:46:45.540Z",
+      "id": "27f603f5-d837-4908-9cf1-3e9aaac9d346"
+    },
+    "timeInCurrentStage": 91928820682
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.733Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "#N/D"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Português"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor Financeiro"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Diretor Financeiro\n Company name : Logo IT S/A\n Period : September 2017 - Present\n Location : Brasília, Distrito Federal\n \n Job Title : Diretor financeiro e administrativo\n Company name : INFOSOLO S.A.\n Period : September 2017 - Present\n \n Job Title : Diretor de consultoria\n Company name : Stock Price Gestão de Negócios\n Period : August 2014 - Present\n Summary : Consultoria Empresarial:\n \n - Reestruturação do Capital de Giro;\n - Análise de Aderência Processos x Sistemas ERP;\n - Reorganização de Processos Empresariais;\n - Elaboração de Projetos para Captação de Recursos;\n - Estruturação de Projetos para Redução Custos Administrativos e Operacionais;\n - Implantação de \"cash management\";\n - Revisão e reestruturação de processos comerciais;\n - Reestruturação de RH;\n - Análise de Segurança da Informação;\n - Análise e diagnóstico de formação de preço e custos.\n \n  www.stockprice.com.br\n Location : Belo Horizonte e Região, Brasil\n \n Job Title : Gerente Financeiro Sênior\n Company name : Laticínios Bela Vista - PIRACANJUBA\n Period : August 2012 - June 2014\n Summary : Gestão de Finanças, Contas a Pagar, Crédito e Cobrança; \n Vivência consolidada nos subsistemas de Recursos Humanos, Contabilidade Gerencial e Fiscal\n Visão consolidada de Inteligência Corporativa (TI, Gestão de Projetos, Revisão de Processos e \n Reestruturação Organizacional;\n Location : Bela Vista de Goiás\n \n Job Title : Superintendente Administrativo e Financeiro\n Company name : JCGontijo Engenharia S.A\n Period : July 2010 - July 2012\n Summary : Gestão de Finanças, Câmbio, Contas a Pagar, Crédito e Cobrança; \n Vivência consolidada nos subsistemas de Recursos Humanos, Contabilidade Gerencial e Fiscal; \n Visão consolidada de Inteligência Corporativa (TI, Gestão de Projetos, Revisão de Processos e Reestruturação Organizacional. \n Experiência nos segmentos de Incorporação Imobiliária.\n Negociação e acompanhamento em diversas operações de capital de giro.\n Administração de todas as fases das operações de Plano Empresário para Incorporação\n Imobiliária em diversas Instituições Financeiras.\n Location : Brasília e Região, Brasil\n \n Job Title : Diretor Administrativo Financeiro\n Company name : B2Br\n Period : April 2008 - May 2010\n Summary : Gestão de Finanças, Câmbio, Contas a Pagar, Crédito e Cobrança; \n Vivência consolidada nos subsistemas de Recursos Humanos, Contabilidade Gerencial e Fiscal; \n Membro dos Comitês de Planejamento Estratégico e de Governança Corporativa de grandes Instituições; \n Visão consolidada de Inteligência Corporativa (TI, Gestão de Projetos, Revisão de Processos e Reestruturação Organizacional.\n Location : Brasília e Região, Brasil\n \n Job Title : Gerente Administrativo Financeiro Sênior\n Company name : MARISTA – UBEE/UNBEC (Regiões Sudeste-exceto SP, Centro-oeste, Norte e Nordeste)- Brasília/ DF.\n Period : August 2004 - April 2008\n Summary : Reorientação de rotinas da Controladoria de Projetos, Finanças, TI, Administrativo e Contabilidade Fiscal e Gerencial em diversas empresas;\n Gerenciamento da implantação do BI (Business Inteligence) e definição novos processos de gestão contábil atingindo o processo organizacional necessário para fechamento de balancetes e balanços como parte do escopo de Governança Corporativa;\n Administração das rotinas de RH, incluindo gestão de Departamento de Pessoal, Plano de treinamento e\n Desenvolvimento Humano, Pesquisa e adequação de cargos e salários em diversas organizações;\n Gerenciamento de rotinas de Crédito e Cobrança, Tesouraria, alterando e informatizando processos, visando segurança corporativa nos que diz respeitos aos valores das companhias;\n Elaboração e administração do Plano de Unificação da Gestão das Instituições MARISTA - UBEE – União Brasileira de Educação e Ensino (BH) e UNBEC – União Norte Brasileira de Educação e Cultura (Recife), com nova estrutura física e administrativa em Brasília, desde a concepção do modelo de gestão até a seleção e contratação de equipe de mais de 100 colaboradores;\n Participação no planejamento e acompanhamento, junto à empresa de Consultoria, do projeto para\n implantação de Sistema ERP “RM Corpore” para as Mantenedoras do MARISTA com utilização da\n metodologia PMI (Project Management Institut) com revisão dos processos administrativos da Instituição;\n Membro ativo do Comitê de Planejamento Estratégico e do Comitê de Implantação do BSC - Balanced Scorecard.\n Location : Brasília e Região, Brasil\n \n Job Title : Superintendente Administrativo e Financeiro\n Company name : Unimed-BH\n Period : May 2002 - May 2003\n Summary : Gerenciamento de rotinas de Finanças, Crédito e Cobrança, Tesouraria e TI\n Membro do Comitê de Planejamento Estratégico e do Comitê de Implantação do BSC - Balanced\n Scorecard.\n Elaboração, acompanhamento e controle de BUDGET e FORECAST (orçamento econômico e financeiro), com reuniões de acompanhamento e monitoramento de metas com report à Presidência e Conselho.\n \n Job Title : Diretor Administrativo e Financeiro\n Company name : Novadata Sistemas e Computadores S/A\n Period : November 2000 - May 2002\n Summary : Gerenciamento das Rotinas de Finanças e RH.\n Reorganização e implantação do Sistema de Informação – ERP Datasul.\n Reestruturação das necessidades de capital de giro com desenvolvimento de Projetos para\n Captação de Recursos Financeiros em Longo Prazo.\n Estruturação do Projeto de FIDC - Fundo de Investimentos de Direitos Creditórios.\n Implantação do novo modelo de Análise dos Custos Industriais.\n Implantação de Sistema de Rastreamento para execução de garantias de fabricação.\n Location : Brasília e Região, Brasil\n \n Job Title : Gerente e Diretor Administrativo e Financeiro\n Company name : Seven Boys Ltda\n Period : September 1999 - November 2000\n Summary : Gerenciamento das Rotinas Financeiras, RH e TI.\n Acompanhamento da Due Dilligence para parceria estratégica e/ou venda da empresa para investidores Mexicanos.\n Elaboração e gerenciamento de projetos da unificação de Gestão e simplificação de processos com foco em redução de despesas administrativas e aumento de rentabilidade.\n Implantação da Gestão por Resultados;\n Apoio administrativo na implantação do Projeto de Qualidade em parceria com FDG (Fundação de Desenvolvimento Gerencial).\n Location : Belo Horizonte e Região, Brasil\n Company 2: INFOSOLO S.A.\n Company 3: Stock Price Gestão de Negócios"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Pós Graduação em Administração Financeira"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Católica de Brasília\n Speciality : Ciências Econômicas\n Degree : Mestrado Gestão do Conhecimento e TI\n Period : 2009 - 2010\n \n School name : Fundação Getulio Vargas / Ohio University - EUA\n Speciality : Gestão Empresarial\n Degree : Gestao Empresarial\n Period : 1999 - 2000\n \n School name : Centro Universitário UNA\n Speciality : Administração Financeira\n Degree : Administração Financeira\n Period : 1993 - 1993\n \n School name : Pontifícia Universidade Católica de Minas Gerais\n Speciality : Economia e Gestão Empresarial\n Degree : Bacharel em Ciências Econômicas\n Period : 1985 - 1990"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T21:04:53.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T21:04:53.000Z",
+    "talentId": "4cdc7d25-ea51-4225-b9b8-a544c0739501",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*4cdc7d25-ea51-4225-b9b8-a544c0739501",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:46.656Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:46.656Z",
+      "linkedinUsername": "armindo-j-da-mata-filho-7928a72a",
+      "phone": "",
+      "name": "Armindo J. da Mata Filho",
+      "id": "4cdc7d25-ea51-4225-b9b8-a544c0739501"
+    },
+    "timeInCurrentStage": 91933810682
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.707Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "GRUPO MS ENGENHARIA"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "February 23"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Espanhol (Native Or Bilingual), Francês (Professional Working), Inglês (Full Professional)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretora Financeira"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Diretora Financeira\n Company name : GRUPO MS ENGENHARIA\n Period : January 2018 - Present\n Location : Brasília, Distrito Federal\n \n Job Title : Proprietário\n Company name : MS Alimentos e Bebidas\n Period : June 2014 - December 2018\n Summary : Empresa no ramo de alimentos e bebidas especializada em serviços para a hotelaria.\n Location : S4 Hotel\n \n Job Title : Subgerente de Alimentos & Bebidas\n Company name : HPlus Alimentos & Bebidas - sede Comfort Suites Brasília\n Period : June 2013 - June 2014\n Summary : Gestão de equipe com efetivo de 33 funcionários entre cozinha e salão. Supervisão operacional dos serviços de alimentos e bebidas e eventos prestados ao hotel. Gerenciamento de compras e recursos humanos. Auditoria interna, certificação de qualidade da rede segundo as normas da vigilância sanitária.\n Location : Brasília Area, Brazil\n \n Job Title : Supervisora de Alimentos & Bebidas\n Company name : Brasília Palace Hotel\n Period : October 2011 - June 2013\n Summary : Supervisionar a operacão de alimentos e bebidas e eventos do hotel; Gestão de equipe composta de 38 funcionários. Acompanhar e aprovar cardápio a la carte e buffet em formato sugestão do chef e corparativo de eventos. Operacionalizar os eventos corparativos do hotel no serviço de alimentos e bebidas. Comercializar o Restaurante do Hotel para clientes particulares. Realizar procedimentos operacionais padrão segundo as regras da vigilância sanitária.\n Location : Brasília\n \n Job Title : Assistente de eventos com foco em alimentos e bebidas\n Company name : Blue Tree Hotels\n Period : May 2011 - October 2011\n Summary : Atendimento a eventos corporativos com foco nos serviços prestados de alimentos e bebidas, como coffee break, almoço, jantar, coquetéis e recepções. Identificação das necessidades dos clientes oferecendo um serviço diferenciado nas propostas de alimentações nos eventos corporativos.\n \n Job Title : Hostess\n Company name : Sofitel Luxury Hotels and Resorts\n Period : November 2010 - May 2011\n Summary : Oportunidade de trabalhar diretamente no atendimento ao cliente para aprimorar os conhecimentos técnicos adquiridos em cursos anteriores. Dentro deste cargo conquistei experiências em metria de equipe e noções de gestão.\n \n Job Title : Ajudante de cozinha\n Company name : Sofitel Luxury Hotels and Resorts\n Period : March 2010 - November 2010\n Company 2: MS Alimentos e Bebidas\n Company 3: HPlus Alimentos & Bebidas - sede Comfort Suites Brasília"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : SENAC SÃO PAULO - GNA\n Speciality : Alimentos e Bebidas\n Degree : Gestão de Negócios em Serviços de Alimentações\n Period : 2010 - 2011\n \n School name : IESB\n Speciality : Artes culinárias\n Degree : Gastronomia\n Period : 2007 - 2009\n \n School name : IESB\n Speciality : Turismo\n Degree : Bacharel em Turismo\n Period : 1999 - 2004"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T18:26:33.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T18:26:33.000Z",
+    "talentId": "02c682a0-9b08-4497-bdb5-65b5695d48ce",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*02c682a0-9b08-4497-bdb5-65b5695d48ce",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:46.922Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:46.922Z",
+      "linkedinUsername": "mariana-salviano-86711a28",
+      "phone": "",
+      "name": "Mariana Salviano",
+      "id": "02c682a0-9b08-4497-bdb5-65b5695d48ce"
+    },
+    "timeInCurrentStage": 91943310682
+  },
+  {
+    "importedAt": "2023-12-20T14:43:57.146Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "#N/D"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "September 21"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Espanhol (Elementary), Inglês (Full Professional), Português (Native Or Bilingual)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor Financeiro"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Diretor Financeiro\n Company name : Piracanjuba\n Period : September 2019 - Present\n Summary : - Responsável pela função de Finanças e Administração, que inclui as áreas de FP&A, Controladoria, M&A, Serviços Financeiros, Operação Tributária / Planejamento e Transformação Financeira;\n - Gestão Financeira da Operação, com as funções de Crédito, Cobrança e Tesouraria, além de negociações de captação de recursos, tais como: CRA, FGPP, AF e outros instrumentos financeiros.\n - Membro do Projeto SILK importante aquisição no Brasil, Análise de Viabilidade Total +R$ 100 milhões e vendas totais de +R$ 1,5 bilhões. Envolvimento completo, desde trabalhos preliminares até análise dos contratos finais e PMO. Sem nenhum consultor externo ou empresa especializada do lado da compra.\n Location : Goiânia e Região, Brasil\n \n Job Title : Diretor Financeiro - Supply Chain\n Company name : HEINEKEN\n Period : November 2015 - September 2019\n Summary : • Membro do time de análise econômica para aquisição Brasil Kirin (Merger & Acquisition) pela Heineken Brasil, negócio ao redor de EUR 780m (deal). \n • Liderança e desenvolvimento de equipe, avaliação e estruturação do novo time de finanças, após aquisição BRK, forte atuação como Business Partnering, visando garantir o compliance (risk management).\n • Pilar financeiro como suporte a divisão de Supply Chain, relativo à Controle e Gestão de Custos Industriais (variáveis e fixos), Custos Logísticos (fretes, armazenagem e despesas).\n • Suporte financeiro para Suprimentos/Compras (strategic sourcing and commodities control), com economias reais entregues de EUR 63m em 2018.\n • Proteção da rentabilidade do negócio, gerando uma recuperação de 4 p.p.na margem de contribuição, com a com a implementação dos projetos de economias de materiais e insumos (strategic sourcing).\n • Controle de investimentos (CAPEX), validação/aprovação de projetos de expansão e novos negócios com uma carteira de investimento de R$ 1,3bi para 2019. \n • Líder do módulo financeiro do processo de S&OP, gestão de estoques (working capital) e write off’s, forte atuação na estratégia de Hedge e Caixa operacional.\n • Participante do comitê de “Finance Transformation”.\n Location : Campinas e Região, Brasil\n \n Job Title : Gerente de Apoio a Gestão Corporativo\n Company name : DPA / Nestlé\n Period : September 2010 - November 2015\n Summary : • Líder da gestão financeira e resultados do negócio Refrigerados (P&L, Cash Flow, Balance Sheet, Forecast, Accounting & Tax Planning).\n • Redesenho da Rota ao mercado relativo à divisão de Iogurtes 2014/2015, com ganhos de R$ 30M em margem por ano.\n • Negociação de prioridades junto às áreas de negócio e staff, liderando o conjunto de projetos de forma compartilhada com as diretorias responsáveis.\n • Gerenciamento do ciclo financeiro (Treasury Operation) e planejamento fiscal voltado para maximização de receita.\n • Definição dos critérios e alçadas de aprovação financeiras para todos os lançamentos de produtos e serviços da organização.\n Location : São Paulo - Brazil\n \n Job Title : Gerente de Custos Industriais e Logísticos\n Company name : Nestlé\n Period : December 2006 - September 2010\n Summary : • Desenvolvimentos e gestão de pessoas, com foco em planejamento estratégico, BSC, M&A, gestão de custos industriais, assim como prospecção e expansão de novos negócios.\n • Pilar TPM / Office e líder do projeto facilities Management, profissional adaptado a trabalhar com centros de serviços compartilhados e unidades descentralizadas.\n • Gestor do projeto de implantação da primeira fábrica de DPA/Nestlé no Rio Grande do Sul período (2006-2008), forte atuação no gerenciamento de projetos e negociação dos incentivos fiscais recebidos pelo governo do RS.\n Location : Ituiutaba e Região, Brasil\n \n Job Title : Coordenador Administrativo\n Company name : Brasil Foods S/A\n Period : September 2002 - November 2006\n Summary : • Implementação da metodologia de custeio Padrão e UP no Grupo, além de treinar e capacitar os colaboradores das unidades fabris da empresa, utilização do programa de “Melhoria Contínua”, fundamentado em técnicas do Sistema Toyota de Produção.\n \n • Atuação junto à gestão estratégica da empresa no desenvolvimento de Projetos de ampliação e aquisição de novas unidades fabris, foco em produtividade e redução de custos visando à maximização de resultados, estudo de viabilidade de novos produtos. Coordenador do Planejamento Orçamentário na empresa, utilizando-se do princípio base ZERO, líder da área de Controladoria de cinco fábricas localizados no RS.\n Location : Porto Alegre e Região, Brasil\n \n Job Title : Analista de Custos e Planejamento\n Company name : Mars\n Period : August 1999 - September 2002\n Summary : • Atuação na área de Custos, operando o sistema DATASUL de Gestão Industrial, cálculo de custos fixos e variáveis, relatórios gerenciais e comparativos periódicos da variação do custo por produto e segmento de venda. Submissão das informações para a matriz da empresa, usando a ferramenta Hyperion, suporte a vendas na elaboração de relatórios, gráficos e relatórios estáticos sob o desempenho de vendas por região, canal e cliente, além de suporte à carga tributária e rotatividade de produtos, assim como, atividades voltadas para análise na formação do preço de venda.\n \n • Operação do sistema canadense de Gestão Industrial MFG-PRO custos fixos e variáveis, elaboração de relatórios gerenciais, responsável pelo “Industrial Dashboard” análise variação do custo por SKU, posteriormente submetidos para a matriz da empresa em New Jersey (USA).\n Responsável pelo controle do patrimônio de três fábricas (RS, SP, PE), com o uso do sistema SISPRO gestão patrimonial, controle de investimentos em ativo fixo (CAPEX).\n Location : Eldorado do Sul / RS\n Company 2: HEINEKEN\n Company 3: DPA / Nestlé"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : PDL: Trilha Gestão de Mudanças\n Period : January 2023 - Present\n Summary : 414264764, badges.com.br, http://badges.com.br/share/35e8991fa6aa228bfe2a65ea7623839e.php?a=4041\n Issuing Authority : PIRACANJUBA GESTÃO DE PESSOAS\n \n Title : Governança Corporativa\n Period : October 2022 - Present\n Summary : CS 0058514, ibgc.org.br, https://www.ibgc.org.br/destaques/certificacao_banco_de_certificados_IBGC\n Issuing Authority : IBGC - Instituto Brasileiro de Governança Corporativa\n \n Title : Leadership & Management\n Period : May 2015 - Present\n Summary : C 175047, fgv.br, http://mgm-saopaulo.fgv.br/\n Issuing Authority : Fundação Getulio Vargas"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade de Passo Fundo\n Speciality : Finanças Empresariais\n Degree : MBA\n Period : 2008 - 2009\n \n School name : ULBRA - University\n Speciality : Administração e Economia\n Degree : Admnistrador\n Period : 1998 - 2005\n Courses: Title : Building Leadership Program – HAYGROUP BRASIL CONSULTORES; Title : ü Gestão de Projetos (Execução e Controle)"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T21:15:13.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T21:15:13.000Z",
+    "talentId": "0e2a9fcf-6bd8-4621-9905-0bcf27134105",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*0e2a9fcf-6bd8-4621-9905-0bcf27134105",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:47.015Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:47.015Z",
+      "linkedinUsername": "antoniopraxedes",
+      "phone": "",
+      "name": "Antonio Praxedes",
+      "id": "0e2a9fcf-6bd8-4621-9905-0bcf27134105"
+    },
+    "timeInCurrentStage": 91933190682
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.633Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Grupo Centro Oeste"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T20:27:56.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T20:27:56.000Z",
+    "talentId": "aa99aa41-abc9-4be9-9df4-a2ab0ca6b31a",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*aa99aa41-abc9-4be9-9df4-a2ab0ca6b31a",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:47.578Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:47.578Z",
+      "linkedinUsername": "wilson-andrade-84989a62",
+      "phone": "",
+      "name": "Wilson Andrade",
+      "id": "aa99aa41-abc9-4be9-9df4-a2ab0ca6b31a"
+    },
+    "timeInCurrentStage": 91936027682
+  },
+  {
+    "importedAt": "2023-12-20T14:43:57.034Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Grupo WAM"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "October 12"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês (Professional Working), Potuguês (Native Or Bilingual)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de planejamento financeiro"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Gerente de planejamento financeiro\n Company name : Grupo WAM\n Period : February 2020 - Present\n Location : Goiânia, Goiás, Brasil\n \n Job Title : Controller\n Company name : Liteē Farma do Brasil - Saúde é você de bem.\n Period : September 2017 - January 2020\n Location : São Paulo\n \n Job Title : Consultor Administrativo Financeiro\n Company name : Prime Pharma Medicamentos\n Period : December 2017 - August 2019\n Summary : Controller\n Gerente Administrativo Financeiro\n Planejamento Estratégico\n Tesouraria\n Location : São Paulo e Região, Brasil\n \n Job Title : Gerente Administrativo e Financeiro | Controller\n Company name : One Medicamentos Ltda\n Period : June 2017 - August 2019\n Summary : Controller\n Gerente Administrativo Financeiro - Tesouraria\n Planejamento Estratégico e orçamentário\n Suporte Logística e Vendas\n Controles internos na Recuperação Judicial (RJ)\n Relacionamento com bancos e FIDCs.\n Location : Cotia, São Paulo\n \n Job Title : Gerente de Reestruturação e Recuperação de Ativos\n Company name : BMC-Hyundai\n Period : July 2016 - May 2017\n Summary : Controle e recebimento de carteira de clientes (overdue).\n Estruturei o processo de recebimento e cobrança extrajudicial e judicial.\n Avaliação de ativos e negociação com clientes e parceiros.\n Location : São Paulo e Região, Brasil\n \n Job Title : Gerente Adm. Financeiro e Operacional – Unidade Locação de Equipamentos\n Company name : BMC-Hyundai\n Period : December 2015 - May 2016\n Summary : Unidade de Negócio em locação de equipamentos para construção civil.\n Liderança das áreas de Finanças, Controladoria, Administrativa, RH/DP, TI e Operações.\n Estruturei as rotinas financeiras, administrativas e operacionais. Implementei novo processo comercial, suporte RH/DP e TI. Controle de metas, processos internos, fornecedores e clientes.\n Location : São Paulo e Região, Brasil\n \n Job Title : Consultor\n Company name : FAC Consultoria\n Period : October 2014 - November 2015\n Summary : Consultoria em planejamento financeiro, administrativo e operacional em pequenas empresas.\n Implementação de sistema de vendas, processo de compras, finanças e logística.\n Location : São Paulo e Região, Brasil\n \n Job Title : Gerente Adm. Financeiro\n Company name : Beauty'in Com. Bebidas e Cosméticos\n Period : August 2013 - September 2014\n Summary : Responsável pela área Financeira, Contábil, RH, Suporte (Adm / TI / Logistica).\n Negociei com bancos, FIDCs e fornecedores.\n Liderei equipe multidiciplinar e acompanhei toda rotina financeira (tesouraria) e administrativa.\n Elaborei o Controle Orçamentário e Planejamento Estratégico junto às áreas da empresa.\n Location : São Paulo e Região, Brasil\n \n Job Title : Gerente Orçamento e Desempenho - Gestão\n Company name : Brazil Pharma\n Period : October 2011 - July 2013\n Summary : Parcipei do desenvolvimento e desempenho das Regionais Sul, Centro-Oeste e Salvador.\n Fiz a gestão da Plataforma com mais de 4.500 funcionários, com 10 reports diretos.\n Responsável em garantir o cumprimento e controle do Budget (Opex, Capex).\n Implementei novos processos e identifiquei oportunidades operacionais.\n Analisei e controlei os principais indicadores operacionais do grupo (Vendas; Clientes; Ticket Médio e SSS.\n Participei da integração do Centro de Serviços Compartilhados (CSC).\n Sinergia e integração com todos as áreas da empresa (Corporativo e Regionais).\n \n Job Title : Coord. Planej. Controle\n Company name : Brazil Pharma\n Period : June 2011 - September 2011\n Summary : Responsável pelo Orçamento Corporativo;\n Consolidação e análise orçamentária das Regionais;\n Análise DRE;\n Controle e organização de centro de custo;\n \n Job Title : Coordenador de Planejamento e Controle\n Company name : Goldfarb Incorporações e Construções S/A\n Period : June 2008 - June 2011\n Summary : Implementei a área de Planejamento e Controle - Controladoria;\n Efetuei diversas análises e projeções de resultado por empreendimento (SPE);\n Responsável pelo controle orçamentário por departamento;\n Análisei e criei novos Controles de Vendas, Repasses e Distratos;\n Participei da integração entre as áreas Contábil, Negócios e Operações;\n Assumi como Gerente de Projetos o projeto de revisão de Perfil: SAP/GRC-AC (Revisão e Controle de Perfis / Gerenciamento de Risco).\n Company 2: Liteē Farma do Brasil - Saúde é você de bem.\n Company 3: Prime Pharma Medicamentos"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Power BI\n Period : September 2022 - Present\n Issuing Authority : DATAB\n \n Title : Green Belt\n Period : December 2012 - Present\n Issuing Authority : Seta - Desenvolvimento Gerencial"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Presbiteriana Mackenzie\n Speciality : Finanças de Empresas\n Degree : Pós Graduação\n Period : 2005 - 2006\n \n School name : Instituto Costa Braga\n Speciality : Administração de Empresas\n Degree : Graduação\n Period : 1998 - 2001\n Summary : Futebol"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T17:21:42.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T17:21:42.000Z",
+    "talentId": "a25730f8-51e4-42f1-a81c-facc165359f8",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*a25730f8-51e4-42f1-a81c-facc165359f8",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:47.099Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:47.099Z",
+      "linkedinUsername": "fabioaraujocosta",
+      "phone": "",
+      "name": "Fabio Araujo Costa",
+      "id": "a25730f8-51e4-42f1-a81c-facc165359f8"
+    },
+    "timeInCurrentStage": 91947201682
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.967Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Mega Refrigeração"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "March 5"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Espanhol , Inglês , Português"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Group CFO"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Group CFO\n Company name : Mega Refrigeração\n Period : April 2020 - Present\n Summary : Responsável pelo departamento financeiro, crédito, contábil, fiscal e controladoria objetivando reestruturação de processos e políticas para melhor garantia da saúde econômica - financeira das empresas do grupo. Relacionamento com bancos. Implementação do ERP Sankhya; Reestruturação organizacional e societária. Constituição de grupo econômico e holding.\n Location : Goiânia, Goiás, Brasil\n \n Job Title : Docente\n Company name : Universidade Paulista\n Period : February 2013 - Present\n Summary : Leciono as disciplinas de Contabilidade, Análise das Demonstrações Contábeis e Matemática Financeira dos cursos de Administração, Gestão em Recursos Humanos e Gestão em Processos Gerenciais.\n \n Job Title : Gerente financeiro\n Company name : WAM Brasil\n Period : April 2019 - January 2020\n Summary : Responsável pelo Contas a Receber, a Pagar e Fluxo de Caixa. Conciliação de cartões, cheques, boletos, transferências e saldos bancários. Relacionamento com bancos e adquirentes, captação de recursos financeiros, ajustes de mapas financeiros e apresentação de resultados para os acionistas. Formatação, prestação e atendimento das exigências do Agente Fiduciário e debenturistas para liberação dos recursos em garantias via operação de Debêntures.\n Location : Goiânia e Região, Brasil\n \n Job Title : CFO\n Company name : TECMON Montagens Técnicas Industriais Ltda.\n Period : March 2016 - January 2019\n Summary : Responsável pelo Contas a Pagar, Receber, Fiscal, Contábil, Controladoria e TI. Atuei na gestão financeira da instituição objetivando a reestruturação do negócio, evitando RJ, através da redução de custos, negociação de passivos, implementação de ferramentas estratégicas como Cash Flow, Budget e Forecast e estudos de viabilidade. Otimizei o processo de classificação e apuração de obrigações fiscais. Incorporei a função administrativa objetivando controle e redução de despesas.\n Location : Goiânia e Região, Brasil\n \n Job Title : Consultant\n Company name : Consultoria\n Period : April 2014 - March 2016\n Summary : Presto consultoria financeira, contábil, fiscal, administrativa, de auditoria e de controladoria objetivando a otimização de processos focando na performance sustentável do negócio e na maximização de seus resultados com propostas simples, desburocratizadas e inovadoras adaptável especificamente ao negócio/empresa consultada.\n \n Job Title : Doscente\n Company name : Faculdade Objetivo\n Period : February 2013 - October 2015\n Summary : Leciono a disciplina de Análise das Demonstrações Financeiras do curso de Gestão Empresarial.\n \n Job Title : Diretor executivo financeiro\n Company name : Forma Participação e Investimentos Ltda\n Period : December 2012 - March 2014\n Summary : Responsável pelo departamento financeiro e das finanças das empresas,\n Gestão de fluxo de caixa, Gestão de pessoas do departamento, Gestão estratégica financeira e administrativa para futuros investimentos para uma melhor rentabilidade, liquidez e redução de custos, Gestão de folha de pagamento e seus encargos tributários, Gestão contábil e fiscal administrando a escrituração dos lançamentos, equivalências e dirimindo custos tributários, Negociação com os bancos para linhas de credito voltadas para o ramo de construção civil, desligamento, auditoria interna e controladoria.\n Location : Goiânia - GO\n \n Job Title : Senior Manager Companies\n Company name : Itaú Unibanco\n Period : July 2010 - June 2012\n Summary : Gerenciava uma carteira de R$ 7MM de ativos e R$3MM de passivos, de empresas de médio e grande porte com faturamento médio anual de R$6MM a R$90MM, com o objetivo de criar soluções para meus clientes PJ por meio de prospecção e entrega de produtos e serviços financeiros que atendam vossas expectativas e necessidades, executando consultoria contábil, fiscal, financeira e administrativa.\n Location : Goiânia e Região, Brasil\n \n Job Title : Assistant Manager\n Company name : Itaú Unibanco\n Period : February 2008 - July 2010\n Summary : Assessorava os gerentes de conta e o gerente de agência, auxiliando no gerenciamento de contas correntes de Pessoa Física e Jurídica, análise e concessão de crédito, renegociação de débitos, recuperação de ativos, consultoria financeira, administrativa e de investimentos, atendimento ao cliente, comercialização de produtos, entre outros.\n \n Job Title : Commercial Agent\n Company name : Itaú Unibanco\n Period : August 2006 - February 2008\n Summary : Responsável direto na comercialização de produtos bancários e não bancários, abertura de conta corrente, telemarketing, atendimento ao cliente, entre outros.\n \n Job Title : Commercial Assistant Business\n Company name : Banco Santander\n Period : August 2005 - August 2006\n Summary : Assessorava no gerenciamento de contas correntes de Pessoa Jurídica, com uma carteira com mais de R$ 5.000.000,00 em ativos. Auxiliava nos processos de renovação e implantação de contratos, comercialização de serviços / produtos bancários e não bancários para empresas, majoração de limites, análise e defesa de créditos, renegociações de débitos, prospecção e atendimento ao cliente. Era o substituto do gerente PJ em sua ausência.\n Location : Goiânia e Região, Brasil\n \n Job Title : Collections Agent\n Company name : ABN AMRO Bank N.V.\n Period : January 2005 - July 2005\n Summary : Negociação de débitos por telefone e envio e recebimento de cheques.\n Location : Goiânia e Região, Brasil\n Company 2: Universidade Paulista\n Company 3: WAM Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundacao Getulio Vargas\n Speciality : Gestão de Finanças, Auditoria e Controladoria.\n Degree : Master of Business Administration (MBA)\n Period : 2007 - 2008\n \n School name : Universidade Salgado de Oliveira\n Speciality : Administração\n Degree : Administração\n Period : 2003 - 2006"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T17:16:11.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T17:16:11.000Z",
+    "talentId": "373de2af-d4e5-4534-9cd6-c31691bd7933",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*373de2af-d4e5-4534-9cd6-c31691bd7933",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:46.692Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:46.692Z",
+      "linkedinUsername": "alexandre-ribeiro-7aa96265",
+      "phone": "",
+      "name": "Alexandre Ribeiro",
+      "id": "373de2af-d4e5-4534-9cd6-c31691bd7933"
+    },
+    "timeInCurrentStage": 91947532682
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.495Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Atlantica Hotels International"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Geral Comfort Hotel Goiânia"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Gerente Geral Comfort Hotel Goiânia\n Company name : Atlantica Hotels\n Period : September 2019 - Present\n Location : Goiânia e Região, Brasil\n \n Job Title : Controller\n Company name : Atlantica Hotels\n Period : January 2014 - September 2019\n Summary : Comfort Hotel Goiânia\n \n Job Title : Supervisor ADM. Financeiro\n Company name : Atlantica Hotels\n Period : April 2011 - January 2014\n Summary : Sleep Inn Goiânia \n Comfort Hotel Goiânia\n \n Job Title : Supervisor ADM e Financeiro\n Company name : Atlantica Hotels\n Period : April 2010 - April 2011\n Summary : Quality São Luís\n \n Job Title : Assistente de Controladoria\n Company name : Atlantica Hotels\n Period : July 2009 - April 2010\n Summary : Quality Suites Natal\n \n Job Title : Auxiliar de Controladoria\n Company name : Atlantica Hotels\n Period : January 2006 - July 2009\n Summary : Quality Suites Natal\n Company 2: Atlantica Hotels\n Company 3: Atlantica Hotels"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Faculdade Araguaia\n Speciality : Accounting and Finance\n Degree : Bacharel em Contabilidade\n Period : 2012 - 2012\n \n School name : FACEX, CEFET-RN\n Period : 2004 - 2008"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T17:50:27.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T17:50:27.000Z",
+    "talentId": "f089865f-0e52-429a-8376-9d34f5c4388e",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*f089865f-0e52-429a-8376-9d34f5c4388e",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:47.263Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:47.263Z",
+      "linkedinUsername": "bruno-lins-75277645",
+      "phone": "",
+      "name": "Bruno Lins",
+      "id": "f089865f-0e52-429a-8376-9d34f5c4388e"
+    },
+    "timeInCurrentStage": 91945476682
+  },
+  {
+    "importedAt": "2023-12-20T14:43:57.091Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Plaza Brasília Hotéis"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T20:47:51.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T20:47:51.000Z",
+    "talentId": "ddd938b0-d231-420d-8e3b-f72aa85cd1df",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*ddd938b0-d231-420d-8e3b-f72aa85cd1df",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:47.103Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:47.103Z",
+      "email": "importacao1786@importacaoinhire.com",
+      "phone": "",
+      "name": "Carlos Alberto Prazeres Filho",
+      "id": "ddd938b0-d231-420d-8e3b-f72aa85cd1df"
+    },
+    "timeInCurrentStage": 91934832682
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.753Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBK6D09GEMVEM6E2FR9",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "#N/D"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "November 5"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês (Full Professional), Português (Native Or Bilingual)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor Corporativo de Operações"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Diretor Corporativo de Operações\n Company name : WAM\n Period : January 2022 - January 2023\n Summary : Responsável por desenvolver e acompanhar a performance econômica e financeira de todos os projetos de multipropriedade da WAM Group. São 18 projetos em seu portfólio em todas as regiões do Brasil.\n \n - Os cargos sob a minha gestão são: Diretores de Operações e os gerentes administrativos das praças;\n - Desenvolvi a rotina semanal de acompanhamento da projeção dos resultados (DRE) e seus principais indicadores estratégicos;\n - Realizei estudos de viabilidade para abertura de novas salas de vendas de multipropriedades;\n - Acompanhamento de planos de ação juntamente com os sócios dos projetos;\n - Apresentação dos resultados mensais para os sócios do Grupo;\n - Analisar o impacto financeiro de novas ações propostas pelo comercial e captação;\n - Direcionar a Controladoria para a criação do budget e forecast;\n - Participar ativamente de ações junto à outros deptos do Grupo visando o cliente final, exemplo: gestão de recebíveis, cobrança, pós vendas, financeiro, jurídico.\n Location : Goiânia, Goiás, Brasil\n \n Job Title : Controller\n Company name : WAM Hotéis e Resorts\n Period : February 2021 - February 2022\n Summary : Responsável pelo planejamento econômico e financeiro dos principais hotéis de multipropriedade da WAM, são eles:\n - Hotel Nacional (RJ);\n - Búzios Beach Resorts (RJ);\n - Ondas Resort (Bahia);\n - Dom Pedro Laguna (CE).\n \n - Realizei a reestruturação dos controles e procedimentos destes hotéis, através da consolidação de dados contábeis e de performance;\n - Participei ativamente das auditorias financeiras externas;\n - Organizei a estrutura do backoffice do Depto Financeiro e Controladoria;\n - Criei a rotina de apresentação mensal dos principais indicadores dos negócios que envolvem a hotelaria de multipropriedade (A&B, SCP, Administradora, Hotelaria e Condomínio);\n - Desenvolvi uma cultura orçamentária, desde a sua criação até o acompanhamento mensal;\n - Desenvolvi planos de ação juntamente com os Gerentes e Diretores destes hotéis para alavancar a performance (% Ebitda);\n - Fiz Estudos de Viabilidades para angariar financiamentos para realização de novos investimentos e/ou retrofits.\n Location : Goiânia, Goiás, Brasil\n \n Job Title : CFO (Chief Financial Officer) an Partner\n Company name : Planalto\n Period : August 2020 - December 2020\n Summary : Gestão das áreas:\n \n - Financeiro;\n - Controladoria;\n - Pós Vendas;\n - TI;\n - Compras;\n - RI;\n - Qualidade;\n - Jurídico;\n - Estudos de viabilidade econômico-financeira.\n \n A Planalto Invest atual nas áreas de urbanismo, multipropriedade e entretenimento, onde desenvolve projetos surpreendentes com o propósito de deixar a VIDA MAIS LEVE. Forte expansão no Brasil e com modelo inovador de gestão.\n Location : Goiânia, Goiás, Brasil\n \n Job Title : Gerente corporativo\n Company name : Incorpore Soluções\n Period : April 2018 - August 2020\n Summary : Principais Atividades e realizações:\n \n Responsável pelas BU`s de Hospitalidade, Multipropriedade, Corporativo / Novos Negócios\n \n - Readequação no organograma da empresa focando na estratégia de crescimento da marca Incorpore que abrange os seguintes negócios:\n  - Hotel Resort do Lago;\n  - Salas de vendas de multipropriedade (Resort do Lago e Resort do Lago Park) em Caldas Novas;\n  - Corporativo em Goiânia (TI, Compras, Pós vendas, Financeiro, Marketing);\n  - Novos Negócios (Desenvolver e angariar novos clientes através do know-how em multipropriedade);\n - Criação e desenvolvimento do depto de Controladoria;\n - Criação e desenvolvimento do depto de Qualidade;\n - Criação e desenvolvimento do depto de auditoria e controles internos;\n - Readequação da estrutura de planos de contas do financeiro e contabilidade para melhor acompanhamento dos resultados;\n - Criação e desenvolvimento do GECON (Gestão Econômica) onde possui o acompanhamento dos indicadores estratégicos, fluxo de caixa e DRE de todos os negócios da empresa;\n - Criação e desenvolvimento do GMD (Gerenciamento Matricial de Custos);\n - Criação e desenvolvimento do sistema orçamentário e o seu acompanhamento de hotelaria e multipropriedades;\n - Participação e acompanhamento da hotelaria (condomínio, A&B e pool hoteleiro);\n - Apresentação mensal dos resultados dos negócios para os sócios;\n - Criação de planilhas de viabilidade econômica-financeira para angariar novos clientes e parceiros (fundos de investimentos) em novos negócios;\n - Consultor em multipropriedade para os principais fundos de investimentos, analisando a saúde das vendas, pós vendas;\n - Viagens e visitas técnicas para desenvolvimento de estudo para futuros parceiros e clientes;\n - Participação nas principais feiras e eventos de multipropriedade, buscando o desenvolvimento institucional da marca;\n - Acompanhamento dos projetos terceiros alinhado com a estratégia de vendas x fundos de investimentos.\n Location : Goiânia, Goiás\n \n Job Title : Controller\n Company name : WAM Negócios Inteligentes\n Period : February 2015 - March 2018\n Summary : - Coordenar, orientar e fiscalizar as atividades realizadas pelos Supervisores Administrativos;\n - Responsável pela implantação e desenvolvimento do controle orçamentário;\n - RD (Responsável da Direção) na implantação da Certificação da ISO 9001:2008 em Olímpia-SP;\n - Criar indicadores de performance para o controle operacional e qualitativo;\n - Responsável pela gestão dos colaboradores administrativos e apoio de todas as salas de vendas;\n - Participar na definição de diretrizes em alinhamento ao planejamento estratégico da empresa;\n - Identificar pontos deficientes ou que podem ser melhorados para contribuir no incremento da rentabilidade e lucratividade da empresa, monitorando exposições ao risco;\n - Desenvolvimento e mapeamento dos principais processos da empresa;\n - Consolidar informações relevantes, gerando relatórios para auxiliar a tomada de decisões dos gestores de cada área, bem como para a diretoria.\n Location : Goiânia e Região, Brasil\n \n Job Title : Gerente administrativo\n Company name : WAM Negócios Inteligentes\n Period : October 2014 - February 2015\n Summary : - Responsável pela reorganização do Departamento Administrativo;\n - RD da implantação da ISO 9001 em Olímpia;\n - Criação dos controles internos e auditoria;\n - Dashboard dos KPI's operacionais;\n - Relacionamento com investidores e parceiros.\n Location : Olímpia, São Paulo\n \n Job Title : Analista de Projetos Sênior\n Company name : Grupo Rio Quente\n Period : June 2012 - October 2014\n Location : Rio Quente\n \n Job Title : Analista de Projetos Pleno\n Company name : Grupo Rio Quente\n Period : July 2010 - July 2012\n Summary : - Criação da Assessoria de Projetos e Processos em 01/10 para a formação da cultura de Alto Desempenho através do Programa de Criatividade e Inovação (Projetos e Ideias);\n - Produzir relatórios e análises de resultado versus indicadores de desempenho para a avaliação dos negócios das BU’s do Grupo Rio Quente;\n - Participação nas avaliações de investimentos e retorno sobre novos produtos e negócios, bem como na preparação de planos de negócios;\n - Suportar os departamentos com análises e relatórios gerenciais quando solicitado;\n - Avaliar projetos através de análise de rentabilidade, retorno de investimentos, novos negócios, lançamento de produtos, etc;\n - Elaborar análises econômicas e financeiras;\n - Servir como consultor para as BU’s na tomada de decisão de implementação de novos produtos e serviços;\n - Suportar tomadas de decisões com avaliações;\n - Participação na criação e desenvolvimento do Programa Ideias Premiadas;\n - Participação ativa na implementação da metodologia de Planejamento Estratégico através do Balanced Scorecard (BSC). Acompanhamento e análise dos Mapas Estratégicos de duas BU’s de apoio e quatro BU’s de negócio;\n - Disseminar a cultura de Alta Performance através da participação de workshop, programa de integração de novos associados e instrutor interno;\n - Participação no Programa de Potencial Sucessor do Grupo Rio Quente.\n Location : Rio Quente\n \n Job Title : Analista Financeiro Pleno\n Company name : Grupo Rio Quente\n Period : May 2009 - June 2010\n Summary : - Atuação na área financeira, responsável pelas informações gerenciais;\n - Fazer a composição do cashflow do Grupo e também projetar os valores de fechamento mensal da geração de caixa operacional, investimentos, dívida bancária;\n - Acompanhamento e análise do balancete orçado x realizado do departamento financeiro;\n - Participação no orçamento de caixa do Grupo;\n - Elaborar e analisar o Flash (relatório gerencial elaborado todas as terças-feiras e com projeção do caixa e dívida mensal);\n - Fazer apresentação quinzenal do Flash para o coordenador apresentar ao Comitê Executivo;\n - Elaborar e analisar o Dashboard (painel de controle financeiro) através de vários indicadores, como: clico operacional de caixa, grau de inadimplência, endividamento, Aging do Contas a Receber, entre outros;\n - Apurar os indicadores do BSC (Balanced Scorecard) do financeiro, como: ciclo operacional, índice dívida líquida sobre o Ebitda, índice de inadimplência, redução do Over Head, entre outros;\n - Substituir quando necessário o analista sênior responsável pelo fechamento de caixa diário, exercendo suas atividades de fechamento dos extratos bancários, saldo dos bancos, cashflow.\n Location : Rio Quente\n \n Job Title : Analista de planejamento financeiro\n Company name : Cargill\n Period : December 2005 - October 2008\n Summary : - Atuação na área financeira, dando suporte aos departamentos comercial, contábil;\n - Responsável pela carteira de cobrança e negociação junto aos clientes de três filais da Cargill em Goiânia, Brasília e Salvador, onde houve a redução da inadimplência através do maior acompanhamento e negociações como: renegociação de débitos, confecção de confissão de dívida, cobrança de maior participação dos representantes comercial e maior rigidez na concessão de limite de crédito;\n - Responsável pelo pagamento dos prestadores de serviços e fornecedores destas filais, abrangendo as atividades como: realizar conferência, análise e correções de todos os pagamentos, gerar as solicitações de pagamentos, conferir os pedidos de compras, fretes e originação, solicitar inclusão e/ou alteração no cadastro de fornecedores/prestadores de serviços, controlar os adiantamentos no geral e cumprir pagamentos realizados por ORPAG;\n - Responsável pelo gerenciamento das liquidações, abrangendo as atividades como: relatórios dos Key Accounts, acompanhamento dos recebimentos da carteira de cobrança (entradas e liquidações), acompanhamento diário das inconsistências de faturamento, acompanhamento dos recebimentos e liquidações dos pagamentos via depósito identificado;\n - Ser o preposto da empresa junto às instituições bancárias.\n Location : Goiânia e Região, Brasil\n Company 2: WAM Hotéis e Resorts\n Company 3: Planalto"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : IPOG - Instituto de Pós-Graduação e Graduação\n Speciality : Contabilidade e Direito Tributário\n Degree : Master of Business Administration (MBA)\n Period : 2016 - 2018\n \n School name : Kaplan International College London\n Speciality : Intercâmbio\n Period : 2017\n \n School name : Uni-ANHANGUERA - Centro Universitário de Goiás\n Speciality : Finanças e Controladoria\n Degree : Master of Business Administration (MBA)\n Period : 2007 - 2008\n \n School name : Uni-ANHANGUERA - Centro Universitário de Goiás\n Speciality : Economia\n Degree : Bacharelado\n Period : 2001 - 2004\n Courses: Title : Análise das Demonstrações Financeiras; Title : CPA-10 (Anbima); Title : Gerenciamento de Projetos; Title : Gestão de Pessoas (Programa Potencial Sucessor); Title : Práticas Contábeis (CPC/IFRS); Title : Yellow Belt / Six Sigma"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T16:51:50.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T16:51:50.000Z",
+    "talentId": "7f2dbfce-75e2-45b9-ba64-80932bcaad36",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*7f2dbfce-75e2-45b9-ba64-80932bcaad36",
+    "talent": {
+      "company": "Proxy Gestão",
+      "createdAt": "2023-12-20T13:01:47.034Z",
+      "headline": "",
+      "linkedinUsername": "charles-oliveira-a4687b46",
+      "location": "",
+      "name": "Charles Oliveira",
+      "phone": "62984002170",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQGIhgpS4e1s6g/profile-displayphoto-shrink_200_200/0/1609179927926?e=1722470400&v=beta&t=GYjwLGWVENA_Qe5jCeopBYUNhBaXcI7VdSv70EsCilE",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-05-30T11:45:25.054Z",
+      "id": "7f2dbfce-75e2-45b9-ba64-80932bcaad36"
+    },
+    "timeInCurrentStage": 91841003682
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.771Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "#N/D"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "November 30"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "English , German , Spanish"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Group CFO"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Group CFO\n Company name : SoluBio\n Period : October 2021 - Present\n Location : Goiás, Brasil\n \n Job Title : Executive Board Member\n Company name : LedWave\n Period : December 2021 - Present\n Location : Goiânia, Goiás, Brasil\n \n Job Title : Executive Board Member\n Company name : Laticínios Vidativa\n Period : February 2020 - Present\n Location : Maringá, Paraná, Brasil\n \n Job Title : Partner\n Company name : C4E\n Period : August 2015 - Present\n Location : Goiânia Area, Brazil\n \n Job Title : Executive Board Member\n Company name : Suinobras Alimentos Ltda\n Period : August 2020 - July 2022\n Location : Cuiabá, Mato Grosso, Brasil\n \n Job Title : Executive Board Member\n Company name : Americas Health\n Period : January 2019 - December 2021\n Location : Goiânia, Goiás, Brasil\n \n Job Title : Group CFO\n Company name : Cavalca Trading e Logística\n Period : January 2018 - August 2021\n Summary : Grupo Cavalca is a holding company that manage several operation in Brazil and Paraguay, with reveneus about US$0.5bi. The major operations are, Moinho Iguaçu, Sabor Sul Alimentos, Agro Cavalca and Construtora Cavalca.\n Location : Curitiba Area, Brazil\n \n Job Title : Group CFO\n Company name : Grupo SinAgro\n Period : December 2016 - February 2018\n Location : Mato Grosso, Brazil\n \n Job Title : CFO\n Company name : Peninsula International Investimentos S.A.\n Period : March 2017 - December 2017\n Location : Curitiba Area, Brazil\n \n Job Title : Executive Board Member\n Company name : bioplanta\n Period : January 2017 - December 2017\n Location : Lucas do Rio Verde - MT\n Company 2: LedWave\n Company 3: Laticínios Vidativa"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : INSEAD\n Speciality : Economia e Gestão Empresarial\n Degree : Associate's degree\n Period : 2011 - 2011\n \n School name : Universidade Presbiteriana Mackenzie\n Speciality : Mechanical Engineering\n Period : 1998 - 2002\n \n School name : UniLeya\n Speciality : Governança Corporativa\n Degree : MBA em Governança Corporativa\n Period : 2020 - 2021\n \n School name : Centro Universitário SEB\n Speciality : Business Administration and Management, General\n Degree : Bachelor of Business Administration - BBA\n Period : 2009 - 2011\n \n School name : University of Kassel/InWent\n Speciality : Wind energy grid connection and managment\n Period : 2003 - 2004"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T21:20:42.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T21:20:42.000Z",
+    "talentId": "da3ad373-2365-411d-99a8-e2bd3906f6f6",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*da3ad373-2365-411d-99a8-e2bd3906f6f6",
+    "talent": {
+      "company": "SoluBio",
+      "createdAt": "2023-12-20T13:01:47.185Z",
+      "headline": "",
+      "linkedinUsername": "ernesto-cavasin-31a08110",
+      "location": "",
+      "name": "Ernesto Cavasin",
+      "phone": "",
+      "picture": "https://media.licdn.com/dms/image/C5603AQF6RwZMVKaEag/profile-displayphoto-shrink_200_200/0/1517712532621?e=1722470400&v=beta&t=P1agZM9FpjlW0-8e4pcvgrItXfmkG3x6z8voRxNReVQ",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-05-30T11:47:38.194Z",
+      "id": "da3ad373-2365-411d-99a8-e2bd3906f6f6"
+    },
+    "timeInCurrentStage": 91932861683
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.693Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "#N/D"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor Financeiro"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Diretor Financeiro\n Company name : Rede Sol de Hotéis e Motéis\n Period : January 2010 - Present\n \n Job Title : Diretor Financeiro e Técnico\n Company name : Rede Sol de Hotéis e Motéis (empresa familiar)\n Period : October 1988 - Present\n \n Job Title : Engenheiro Civil\n Company name : Riosol Construtora, execussão de obras e projetos.\n Period : August 2001 - November 2014\n Location : Aparecida de Goiânia\n Company 2: Rede Sol de Hotéis e Motéis (empresa familiar)\n Company 3: Riosol Construtora, execussão de obras e projetos."
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Inteligência Empresarial\n Degree : Pós MBA IE\n Period : 2014 - 2014\n Summary : TCC\n \n School name : Fundação Getulio Vargas\n Speciality : Finanças\n Degree : MBA-Finanças,Controladoria e Auditoria.\n Period : 2010 - 2014\n \n School name : University of California, Irvine\n Speciality : Business\n Degree : Business and Management for International Professinals\n Period : 2012 - 2012\n Summary : TCI\n \n School name : Yazigi Goiânia\n Speciality : Letras - Língua Inglesa e Literaturas de Língua Inglesa\n Degree : Inglês Avançado\n Period : 2001 - 2007\n \n School name : Pontifícia Universidade Católica de Goiás\n Degree : Engenheiro Civil\n Period : 1994 - 2000"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T18:10:37.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T18:10:37.000Z",
+    "talentId": "01cc85be-2fda-40c2-bc5f-54588598fe92",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*01cc85be-2fda-40c2-bc5f-54588598fe92",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:46.647Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:46.647Z",
+      "linkedinUsername": "ricardo-rodrigues-0193933b",
+      "phone": "",
+      "name": "Ricardo Rodrigues",
+      "id": "01cc85be-2fda-40c2-bc5f-54588598fe92"
+    },
+    "timeInCurrentStage": 91944266683
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.584Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "#N/D"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "English (Native Or Bilingual), Portuguese (Native Or Bilingual), Spanish (Full Professional)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Group CFO/CHRO"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Group CFO/CHRO\n Company name : Finch Soluções\n Period : October 2020 - Present\n Summary : Group of companies focused on information technology, legal services and BPO, with 950 employees.\n Main products: Artificial intelligence, automation (algorithmics), management systems, BPO, back office solutions and legal advice.\n Main clients: Bradesco bank, Itaú bank, BV Finance, Votorantim, Hyundai, Vivo, Raizen, etc.\n Location : São Paulo, Brasil\n \n Job Title : Financial Director - Brazil\n Company name : Sodrugestvo\n Period : October 2015 - March 2020\n Summary : Multinational in the agribusiness segment operating in the industrialization of soybeans and grain exports. Brazilian operation with 290 employees and revenue of USD 570 million / year.\n \n Direct management of the areas: Treasury, Accounting, Tax, Controllership and Information Technology.\n \n Main results and responsibilities:\n - Recovery of the company's image vis-à-vis banks, leading to an increase in bank lines by USD 180 million;\n - Review and improvement of hedge strategies (Forex, CBOT soy / meal / oil) bringing more security and stability to the business;\n - Policies and processes restructuring, bringing several operational gains;\n - Negotiation with the government (Agriculture Department, development agencies, tax authorities, etc.) to obtain tax benefits and improve legislation;\n - Creation of ICMS tax strategies with recurring cash impact of USD 7 million / year;\n - Tax recovery (ICMS / PIS / COFINS) over USD 20 million;\n - Reduction of the payroll cost through the restructuring of the team;\n - Management of 24 employees, five of whom are direct: Accounting Manager, Tax Manager, Planning Manager, IT Manager and Treasury Manager.\n \n Job Title : Executive Manager - Controllership and Planning\n Company name : Agrex do Brasil S/A\n Period : February 2014 - June 2015\n Summary : Japanese multinational in the Agribusiness sector, working with its own agricultural production, resale of chemical inputs, fertilizer production, seed production, soy industrialization and grain exports. Brazilian operation with 600 employees and revenue of USD 600 million / year.\n \n Direct management of: Controllership, Planning, Accounting, Tax, Processes, Internal Controls, Auditing and Fixed Assets.\n \n Main results and responsibilities:\n - Complete restructuring of the business analysis, reaching EVA per business unit and detailed analysis of the margin of each item sold;\n - Conducting corporate operations such as reverse incorporation, company creation, offshore, etc. ;\n - Acting in BARTER, TRADING and HEDGE (commodity price and currency), improving the visibility of the result and allowing the repositioning of the business;\n - Preparation of a tax strategy that allowed the recovery of USD 5 million of ICMS;\n - Reduction of payroll costs through the revision and improvement of processes and reorganization of the team, thus obtaining better synergy and productivity gains;\n - Local and international accounting, Tax department, Controllership, Internal audit, Internal processes and controls, Fixed assets department and Personnel department;\n - Management of 34 employees, four direct: Accounting Manager, Tax Manager, Controllership Manager and Process Coordinator.\n Location : Goiânia\n \n Job Title : Controller\n Company name : Agrex do Brasil S.A.\n Period : May 2012 - January 2014\n Summary : An Argentine multinational in the sector of production and export of grains, inputs sales to agriculture, seeds production and industrialization of soybeans, with 500 employees and revenues of $300 MM USD/year;\n \n - Responsibilities: Local and International Accounting, Tax department, Planning & Control and Personnel Department.\n \n Job Title : CFO\n Company name : Mineração MA S/A\n Period : July 2008 - April 2012\n Summary : Brazilian Startup in the mineral research and project development sector.\n \n Direct management of the areas: Operation, Accounting, Tax and Financial.\n \n Main results and responsibilities:\n - As co-founder and CFO, I had an effective participation in the identification of the business opportunity, in the development of strategic planning and in the preparation of the Business Plan;\n - Prospecting for investors, foreign and domestic, managing to raise funds for the development of the project;\n - Multiplying the business value tenfold from the initial fundraising with investors.\n \n Job Title : Controller - Rio Quente Group\n Company name : Grupo Algar\n Period : January 2003 - June 2008\n Summary : Rio Quente Group (Algar) - Brazilian group of 12 companies in the Hospitality, Water Parks, Entertainment, Real Estate, Mining and Time Share sectors, with 1,300 employees and revenues of USD 70 million / year.\n \n Direct management of the 12 companies from Group, involving: Accounting, Tax department, Cost and Budget, Internal Audit and Condominium Management, managing a team of 23 employees, four of whom are managers (Accounting, Costs and Budget, Internal Audit and Condominium Administration). \n \n Main results and responsibilities:\n - Recovery of controls and reliability of accounting information;\n - Reduction of the accounting closing period from 10 to 5 days;\n - Creation of tax planning that led to an effective reduction of the tax burden (PIS / COFINS / ICMS) by USD 2 million / year, generating a recurring effect and positively affecting the company's results;\n - Conducting corporate restructuring: turnaround, mergers, company extinction, businesses sale and Valuation for delisting (stock exchange).\n \n Job Title : Senior Cost and Budget Analyst\n Company name : Peixoto Atacadista\n Period : January 2000 - December 2002\n Summary : Wholesale Brazilian distributor with 2,500 employees and revenues of USD 210 million / year.\n \n Main results and responsibilities:\n - Pricing, Business Plan, results monitoring, budgets and business analysis;\n - Support to the commercial area, working on the definition of the sales strategy in line with the contribution margin management. Innovative work within the company that allowed for more aggressive commercial actions without margin reduction, contributing to a sales increase of USD 21 million, leveraging profit by 60%;\n - Elaboration of purchasing and re-billing strategy, improving the management of ICMS tax credits and preventing their accumulation;\n - Business Intelligence (BI) structuring , using the Oracle database, modeled through Access, assembling and analyzing various scenarios that enabled agility in decision making.\n \n Job Title : Financial Manager\n Company name : Têxtil Metro Paulo\n Period : January 1999 - January 2000\n Summary : Company in the Wholesale and Retail segment of fabrics with 150 employees and revenues of USD 14 million / year.\n \n Main results and responsibilities:\n - Accounts Payable and Receivable, Costs and Expenses Management, Cash Flow Planning, results analysis, negotiation with banks, leading a team of six employees;\n - Reorganization of the company's cash flow and budget, bringing visibility to the results, enabling the closing of a store that was not generating profit;\n - Reduction of the financial cost by 20% only with improved negotiation with banks.\n Company 2: Sodrugestvo\n Company 3: Agrex do Brasil S/A"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : OKRCP - OKR Certified Professional\n Period : May 2021 - Present\n Summary : CLRYFBNPYS-LLLTKJZJ-XHTSRMPSMY\n Issuing Authority : CertiProf\n \n Title : PSPO I - Professional Scrum Product Owner I\n Period : April 2021 - Present\n Issuing Authority : Scrum.org\n \n Title : PSM I - Professional Scrum Master I\n Period : March 2021 - Present\n Issuing Authority : Scrum.org"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : EAE Business School\n Degree : Master's degree in Financial Management\n Period : 2015 - 2017\n \n School name : Fundação Dom Cabral\n Degree : Executive Development Program (PDD)\n Period : 2014 - 2015\n \n School name : Ohio University\n Degree : Post-graduation in Business Administration\n Period : 2009 - 2010\n \n School name : Fundação Getulio Vargas\n Degree : MBA - Business Management\n Period : 2000 - 2001\n \n School name : Universidade Federal de Uberlândia\n Speciality : Bachelor’s degree in Economics\n Period : 1992 - 1997"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T20:35:14.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T20:35:14.000Z",
+    "talentId": "c9250313-72d3-4edb-ac37-ccf41b01f9fe",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*c9250313-72d3-4edb-ac37-ccf41b01f9fe",
+    "talent": {
+      "company": "Finch Solucoes",
+      "createdAt": "2023-12-20T13:01:46.776Z",
+      "email": "aurelius_franco@yahoo.com.br",
+      "linkedinUsername": "aurelius-franco",
+      "name": "Aurelius Franco",
+      "phone": "",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-10-21T18:03:11.622Z",
+      "id": "c9250313-72d3-4edb-ac37-ccf41b01f9fe"
+    },
+    "timeInCurrentStage": 91935589683
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.647Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Grupo Big"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "December 11"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Administrativa Financeira"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Gerente Administrativa Financeira\n Company name : Grupo Big\n Period : January 2021 - Present\n Location : Goiânia, Goiás, Brasil\n \n Job Title : Coordenadora Administrativa Financeira\n Company name : Grupo Big\n Period : June 2018 - December 2020\n Location : Goiânia, Goiás\n \n Job Title : Gerente financeira\n Company name : WAM Negócios Inteligentes\n Period : March 2014 - May 2018\n Summary : Estive mais de 4 anos à frente da gestão financeira da Empresa WAM Brasil, a maior Comercializadora de Multipropriedades Imobiliárias da América do Sul. Participando ativamente do controle de contas a pagar, controle de contas a receber, controle das aplicações financeiras, controle dos saldos bancários, administração do fluxo de caixa e análise das demonstrações financeiras.\n Trabalhei na captação de recursos visando um bom equilíbrio entre capital e dívida, alocando recursos da melhor maneira possível, considerando o tamanho da empresa e a sua capacidade de crescimento.\n Suprindo a diretoria com informações gerenciais e indicadores, fornecendo demonstrações financeiras precisas, permitindo à diretoria usar os relatórios para administrar a empresa de modo eficiente.\n Utilizando dados de faturamento, fluxo de caixa, custos e despesas, para a elaboração de relatórios, acompanhando e executando planejamento de recebimentos e pagamentos.\n Location : Goiânia, Goiás\n \n Job Title : Analista financeira\n Company name : Grupo Prive\n Period : October 2012 - February 2014\n Summary : Responsável pelo contas a pagar, gestão de saldos bancários e relatórios\n Location : Goiânia, Goiás\n \n Job Title : Auxiliar administrativo\n Company name : MBM Solução em Impressão\n Period : May 2008 - September 2012\n Summary : Iniciei como recepcionista, passando também pelo departamento de faturamento e por último Coordenadora do departamento técnico.\n Location : Goiânia, Goiás\n Company 2: Grupo Big\n Company 3: WAM Negócios Inteligentes"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : IPOG - Instituto de Pós-Graduação e Graduação\n Speciality : Gestão de Negócios, Controladoria & Finanças Corporativas\n Degree : Master of Business Administration - MBA\n Period : 2016 - 2018\n \n School name : Uni-ANHANGUERA - Centro Universitário de Goiás\n Speciality : Tecnologo em Gestão Ambiental\n Degree : Graduação\n Period : 2007 - 2010"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T16:55:39.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T16:55:39.000Z",
+    "talentId": "49ba6994-65cc-49c9-9121-48b481e312aa",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*49ba6994-65cc-49c9-9121-48b481e312aa",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:46.913Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:46.913Z",
+      "linkedinUsername": "marcelly-ferreira-neves-rodrigues-999451157",
+      "phone": "",
+      "name": "Marcelly Ferreira Neves Rodrigues",
+      "id": "49ba6994-65cc-49c9-9121-48b481e312aa"
+    },
+    "timeInCurrentStage": 91948764683
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.829Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Eletronorte"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "March 20"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor financeiro"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Diretor financeiro\n Company name : Eletronorte\n Period : February 2023 - Present\n Location : Brasília, Distrito Federal, Brasil\n \n Job Title : Assessor\n Company name : Eletronorte\n Period : December 2018 - February 2023\n Location : Brasília, Distrito Federal, Brasil\n \n Job Title : Superintente de contabilidade\n Company name : Eletronorte\n Period : June 2015 - December 2018\n Location : Brasília, Distrito Federal, Brasil\n \n Job Title : Gerente\n Company name : Eletronorte\n Period : January 2010 - June 2015\n Location : Brasília, Distrito Federal, Brasil\n \n Job Title : Analista financeiro econômico\n Company name : Eletronorte\n Period : February 2007 - December 2009\n Location : Brasília, Distrito Federal, Brasil\n \n Job Title : Conselheiro fiscal\n Company name : Belo Monte Transmissora de Energia SPE S.A.\n Period : April 2021 - Present\n \n Job Title : Conselheiro fiscal\n Company name : Transnorte Energia\n Period : May 2021 - February 2022\n \n Job Title : Conselheiro fiscal\n Company name : Norte Energia\n Period : April 2018 - April 2019\n Location : Brasília, Distrito Federal, Brasil\n \n Job Title : Conselheiro fiscal\n Company name : Amazonia-Eletronorte Transmissora De Energia\n Period : April 2014 - April 2019\n Location : Cuiabá, Mato Grosso, Brasil\n \n Job Title : Contador\n Company name : Ministério das Cidades\n Period : March 2005 - February 2007\n Location : Brasília, Distrito Federal, Brasil\n \n Job Title : Escriturário\n Company name : Banco do Brasil\n Period : January 2000 - April 2002\n Location : Brasília, Distrito Federal, Brasil\n Company 2: Eletronorte\n Company 3: Eletronorte"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Conselheiro Fiscal IBGC (CCF IBGC).\n Period : September 2022 - Present\n Issuing Authority : IBGC - Instituto Brasileiro de Governança Corporativa\n \n Title : Disruptive Leadership skill for an ever-changing world\n Period : June 2022 - Present\n Issuing Authority : StartSe"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : MBA Executivo em Administração: Negócios no Setor Elétrico\n Period : May 2022 - June 2023\n \n School name : The George Washington University\n Speciality : Economia Internacional\n Degree : Programa Minerva\n Period : August 2012 - December 2012\n \n School name : Universidade de Brasília\n Speciality : Contabilidade e Finanças\n Degree : Graduação\n Period : 1999 - 2005"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T20:58:49.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T20:58:49.000Z",
+    "talentId": "69ed472e-75d5-4bce-b156-752abf22dc2b",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*69ed472e-75d5-4bce-b156-752abf22dc2b",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:46.685Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:46.685Z",
+      "linkedinUsername": "hugo-leonardo-silva-274aa4200",
+      "phone": "",
+      "name": "Hugo Leonardo Silva",
+      "id": "69ed472e-75d5-4bce-b156-752abf22dc2b"
+    },
+    "timeInCurrentStage": 91934174683
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.890Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Conexão Agro"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "December 3"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor Financeiro"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Diretor Financeiro\n Company name : Conexão Agro\n Period : April 2020 - Present\n Summary : Nossa missão é mais que liberar recursos de Crédito Rural, trabalhamos para o produtor crescer e prosperar. Usamos tecnologia, conhecimento e gestão para transformar o agro em negócio.\n Location : Brasil\n \n Job Title : Diretor Executivo\n Company name : Guarânia Alimentos\n Period : July 2014 - March 2019\n Summary : Indústria frigorífica | Produção e comercialização de carne in natura e processada.\n Atuação nacional. Certificação federal SISBI e Orgânica. Planta industrial com capacidade para 140.000 kg/mês.\n Location : Campo Grande Area, Brazil\n \n Job Title : Diretor de Planejamento e Eficiência\n Company name : Rede Tendência\n Period : September 2013 - July 2014\n Summary : Responsável por Planejamento, Projetos, Processos, B.I e BSC, planejamento estratégico anual e ferramentas de visibilidade com foco na redução de custos, aumento de receitas e informações relevantes.\n \n PRINCIPAIS RESULTADOS:\n \n • Implantação do PMO Office, escritório corporativo responsável pelos projetos estratégicos.\n • Implantação do BPM Office, escritório de processos com foco em eficiência operacional.\n • Implantação do setor de BI (Business Intelligence), área de suporte à todas diretorias criando dashboards de gestão. Cultura de eficiência operacional.\n • Desenvolvimento de ferramentas e processos de medição comerciais, financeiros e operacionais que ajudaram a monitorar a execução bem-sucedida, incluindo status e uso do orçamento e desvios, P&L das unidades de negócios, margens brutas e informações gerais e administrativas.\n • Estruturação e implantação do Projeto Revenue Assurance, garantiu que 100% das vendas (+16,7 milhões de transações/mês) fossem faturadas. Projeto resultou em correção de falhas e reconhecimento de +R$ 900 mil na receita bruta mensal.\n Location : Campo Grande e Região, Brasil\n \n Job Title : Vice-Presidente de Finanças e Operações\n Company name : Rede Tendência\n Period : December 2009 - September 2013\n Summary : Reportando diretamente ao Presidente, fui responsável por liderar, projetar e estabelecer a estrutura organizacional necessária para atingir metas e objetivos estratégicos. Reporte de três diretores, Diretoria Financeira, Diretoria de Operações e Diretoria de Relacionamento), headcount de 210+ colaboradores e 17 filiais em nível nacional.\n \n PRINCIPAIS RESULTADOS:\n \n • Corresponsável pela construção, desenvolvimento e execução, do plano de operações anual e orçamentos anuais em todos os níveis da empresa.\n • Liderança para ajudar a definir e evoluir as métricas financeiras e operacionais da empresa.\n • Corresponsável no gerenciamento e avaliação do impacto financeiro e estratégico de novas oportunidades de negócios, incluindo estratégias de desenvolvimento de negócios, novas ofertas de produtos e serviços e soluções de tecnologia.\n • Análise do Planejamento Financeiro, Suporte aos Negócios (por exemplo, planejamento de remuneração, análise de negócios) e suporte Contábil (por exemplo, receitas e comissões, etc.).\n • Revisão dos relatórios trimestrais de resultados financeiros relativos ao orçamento aprovado e projetado.\n • Revisão da modelagem financeira, análise financeira, previsão e outros projetos financeiros ad-hoc.\n • Implementação de orçamentos e previsões de curto e longo prazo, orçamentos contínuos e análise de lucratividade da linha de produtos.\n • Implementação, preparação e condução das Reuniões Mensais de Resultado (RMR) do board executivo da empresa.\n • Criação e coordenação do Comitê de Finanças, foco na avaliação da estratégia financeira, plano de investimentos, metas de alavancagem, gestão de risco, análise das demonstrações financeiras e reporte ao sócios-controladores.\n Location : Brasil\n \n Job Title : Diretor Executivo\n Company name : Rede Tendência\n Period : October 2008 - November 2009\n Summary : Membro do board executivo, que incluía Presidente/sócios controladores, para definição da nova estrutura organizacional. Suporte ao plano de expansão e crescimento.\n \n PRINCIPAIS RESULTADOS:\n • Reestruturação Organizacional. Principal executivo na formatação de áreas e funções executivas para suporte ao crescimento. Participação ativa na contratação dos demais executivos C-Level. • Implementação e coordenação das reuniões de Planejamento Estratégico. • Gestão dos objetivos estratégicos através de BSC Corporativo. • Corresponsável junto à Diretoria de RH na definição do Contrato de metas de cada área/gestor (incluindo métricas, origem dos dados e controles), vinculando ao PLR anual. • Conceito, indicadores e dashboards incorporados na rotina dos gestores e áreas.\n Location : Campo Grande Area, Brazil\n \n Job Title : Gerente Canal Eletrônico\n Company name : Rede Tendência\n Period : February 2006 - November 2009\n Summary : Responsável pelas áreas Comercial, Implantação, Faturamento, Logística, Suporte Técnico e Call Center.\n \n PRINCIPAIS RESULTADOS:\n \n • Estruturação da start-up que inovou no modelo de expansão e venda de recarga eletrônica (créditos para celular pré-pago) para operadoras Vivo, Tim, Claro e Oi no país, se tornando o maior integrador de tecnologia do segmento. • Implantação de sistema e modelo de gestão em 60+ distribuidores de recarga em nível nacional • Gestão de +40mil terminais POS´s na rede.\n Location : Brasil\n \n Job Title : Gestor Comercial\n Company name : Business Travel Company\n Period : November 2000 - September 2005\n Location : Campo Grande Area, Brazil\n \n Job Title : Gerente Adm. e Comercial\n Company name : Rede Tendência\n Period : September 1996 - December 2000\n Company 2: Guarânia Alimentos\n Company 3: Rede Tendência"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Excel 2016: Tabelas Dinâmicas - Uma Visão Detalhada\n Period : March 2019 - Present\n Summary : linkedin.com, http://www.linkedin.com/learning/excel-2016-tabelas-dinamicas-uma-visao-detalhada?trk=flagship-lil_details_certification\n Issuing Authority : LinkedIn"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : UFSCar - Universidade Federal de São Carlos\n Speciality : Finanças\n Degree : Master of Business Administration - MBA\n \n School name : Universidade de São Paulo\n Speciality : Gestão Estratégica\n Degree : Master of Business Administration (MBA)\n Period : 2011 - 2013\n \n School name : Universidade para o Desenvolvimento do Estado e da Região do Pantanal\n Speciality : Business Administration and Management, General\n Degree : Bachelor of Science (BSc)\n Period : 2000 - 2004\n Courses: Title : Administração Financeira - INSPER/SP; Title : Análise Financeira de Projetos de Investimento - DVW Networking - SP; Title : Comitê de Auditoria no Brasil (cases Embraer, Natura e Magazine Luiza) - IBGC - SP; Title : Finanças Corporativas - IBMEC - RJ; Title : Gestão para Resultados - INDG - SP; Title : Governança Corporativa - Melhores Práticas - IBGC - DF; Title : Instrumentos Societários para Realizar Sucessão na Empresa Familiar - ESA - MS; Title : Relações com Investidores - FIPECAFI / IBRI - SP"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T21:16:48.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T21:16:48.000Z",
+    "talentId": "2729f374-e862-4fc1-bae6-8b147fbc13a0",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*2729f374-e862-4fc1-bae6-8b147fbc13a0",
+    "talent": {
+      "company": "Agro Paper",
+      "createdAt": "2023-12-20T13:01:47.538Z",
+      "email": "jander.br@gmail.com",
+      "headline": "",
+      "linkedinUsername": "jander-pereira",
+      "location": "",
+      "name": "Jander Augusto Pereira",
+      "phone": "",
+      "picture": "https://media.licdn.com/dms/image/C5603AQGyMU-UX0xbDw/profile-displayphoto-shrink_200_200/0/1552069866655?e=1723075200&v=beta&t=CIFr9nMmKHeNs4d_dLwM5e7iopIyjRqjabgli1vuxjI",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-06-04T11:36:18.621Z",
+      "id": "2729f374-e862-4fc1-bae6-8b147fbc13a0"
+    },
+    "timeInCurrentStage": 91933095683
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.609Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Ática Gestão"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Partner"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Partner\n Company name : Ática Gestão\n Period : August 2020 - Present\n Location : Goiânia, Goiás, Brasil\n \n Job Title : Diretor financeiro\n Company name : Lagoa Parques e Hotéis\n Period : September 2019 - Present\n Location : Goiás, Brasil\n \n Job Title : Controller\n Company name : Lead Gestão Empresarial\n Period : September 2019 - August 2020\n Location : Goiânia, Goiás\n \n Job Title : Auditor sênior II\n Company name : EY\n Period : July 2019 - September 2019\n \n Job Title : Audit sênior I\n Company name : EY\n Period : August 2018 - July 2019\n \n Job Title : Audit Associate II\n Company name : EY\n Period : September 2017 - August 2018\n Location : Goiânia e Região, Brasil\n \n Job Title : Associate II Audit Service\n Company name : Grant Thornton Brasil\n Period : October 2016 - September 2017\n Summary : Associate II - Audit Service\n Location : Goiânia e Região, Brasil\n \n Job Title : Associate I Audit Service\n Company name : Grant Thornton Brasil\n Period : October 2015 - September 2016\n Summary : Associate I - Audit Service.\n Location : Goiânia e Região, Brasil\n \n Job Title : Audit Trainee\n Company name : Grant Thornton Brasil\n Period : November 2014 - October 2015\n Summary : Trainee - Audit Service\n \n Job Title : Auxiliar administrativo/financeiro.\n Company name : Tratorpilar Comércio de Peças Para Tratores Ltda.\n Period : August 2011 - October 2014\n Company 2: Lagoa Parques e Hotéis\n Company 3: Lead Gestão Empresarial"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Trevisan Escola de Negócios\n Degree : Contabilidade"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T18:43:43.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T18:43:43.000Z",
+    "talentId": "2b1a77cf-7ab8-45cb-8917-621c35de94db",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*2b1a77cf-7ab8-45cb-8917-621c35de94db",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:47.328Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:47.328Z",
+      "linkedinUsername": "raphael-suzuki-42574ba3",
+      "phone": "",
+      "name": "Raphael Suzuki",
+      "id": "2b1a77cf-7ab8-45cb-8917-621c35de94db"
+    },
+    "timeInCurrentStage": 91942280683
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.471Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "HospitalMaterDei"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "CFO"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : CFO\n Company name : Rede Mater Dei de Saúde\n Period : September 2021 - Present\n \n Job Title : Coordenador MBA Finanças, Contralodoria e Gestão Empresarial\n Company name : INPRO Instituto Projeção\n Period : October 2019 - Present\n Location : Goiânia, Goiás, Brasil\n \n Job Title : CFO and CHRO\n Company name : Creme Mel Sorvetes\n Period : March 2019 - August 2021\n \n Job Title : Diretor Administrativo/Financeiro - CFO\n Company name : Libra Nutrição Animal\n Period : August 2018 - February 2019\n \n Job Title : Controller - LG - ( Investida do private equity HIG Capital)\n Company name : LG lugar de gente\n Period : August 2015 - August 2018\n Location : Goiânia e Região, Brasil\n \n Job Title : Gestor de Controladoria\n Company name : Champion Saúde Animal\n Period : July 2012 - July 2015\n Summary : Gestão de Orçamento:\n \n Reporte a Diretoria e CEO: Implantou e coordena o Modelo de Orçamento OBZ ( Orçamento Base Zero ) dentro da Companhia. É responsável pela gestão de indicadores contábeis e financeiros de rentabilidade, atividade e estrutura de capital.\n \n Planejamento Financeiro/Estratégico:\n \n Reporte a Diretoria e CEO: Elabora desde 2013 o planejamento financeiro da Companhia apresentando e validando com Diretoria e Presidência.É responsável pela construção e gestão do fluxo de caixa e DRE.\n Location : Goiânia e Região, Brasil\n \n Job Title : Gestor de Logística\n Company name : Champion Saúde Animal\n Period : August 2012 - March 2013\n Summary : Gestão de Logística:\n \n Coordenação de toda logística de cadeia de produtos em nível nacional:\n \n Responsável pela Gestão de indicadores de desempenho operacional e qualidade.Implantação de padronização e melhoria contínua de processos.\n \n Job Title : Trader de Bovespa/BM&F\n Company name : Grupo Reno Investimentos\n Period : July 2010 - July 2012\n Summary : Intermediação de operações nos mercados de ações, commodities agrícolas e derivativos financeiros na Bolsa de Valores de São Paulo (BM&FBOVESPA).\n Company 2: INPRO Instituto Projeção\n Company 3: Creme Mel Sorvetes"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Columbia University - Columbia Business School\n Speciality : Financial Analysis and Valuation\n Degree : Executive Education\n Period : 2016 - Present\n \n School name : Universidade Federal de Goiás\n Degree : Economista"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T22:09:08.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T22:09:08.000Z",
+    "talentId": "6434030b-7cfd-409e-bc8c-964b5dfddf37",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*6434030b-7cfd-409e-bc8c-964b5dfddf37",
+    "talent": {
+      "company": "Hospital Jacob Facuri",
+      "createdAt": "2023-12-20T13:01:46.808Z",
+      "email": "thiagogynvo@gmail.com",
+      "headline": "",
+      "linkedinUsername": "thiago-custódio-03599852",
+      "location": "",
+      "name": "Thiago Custódio",
+      "phone": "+5562981266480",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQFzx8cw-8p6ng/profile-displayphoto-shrink_200_200/0/1703954707743?e=1723075200&v=beta&t=rKmWhDSA4rzpTcE4gUBs30wG2z7X5-LExoO1Gqo8bKM",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-08-28T13:54:36.066Z",
+      "id": "6434030b-7cfd-409e-bc8c-964b5dfddf37"
+    },
+    "timeInCurrentStage": 91929955683
+  },
+  {
+    "importedAt": "2023-12-20T14:43:57.061Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "#N/D"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "June 7"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor Vice-Presidente"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Diretor Vice-Presidente\n Company name : Montreal Hotéis Viagens e Turismo S/A\n Period : May 2020 - Present\n Location : Brasília, Distrito Federal, Brasil\n \n Job Title : Diretor Executivo de Operações\n Company name : Montreal Hotéis, Viagens e Turismo S/A\n Period : 2019 - Present\n Location : Brasília e Região, Brasil\n \n Job Title : Diretor Comercial\n Company name : Montreal Hotéis, Viagens e Turismo S/A\n Period : 2013 - 2019\n \n Job Title : Diretor de Hotelaria\n Company name : Montreal Hotéis, Viagens e Turismo S/A\n Period : 2010 - 2013\n \n Job Title : Diretor financeiro e administrativo\n Company name : Grupo Golden Dolphin. Hotelaria, Construções e Incorporações\n Period : 1988 - 2010\n Location : Brasília e Região, Brasil\n \n Job Title : Gerente Financeiro e Administrativo\n Company name : ITACOM Construtora e Incorporadora\n Period : 1981 - 1988\n Location : Brasília e Região, Brasil\n \n Job Title : Gerente\n Company name : Escon Contabilidade & Advocacia\n Period : 1979 - 1981\n Company 2: Montreal Hotéis, Viagens e Turismo S/A\n Company 3: Montreal Hotéis, Viagens e Turismo S/A"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Degree : Pós-Graduação em Administracao de Empresas\n Period : 2014 - 2015\n \n School name : Fundação Getulio Vargas\n Degree : MBA Gestão em Finanças, Controladoria e Auditoria\n Period : 2010 - 2014\n \n School name : Fundação Getulio Vargas\n Speciality : Gestão de Pessoas\n Degree : Curso Nivel Extensão\n Period : 2010 - 2010\n \n School name : Fundação Getulio Vargas\n Degree : MBA em Marketing\n Period : 1999 - 2000"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T18:30:36.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T18:30:36.000Z",
+    "talentId": "d6190a83-8946-4634-941f-8834754b5f25",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*d6190a83-8946-4634-941f-8834754b5f25",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:46.813Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:46.813Z",
+      "linkedinUsername": "jose-de-ribamar-da-silva-santos-045459a1",
+      "phone": "",
+      "name": "Jose de Ribamar da Silva Santos",
+      "id": "d6190a83-8946-4634-941f-8834754b5f25"
+    },
+    "timeInCurrentStage": 91943067683
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.998Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "BR Render"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "October 6"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "CFO - Diretor Administrativo e Financeiro"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : CFO - Diretor Administrativo e Financeiro\n Company name : BR Render\n Period : May 2016 - Present\n \n Job Title : Professor\n Company name : Universidade Paulista\n Period : 2006 - 2020\n \n Job Title : Coordenador de Curso\n Company name : Universidade Paulista\n Period : 2011 - 2012\n \n Job Title : Coordenador de Pós-Graduação\n Company name : Universidade Paulista\n Period : 2008 - 2010\n \n Job Title : Professor Pós-Graduação\n Company name : Universidade Salgado de Oliveira\n Period : 2015 - 2018\n \n Job Title : Diretor Executivo\n Company name : Grupo Alves Quixabeira\n Period : 2014 - 2016\n \n Job Title : CFO - Diretor Administrativo e Financiro\n Company name : Grupo Alves Quixabeira\n Period : 2012 - 2014\n \n Job Title : Financial Manager\n Company name : Grupo Alves Quixabeira\n Period : 2008 - 2012\n \n Job Title : Professor Pós-Graduação\n Company name : Estácio\n Period : 2012 - 2013\n \n Job Title : Financial Manager\n Company name : Perfil Indústria Ltda\n Period : 2006 - 2007\n \n Job Title : Financial Coordinator\n Company name : Perfil Indústria Ltda\n Period : 2004 - 2005\n Company 2: Universidade Paulista\n Company 3: Universidade Paulista"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : University of Cambridge\n Degree : Innovation and Entrepreneurship of the Specialization in Management Program\n Period : 2014 - 2014\n \n School name : Fundação Dom Cabral\n Degree : Gestão para Resultados\n Period : 2012 - 2012\n \n School name : University of California, Irvine\n Degree : Business and Management\n Period : 2012 - 2012\n \n School name : Fundação Getulio Vargas\n Speciality : Gestão Financeira, Controladoria e Auditoria\n Degree : MBA\n Period : 2008 - 2010\n \n School name : Universidade Estácio de Sá\n Speciality : Gestão Empresarial\n Degree : MBA\n Period : 2007 - 2007"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T16:36:28.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T16:36:28.000Z",
+    "talentId": "373936ba-cdcf-4c27-8a5f-3592e97f3291",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*373936ba-cdcf-4c27-8a5f-3592e97f3291",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:46.801Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:46.801Z",
+      "linkedinUsername": "falberth-santos-1416512b",
+      "phone": "",
+      "name": "Falberth Santos",
+      "id": "373936ba-cdcf-4c27-8a5f-3592e97f3291"
+    },
+    "timeInCurrentStage": 91949915683
+  },
+  {
+    "importedAt": "2023-12-20T14:43:57.225Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "#N/D"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista financeira sênior"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Analista financeira sênior\n Company name : WAM\n Period : January 2022 - February 2023\n Location : Goiânia, Goiás, Brasil\n \n Job Title : Supervisora financeira\n Company name : Oral Sin\n Period : February 2021 - November 2021\n Location : Goiânia, Goiás, Brasil\n \n Job Title : Analista financeiro\n Company name : Espetinhos Mimi\n Period : August 2019 - November 2020\n Location : Aparecida de Goiânia, Goiás, Brasil\n \n Job Title : Analista de tesouraria\n Company name : Assaí Atacadista - GPA\n Period : May 2017 - November 2018\n Location : Goiânia, Goiás, Brasil\n Company 2: Oral Sin \n Company 3: Espetinhos Mimi"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Paulista\n Speciality : Engenharia Civil\n Degree : Bacharelado\n Period : January 2018 - February 2023\n \n School name : Sebrae\n Speciality : Administração e Negócios\n Degree : Gestao Financeira\n Period : August 2020 - December 2020"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T17:24:53.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T17:24:53.000Z",
+    "talentId": "77099117-c05f-481b-bca2-2522c3774649",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*77099117-c05f-481b-bca2-2522c3774649",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:46.635Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:46.635Z",
+      "linkedinUsername": "melory-fernanda-oliveira-23a7541a5",
+      "phone": "",
+      "name": "Melory Fernanda Oliveira",
+      "id": "77099117-c05f-481b-bca2-2522c3774649"
+    },
+    "timeInCurrentStage": 91947010683
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.938Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "K Hotel"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretora financeira"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Diretora financeira\n Company name : K Hotel"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T21:54:09.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T21:54:09.000Z",
+    "talentId": "cd330f7b-90c1-40e8-a283-68846cd1ffb0",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*cd330f7b-90c1-40e8-a283-68846cd1ffb0",
+    "talent": {
+      "company": "K Hotel",
+      "createdAt": "2023-12-20T13:01:46.988Z",
+      "headline": "",
+      "linkedinUsername": "leila-hajjar-kounboz-b7169292",
+      "location": "",
+      "name": "Leila Hajjar Kounboz",
+      "phone": "",
+      "picture": "",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-05-30T11:47:14.782Z",
+      "id": "cd330f7b-90c1-40e8-a283-68846cd1ffb0"
+    },
+    "timeInCurrentStage": 91930854683
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.483Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Linea Alimentos"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor Administrativo Financeiro"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Diretor Administrativo Financeiro\n Company name : Linea Alimentos\n Period : October 2021 - Present\n Location : Anápolis, Goiás, Brasil\n \n Job Title : Controller\n Company name : Linea Sucralose\n Period : June 2011 - Present\n Company 2: Linea Sucralose"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T20:39:10.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T20:39:10.000Z",
+    "talentId": "c5ac4249-1247-492a-b878-1953a595d546",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*c5ac4249-1247-492a-b878-1953a595d546",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:47.212Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:47.212Z",
+      "linkedinUsername": "daniel-yasunaka-72571bab",
+      "phone": "",
+      "name": "Daniel Yasunaka",
+      "id": "c5ac4249-1247-492a-b878-1953a595d546"
+    },
+    "timeInCurrentStage": 91935353683
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.798Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "#N/D"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "January 20"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Espanhol (Elementary), Inglês (Professional Working)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gestor de Finanças e Controladoria"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Gestor de Finanças e Controladoria\n Company name : GRUPO RCS\n Period : September 2022 - Present\n Summary : Gestão do Departamento de Controladoria e Finanças (Finanças - Contabilidade - Tributário - Faturamento - Informações Gerenciais e Orçamento). Governança, projetos, processos e pessoas na integração e profissionalização da estrutura meio e conexão dos níveis estratégicos aos táticos e operacionais, com gestão de indicadores e resultados. Aplicação e repasse de métodos ágeis de gestão de equipes e projetos (OKRs, Scrum e Kanban, Lean, dentre outros). Profissionalização financeira-contábil e integração da informação para gestão.\n \n Responsável pelos processos de Liderança, Gestão de Risco, Gestão da Mudança e do Planejamento Estratégico com alinhamento com os nível táticos e operacionais, processos de orçamento empresarial, análise de balanços e auditoria interna, com mapeamento de processos e riscos, implantação e gestão de ferramenta informatizada de controle de processos e monitoramento de indicadores (KPIs), com melhoria constante e garantia da qualidade (nos padrões de certificações).\n Location : Brasília, Distrito Federal, Brasil\n \n Job Title : PO / SCRUM MASTER - Gestor em projetos de metodologias ágeis, gestão e qualidade\n Company name : Cifarma Científica Farmacêutica LTDA.\n Period : August 2012 - September 2022\n Summary : Párcer Solutions \n Desenvolvimento, implantação e gestão de projetos empresariais e negócios, reorganizações empresariais e profissionalização, com metodologias ágeis (Scrum, OKR, Kanban, Lean, Smart, XP e outras).\n Implantação de Framework de Gestao e Qualidae e ERPs.\n Atuação como CFO, CEO ou Assessor-Consultor Financeiro, PO, Scrum Master, Agile Master, Agile Coach e BPO Financeiro em empresas em recuperação extra-judicial ou em projetos de recuperação financeira, reorganização e profissionalização de processos de gestão e negócios, com objetivo de expansão, preparação para venda de participações societárias, capitação de recursos e investimentos e estruturação de operações financeiras.\n Location : Brasília, Distrito Federal, Brasil\n \n Job Title : CFO - Gestão Adm-Financeira\n Company name : Cifarma Científica Farmacêutica LTDA.\n Period : January 2019 - March 2022\n Summary : ATIVIDADES: Condução e gerenciamento dos departamentos de pessoas, administrativo, financeiro, tesouraria, controladoria, orçamento, custos, contábil e fiscal, compras e importações, todos os processos, rotinas e equipes destes setores, com planejamento e execução, com geração de relatórios gerenciais, indicadores (KPIs) e planejamentos para apoio na condução da gestão (OKRs).\n \n Planejamento Estratégico com alinhamento com os nível táticos e operacionais, com mapeamento de processos e riscos, implantação e gestão de ferramenta informatizada de controle de processos e monitoramento de indicadores (KPIs), com melhoria constante e garantia da qualidade (nos padrões de certificações).\n \n PRINCIPAIS RESULTADOS: Implantou o comitê de gestão e crise com 100% dos projetos entregues com objetivos alcançados. Reimplantou todos os processos administrativos e financeiros com 98% de não-conformidade em auditorias internas. Saneou 100% do passivo acumulado junto à fornecedores. Reverteu em 90% o grau de insatisfação dos colaboradores e manteve 100% do quadro motivado e em processo de desenvolvimento. Recuperou em 90% a credibilidade da empresa junto aos parceiros, colaboradores e fornecedores, mediante programa de comunicação e transparência permanente.\n Location : Brasília e Região, Brasil\n \n Job Title : CONTROLLER - GESTOR ADM FINANCEIRO / CONTÁBIL\n Company name : Bonamix Atacarejo\n Period : May 2014 - August 2019\n Summary : GRUPO GAP\n ATIVIDADES: Gerenciamento os setores administrativo, contábil, fiscal, patrimônio, orçamento, contratos terceirizados-prestadores de serviços-fornecedores, folha de pagamento e recursos humanos das empresas do grupo, seus processos, rotinas e equipes, com cumprimento de todas as obrigações acessórias e principais oficiais e gerenciais, geração e acompanhamento dos indicadores contábeis-financeiros e de desempenho e relatórios para orientação dos gestores e tomadas de decisões. Processos de abertura de filiais e legalização geral, desde a elaboração dos contratos, alterações, atas e outros documentos de registros e legalização. Coordenação dos setores de Custos e Preços.\n \n PRINCIPAIS RESULTADOS: Montou e implantou a Holding de Gestão, com mais de trinta processos e suas respectivas rotinas e procedimentos e equipes de planejamento e controle, possibilitando o crescimento do grupo empresarial em mais de 60%, em números de unidades produtivas e mais de 100% em faturamento, inclusive, possibilitando a abertura de novas marcas e parcerias estratégicas.\n Location : REGIÃO CENTRO OESTE\n \n Job Title : CONTROLLER - ASSESSOR DA DIRETORIA\n Company name : Atacadão Dia a Dia\n Period : November 2011 - March 2014\n Summary : GRUP BLACKWHAITE Atacado e Varejo\n ATIVIDADES: Gerenciamento dos processos, rotinas e equipes nas áreas contábil, tributário, custos, preço, controle patrimonial e orçamentos empresariais, atendimento e financeiro das empresas do grupo, implantação de processos de negócios nas áreas financeira, folha de pagamento e RH, contábil, fiscal, controle patrimonial e investimentos, suporte no planejamento de investimentos e expansão, reorganizações societárias e gerenciamento de passivos e contingências fiscais e contábeis. Geração de informações gerenciais e relatórios de acompanhamento de desempenhos para tomada de decisões. \n \n PRINCIPAIS RESULTADOS: Renegociou 100% os passivos tributários e recuperou as certidões fiscais, possibilitando a retomada do crescimento das operações da empresa, em âmbito Nacional. Desenvolveu o projeto de reorganização e remodelagem do negócio, montando a Controladoria, com todos os processos, rotinas e equipes voltadas para a sustentação da expansão do negócio e aumento da lucratividade e sustentando a mudança de cultura familiar para gestão profissional e abertura de outras marcas.\n Location : REGIÃO CENTRO OESTE\n \n Job Title : GERENTE DE AUDITORIA e CONTABILIDADE\n Company name : PARCER ASSESSORIA, CONSULTORIA E AUDITORIA EMPRESARIAL\n Period : January 1996 - August 2011\n Summary : ATIVIDADES: Gerenciamento e execução de todo o processamento contábil, fiscal, custos – precificação, folha de pagamento e auditorias de balanços e operacionais de toda a carteira de clientes do escritório (ramos de serviços, comercial e industriais), com encerramento e apresentação das demonstrações contábeis-financeiras e todas as obrigações principais e acessórias, federais, estaduais e municipais. Coordenação de toda a equipe técnica do escritório. Coordenação de toda a condução fiscal com os órgãos de fiscalização em todas as esferas, administrativa e judicial.\n PRINCIPAIS RESULTADOS: Implantou o sistema de gestão da qualidade (ISO 9000), tornando o escritório no primeiro certificado ISO do estado da Bahia. Aumentou a capacidade de atendimento do escritório em mais de 150% em numero de clientes e faturamento. Possibilitando a concorrência em disputas de grandes contratos junto ao mercado empresarial nordestino.\n Location : BAHIA\n \n Job Title : CONTROLLER - GER.ADM/FINANCEIRO\n Company name : Ftc - Faculdade Tecnologia e Ciência\n Period : March 1999 - October 2005\n Summary : ATIVIDADES: Responsável pelos processos, rotinas e equipes administrativas, financeiras, contabilidade, fiscal e departamento pessoal e RH da mantenedora de ensino (Holding de Educação) e de mais oito unidades de ensino superior (Faculdades), no Estado da Bahia.\n \n PRINCIPAIS RESULTADOS:\n Criação, legalização e estruturação física e organizacional da Mantenedora de Ensino Superior (Holding de Ensino), o que viabilizou as assessorias especializadas e a diretoria acadêmica geral a montar todos os projetos de cursos iniciais e realizar o primeiro vestibular em menos de 3 (três) meses, desde a constituição, para os cursos de Administração. – Benefício proporcionado: redução do aporte inicial de capital próprio para assumir os custos pré-operacionais, que foram reduzidos em ao menos 6 (seis) meses, com a aceleração do prazo do primeiro vestibular. \n Criação e profissionalização da Controladoria como Departamento de apoio direto à alta direção, com a montagem de uma estrutura de apoio gerencial, projetos e expansão, além da condução da contabilidade e departamento de Pessoal e RH internos, proporcionando grande agilidade e simplificação nos processos de planejamento e execução da implantação do negócio. O maior benefício foi possibilitar uma aceleração recorde na abertura de unidades de ensino no estado da Bahia, saído de zero unidade a 7 em menos de cinco anos e atingindo um total de 59 mil alunos em seis anos e um crescimento de faturamento exponencial.\n \n Na FTC, ocupei a posição de Professor e Sub-Coordenador, curso de Administração, membro do Conselho Acadêmico e responsável pela organização e expansão das unidades de ensino por todo o Estado da Bahia. Além de terá atuado como professor instrutor e assessor administrativo e financeiro em outras Instituições de ensino, como a UNIBAHIA (Faculdades Integradas Ipitanga) e a Faculdade Unyhana, onde fui responsável pela reestruturação financeira e contábil e ter conduzido o processo de cisão que deu origem à Faculdade FTC.\n Location : BAHIA\n \n Job Title : ASSISTENTE DE CONTROLADORIA\n Company name : Cia Atlantic de Petróleo\n Period : August 1993 - October 1994\n Summary : ▪ Conciliação mensal da movimentação de recebimento e venda de combustíveis e lubrificantes e da movimentação financeira; \n ▪ Revisão dos riscos de controles de estoques de combustíveis e lubrificantes por unidade distribuidora na região Norte - Nordeste; \n ▪ Revisão dos indicadores e metas de vendas das distribuidoras na região Norte- Nordeste; \n ▪ Apoio ao Controller no fechamento dos relatórios mensais para envio à matriz; \n ▪ Fechamento diário e mensal das unidades distribuidoras e apuração do conta-corrente tributário mensal; \n ▪ Auxílio na montagem do mapa de risco de controles.\n Location : BAHIA\n \n Job Title : ASSISTENTE DE AUDITORIA\n Company name : KPMG Brasil\n Period : August 1990 - August 1993\n Summary : ▪ Execução do plano de auditoria externa e gestão de riscos; \n ▪ Montagem dos programas de auditoria e papéis de trabalhos secundários de auditoria; \n ▪ Execução dos testes de saldos e controles internos e riscos inerentes; \n ▪ Elaboração de pontos de auditoria para os gerentes dos trabalhos; \n ▪ Levantamento e coleta de documentos e informações para respaldar os pontos de auditoria; \n ▪ Revisão dos relatórios prévios de auditoria, organização e revisão dos papéis de trabalho para os gerentes de auditoria; \n ▪ Apresentação dos pontos de auditoria levantados no nível de assistente; \n ▪ Revisão e orientação dos trabalhos dos trainees de auditoria e execução de treinamentos teóricos; \n ▪ Pesquisas e levantamentos de normas e legislações específicas para fundamentação dos procedimentos de auditorias.\n Location : REGIÃO NORDESTE\n Company 2: Cifarma Científica Farmacêutica LTDA.\n Company 3: Cifarma Científica Farmacêutica LTDA."
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Agilista Especialista\n Period : March 2022 - Present\n Summary : contato@mindmaster.com.br, linkedin.com, https://www.linkedin.com/showcase/agilista-especialista/?trk=flagship-lil_details_certification\n Issuing Authority : Agilista Especialista\n \n Title : Agilista Elite\n Period : 2021 - Present\n Summary : contato@mindmaster.com.br, linkedin.com, https://www.linkedin.com/showcase/agilista-elite/?trk=flagship-lil_details_certification\n Issuing Authority : Agilista Elite\n \n Title : Master Mind Pleno\n Period : February 2014 - Present\n Issuing Authority : Master Mind - Centro Interior de São Paulo\n \n Title : Master Mind Lince\n Period : June 2013 - Present\n Issuing Authority : Master Mind - Centro Interior de São Paulo\n \n Title : Eneagrama\n Issuing Authority : Master Mind - Centro Interior de São Paulo\n \n Title : Master Mind Pleno e Lince\n Summary : mastermind.com.br, http://www.mastermind.com.br\n Issuing Authority : Master Mind - Centro Interior de São Paulo"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : IPOG Brasília\n Speciality : ênfase em Gestão de Risco\n Degree : Master of Business Administration (MBA) em Contabilidade e Direito Tributário\n Period : 2015 - 2016\n Summary : Gestão de Carreira e Marketing Pessoal. Simulaçãoes e estudos de casos.\n \n School name : FUNDAÇÃO VISCONDE DE CAIRU - FACULDADE DE CIÊNCIAS CONTÁBEIS\n Speciality : CIÊNCIAS CONTÁBEIS\n Degree : BACHAREL\n Period : 1986 - 1990\n Summary : Feiras, seminários, palestras e ventos promocionais para levantamento de fundos e doações.\n \n School name : IDP\n Speciality : Administração Pública\n Degree : Pós-graduação Stricto Sensu - Mestrado Profissional\n Period : December 2022 - June 2025\n \n School name : IJEP INSTITUTO JUNGUIANO DE PÓS GRADUAÇÃO\n Speciality : Psicologia Analítica\n Degree : Pós-graduação Lato Sensu - Especialização\n Period : March 2018 - September 2019\n Courses: Title : AGILISTA PROFISSIONAL - AGILE MASTER; Title : APURAÇÃO DO LUCRO REAL - CRC DF; Title : ATUALIZAÇÃO DAS ALTERAÇÕES LEI 6.404 / 11.638; Title : AUDITORIA DOS CONTROLES INTERNOS - Atualização - CRC DF; Title : AUDITORIA, AVALIAÇÃO E IMPLANTAÇÃO DE CONTROLES INTERNOS; Title : Alfresco Sistema Livre de Gestão de Processos e Documentos; Title : Atualização - Valuation e Negociações de Aquisições de Empresas - CRC SP; Title : Atualização Excel Avançado - Clínica da Matemática - DF; Title : Atualização Matemática Financeira Avançada - Clínica da Matemática - DF; Title : CAPACITAÇÃO EM ANÁLISE E GERENCIAMENTO DE RISCO; Title : CONCENTRADO EM TRANSFORMAÇÃO DIGITAL - FGV DF; Title : DASHBOARD – Painéis de Controle com Excel - VERSÁTIL - DF; Title : DIREITO EMPRESARIAL E TRIBUTÁRIO; Title : ESTRATÉGIA DE CRESCIMENTO E CONTINUIDADE DE EMPRESAS FAMILIÁRES; Title : EXCEL AVANÇADO - ATUALIZAÇÃO - CLÍNICA DA MATEMÁTICA DF; Title : FORMAÇÃO DE AUDOTIROES INTERNOS - AUD II-IIA SP; Title : FRAMEWORK DE GESTÃO E QUALIDADE Orientado a Processos e Riscos.; Title : GERENCIAMENTO, NORMAS E PROCEDIMENTOS DE AUDITORIA INTERNA, GESTÂO DE RISCO E FRAUDES; Title : GESTAO FISCAL E TRIBUTÁRIA; Title : IMPLANTAÇÃO E GESTÃO DE FRANQUIAS"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T21:08:02.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T21:08:02.000Z",
+    "talentId": "917a50db-ec43-4d9a-b5fd-b2556b040af6",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*917a50db-ec43-4d9a-b5fd-b2556b040af6",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:46.892Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:46.892Z",
+      "linkedinUsername": "roberto-cafezeiro-152a311b",
+      "phone": "",
+      "name": "ROBERTO CAFEZEIRO",
+      "id": "917a50db-ec43-4d9a-b5fd-b2556b040af6"
+    },
+    "timeInCurrentStage": 91933621683
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.857Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "AM Invest Group"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "September 3"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Diretor\n Company name : Grupo AM - Investimentos e Participações\n Period : July 2022 - Present\n Location : Goiânia, Goiás, Brasil\n \n Job Title : Diretor Adm e Financeiro\n Company name : WAM\n Period : November 2020 - December 2022\n Summary : Diretor Adm e Financeiro\n Location : Brasil\n \n Job Title : Diretor Administrativo e financeiro\n Company name : NATOS ADMINISTRADORA LTDA\n Period : March 2014 - November 2020\n Summary : Dir. Administrativo e Financeiro, todas as atividades ligadas à gestão. RH/ TI /Jurídico /Backoffice Diretoria Executiva, novos negócios, modelos tributários.\n \n Job Title : Diretor executivo\n Company name : HOB-Hospital oftalmologico de Brasilia\n Period : September 2012 - June 2013\n \n Job Title : Gestor de Controladoria\n Company name : Onco Care Gestão em Oncologia Ltda\n Period : February 2012 - October 2012\n Summary : Gestor na Holding, controladora das 14 empresas do grupo, entre eles, clínicas, hospitais e laboratórios. Gestão de Pessoal, Contabilidade, reestruturação societária e implantação de governança Corporativa\n \n Job Title : Gerente Administrativo\n Company name : Flora Produtos de Higiene e Limpeza S/A\n Period : October 2007 - February 2011\n Summary : Gerente Administrativo da empresa Flora Prod. e Higiene e Limpeza S/A, fabricante dos produtos das marcas Minuano e Albany, integrante do grupo JBS S/A. Responsável pelas áreas contábil, financeira,fiscal,custo,TI,contabilidade, almoxarifado, serviços gerais.\n \n Job Title : Controller\n Company name : Brasfrigo S/A\n Period : September 2006 - October 2007\n Summary : Controller, direcionando as gerências: RH, TI,Custos, Financeira e de contabilidade\n \n Job Title : Gerente Financeiro\n Company name : Goiás Verde Alimentos Ltda\n Period : January 2005 - September 2006\n Summary : Gestão das rotinas financeiras, negociações, captações de recursos, cash Flow, Budget.\n \n Job Title : controller\n Company name : Grupo José Alves - Holding\n Period : 1993 - 1998\n Company 2: WAM\n Company 3: NATOS ADMINISTRADORA LTDA"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Professional Couching\n Period : December 2015 - Present\n Issuing Authority : ACT Couching"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Universa PUC-DF\n Speciality : Controladoria e Finanças\n Degree : MBA\n Period : 2006 - 2007\n \n School name : Fecap - Fundação Escola do Comércio Alvares Penteado - SP\n Speciality : Controladoria e Finanças\n Degree : Pós-Graduação\n Period : 1997 - 1998\n \n School name : Uni Anhanguera - GO\n Speciality : Contabilidade\n Degree : Bacharel\n Period : 1990 - 1994"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T22:25:52.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T22:25:52.000Z",
+    "talentId": "19fbeb1d-f58e-4781-b346-019207f351f5",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*19fbeb1d-f58e-4781-b346-019207f351f5",
+    "talent": {
+      "company": "Grupo AM - Investimentos e Participações",
+      "createdAt": "2023-12-20T13:01:46.616Z",
+      "headline": "",
+      "linkedinUsername": "charles-kriunas-2191a732",
+      "location": "",
+      "name": "Charles Kriunas",
+      "phone": "",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQHaf9A7pzW6IQ/profile-displayphoto-shrink_200_200-alternative/0/1529149968149?e=1722470400&v=beta&t=m4zDM2P4MWCbSsxuh5fYyx0Yo-6EiHuwo7Qx_vch2dM",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-05-30T11:45:27.466Z",
+      "id": "19fbeb1d-f58e-4781-b346-019207f351f5"
+    },
+    "timeInCurrentStage": 91928951683
+  },
+  {
+    "importedAt": "2023-12-20T14:43:56.532Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "Piracanjuba"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Inglês (Professional Working), Português"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor Gente e Gestão"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Diretor Gente e Gestão\n Company name : Laticinios Bela Vista Ltda\n Period : September 2022 - Present\n Location : Goiânia, Goiás, Brasil\n \n Job Title : CFO | Diretor Administrativo Financeiro\n Company name : Piracanjuba\n Period : October 2018 - November 2022\n Summary : • Operações Estruturadas em Mercado de Capitais (CRA - ICVM 476), M&A (Aquisição e Incorporação 3 fábricas Nestlé), Implantação ERP SAP;\n • Dirigir as atividades das áreas Administrativa e Financeira, desde o planejamento à execução das atividades das áreas: Financeiro, Contábil e Fiscal, Patrimônio, Controladoria, Gestão de Pessoas, Jurídico e Medicina e Segurança Trabalho, fixando políticas de gestão e soluções;\n • Desenvolver e acompanhar Planejamento Estratégico e Demonstrações Financeiras, contribuindo para a avaliação de viabilidade de novos investimentos e/ou desenvolvimento de novos negócios;\n • Planejar, analisar e acompanhar as execuções orçamentárias, de custos e estudos econômico-financeiros, \n • Suportar as áreas de negócio, com a criação e análise de relatórios gerenciais e indicadores de performance;\n • Realizar estudos de viabilidade econômica para novos projetos e produtos, mantendo interação com os departamentos de expansão e política leiteira, comércio exterior, entre outros.\n Location : Goiânia e Região, Brasil\n \n Job Title : Gerente Gestão de Pessoas\n Company name : Piracanjuba\n Period : April 2012 - October 2018\n Location : Bela Vista de Goiás\n \n Job Title : Coordenador Gestão de Pessoas\n Company name : Piracanjuba\n Period : April 2002 - April 2012\n Location : Bela Vista de Goiás\n \n Job Title : Vice-Presidente Financeiro\n Company name : ABRH (Associação Brasileira de Recursos Humanos) - GO\n Period : January 2012 - December 2021\n Summary : Planejamento e Gestão das Finanças da ABRH-GO.\n Location : Goiânia e Região, Brasil\n \n Job Title : Auxiliar Administrativo de Pessoal\n Company name : Laticínios Morrinhos\n Period : February 2001 - April 2002\n Summary : • Folhas Pagamento (Rural, Urbana, Construção Civil);\n • Relatórios Gerenciais;\n • SEFIP, Conectiv. Social, GAGED, RAIS;\n • Salário Educação, IRRF, PIS, COFINS, entre outras atividades.\n \n Job Title : Encarregado de Escritório\n Company name : Mega Assessoria Contábil\n Period : July 1997 - January 2001\n Summary : • Escrituração Fiscal;\n • Classificação e Conciliação Contábil;\n • Coordenação das atividades de Administração de Pessoal;\n • DIRPJ, DIRPF, DITR, DCTF, entre outras atividades.\n Company 2: Piracanjuba\n Company 3: Piracanjuba"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Combinação de Negócios\n Period : October 2022 - Present\n Summary : 1480134A288277619946000, e-certificado.com, https://e-certificado.com/login/autenticar?idioma=pt-br\n Issuing Authority : KPMG Business School\n \n Title : Gestão Inovadora para RH's\n Period : October 2022 - Present\n Summary : 62aa0ee5e23a856001a66738, startse.com, https://lms.startse.com//certificado/v2/62aa0ee5e23a856001a66738?studentId=619ee7441483c2653e4c3b6d\n Issuing Authority : StartSe University"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Gestão Financeira, Controladoria e Auditoria\n Degree : Master of Business Administration (MBA)\n Period : 2016 - 2018\n \n School name : Fundação Dom Cabral\n Speciality : Administração de Empresas\n Degree : Especialista em Gestão Empresarial\n Period : 2010 - 2013\n \n School name : Fundação Getulio Vargas\n Speciality : Gestão de Pessoas\n Degree : Master of Business Administration (MBA)\n Period : 2008 - 2010\n \n School name : Faculdade Cambury\n Speciality : Gestão de Recursos Humanos\n Degree : Tecnólogo\n Period : 2004 - 2006\n \n School name : Universidade Paulista\n Speciality : Administração de Empresas\n Degree : Bacharelado em Administração\n Period : 2001 - 2002"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2023-02-13T22:11:02.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2023-02-13T22:11:02.000Z",
+    "talentId": "28908d27-f822-411d-be80-f8e6898f099a",
+    "id": "e68c4f98-5623-4108-a8f2-b8252a1e5363*28908d27-f822-411d-be80-f8e6898f099a",
+    "talent": {
+      "updatedAt": "2023-12-20T13:01:46.977Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:01:46.977Z",
+      "linkedinUsername": "edilsonvieiradosanjos",
+      "phone": "",
+      "name": "Edilson Vieira dos Anjos",
+      "id": "28908d27-f822-411d-be80-f8e6898f099a"
+    },
+    "timeInCurrentStage": 91929841683
+  }
+]

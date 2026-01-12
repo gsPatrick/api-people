@@ -1,0 +1,656 @@
+[
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "name": "Listagem",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "userName": "Tainah Ferreira Dias de Oliveira",
+        "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "type": "listed",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "status": "active",
+    "userName": "Tainah Ferreira Dias de Oliveira",
+    "createdAt": "2025-12-08T18:42:19.340Z",
+    "source": "manual",
+    "medium": "companion",
+    "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+    "updatedAt": "2025-12-08T18:42:19.340Z",
+    "id": "f02d9412-b27a-42d6-b021-22baa32446b1*46a72848-2140-469d-9407-d52f8f9c843f",
+    "talentId": "46a72848-2140-469d-9407-d52f8f9c843f",
+    "tags": [],
+    "talent": {
+      "company": "Autônomo",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "updatedAt": "2025-12-08T18:42:18.850Z",
+      "status": "UNKNOWN",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "createdAt": "2025-12-08T18:42:18.850Z",
+      "linkedinUsername": "lara-tiodoro-0252ba22b",
+      "name": "Lara Tiodoro",
+      "id": "46a72848-2140-469d-9407-d52f8f9c843f"
+    },
+    "timeInCurrentStage": 3036771781
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "name": "Listagem",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "userName": "Tainah Ferreira Dias de Oliveira",
+        "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "type": "listed",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "status": "active",
+    "userName": "Tainah Ferreira Dias de Oliveira",
+    "createdAt": "2025-12-08T18:46:50.480Z",
+    "source": "manual",
+    "medium": "companion",
+    "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+    "updatedAt": "2025-12-08T18:46:50.480Z",
+    "id": "f02d9412-b27a-42d6-b021-22baa32446b1*a93de6e3-2c16-4297-a250-997b1875caeb",
+    "talentId": "a93de6e3-2c16-4297-a250-997b1875caeb",
+    "tags": [],
+    "talent": {
+      "company": "TAESA - Transmissora Aliança de Energia Elétrica S.A",
+      "createdAt": "2024-04-25T12:13:51.834Z",
+      "headline": "",
+      "linkedinUsername": "marco-aurélio-junior-966672225",
+      "location": "",
+      "name": "Marco Aurélio Junior",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQFaKBaiBAqkcg/profile-displayphoto-shrink_200_200/0/1678133166418?e=1719446400&v=beta&t=YwAajrQDqi6i71c3EqoAmi3tGiGGvEuKoJnTw9Bj_jY",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-12-08T18:46:49.774Z",
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "id": "a93de6e3-2c16-4297-a250-997b1875caeb"
+    },
+    "timeInCurrentStage": 3036500641
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "name": "Listagem",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "userName": "Tainah Ferreira Dias de Oliveira",
+        "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "type": "listed",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "status": "active",
+    "userName": "Tainah Ferreira Dias de Oliveira",
+    "createdAt": "2025-12-09T17:43:07.101Z",
+    "source": "manual",
+    "medium": "companion",
+    "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+    "updatedAt": "2025-12-09T17:43:07.101Z",
+    "id": "f02d9412-b27a-42d6-b021-22baa32446b1*b5c63d7d-737f-44af-8b59-894d329c6599",
+    "talentId": "b5c63d7d-737f-44af-8b59-894d329c6599",
+    "tags": [],
+    "talent": {
+      "company": "Bradesco Seguros",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "updatedAt": "2025-12-09T17:43:06.485Z",
+      "status": "UNKNOWN",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "createdAt": "2025-12-09T17:43:06.485Z",
+      "linkedinUsername": "barbaragomesaraujo",
+      "name": "Barbara Gomes Araujo",
+      "id": "b5c63d7d-737f-44af-8b59-894d329c6599"
+    },
+    "timeInCurrentStage": 2953924020
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "name": "Listagem",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "userName": "Tainah Ferreira Dias de Oliveira",
+        "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "type": "listed",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "status": "active",
+    "userName": "Tainah Ferreira Dias de Oliveira",
+    "createdAt": "2025-12-08T18:43:58.423Z",
+    "source": "manual",
+    "medium": "companion",
+    "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+    "updatedAt": "2025-12-08T18:43:58.423Z",
+    "id": "f02d9412-b27a-42d6-b021-22baa32446b1*08ed64ec-157b-43a5-a616-aa15840a22cc",
+    "talentId": "08ed64ec-157b-43a5-a616-aa15840a22cc",
+    "tags": [],
+    "talent": {
+      "company": "LiveMode",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "updatedAt": "2025-12-08T18:43:57.868Z",
+      "status": "UNKNOWN",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "createdAt": "2025-12-08T18:43:57.868Z",
+      "linkedinUsername": "isabelle-laporte-587a3126b",
+      "name": "Isabelle Laporte",
+      "id": "08ed64ec-157b-43a5-a616-aa15840a22cc"
+    },
+    "timeInCurrentStage": 3036672698
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "name": "Listagem",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "userName": "Tainah Ferreira Dias de Oliveira",
+        "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "type": "listed",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "status": "active",
+    "userName": "Tainah Ferreira Dias de Oliveira",
+    "createdAt": "2025-12-08T18:54:22.992Z",
+    "source": "manual",
+    "medium": "companion",
+    "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+    "updatedAt": "2025-12-08T18:54:22.992Z",
+    "id": "f02d9412-b27a-42d6-b021-22baa32446b1*b08c6304-88de-44c8-bd42-f5b3b7629eb5",
+    "talentId": "b08c6304-88de-44c8-bd42-f5b3b7629eb5",
+    "tags": [],
+    "talent": {
+      "company": "TecnipFMC",
+      "contactMethod": "linkedin",
+      "createdAt": "2025-04-10T13:48:01.548Z",
+      "linkedinUsername": "marcus-vinicius-souza-58744b29a",
+      "name": "MARCUS VINICIUS",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-12-08T18:54:22.597Z",
+      "userId": null,
+      "userName": "InHire",
+      "id": "b08c6304-88de-44c8-bd42-f5b3b7629eb5"
+    },
+    "timeInCurrentStage": 3036048129
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "name": "Listagem",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "userName": "Tainah Ferreira Dias de Oliveira",
+        "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "type": "listed",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "status": "active",
+    "userName": "Tainah Ferreira Dias de Oliveira",
+    "createdAt": "2025-12-08T19:26:05.702Z",
+    "source": "manual",
+    "medium": "companion",
+    "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+    "updatedAt": "2025-12-08T19:26:05.702Z",
+    "id": "f02d9412-b27a-42d6-b021-22baa32446b1*ea65bdb1-d950-4ee9-bb1a-326eb9c4b62c",
+    "talentId": "ea65bdb1-d950-4ee9-bb1a-326eb9c4b62c",
+    "tags": [],
+    "talent": {
+      "company": " Morning Star Consulting",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "updatedAt": "2025-12-08T19:26:05.174Z",
+      "status": "UNKNOWN",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "createdAt": "2025-12-08T19:26:05.174Z",
+      "linkedinUsername": "maria-beatriz-angelim-9157a1225",
+      "name": "Maria Beatriz Angelim",
+      "id": "ea65bdb1-d950-4ee9-bb1a-326eb9c4b62c"
+    },
+    "timeInCurrentStage": 3034145419
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "name": "Listagem",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "userName": "Tainah Ferreira Dias de Oliveira",
+        "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "type": "listed",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "status": "active",
+    "userName": "Tainah Ferreira Dias de Oliveira",
+    "createdAt": "2025-12-09T17:52:16.731Z",
+    "source": "manual",
+    "medium": "companion",
+    "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+    "updatedAt": "2025-12-09T17:52:16.731Z",
+    "id": "f02d9412-b27a-42d6-b021-22baa32446b1*a31900b1-e67b-4f35-b432-2df11ee29a42",
+    "talentId": "a31900b1-e67b-4f35-b432-2df11ee29a42",
+    "tags": [],
+    "talent": {
+      "company": "Icatu",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "updatedAt": "2025-12-09T17:52:16.018Z",
+      "status": "UNKNOWN",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "createdAt": "2025-12-09T17:52:16.018Z",
+      "linkedinUsername": "marischuler",
+      "name": "Mariana Schuler",
+      "id": "a31900b1-e67b-4f35-b432-2df11ee29a42"
+    },
+    "timeInCurrentStage": 2953374390
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "name": "Listagem",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "userName": "Tainah Ferreira Dias de Oliveira",
+        "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "type": "listed",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "status": "active",
+    "userName": "Tainah Ferreira Dias de Oliveira",
+    "createdAt": "2025-12-08T18:41:49.359Z",
+    "source": "manual",
+    "medium": "companion",
+    "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+    "updatedAt": "2025-12-08T18:41:49.359Z",
+    "id": "f02d9412-b27a-42d6-b021-22baa32446b1*e6ee4364-b5ff-4782-831b-a8bc93748e9a",
+    "talentId": "e6ee4364-b5ff-4782-831b-a8bc93748e9a",
+    "tags": [],
+    "talent": {
+      "company": "Aldelia",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "updatedAt": "2025-12-08T18:41:48.900Z",
+      "status": "UNKNOWN",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "createdAt": "2025-12-08T18:41:48.900Z",
+      "linkedinUsername": "anaís-moraes-84789a219",
+      "name": "Anaís Moraes",
+      "id": "e6ee4364-b5ff-4782-831b-a8bc93748e9a"
+    },
+    "timeInCurrentStage": 3036801762
+  },
+  {
+    "createdAt": "2025-12-08T18:42:46.789Z",
+    "medium": "companion",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "name": "Listagem",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "userName": "Tainah Ferreira Dias de Oliveira",
+        "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "type": "listed",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "status": "rejected",
+    "talentId": "ee5dc308-4e3d-4219-93e8-950bb30a30a2",
+    "updatedAt": "2025-12-16T16:38:33.448Z",
+    "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+    "userName": "Tainah Ferreira Dias de Oliveira",
+    "id": "f02d9412-b27a-42d6-b021-22baa32446b1*ee5dc308-4e3d-4219-93e8-950bb30a30a2",
+    "reason": "recency",
+    "tags": [],
+    "talent": {
+      "company": "Equipe Certa",
+      "createdAt": "2025-04-17T13:39:54.082Z",
+      "linkedinUsername": "igorsimpson",
+      "name": "Igor Simpson",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-12-08T18:42:46.388Z",
+      "userId": null,
+      "userName": "InHire",
+      "id": "ee5dc308-4e3d-4219-93e8-950bb30a30a2"
+    },
+    "timeInCurrentStage": 3036744332
+  },
+  {
+    "createdAt": "2025-12-08T19:40:17.131Z",
+    "medium": "companion",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "name": "Candidatura",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "userName": "Tainah Ferreira Dias de Oliveira",
+        "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "type": "inApproach",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "status": "active",
+    "talentId": "573e0d88-b50e-4a43-a165-c89a751d4f72",
+    "updatedAt": "2025-12-10T20:03:29.527Z",
+    "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+    "userName": "Tainah Ferreira Dias de Oliveira",
+    "id": "f02d9412-b27a-42d6-b021-22baa32446b1*573e0d88-b50e-4a43-a165-c89a751d4f72",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": "No mercado"
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "25 anos"
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": {
+          "value": "Feminino",
+          "id": "e2bfe53f-d0b8-4ace-a79d-7cfecc3e9375",
+          "label": "Feminino"
+        }
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "1500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "select",
+        "value": {
+          "value": "R$ - Real",
+          "id": "98cc3ecd-867b-4275-ba5f-16ef764911cf",
+          "label": "R$ - Real"
+        }
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "não (estágio)"
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Psicologia",
+          "id": "6c264b83-5b5b-4d23-918e-e49041aa6e02",
+          "label": "Psicologia"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "IBMR"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "Ingles Avançado"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "tags": [],
+    "talent": {
+      "company": "IN3 Consultoria em RH",
+      "createdAt": "2025-12-08T19:40:16.620Z",
+      "linkedinUsername": "maria-clara-sacramento-2b89b62b8",
+      "name": "Maria Clara Sacramento",
+      "phone": "+5521992159802",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-12-10T19:26:11.514Z",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "id": "573e0d88-b50e-4a43-a165-c89a751d4f72"
+    },
+    "timeInCurrentStage": 2861355870
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "name": "Listagem",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "userName": "Tainah Ferreira Dias de Oliveira",
+        "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "type": "listed",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "status": "active",
+    "userName": "Tainah Ferreira Dias de Oliveira",
+    "createdAt": "2025-12-09T20:48:21.505Z",
+    "source": "manual",
+    "medium": "companion",
+    "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+    "updatedAt": "2025-12-09T20:48:21.505Z",
+    "id": "f02d9412-b27a-42d6-b021-22baa32446b1*fcccf80b-6407-4895-b1b0-6b80b8f8dc75",
+    "talentId": "fcccf80b-6407-4895-b1b0-6b80b8f8dc75",
+    "tags": [],
+    "talent": {
+      "company": "Trilhar RH Consultoria & Serviços",
+      "userId": "8b99523c-4148-45a1-8fbf-202229cf4422",
+      "updatedAt": "2025-12-09T20:48:21.017Z",
+      "status": "UNKNOWN",
+      "userName": "Tainah Ferreira Dias de Oliveira",
+      "createdAt": "2025-12-09T20:48:21.017Z",
+      "linkedinUsername": "robinson-da-conceição-santos",
+      "name": "Robinson da Conceição Santos",
+      "id": "fcccf80b-6407-4895-b1b0-6b80b8f8dc75"
+    },
+    "timeInCurrentStage": 2942809616
+  }
+]

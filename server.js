@@ -11,16 +11,16 @@ import { memoryStorageAdapter } from './src/Platform/Storage/memoryStorage.adapt
 import { initializeSessionService } from './src/Core/session.service.js';
 import { initializeAuthStorage } from './src/Inhire/Auth/authStorage.service.js';
 import { performLogin } from './src/Core/Auth-Flow/authOrchestrator.js';
-import { sequelize } from './src/models/index.js';
+import { sequelize, initializeModels } from './src/models/index.js';
 import { syncEntityCache } from './src/utils/sync.service.js';
 import { fetchAllJobsWithDetails } from './src/Core/Job-Flow/jobOrchestrator.js';
-import { fetchAllTalentsForSync, fetchCandidatesForJob } from './src/Core/management-flow/managementOrchestrator.js'; 
+import { fetchAllTalentsForSync, fetchCandidatesForJob } from './src/Core/management-flow/managementOrchestrator.js';
 import { getFromCache } from './src/utils/cache.service.js';
 import { createUser, findUserByEmail } from './src/Core/User-Flow/userService.js';
 import apiRoutes from './src/routes/apiRoutes.js';
 import cors from 'cors';
-import { initializeVectorDB } from './src/services/vector.service.js';
-import * as scorecardService from './src/services/scorecard.service.js'; 
+// import { initializeVectorDB } from './src/services/vector.service.js'; // DESATIVADO: Full Context Mode
+import * as scorecardService from './src/services/scorecard.service.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -34,15 +34,21 @@ export const initializeDatabase = async () => {
     try {
         await sequelize.authenticate();
         log('✅ Conexão com o PostgreSQL estabelecida com sucesso.');
-        
-        log('Sincronizando models com o banco de dados (force: true)...');
+
+        log('Carregando models dinamicamente...');
+        await initializeModels(); // <-- CHAMADA EXPLÍCITA
+        log('✅ Models carregados.');
+
+        log('Sincronizando models com o banco de dados (force: false)...');
         await sequelize.sync({ force: false });
-        log('✅ Models sincronizados com sucesso (tabelas recriadas).');
+        log('✅ Models sincronizados com sucesso (tabelas recriadas/atualizadas).');
     } catch (err) {
         logError('Falha crítica ao inicializar o banco de dados PostgreSQL:', { message: err.message, stack: err.stack });
         process.exit(1);
     }
 };
+
+// ... Rest of the file constant logic ...
 
 const syncJobs = () => syncEntityCache(JOBS_CACHE_KEY, fetchAllJobsWithDetails);
 const syncTalents = () => syncEntityCache(TALENTS_CACHE_KEY, fetchAllTalentsForSync);
@@ -94,13 +100,13 @@ const startServer = async () => {
     app.use(cors());
     app.use(express.json());
     app.use(express.static(path.join(__dirname, 'public')));
-    
+
     try {
         // --- ETAPA 1: INICIALIZAÇÃO DAS BASES DE DADOS ---
         log('ETAPA 1: Conectando e sincronizando bancos de dados...');
-        await sequelize.sync({ force: false }); // Conecta, limpa e cria tabelas no PostgreSQL
-        await initializeVectorDB();             // Conecta e prepara o LanceDB
-        log('✅ Bancos de dados (PostgreSQL & LanceDB) prontos.');
+        await initializeDatabase();
+        // await initializeVectorDB(); // DESATIVADO: Full Context Mode
+        log('✅ Bancos de dados (PostgreSQL Relacional) prontos.');
 
         // --- ETAPA 2: AUTENTICAÇÃO E PREPARAÇÃO DE SERVIÇOS ---
         log('ETAPA 2: Configurando serviços e autenticação...');
@@ -133,7 +139,7 @@ const startServer = async () => {
         log('ETAPA 5: Abrindo a porta do servidor...');
         app.listen(PORT, () => {
             log(`🚀 SERVIDOR PRONTO E OUVINDO NA PORTA ${PORT}`);
-            
+
             // Tarefas não-críticas que podem rodar em segundo plano após o início
             log('Iniciando tarefas de segundo plano (pré-carregamento de candidatos)...');
             prefetchAllCandidates().catch(err => logError("Erro durante o pré-carregamento em segundo plano:", err));

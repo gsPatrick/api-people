@@ -1,0 +1,642 @@
+[
+  {
+    "importedAt": "2024-02-08T18:38:27.945Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "12/12/1984"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "28000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Beneficios do mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Telecomunicações",
+          "id": "c7db60ea-947f-4811-80bd-ed03954b9f99",
+          "label": "Engenharia de Telecomunicações"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Instituto Militar de Engenharia"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Head Of Development"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Head Of Development\n Company name : Americas Trading Group\n Period : Aug 218 – Present\n Location : Rio de Janeiro Area, Brazil\n \n Job Title : Hardware Engineering Manager\n Company name : Americas Trading Group\n Period : Sep 216 – Present\n \n Job Title : Senior Software Engineer\n Company name : Americas Trading Group\n Period : Dec 21 – Aug 218\n \n Job Title : Hardware Engineer - FPGA Design for High Frequency Trading\n Company name : Americas Trading Group\n Period : Jan 214 – Sep 216\n \n Job Title : Co-Founder and Software Engineer\n Company name : Repolítica\n Period : Jan 21 – Present\n \n Job Title : Senior Software Engineer\n Company name : Ziel Tecnologia\n Period : Aug 21 – Dec 21\n \n Job Title : Software Engineer\n Company name : Intratec Solutions, LLC\n Period : Dec 27 – Aug 21\n \n \n Job Title : Intern\n Company name : Intratec Solutions, LLC\n Period : Jan 27 – Dec 27\n Company 2: Repolítica"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Instituto Militar de Engenharia\n Speciality : BS, Electrical, Electronics and Communications Engineering\n Period : 23 – 27\n \n School name : Colégio Santo Inácio Rio de Janeiro\n Period : 199 – 22"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "fc5b57e3-5af9-4cc0-8244-dd6532d21b92",
+    "id": "3306e92c-dc9e-47a0-8b24-438b310ce51a*fc5b57e3-5af9-4cc0-8244-dd6532d21b92",
+    "talent": {
+      "updatedAt": "2023-12-20T13:52:11.042Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:52:11.042Z",
+      "email": "emnicodemos@gmail.com",
+      "phone": "",
+      "name": "Eduardo Nicodemos",
+      "id": "fc5b57e3-5af9-4cc0-8244-dd6532d21b92"
+    },
+    "timeInCurrentStage": 61412938967
+  },
+  {
+    "importedAt": "2024-02-08T18:38:27.884Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "23/12/1982"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "45000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "7.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Beneficios do mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Sistemas Eletrônicos",
+          "id": "0913ae23-3309-4959-bd4e-dee937d8e08d",
+          "label": "Engenharia de Sistemas Eletrônicos"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Director Of Engineering"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 filho (2 anos)"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "a3dec498-e3c4-4340-b225-75d5f185b28b",
+    "id": "3306e92c-dc9e-47a0-8b24-438b310ce51a*a3dec498-e3c4-4340-b225-75d5f185b28b",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:10.145Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:10.145Z",
+      "email": "rafaelspereira@gmail.com",
+      "phone": "21981247663",
+      "name": "Rafael Pereira",
+      "id": "a3dec498-e3c4-4340-b225-75d5f185b28b"
+    },
+    "timeInCurrentStage": 61412038967
+  },
+  {
+    "importedAt": "2024-02-08T18:38:27.912Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "10/09/1980"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "40000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "2.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Beneficios do mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Análise e Desenvolvimento de Sistemas",
+          "id": "36c56f9a-94a3-4dba-a949-bfd05c8d18ee",
+          "label": "Análise e Desenvolvimento de Sistemas"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Estacio"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": "mba - ufrj - com enfase em estrategia"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "não"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Sr Manager, Software Development"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "6e048fd7-d375-400b-9db4-3147fd70e1a8",
+    "id": "3306e92c-dc9e-47a0-8b24-438b310ce51a*6e048fd7-d375-400b-9db4-3147fd70e1a8",
+    "talent": {
+      "updatedAt": "2023-12-20T14:04:28.119Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:04:28.119Z",
+      "email": "fabiohlc@gmail.com",
+      "phone": "21994904541",
+      "name": "Fabio Castro",
+      "id": "6e048fd7-d375-400b-9db4-3147fd70e1a8"
+    },
+    "timeInCurrentStage": 61412038967
+  },
+  {
+    "importedAt": "2024-02-08T18:38:28.041Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "05/04/1983"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "35000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "9.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "9.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "plano de saude, previdencia privado com 1 salario por ano, va, vr, combustivel de 1, celular da empresa, odonto. Programa de desenvolvimento de coach, uma vez por mes , investimento em participação em eventos e congressos internacionais, interações com"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Sistemas de Informação",
+          "id": "d8ffaca7-edf9-4033-bdb8-bc6ab4f58d0a",
+          "label": "Sistemas de Informação"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Faculdade integrada do recife - comprada pelo estacio"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": "MBA - GESTAO DE NEGOCIOS - IBMEC E MBA - FINANCAS CORPORATIVOS E EVALUATION DE EMPRESA - COPEAD UFRJ"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "não"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Head of Online Video Platform"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "b394cbf7-846c-4c15-9ebe-e6e1d4edb629",
+    "id": "3306e92c-dc9e-47a0-8b24-438b310ce51a*b394cbf7-846c-4c15-9ebe-e6e1d4edb629",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:48.102Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:48.102Z",
+      "email": "igor@corp.globo.com",
+      "phone": "",
+      "name": "Igor Macaubas",
+      "id": "b394cbf7-846c-4c15-9ebe-e6e1d4edb629"
+    },
+    "timeInCurrentStage": 61412938967
+  },
+  {
+    "importedAt": "2024-02-08T18:38:27.975Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "02/05/2019"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Software engineer"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "49e7aba5-d06e-4dde-bc93-ebdc304ea3c3",
+    "id": "3306e92c-dc9e-47a0-8b24-438b310ce51a*49e7aba5-d06e-4dde-bc93-ebdc304ea3c3",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:25.066Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:25.066Z",
+      "email": "importacao4745@importacaoinhire.com",
+      "phone": "",
+      "name": "Guilherme Schirmer de Souza",
+      "id": "49e7aba5-d06e-4dde-bc93-ebdc304ea3c3"
+    },
+    "timeInCurrentStage": 61412038967
+  },
+  {
+    "importedAt": "2024-02-08T18:38:28.010Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "22/07/1982"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "45000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "6.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "beneficos do mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Computação",
+          "id": "bb7c5a43-2e01-4c06-804e-e094a9a57198",
+          "label": "Engenharia de Computação"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "PUC"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "CTO"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "0e7955f5-3060-40e5-9462-99f9330b7489",
+    "id": "3306e92c-dc9e-47a0-8b24-438b310ce51a*0e7955f5-3060-40e5-9462-99f9330b7489",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:20.337Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:20.337Z",
+      "email": "ricardo.minds@gmail.com",
+      "phone": "21992619182",
+      "name": "Ricardo Cabral",
+      "id": "0e7955f5-3060-40e5-9462-99f9330b7489"
+    },
+    "timeInCurrentStage": 61412938968
+  }
+]

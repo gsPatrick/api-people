@@ -1,0 +1,1417 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:21.324Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Tech Manager"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Tech Manager\n Company name : PicPay\n Period : mai. de 221 – o momento\n Summary : Leadership of multidisciplinary teams focused on Data and Software Engineering.Resilient, scalable architectures and platforms.\n \n Job Title : Tech Lead & Team Lead\n Company name : Mercado Eletrônico\n Period : mar. de 22 – abr. de 221\n Summary : Liderança técnica de times ágeis multidisciplinares, responsável pela solução end-to-end, estou envolvido desde a concepção até o acompanhamento dos sistemas / serviços em Produção.\n Location : Sao Paulo, Brazil\n \n Job Title : Engenheiro de Software Sênior\n Company name : Mercado Eletrônico\n Period : fev. de 218 – mar. de 22\n Summary : Atuação no time de P&D, responsável pelo desenvolvimento e evolução do produto PaaS.Foco na inovação e análise de viabilidade de novas tecnologias. Arquiteturas resilientes e escaláveis.Principais tecnologias: Java, Spring, NoSql, Docker, Cloud.\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista de Sistemas Sênior\n Company name : Mercado Eletrônico\n Period : jun. de 217 – fev. de 218\n Summary : * Análise e desenvolvimento de portal SaaS e-procurement para B2B na plataforma Java e .NET.\n Location : São Paulo e Região, Brasil\n \n Job Title : Consultor Sênior\n Company name : Accenture\n Period : mar. de 217 – jun. de 217\n Summary : * Alocado na SKY / AT&T como Líder Técnico .NET, responsável pela sustentação dos portais web SKY e suas integrações.\n Location : São Paulo e Região, Brasil\n \n Job Title : Líder Técnico\n Company name : Pixeon\n Period : set. de 214 – dez. de 216\n Summary : * Desenvolvimento e manutenção de softwares.* Liderança e coaching técnico, negócio, projetos para time de desenvolvedores e analistas.\n Location : São Paulo Area, Brazil\n \n Job Title : Gerente de Projetos\n Company name : PagoLivre\n Period : abr. de 214 – set. de 214\n Summary : Startup de tecnologia com soluções para o mercado de mobile payment. Responsável pela área de Projetos da empresa, principais atividades: * Estruturação da área com a elaboração de artefatos, processos e implantação de sistemas de apoio à gestão.* Gerenciamento de Projetos.* Coaching técnico no ciclo de desenvolvimento dos produtos.\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista de Sistemas Sênior\n Company name : Mercado Eletrônico\n Period : mai. de 213 – abr. de 214\n Summary : * Análise e desenvolvimento de sistemas SaaS para B2B e B2C na plataforma .NET. Principais Clientes Atendidos: Vale, Cielo, Grupo Pão de Açúcar, Saint Gobain, Oi, JBS, entre outros.* Liderança de times por projeto, gestão de demandas, condução de reuniões técnicas e de negócio.\n Location : São Paulo Area, Brazil\n \n Job Title : Líder Técnico\n Company name : Pixeon\n Period : jul. de 29 – mai. de 213\n Summary : * Atuação em todas as fases de desenvolvimento do software: concepção, planejamento, execução, qualidade e implantação.* Gerenciamento de Projetos e liderança técnica da equipe de desenvolvimento. Responsável pela definição de padrões, desenvolvimento de frameworks e arquitetura de sistemas.* Responsável pelo desenvolvimento da nova linha de produtos na plataforma .NET (Windows Azure, Silverlight, WPF, ASP.NET, WCF).\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista Programador Sênior\n Company name : TIVIT\n Period : fev. de 29 – jul. de 29\n Summary : * Análise e desenvolvimento do produto de Gateway de Pagamentos para realização de transações entre instituições financeiras. Principais clientes atendidos: Carrefour Soluções Financeiras, Herbalife, Ponto Frio, Nextel.* Desenvolvimento de Integrações com EDI da empresa. Principais clientes atendidos: Carrefour Soluções Financeiras, Citibank.\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista Programador Sênior\n Company name : Medical Systems\n Period : mai. de 25 – fev. de 29\n Summary : * Desenvolvimento de Sistemas ERP para Clínicas (RIS) e Laboratórios (LIS), utilizando Delphi em base SQL Server, Oracle e Firebird.* Desenvolvimento do projeto LabGroup que realiza a integração de Laboratórios com a finalidade de envio de ordens de serviço e retorno de resultados, utilizando C# (Windows Forms, ASP.NET, Web Services).* Desenvolvimento do projeto TISS (Troca de Informação em Saúde Suplementar) que visa o intercâmbio de dados entre operadoras de planos privados de assistência à saúde e prestadores de serviços de saúde, utilizando XML, Delphi e C#. (www.ans.gov.br)* Analista responsável pela elicitação de requisitos para internacionalização do sistema para os países da América Latina (Atualmente presente no Chile e Argentina)* Desenvolvimento de diversas integrações entre sistemas de outras empresas (Sistemas MV, Microsiga, RM Sistemas, etc.).* Visitas a clientes para apoio na Implantação de Sistemas e levantamento de requisitos para desenvolvimento de melhorias, novos produtos e atualização de processos.\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Programador\n Company name : Itambé Planejamento e Administração Imobiliária\n Period : nov. de 24 – mai. de 25\n Summary : * Desenvolvimento e manutenção de sistemas utilizando Delphi, Visual Basic e ASP.\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Data Engineering with Hadoop and Spark\n Period : Emitido em fev. de 2018 - Nenhuma data de expiração\n Issuing Authority : Data Science Academy\n Title : Power BI for Data Science\n Period : Emitido em jan. de 2018 - Nenhuma data de expiração\n Issuing Authority : Data Science Academy\n \n Title : Big Data Real-Time Analytics with Python and Spark\n Period : Emitido em nov. de 2017 - Nenhuma data de expiração\n Issuing Authority : Data Science Academy"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Pontifícia Universidade Católica de Minas Gerais\n Speciality : Pós-Graduação em Arquitetura de Software Distribuído, Tecnologia da Informação\n Period : 217 – 218\n School name : Centro Universitário Fundação Santo André\n Speciality : Bacharel em Sistemas de Informação, Tecnologia da Informação\n Period : 25 – 28\n \n School name : Instituição de Ensino Santa Izildinha\n Speciality : Técnico em Processamento de Dados, Tecnologia da Informação\n Period : 21 – 23"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "a5015685-2be1-4fd3-ad7b-dc91122f2074",
+    "id": "aec9178e-2772-4226-b71a-8f67748f368e*a5015685-2be1-4fd3-ad7b-dc91122f2074",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:54.442Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:54.442Z",
+      "linkedinUsername": "nsimao",
+      "email": "nelson8000@gmail.com",
+      "phone": "11992278589",
+      "name": "Nelson Simão",
+      "id": "a5015685-2be1-4fd3-ad7b-dc91122f2074"
+    },
+    "timeInCurrentStage": 61412397780
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.109Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Tech Manager"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Tech Manager\n Company name : Nubank\n Period : out. de 219 – o momento\n \n Job Title : Gerente de operações de TI\n Company name : CVC CORP\n Period : jun. de 218 – out. de 219\n Summary : Responsável pela equipe de Operações de TI da CVC Corp.\n Location : Santo André\n \n Job Title : Supervisor de produção / ALM\n Company name : CVC CORP\n Period : mar. de 217 – jun. de 218\n Summary : Responsável pela disponibilidade do ambiente produtivo:\n Location : Santo Andre\n \n Job Title : Gestor de Mudanças / NOC\n Company name : CVC CORP\n Period : dez. de 214 – mar. de 217\n Summary : NOC-- Responsável por coordenar uma equipe 7x24 de monitoração dos ambientes de TI;- Acompanhamento/Gerenciamento das rotinas de Backup;- Desenvolvimento dos KPIs de disponibilidade;Gestão de Mudanças- Avaliar os riscos e identificar potenciais impactos nas mudanças e implantações propostas para o período;- Receber, encaminhar, avaliar e tratar todos os pedidos de mudanças- Responsável pela deliberação no Comitê de Mudanças;- Apoiar as negociações entre o Gestor Responsável por mudanças, o Responsável Técnico por mudanças e as áreas afetadas (impactadas em mudanças), quando houver discordância; - Monitorar as solicitações de mudanças, garantindo as atualizações necessárias;- Reportar os impactos decorrentes das implantações;- Auxiliar na identificação e definição das formas de coleta dos indicadores de mudança e configuração;- Elaborar as documentações que dão suporte às mudanças nos ambientes operacionais, tais como: pautas e resultados de comitês, indicativos de manutenção, minutas para notificação na mídia, relatórios pós-mudanças, etc.;\n Location : Santo Andre SP\n \n Job Title : Gerente de serviço\n Company name : UOLDIVEO\n Period : fev. de 212 – nov. de 214\n Summary : O Gerenciamento de Serviço é ponto de contato entre a equipe técnica e a Cliente, avaliando as demandas do ambiente e propondo melhorias de acordo com a demanda atual. São papeis e responsabilidades deste Gerente:- Elaborar o Book com a apresentação dos serviços prestados;- Ser o ponto focal técnico da CONTRATANTE para a empresa;- Ser o Líder de Mudança do ambiente, participando dos eventos internos do UOLDIVEO e da CONTRATANTE;- Ser o Líder de Problemas do ambiente contratado;- Fazer a gestão de projetos para os ambientes de produção;- Realizar reuniões para antecipar necessidades e tendências para os serviços contratados;- Apresentar soluções alternativas em conjunto com o Arquiteto de Soluções;- Apresentar estratégias de crescimento;- Estabelecer em conjunto com a CONTRATANTE as prioridades de execução das requisições;- Promover a interação da equipe;- Interagir com outras áreas e equipes;- Gerir o ciclo de vida de serviços da CONTRATANTE para o ambiente contratado;- Avaliar os processos operacionais e táticos, alinhados aos objetivos estratégicos da empresa e da CONTRATANTE;- Alocar os recursos humanos, tecnológicos e materiais para as execuções das requisições da CONTRATANTE;Identificar as necessidades da CONTRATANTE;- Apresentar a qualidade de serviços prestados;- Definir matriz de responsabilidades;- Definir padrões de desempenho e qualidade;- Responsável em manter a documentação do cliente atualizada e disponível;- Elaborar relatórios de novas oportunidades (Upselling).- Reunião mensal com o cliente;- Atende a até 7 grandes clientes com vários projetos;- Coordena atividades de manutenções críticas programadas;\n Location : São Paulo\n \n Job Title : Project Manager\n Company name : Unisys do Brasil\n Period : out. de 22 – fev. de 212\n Summary : Management Dell Project in Unisys, Action Center, Depot Repair, Installation and Custon Bids DMS.\n \n \n Job Title : Project Coordinator\n Company name : Unisys do Brasil\n Period : 22 – mar. de 211"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : DevOps professional\n Issuing Authority : Emitido em jan. de 2019Nenhuma data de expiraçãoNenhuma data de expiração\n Title : ITSM20F IT Service Management Foundation based on ISO IEC 20000\n Period : Emitido em jul. de 2017 - Expiroujul. de 2017\n Issuing Authority : EXIN your ICT competence partner\n \n Title : ASF EXIN Agile Scrum Foundation\n Period : Emitido em mai. de 2017 - Expiroumai. de 2017\n Issuing Authority : EXIN your ICT competence partner"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade São Judas Tadeu\n Speciality : pos graduado em gerenciamento de projetos PMI, Gestão de Projetos de TI\n Period : 27 – 21"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d8937389-9b17-441d-9786-4bed07081b95",
+    "id": "aec9178e-2772-4226-b71a-8f67748f368e*d8937389-9b17-441d-9786-4bed07081b95",
+    "talent": {
+      "updatedAt": "2023-12-20T14:04:11.939Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:04:11.939Z",
+      "linkedinUsername": "jonathan-crivoi-49977528",
+      "email": "crivoijonathan@hotmail.com",
+      "phone": "",
+      "name": "Jonathan Crivoi",
+      "id": "d8937389-9b17-441d-9786-4bed07081b95"
+    },
+    "timeInCurrentStage": 61412397780
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.029Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de arquitetura de TI"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de arquitetura de TI\n Company name : Serasa Experian\n Period : jun. de 221 – o momento\n Summary : • Digital Transformation• Metodologias ágeis (Agile e DevSecOps), • Cloud Platform AWS, Azure e IBM Cloud\n Location : São Paulo, Brasil\n \n Job Title : Gestor de TI | Tribe Leader\n Company name : Serasa Experian\n Period : out. de 219 – o momento\n Summary : • Gestão de tecnologia da informação baseada em metodologias ágeis (Agile e DevSecOps), atuando como Tribe Leader dos squads de transformação;• Sponsor de Infraestrutura nos projetos de Transformação Digital da Serasa Experian, garantindo saving para a organização.• Liderança integradora e comando de equipes internas e terceirizadas;• Responsável pelos projetos de transformação tecnológica, utilizando tecnologias como Openshift, Terraform, Ansible, Jekins, Rundeck, Elastic Search, Cloud, entre outras.Principais Projetos:• Openshift: plataforma aberta e Z (mainframe);• Rehosting: migração de aplicação de mainframe para plataforma aberta Red Hat Linux.\n Location : São Paulo e Região\n \n Job Title : Coordenador de TI\n Company name : Serasa Experian\n Period : abr. de 212 – out. de 219\n Summary : • Coordenação da área de TI, responsável pelas áreas de Sistemas Operacionais, Infraestrutura, Cloud Computing e Projetos;• Atuação direta na elaboração e gestão de budget anual, planejamento estratégico, gestão de fornecedores e parcerias com unidades de negócios e clientes; • Responsável por administrar e suportar um parque composto por 3 mil servidores, atuando na definição de arquitetura e aquisição de equipamentos;• Garantia da sustentação do ambiente de Cloud Computing;• Liderança, gestão e formação de equipe de alta performance responsável pela administração de todo o parque de servidores Linux e Unix;• Gerenciamento de processos de Vulnerabilidade e Segurança, identificando e mitigando riscos em potencial. Reconhecimento global e referência de gestão no Grupo Experian.• Gestão de projetos em ambientes críticos com alta disponibilidade, incluindo o desenho e arquitetura dos projetos.Principais Projetos:• DR – Recuperação de Desastres (Disaster Recovery) e Continuidade de Negócios (BCP);• Projeto VDI – Virtual Desktop Infrastructure: Horizon e Citrix;• Infraestrutura: migrações, criação de novos ambientes e suporte em ambiente on-premisse e cloud pública (Azure/AWS);• Migração do Exchange para O365;• Transferência física e lógica do Datacenter da Serasa Experian, incluindo modernização tecnológica.\n Location : São Paulo e Região\n \n Job Title : Especialista de TI\n Company name : Serasa Experian\n Period : dez. de 211 – abr. de 212\n Summary : • Líder técnico, responsável pelo suporte a servidores da plataforma Microsoft, realizando desenho de arquitetura, instalação e configuração;• Implantação das plataformas Active Direct, Exchange, File Server e Print Server;• Desenvolvimento de scripts em Vbscript, Batch e Shell.Principais Projetos:• Full Federation Project Experian US e Serasa Experian BR• Global Exchange 21 Upgrade• Lync 21\n Location : São Paulo e Região\n \n Job Title : Analista de Suporte Sr., Pl. e Jr.\n Company name : Serasa Experian\n Period : set. de 24 – dez. de 211\n Summary : • Responsável pelo suporte a servidores da plataforma Microsoft, realizando desenho de arquitetura, instalação e configuração.Principal Projeto:• Implementation of Workload Automation Tool (BMC Control-M) in Distributed Systems Environment\n Location : São Paulo e Região\n \n Job Title : Analista de Microinformática\n Company name : Serasa Experian\n Period : set. de 22 – set. de 24\n Summary : • Realização de suporte N2 para business users em toda a América Latina;• Instalação e configuração de Windows para desktops.\n Location : São Paulo e Região\n \n Job Title : Técnico Eletrônico\n Company name : Serasa Experian\n Period : ago. de 2 – set. de 22\n Summary : • Atendimento aos usuários em campo.\n Location : São Paulo e Região\n \n \n Job Title : Estagiário de TI\n Company name : Catho\n Period : mar. de 1999 – ago. de 2\n Location : Barueri, São Paulo, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : AI-900: Microsoft Azure AI Fundamentals\n Period : Emitido em jun. de 2021 - Nenhuma data de expiração\n Issuing Authority : Microsoft\n Title : CC0103EN: IBM Cloud Essentials - V3\n Period : Emitido em jun. de 2021 - Nenhuma data de expiração\n Issuing Authority : IBM\n \n Title : Comunicação e Oratória\n Period : Emitido em jun. de 2021 - Nenhuma data de expiração\n Issuing Authority : Vox2you Rede de Escolas de Oratória"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul\n Speciality : Master of Business Administration - MBA, Transformação Digital e Futuro dos Negócios\n Period : 22 – 221\n School name : Fundação Vanzolini\n Speciality : Extensão, Gestão de Projetos de Tecnologia da Informação\n Period : 29 – 29\n \n School name : Anhanguera Educacional\n Speciality : Graduação, Tecnologia da Informação | Redes de Computadores\n Period : 21 – 24\n Courses: Title : BlackBerry Live 213 – Orlando, FL (EUA); Title : Citrix Synergy 214 – Los Angeles, CA (EUA); Title : Citrix Synergy 215 – Orlando, FL (EUA); Title : Comunicação Verbal; Title : Comunicação na Língua Portuguesa – Módulo II; Title : Conceitos Fundamentais do ITIL; Title : Fundamentos ITIL; Title : HP Discover 211 – Las Vegas, NV (EUA); Title : Inglês; Title : Manager Essentials; Title : Normas NBR ISO/IEC 17799; Title : Pipeline de Liderança; Title : Programa Leader Coach; Title : Red Hat Summit 216 – San Francisco, CA (EUA); Title : Red Hat Summit 218 – San Francisco, CA (EUA); \n Title : Segurança da Informação norma BS7799-2:22"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "ee76b63e-9b83-4bed-b2f6-9c8ef63054ef",
+    "id": "aec9178e-2772-4226-b71a-8f67748f368e*ee76b63e-9b83-4bed-b2f6-9c8ef63054ef",
+    "talent": {
+      "updatedAt": "2023-12-20T13:55:09.033Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:55:09.033Z",
+      "linkedinUsername": "cristiano-pereira-48a7b173",
+      "email": "cristianopereira@outlook.com",
+      "phone": "16996193204",
+      "name": "Cristiano Pereira",
+      "id": "ee76b63e-9b83-4bed-b2f6-9c8ef63054ef"
+    },
+    "timeInCurrentStage": 61412397780
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.296Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Tech Manager"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Tech Manager\n Company name : PicPay\n Period : abr. de 221 – o momento\n \n Job Title : Tech Lead\n Company name : MC1 - Win The Market\n Period : set. de 22 – abr. de 221\n Summary : Definição da abordagem técnica referente a user stories buscando entregar o que é proposto de forma concisa, respeitando o tempo e requisitos. Suporte ao time de desenvolvedores web e mobile resolvendo temas impeditivos durante sprints.Ferramentas e tecnologias utilizadas: .NET, Android (Kotlin/Java), iOS (Swift), AWS (DynamoDB, EC2, Lambda), SQL Server.\n Location : São Paulo, Brasil\n \n Job Title : Technical Project Management\n Company name : PPG Industries\n Period : mar. de 22 – ago. de 22\n Summary : Responsável pela implantação, análise técnica e key user de diversos projetos relacionados a área de procurement, como ERPs (Oracle), Database SQL, Business Inteligence (PowerBI). Análise de dados, implantador de melhorias e automatização de processos via programação. Ferramentas: Oracle, PowerBI, Excel, metodologia Agile.\n Location : Sumaré, São Paulo\n \n Job Title : Coordenador de T.I. / Project Management\n Company name : FrieslandCampina\n Period : jan. de 215 – dez. de 218\n Summary : Responsável por coordenar a operação da infraestrutura local, negociações, aquisições e também configuração e monitoramento utilizando ferramentas como Ansible e Prometheus.Sendo uma startup também realizava projetos de melhoria de fluxo de operação logistica, implantei e otimizei indicadores, KPIs e SLAs para clientes de LATAM, além de apresentações para clientes nacionais e internacionais utilizando PowerBI.\n Location : São Paulo Area, Brazil\n \n \n Job Title : Administrador de projetos T.I.\n Company name : IBM Brasil\n Period : abr. de 26 – jun. de 28\n Summary : Administrador de projetos idealizados na matriz no EUA, atuando no gerenciamento de recursos, alocação de pessoas e sistemas, fazendo a interface entre IBM USA e IBM Brasil para garantir o andamento e sucessos dos projetos.\n Location : Hortolândia-SP"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Introdução ao DevOps\n Period : Emitido em jan. de 2021 - Nenhuma data de expiração\n Issuing Authority : desenvolvedor.io\n Title : DevOps Foundations: Continuous Delivery/Continuous Integration\n Period : Emitido em jul. de 2020 - Nenhuma data de expiração\n Issuing Authority : LinkedIn\n \n Title : The Complete 2020 Web Development Bootcamp\n Period : Emitido em jul. de 2020 - Nenhuma data de expiração\n Issuing Authority : The App Brewery"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Pós Graduação, Gestão de Projetos\n Period : 212 – 213\n \n School name : Pontifícia Universidade Católica de Campinas\n Speciality : Bacharelado, Negócios Internacionais e Comércio Exterior\n Period : 26 – 29"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "47c226a7-778c-4d9f-ad15-70fe1fdcb1c0",
+    "id": "aec9178e-2772-4226-b71a-8f67748f368e*47c226a7-778c-4d9f-ad15-70fe1fdcb1c0",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:00.815Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:00.815Z",
+      "linkedinUsername": "marciodelbianco",
+      "email": "marcio.bianco@gmail.com",
+      "phone": "19982320486",
+      "name": "Marcio Del Bianco",
+      "id": "47c226a7-778c-4d9f-ad15-70fe1fdcb1c0"
+    },
+    "timeInCurrentStage": 61412397780
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.268Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Tech Manager"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Tech Manager\n Company name : PicPay\n Period : jun. de 221 – o momento\n \n Job Title : Gerente de Tecnologia\n Company name : Tribanco\n Period : set. de 27 – jun. de 221\n Summary : . Responsável pela gestão do orçamento despesas;• Participação e entregas de projetos críticos e importantes, tais como, mas não se limitando a: PIX, Balcão de Recebíveis, Open Banking, Prevenção à Fraudes, NPC, DDA, Cadastro Positivo, Implantação Plataforma Sugar CRM, Carteira Digital, Conta Digital, Compra de Dívidas, Plataforma de Renegociação de Dívidas, Débito Automático, Cofre Inteligente, Esteira de Concessão de Crédito, Plataforma de Assinatura Digital Docusign...• Gestão da Equipe de Sustentação de aplicações com foco no atendimento de incidentes, manutenções corretivas e evolutivas de cerca de 15 sistemas que suportam toda a cadeia de valor da instituição financeira, tais como, mas não limitando-se à: Conta Corrente, Sistemas de Empréstimo, Sistema Prevenção à Fraude, Sistemas de Informes Legais, Sistemas de Concessão e Monitoramento de Credito, Sistema de Cobrança de Vencidos, Canais Digitais (Internet e Mobile Banking). Sistemas de Cadastros (Clientes, Feriados, etc), Sistemas Gestão de Serviços Bancários (Recolhimento de Numerários, Pagamento, Débito Automático, Correspondente Bancário). • Gestão do Atendimento de Projetos com foco na estruturação da solução para viabilizar as necessidades de negócio que visam principalmente evoluir/criar os produtos e serviços financeiros ofertados pelo Banco;• Responsável pelo designer dos times de Tecnologia, visando otimizar e evoluir o atendimento da área de TI às áreas de negócio;• Gestão do Clima Organizacional da Equipe de TI a partir dos resultados de pesquisas que identificam os pontos positivos e negativos dos Colaboradores;• Participação efetiva nas ações de desenvolvimento da equipe, através da criação de programas de capacitação e motivação em conjunto com RH.\n Location : Uberlândia Area, Brazil\n \n Job Title : Gerente de Tecnologia\n Company name : Tribanco\n Period : mai. de 214 – set. de 215\n Summary : Responsável pela criação, estruturação e gestão da área de Sustentação de Sistemas das empresas Tribanco, Tricard, Tribanco Seguros e TricardNet com foco no atendimento de incidentes, manutenções corretivas e evolutivas.\n \n Job Title : Gerente de Tecnologia\n Company name : Tribanco\n Period : abr. de 211 – abr. de 214\n Summary : Responsável pela equipe de Tecnologia voltada para atendimento de Projetos e sustentação de Sistemas de Canais e Serviços do Tribanco.\n \n Job Title : Coordenador de TI\n Company name : Tribanco\n Period : set. de 27 – mai. de 211\n Summary : - Seleção e implementação dos novos Portais institucionais das empresas do conglomerado financeiro do Tribanco: Banco Triângulo, Tribanco Seguros e Tricard:www.tribanco.com.brwww.tribancoseguros.com.brwww.tricard.com.br- Gerenciamento de projetos de sistemas para canais: Central de Operações (Phone Banking Tribanco);- Implementação do SAC - Serviço de Atendimento ao Consumidor do Tribanco;- Implementação da Ouvidoria Tribanco;- Implementação do DDA - Débito Direto Autorizado Tribanco;- Implementação do novo Internet Banking do Tribanco;- Implementação de plataforma para avaliação de riscos de títulos utilizados nas operações de desconto e garantia de produtos financeiros do Tribanco;- Implementação do processo de ALM do Tribanco;- Implementação de SLA's Internos e Externos.\n \n Job Title : Analista de Sistemas\n Company name : Algar\n Period : fev. de 2 – set. de 26\n Summary : - Realização de ajustes de performance em consultas SQL;- Modelagem de dados da plataforma de CRM da CTBC - VANTIVE;- Coordenação da equipe de migração de dados da platforma CRM;- Implementação da nova plataforma de Interconexão Settler da CTBC;- Definição e coordenação de projetos de integração de aplicações;- Coordenação da equipe de Business Inteligence.\n \n \n Job Title : Programador de Sistemas\n Company name : CEMIG\n Period : 1996 – 2\n Summary : - Implementação e manutenção do sistema de atendimento de emergências do Triângulo Mineiro;- Implementação do sistema de despacho de Ordem de Serviços para os eletricistas utilizando a solução Autotrac de transmissão via satelite."
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Federal de Uberlândia - UFU\n Speciality : MBA Gestão Empresarial\n Period : 217 – 218\n School name : SOFTWARE ZEN\n Speciality : Fluxo Unificado, Information Technology\n Period : 22 – 22\n School name : SOFTWARE ZEN\n Speciality : Soft Skills Líderes Ágeis, Liderança\n Period : 22 – 22\n School name : Luciano Pires\n Speciality : Proditividade Antifrágil, Gestão Tempo\n Period : 22 – 22\n School name : SOFTWARE ZEN\n Speciality : Software ZEN: A Arte da Gestão de Software, Information Technology\n Period : 219 – 219\n School name : ASPERCOM\n Speciality : Treinamento Kanban KMP I, Information Technology, KMP I\n Period : 219 – 219\n School name : CITS – Centro Inernacional de Tecnologia de Software/Adptworrks\n Speciality : Management 3. Agile Leadership Pratices, Information Technology\n Period : 218 – 218\n School name : Universidade Federal de Uberlândia\n Speciality : Master of Business Administration (MBA), Finance, General\n Period : 21 – 211\n School name : FUNCEFET/RJ\n Speciality : Master of Business Administration (MBA), Telecommunications Management\n Period : 21 – 22\n \n School name : Universidade de Uberaba\n Speciality : Bachelor of Technology (B.Tech.), Universidade de Uberaba\n Period : 1991 – 1993\n Courses: Title : KMP I; \n Title : Management 3."
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "cd0a1bf9-6dc7-4d91-b330-b28c520313b0",
+    "id": "aec9178e-2772-4226-b71a-8f67748f368e*cd0a1bf9-6dc7-4d91-b330-b28c520313b0",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:28.270Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:28.270Z",
+      "linkedinUsername": "reginaldo-francisco-bernardes-16abb88",
+      "email": "reginaldo.bernardes@gmail.com",
+      "phone": "34999769005",
+      "name": "Reginaldo Francisco Bernardes",
+      "id": "cd0a1bf9-6dc7-4d91-b330-b28c520313b0"
+    },
+    "timeInCurrentStage": 61412397780
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.081Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Tech Manager"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Tech Manager\n Company name : Nubank\n Period : jan. de 221 – o momento\n Location : Florianópolis, Santa Catarina, Brasil\n \n Job Title : Team Leader\n Company name : Resultados Digitais\n Period : jan. de 219 – dez. de 22\n Location : Florianópolis, Santa Catarina\n \n Job Title : Tech Leader\n Company name : Resultados Digitais\n Period : abr. de 218 – mar. de 219\n Location : Florianópolis, Santa Catarina\n \n Job Title : Software Engineer\n Company name : Resultados Digitais\n Period : jun. de 216 – mar. de 219\n Location : Florianópolis, Santa Catarina\n \n Job Title : Software Engineer\n Company name : Pluga\n Period : jul. de 215 – mai. de 216\n \n \n Job Title : Software Engineer\n Company name : Smartcoin\n Period : jan. de 215 – jul. de 215"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Federal do Rio de Janeiro\n Speciality : Master's degree, Computer Software Engineering\n Period : 213 – 215\n \n School name : Universidade Federal de Goiás\n Speciality : Sistemas de Informação\n Period : 29 – 213"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "8b657498-ac4c-43de-9123-c82ab8986fd8",
+    "id": "aec9178e-2772-4226-b71a-8f67748f368e*8b657498-ac4c-43de-9123-c82ab8986fd8",
+    "talent": {
+      "updatedAt": "2023-12-20T14:09:04.696Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:09:04.696Z",
+      "linkedinUsername": "caldeira-ricardo",
+      "email": "ricardo.nezz@gmail.com",
+      "phone": "48988089009",
+      "name": "Ricardo Caldeira",
+      "id": "8b657498-ac4c-43de-9123-c82ab8986fd8"
+    },
+    "timeInCurrentStage": 61412397780
+  },
+  {
+    "importedAt": "2024-02-08T18:39:20.946Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "22/11/1980"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "19300"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "de praxe"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciência da Computação",
+          "id": "31170328-4766-43ac-b200-830fbc8bd302",
+          "label": "Ciência da Computação"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Estadual Paulista Júlio de Mesquita Filho"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Tech Manager"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2 filhos (17 e 12 anos)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Tech Manager\n Company name : Safra\n Period : ago. de 219 – o momento\n Summary : • Gestão de projetos e sistemas na área de Adquirência com foco em Recarga de celular, Extrato, Antifraudes e Logística. • Liderança técnica na identificação, desenvolvimento e implementação de correções críticas em sistemas de Adquirência. • Coordenação e suporte aos trabalhos de recursos interno e fábrica de software. • Conhecimento de todos os processos envolvidos com o setor de Adquirência.\n Location : São Paulo e Região, Brasil\n \n Job Title : Líder técnico\n Company name : Rede\n Period : nov. de 214 – ago. de 219\n Summary : • Identificação, desenvolvimento e implementação de correções críticas em sistemas de Adquirência. • Suporte e coordenação aos trabalhos de fábrica de software.• Gerenciamento de infra-estrutura. • Analise e condução de projetos aos sistemas suportados.Casos de Sucesso• Redução de 7% dos incidentes produtivos de 212 em relação a 211 e por consequência redução em 2/3 do custo operacional da sustentação.• Coordenação do processo de estabilização de sistema anti-fraudes, tornando o sistema funcional.• PO de duas Squads.\n Location : Barueri\n \n Job Title : Analista de sistemas sênior\n Company name : Rede\n Period : set. de 28 – nov. de 214\n Summary : • Identificação, desenvolvimento e implementação de correções críticas em sistemas de Cartões. • Suporte e coordenação aos trabalhos de fábrica de software.• Gerenciamento de infra-estrutura. • Analise e condução de projetos aos sistemas suportados.Casos de Sucesso• Redução de 7% dos incidentes produtivos de 212 em relação a 211 e por consequência redução em 2/3 do custo operacional da sustentação.• Coordenação do processo de estabilização de sistema anti-fraudes, tornando o sistema funcional.\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista de Sistemas Senior\n Company name : Banco Santander\n Period : set. de 25 – set. de 28\n Summary : • Gerenciamento e Coordenação de Projetos.• Análise, confecção de documentação Funcional e Técnica, Modelagem de Dados, Desenvolvimento, Testes, Homologação, Implantação, Acompanhamento da Produção e Data Mining.Casos de Sucesso• Gerenciamento de projeto de integração on-line dos sistemas de Seguradora e Corretora com orçamento superior a 11 mil horas.• Coordenação da integração do sistema de Capitalização dos bancos Santander e Banespa.• Gerenciamento e implantação do processo de automação dos fluxos batch do sistema de Seguros com implantação de 5 jobs.• Gerenciamento e implantação de feature do sistema de Capitalização, com saving anual de 6MM.\n Location : São Paulo Area, Brazil\n \n \n Job Title : Analista de Sistemas\n Company name : everis\n Period : jul. de 23 – set. de 25\n Summary : • Análise, Documentação Funcional e Técnica, Desenvolvimento, Testes, acompanhamento de Homologação e Produção na área de Capitalização.Casos de Sucesso• Coordenação da estabilização do sistema de Capitalização\n Location : São Paulo Area, Brazil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "PhD, MSc, MS, MBA"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Uninove - Universidade Nove de Julho\n Speciality : Mestrado Profissional Administração - Gestão de Projetos, Liderança e Desempenho da Equipe de Desenvolvimento de Software\n Period : 215 – 217\n School name : Bentley University - McCallum Graduate School of Business\n Speciality : Advanced Topics in Project Management, Infrasctructure\n Period : 216 – 216\n School name : FIA\n Speciality : MBA Gestão de Negócios com enfase em Projetos, Administração e Gerenciamento de Computação/Tecnologia da Informação\n Period : 212 – 214\n Summary : O Curso de Pós-Graduação Lato Sensu em Gestão de Negócios e Projetos é o curso voltado para a carreira gerencial, com uma formação completa, que envolve tanto os aspectos estratégicos do negócio quanto a gestão dos projetos organizacionais\n School name : University of La Verne\n Speciality : Advanced Topics in Project Management, Human Side\n Period : 213 – 213\n Summary : Tópicos avançados de Gestão de Projetos, abordando aspectos de fronteira do conhecimento. Este programa usa como base o PMBoK, enfocando assuntos que vão além dos temas usuais discutidos no âmbito do Project Management Institute, com atenção especial para o fator humano em projetos.\n School name : Universidade Estadual Paulista Júlio de Mesquita Filho\n Speciality : Bacharel, Ciências da Computação\n Period : 2 – 23\n Summary : Ministrei aulas de informática para funcionários da UNESP.\n School name : UNINOVE\n Speciality : Doutorado, Informática e Gestão do Conhecimento\n Period : 219 – 222\n Summary : Doutorado em Informática e Gestão do Conhecimento\n \n School name : Hagenberg Campus - FH Upper Austria\n Speciality : Intensive Week, Games e Mídia Digital\n Period : 219 – 219"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d0811433-a55a-4377-a54e-013c0f7821a2",
+    "id": "aec9178e-2772-4226-b71a-8f67748f368e*d0811433-a55a-4377-a54e-013c0f7821a2",
+    "talent": {
+      "updatedAt": "2023-12-20T13:57:57.612Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:57:57.612Z",
+      "linkedinUsername": "fernando-andre-zemuner-garcia-74a84a23",
+      "email": "fernando.z.garcia@gmail.com",
+      "phone": "",
+      "name": "Fernando Andre Zemuner Garcia",
+      "id": "d0811433-a55a-4377-a54e-013c0f7821a2"
+    },
+    "timeInCurrentStage": 61412097780
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.121Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Tech Manager Cloud | CloudSec"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Tech Manager Cloud | CloudSec\n Company name : Rede\n Period : jun. de 218 – o momento\n Location : São Paulo, Brasil\n \n Job Title : Tech Lead SRE | DevOps\n Company name : Grupo ZAP\n Period : jan. de 217 – jan. de 218\n Location : São Paulo, São Paulo\n \n Job Title : Tech Lead Cloud | Information Security\n Company name : BrasilCT\n Period : nov. de 215 – jan. de 217\n Summary : IT department management IT infrastructure, deployment of new technologies, Datacenter and local area network restructuring, Datacenter monitoring, Cloud AWS services, Linux, Windows, Hyper-V and VMWare server management, infrastructure suitability for PCI DSS certification, New backup policy including software. Deployment of the DevOps service desk and culture\n Location : São Paulo e Região, Brasil\n \n Job Title : Information Technology Manager\n Company name : Monte Carlo Logistica\n Period : ago. de 214 – nov. de 215\n Summary : IT department management, project management, new technology deployment, process design, IT service restructuring, supplier management and service contracts, annual department budget management, Datacenter management and monitoring, planning and New branches. (DNS, DHCP, IIS, FS), Citrix Metaframe and XenApp Servers, VMWare and HYPER-V Virtualization, public cloud deployment AWS\n Location : São José do Rio Preto e Região, Brasil\n \n Job Title : Information Technology Analyst\n Company name : Rodobens\n Period : set. de 213 – ago. de 214\n Summary : Performance in large environment, network infrastructure, Windows 28 servers, Linux CentOS, Citrix Xenapp 5, Xenserver.\n Location : São José do Rio Preto e Região, Brasil\n \n \n Job Title : Information Technology Manager\n Company name : Prefeitura de Jau\n Period : mar. de 29 – jan. de 213\n Summary : Total management of the IT Department, using COBIT, ITIL, ISO and PMBOK, implementation of new technologies, remodeling of services and processes, creation of new projects, administration of networks and Linux / Windows servers. Data center management and monitoring, Implantation of the master plan of information technology. Implementation of management system for education secretary.\n Location : Jaú e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : UNIARA\n Speciality : management of I.T., information Technology\n Period : 213 – 215\n School name : ESEEI - School of Business and Computer Studies\n Speciality : Technology in network administration, information Technology\n Period : 22 – 25\n \n School name : School Fernão Dias Paes\n Speciality : Technician in data processing, technology information\n Period : 1999 – 21"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "43070d81-006b-4b0a-812b-503599ab149d",
+    "id": "aec9178e-2772-4226-b71a-8f67748f368e*43070d81-006b-4b0a-812b-503599ab149d",
+    "talent": {
+      "updatedAt": "2023-12-20T14:04:03.421Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:04:03.421Z",
+      "linkedinUsername": "willians-souza",
+      "email": "wasssk8@hotmail.com",
+      "phone": "11969915376",
+      "name": "Willians Souza",
+      "id": "43070d81-006b-4b0a-812b-503599ab149d"
+    },
+    "timeInCurrentStage": 61412397780
+  },
+  {
+    "importedAt": "2024-02-08T18:39:20.915Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Head of Software Engineering | Manager | Martech | Consumer"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Head of Software Engineering | Manager | Martech | Consumer\n Company name : iFood\n Period : jul. de 221 – o momento\n Location : São Paulo, Brasil\n \n Job Title : Tech Manager | Software & Data & Analytics\n Company name : Itaú Unibanco\n Period : abr. de 22 – jun. de 221\n Summary : PFPLD - Prevenção à Fraudes e à Lavagem de Dinheiro\n Location : Brasil\n \n Job Title : Arquiteto de Soluções | Tech Manager\n Company name : Grupo Print Laser\n Period : mai. de 217 – abr. de 22\n Summary : Tech Lead/Manager de engenharia de software na área de Produtos Digitais com o objetivo de promover os produtos e a arquitetura das soluções para entregar valor aos clientes gerando resultados para a organização. Principais projetos e produtos: Modernização de sistemas legados, Produto para gestão de campanhas de Recuperação de Crédito e Hub Digital para envio de comunicados e interatividade (SMS, E-mail, Voz, Smart Message, Whatsapp, URA).TechArch: AWS, Google GCP, Azure, .Net Framework, .Net Core, NodeJS, Python, APIs Restfull, Micro serviços, Serverless, DevOps, Bigdata, Analytics.FinOps:- Cost Management: Measurement and accountability, Cost Optimization, Planning and forecasting, Cloud financial operations, Anomaly Detection;- Capacity Management: Rightsizing, Servers, Network and related communications devices, Storage systems and storage network devices.\n Location : São Paulo e Região, Brasil\n \n Job Title : Arquiteto | Engenheiro de Software\n Company name : Sinqia\n Period : dez. de 216 – mai. de 217\n Summary : Atuação como desenvolvedor/arquiteto junto aos times para desenvolvimento e melhorias em sistemas e serviços na área de seguros e financeira. Apoio na definição de arquitetura de soluções para produtos como Internet Banking, Seguro de Vida, e área de tesouraria - Renda Fixa e Variável.Antiga Senior Solution S.A.\n Location : São Paulo e Região, Brasil\n \n Job Title : Arquiteto | Engenheiro de Software\n Company name : Grupo Módulos\n Period : jul. de 215 – nov. de 216\n Summary : Apoio em análise de requisitos, definição de arquitetura cloud, desenvolvimento e manutenção de módulos ERP.\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista de Sistemas SR | Tech Lead\n Company name : Sinqia\n Period : out. de 21 – jul. de 215\n Summary : Apoio na análise de requisitos, definições de arquitetura de software e soluções, desenvolvimento e manutenção em módulos / produtos de software para instituições financeiras com foco em produtos como Derivativos (Opções Flexíveis), Renda Fixa (pública e privada). Expertise em análise de negócios e processos financeiros corporativos em clientes como Banco Itaú Unibanco, HSBC, Merrill Lynch, Deutsche e BBM. Criação de documentos técnicos e funcionais, levantamento de requisitos e esforço (APF), cronogramas de desenvolvimento, distribuição de atividades e orientação. Uso de metodologias ágeis e UML. Implementação de scripts contábeis no padrão COSIF e em padrões específicos da instituição. Experiência em Operações, módulos de Back-Office, Cálculo de Resultados, Risco, Fluxo de Caixa Integração com sistemas mainframe, legados de contas correntes, Mensagens Online com SPB (Sistema de Pagamentos Brasileiro) e Piloto de Reservas Liderança técnica na customização de diversos produtos do mercado financeiro necessidades específicas do cliente. Homologação e treinamento de usuários no cliente.Antiga Senior Solution S.A.\n Location : São Paulo e Região, Brasil\n \n Job Title : Engenheiro de Software\n Company name : Sidersys IT\n Period : 21 – 211\n Summary : Desenvolvimento em plataforma DotNet - C #, ASP .NET, Javascript, Ajax e Web Services. MS SQL Server 25/28 e Banco de Dados Oracle (Procedures, Views, Functions). Desenvolvimento MVC - Camadas (Negócio, Controlador, Interface, Dados) ERP Web (Faturamento com NF-E, Comercial, Vendas, Financeiro, Contabilidade, tickets) Windows Forms (Faturamento com NF-E e NFP, Vendas com TEF e impressora fiscal Bematech) Integração de NF-E com sistema externo desenvolvido em formulários Oracle.\n Location : Jundiaí\n \n \n Job Title : Engenheiro de Software\n Company name : CooperSis Sistemas\n Period : jan. de 27 – fev. de 21\n Summary : Desenvolvimento, suporte e manutenção de sistemas em MS Visual Fox Pro e .Net\n Location : Jundiaí"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : KMP I - Kanban System Design\n Period : Emitido em mar. de 2021 - Nenhuma data de expiração\n Issuing Authority : Kanban University\n Title : Reactive Architecture: CQRS & Event Sourcing\n Period : Emitido em mar. de 2021 - Nenhuma data de expiração\n Issuing Authority : Lightbend, Inc.\n \n Title : Reactive Architecture: Reactive Systems\n Period : Emitido em mar. de 2021 - Nenhuma data de expiração\n Issuing Authority : Lightbend, Inc."
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Stanford University\n Speciality : Complementary course | Machine Learning, Inteligência Artificial\n Period : 221 – 221\n Summary : Grades:- Linear Regression with One Variable- Linear Regression with Multiple Variables- Octave/Matlab Tutorial- Linear Regression- Logistic Regression- Regularization- Logistic Regression- Neural Networks: Representation- Multi-class Classification and Neural Networks- Neural Networks: Learning- Advice for Applying Machine Learning- Regularized Linear Regression and Bias/Variance- Machine Learning System Design- Support Vector Machines- Unsupervised Learning- Principal Component Analysis- K-Means Clustering and PCA- Anomaly Detection- Recommender Systems- Anomaly Detection and Recommender Systems- Large Scale Machine LearningJul/21 - Sep/21Distance Learning~6 hours - 11 weeks\n School name : University of Michigan - Stephen M. Ross School of Business\n Speciality : Complementary course | Negociações de sucesso: estratégias e habilidades essenciais, Administração e Negócios, 86.66%\n Period : 22 – 22\n Summary : Etapas apresentadas e praticadas para uma negociação bem-sucedida: (1) Preparar: planejar a estratégia de negociação (2) Negociar: usar as principais táticas para o sucesso (3) Fechar: criar um contrato (4) Realizar e avaliar: o jogo finalMarch, 22Distance Learning7 weeks of study, 75 minutes/week, Fórum de discussões e aprimoramento\n School name : FIAP\n Speciality : Master of Business Administration - MBA, Arquitetura de Soluções, 1\n Period : 218 – 219\n Summary : Desenho de soluções que se adaptam a nova visão de mercado.Criação de projetos disruptivos para as organizações., Liderança, Modelagem e Arquitetura, Design, Gestão de implementação e governança de artefatos arquiteturais.\n School name : Universidade Estácio de Sá\n Speciality : Pós Graduação | Especialização, Engenharia e Arquitetura de Software\n Period : 215 – 216\n Summary : Habilidades desenvolvidas:Exercício de conceitos e práticas em Arquitetura de Software. Desenvolvimento de requisitos de arquitetura para construção de softwares, aplicação de padrões arquiteturais em vários cenários, modelagem e documentação de software e liderança técnica de times em projetos de software., Estudo em áreas de qualidade de software, testes, métodos de desenvolvimento ágil, práticas de governança (Cobit), Modelagem UML , Arquitetura de Software, Gestão de Projetos (PMBOK) e métricas de desenvolvimento de software.\n School name : MindMaster Educação Profissional\n Speciality : PSM I - Professional Scrum Master, Gestão Ágil de projetos de TI\n Period : 216 – 216\n Summary : Treinamento para certificação PSM I - Professional Scrum Master. Membro que integra os times ágeis no gerenciamento de projetos de alta complexidade e escaláveis.\n School name : ILSC Language School - Toronto - Canada\n Speciality : English Language and Literature, General, English Communication, Listening, Speaking, Grammar and Pronunciation, Advanced\n Period : 213 – 213\n Summary : Improve listening and speaking skill as well grammar and vocabulary, interaction with instructor and classmates\n School name : Centro Universitário Padre Anchieta\n Speciality : Bachelor's degree, Information Systems / Tecnology, 1\n Period : 26 – 29\n Summary : Sql Server 25 / 28, DotNet 28, Engenharia de Software, Projetos (UML), Algoritmos e Lógica aplicada a computação, Gestão de Projetos, Processos de Administração, Qualidade e Auditoria de Software, Business Intelligence, Data Warehouse, Direito e Legislação na área de TI, Sistemas Operacionais.\n School name : Faculdade Impacta Tecnologia\n Speciality : Technical, Information Systems / Tecnology\n Period : 21 – 21\n Summary : ASP .NET com C# - framework 3.5\n \n School name : Escola Estatual Professor Getúlio Nogueira de Sá\n Speciality : Ensino Médio, Ensino Médio Completo\n Period : 1998 – 25\n Courses: Title : Arquiteto AWS - Amazon Web Services; Title : Asp .net e C#; Title : Java, AngularJS e Spring Boot; Title : Json com C#; Title : Maratona Xamarin - Microsoft; Title : MongoDb; \n Title : Python"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "67ef91e2-bce9-4b25-92e5-aa64c9567850",
+    "id": "aec9178e-2772-4226-b71a-8f67748f368e*67ef91e2-bce9-4b25-92e5-aa64c9567850",
+    "talent": {
+      "company": "Kiwi",
+      "createdAt": "2023-12-20T13:54:00.356Z",
+      "email": "everton.varago@gmail.com",
+      "linkedinUsername": "evertonvarago",
+      "name": "Everton Varago",
+      "phone": "11999794025",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-11-14T15:37:49.415Z",
+      "id": "67ef91e2-bce9-4b25-92e5-aa64c9567850"
+    },
+    "timeInCurrentStage": 61412397780
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.170Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Software Engineering Manager"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Software Engineering Manager\n Company name : iFood\n Period : ago. de 219 – o momento\n Location : Recife Area, Brazil\n \n Job Title : Tech Lead and Backend Specialist\n Company name : iFood\n Period : mar. de 219 – ago. de 219\n Location : Recife Area, Brazil\n \n Job Title : Senior Development Consultant\n Company name : ThoughtWorks\n Period : mar. de 218 – mar. de 219\n Summary : I have been working as a senior development consultant in some projects with different tech stacks, customers and teams. Some technologies: Java 8, Scala, Python, Node.js, Spring Boot, Kafka, Spark, AWS, Terraform, Jenkins, Docker, Packer, Splunk, PostgreSQL, Cucumber, NodeJS, Git, Gradle, TDD, Agile.\n Location : Recife e Região, Brasil\n \n Job Title : Technical Leader\n Company name : Ericsson\n Period : out. de 212 – mar. de 218\n Summary : - Team leader- Service provider for software development for Business intelligence and Data Analytics for Telecommunication Networks✓ AUP – Audit Usage Platform:Tool responsible to connect in all Ericsson customers and get the statistical usage data on real time, the tool provide complete reports in order to perform GAPs analysis and seek opportunities to push new operator Network expansion, license purchase and customer consultancy.✓ Netdash – Network Dashboard:Tool responsible to perform a deep Analysis Capacity for a telecom network going through many KPIs and generating very complex graphics crossing technology (2G/3G/4G) relevant information.\n Location : Recife e Região, Brasil\n \n Job Title : Senior Software Development Specialist\n Company name : FITec\n Period : set. de 211 – mar. de 218\n Summary : Technical leadershipSoftware development:- Mobile (Android), - Web (.Net, JavaEE, Javascript, Jquery, Highcharts).- Mysql, SQL Server, Redis, Elasticsearch\n Location : Recife e Região, Brasil\n \n Job Title : Doctoral Researcher\n Company name : HP\n Period : jan. de 214 – dez. de 216\n Summary : I worked on developing tools for Natural Language Processing, Automatic Text Summarization, and Text Classification.\n \n Job Title : Software Developer Specialist\n Company name : Jabil\n Period : mar. de 212 – set. de 212\n Summary : Service provider for software developmentActivities:Development of smart client applications for office in C #Modeling and requirements gathering\n Location : Belo Horizonte e Região, Brasil\n \n Job Title : Mobile Systems Analyst\n Company name : Nutes/UFPE\n Period : mar. de 211 – set. de 211\n Summary : Mobile Systems Analyst in the Project InteliMed - Android- Machine Learning\n Location : Recife e Região, Brasil\n \n Job Title : Systems Analyst / Programmer\n Company name : Mobili-TI\n Period : ago. de 29 – set. de 211\n Summary : Develop and lead software development team- ASP- JavaEE- Flash Builder (Flex 4.1)- JavaScript- MapServer- PHP\n \n \n Job Title : Director of Project and Quality\n Company name : Infobits\n Period : ago. de 29 – mar. de 21\n Summary : Co-founder of Company Junior Course of Information Systems at the State University of Montes Claros - Infobits"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Federal de Pernambuco\n Speciality : Doctor of Philosophy - PhD, Artificial intelligence - Natural Language Processing\n Period : 213 – 218\n School name : Universidade Federal de Pernambuco\n Speciality : Master's degree, Artificial Intelligence, Information Retrieval and Social Network Analysis, http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4473446T\n Period : 211 – 213\n \n School name : Universidade Estadual de Montes Claros\n Speciality : Bachelor in Information Systems, Tecnologia da Informação\n Period : 27 – 21\n Summary : InfoBits - Junior Company of the course Information Systems\n Courses: Title : Building Windows 8 Metro Style Apps; \n Title : Java Certification"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "fc4f32a1-c684-442f-9ce6-988a43a6402a",
+    "id": "aec9178e-2772-4226-b71a-8f67748f368e*fc4f32a1-c684-442f-9ce6-988a43a6402a",
+    "talent": {
+      "updatedAt": "2023-12-20T13:55:10.423Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:55:10.423Z",
+      "email": "jamilsonbatista@gmail.com",
+      "phone": "81996557854",
+      "name": "Jamilson B. Antunes",
+      "id": "fc4f32a1-c684-442f-9ce6-988a43a6402a"
+    },
+    "timeInCurrentStage": 61412397780
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.064Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Digital Transformation Manager"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Digital Transformation Manager\n Company name : Itaú Unibanco\n Period : mar. de 218 – o momento\n Summary : Estruturação de uma área de Governança, Projetos, Sistemas e Dados com o desafio de promover a Transformação Digital na operação de compensação do banco.Como:- Atração de talentos nos perfis de Processos, Projetos, Automação, Dados;- Estruturação de ambiente para desenvolvimento de automações dentro das políticas de Automação Sustentada: Servidor Web, Framework .Net, Servidor de Banco de Dados SQL Server, File Server;- Estruturação de ambiente de dados e analítico: HDFS Hadoop, Tableau Server, SAS, Alteryx;- Mapeamento das esteiras operacionais, identificação de GAPs e oportunidades de melhorias;- Estruturação das Governanças de Projetos, Qualidade, Riscos e Pessoas;- Inserção de ferramentas de mapeamento e governança das frentes: Miro, Bizagi, Pipefy, Sharepoint; O quê:- Condução de grandes projetos de transformações, tanto do ponto de vista técnico quanto financeiro, relacionados a transformação digital desde a definição de estratégia, desenho, implantação da transformação e gestão da mudança;- Desenvolvimento de Automações com FrontEnd Angular e BackEnd .Net Core;- Disseminação de ambiente e cultura de melhoria contínua, experimentação e inovação;- Dados e Analytics, responsáveis pela criação dos indicadores de monitoramento operacional, acompanhamento da produtividade, geração de números e insights para novos projetos, dashboards de acompanhamento estratégico; - Governanças de Projetos, Automação, Dados, Qualidade, Riscos e Pessoas;Resultados Alcançados:- Redução de 9% na quantidade de cheques transitados para o BackOffice;- Eficiência Operacional de 8% nas esteiras transformadas (com a automação de processos e implantação de projetos de eficiência operacional);- Mais de 2 demandas implantadas (Automações, Sistemas e Projetos de eficiência);- Governança operacional e tática, nas frentes de Qualidade, Riscos e Pessoas;- Mudança de perfil das esteiras, antes operacionais e hoje de monitoramento e gestão;\n Location : São Paulo, Brasil\n \n Job Title : Senior Software Development Engineer\n Company name : Itaú Unibanco\n Period : jul. de 217 – fev. de 218\n Summary : Engenheiro de Software - Líder Técnico da squad R2D2, responsável pela estruturação e viabilização da Automação Sustentada nas áreas de negócio do banco (atuação cross). Levantamento e análise das estruturas Shadow IT. Desenho e direcionamento para soluções utilizando frameworks atuais de desenvolvimento, camadas de serviço, desacoplamento, componentização e armazenamento adequados ao perfil de uso (operacional x analítico). Especificação e desenho de soluções Robot as a Service e RPAs. Garantia de evolução das plataformas. Governança e condução de Comitês Técnicos da Comunidade de Tecnologia.\n Location : São Paulo e Região, Brasil\n \n Job Title : Senior Software Development Engineer\n Company name : Itaú Unibanco\n Period : mar. de 216 – jun. de 217\n Summary : Líder Técnico de célula ágil LATAM no Desenvolvimento e Sustentação das aplicações de Finanças Internacionais (Diretoria de Finanças Atacado). Engenharia e Desenvolvimento de Soluções Web em .Net e Java, APIs e Bancos de Dados SQL Server. Desenvolvimento de Automações de Testes utilizando o Selenium. Atendimento de ocorrências e incidentes de sustentação.\n Location : São Paulo e Região, Brasil\n \n Job Title : IT Project Manager\n Company name : Itaú Unibanco\n Period : jun. de 214 – fev. de 216\n Summary : Gestão de Projetos de BI do programa DMT - Data Management Transformation, atendendo as Diretorias de Canais, Produtos PF e PJ. Planejamento, Execução, Monitoramento e Encerramento dos Projetos. Comunicação e Reports. Governança e condução de Comitês Executivos. Projetos de Destaque: - Migração SAS Corp x SAS Prod; - Migração SAS x Tableau; - Plataforma de Organização de Dados PJ; - Plataforma de Gestão de Tarifas PF;\n Location : São Paulo e Região, Brasil\n \n Job Title : Senior Information Technology System Analyst\n Company name : GRUPO SEGURADOR BANCO DO BRASIL E MAPFRE\n Period : mar. de 212 – mai. de 214\n Location : São Paulo e Região, Brasil\n \n Job Title : Senior Software Developer\n Company name : Banco Santander\n Period : jan. de 21 – fev. de 212\n Location : São Paulo, Brasil\n \n Job Title : Software Developer\n Company name : Banco Santander\n Period : jul. de 28 – dez. de 29\n Location : São Paulo, Brasil\n \n \n Job Title : Junior Software Developer\n Company name : Banco Santander\n Period : jan. de 27 – jun. de 28\n Location : São Paulo, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : UX / UI: Fundamentos para o design de interface\n Period : Emitido em out. de 2019 - Nenhuma data de expiração\n Issuing Authority : Coursera\n Title : Green Belt Lean Seis Sigma\n Period : Emitido em jun. de 2019 - Nenhuma data de expiração\n Issuing Authority : Fundação Vanzolini\n \n Title : ATC - Analista de Testes Certificado\n Period : Emitido em nov. de 2017 - Nenhuma data de expiração\n Issuing Authority : IBQTS - Instituto Brasileiro de Qualidade em Testes de Software"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Pontifícia Universidade Católica de São Paulo\n Speciality : MBA Analytics e Business Inteligence, Modelagem de Dados/Armazenagem e Administração de Base de Dados\n Period : 221 – 222\n School name : Fundação Getulio Vargas\n Speciality : MBA, Gestão de Empresas\n Period : 219 – 22\n School name : IPT - Instituto de Pesquisas Tecnológicas\n Speciality : Mestrado Engenharia de Software, Tecnologia da Informação\n Period : 216 – 218\n School name : Ibmec\n Speciality : Pós Graduação em Gestão de Projetos de TI, Gestão de Projetos de TI\n Period : 212 – 214\n \n School name : Universidade Federal de Itajubá\n Speciality : Bacharelado em Engenharia, Engenharia de Computação\n Period : 23 – 28"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "75e5cb71-dc47-45d6-9560-b89f7baa4550",
+    "id": "aec9178e-2772-4226-b71a-8f67748f368e*75e5cb71-dc47-45d6-9560-b89f7baa4550",
+    "talent": {
+      "updatedAt": "2023-12-20T14:08:51.178Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:08:51.178Z",
+      "linkedinUsername": "pietronoronha",
+      "email": "pietrofaria@gmail.com",
+      "phone": "11959780036",
+      "name": "Pietro Rosa Faria Noronha",
+      "id": "75e5cb71-dc47-45d6-9560-b89f7baa4550"
+    },
+    "timeInCurrentStage": 61412397780
+  },
+  {
+    "importedAt": "2024-02-08T18:39:20.961Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "25/07/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "16500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "todos de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Sistemas de Informação",
+          "id": "d8ffaca7-edf9-4033-bdb8-bc6ab4f58d0a",
+          "label": "Sistemas de Informação"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Pontifícia Universidade Católica de Minas Gerais"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": "Pontifícia Universidade Católica de Minas Gerais\n DiplomaPós GraduaçãoÁrea de estudoEngenharia de Software/ Software EngineeringNota85\n Período (ou ano previsto para a graduação)213 – 215"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Tech"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2 filhos - 15 e 3 anos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "MG",
+          "id": "fd9a75a0-f705-48e8-9abe-cb8601c06067",
+          "label": "MG"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de TI\n Company name : Banco Inter\n Period : jun. de 22 – o momento\n Location : Belo Horizonte e Região\n Job Title : Líder de equipe\n Company name : Banco Inter\n Period : ago. de 219 – mai. de 22\n Location : Belo Horizonte e Região\n Job Title : Líder técnico/Analista de sistemas\n Company name : Banco Inter\n Period : out. de 218 – ago. de 219\n Location : Belo Horizonte, Minas Gerais\n Job Title : Analista de sistemas sênior\n Company name : Banco Inter\n Period : jun. de 218 – out. de 218\n Location : Belo Horizonte, Minas Gerais\n Job Title : Arquiteto de software\n Company name : Unisys\n Period : jan. de 216 – jun. de 218\n Summary : Responsável por propor novas soluções tecnológicas e também fornecer suporte para a equipe de desenvolvimento. Desenvolvimento de aplicações mobile com Ionic e Angular Material Design utilizando a linguagem Typescript. Desenvolvimento de microserviços utilizando springboot e container docker.\n Location : Belo Horizonte e Região, Brasil\n Job Title : Analista de Sistemas\n Company name : Unisys\n Period : out. de 212 – jan. de 216\n Summary : Atuação como Analista, desenvolvedor e Scrum Master (em determinadas situações e projetos).Atuação como Scrum Master do projeto SISBE (Saúde da CAIXA ECONOMICA) integrando equipes de Brasilia e Belo Horizonte.\n Location : Belo Horizonte e Região, Brasil\n Job Title : Desenvolvedor de software sênior\n Company name : Unisys\n Period : jul. de 211 – out. de 212\n Summary : Desenvolvedor senior com foco em desenvolvimento JAVA. Desenvolvimento em JSF de sistemas para o cliente CAIXA ECONOMICA. Utilização do framework primefaces para parte visual. Responsável pelos sistemas de controle de carga (automatização de rotinas) e também do faturamento da empresa. Desenvolvimento e manutenção de procedures em PL/SQL\n Location : Belo Horizonte e Região, Brasil\n Job Title : Analista de Sistemas Junior\n Company name : Unisys\n Period : nov. de 28 – jul. de 211\n Summary : Analista de sistemas com foco no desenvolvimento JAVA e ASP. Desenvolvimento de sistemas com framework tapestry com utilização de hibernate e JPA. Elaboração de proposta de solução para o cliente Caixa Econômica. Manutenção e correção de páginas ASP.\n Location : Belo Horizonte e Região, Brasil\n Job Title : Estagiário\n Company name : Unisys\n Period : out. de 27 – out. de 28\n Summary : Estagiário da equipe de Análise e Projeto. Foco na documentação e diagramação UML do sistema de faturamento. Apoio e desenvolvimento no time de modelagem de dados construindo programas VBA para a ferramenta ERStudio.\n Location : Belo Horizonte e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Scrum Foundation\n Period : Emitido em jun. de 2020 - Nenhuma data de expiração\n Issuing Authority : CertiProf\n Title : Fluência Duolingo em Inglês: Intermediário (estimativa)\n Period : Emitido em out. de 2015 - Nenhuma data de expiração\n Issuing Authority : Duolingo\n Title : CSM - Certified Scrum Master\n Period : Emitido em jul. de 2014 - Nenhuma data de expiração\n Issuing Authority : Scrum Alliance"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Pontifícia Universidade Católica de Minas Gerais\n Speciality : Pós Graduação, Engenharia de Software/ Software Engineering, 85\n Period : 213 – 215\n Summary : Artigo: Integração de equipes remotas através de uma metodologia ágil de desenvolvimento.Article: Teams remote integration through a development agile methodology\n School name : Pontifícia Universidade Católica de Minas Gerais\n Speciality : Graduação, Sistemas de Informação/Information systems, 9\n Period : 25 – 28\n Summary : Monografia: Desenvolvimento de uma aplicação para auxiliar na medição da qualidade de produto de software.Monograph: Development of an application to assist in measuring the quality of software product\n Courses: Title : API RESTful com Spring Boot e Java 8; Title : Certified Scrum Master; Title : Framework Tapestry para desenvolvimento Web Java; Title : Iniciando Ionic 2; \n Title : Modelagem de dados com ER/Studio"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "2b0d26ff-dc48-4ebe-8a3f-869e27e8099f",
+    "id": "aec9178e-2772-4226-b71a-8f67748f368e*2b0d26ff-dc48-4ebe-8a3f-869e27e8099f",
+    "talent": {
+      "updatedAt": "2023-12-20T13:56:27.318Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:56:27.318Z",
+      "email": "pedrojeunon@gmail.com",
+      "phone": "31984841158",
+      "name": "Pedro Cruz",
+      "id": "2b0d26ff-dc48-4ebe-8a3f-869e27e8099f"
+    },
+    "timeInCurrentStage": 61412097780
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.202Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Senior Project Manager - Latin America"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Senior Project Manager - Latin America\n Company name : Microsoft\n Period : nov. de 218 – o momento\n Summary : Gestão dos Projeto de Migração da TED do mainframe para baixa plataforma em ambiente Javacom arquitetura distribuída, coreografada com máquina de estado e microserviços.Projeto desenvolvido com as tecnologias Java, Kafka, Redis e SQL entre outras.Gestão do Projeto de Pagamento instantâneo (PIX), desenvolvido em baixa plataforma em ambientejava com arquitetura distribuída, coreografada com maquina de estado e microserviçosutilizando ambiente em cloud com Kafaka, Redis, Java entre outras tecnologias.Integrações com as áreas de Pagamentos, Fraudes, Contas Correntes, Contabilidade e etc.Responsabilidades:- Gestão do Projeto utilizando metodologias Scrum e PMI.- Utilização da ferramenta Jira para gestão do projeto.- Gestão do Time Microsoft.- Gestão de Recursos (contratação, alocação e etc.)- Definição de Prazos, Escopo, Elaboração de Cronogramas (Microsoft Project).- Controle de Custos e Riscos.- Coach Agile (Definição de metodologia ágil, utilizando Scrum, Kaban e Safe).- Status Reports ao cliente e aos executivos da empresa.- Status Report do projeto ao Time Microsoft EUA.\n Location : São Paulo e Região, Brasil\n \n Job Title : Estudante de intercâmbio\n Company name : LASC (Language Scholastics)\n Period : jan. de 219 – jun. de 219\n Summary : Estudo / aprimoramento do Idioma inglês.Enquanto estava morando no EUA e estuando Inglês, aproveitei para fazer cursos e aprimorar os meu conhecimentos em: • Modelos de Startups; • Desenvolvimento de apps; • Automação Residencial (Smart home); • Modelos de comercio eletrônico (Estudo do caso da Amazon); • Martketing Digital; • Python, Machine Learn, Deep Learn, inteligência artificial (AI).\n Location : Orange County, Califórnia e Região, Estados Unidos\n \n Job Title : Head of IT and Business Intelligence\n Company name : Sunset Comunicação\n Period : jan. de 215 – jan. de 218\n Location : São Paulo e Região, Brasil\n \n Job Title : Gerente de Service Delivery e Projetos SAP\n Company name : LKM Tecnologia\n Period : jan. de 211 – dez. de 214\n Summary : Clientes Atendidos: DHL, Astellas, Saint Gobain, Giesse, BMK, Bridgestone, Apsen, Amyris etc.- Gestão de equipes e atividades do ERP SAP (FI, MM, SD, NF-e, NFE-s) e Mastersaf; - Gestão do Suporte SAP a diversos clientes; - Responsável por ministrar treinamento em Microsoft Project e de Gestão de Projetos.- Gestão de Recursos (contratação, alocação, treinamento e etc.)- Definição de Prazos, Escopo, Elaboração de Cronogramas (Microsoft Project).- Controle de Custos e Riscos dos projetos e Gestão de Fornecedores e Fabricas de Software.- Reports de indicadores á clientes.- Implementação da área de suporte e service delivery, definindo todos os processos emetodologias necessárias.- Gestão de contratos regidos por acordos de níveis de serviço (SLA);- Gestão de contratos regidos por acordos de níveis de serviço (SLO);- Criação e análise de propostas comerciais atuando junto ao pré-vendas\n Location : São Paulo e Região, Brasil\n \n Job Title : Consultor Sênior - Especialista BI\n Company name : Itaú Unibanco\n Period : abr. de 29 – jan. de 211\n Location : São Paulo e Região, Brasil\n \n Job Title : Gerente de projetos sênior\n Company name : Grupo Conectt\n Period : abr. de 27 – fev. de 29\n \n Job Title : Coordenador TI\n Company name : Banco Santander\n Period : jun. de 25 – abr. de 27\n Summary : Responsável pela área de BI - Banco Santander Brasil.- Gerência de múltiplos projetos em BI utilizando metodologia PMI/PMBOK.- Definição de Prazos, Escopo, Elaboração de Cronogramas (Microsoft Project).- Controle de Custos e Riscos dos projetos.- Gestão de Fornecedores.- Arquitetura de ETL, Dados e Metadados.- Construção e Arquitetura do Big data e Data Lake.- Desenvolvimento e Manutenção de Universos (DataMarts).- Criação e Manutenção de Relatórios e Dashboards- Administração dos Servidores de BI (BO e Microstrategy)- Configuração e Gerenciamento da Segurança dos servidores BI (BO e Microstrategy).- Modelagem Dimensional.- Responsável pela coordenação da equipe do dia-a-dia.- Desenvolvimento de Projetos BI.- Verificação e Definição de Processos de Carga (ETL)- Criação de Mapas de ETL em DataStage.- Criação de Mapas de ETL usando Microsoft DTS.\n Location : São Paulo\n \n Job Title : Coordenador BI\n Company name : Consultoria ExpoenteMI\n Period : abr. de 24 – jun. de 25\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Coordenador de Sistemas TI e BI\n Company name : Lojas Marisa\n Period : ago. de 21 – mar. de 24\n Summary : - Desenvolvimento do projeto de Data WareHouse (Nacional) utilizando Microstrategy- Treinamento de usuários internos para utilizarem Microstrategy- Criação de Mapas de ETL usando Microsoft DTS.- Definição de DM e utilizando modelagem dimensional.- Definição de Prazos, Escopo, Elaboração de Cronogramas (Microsoft Project)- Analise e desenvolvimento de sistema de controle de contratos em VB e SQL- Analise e desenvolvimento do sistema de controle de processos jurídicos. VB e SQL- Analise e desenvolvimento de sistema controle de debito automáticos em .NetAnalise e desenvolvimento de sistema de tomada de decisão em .Net. (Asp.Net)- Analise e desenvolvimento do sistema controle de mercadorias “encabidadas utilizando atecnologia .Net.- Manutenção em sistemas internos em VB e .Net.- Analise e desenvolvimento da metodologia utilizada nos sistemas da empresa.\n Location : São Paulo"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Google Analytics Certification\n Issuing Authority : Google\n Title : ITIL V3 Foundation\n Issuing Authority : EXIN your ICT competence partner\n \n Title : Scrum Master Certified\n Issuing Authority : Scrum Alliance"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : FIAP\n Speciality : MBA em Gestão de TI, Tecnologia da Informação\n \n School name : Faculdade Módulo Paulista (Grupo FIAP)\n Speciality : Faculdade de Sistema de Informações., Tecnologia"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "57754b3f-a099-4109-b6eb-2d7d6f33bf5f",
+    "id": "aec9178e-2772-4226-b71a-8f67748f368e*57754b3f-a099-4109-b6eb-2d7d6f33bf5f",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:43.542Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:43.542Z",
+      "linkedinUsername": "césar-almeida-3223a596",
+      "email": "cesar8@hotmail.com",
+      "phone": "11964471223",
+      "name": "César Almeida",
+      "id": "57754b3f-a099-4109-b6eb-2d7d6f33bf5f"
+    },
+    "timeInCurrentStage": 61412397780
+  },
+  {
+    "importedAt": "2024-02-08T18:39:20.992Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "IT Manager - Infraestrutura | Arquitetura | Cloud | Cyber Security | Governança"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : IT Manager - Infraestrutura | Arquitetura | Cloud | Cyber Security | Governança\n Company name : Software Express\n Period : abr. de 216 – o momento\n Summary : • Reporte à Diretora de TI, responsável pelas áreas de Infraestrutura, arquitetura, sistemas operacionais, datacenter, cloud, suporte técnico a produção, monitoração, redes, backup, storage e security/compliance, com equipe de 15 colaboradores e fornecedores externos.• Responsável por garantir o desempenho e disponibilidade de acordo com os acordos firmados com os clientes como McDonalds, OutBack, Carrefour, BurgerKing, TokStok, Bancos diversos, Metro, mais de 1. clientes diretos e mais de 1. indiretos.• Entrega de dezenas de projetos por ano de novos modelos de negócios e clientes, utilizando metodologia ágil.• Participação direta do planejamento estratégico da empresa junto a diretoria e área comercial.• Gestão de toda infraestrutura dos sistemas transacionais, para ambiente TEF, Corban (Correspondente Bancário), POS, e-Commerce, PDV, Recarga Pré-Pago de todas as operadoras nacionais, processamento de ambiente bandeirado, suportando mais de 1 Bilhão de transações mensais.• Desenhos de novas tecnologias e soluções em plataformas Intel e Linux, em alta disponibilidade, balanceamento de carga e performance.• Reestruturação de processos e controles para governança de TI, baseados em ITIL e Cobit.• Gestão de contratos com fornecedores e SLAs.• Gestão de todo budget da diretoria de operações.• Responsável por reestruturar o ambiente de Segurança e atender as demandas de auditoria e cumprimento da norma internacional PCI-DSS, padrões Visa, MasterCard e AMEX.• Liderança de projetos como captura de transações, continuidade de negócios, trocas de tecnologias, Antifraude, Conciliação Bancária, e-Commerce, entre outros.• Estruturação do datacenter secundário, ativo/standby e ativo/ativo e estruturação de ambientes em Cloud AWS.• Responsável pelo projeto de moving do DataCenter principal para a Equinix.\n Location : São Paulo, Brazil\n \n Job Title : IT Manager - Operations | Security | Infraestrutura | Governança\n Company name : Paranapanema S. A\n Period : set. de 214 – abr. de 216\n Summary : Reporte ao Head de TI, responsável por definir e implementar a estratégia de TI alinhado as necessidades de negócio, objetivos de investimento, e prioridades.• Responsável por planejar e implantar processos para melhoria da eficiência da área de TI, gestão do portfólio de projetos, planos de segurança, melhorias de infraestrutura e arquitetura de aplicações de negócio.• Reestruturação e treinamento das equipes para atingir alta performance, renegociação de contratos reduzindo custos em telecomunicações, consultorias e custos operacionais.• Gestão da infraestrutura de rede e links dos sites fabris, 2 DataCenters e 1 estações de trabalho.• Responsável pela implantação de modelo outsourcing.• Arquiteto responsável pela modernização dos datacenters, storage, servidores, upgrades de tecnologia como VMware, Linux, otimizadores de carga, troca dos switches core, migração para Office 365.• Gestor responsável pelo SAP ECC, bancos de dados Oracle e SQL, criação de clusters corporativos.• Arquiteto responsável pelas aplicações de negócio, websites, Totvs, e demais sistemas corporativos.\n \n Job Title : IT Manager - Produção | Infraestrutura | Arquitetura | Security | Governança\n Company name : Conductor Tecnologia em Meios de Pagamento\n Period : out. de 211 – ago. de 214\n Summary : Reporte à Diretora de TI, responsável pelas áreas de Infraestrutura, arquitetura, sistemas operacionais, suporte técnico a produção, monitoração, redes, backup, storage e security, com equipe de 2 colaboradores.• Responsável por garantir o desempenho e disponibilidade de acordo com os clientes.• Gestão de toda infraestrutura do sistema de processamento de cartões e serviços de crédito, suportando mais de 1 transações simultâneas.• Desenho de novas tecnologias e soluções em plataformas Intel e Unix.• Reestruturação de processos e controles para governança de TI, baseados em ITIL e Cobit.• Gestão de contratos com fornecedores e SLAs.• Responsável por atender as demandas de auditoria e cumprimento da norma internacional PCI-DSS, padrões Visa, MasterCard e AMEX.• Liderança de projetos como captura de transações, continuidade de negócios, trocas de tecnologias, Antifraude e migração de correio eletrônico.• Estruturação do datacenter secundário, ativo/standby e ativo/ativo.• Responsável pelo projeto de mudança do DataCenter principal para a ALOG.\n \n Job Title : Especialista de TI / Team Leader - Infraestrutura | Arquitetura\n Company name : TIM Brasil\n Period : dez. de 26 – set. de 211\n Summary : Reporte ao Gerente de TI,com equipe de 12 colaboradores. Responsável por infraestrutura e arquitetura de soluções.• Responsável pelo startup e em estruturar e implementar diversos ambientes operacionais para suporte aos usuários internos, ambientes de negócios e para todo o Call Center.• Consolidação e migração de servidores e serviços de infraestrutura, reduzindo em 3% os incidentes na infraestrutura, diminuindo o downtime e reduzindo custos operacionais.• Participação ativa no projeto Transformation Plan para implementação do ITIL em TI, Operações e Produção, tendo desenhado o módulo de Service Level Management para controle de SLAs.• Liderança na arquitetura de novas soluções, viabilizando e definindo novas ferramentas, em linha com a estratégia do negócio.• Responsável por atender as demandas para cumprimento da SOX.• Planejamento de capacidade dos ambientes críticos ao negócio.\n \n Job Title : Analista de TI - Segurança - Arquitetura\n Company name : HP\n Period : jun. de 26 – nov. de 26\n Summary : Reporte ao Gerente de TI, com equipe de 6 colaboradores.• Responsável por projetos de infraestrutura em ambientes críticos para clientes como Carrefour, Banco Real, GM, RollsRoyce e CVRD.• Responsável pela arquitetura de novas soluções Microsoft e Unix, envolvendo ambientes de alta complexidade.• Reestruturação de processos para melhoria na Governança de TI, tais como: gestão de mudanças e de incidentes & problemas.\n \n \n Job Title : Analista de Suporte Sênior\n Company name : Pirelli Pneus\n Period : jan. de 1998 – mai. de 26\n Summary : Reporte ao Gerente de TI, responsável pelo suporte funcional para ambientes Microsoft.• Responsável pela arquitetura, planejamento, desenvolvimento e implantação de projetos no Brasil e América Latina.• Condução de treinamentos em ambiente Intel e outros aplicativos, além da confecção e apresentação de palestras técnicas."
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Master of Business Administration (M.B.A.), Gerenciamento de Projetos\n Period : 213 – 215\n School name : FIAP\n Speciality : Master of Business Administration (M.B.A.), Gestão e Governança de Tecnologia da Informação\n Period : 21 – 211\n \n School name : Universidade do Grande ABC\n Speciality : Graduação, Ciência da Computação\n Period : 1999 – 23"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "993d2558-85d9-48ec-88c9-f2d0cbac83c1",
+    "id": "aec9178e-2772-4226-b71a-8f67748f368e*993d2558-85d9-48ec-88c9-f2d0cbac83c1",
+    "talent": {
+      "updatedAt": "2023-12-20T13:54:54.831Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:54:54.831Z",
+      "linkedinUsername": "ronaldogarrone",
+      "email": "ronaldo.garrone@uol.com.br",
+      "phone": "11970422328",
+      "name": "Ronaldo Garrone",
+      "id": "993d2558-85d9-48ec-88c9-f2d0cbac83c1"
+    },
+    "timeInCurrentStage": 61412397780
+  },
+  {
+    "importedAt": "2024-02-08T18:39:21.140Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "05/07/1982"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Senior Analyst Team Lead"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "a6e639d9-df27-4ca8-bf5c-b4fbe4eaf7cc",
+    "id": "aec9178e-2772-4226-b71a-8f67748f368e*a6e639d9-df27-4ca8-bf5c-b4fbe4eaf7cc",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:04.110Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:04.110Z",
+      "email": "wagnerdataset@hotmail.com",
+      "phone": "21990299041",
+      "name": "Wagner Sanches Gonçalves",
+      "id": "a6e639d9-df27-4ca8-bf5c-b4fbe4eaf7cc"
+    },
+    "timeInCurrentStage": 61412397780
+  }
+]

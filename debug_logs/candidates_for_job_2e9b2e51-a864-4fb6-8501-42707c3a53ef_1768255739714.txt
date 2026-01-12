@@ -1,0 +1,1296 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:36.321Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "30/06/1990"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "10000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45048"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Senior Consultant | M&A and Corporate Finance"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "PE",
+          "id": "672331ee-ff5a-4dba-b8f2-5d627bc9e98c",
+          "label": "PE"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Senior Consultant | M&A and Corporate Finance\n Company name : EY\n Period : abr. de 221 – o momento\n Summary : • Participação em projetos de M&A buy side, desde as etapas de identificação de targets estratégicos ao valuation e closing/signing do deal;\n • Estruturação de captação de dívidas, desde o desenho estratégico do plano de captação ideal até a liberação dos recursos;\n • Avaliação econômica-financeira de empresas de diferentes setores\n Location : Recife, Pernambuco, Brasil\n \n Job Title : Manager | High Income\n Company name : Banco do Brasil\n Period : jan. de 216 – abr. de 221\n Summary : • Análise de oportunidades de investimentos de acordo com suitability do cliente;\n • Análise de indício de fraudes;\n • Elaboração de súmulas para diretoria de crédito e de investimento;\n • Assessoria em investimentos e elaboração de portfólio para grandes investidores (CRA/CRI, Debêntures, FIIs, Fundos de Investimentos);\n • Estruturação de soluções para atender às demandas de crédito dos clientes\n Location : Recife e Região, Brasil\n \n Job Title : Training in company\n Company name : Grant Thornton LLP\n Period : mai. de 218\n Summary : Convidado para realizar treinamento in company sobre a ferramenta de elaboração de projetos adotada pelo BNB nos projetos de captação de recursos (SEAP - Sistema de Elaboração e Análise de Projetos)\n Location : Recife, Pernambuco, Brasil\n \n Job Title : Senior Consultant\n Company name : Core Corporate Finance\n Period : mar. de 217 – jul. de 217\n Summary : • Realização de Valuation de empresa do setor de transportes\n • Consultor advisor em revisão de projeto de captação de recursos elaborado pelo BNP Paribas no montante de R$ 2 milhões para empresa do setor de energia\n Location : Recife, Pernambuco, Brasil\n \n Job Title : FP&A Senior Analyst\n Company name : Interne Soluções em Saúde\n Period : jun. de 215 – jan. de 216\n Summary : • Adaptação do modelo de custeio desenvolvido pela Deloitte ao sistema MV Custos; \n • Desenvolvimento de ferramenta de análise de rentabilidade dos convênios para \n suporte nas negociações e reajustes; \n • Elaboração da modelagem da rentabilidade de novos produtos, como por exemplo: o \n produto de monitoramento mensal de gestantes, o pacote de acompanhamento de \n funcionários (medicina do trabalho); \n • Elaboração da modelagem e controle das planilhas de remuneração variável do \n setor de expansão e dos profissionais comissionados (médicos e fisioterapeutas); \n • Auxílio na estruturação da controladoria através da análise dos processos existentes \n e redesenho dos fluxogramas\n Location : Recife e Região, Brasil\n \n Job Title : FP&A Senior Analyst\n Company name : Segsat Tecnologia\n Period : fev. de 214 – jan. de 216\n Summary : • Melhoria dos processos financeiros e contábeis;\n • Gestão da equipe financeira e contábil;\n • Elaboração e implantação do orçamento no ERP Pirâmide;\n • Análise do resultado financeiro e orçamentário;\n • Análise e projeção do fluxo de caixa;\n • Análise econômico-financeira dos projetos de expansão da empresa\n Location : Recife e Região, Brasil\n \n Job Title : Financial Advisory Consultant | Valuation and M&A\n Company name : Deloitte\n Period : jul. de 211 – fev. de 214\n Summary : • Avaliação Econômico-Financeira de empresas de diversos segmentos (Indústria, Varejo, Mineração);\n • Participação em projetos de M&A;\n • Elaboração de Estudos de Viabilidade Econômico-Financeiros;\n • Captação de recursos para empresas de grande porte, junto às principais instituições de fomento (BNB, BNDES, SUDENE, etc) e bancos privados;\n • Vencedor do prêmio Deloitte Top Innovation;\n • Coordenação de equipes\n Location : Recife, Pernambuco, Brasil\n \n Job Title : Intern | Financial Analyst\n Company name : Cedes Consultoria e Planejameto\n Period : jan. de 21 – jan. de 211\n Summary : • Contato e negociação direta com grandes clientes;\n • Elaboração de Estudos de Viabilidade Econômico-Financeiros;\n • Elaboração de Projetos de Captação de Recursos de Longo Prazo (BNB, BNDES, BB);\n • Cadastro e acompanhamento dos projetos de Captação de Recursos junto ao BNB, BNDES e BB\n Location : Recife e Região, Brasil\n \n \n Job Title : Consultor de P&D\n Company name : A.C.E. Consultoria\n Period : jan. de 29 – jan. de 21\n Summary : • Desenvolvimento e revisão das metodologias e ferramentas da empresa;\n • Participação no Planejamento Estratégico da empresa baseado no Balanced Scorecard;\n • Diagnóstico organizacional dos clientes;\n • Gerenciamento de um projeto de Análise de Custos\n Location : Recife e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Professional certifications: FP&A\n Certifications: Title : BULATS\n Period : Emitido em dez. de 2019 - Nenhuma data de expiração\n Issuing Authority : Cambridge Assessment English\n \n Title : CPA 20\n Period : Emitido em jun. de 2018 - Expira emjun. de 2023\n Issuing Authority : ANBIMA"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Federal de Pernambuco\n Speciality : Bacharel em Ciências Econômicas\n Period : 28 – 213\n \n School name : Ibmec\n Speciality : Master of Business Administration - MBA\n Summary : MBA em FinançasValuation, M&A e FP&A"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "fb53b2a6-a9f0-40ce-95bb-a34f24858a9a",
+    "id": "2e9b2e51-a864-4fb6-8501-42707c3a53ef*fb53b2a6-a9f0-40ce-95bb-a34f24858a9a",
+    "talent": {
+      "updatedAt": "2023-12-20T14:11:05.869Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:11:05.869Z",
+      "linkedinUsername": "ellisonpastorsousa",
+      "email": "ellisonalberto@hotmail.com",
+      "phone": "81997588177",
+      "name": "Ellison Pastor Sousa",
+      "id": "fb53b2a6-a9f0-40ce-95bb-a34f24858a9a"
+    },
+    "timeInCurrentStage": 61412039041
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.109Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "10000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Mecânica",
+          "id": "612a9e7a-ad38-4218-924b-ae8b5a2311e8",
+          "label": "Engenharia Mecânica"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Especialista de Projetos"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Especialista de Projetos\n Company name : Oi\n Period : out. de 221 – o momento\n Location : Rio de Janeiro, Brasil\n \n Job Title : Analista Sênior de Avaliação Estratégica\n Company name : Oi\n Period : jan. de 221 – out. de 221\n Location : Rio de Janeiro, Brasil\n \n Job Title : Analista Sênior de Projetos | M&A\n Company name : Oi\n Period : out. de 219 – jan. de 221\n Location : Rio de Janeiro, Brasil\n \n Job Title : Consultora - Management Consulting (O&G, Energia e Indústria)\n Company name : KPMG Brasil\n Period : mar. de 217 – set. de 219\n Summary : Representante do time Brasil e finalista na competição internacional de cases de 217 em Lisboa (KICC - KPMG International Case Competition)\n Location : Brasil\n \n Job Title : Mechanical Engineering Intern\n Company name : Promon Engenharia\n Period : fev. de 215 – jan. de 217\n \n \n Job Title : Pesquisadora - Energias Renováveis\n Company name : UNSW\n Period : out. de 213 – jul. de 214\n Summary : Desenvolvimento, análise e construção de um Coletor Solar Linear Fresnel\n Location : Sydney, New South Wales, Australia"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Federal do Rio de Janeiro\n Speciality : Bachelor of Engineering (B.Eng.), Mechanical Engineering\n \n School name : UNSW Australia\n Speciality : Bachelor of Engineering (B.Eng.), Engineering\n Period : 213 – 214"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "f73a1e48-c2ef-4817-852b-332942df94af",
+    "id": "2e9b2e51-a864-4fb6-8501-42707c3a53ef*f73a1e48-c2ef-4817-852b-332942df94af",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:09.281Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:09.281Z",
+      "linkedinUsername": "anna-luiza-tepedino",
+      "email": "altepedino@gmail.com",
+      "phone": "21986697226",
+      "name": "Anna Luiza Tepedino",
+      "id": "f73a1e48-c2ef-4817-852b-332942df94af"
+    },
+    "timeInCurrentStage": 61412939041
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.175Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "28/04/1993"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "9000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "USD"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "45078"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45078"
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Federal do Norte Fluminense"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": "MBA em administração pela UFRJ"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "M&A Analyst"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "Sem filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : M&A Analyst\n Company name : L6 Capital Partners\n Period : mar. de 219 – o momento\n Location : Rio de Janeiro Area, Brazil\n \n Job Title : Full-time MBA student\n Company name : COPPEAD UFRJ\n Period : fev. de 218 – jan. de 22\n Location : Rio de Janeiro Area, Brazil\n \n Job Title : Trainee Deal Advisory\n Company name : KPMG Brazil\n Period : nov. de 217 – fev. de 218\n Location : Rio de Janeiro Area, Brazil\n \n Job Title : Summer Internship\n Company name : ERCO Worldwide\n Period : mai. de 216 – set. de 216\n Location : Thunder Bay ON\n \n \n Job Title : Bolsista de Iniciação Científica\n Company name : FAPERJ\n Period : abr. de 213 – jul. de 215"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Certificado de conclusão do curso de língua inglesa Academic English Program"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Federal do Rio de Janeiro\n School name : COPPEAD UFRJ\n Speciality : Full-time MBA, Business Administration and Management, General\n Period : 218\n School name : Lakehead University\n Speciality : Bachelor's degree, Business/Mechanical Engineering\n Period : 215 – 216\n Summary : Science Without Borders student for 2 semesters at Lakehead University in Business School and Mechanical Engineering.Also, took one semester of English course offered by Lakehead University.\n \n School name : Universidade Estadual do Norte Fluminense\n Speciality : Bachelor of Engineering (B.Eng.), Industrial Engineering\n Period : 212 – 217"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "c6634f82-dcee-442e-8751-baf6366e4591",
+    "id": "2e9b2e51-a864-4fb6-8501-42707c3a53ef*c6634f82-dcee-442e-8751-baf6366e4591",
+    "talent": {
+      "company": "JGP Financial Advisory",
+      "createdAt": "2023-12-20T13:53:07.204Z",
+      "email": "francis.flores@hotmail.com",
+      "headline": "",
+      "linkedinUsername": "francis-flores",
+      "location": "",
+      "name": "Francis Flores",
+      "phone": "22997560909",
+      "picture": "https://media.licdn.com/dms/image/C5603AQHK7SAFyneeIQ/profile-displayphoto-shrink_200_200/0/1657813822985?e=1715212800&v=beta&t=iiahYTqk5JF_TEP38E2okJFBPFKxbrVe42AC5UkqoTM",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-03-05T20:02:31.542Z",
+      "id": "c6634f82-dcee-442e-8751-baf6366e4591"
+    },
+    "timeInCurrentStage": 61412039041
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.385Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "M&A Senior Associate"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : M&A Senior Associate\n Company name : PwC\n Period : set. de 221 – o momento\n Location : São Paulo, Brasil\n \n Job Title : Corporate Finance Analyst (M&A / FP&A)\n Company name : Onet\n Period : mar. de 22 – o momento\n Summary : Reporting directly to the Holding CFO\n - M&A - Post Deal (escrow, valuation, shareholders relationship, labor claims);\n - Financial accounting results;\n - Budget vs Real report for France;\n - IFRS 16 / Bank Statements / Cash Flow);\n - Supporting Audit and Accounting team;\n Location : São Paulo, Brasil\n \n Job Title : M&A - Mergers and Acquisitions\n Company name : Ticket\n Period : nov. de 218 – mar. de 22\n Summary : Finance and Legal Due Diligence with advisors;\n Prepare the financial modeling for the valuation of M&A projects (Purchase, sale, partnership);\n Evaluate the assumptions in financial models and synergy calculations, together with the main areas of the company (Operations, Commercial, Financial, Tax, Legal);\n Coordinate Data Rooms and Q&A's;\n Weekly report for deals in progress direct to France HQ;\n Prospecting and identifing potential Targets;\n Closing of contracts and closing of projects;\n PMI of the merger between Ticket and Itaú;\n Location : São Paulo, São Paulo, Brazil\n \n \n Job Title : America Sales Business Operations\n Company name : T-Systems do Brasil\n Period : jun. de 217 – out. de 218\n Location : São Paulo, São Paulo, Brazil\n Company 2: Onet"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Intensive Exchange Program - Advanced (Vancouver)\n Period : Emitido em dez. de 2014 - Nenhuma data de expiração\n Issuing Authority : ILAC\n \n Title : Gestão e Negócios\n Period : Emitido em ago. de 2013 - Nenhuma data de expiração\n Issuing Authority : Senac São Paulo"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : ILAC International College\n Speciality : Exchange Program, English Language and Literature/Letters\n Period : 214 – 215\n \n School name : Universidade Anhembi Morumbi\n Speciality : Bachelor of Business Administration - BBA\n Period : 217 – 22"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "12bda657-79a6-4a03-a95f-075fb89da285",
+    "id": "2e9b2e51-a864-4fb6-8501-42707c3a53ef*12bda657-79a6-4a03-a95f-075fb89da285",
+    "talent": {
+      "updatedAt": "2023-12-20T13:52:24.767Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:52:24.767Z",
+      "linkedinUsername": "guilherme-cardoso-moraes-4823568a",
+      "email": "guilhermemoraescm@gmail.com",
+      "phone": "11972227277",
+      "name": "Guilherme Cardoso Moraes",
+      "id": "12bda657-79a6-4a03-a95f-075fb89da285"
+    },
+    "timeInCurrentStage": 61412339041
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.208Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista Jr. de M&A"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista Jr. de M&A\n Company name : Prumo\n Period : set. de 221 – o momento\n Summary : - Modelagem financeira de longo prazo\n - Valuation e avaliação de novos projetos\n - Processos de M&A em geral\n - Suporte em demandas pontuais como emissão de dívida e projeções de caixa\n Location : Rio de Janeiro\n \n Job Title : Analista Jr. de Planejamento Financeiro\n Company name : Prumo\n Period : mar. de 221 – set. de 221\n Summary : - Modelagem Financeira e Valuation\n - Avaliação de projetos\n - Análise de performance (Perf x Bud e YoY)\n - Planejamento Estratégico\n - Gestão de Portfólio\n - Apoio em demandas como Refinanciamento e Teste de Impairment\n Location : Rio de Janeiro\n \n Job Title : Assistente de Planejamento Financeiro\n Company name : Prumo\n Period : nov. de 22 – mar. de 221\n Summary : - Modelagem Financeira\n - Valuation\n - Avaliação de Projetos\n - Apoio em decisões estratégicas\n - Suporte em demandas como teste de Impairment, Planejamento Estratégico e Refinanciamento\n Location : Rio de Janeiro\n \n Job Title : Estagiário de Planejamento Financeiro\n Company name : Prumo\n Period : jan. de 219 – nov. de 22\n Summary : - Modelagem Financeiro e Valuation\n - Avaliação de Projetos\n - Suporte para decisões Estratégicas\n - Apoio em demandas como teste de Impairment e Planejamento Estratégico\n Location : Rio de Janeiro\n \n Job Title : Professor Voluntário de Matemática\n Company name : Potenciação Trapicheiros\n Period : ago. de 22 – mai. de 221\n Location : Rio de Janeiro\n \n \n Job Title : Estágiário\n Company name : Paola Vilas Joias\n Period : jun. de 218 – jul. de 218\n Summary : Estágio temporário na área administrativa\n Location : Rio de Janeiro"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Introdução a Análise Macroeconômica\n Period : Emitido em jun. de 2020 - Nenhuma data de expiração\n Issuing Authority : USP - Ead\n \n Title : Modelagem Financeira, Valuation e Project Finance\n Issuing Authority : T-Capital Learning Solutions"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade do Estado do Rio de Janeiro\n Speciality : Graduação, Engenharia de Produção\n Period : 215 – 22\n \n School name : Instituto de Engenharia e Gestão\n Speciality : MBA, Jr, Administração e Negócios\n Period : 218 – 218"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "294f080d-c292-4a9d-b9e9-2d5196e31b0c",
+    "id": "2e9b2e51-a864-4fb6-8501-42707c3a53ef*294f080d-c292-4a9d-b9e9-2d5196e31b0c",
+    "talent": {
+      "updatedAt": "2023-12-20T13:57:01.621Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:57:01.621Z",
+      "linkedinUsername": "filipe-terra-a53535140",
+      "email": "filipeterraseca@hotmail.com",
+      "phone": "21971546677",
+      "name": "Filipe Terra",
+      "id": "294f080d-c292-4a9d-b9e9-2d5196e31b0c"
+    },
+    "timeInCurrentStage": 61412939041
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.137Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista PL Financeiro - Projetos M&A - Integração pós aquisição"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista PL Financeiro - Projetos M&A - Integração pós aquisição\n Company name : Rede D'Or São Luiz\n Period : mai. de 221 – o momento\n Summary : - Levantamento de informações financeiras de novas unidades adquiridas / Mapeamento de processos \n - Plano de ação para migração de novas empresas para estrutura corporativa Rede dor \n - PMO frente financeira \n - Tratativa de carga no Excel de dados financeiros\n - Identificar risco e soluções de contorno\n - Realizar alinhamento entre gestores, solucionando conflitos \n - Interface com áreas CSC, corporativo e unidades hospitalares\n Location : Rio de Janeiro, Brasil\n \n Job Title : Analista de Materiais Planejamento\n Company name : Rede D'Or São Luiz\n Period : jul. de 219 – abr. de 221\n Summary : -Planejamento da Demanda e de Distribuição, promovendo a reposição dos níveis de estoque conforme políticas de inventário vigentes, através da aplicação de conceitos e técnicas de administração de materiais para reduzir custos e evitar desperdícios;\n -Assegurar o cumprimento dos envios das Solicitações de Compra conforme Calendário Corporativo do Planejamento e controle de suprimentos ;\n -Garantir o cumprimento das metas de cobertura de estoque, nível de serviço e ordens perfeitas;\n - Acompanhar e buscar melhorias nos Indicadores de Desempenho de sua responsabilidade;\n -Análise Crítica dos KPIs \n -Liderar Planos de Ação junto às suas interfaces diretas visando capturar ganhos operacionais e financeiros a partir do fortalecimento dos processos\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Analista Logística e Processo\n Company name : Menos 1 Lixo\n Period : set. de 218 – jul. de 219\n Summary : - Mapeamento e melhoria de fluxos de processos de logística;\n - Planejamento e controle de produção e estoque;\n - Planejamento de movimentação interna a entrega final do produto;\n - Automatização do processo;\n - Responsável pela administração e recursos usados para a produção do copo;\n - Gestão de fornecedores;\n Location : RIO DE JANEIRO\n \n Job Title : Analista Financeiro Tesouraria\n Company name : Vinci Partners\n Period : mar. de 215 – fev. de 217\n Summary : - Gestão integrada do fluxo de caixa das empresas do grupo Vinci;\n - Análise e previsão de investimentos;\n - Elaboração e análise do relatório de despesas da empresa;\n - Elaboração do arquivo contábil;\n - Mapeamento e melhorias de processo\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Estagiária\n Company name : Youburger\n Period : nov. de 213 – fev. de 214\n Summary : - Planejamento e controle de estoque de suprimento;\n - Implementação de indicadores para trazer melhorias no processo\n - Negociações e pedidos com fornecedores\n Location : Resende e Região, Brasil\n \n \n Job Title : Estagiária\n Company name : PSA Peugeot Citroën Brasil\n Period : mar. de 213 – out. de 213\n Summary : - Atualização dos indicadores de produção;\n - Desenvolvimento de atividades do PSA Excellence System;\n - Análise crítica do rendimento operacional da produção\n Location : Porto Real,Rio de Janeiro, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul\n Speciality : Pós-graduação Lato Sensu, Finanças, Investimentos e Banking | Edição 221\n Period : 221 – 222\n School name : Universidade do Estado do Rio de Janeiro\n Speciality : Bachelor of Engineering (B.E.), Engenharia de Produção com ênfase em mecânica\n Period : 29 – 214\n School name : Colégio Pedro II\n Period : 1996 – 27\n \n School name : CEFET- RJ\n Speciality : Técnico, Eletrônica\n Period : 25 – 26"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "7f6199df-029d-4879-9d83-010f76079375",
+    "id": "2e9b2e51-a864-4fb6-8501-42707c3a53ef*7f6199df-029d-4879-9d83-010f76079375",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:02.894Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:02.894Z",
+      "linkedinUsername": "maryana-terra-ba5b7ba3",
+      "email": "terra.maryana@gmail.com",
+      "phone": "21991070666",
+      "name": "Maryana Terra",
+      "id": "7f6199df-029d-4879-9d83-010f76079375"
+    },
+    "timeInCurrentStage": 61412039041
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.152Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "29/11/1993"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "10100"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "2.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia civil",
+          "id": "9556216e-65f1-4fb6-b9a8-a919194e751a",
+          "label": "Engenharia civil"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Expansões"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Expansões\n Company name : Eleva Educação\n Period : jul. de 219 – o momento\n Summary : - Responsável pela expansão das marcas do grupo Eleva Educação, participando de fusões e aquisições de escolas por todo o Brasil- Atuante em todas as etapas do processo: prospecção, valuation e modelagem financeira, negociação comercial, discussão de contrato e fechamento do deal.\n Location : Rio de Janeiro\n \n Job Title : Business Analyst\n Company name : Deloitte\n Period : out. de 217 – jul. de 219\n Summary : - Controle e gerenciamento da construção da linha de transmissão ligando a hidrelétrica de Belo Monte (Pará) ao Rio de Janeiro, contando com um CapEx estimado de R$ 7,6 bilhões. Profunda análise dos contratos da obra, monitoramento de riscos e análise de pleitos associados ao projeto. - Gestão de projetos de mineração através da criação de dashboards em Power BI para análise contratual e gerenciamento de pleitos.- Trabalho de auditoria técnica da construção da Usina Hidrelétrica de Sinop, no estado do Mato Grosso. O projeto consistia na verificação do processo de aprovação e as respectivas reivindicações referentes aos dois aditivos do contrato.\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Intern\n Company name : Ohmyhome\n Period : jun. de 217\n Summary : Worked at the real estate startup in a team of 5 people, responsible for improving the app user experience. Also planned and developed an affordability calculator for clients according to their loans and available cash.\n Location : Singapore\n \n Job Title : Research Assistant\n Company name : National University of Singapore\n Period : ago. de 216 – set. de 216\n Summary : Research Assistant at NUS on implementing Virtual Reality Systems on Building Information Modelling (BIM), using design software Revit and coding programme Python. One of the pioneers of the research, I was responsible for setting up the software available and learn how to use them. Work closely with another colleague in order to achieve the desired plan in the 6 weeks that I had. The objective was accomplished and it was possible to walk inside a 3D building model in a Virtual Reality scene.\n Location : Central Singapore\n \n Job Title : English Teacher\n Company name : New Oriental Education & Technology Group\n Period : jun. de 216 – ago. de 216\n Summary : Responsible for planning and delivering English lessons for students from the age of 14 to 5 years old. Organised and lead classes of 2-3 students, adopting creative and innovative ways to engage students.\n Location : Wuhan, Hubei, China\n \n \n Job Title : Research Assistant\n Company name : Universidade Federal do Rio de Janeiro\n Period : set. de 212 – dez. de 212\n Summary : Part-time work associated with a scholarship that awarded the best Science students studying Engineering. I was responsible for reconstructing a robot used to map deep-sea areas and learning more about the practical application of Automation Engineering. Worked closely with PhD students that were involved in the research, using C programming language to manage any issues associated with the robot. After my contribution, the robot was taken to Antarctica to map the sea in that region.\n Location : Brazil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Scrum Fundamentals Certified\n Period : Emitido em ago. de 2018 - Expira emago. de 2021\n Issuing Authority : SCRUMstudy - Accreditation Body for Scrum and Agile;Download Free Scrum Body of Knowledge(381 pages)"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : University of Bristol\n Speciality : Master’s Degree, Civil Engineering, Second Upper Class\n Period : 213 – 217\n Summary : Member of AIESEC Bristol\n \n Events Organiser at the Institution of Civil Engineers (ICE) Southwest\n School name : COPPEAD UFRJ\n Speciality : Pós-graduação, Formação em Finanças\n Period : 218 – 219\n \n School name : Nanyang Technological University\n Speciality : Bachelor’s Degree, Civil Engineering - Exchange\n Period : 215 – 216"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "8ceb80d7-0c5b-4c74-83f7-5c61727df887",
+    "id": "2e9b2e51-a864-4fb6-8501-42707c3a53ef*8ceb80d7-0c5b-4c74-83f7-5c61727df887",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:15.081Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:15.081Z",
+      "email": "victortstocco@gmail.com",
+      "phone": "21972760471",
+      "name": "Victor Stocco",
+      "id": "8ceb80d7-0c5b-4c74-83f7-5c61727df887"
+    },
+    "timeInCurrentStage": 61412039041
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.082Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de M&A e Novos Negócios"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de M&A e Novos Negócios\n Company name : Eletromidia\n Period : dez. de 22 – o momento\n Location : São Paulo, São Paulo, Brasil\n \n Job Title : Analista de Ações\n Company name : Nord Research\n Period : abr. de 22 – ago. de 22\n \n Job Title : Analista de M&A e Novos Negócios\n Company name : inGaia\n Period : fev. de 219 – abr. de 22\n \n Job Title : Analista de Fusões e Aquisições\n Company name : Asset Brazil Serviços Financeiros Ltda\n Period : mai. de 218 – fev. de 219\n Location : São Paulo, Brasil\n \n Job Title : Estagiário\n Company name : Rede\n Period : jul. de 217\n \n \n Job Title : Estagiário\n Company name : Ecovias dos Imigrantes\n Period : mai. de 216 – nov. de 216"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Certificate in Advanced English\n Issuing Authority : Cambridge English Language Assessment"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Saint Paul Escola de Negócios\n Speciality : Pós-graduação, Mercado Financeiro\n Period : 218 – 219\n School name : Saint Paul Escola de Negócios\n Speciality : Investment Banking\n Period : 218\n School name : Centro Universitário do Instituto Mauá de Tecnologia\n Speciality : Bacharelado, Engenharia Civil\n Period : 212 – 217\n \n School name : IMT - Mauá - Instituto Mauá de Tecnologia\n Speciality : Minor em Gestão de Negócios\n Period : 217"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "a99eb385-fb8e-4ae1-b4cd-0e8298cb2d77",
+    "id": "2e9b2e51-a864-4fb6-8501-42707c3a53ef*a99eb385-fb8e-4ae1-b4cd-0e8298cb2d77",
+    "talent": {
+      "company": "PicPay",
+      "createdAt": "2023-12-20T13:51:44.586Z",
+      "email": "nc.matins@hotmail.com",
+      "headline": "",
+      "linkedinUsername": "nicholascm",
+      "location": "",
+      "name": "Nicholas Martins",
+      "phone": "13974056665",
+      "picture": "https://media.licdn.com/dms/image/C5603AQFsbhMbzVsMKg/profile-displayphoto-shrink_200_200/0/1613598844705?e=1715212800&v=beta&t=hNgPc4MsL0dmBb1STBBuGZ5vdQtNBvgeUzpDTrI9j6c",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-03-05T20:02:12.656Z",
+      "id": "a99eb385-fb8e-4ae1-b4cd-0e8298cb2d77"
+    },
+    "timeInCurrentStage": 61412039041
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.413Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "12/05/1993"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "8500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Especialista Financeiro - M&A"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Especialista Financeiro - M&A\n Company name : DaVita Kidney Care\n Period : jun. de 221 – o momento\n Summary : Líder responsável pela área de post closing:\n - Interface com área jurídica para análise das obrigações contratuais de pós fechamento dos deals;\n - Atuação em parceria com as demais áreas financeiras para cálculo de earnouts e holdbacks;\n - Relacionamento com os vendedores das clínicas que foram adquiridas e interface com as demais áreas da empresa;\n - Desenvolvimento de fluxos de atividades com discriminação de missões e responsabilidade no que tange todo o processo de pós fechamento\n Location : Rio de Janeiro, RJ, Brasil\n Job Title : Analista de Planejamento Financeiro Sr\n Company name : INVEPAR\n Period : jan. de 22 – abr. de 221\n Summary : - Responsável pelo planejamento financeiro da via Linha Amarela, incluindo acompanhamento de CAPEX, OPEX e receita:\n * Elaboração da modelagem de curto e longo prazo da via;\n * Reports mensais para a diretoria financeira com os resultados do mês e acumulado;\n * Modelagem de cenário alternativo em virtude da pandemia e do litígio com o poder concedente;\n * Acompanhamento semanal do fluxo de caixa, com atualização de premissas financeiras também semanalmente\n - Apoio às rodovias coligadas do grupo, no que tange Via Rio (Transolímpica) e CRT (Concessionária Rio-Teresópolis):\n * Auxílio na modelagem de curto e longo prazo;\n * Revisão da apresentação de resultados mensais, a ser informada a diretoria\n - Apoio às área de Novos Negócios e Valuation, no que tange modelagem financeira e análise de viabilidade\n - Suporte ao gerente financeiro e CFO da empresa, com relação às informações financeiras das rodovias que fazem parte do grupo, no que tange modelagem financeira, plano de investimento anual, e cenário de pandemia\n Location : Rio de Janeiro, RJ, Brasil\n Job Title : Consultor sênior\n Company name : KPMG Brasil\n Period : out. de 218 – jan. de 22\n Summary : - Atuação de liderança em projeto de apoio ao Programa de PPP e Concessão do Estado do Rio Grande do Sul:\n * Coordenação para entrega dos produtos ao cliente (contrato, edital, modelagem financeira);\n * Report ao gerente, sócio e diretor do projeto;\n * Condução de reuniões junto ao consórcio participante do projeto e ao cliente;\n * Elaboração de modelagem financeira e análise de viabilidade de projetos rodoviários;\n Location : Rio de Janeiro, Rio de Janeiro\n Job Title : Consultor pleno\n Company name : KPMG Brasil\n Period : mar. de 217 – set. de 218\n Summary : - Valuation de empresas de infraestrutura dos setor público e privado, e testes de impairment das mesmas;\n -Auxílio a modelagens financeiras de média complexidade no setor de infraestrutura, com project finance, utilizando premissas de dívida comumente utilizadas pelo BNDES;\n - Elaboração de material para proposta de consultoria à vendas e concessão de ativos públicos;\n - Auxílio na consultoria para recálculo de tarifas de concessionária do setor de rodovias\n Location : Rio de Janeiro, Rio de Janeiro\n Job Title : Analista financeiro\n Company name : Piemonte Investimentos\n Period : jul. de 215 – out. de 216\n Summary : - Trabalhos voltados para área de M&A e esse assessoria financeira, no que tange análise do resultado financeiro da empresa, elaboração de diagnóstico contábil e financeiro, preparação de material comercial para o mercado e preparo de modelagem financeira;\n - Coach e coordenação dos trabalhos com os membros mais juniores da equipe;\n - Apoio em trabalhos internos de reestruturação na área de controladoria, verificando e participando de todo fluxo de informações\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Financial Services Associate\n Company name : PwC Brasil\n Period : jul. de 213 – jul. de 215\n Summary : - Auditoria de fundos de investimento onshore, com base na instrução ICVM 49, trabalhando na análise geral dos fundos auditados, verificando carteira de investimentos, rentabilidade, análise anual de desempenho, análise para eventuais ênfases no parecer decorrentes de investimentos ilíquidos, reperformance de contas do balanço como taxa de administração, taxa de performance, recálculo e análise de resgates nos respectivos fundos e seus investidos\n - Conhecimento em fundos de investimentos imobiliários, instrução ICVM 56 com análise de laudos, entre outros \n - Controle de horas e de equipes, distribuição e organização do trabalho, suporte ao supervisor e gerente\n Location : Rio de Janeiro e Região, Brasil\n Job Title : Estagiária\n Company name : Eletronuclear\n Period : out. de 29 – dez. de 21\n Location : Rio de Janeiro e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "FP&A"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Master of Business Administration - MBA, Finanças Corporativas\n Period : 219 – 22\n School name : Estácio\n Speciality : Bacharelado em Ciências contábeis\n Period : 216 – 218\n School name : ESPM Escola Superior de Propaganda e Marketing\n Speciality : Bacharelado em Administração\n Period : 211 – 214"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "9b1127db-d67f-496e-9a2c-f74fa9d78a0b",
+    "id": "2e9b2e51-a864-4fb6-8501-42707c3a53ef*9b1127db-d67f-496e-9a2c-f74fa9d78a0b",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:06.221Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:06.221Z",
+      "linkedinUsername": "marcella-rodrigues",
+      "email": "marcellaprodrigues@gmail.com",
+      "phone": "21981428210",
+      "name": "Marcella Rodrigues",
+      "id": "9b1127db-d67f-496e-9a2c-f74fa9d78a0b"
+    },
+    "timeInCurrentStage": 61412339041
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.295Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "M&A, Business Development and Investors Relations Analyst"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : M&A, Business Development and Investors Relations Analyst\n Company name : GRUPO CBO - Companhia Brasileira de Offshore\n Period : abr. de 22 – o momento\n \n Job Title : Financial Planning and Budgeting Analyst\n Company name : Prumo\n Period : nov. de 219 – abr. de 22\n \n Job Title : Strategic Planning Analyst\n Company name : Prumo\n Period : ago. de 218 – nov. de 219\n \n \n Job Title : Project Management and Strategic Planning Internship\n Company name : Prumo\n Period : jan. de 218 – ago. de 218"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Federal do Rio de Janeiro\n Speciality : Graduação, Engenharia Naval e Oceânica\n School name : COPPEAD UFRJ\n Speciality : Jovens Profissionais - Formação em Finanças\n Period : 22 – 221\n School name : T Capital - Learning Solutions\n Speciality : Financial Modeling, Valuation & Project Finance\n Period : 22\n \n School name : Fundação Getulio Vargas\n Speciality : Formação Executiva, Gerenciamento de Projetos\n Period : 219 – 219"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "09ec6aa9-4c3f-44fb-88aa-5a511c1ff546",
+    "id": "2e9b2e51-a864-4fb6-8501-42707c3a53ef*09ec6aa9-4c3f-44fb-88aa-5a511c1ff546",
+    "talent": {
+      "updatedAt": "2023-12-20T14:11:03.803Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:11:03.803Z",
+      "linkedinUsername": "abiliofolly",
+      "email": "abiliofolly@poli.ufrj.br",
+      "phone": "",
+      "name": "Abilio Folly",
+      "id": "09ec6aa9-4c3f-44fb-88aa-5a511c1ff546"
+    },
+    "timeInCurrentStage": 61412939041
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.352Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de aquisições e fusões"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de aquisições e fusões\n Company name : Grupo SOMA\n Period : jun. de 221 – o momento\n \n Job Title : Analista de aquisições e fusões\n Company name : DaVita\n Period : fev. de 221 – jun. de 221\n \n Job Title : Assistente de M&A\n Company name : DaVita\n Period : fev. de 22 – fev. de 221\n Summary : Analisar empresas, visitação in loco, acompanhamento do processo de aquisição, DD e negociação, bem como a modelagem/valuation das informações obtidas\n \n Job Title : Cofundador\n Company name : OMNIS SOLUÇÕES JURIDICAS\n Period : ago. de 219 – dez. de 22\n Summary : Criei a Omnis Soluções Jurídicas com mais 4 sócios, essa empresa visa facilitar a vida dos advogados do Brasil através de soluções tecnológicas para alguns TJs do Brasil\n Location : Duque de Caxias, Rio de Janeiro, Brasil\n \n Job Title : Estagiário de M&A\n Company name : Raiz Educação\n Period : abr. de 218 – dez. de 219\n Summary : Funções:\n Fazer pesquisas mercadológicas\n Fazer valuations de ativos de terceiros e orçamentos dos próprios ativos\n Apresentar resultado das análises à diretoria executiva da empresa\n \n Resultado:\n + de 3 orçamentos feitos\n + de 2 valuation de ativos analisados\n Participação em negociações\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Tutor de matemática\n Company name : Pré Vestibular Social do Cederj\n Period : fev. de 215 – dez. de 219\n Summary : Ministrar aulas de Matemática\n \n Job Title : Coordenador Regional de Divulgação\n Company name : Pré Vestibular Social do Cederj\n Period : out. de 217 – dez. de 218\n Summary : Responsável por uma equipe de 12 pessoas, fazer o relatório geral da divulgação e revisar o dos divulgadores \n \n Entre as atribuições estão: \n - receber treinamento e o material para o processo\n - organizar as reuniões\n - distribuir o material entre os divulgadores\n - delegar localidades e escolas para que cada um realize a divulgação\n - tirar dúvidas e ser a ponte de comunicação entre a direção do projeto e a equipe\n - além de também divulgar o projeto\n Location : Duque de Caxias\n \n Job Title : Divulgador\n Company name : Pré Vestibular Social do Cederj\n Period : out. de 215 – out. de 217\n Summary : Responsável por entrar em contato com escolas públicas da região e outros estabelecimentos que pudessem ter jovens ou adultos que desejassem cursar o vestibular, conseguir marcar uma palestra para a apresentação do curso, divulgar e coletar dados sobre o público e o local de divulgação O período de trabalho era nos 2 últimos meses do ano, próximo à data do processo seletivo, trabalhei nessa função durante 2 anos, até tornar-me a coordenador regional de divulgação\n Location : Duque de Caxias\n \n Job Title : Monitor\n Company name : Pensi - Colégio e Curso\n Period : mar. de 216 – jul. de 217\n Summary : Acompanhamento e auxílio dos alunos no desenvolvimento de suas competências em matemática\n \n \n Job Title : Assessor de Qualidade\n Company name : Fluxo Consultoria\n Period : jul. de 213 – mar. de 215\n Summary : Atuei em 3 cargos diferentes, como Gerente de Projetos: fui responsável por um projeto de banco de dados auxiliado por um estagiário Como Assessor de Qualidade: assessorei a diretoria de marketing, criei relatórios, avaliei documentos, analisei e acompanhei os indicadores para a melhoria da área e dos\n processos dessa Como Líder da Área de Banco de Dados: além de gerir os principais bancos de dados da empresa e implementar 2 novos, criei relatórios e integrei planilhas a eles"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Beginner to Pro in Excel: Financial Modeling and Valuation\n Period : Emitido em jun. de 2020 - Nenhuma data de expiração\n Issuing Authority : Udemy\n \n Title : Gestão Financeira Para Pequenas e Médias Empresas\n Period : Emitido em fev. de 2019 - Nenhuma data de expiração\n Issuing Authority : Udemy"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Federal do Rio de Janeiro\n Speciality : graduação, Engenharia de Produção\n Period : 213 – 221"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "b683752d-2bfc-41ae-8fd5-1e9dc30cec02",
+    "id": "2e9b2e51-a864-4fb6-8501-42707c3a53ef*b683752d-2bfc-41ae-8fd5-1e9dc30cec02",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:46.565Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:46.565Z",
+      "linkedinUsername": "israel-o-melo",
+      "email": "israeloliveirademelo@poli.ufrj.br",
+      "phone": "",
+      "name": "Israel Melo",
+      "id": "b683752d-2bfc-41ae-8fd5-1e9dc30cec02"
+    },
+    "timeInCurrentStage": 61412939042
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.238Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "03/07/1995"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "9200"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Economia",
+          "id": "72b9c97c-68f7-40f0-b9d8-7a317f72d545",
+          "label": "Economia"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Deals Strategy and Delivering Deals Value Sr. Associate"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Deals Strategy and Delivering Deals Value Sr. Associate\n Company name : PwC Brasil\n Period : fev. de 221 – o momento\n Summary : Support a PMI for an Israeli Chemical company with interactions with teams from Latin America, USA and Israel\n Led an economic evaluation of the incorporation of two legal entities in Brazil for a Global Pharmaceutical player\n Conducted a buy-side operational and commercial due diligence of a pet food company for a Global Food & Beverage player\n Location : São Paulo, Brasil\n Job Title : Mergers and Acquisitions Analyst\n Company name : Pactor Finanças Corporativas\n Period : dez. de 218 – jan. de 221\n Summary : Responsible for executing end-to-end M&A transactions in the most varied industries (eg Education, Food & Beverage, Insurance, IT, et cetera), elaboration of teasers, financial models, business plans, information memorandums, sector studies, potential investors assessment, among others and coordinating due diligence works\n Contribution to deal origination by studying different sectors, company operations, financial statements and analyzing alternatives to promote higher growth and efficiency\n Support associates and partners in the preparation and analysis of non-disclosure agreements (NDAs), letters of intent (LOIs), non-binding offers (NBOs) and memorandums of understanding (MOUs)\n Location : São Paulo e Região, Brasil\n Job Title : Mergers and Acquisitions Intern\n Company name : Pactor Finanças Corporativas\n Period : mar. de 218 – nov. de 218\n Location : São Paulo e Região, Brasil\n Job Title : Summer Internship\n Company name : Vitta Serviços tecnológicos LTDA\n Period : jan. de 216 – fev. de 216\n Summary : Summer Internship in the commercial area\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Professional certifications: CFA\n Certifications: Title : CFA level III Candidate\n Period : Emitido em ago. de 2021 - Expirounov. de 2021\n Issuing Authority : CFA Institute"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Insper\n Speciality : Economia\n Period : 214 – 218\n School name : Colégio Visconde de Porto Seguro\n Period : 21 – 212\n Courses: Title : Curso Mercado de Ações: Conceitos e Definições da BM&FBovespa; Title : Curso de Investment Banking na Saint Paul Escola de Negócios; Title : Intercâmbio cultural com o objetivo de aprimorar o inglês: Curso realizado na Nova Zelândia na EF International Language Center Auckland, residindo por 5 meses em Host Family e interagindo 1% do tempo com nativos e estudantes de outras nacionalidades.; \n Title : Realização de intercâmbio cultural com o objetivo de aprimorar o idioma inglês: Curso realizado em Boston na New England School of English (NESE), residindo por um mês (julho de 215) em residência estudantil."
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "7b89ffe4-1951-44d1-a89e-f8487cd2f855",
+    "id": "2e9b2e51-a864-4fb6-8501-42707c3a53ef*7b89ffe4-1951-44d1-a89e-f8487cd2f855",
+    "talent": {
+      "company": "EY-Parthenon",
+      "createdAt": "2023-12-20T14:00:46.642Z",
+      "email": "guntherks@hotmail.com",
+      "headline": "",
+      "linkedinUsername": "gunther-kolody-stanjek-7a92a8157",
+      "location": "",
+      "name": "Gunther Kolody Stanjek",
+      "phone": "11976430356",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQFsONJLHK2rSw/profile-displayphoto-shrink_200_200/0/1610816824571?e=1715212800&v=beta&t=PK-2_MZY5sxbePiNnWIUeHW7VjD4nM0yj0ZLCkTuYJM",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-03-05T20:02:46.916Z",
+      "id": "7b89ffe4-1951-44d1-a89e-f8487cd2f855"
+    },
+    "timeInCurrentStage": 61412339042
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.268Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "M&A Analyst"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : M&A Analyst\n Company name : Vale\n Period : jul. de 22 – o momento\n Summary : Valuation de ativos para fusão, aquisição e desinvestimento Método de fluxo de caixa descontado, análise de múltiplos setoriais e comparações com transações precedentes\n Modelagem financeira\n Interface com bancos de investimentos: elaboração de teaser, info memo e no processo de due diligence\n Estudo criterioso dos mercados envolvidos nos valuations\n Análise do mercado de commodities minerais e energéticas\n Estudo e contato com potenciais investidores: empresas, fundos de investimento\n Location : Rio de Janeiro e Região\n \n Job Title : M&A Intern\n Company name : Vale\n Period : jun. de 218 – jul. de 22\n \n Job Title : Intern\n Company name : Empresa Municipal de Informática - IplanRio\n Period : nov. de 217 – mai. de 218\n Summary : Responsável pelo acompanhamento de contratos assim como de empenhos e despesas da empresa\n \n Job Title : Membro\n Company name : Impactus UFRJ\n Period : mar. de 217 – dez. de 217\n Summary : Núcleo de Estudos do Mercado Financeiro\n \n Job Title : Estagiário\n Company name : Rede Entropia de Inovação e Empreendedorismo\n Period : jun. de 217 – set. de 217\n Location : Rio de Janeiro e Região, Brasil\n \n \n Job Title : Técnico de pesquisa\n Company name : Universidade Federal do Rio de Janeiro\n Period : mar. de 214 – fev. de 215\n Summary : Estudo sobre a dispersão de compostos orgânicos voláteis na atmosfera e suas consequências\n  – Trabalho publicado -Departamento de Meteorologia\n Location : Rio de Janeiro e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : CEA\n Period : Emitido em jul. de 2019 - Expira emjul. de 2022\n Issuing Authority : ANBIMA"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Federal do Rio de Janeiro\n Speciality : Bacharelado em Administração, Administração de Empresas\n Period : 216 – 22\n School name : Corporate Finance Institute® (CFI)\n Speciality : Financial Model & Valuation Analyst, Finanças\n Period : 219 – 219\n \n School name : Colégio Santo Inácio\n Speciality : Ensino Médio\n Courses: Title : Excel Aplicado a Negócios - IEG; \n Title : Princípios de Contabilidade e Análise de Balanço - FGV/CADEMP"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "cf8b172c-d1f2-4015-b64b-8a3410dee243",
+    "id": "2e9b2e51-a864-4fb6-8501-42707c3a53ef*cf8b172c-d1f2-4015-b64b-8a3410dee243",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:06.519Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:06.519Z",
+      "linkedinUsername": "daniel-oliveira-cea-068b09123",
+      "email": "danielcdo30@gmail.com",
+      "phone": "",
+      "name": "Daniel Oliveira",
+      "id": "cf8b172c-d1f2-4015-b64b-8a3410dee243"
+    },
+    "timeInCurrentStage": 61412939042
+  }
+]

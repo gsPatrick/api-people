@@ -1,0 +1,1581 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:22.314Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "21/03/1973"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "50000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor executivo de vendas"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2 Filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "MG",
+          "id": "fd9a75a0-f705-48e8-9abe-cb8601c06067",
+          "label": "MG"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Diretor executivo de vendas\n Company name : Curinga dos Pneus\n Period : jun. de 22 – set. de 22\n Location : Brasília, Distrito Federal, Brasil\n \n Job Title : Senior Sales Manager\n Company name : Bridgestone\n Period : set. de 218 – jun. de 22\n Location : MG/RJ/ES/Centro-Oeste\n \n Job Title : Executive Director\n Company name : Pneus Santa Helena (Revenda Oficial Pirelli)\n Period : mai. de 211 – set. de 218\n Location : Sete Lagoas e Região, Brasil\n \n Job Title : Regional Sales Manager\n Company name : Equity (Pneuac)\n  / Pirelli group\n Period : out. de 25 – abr. de 211\n Location : Mg / Rj / Es e Go\n \n Job Title : Senior Sales Representative\n Company name : Equity (Pneuac)\n  / Pirelli group\n Period : set. de 24 – out. de 25\n \n \n Job Title : Area Manager\n Company name : Volkswagen do Brasil\n Period : dez. de 22 – abr. de 24\n Location : Regional Mg"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Pontifícia Universidade Católica de Minas Gerais\n Speciality : Master of Business Administration (M.B.A.), Marketing/Marketing Management, General\n Period : 24\n School name : FCG/UNA\n Speciality : Bachelor of Business Administration (B.B.A.), International Business/Trade/Commerce\n Period : 1992 – 1995\n School name : Nimitz High School\n Speciality : High School Diploma\n Period : 1991 – 1991\n \n School name : Centro Federal de Educação Tecnológica MG\n Speciality : Industrial mechanics, Técnico - Mecânica Industrial\n Period : 1988 – 199"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "8a70da7c-5adf-4e19-a561-665655daba4f",
+    "id": "e4f3e42b-6b05-40dc-8659-a81504410e9b*8a70da7c-5adf-4e19-a561-665655daba4f",
+    "talent": {
+      "updatedAt": "2023-12-20T14:07:27.720Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:07:27.720Z",
+      "linkedinUsername": "sergiohpimenta",
+      "email": "sergiohpimenta@hotmail.com",
+      "phone": "31975682808",
+      "name": "Sergio Pimenta",
+      "id": "8a70da7c-5adf-4e19-a561-665655daba4f"
+    },
+    "timeInCurrentStage": 61412403292
+  },
+  {
+    "importedAt": "2024-02-08T18:39:22.230Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "24/06/1970"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "6000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "USD"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45047"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Química",
+          "id": "da11714a-6a8a-4fd7-a07c-bec3b7c2426d",
+          "label": "Engenharia Química"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Business Development & Operations Manager"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 Filha"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Business Development & Operations Manager\n Company name : Apollo Tyres Ltd\n Period : nov. de 217 – o momento\n \n Job Title : Sales, After Sales and Direct Sales Manager\n Company name : FCA Fiat Chrysler Automobiles\n Period : fev. de 215 – out. de 217\n \n Job Title : Dealer Network Development Senior Manager\n Company name : Nissan do Brasil\n Period : out. de 213 – fev. de 215\n \n Job Title : Marketing Executive for Mercosur\n Company name : Continental do Brasil\n Period : jul. de 26 – jul. de 213\n Summary : •Responsible for Passenger, Light-Truck, Commercial, Industrial and Two-Wheel Tire segment, focusing on the replacement market Responsible for Marketing Strategy of 6 brands and 5 lines in 4 countries\n •Responsible for Marketing Strategy in Mono and Multi-Brand, Supermarket, Automotive-Center, Dealership and Distributor channels\n •Development of partnerships in co-branding and cross promotion with major brands such as Adidas, Sony, Nestlé, Tom Tom and Fox\n •Organization of Events and VIP Travel for on-road and off-road product launches including Ferrari race at the Portimão Track in Portugal and at the Modena Track in Italy, Mustang race at Uvalde in the USA, Land Rover rally in Cappadocia, Turkey and Dakar rally for the Mendoza, Argentina stage\n •Activation of FIFA 21 World Cup, FIFA 213 Confederations Cup and FIFA 214 World Cup sponsorships\n Location : Jundiaí-SP\n \n Job Title : Sales &Trade Marketing Manager\n Company name : Michelin\n Period : 1995 – 26\n Location : Rio de Janeiro Area, Brazil\n \n \n Job Title : student\n Company name : fiesp\n Period : 1991 – 1994"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Lancaster University\n Speciality : EMBA, Lidership Management\n Period : 28 – 21\n School name : Ibmec Business School\n Speciality : MBA, Marketing\n Period : 25 – 26\n \n School name : Universidade Presbiteriana Mackenzie\n Speciality : Engineer's degree, Chemical engeneering\n Period : 1988 – 1992"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "5d68cd76-499b-47a0-9480-d6104c49ff3c",
+    "id": "e4f3e42b-6b05-40dc-8659-a81504410e9b*5d68cd76-499b-47a0-9480-d6104c49ff3c",
+    "talent": {
+      "updatedAt": "2023-12-20T14:08:19.197Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:08:19.197Z",
+      "linkedinUsername": "luciana-ferreira-441ab614",
+      "email": "luciana.ferreira2027@gmail.com",
+      "phone": "5511946089168",
+      "name": "Luciana Ferreira",
+      "id": "5d68cd76-499b-47a0-9480-d6104c49ff3c"
+    },
+    "timeInCurrentStage": 61412403293
+  },
+  {
+    "importedAt": "2024-02-08T18:39:22.107Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "11/10/1985"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "33500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "De Praxe."
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Alimentos",
+          "id": "7a81ade7-95ce-4e41-906c-b304b9427f1f",
+          "label": "Engenharia de Alimentos"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 Filha (3 anos)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "e42cbeee-a975-4d2a-9df4-709a787b4443",
+    "id": "e4f3e42b-6b05-40dc-8659-a81504410e9b*e42cbeee-a975-4d2a-9df4-709a787b4443",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:42.987Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:42.987Z",
+      "email": "importacao7060@importacaoinhire.com",
+      "phone": "11970540484",
+      "name": "Manuela Nascimento",
+      "id": "e42cbeee-a975-4d2a-9df4-709a787b4443"
+    },
+    "timeInCurrentStage": 61412403293
+  },
+  {
+    "importedAt": "2024-02-08T18:39:22.497Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de vendas nacional"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de vendas nacional\n Company name : Prometeon Tyre Group\n Period : nov. de 22 – o momento\n \n Job Title : Gerente de vendas regional\n Company name : Prometeon Tyre Group\n Period : jan. de 216 – nov. de 22\n Summary : Gestão de 8 consultores técnicos comerciais com atuação: Pneus Truck, (caminhões e ônibus) e bandas de recapagem Novateck além da gestão de mais 3 operadores de veículos de Assistência Técnica\n Gestão direta e indireta da carteira de clientes do estado de Minas Gerais, Espirito Santo e Rio de Janeiro composta por: Revenda Oficial Pirelli, frotas, reformadores, sub-revenderores, reformadores, cooperativas e concessionárias\n Gestão de indicadores de performance, análise de Market Share para definição da estratégia comercial por estado e cliente e elaboração de politica comercial de Sellin e Sellout objetivando um equilíbrio dentre todos os canais de distribuição\n Location : Belo Horizonte e Região, Brasil ( MG/ES/RJ)\n \n Job Title : Gerente Regional De Vendas da Pirelli\n Company name : Pirelli\n Period : ago. de 215 – nov. de 22\n Summary : Gestão de 6 consultores técnico comercial com atuação: Pneus Truck, Agrícola, OTR e veículo industrial e bandas de recapagem Novateck além da gestão de mais 2 operadores de veiculo de Assistência Técnica\n Gestão direta e indireta da carteira de cliente do estado de Minas Gerais composta por: Revenda Oficial Pirelli, frotas, reformadores, sub-revenderores, reformadores, cooperativas e concessionárias\n Gestão de indicadores de performance, análise de Market Share e elaboração de politica comercial de Sellin e Sellout objetivando um equilíbrio dentre todos os canais de distribuição\n \n Job Title : Gerente Regional Pneuac\n Company name : Pirelli\n Period : out. de 212 – ago. de 215\n Summary : Gestão da Regional de 14 Centro-automotivo em 12 cidades com atuação no Atacado e Varejo (B2B e B2C) na venda de pneus, peças e serviços Área de atuação interior de São Paulo e Mato Grosso do Sul\n Cada loja era considerada como uma unidade de negócio portanto tinha como objetivo além da performance de vendas também o resultado de cada filial portanto atuação direta no controle de custos e despesa de cada loja\n Location : Ribeirão Preto\n \n Job Title : Coordenador de vendas das linhas de Pneus Truck Agro - Regional São Paulo\n Company name : Pirelli\n Period : jul. de 21 – set. de 212\n Summary : - Responsável pelas Vendas das linhas Truck e AGRO da Regional SP;\n  - Coordenador da equipe de vendas das linhas Truck e Agro da Regional SP ( 1 Consultores Técnicos Comerciais);\n  - Negociação com os principais Clientes da Regional SP;\n  - Coaching com a equipe de Consultores Técnicos Comerciais;\n Location : Santo Andre - SP\n \n Job Title : Consultor Técnico Comercial\n Company name : Pirelli\n Period : abr. de 27 – jul. de 21\n Summary : - Manter e aumentar a participação dos produtos Pirelli nos clientes;\n - Obter possibilidades de negócios e parcerias, realizando estudos de novos canais de vendas;\n - Manter e aumentar o volume de vendas e estimular a expansão do produto no mercado;\n - Gerenciar tecnicamente, financeiramente e comercialmente todos os assuntos relativos à região; \n - Planejar e organizar as metas mensais , elaborando relatórios de suas atividades (programação);\n - Elaborar programação mensal de visitas regulares nos clientes, a fim de controlar sistematicamente que códigos, preços e exposições acordados sejam respeitados;\n - Responsável por promover, verificar e executar as ações de marketing, comunicação e comercial em todos os pontos de vendas conforme a política da empresa, respondendo pela implantação de todos os projetos;\n \n Job Title : Engenharia de Aplicação\n Company name : Pirelli\n Period : jul. de 25 – abr. de 27\n Summary : - Prova Técnica de Mercado – Responsável pela avaliação e aprovação de pneus de caminhões e ônibus (em desenvolvimento) no mercado Realização da escolha das frotas, comercialização, definição de linhas, medições, relatórios de aprovação do produto e introduzir novos produtos no mercado;\n - Pré e Pós Venda – Elaboração de metodologia de pré e pós venda para toda a força de venda Pirelli e revendas do Brasil e América Latina;\n - Avaliação de produto Pirelli e seus concorrentes no mercado;\n - Fornecimento de know how técnico para clientes internos e externos;\n \n \n Job Title : Engenheiro de Vendas\n Company name : Grupo Kepler Weber Industrial S/A\n Period : jun. de 23 – abr. de 27\n Summary : - Participação do Programa de Trainee; \n  - Realização de todas as rotinas de venda: visita a clientes, prospecção de novos clientes, realização de projeto e proposta de acordo com as necessidades dos clientes, atuação junto aos bancos informando sobre as linhas de financiamentos, participação de feiras (Agrishow- Ribeirão Preto e Luiz Eduardo Magalhães), pós venda e levantamento técnico para reforma de unidades já existentes(Estados do Mato Grosso e Tocantins)\n Location : Panambi (RS);Palmas (TO);Tangara da Serra (MT)"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "OTR"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Dom Cabral\n Speciality : Programa de Desenvolvimento da Liderança Pirelli, Liderança\n Period : 21 – 211\n School name : Escola Superior de Propaganda e Marketing\n Speciality : Curso de Extensão em Gestão de Vendas e Marketing, Marketing e Vendas\n Period : 211 – 212\n School name : Fundação Getulio Vargas\n Speciality : MBA - Gestão Empresarial, Administração\n Period : 29 – 211\n School name : Universidade de São Paulo / USP\n Speciality : Mestrado em Maquinas Agricolas\n Period : 22 – 23\n \n School name : Universidade Estadual Paulista Júlio de Mesquita Filho / UNESP\n Speciality : Engenheiro Mecânico, Engenharia\n Period : 1997 – 21"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "c6c6bafe-342e-4eaf-a348-bda94e561df3",
+    "id": "e4f3e42b-6b05-40dc-8659-a81504410e9b*c6c6bafe-342e-4eaf-a348-bda94e561df3",
+    "talent": {
+      "updatedAt": "2023-12-20T13:57:31.564Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:57:31.564Z",
+      "linkedinUsername": "rafael-romanelli-6a44874a",
+      "email": "rafaeleliasromanelli@gmail.com",
+      "phone": "31994102577",
+      "name": "RAFAEL ROMANELLI",
+      "id": "c6c6bafe-342e-4eaf-a348-bda94e561df3"
+    },
+    "timeInCurrentStage": 61413303293
+  },
+  {
+    "importedAt": "2024-02-08T18:39:22.435Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "29/10/1966"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "50000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "De Praxe."
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Mecânica",
+          "id": "612a9e7a-ad38-4218-924b-ae8b5a2311e8",
+          "label": "Engenharia Mecânica"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor Comercial"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2 Filhas (2 e 24 anos)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Diretor Comercial\n Company name : Bridgestone do Brasil\n Period : out. de 218 – o momento\n Summary : Diretor Comercial Reposição segmento pesado\n Location : São Paulo\n \n Job Title : Diretor Comercial Equip. Original\n Company name : Bridgestone\n Period : jul. de 216 – o momento\n Summary : Responsável pelas vendas para as montadoras no segmento das linhas leve, pesada, agrícola e fora de estrada\n Location : Santo André SP\n \n Job Title : Diretor Comercial\n Company name : Bridgestone do Brasil\n Period : set. de 213 – jun. de 216\n Summary : Responsável por Vendas e Marketing dos pneus de carga, agrícola, Fora de estrada e recapagem\n \n Job Title : General Manager Sales and Mkt BBTS\n Company name : Bridgestone do Brasil\n Period : ago. de 212 – ago. de 213\n \n Job Title : National Sales Manager - PS&LT\n Company name : Bridgestone do Brasil\n Period : jan. de 212 – jul. de 212\n Location : Santo André\n \n Job Title : BTS Manager\n Company name : Bridgestone Bandag\n Period : mar. de 211 – jan. de 212\n Summary : Gerenciamento da Rede de Franquia em Prestação de Serviços em Pneus, Freios, Suspensão, Elétrica, Acessórios e Lubrificação, com o objetivo de expandir e manter as lojas com resultados positivos, além de estabelecer parcerias de negócios com os fabricantes de auto-peças\n Location : Santo André SP\n \n Job Title : Operation Manager\n Company name : Bridgestone Bandag\n Period : ago. de 28 – fev. de 211\n Summary : Gerenciamento da Rede de Recapadores e Prestadores em Serviços, através de equipes Técnica e Financeira que possuem o objetivo de implementar e manter a Qualidade dos Processos assim como auxiliar na Consultoria Financeira da Rede para mante-la saudável e lucrativa\n \n \n Job Title : Service Area Coordinator\n Company name : Bridgestone Bandag\n Period : jul. de 22 – jul. de 28\n Summary : Responsável pela expansão e capacitação da Rede de Franquia em Serviços\n Location : Campinas SP\n Company 2: Bridgestone"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : MBA, Management\n Period : 28 – 29\n School name : Franchiese University\n Speciality : Especialização, Gerenciamento de Franquias\n Period : 28 – 28\n School name : ESPM\n Speciality : Pos Gradueted, Marketing\n Period : 1998 – 1999\n School name : UNICAMP\n Speciality : Especialização, Engenharia da Qualidade\n Period : 1996 – 1997\n \n School name : Universidade São Francisco\n Speciality : Engineer, Engineer, Marketing and Administration\n Period : 1986 – 1991\n Summary : MBA on FGV Business Management, Postgraduate on ESPM marketing"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "df4a0748-4a48-42fe-b907-b4f5118927ea",
+    "id": "e4f3e42b-6b05-40dc-8659-a81504410e9b*df4a0748-4a48-42fe-b907-b4f5118927ea",
+    "talent": {
+      "updatedAt": "2023-12-20T14:04:14.941Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:04:14.941Z",
+      "linkedinUsername": "aoki-marcos-7a256215",
+      "email": "aokimarcos@la-bridgestone.com",
+      "phone": "5519991161306",
+      "name": "Aoki Marcos",
+      "id": "df4a0748-4a48-42fe-b907-b4f5118927ea"
+    },
+    "timeInCurrentStage": 61412403293
+  },
+  {
+    "importedAt": "2024-02-08T18:39:22.373Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "25/04/1981"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "30000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "De Praxe."
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Direito",
+          "id": "e68ab20b-5070-44b2-b67c-5fbf8f0b80b8",
+          "label": "Direito"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Senior Commercial Manager"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "Não Tem"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Senior Commercial Manager\n Company name : Bridgestone do Brasil\n Period : fev. de 22 – o momento\n \n Job Title : Regional Manager\n Company name : Tupperware Brands\n Period : mai. de 216 – fev. de 22\n Location : São Paulo Area, Brazil\n \n Job Title : Key Account Manager\n Company name : Michelin\n Period : out. de 214 – mai. de 216\n Location : São Paulo Area, Brazil\n \n Job Title : Account Manager\n Company name : Michelin\n Period : mar. de 21 – set. de 214\n Location : São Paulo Area, Brazil\n \n Job Title : Sales Representative\n Company name : C R DEALER DO BRASIL\n Period : jan. de 28 – out. de 29\n Location : Sorocaba/SP\n \n Job Title : Comercial Manager\n Company name : MROCHA TRANSPORTES\n Period : ago. de 21 – dez. de 28\n Location : Sorocaba Area, Brazil\n \n \n Job Title : Manager Retail\n Company name : Sono e Sonho Colchoes\n Period : jun. de 1999 – jul. de 21\n Location : Sorocaba, SP"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : MBA Marketing\n Issuing Authority : FGV Brazil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Fundação Getulio Vargas\n Speciality : Master of Business Administration - MBA, Vendas, Merchandising e Marketing\n Period : 213 – 215\n School name : Embassy - Boston/USA\n Speciality : Curso de aperfeiçoamento, English\n Period : 211 – 211\n School name : Escola Superior de Administração, Marketing\n Speciality : Bacharelado em Administração, Administração de Empresas foco em Marketing\n Period : 28 – 21\n \n School name : Universidade Paulista\n Speciality : 3, Direito\n Period : 1999 – 24\n Summary : OAB/SP 232.185\n Courses: Title : English; Title : English Course; Title : English Course; \n Title : Marketing em Vendas"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "2ef9dd43-9b38-4cb1-97d9-c14ed70fe0ef",
+    "id": "e4f3e42b-6b05-40dc-8659-a81504410e9b*2ef9dd43-9b38-4cb1-97d9-c14ed70fe0ef",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:43.145Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:43.145Z",
+      "linkedinUsername": "eduardomoralesrocha",
+      "email": "eduardo_mrocha@yahoo.com.br",
+      "phone": "11990017117",
+      "name": "Eduardo Morales Rocha",
+      "id": "2ef9dd43-9b38-4cb1-97d9-c14ed70fe0ef"
+    },
+    "timeInCurrentStage": 61412403293
+  },
+  {
+    "importedAt": "2024-02-08T18:39:22.072Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "06/06/1982"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "16000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "De Praxe."
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Publicidade",
+          "id": "9b93bdb0-8d47-4819-873d-06af51a3d08f",
+          "label": "Publicidade"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de vendas regional"
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": {
+          "value": "Separado(a)",
+          "id": "59c5b0bd-f19d-41c1-88f0-3636592206e9",
+          "label": "Separado(a)"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "Não Tem"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "PR",
+          "id": "ddacebd3-b647-4eb4-b74a-be67c4653033",
+          "label": "PR"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de vendas regional\n Company name : Bridgestone do Brasil\n Period : jan. de 219 – o momento\n Location : Curitiba, Paraná\n \n Job Title : Gerente geral\n Company name : Grupo Stéfani Ribeirão Diesel\n Period : fev. de 218 – jan. de 219\n Location : Ribeirão Preto e Região, Brasil\n \n Job Title : Gerente Geral- Pneus\n Company name : Grupo Stéfani Ribeirão Diesel\n Period : fev. de 218 – dez. de 218\n Location : Ribeirão Preto e Região, Brasil\n \n Job Title : Comercio de Recapagem Brasil\n Company name : MICHELIN\n Period : jan. de 214 – dez. de 216\n Summary : Desenvolvimento e implantação de Recapagens Michelin no Brasil Estruturação de todo o trabalho de recapadores em seu mercado de atuação, incluindo formação comercial de vendedores, estratégias de atuação de vendas, formação de preço, estruturação equipe, analise concorrencial e 5Ps Manutenção comercial de vendas durante período de abertura, diagnósticos de evolução de vendas e ações comercias para melhor performance do revendedor no mercado\n \n Job Title : Trade Marketing Executive\n Company name : MICHELIN\n Period : jan. de 211 – dez. de 213\n Summary : Trade Mkt nos revendedores de pneus de carga Michelin nos três estados Desenvolvimento comercial, analise de organização e estrutura adequados ao modelo michelin de atendimento ao cliente Acompanhamento de campanhas nacionais de vendas, da equipe comercial externa e interna ao que tange a metodologia de venda Michelin ao usuário final\n Location : PR/ MS/ SP\n \n Job Title : Consultor de Vendas\n Company name : MICHELIN\n Period : ago. de 27 – jan. de 211\n Summary : Responsável comercial e vendas de pneus de carga Michelin Gerenciamento dos revendedores regionais e assessoria ao seu desenvolvimento em vendas com objetivo de aumentar participação de mercado da marca Michelin e comprovar nos clientes a superioridade de performance dos pneus Michelin, junto a recomendações para melhor utilização dos pneus\n Location : Goiania / Curitiba\n \n Job Title : Consultor de Vendas\n Company name : Votorantim Cimentos S/A\n Period : ago. de 25 – ago. de 27\n Summary : Vendas de cimento para materiais de construção e empreiteiras\n Location : Curitiba e Região, Brasil\n \n Job Title : Consultor de negócios\n Company name : Rede Paranaense de Comunicação\n Period : jan. de 23 – ago. de 25\n Summary : Jornal Gazeta do Povo\n Location : Curitiba e Região, Brasil\n \n \n Job Title : CONSULTOR DE NEGOCIOS\n Company name : JORNAL GAZETA DO POVO\n Period : fev. de 24 – jul. de 25\n Summary : Vendas e reativação de assinaturas do maior jornal do estado do Paraná"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : DALE CARNEGIE\n Period : Emitido em set. de 2017 - Expiroudez. de 2017\n Issuing Authority : Dale Carnegie Training"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Pontifícia Universidade Católica do Paraná\n Speciality : BACHAREL EM COMUNICAÇÃO SOCIAL, PUBLICIDADE E PROPAGANDA\n Period : 2 – 24\n School name : UNINTER Centro Universitário Internacional\n Speciality : MBA EM MARKETING - ENFASE GESTAO DE VENDAS NO VAREJO, Administração, Negócios e Marketing\n Period : 213 – 215\n \n School name : Dalle Carnegie\n Speciality : Gestão de vendas, Administração e Negócios\n Period : 217 – 217"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "b41e0469-4274-48bd-ab4f-90fad8430e0b",
+    "id": "e4f3e42b-6b05-40dc-8659-a81504410e9b*b41e0469-4274-48bd-ab4f-90fad8430e0b",
+    "talent": {
+      "updatedAt": "2023-12-20T14:06:23.205Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:06:23.205Z",
+      "linkedinUsername": "fernanda-campioni-36320727",
+      "email": "contato.fernandacampioni@hotmail.com",
+      "phone": "41996522016",
+      "name": "Fernanda Campioni",
+      "id": "b41e0469-4274-48bd-ab4f-90fad8430e0b"
+    },
+    "timeInCurrentStage": 61412403293
+  },
+  {
+    "importedAt": "2024-02-08T18:39:22.466Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "13/06/1980"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "18500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "9.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "De Praxe."
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Nacional de Vendas - Ônibus"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 Filha (Vai nascer em agosto)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente Nacional de Vendas - Ônibus\n Company name : CNH Industrial Ltda. (Iveco Bus)\n Period : jan. de 217 – o momento\n Summary : Reestabelecer o relacionamento com a rede de concessionários e estabelecer uma relação de confiança com os departamentos internos (controlling, administração de vendas e banco CNH) Desenvolver as politicas comerciais e lista de preços de ônibus para o mercado Brasileiro Buscar alternativas para obtenção de crédito para clientes nos casos que o Banco CNH não aprovou as respectivas fichas Prover suporte necessário para a equipe de vendas a Governo Durante um ano responsável por essa atividade alcancei uma melhora substancial na motivação e desempenho da equipe composta por 4 consultores/APM (Area Performance Manager), resultando em um crescimento de 15% nas vendas comparando-se 216 versus 217 e crescimento de 4% de vendas comparando 217 versus 218\n Location : São Paulo, Brasil\n \n Job Title : Gerente de Vendas América Latina & Caribe - Ônibus\n Company name : CNH Industrial Ltda. (Iveco Bus)\n Period : set. de 215 – dez. de 216\n Summary : Responsável por desenvolver a estratégia de mudança de mix de produto (do portfólio Chinês para o Europeu e Sul Americano), assim como engajar os concessionários para atuarem também no segmento de ônibus Desenvolver relacionamentos com os diversos departamentos internos (Brasil, Argentina, França, Itália e China) e implementar processos específicos para exportação de chassis de ônibus, provenientes do Brasil, sem incidência de impostos Resultado: desenvolvimento de uma variação de produto para o mercado Latino Americano e lançamento de 5 modelos de mini-ônibus e chassis para ônibus nesses mercados, tendo com resultado principal o aumento de 35% nas vendas em um ano, além de melhorar a rentabilidade da operação\n Location : São Paulo, Brasil\n \n Job Title : Key Account - Vendas Grandes Frotistas Brasil - Vans\n Company name : Mercedes-Benz do Brasil Ltda\n Period : jan. de 215 – set. de 215\n Summary : Responsável por desenvolver e implementar a estratégia de gestão de clientes nacionais com grandes frotas e importância estratégica Além de atender os clientes mundiais do Grupo Daimler no segmento de Vans\n Location : São Paulo, Brasil\n \n Job Title : Key Account - Vendas América Latina & Caribe - Ônibus\n Company name : Mercedes-Benz do Brasil Ltda\n Period : mar. de 28 – dez. de 214\n Summary : Key-account manager para América Central, Colômbia e Caribe, além de apoiar os demais mercados da América do Sul, para produto ônibus das marcas do Grupo Daimler das diversas fábricas (Mercedes-Benz e Thomas Built), tendo como principais responsabilidades desenvolver os concessionários por meio de visitas conjuntas a clientes, treinamentos, coordenar as vendas, planejar e programar as cotas de ônibus (Rolling Forecast), elaborar propostas comerciais, relatórios analíticos e gerenciais, suporte em licitações nacionais e internacionais, e ainda, coordenar os embarques junto ao departamento de Outbound Estreito relacionamento com o departamento financeiro, controlling, compliance, produção, pós-vendas e desenvolvimento de rede de concessionários Planejar visitas e eventos para recepção de clientes Viagens internacionais para visitas a clientes e concessionários nos respectivos países Participar de projetos com estruturação financeira\n Location : São Paulo, Brasil\n \n Job Title : Analista de Vendas - Grandes Frotistas - Caminhões\n Company name : Mercedes-Benz do Brasil Ltda\n Period : nov. de 26 – mar. de 28\n Summary : Desenvolver controles e relatórios gerenciais para administrar as vendas a grandes frotistas, além do cálculo de preços para elaboração de propostas comerciais Fortalecer e estreitar relacionamento com os escritórios regionais, administração de vendas, financeiro e controlling Participação na organização de eventos de relacionamento com clientes Controller de Budget da Diretoria de vendas – controlar, planejar e analisar o budget Analisar e elaborar propostas de redução do budget Ministrar curso de planejamento e programação nos escritórios regionais e suporte na organização do curso/evento\n Location : São Paulo, Brasil\n \n Job Title : Analista Administração de Vendas\n Company name : Mercedes-Benz do Brasil Ltda\n Period : ago. de 21 – nov. de 26\n Summary : Administrar e controlar estoque físico, aprimorar e desenvolver novos processos visando otimizar a gestão do estoque Auxiliar na implantação do Sistema “Estoque On-Line” na DaimlerChrysler / Mercedes-Benz do Brasil\n Desenvolver relatórios (analítico e gerencial) e controles para auxiliar na administração do estoque de veículos comerciais (Caminhões e Ônibus) visando tornar as informações transparentes para os escritórios regionais e rede de concessionários\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Assistente de Faturamento\n Company name : Chrysler do Brasil Ltda\n Period : 1999 – 21\n Summary : Responsável por implantar o sistema Microsiga módulo de Faturamento, assim como cooperar com a implantação do módulo Fiscal Responsável pela emissão das Notas Fiscais (unidades SP e PR) e pela definição das respectivas operações fiscais (tributária) Controlar o plano de incentivo de vendas (bonificação) estabelecido pela área comercial\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Disrupting Yourself\n Period : Emitido em mai. de 2019 - Nenhuma data de expiração\n Issuing Authority : LinkedIn"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade de São Paulo\n Speciality : Post-Graduation, Communication Management and Marketing\n Period : 23 – 24\n School name : Universidade de São Paulo\n Speciality : Update, Administration of Civil Society Organizations\n Period : 21 – 22\n \n School name : Universidade Bandeirante de São Paulo\n Speciality : Graduation, Business Administration\n Period : 1998 – 21"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d67ae340-381c-4d76-b019-630f722e9e6c",
+    "id": "e4f3e42b-6b05-40dc-8659-a81504410e9b*d67ae340-381c-4d76-b019-630f722e9e6c",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:49.590Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:49.590Z",
+      "linkedinUsername": "wellingtonmonte",
+      "email": "montewell@hotmail.com",
+      "phone": "11984569318",
+      "name": "Wellington Monte",
+      "id": "d67ae340-381c-4d76-b019-630f722e9e6c"
+    },
+    "timeInCurrentStage": 61412403293
+  },
+  {
+    "importedAt": "2024-02-08T18:39:22.136Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "12/09/1983"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "25000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "De Praxe."
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Canais de Vendas - Supermercado, E- Commerce, Concessionárias, Licitações, Novos Negócios"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "Não Tem"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de Canais de Vendas - Supermercado, E- Commerce, Concessionárias, Licitações, Novos Negócios\n Company name : Bridgestone do Brasil\n Period : jan. de 217 – o momento\n Summary : Responsável pelo crescimento de resultados nos canais de vendas em pneus nos segmentos de Supermercado, E- Commerce, Concessionárias, Licitações e Novos Negócios na Bridgestone do Brasil\n Location : Santo Andre\n \n Job Title : Gerente Nacional de Vendas Atacado\n Company name : Bridgestone do Brasil\n Period : jun. de 215 – dez. de 216\n Summary : Definir as estratégias de vendas e serviços na comercialização de pneus Bridgestone / Firestone das unidades de negócio TWW\n \n Job Title : Gerente de Vendas -Regional São Paulo\n Company name : Bridgestone do Brasil\n Period : dez. de 213 – ago. de 215\n Location : São Paulo\n \n Job Title : New Business Coordinator\n Company name : Bridgestone do Brasil\n Period : jul. de 212 – dez. de 213\n Summary : - Homologação de alianças estratégicas com Fabricantes de Auto Peças - Central de Negociação \n - Desenvolvimento do Plano Estratégico para alavancagem de vendas a Rede de Revendedores Bridgestone - \"Truck e Car Center\" \n  - Coordenação de equipe focada no atendimento ao cliente, Vendas Ativa e na conversão de produtos para homologados \n  - Desenvolvimento de ações para melhoria continua de processos buscando competitividade nos segmentos Sell in e Sell out \n  - Vivência na elaboração de estratégias de Comercialização e Trade Marketing;\n - Habilidade na prospecção de novos negócios e novos clientes, atendimento e desenvolvimento de clientes\n - Capacitação na preparação de campanhas de vendas, elaboração de estratégias e mecânica;\n - Foco em resultados e redução de custos para a rede de Revendedores Bridgestone\n \n Job Title : Consultor de Novos Negócios\n Company name : Bridgestone do Brasil\n Period : jul. de 29 – jun. de 212\n Summary : - Desenvolvimento de alianças estratégicas à Rede de Franquias Bandag Truck Service – Brasil / Mercosul \n  - Desenvolvimento do Plano Estratégico para alavancagem de vendas na Rede de Franquias Bandag Truck Service – Brasil \n  - Coordenação de equipe focada no atendimento ao cliente e Vendas Ativa \n  - Desenvolvimento de projetos para melhoria continua de processos buscando competitividade nos segmentos Sell in e Sell out \n  - Suporte no processo de Fusão entre as Companhias Bandag do Brasil Ltda e Bridgestone Firestone do Brasil Ltda\n - Vivência na elaboração de estratégias de Comercialização e Marketing;\n - Habilidade na prospecção de novos negócios e novos clientes, atendimento e desenvolvimento de cliente\n - Capacitação na preparação de campanhas de vendas, elaboração de estratégias e mecânica;\n \n \n Job Title : Consultor de Negócios\n Company name : Bandag\n Period : jan. de 25 – set. de 27\n Summary : - Auxiliar o franqueado no desenvolvimento de novos clientes, com objetivo de alavancar novos negócios\n  - Identificar oportunidades de melhoria no franqueado, através de visitas periódicas, visando a melhoria da qualidade e redução de custo na prestação de serviços\n  - Implementar e monitorar novos produtos e serviços conforme necessidade regional, visando melhoria na lucratividade do franqueado\n  - Realizar acompanhamento periódico no franqueado, através da correção dos desvios no processo\n - Analisar os indicadores de resultado da carteira de franqueados\n - Manter comparativo de resultados da região de atuação\n - Identificação de oportunidades de negócio com o objetivo de aumento de lucratividade do franqueado\n - Constante busca por redução de custos ao franqueado"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Dom Cabral\n Speciality : MBA em Gestão de Negócios\n Period : 214 – 215\n School name : Fundação Getulio Vargas / FGV\n Speciality : Gestão Estratégica e Economica, Gestão de Negócios\n Period : 212 – 214\n School name : Fundação Getulio Vargas / FGV\n Speciality : MBA LOGISTICA EMPRESARIAL\n Period : 26 – 28\n \n School name : PUC Campinas\n Speciality : Administração com Ênfase em Logistica e Serviços\n Period : 21 – 25"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "156aec20-d876-4371-b34e-fadaeed86620",
+    "id": "e4f3e42b-6b05-40dc-8659-a81504410e9b*156aec20-d876-4371-b34e-fadaeed86620",
+    "talent": {
+      "updatedAt": "2023-12-20T14:09:30.824Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:09:30.824Z",
+      "linkedinUsername": "felipepelaio",
+      "email": "felipe.pelaio@uol.com.br",
+      "phone": "19992352637",
+      "name": "Felipe Pelaio",
+      "id": "156aec20-d876-4371-b34e-fadaeed86620"
+    },
+    "timeInCurrentStage": 61412403293
+  },
+  {
+    "importedAt": "2024-02-08T18:39:22.403Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "25/03/1980"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "10000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "18.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "De Praxe."
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Relações Internacionais",
+          "id": "b13dcd8f-5e6d-484c-a5eb-8bea4b9a05fb",
+          "label": "Relações Internacionais"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de vendas"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 Filha (2 Anos)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "MG",
+          "id": "fd9a75a0-f705-48e8-9abe-cb8601c06067",
+          "label": "MG"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de vendas\n Company name : Iveco Deva - Grupo Sada\n Period : set. de 22 – o momento\n Location : Betim, Minas Gerais, Brasil\n \n Job Title : Corporate Sales\n Company name : Iveco Brasil\n Period : nov. de 219 – abr. de 22\n Summary : Responsável pelo canal de vendas corporativas para os estados de São Paulo, Rio de Janeiro, Espírito Santo e Mato Grosso do Sul\n Atendimento das principais empresas de transportes e de outras grandes contas na região de atuação\n Location : São Paulo e Região, Brasil\n \n Job Title : Gerente comercial\n Company name : DRiV Incorporated\n Period : jul. de 218 – ago. de 219\n Summary : Multinacional norte-americana, líder global em seu segmento, fabricante das marcas Monroe, Monroe Axios, Walker, Federal Mogul, Champion, FP Diesel, Beru, entre outras\n \n Gestão e desenvolvimento da rede de distribuidores\n Responsável pelo atendimento dos principais distribuidores da empresa no Brasil\n Gestão estratégica dos negócios para atingimento de metas e resultados\n Gerenciamento e desenvolvimento do time de coordenadores e analistas de vendas\n Coordenação de eventos, palestras e treinamentos técnico/comerciais\n Location : São Paulo e Região, Brasil\n \n Job Title : Gerente Nacional de Vendas\n Company name : Hankook Tire America Corp\n Period : fev. de 216 – jul. de 218\n Summary : Responsável pela nova estratégia de atuação da empresa no país\n Viagens internacionais de negócios pela companhia (Europa, Ásia e América)\n Desenvolvimento da rede de distribuidores especialistas no país\n Abertura e desenvolvimento do canal supermercado, com atuação no Atacado Auto Serviço e Cash&Carry com expressivos resultados atingidos\n Criação e aplicação de treinamentos técnicos e comerciais para equipes de vendas de distribuidores atacadistas, rede de varejo oficial, credenciados e revendedores multimarcas \n Gestão da rede de distribuidores Hankook no país\n Relacionamento comercial com montadoras de veículos instaladas no país (GM, Ford, Peugeot e Citroen)\n Elaboração e implantação de campanhas de vendas\n Location : Brasil\n \n Job Title : Consultor Técnico Comercial Sênior\n Company name : Sumitomo Rubber do Brasil - Dunlop Pneus\n Period : fev. de 212 – fev. de 216\n Summary : Multinacional japonesa, fabricante dos pneus Dunlop e Falken, com 13 anos de mercado\n \n Responsável pelo gerenciamento dos dois maiores clientes da empresa no país\n Planejamento estratégico de vendas, desenvolvimento de novos parceiros, aumento da capilaridade da marca no mercado\n Responsável pela criação e gestão do projeto de credenciamento de lojas de varejo da marca, em todo território nacional\n Treinamentos técnicos e comerciais, análise e posicionamento de mercado e planejamento de ações de vendas para atingimento de metas dos distribuidores\n Acompanhamento mensal de sell-in e sell-out, shopping de preços e busca de oportunidades de negócio nos territórios de atuação de cada distribuidor\n Location : São Paulo e Região, Brasil\n \n Job Title : Supervisor Nacional de Vendas\n Company name : AutoShine - Brazil\n Period : set. de 21 – fev. de 212\n Summary : Responsável pela formatação do plano estratégico de vendas da empresa, nos canais automotivo e supermercados\n Viagens por todo Brasil para follow-up de equipe de representantes, treinamentos em distribuidores autorizados da marca e abertura de novos dealers\n Expressivos resultados atingidos no canal supermercados, com aumento de volume e mix de produtos\n Gestão de toda equipe comercial, com 3 vendedores no Brasil\n Location : Santo André/SP\n \n Job Title : Vendas\n Company name : Rede Presidente Distribuidora\n Period : out. de 28 – ago. de 21\n Summary : Responsável pelo atendimento comercial nas sete cidades da região do Grande ABC e Zona Sul de São Paulo\n Atendimento aos principais revendedores de autopeças da região\n Acompanhamento técnico e atendimento comercial nas principais empresas de ônibus e transportadoras da região\n Location : São Paulo, Brasil\n \n \n Job Title : Analista de marketing\n Company name : CBA Automotive\n Period : out. de 24 – set. de 28\n Summary : Elaboração de campanhas de vendas\n Responsável pela organização de agenda de treinamentos técnicos, comerciais e visitas a fornecedores\n Elaboração de folders, panfletos e catálogos\n Responsável pela formatação e envio de relatórios de vendas e performance para o gestor comercial\n Location : São Caetano do Sul, São Paulo"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul\n Speciality : Master of Business Administration - MBA, Vendas, negociação e resultados de alta performance, 1\n Period : 219 – 22\n Summary : Abordagem totalmente voltada para potencializar os negócios e obter resultados de alta performance com profissionais que são referência mundial. O curso traz uma abordagem multicanal sobre esses assuntos, incluindo desde conteúdos de PNL e persuasão, gestão comercial, business intelligence e forte tendência de crescimento dos negócios online e comércio digital.\n \n School name : Universidade Metodista de São Paulo\n Speciality : Relações Públicas, Relações Públicas, Publicidade e Comunicação Aplicada, Curso avaliado com 5 estrelas pelo Guia Abril do Estudante\n Period : 21 – 25"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "f54011e6-7544-47c5-9ee6-e83b9be3b627",
+    "id": "e4f3e42b-6b05-40dc-8659-a81504410e9b*f54011e6-7544-47c5-9ee6-e83b9be3b627",
+    "talent": {
+      "updatedAt": "2023-12-20T13:56:31.682Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:56:31.682Z",
+      "linkedinUsername": "rafaelbaggio1",
+      "email": "baggio.rafa@gmail.com",
+      "phone": "11998554588",
+      "name": "Edson Rafael Baggio",
+      "id": "f54011e6-7544-47c5-9ee6-e83b9be3b627"
+    },
+    "timeInCurrentStage": 61412403293
+  },
+  {
+    "importedAt": "2024-02-08T18:39:22.279Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Senior Key Account Manager"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Senior Key Account Manager\n Company name : ZF Group\n Period : mar. de 218 – o momento\n Summary : • Atuação Coorporativa na América do Sul, gerenciando 6 unidades de negócios da ZF (Br e Arg) em grandes contas OEM/OES no segmento de Veículos comerciais, Agricultura e Construção\n • Contato estratégico/principal entre os clientes e a empresa\n • Long Term Contracts Agreements (LTA) com base em um quadro de condições comerciais sustentáveis e lucrativas durante todo o ciclo de vida do produto e/ ou serviço\n • Coordenar negociações e prospectar novos negócios a nível local e global\n • Gerenciamento de rentabilidade dos produtos e processos de reajustes de preços\n • Atuar no planejamento de vendas, para atingir objetivos através da estratégia de negócio\n • Análise de business case, estratégia de negócios, definição de estruturas e metas / KPI's\n • Definir estratégias de preços dos produtos, cotações e prazos\n • Visitas estratégicas a clientes no mercado local e Internacional\n • Analisar e aprovar relatórios de vendas, satisfação do cliente, faturamentos, overdue e contratos\n • Suporte no desenvolvimento de projetos, atendimento a prazos e budget\n Location : Sorocaba e Região, Brasil\n \n Job Title : Engenheiro de vendas\n Company name : ZF Group\n Period : jan. de 213 – fev. de 218\n Summary : • Coordenar negociações e prospectar novos negócios para Embreagens nos segmentos OEM, reposição e Intercompany para o mercado local e exportação\n • Monitorar os processos desde o recebimento do pedido até a entrega do produto\n • Elaborar relatórios de vendas, satisfação do cliente e faturamentos\n • Análise de rentabilidades dos produtos e processos de reajustes de preços\n • Atuar no planejamento anual de vendas, assim como nas revisões mensais\n • Definição estratégicas de preços, análise crítica de contratos e definições de prazos\n Location : São Bernardo do Campo\n \n Job Title : Engenheiro de aplicação de produtos\n Company name : ZF Group\n Period : jul. de 211 – dez. de 212\n Summary : • Desenvolvimento de projetos de Embreagens para o segmento automotivo \n • Execução de documentos de modificações de engenharia, estudos de Layouts, análises de problemas de campo e visitas constantes a clientes e fornecedores \n • Utilização de ferramentas como: FMEA, APQP, CREO ProEngineer, ECM, ECRs, etc\n Location : São Bernardo do Campo, São Paulo, Brasil\n \n Job Title : Engenharia de produtos\n Company name : Johnson Controls\n Period : dez. de 21 – jun. de 211\n Summary : • Desenvolvimento de novos produtos para o segmento automotivo\n • Execução de documentos de modificações de engenharia, estudos de layouts, análise de problemas em campo, visitas constantes a clientes e fornecedores e utilização de ferramentas como FMEA e APQP\n • Solicitação e acompanhamento de construção de protótipos, acompanhamento de confecção de moldes para injeção plástica \n • Suporte a engenharia de qualidade, processos e manufatura\n Location : São Bernardo do Campo, São Paulo, Brasil\n \n Job Title : Gerenciamento de projetos de engenharia\n Company name : Johnson Controls\n Period : mai. de 21 – nov. de 21\n Summary : • Responsável pelo suporte e acompanhamento no processo de desenvolvimento de um novo produto, interagindo com todas as áreas da empresa (Engenharia, compras, vendas, qualidade, logística e produção) com uso de ferramentas como MS Project e APQP\n • Interface direta com o cliente tendo trabalhado no projeto de desenvolvimento de componentes de um grande projeto do cliente HONDA\n Location : São Bernardo do Campo, Brazil\n \n Job Title : Representante externo de vendas\n Company name : Eurowerk Comercio E Representacoes\n Period : out. de 29 – abr. de 21\n Summary : • Representante técnico e comercial de vendas para pastilhas de usinagem no segmento industrial responsável pela região do ABC Paulista\n Location : São Bernardo do Campo, São Paulo, Brasil\n \n Job Title : Desenhista de projeto e Técnico de processos\n Company name : Eurowerk Comercio E Representacoes\n Period : mai. de 28 – set. de 29\n Summary : • Responsável pela confecção e liberação de desenhos técnicos de novos projetos usando as ferramentas 2D e 3D \n • Planejamento de vendas e controle de entregas\n • Aprovação de desvios de produção e liberação de peças\n Location : Ribeirão Pires, São Paulo, Brasil\n \n \n Job Title : Almoxarife\n Company name : Eurowerk Comercio E Representacoes\n Period : abr. de 26 – abr. de 28\n Summary : • Responsável pelo controle e liberação de insumos de usinagem para a linha de produção de ferramentas de fixação de Tornos CNC, Fresadoras, etc\n • Controle de estoque, revisão de desenhos de engenharia e aprovação de desvios de produção\n Location : Ribeirão Pires, São Paulo, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Centro Universitário da FEI\n Speciality : IECAT Pós-Graduação, Gestão Empresarial\n Period : 214 – 215\n \n School name : Centro Universitário da FEI\n Speciality : Mechanical Engineering\n Period : 27 – 212"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "4c2185f9-2625-4f04-9272-0aa7edbd8f36",
+    "id": "e4f3e42b-6b05-40dc-8659-a81504410e9b*4c2185f9-2625-4f04-9272-0aa7edbd8f36",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:27.065Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:27.065Z",
+      "linkedinUsername": "joão-machado-61183338",
+      "email": "eng.joaompf@hotmail.com",
+      "phone": "11960737498",
+      "name": "João Machado",
+      "id": "4c2185f9-2625-4f04-9272-0aa7edbd8f36"
+    },
+    "timeInCurrentStage": 61412703293
+  },
+  {
+    "importedAt": "2024-02-08T18:39:22.200Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "06/07/1971"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "27000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "De Praxe."
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": {
+          "value": "Gerente",
+          "id": "eda76e10-3894-45d8-9427-0a4ba4624136",
+          "label": "Gerente"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "Não Tem"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "MG",
+          "id": "fd9a75a0-f705-48e8-9abe-cb8601c06067",
+          "label": "MG"
+        }
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "4f7f46ce-9fb3-40e7-99e6-44c02af412da",
+    "id": "e4f3e42b-6b05-40dc-8659-a81504410e9b*4f7f46ce-9fb3-40e7-99e6-44c02af412da",
+    "talent": {
+      "updatedAt": "2023-12-20T14:00:08.247Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:00:08.247Z",
+      "email": "leolana@gmail.com",
+      "phone": "31996460607",
+      "name": "Leonardo Lana",
+      "id": "4f7f46ce-9fb3-40e7-99e6-44c02af412da"
+    },
+    "timeInCurrentStage": 61412403293
+  },
+  {
+    "importedAt": "2024-02-08T18:39:22.248Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "01/04/1986"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "20000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "De Praxe."
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Economia",
+          "id": "72b9c97c-68f7-40f0-b9d8-7a317f72d545",
+          "label": "Economia"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Conselheiro"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 Filho"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "16f210c9-e204-41f3-b15d-ed2b33fe0587",
+    "id": "e4f3e42b-6b05-40dc-8659-a81504410e9b*16f210c9-e204-41f3-b15d-ed2b33fe0587",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:36.143Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:36.143Z",
+      "email": "marcelo.moreira@tvglobo.com.br",
+      "phone": "",
+      "name": "Marcelo Moreira",
+      "id": "16f210c9-e204-41f3-b15d-ed2b33fe0587"
+    },
+    "timeInCurrentStage": 61413303293
+  },
+  {
+    "importedAt": "2024-02-08T18:39:22.342Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Regional de Vendas - Regional Manager"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente Regional de Vendas - Regional Manager\n Company name : Bridgestone Americas\n Period : ago. de 219 – o momento\n Summary : Gestão de canal e portfólio no mercado Nordeste, com passagens Norte, Centro-Oeste e Sudeste, segmento automotivo truck & bus, agrícola, OTR e recapagem, pós-vendas, gestão de categoria, ativações e ações de trade marketing, start-ups de operações, gestão de projetos e SaaS\n \n Channel and portfolio management in the Northeast market, with North, Midwest and Southeast passages, truck & bus automotive, agricultural, OTR and retreading segment, after-sales, category management, activations and trade marketing actions, start-ups operations, project management and SaaS\n Location : Recife e Região, Brasil\n \n Job Title : Gerente Geral - General Manager\n Company name : AutoParts Brasil\n Period : mar. de 219 – ago. de 219\n Summary : Start-up de negócios no segmento automotivo (autopeças, pneus, lubrificantes, aditivos, acessórios e equipamentos, SaaS) no mercado Norte e Nordeste\n \n Start-up of businesses in the automotive segment (auto parts, tires, lubricants, additives, accessories and equipment, SaaS) in the North and Northeast markets\n Location : Recife Area, Brazil\n \n Job Title : Diretor de Marketing & Vendas - Mkt & Sales Director\n Company name : PneuBras\n Period : jul. de 212 – dez. de 218\n Summary : Strategic planning, annual deployment (GPD), business modeling (GRD), partnerships establishment, mergers and acquisitions, channel and portfolio management, plan and tactical execution of start-up operation of 28 branches, modeling and integration business processes, Supply Chain, committee and board market studies and results reports, up to the bottom line (P&L) Suppliers approvals, technical missions, purchasing, procurement and inventory management, B2B, B2C network management in retail and wholesale E-commerce\n \n Planejamento estratégico, desdobramento anual (GPD), modelagem de negócio (GRD), estabelecimento de parcerias, incorporações e aquisições, gestão de canais e portfolios, plano e execução tática de start-up de operação de 28 filiais, modelagem e integração de processos de Supply Chain, estudos de mercado e gestão de resultados em comitê e board, até o bottom line (P&L) Homologação de fornecedores, missões ténicas, gestão de compras e inventário, gestão de rede direta e indireta no B2B/varejo e atacado E-commerce\n Location : Recife Area, Brazil\n \n Job Title : Gerente Regional NO/NE - Regional Manager\n Company name : Bridgestone do Brasil\n Period : jun. de 26 – jul. de 212\n Summary : - Retail and B2B;\n - Business management, business strategies, business model implementation;\n - Change management;\n \n - Varejo e B2B;\n - Gestão de negócio, estratégias de negócio, implementação de modelo de negócio;\n - Gestão da mudança;\n Location : Recife Area, Brazil\n \n Job Title : Gestor de Contas - Head of Accounts\n Company name : Michelin\n Period : jul. de 24 – jun. de 26\n Summary : - Business management, business strategies, B2B, business model implementation;\n \n - Gestão de negócio, estratégias de negócio, B2B, implementação de modelo de negócio;\n Location : Goiânia Area, Brazil\n \n Job Title : Líder de Projeto - Project Leader\n Company name : Vitarella\n Period : set. de 23 – out. de 24\n Summary : Strategic Planning 23-28, who designed the foundation of the company's expansion in this period, preparing the ground for acquisition by M Dias Branco superior value by more than 2 times its annual revenue Redesign of business processes, commercial, industrial and logistics, focusing strategic plan results\n \n Formulação do Planejamento Estratégico 23-28, que projetou as bases do expansão da empresa neste período, preparando as bases para aquisição pela M Dias Branco por valor superior em mais de 2 vezes o seu faturamento anual Redesenho dos processos de negócio, comerciais, industriais e de logística, visando resultados do plano estratégico\n Location : Recife Area, Brazil\n \n Job Title : Analista Sênior - Senior Analyst at VP Retail Store Operation\n Company name : Bompreço\n Period : 1999 – 23\n Summary : Performance as internal consultant at retail store operation national and international projects, such as implantation of discount stores, keys performance indicators - KPI' s LATAM, processes management and certification ISO 9:2, redesign of supply chain, strategical, tactical and operational planning (long, mid and short term plan), mergers and acquisitions (M&A)\n Atuação como consultor interno na operações de lojas de varejo em diversos projetos de atuação nacional e internacional, como implantação de lojas de descontos, indicadores de performance e resultados - KPI's LATAM, gestão de processos e certificação ISO 9:2, redesenho de cadeia de suprimentos - supply chain, planejamento estratégico, tático e operacional, fusões e aquisições (M&A)\n Location : Nordeste\n \n \n Job Title : Sócio Diretor - Partner\n Company name : Teceng Engenharia\n Period : 1997 – 1999\n Summary : Entrepreneur in small business for civil construction services/contract company, focused on recovery of structures and building maintenance\n \n Empreendedor em prestadora de serviços para construção civil, focados na recuperação de estruturas e manutenção predial\n Location : Recife Area, Brazil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Insper\n Speciality : Inteligência Artificial e Tomada de Decisão, Tecnologia e Data Science\n Period : 221 – 221\n Summary : Extensão em IA e Tomada de Decisão; Fundamentos da Inteligência Artificial; IA Clássica, Machine Learning; Fundamentos da Resolução de Problemas e Tomada de Decisão. Dos dados aos modelos: modelos descritivos, modelos associativos, modelos discriminantes e modelos preditivos. A importância de um processo de gestão de dados. Principais ferramentas de IA para a tomada de decisão. Desafios atuais. Próximos passos na jornada de aprendizagem.\n School name : CESAR School\n Speciality : Gestão de Negócios na Era Digital, Administração, Negócios e Marketing\n Period : 22 – 22\n Summary : Extensão multi-modular intensivo, que capacita executivos para entenderem e se prepararem para os novos desafios da era digital, munindo-os de estratégias para liderarem suas organizações nesta nova dinâmica de mercado. Desenvolver conhecimentos para liderar a transformação digital;Engajar os consumidores e suas necessidades na era digital;Aprender a inovar com a velocidade das startups;Entender modelos e estratégias de negócios disruptivos para expandir ou responder a ataques;Conhecer as principais tecnologias habilitadoras desta nova era.\n School name : Fundação Dom Cabral\n Speciality : Programa de Desenvolvimento de Dirigentes, Administração, Negócios e Marketing\n Period : 215 – 216\n School name : Fundação Getulio Vargas / FGV\n Speciality : MBA, Business Management\n Period : 25 – 27\n Summary : Paper: Development of a Real State Company focused emergent social classes\n \n School name : Universidade de Pernambuco\n Speciality : Graduate, Civil Engineering\n Period : 1995 – 22\n Summary : Paper: recovery of concrete structures and building maintenance\n Courses: Title : Auditor externo de terceira parte BVQi; Title : PAEX Fundação Dom Cabral; \n Title : Sebrae Empretec"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "c857fc83-aa92-4e74-9f0e-84fd7c5856d9",
+    "id": "e4f3e42b-6b05-40dc-8659-a81504410e9b*c857fc83-aa92-4e74-9f0e-84fd7c5856d9",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:37.296Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:37.296Z",
+      "linkedinUsername": "eraldosilvafilho",
+      "email": "oeraldo@gmail.com",
+      "phone": "81981150708",
+      "name": "Eraldo Silva",
+      "id": "c857fc83-aa92-4e74-9f0e-84fd7c5856d9"
+    },
+    "timeInCurrentStage": 61412703293
+  }
+]

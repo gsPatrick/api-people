@@ -1,0 +1,627 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:52.702Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor comercial"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Diretor comercial\n Company name : Ânima Educação\n Period : dez. de 22 – o momento\n Summary : Diretora Comercial Regional Minas, Goiás e Rio de Janeiro – Executiva responsável pela área comercial e de relacionamento (B2B/ escolas), das 18 cidades e 5 marcas em diferentes posicionamentos na região sudeste do país Gestão da prospecção de candidatos e conversão de vendas, através de canais digitais e presenciais em uma relação matricial com 8 diretorias regionais, e 5 nacionais, liderando um time de aproximadamente 2 colaboradores Responsável pela condução da área de Planejamento de vendas e seus desdobramentos, como controle de bolsas e descontos, incentivos de vendas e direcionamento de estratégias com foco em maximização de resultados financeiros\n Location : Belo Horizonte\n \n Job Title : Consultora Comercial e de Marketing\n Company name : Centro Universitário Fametro\n Period : dez. de 219 – dez. de 22\n Summary : Responsável pela implementação da área comercial e seus setores de planejamento de vendas e inteligência de mercado do Grupo com mais de 25 mil alunos e projeto de expansão nacional Estruturação dos processos comerciais, organização da força de vendas e implementação de operação de call center além de definição de régua de relacionamento, funil de vendas e demais ferramentas para a entregas dos objetivos da companhia \n Implementação de divisão de serviços compartilhados do grupo para a área de marketing, através de agência “in-house”\n Location : Manaus, Amazonas\n \n Job Title : Diretora de Vendas e Marketing\n Company name : UniNorte (Centro Universitário do Norte)\n Period : mar. de 216 – nov. de 219\n Summary : – Executiva responsável pela área comercial, captação de novos alunos, matrícula e rematrícula da instituição de ensino superior Definição das diretrizes de crescimento, volume de vendas e margem para os anos futuros ( LRP - Planejamento para os próximos 5 anos) Gestão das áreas de atendimento, call center, planejamento de vendas e inteligência de mercado Responsável pela área de marketing (inbound e outbound ), gerenciando a interface com agências on e off além de agência de branding e gerenciamento dos indicadores de performance oriundos deste canal, bem como pelo orçamento e administração da concessão de descontos Gestão das áreas de feeder school e feeder company, que são áreas responsáveis pelo relacionamento com a comunidade, futuramente convertidos em matrícula\n Location : Manaus\n \n Job Title : Gerente Comercial e Marketing\n Company name : UniNorte (Centro Universitário do Norte)\n Period : jun. de 213 – mar. de 216\n Summary : Gerenciar as atividades da área de comercial, feeder school e marketing visando o atingimento das metas Acompanhanhar os indicadores de matrículas, geração de cadastros e cumprimento das metas em cada linha de negócio de acordo com o budget Definir estratégias e campanhas de descontos baseados em análise de dados e do planejamento Acompanhar e definir estratégia para campanhas de call center Acompanhar o andamento da Central de Atendimento, garantindo que a o mesmo ocorra da forma mais eficiente Gerenciar campanhas de marketing criadas a partir de pesquisas de mercado Gestão da comunicação com o prospect em suas diversas etapas, até a matrícula Garantir o cumprimento das diretrizes de marca Gestão do orçamento da área comercial com foco em otimização da verba e cumprimento do plano\n Location : Manaus\n \n Job Title : Gerente Comercial\n Company name : ACCION Microfinanças\n Period : mai. de 212 – dez. de 212\n Summary : Gerente responsável pela área comercial, composta por cerca de 5 executivos de vendas externas, na cidade de Manaus Líder dos times que visitavam o campo para ofertar microcrédito para empreendedores informais, não atendidos por bancos de grande porte Execução do plano de expansão, contratação e capacitação do time para o novo mercado na região norte e leste da cidade\n Location : Manaus Area, Brazil\n \n Job Title : Gerente de planejamento de marketing\n Company name : Grupo Simões\n Period : jan. de 26 – dez. de 211\n Summary : Responsável pela execução do plano anual de Marketing dos refrigerantes da The Coca-Cola Company, na Divisão de Bebidas do Grupo Simões, assim como pelo planejamento, execução e monitoramento das ações de mercado, ao trade nos seis estados cobertos pela engarrafadora Responsável também pelo orçamento de marketing, pelos indicadores de saúde das marcas e interface junto a The Coca-Cola Company e agências, para a implementação das ações no mercado Líder dos patrocínios e eventos na região, como Festival de Parintins, Copa Coca-Cola, Coletivo (programa de desenvolvimento de comunidades de baixa renda) e outros grandes eventos Adicionalmente, líder do projeto Copa do Mundo para a cidade de Manaus, sendo designada como representante do Grupo Simões no Fórum Internacional da The Coca-Cola Company na África do Sul, para avaliação do planejamento requerido para implementação das ações de mercado inerentes a este evento\n Location : Manaus\n \n Job Title : Gerente de Contas\n Company name : Banco Itaú\n Period : jan. de 24 – mai. de 25\n Summary : Atendimento em agências de grande porte e administração de postos de serviço em empresas (Nokia, Ministério Público, TRT, Panasonic, entre outras), aproximadamente 2 clientes em carteira\n Location : Manaus Area, Brazil\n \n \n Job Title : Gerente de Marketing\n Company name : Millennium Shopping\n Period : 25\n Summary : Responsável pelo Plano Anual de Marketing, assim como pelo planejamento e execução de eventos de mall Responsável também pelo controle orçamentário e dos planos desenvolvidos pelas áreas gestoras, controle orçamentário, planejamento e execução do Plano anual de Marketing\n Location : Manaus"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Profissional de Marketing Digital\n Period : Emitido em jun. de 2017 - Nenhuma data de expiração\n Issuing Authority : ComSchool\n \n Title : Inbound Certification\n Period : Emitido em nov. de 2016 - Expiroudez. de 2017\n Issuing Authority : HubSpot"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Dom Cabral\n Speciality : Business Administration and Management, General\n Period : 215 – 217\n School name : FUCAPI - Universidade do Novo Mexico\n Speciality : Business Innovation\n Period : 21 – 211\n School name : Fundação Getulio Vargas / FGV\n Speciality : Gestão Empresarial\n Period : 25 – 29\n School name : Universidade Paulista\n Speciality : Propaganda e Marketing\n Period : 2 – 23\n \n School name : West Valley High School\n Speciality : Língua Inglesa\n Period : 1999 – 2\n Summary : Intercâmbio Cultural"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "361abf22-55b6-47cf-b11c-d658542e6be2",
+    "id": "ddc9f50c-b15c-497d-a740-bd682de6e982*361abf22-55b6-47cf-b11c-d658542e6be2",
+    "talent": {
+      "updatedAt": "2023-12-20T13:56:58.028Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:56:58.028Z",
+      "linkedinUsername": "carolinadegaspari",
+      "email": "carolinadegaspari@gmail.com",
+      "phone": "92982002529",
+      "name": "Carolina Degaspari",
+      "id": "361abf22-55b6-47cf-b11c-d658542e6be2"
+    },
+    "timeInCurrentStage": 61412402196
+  },
+  {
+    "importedAt": "2024-02-08T18:39:52.614Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor - Estácio Goiás"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Diretor - Estácio Goiás\n Company name : YDUQS\n Period : nov. de 221 – o momento\n \n Job Title : Gerente Comercial\n Company name : YDUQS\n Period : jul. de 22 – nov. de 221\n Summary : • Gestão Comercial do núcleo, composto por dois campi e 49 polos digitais no Distrito Federal e entorno, liderando as equipes das Salas de Matrículas, do Call Center, de Consultores e Representantes Comerciais\n \n • Responsável pela gestão de indicadores e bases de informação, definição das estratégias de captação de novos alunos, gestão do plano de mídia e estratégias de trade marketing, levantamento de informações de mercado para alinhamento do portfólio existente e lançamento de novos produtos\n \n • Gestão do pacote orçamentário de Vendas e Marketing do núcleo, mantendo o resultado sempre em linha com a estratégia da companhia\n \n • Responsável direto pelos seguintes Indicadores: Captação Graduação; Captação Pós-Graduação; Produtividade dos Consultores; ROL; Vendas & Marketing; Ticket Médio e Bolsa/ROL\n \n • Atingimento das metas de captação de alunos do núcleo em 1,1% (222) e 16,4% (2211), bem como da meta da FDV (Força de Vendas) em 17% (222) e 21% (2211)\n \n • Realização do maior volume de matrículas de FDV (Força de Vendas) no Brasil em 2211\n \n Job Title : Gerente Nacional de Mercado\n Company name : CNEC - Oficial\n Period : out. de 219 – jun. de 22\n Summary : • Gestão das áreas de Marketing, Comunicação e Comercial da CNEC, com 93 colégios, 15 faculdades, 2 centros universitários, 95 polos EAD, 1 Editora e Gráfica e Sistema de Ensino no Brasil\n \n • Gestão de indicadores e bases de informação, da definição das estratégias de captação de novos alunos e fidelização da base atual e do Roadmap de Vendas (Metas e KPIs; Ofertas; Pricing; Políticas Comerciais; Canais de Venda; BI)\n \n • Responsável pelo desenvolvimento e lançamento de novos produtos com base nas análises de mercado, bem como pelo planejamento e execução das capacitações das equipes, dos eventos e de toda a comunicação da marca\n \n • Gestão dos canais virtuais (redes sociais e sites), do CRM e do planejamento das ações de inbound marketing (RD Station) e marketing digital\n \n • Responsável pela gestão comercial dos 96 coordenadores de polo e pelo desenvolvimento e lançamento de novos produtos com base nas análises de mercado\n \n • Responsável também, pelo planejamento de estratégias das campanhas de publicidade on-line e off-line + os planos de mídia, com agência de publicidade interna\n Location : Brasil\n \n Job Title : Gerente de Marketing, Comunicação e Comercial\n Company name : Centro Universitário UNICEPLAC\n Period : fev. de 219 – out. de 219\n Summary : • Gestão das áreas de Marketing, Comunicação e Comercial do Centro Universitário Uniceplac\n \n • Responsável pela reestruturação das áreas de Marketing, Comunicação e Comercial da instituição, realizando a implantação e acompanhamento de KPIs (BI)\n \n • Responsável pela definição das estratégias de captação de novos alunos e fidelização da base atual\n \n • Remodelagem dos canais virtuais, alcançando crescimento de 23% no engajamento, e implantação da assessoria de imprensa\n \n • Implantação do call center, CRM e das estratégias de marketing digital, para a captação e retenção de alunos\n \n • Responsável também, pelo planejamento de estratégias das campanhas de publicidade on-line e off-line + os planos de mídia, gerenciando a interface com a agência de publicidade\n \n • Gestão do pacote orçamentário de Marketing, Comunicação e Comercial, mantendo o resultado sempre em linha com a estratégia da companhia\n \n • Crescimento de 2% da base de alunos da instituição em 219\n \n Job Title : Gerente de Marketing, Comunicação e Comercial\n Company name : SOMOS Educação\n Period : ago. de 217 – set. de 218\n Summary : • Gestão das áreas de Marketing, Comunicação e Comercial do Centro Educacional Sigma, marca do Grupo Somos Educação, com cinco unidades em Brasília\n \n • Responsável pelo desenvolvimento e lançamento de novos produtos com base nas análises de mercado, bem como pelo planejamento e execução das capacitações das equipes, dos eventos internos e externos e de toda a comunicação da marca\n \n • Gestão de indicadores e bases de informação, da definição das estratégias de captação de novos alunos e fidelização da base atual e do Roadmap de Vendas (Metas e KPIs; Ofertas; Pricing; Políticas Comerciais; Canais de Venda)\n \n • Projeto de Branding, sendo a liderança no projeto de desenvolvimento da nova marca e posicionamento institucional\n \n • Gestão dos canais virtuais (redes sociais, site, aplicativo e portal educacional), call center, CRM e da interface com a assessoria de imprensa, fazendo a implantação de metas quanti e qualitativas\n \n • Responsável também, pelo planejamento de estratégias das campanhas de publicidade on-line e off-line + os planos de mídia, gerenciando a interface com a agência de publicidade\n \n • Gestão do pacote orçamentário de Marketing, Comunicação e Comercial, mantendo o resultado sempre em linha com a estratégia da companhia\n \n • Atingimento da meta de captação/renovação de alunos do ciclo de 217/218 em 11%\n \n Job Title : Gerente Comercial\n Company name : Estácio\n Period : fev. de 215 – ago. de 217\n Summary : • Gestão Comercial do núcleo, composto por dois campi e oito polos no Distrito Federal, liderando as equipes das Salas de Matrículas, do Call Center, de Consultores Comerciais, PDV e do Espaço Estágio & Emprego\n \n • Responsável pela gestão de indicadores e bases de informação, definição das estratégias de captação de novos alunos e fidelização da base atual, gestão do plano de mídia e estratégias de trade marketing, levantamento de informações de mercado para alinhamento do portfólio existente e lançamento de novos produtos\n \n • Implantação de PDV com participação de 2% na formação da base de inscritos e 12,7% de participação na base de matriculados\n \n • Expansão dos polos EAD na região e no entorno, crescendo o número de polos (8) e a base de alunos em 233%\n \n • Gestão do pacote orçamentário de Vendas e Marketing do núcleo, mantendo o resultado sempre em linha com a estratégia da companhia\n \n • Responsável direto pelos seguintes Indicadores: Captação Graduação; Captação Pós-Graduação; Produtividade dos Consultores; ROL; Vendas & Marketing; Ticket Médio e Bolsa/ROL\n \n • Atingimento das metas de captação de alunos de 2151 em 134,3%, 2152 em 237,6%, 2161 em 162,1%, 2162 em 11% e 122% em 2171\n \n Job Title : Consultor Comercial\n Company name : Estácio\n Period : mai. de 214 – fev. de 215\n Summary : • Responsável pela captação de novos alunos no canal Empresa & Escola\n \n • Efetivação de mais de 15 novas parcerias em 1 meses\n \n • Relacionamento diário com os parceiros ativando novas oportunidades\n \n • Atingimento da meta de captação de alunos de 2142 do canal em 217,6%\n \n \n Job Title : Analista de Marketing\n Company name : Chang Producões\n Period : nov. de 212 – mai. de 214\n Summary : • Criação e desenvolvimento das ações de marketing, análises e pesquisas de mercado, endomarketing, planejamento de mídia, eventos e treinamentos\n \n • Realização da maior campanha publicitária em sacos de pão do mundo, com 126 sacos espalhados pelo Brasil, que abrigaram a marca do anunciante Del Valle Mais, do cliente Coca-Cola"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : A Arte da Negociação no Ambiente Corporativo\n Issuing Authority : ESPM Escola Superior de Propaganda e Marketing\n Title : Cenários Educacionais\n Issuing Authority : CNEC - Oficial\n \n Title : Conceitos e Fundamentos do Marketing Digital\n Issuing Authority : Fundação Getulio Vargas"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Estácio\n Speciality : Master of Business Administration - MBA, Liderança e Desenvolvimento de Pessoas\n Period : 221 – 221\n School name : Estácio\n Speciality : Master of Business Administration - MBA, Administração estratégica\n Period : 214 – 216\n \n School name : UniCEUB - Centro Universitário de Brasília\n Speciality : Bacharel em Comunicação Social com Habilitação em Comunicação e Marketing\n Period : 21 – 213"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "45f62439-b7e3-4bef-bc6c-27981d9576b4",
+    "id": "ddc9f50c-b15c-497d-a740-bd682de6e982*45f62439-b7e3-4bef-bc6c-27981d9576b4",
+    "talent": {
+      "updatedAt": "2023-12-20T14:08:04.118Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:08:04.118Z",
+      "linkedinUsername": "guilherme-guterres-cavalcanti",
+      "email": "guilherme507@gmail.com",
+      "phone": "61981220272",
+      "name": "Guilherme Cavalcanti",
+      "id": "45f62439-b7e3-4bef-bc6c-27981d9576b4"
+    },
+    "timeInCurrentStage": 61412702196
+  },
+  {
+    "importedAt": "2024-02-08T18:39:52.644Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente comercial"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente comercial\n Company name : YDUQS\n Period : nov. de 22 – o momento\n Location : Campo Grande, MS, Brasil\n \n Job Title : Coordenador Comercial\n Company name : Kroton\n Period : jun. de 216 – ago. de 22\n Summary : - Elaboração de atividades comerciais;\n - Elaboração de planos de captação de alunos;\n - Estratégias de marketing e comunicação aplicada;\n - Plano de ação e blindagem institucional;\n - Planejamento estratégico de equipe;\n - Coordenação de ações gerais da área comercial\n \n Job Title : Founder\n Company name : Tô no trabalho bar e conveniência\n Period : fev. de 215 – jan. de 218\n Location : Campo Grande, Mato Grosso do Sul, Brasil\n \n \n Job Title : Gerente de loja de varejo\n Company name : Drogaria São Bento\n Period : jan. de 27 – jul. de 215\n Summary : -Gestão de loja\n -Treinamentos e aperfeiçoamento para excelência no atendimento\n -Pesquisa de tendências do mercado\n -Planilhas de excel para analise de crescimentos e posição de vendas\n -Feedback com equipe, analise swot, metas smart\n -Controle de gastos através de DRE, Lajida, \n -Controle de estoque inventário e balanços\n -Abertura e fechamento de loja\n -Padronização e organização \n -Relacionamento com empresas e fornecedores abertura de convênios\n -Criação de estratégias de trabalho com a ferramenta Microsoft excel, word, power point, \n -Atendimento ao cliente, interno e externo\n -Negociação e fechamento de convênios empresarial"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Anhanguera Educacional\n Speciality : Pós-graduação Lato Sensu - MBA, Gestão e estratégicas de vendas\n Period : 22 – 22\n School name : Anhanguera Educacional\n Speciality : Pós-graduação Lato Sensu - MBA, MBA em Gestão de Projetos\n Period : 22 – 22\n School name : Anhanguera Educacional\n Speciality : Pós-graduação Lato Sensu - MBA, Marketing Digital\n Period : 22 – 22\n School name : Faculdade Única\n Speciality : Pós-graduação Lato Sensu - MBA Executivo, Marketing e gestão de equipes, 9\n Period : 22 – 22\n School name : Anhanguera Educacional\n Speciality : MBA, Liderança e Coaching na Gestão de Pessoas\n Period : 219 – 22\n School name : Anhanguera Educacional\n Speciality : Graduação, Processos Gerenciais\n Period : 217 – 219\n \n School name : UniCesumar\n Speciality : Bacharelado em Administração\n Period : 28 – 212"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "86d15505-f95b-49ae-9064-4ea4709cd121",
+    "id": "ddc9f50c-b15c-497d-a740-bd682de6e982*86d15505-f95b-49ae-9064-4ea4709cd121",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:22.825Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:22.825Z",
+      "linkedinUsername": "paulo-frejat-818077124",
+      "email": "paulofrejatsc@gmail.com",
+      "phone": "67998969379",
+      "name": "Paulo Frejat",
+      "id": "86d15505-f95b-49ae-9064-4ea4709cd121"
+    },
+    "timeInCurrentStage": 61412702196
+  },
+  {
+    "importedAt": "2024-02-08T18:39:52.673Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor Comercial"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Diretor Comercial\n Company name : Ânima Educação\n Period : dez. de 221 – o momento\n \n Job Title : Gerente Regional de Negócios Sr.\n Company name : Kroton\n Period : out. de 221 – nov. de 221\n Location : Porto Alegre, Rio Grande do Sul, Brasil\n \n Job Title : Gerente Regional de Negócios\n Company name : Kroton\n Period : fev. de 219 – out. de 221\n Summary : Gestão de 28 unidades de negócios em Porto Alegre e região, sob a responsabilidade 17\n alunos, 16 funcionários indiretos e receita de R$ 41mi/ano, sendo a 3º maior regional do Brasil\n - Gestão do P&L, times comerciais, acadêmicos e operações;\n - Liderança e gestão de equipe com capacitação dos colaboradores, desenvolvimento de\n treinamentos, trilhas de aprendizagem, para melhor atendimento ao aluno e\n desempenho em vendas;\n - Desenvolvimento de relatórios gerenciais, KPIs, análise SWOT e\n participação em novos projetos, controle e apuração dos resultados;\n - Criação de planos estratégicos para busca de novos alunos e retenção dos atuais, alinhado com\n os objetivos estratégicos da Kroton;\n - Hunter de novos parceiros de negócios (Expansão);\n - Definição das políticas comerciais para os cursos de graduação, mix de produtos e metas de para\n o ciclo, além do monitoramento das atividades dos competidores, garantindo respostas rápidas\n com ações competitivas;\n - Elaboração e apresentação do plano anual de negócios, com estratégias individualizadas por\n unidade, definição de datas para as entregas e planos de reversão para as unidades críticas;\n - Reuniões semanais com o time, follow dos indicadores financeiros, comerciais e acadêmicos\n Além de acompanhar a evolução do funil de vendas, direcionamento a atuação do time em cada\n uma das etapas, garantindo uma melhor experiência ao candidato;\n - Atuação em formas alternativas de captação, como parcerias com empresas, prefeituras,\n escolas, militares e consultores terceiros\n - Interação com o time de suporte, garantindo a entrega da melhor experiência para o aluno;\n - Proximidade com a rede parceira, com canal de comunicação mais ágil e presença constante em campo, criando encontros frequentes com os parceiros em workshops, convenções e consultoria\n - Atuação direta no marketing digital, promovendo e adequando a marca regionalmente;\n - Recuperação da inadimplência em 7pp no ano de 22;\n - Crescimento de 12% no último ciclo;\n Location : Porto Alegre, Rio Grande do Sul\n \n Job Title : Gerente Regional de Operações\n Company name : Kroton\n Period : ago. de 218 – fev. de 219\n Summary : - Implantação do Ensino à distância em 24 Campus do norte e nordeste das marcas Anhanguera, Unopar e Pitágoras;\n - Gestão matricial de 24 coordenadores e 5 consultores;\n - Atuação em parceria com os 24 diretores das faculdades;\n - Apresentação mensal dos resultados para toda diretoria Kroton;\n - Capacitação de todo o time comercial do Campus para atuação com o produto EAD;\n - Transmissão mensal em TV corporativa para todas as unidades do Brasil;\n - Elaboração de um modelo com a previsão de matrícula das novas turmas, onde possibilitou a gestão e rápida expansão;\n - Criação do Programa de Excelência para unidades próprias, com foco na melhoria da gestão e construção de um guia contendo todos os indicadores importantes para o negócio;\n - Atingimento de 1% da meta anual e captação de 4 alunos no período\n Location : Valinhos, São Paulo\n \n Job Title : Mentor - Projeto Somos Futuro\n Company name : SOMOS Educação\n Period : abr. de 221 – nov. de 221\n Summary : O Somos Futuro é um programa de aceleração para alunos provindos de escolas públicas Os bolsistas recebem bolsas de estudo integral para cursarem os três anos do Ensino Médio em escolas particulares da rede SOMOS Educação, materiais didáticos e paradidáticos, reforço escolar on-line, mentoria, além de acesso a toda a rede de apoio do programa\n \n Job Title : Gerente de vendas VIP + OFF Trade\n Company name : Cervejaria Ambev\n Period : fev. de 217 – mai. de 218\n Summary : - Gerenciamento dos clientes com perfis de Supermercado, Lojas de Conveniência, Distribuidores, Atacadistas, Choperias, Franquias, clientes nacionais, regionais e Restaurantes sofisticados;\n - Análises de pontos de vendas para garantir ganho de Market Share e margem de contribuição;\n - Elaboração do plano anual para a área (P1A) e SWOT;\n - Contribuição para o ganho de 3,5pp em Julho 217 atingindo o pico histórico de 82,2% na Unidade de Niterói e Região (Fonte: Nielsen);\n - Responsável por monitorar o cumprimento do Processo de Vendas pela unidade, atingindo o selo de qualificação do programa de excelência em Março 218;\n - Atingimento de 85% das metas do Bônus Individual Anual em 217\n Location : Niterói, Rio de Janeiro\n \n Job Title : Gerente de Vendas On Trade\n Company name : Cervejaria Ambev\n Period : mar. de 215 – fev. de 217\n Summary : - Gerenciamento dos clientes com perfis de Bar, Botequim e pequenos restaurantes;\n - Negociação de contratos de exclusividade e/ou imagem;\n - Implantação dos programas de relacionamento com os clientes: Contratos de Exclusividade, Contratos de Visibilidade, Campeão de Vendas, Rede Ideal e Âncoras;\n - Coaching mensal com toda a equipe de vendas, com foco em aperfeiçoar a proposta de vendas e segurança;\n - Avaliação de desempenho semestral de todo o time;\n - Abertura e acompanhamento de metas mensais, semestrais e anuais para o time de vendas;\n - Atingimento de 1% das metas do Bônus Individual Anual em 215 e 8% em 216\n Location : Niterói, Rio de Janeiro\n \n Job Title : Coordenador de Preço ao Consumidor\n Company name : Cervejaria Ambev\n Period : out. de 214 – fev. de 215\n Summary : - Gerenciamento de Preços ao consumidor dos principais produto para bares, botecos e\n botequim;\n - Negociação com os clientes para vender ao preço sugerido pela Ambev;\n - Monitoramento dos contratos vigentes, como: volume de vendas, Controle de pagamentos dos\n acordos e qualidade do serviço;\n - Análise dos dados da Nielsen para monitorar a área com preços ao consumidor mais elevados\n e montar plano para redução dos preços, chegando ao preço sugerido;\n - Redução em 3pp no mark-up vs ano anterior no 1º tri 215\n Location : Rio de Janeiro Area, Brazil\n \n Job Title : Coordenador Regional de Vendas\n Company name : Cervejaria Ambev\n Period : mar. de 214 – set. de 214\n Summary : - Responsável pelo gerenciamento da cadeia de distribuição e vendas das águas Nestlé para 11\n Centros de Distribuição Ambev no Rio de Janeiro;\n - Controle de pedidos dos produtos à fábrica Nestlé e monitoramento de estoque (out e over);\n - Elaboração, controle e divulgação de resultados das campanhas incentivos para equipe de vendas, definindo as mecânicas e métricas com base nas estratégias da área/CIA;\n - Gestão de orçamento da área, controle, análise e investimento na Região;\n - Desenvolvimento do business plan;\n - All time High em clientes compradores de águas, atingindo 19% da base de atendimento da\n Ambev no estado do RJ em Agosto 214\n Location : Rio de janeiro\n \n Job Title : Supervisor de Vendas\n Company name : Cervejaria Ambev\n Period : mar. de 211 – fev. de 214\n Summary : - Responsável pela supervisão direta do time de vendas, composto por 5 vendedores;\n - Carteira com 6 clientes do segmento Bar, Barzinho e Maiores de Refrigerante;\n - Responsável por realizar reunião matinal com abertura dos desafios do dia, acompanhamento\n do time nas visitas ao cliente e fechamento dos desafios na vespertina com todo o time;\n - Acompanhamento das vendas, trocas e entregas aos clientes;\n - Reporte de informações sobre o mercado e time às áreas de Back Office;\n - Suporte ao Gerente de Vendas, sendo responsável pela área na ausência do mesmo;\n - Atingimento de 1 dos 11 bônus trimestrais, sendo 2 bônus duplo\n Location : Nova Iguaçu Area, Brazil\n \n Job Title : Supervisor de Trade Marketing\n Company name : Cervejaria Ambev\n Period : ago. de 29 – fev. de 211\n Summary : - Acompanhamento da execução da estratégia de trade marketing/merchandising nos pontos\n de venda da Cia junto à agência externa;\n - Assegurar que os contratos de exclusividade sejam devidamente cumpridos;\n - Prospecção de novos clientes e mapeamento de eventos e novas oportunidades de consumo;\n - Responsável por projeto de construção de marca (Brandbuilding);\n - Controle do estoque e alocação no mercado de Jogos de Mesas, ombrelones, taças, baldes,\n luminosos entre outros;\n - Atingimento de 1% das metas do Bônus Individual Anual em 21\n Location : Niterói\n \n Job Title : Analista de Apuração de Resultados\n Company name : Cervejaria Ambev\n Period : set. de 27 – jul. de 29\n Summary : - Responsável por elaborar os acompanhamentos dos KPIs para a equipe de vendas e gerencia\n da unidade;\n - Responsável pelo monitoramento da remuneração variável de todo o time de vendas\n (vendedor e Supervisor);\n - Apuração das informações sobre rentabilidade e market share da unidade;\n - responsável pela previsão de demanda de todos os produtos para o próximo trimestre\n Location : Rio de Janeiro Area, Brazil\n \n \n Job Title : Estagiario\n Company name : Cervejaria Ambev\n Period : ago. de 26 – ago. de 27\n Location : Jacarepaguá"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Anhanguera São Paulo\n Speciality : Master of Business Administration - MBA, Gestão de Projetos\n Period : 22 – 221\n School name : Fundação Getulio Vargas\n Speciality : MBA Gestão Empresarial\n Period : 215 – 216\n \n School name : Universidade Gama Filho\n Speciality : 21, Administração de Empresas\n Period : 26 – 21"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "24184ba1-2b7f-4a2f-9607-5d5119c908c6",
+    "id": "ddc9f50c-b15c-497d-a740-bd682de6e982*24184ba1-2b7f-4a2f-9607-5d5119c908c6",
+    "talent": {
+      "updatedAt": "2023-12-20T14:06:50.645Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:06:50.645Z",
+      "linkedinUsername": "ewertongoncalves",
+      "email": "ewe.goncalves@gmail.com",
+      "phone": "",
+      "name": "Ewerton Gonçalves",
+      "id": "24184ba1-2b7f-4a2f-9607-5d5119c908c6"
+    },
+    "timeInCurrentStage": 61413302196
+  },
+  {
+    "importedAt": "2024-02-08T18:39:52.594Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Comercial Regional (Nordeste e Norte)"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente Comercial Regional (Nordeste e Norte)\n Company name : Ânima Educação\n Period : mai. de 221 – o momento\n Location : Brasil\n \n Job Title : Gerente Comercial Regional (Nordeste e Norte)\n Company name : Laureate International Universities\n Period : jan. de 221 – mai. de 221\n \n Job Title : Gerente de Vendas Indiretas\n Company name : YDUQS\n Period : out. de 22 – jan. de 221\n Summary : Responsável por toda estruturação, estratégia comercial e a performance da rede de +1k Polos Parceiros, 12 Representantes, PDVs e 15k Afiliados, bem como a expansão e o desenvolvimento dos Canais de Vendas através da prospecção e implementação de novos negócios, com acompanhamento das operações parceiras, performance de captação, melhoria de processos, planejamento financeiro e orçamentário Expansão e integração multimarcas para os Canais de Vendas\n Location : Rio de Janeiro, Brasil\n \n Job Title : Coordenadora Comercial | Canal de Vendas Indiretas\n Company name : YDUQS\n Period : fev. de 22 – out. de 22\n Summary : - Estruturação do Canal de Representantes e Afiliados\n - Estratégia, elaboração e acompanhamento do Plano de Expansão\n - Planejamento e acompanhamento dos investimentos relacionados à captação de parceiros como Marketing e Publicidade em veículos de mídia,participação em Feiras e Congressos de Franquias, relacionamento comentidades do Setor como ABF\n - Desempenho Operacional dos Canais (+ 9 representantes +1  afiliados)\n - Definição e Controle de KPIs estratégicos e táticos- Plano de Metas e apresentação de Resultados- Implantação, capacitação e desenvolvimento de novos parceiros;\n - Mapeamento e modelagem comercial de praças\n - Liderança de equipe\n - Monitorar e desenvolver equipe de vendas, atuação e vendas B2B, promovendo uma equipe de alto desempenho, com as habilidades e entregas necessárias para apoiar o crescimento e o alcance dos objetivos da operação\n  - Garantir o cumprimento das metas comerciais pré-estabelecidos nível Brasil\n Location : Rio de Janeiro, Brasil\n \n Job Title : Coordenadora Comercial | Canal de Vendas Indiretas\n Company name : Estácio\n Period : abr. de 219 – fev. de 22\n Summary : - Estruturação do modelo do canal PDV, Representantes e Afiliados\n - Estratégia de expansão da força de vendas indiretas\n - Criação de treinamentos para desenvolvimento dos parceiros\n - Acompanhamento de performance e gestão de FDV indireta\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Especialista de Marketing de Produtos | PMO\n Company name : Estácio\n Period : out. de 218 – fev. de 22\n Summary : Elaboração, execução e controle do plano anual / semestral de produtos da empresa, avaliando constantemente os impactos decorrentes das possíveis mudanças estratégicas\n Gestão dos Projetos dos produtos no departamento de marketing através de Painel de Acompanhamento de Projetos de cada demanda \n Analisar a viabilidade financeira e operacional de novos produtos \n Definir e gerenciar o cronograma de implantação \n Acompanhar a execução e fazer as intervenções necessárias garantindo a integração entre departamentos para que haja a boa execução dos projetos e estratégias de produtos - Financeiro, Operações, Atendimento ao cliente e comercial, com reuniões e contatos constantes, visando o envolvimento e comprometimento de todos os responsáveis pelos produtos da companhia \n Realizar a atualização constante sobre mercado, concorrentes e tendências, através de pesquisas de campo, internet, feiras e conexão entre todas as áreas, afim de buscar constantemente novas oportunidades de atuação para a companhia\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Especialista de Inteligência de Mercado\n Company name : Estácio\n Period : mai. de 218 – out. de 218\n Summary : Mapear principais processos com impacto em conversão, propor melhorias e implanta-las\n Elaborar e descrever necessidades de desenvolvimento sistêmico através de demandas para área de TI e acompanhar a implementação\n Planejar, implementar os projetos estruturantes da área de Conversão e acompanhar resultados\n Garantir o pleno envolvimento das áreas de interface nas entregas que impactam os processos de conversão\n Analisar performance de resultados dos indicadores de captação com todas as estratificações necessárias para um correto diagnóstico dos desvios e direcionamento de ações corretivas\n Elaborar apresentações de report executivo\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Trainee of Operations\n Company name : Estácio\n Period : mai. de 217 – mai. de 218\n Summary : Trainee na operação de 19 unidades de negócio da Estácio na Regional Nordeste\n Gestão de eficiência operacional, Gestão Pessoas, Desenvolvimento de Equipes e Clima Organizacional, Gestão Comercial, Captação, Renovação, Evasão, Relacionamento com Aluno, Gestão Acadêmica, Regulamentação de IES, Avaliações do MEC, ENADE, Avaliação Institucional, Gestão de Performance Financeira e PCP\n Workshop e formação para auditoria do Programa de Excelência em Gestão (PEG)\n Location : Aracaju e Região, Brasil\n \n Job Title : Coordenadora Planejamento Financeiro\n Company name : CNA Idiomas | Oficial\n Period : mai. de 215 – 216\n Summary : Responsável pelo planejamento financeiro do Grupo Bledoo, que constitui-se por 5 unidades operacionais da franquia CNA Idiomas, no Rio de Janeiro\n Responsável pelos setores: Departamento Pessoal, Contas à pagar, Contas à Receber, Faturamento, TI, Secretarias e Gerências de Unidades e Infra-estrutura Equipe de 78 administrativos \n \n  - Definição das regras de negócio e estratégias de captação e renovação dos produtos financeiros da rede\n - Acompanhamento KPIs e apresentação de resultados junto a Diretoria do grupo\n - Elaboração do orçamento de capex e opex\n - Controle orçamentário, identificação e explicação de desvios\n · Participação na definição das regras de negócio e estratégias de captação e renovação\n - Acompanhamento do processo de criação de campanhas de atração de alunos junto as áreas responsáveis\n - Análise de viabilidade econômica e produtividade da rede\n - Parcerias com instituições financeiras\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Analista Administrativo Financeiro (Gestão de Contratos)\n Company name : Nova Rio\n Period : fev. de 214 – abr. de 215\n Summary : Gestão de contratos de considerável potencial econômico (Clientes: Públicos, Privados e Economia Mista)\n Análise de índices de rentabilidade, viabilidade e risco do negócio,\n Controle de Prazos, Repactuação e Reajuste de Contratos\n Elaboração de planilhas de custo e formação de preço de serviços e produtos;\n Acompanhamento de processos licitatórios, processos administrativos, controle de empenhos, medições, faturamento e negociação junto ao cliente\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Supervisão (Controladoria)\n Company name : Centro Universitário Una\n Period : jan. de 29 – fev. de 214\n Summary : Planejamento e controle orçamentário de 9 unidades operacionais\n Análise de viabilidade financeira de novos cursos, apuração de custos, precificação e acompanhamento do realizado\n Elaboração e Análise de Indicadores financeiros para acompanhamento da performance de Despesas Operacionais e Administrativas\n Avaliação de Investimentos e Análise de Cenários\n Projetos de Redução de Custos, reestruturação do plano de contas e centros de custos da Instituição\n Gerenciamento do patrimônio tangível e intangível das unidades de negócios\n Elaboração de projeto de sustentabilidade financeira e contabilidade ambiental \n Administração financeira dos Projetos de Energia Solar: Estimativa de custos do Projeto, relatório financeiro das despesas realizadas, acompanhamento e controle financeiro das movimentações bancárias e repasses do projeto, confecção da Invoice, prestação de contas\n Location : Belo Horizonte e Região, Brasil\n \n Job Title : Assistente Administrativo de Pessoal\n Company name : Centro Universitário Una\n Period : jan. de 28 – jan. de 29\n Summary : Atividades relacionadas ao Setor de Departamento de Pessoal/ Contábil e Administrativo;\n Processamento da folha de pagamento, encargos (GFIP/SEFIP/FGTS/INSS/IRRF), admissão, férias, rescisão, benefício, transferências, convenções coletivas e acordos, homologações, relatórios gerenciais e indicadores de Turn Over, entre outras;\n \n Job Title : Assistente Administrativo\n Company name : MICRONET CURSOS PROFISSIONALIZANTES\n Period : jan. de 26 – jan. de 28\n Summary : Empresa de pequeno porte no segmento de Educação (Cursos Livres)\n Responsável pela sala de matrícula de 8 Unidades em Belo Horizonte\n Location : Belo Horizonte e Região, Brasil\n \n \n Job Title : Diretor de recursos humanos\n Company name : Junior Achievement of Brazil, Minas Gerais\n Period : fev. de 26 – dez. de 26\n Summary : Empresa Junior prestadora de Serviços de Recursos Humanos, parceira GERDAU\n Processamento de dados para folha de pagamento, arquivos bancário, controle de ponto e atendimento a colaboradores\n Location : Contagem, Minas Gerais"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Expo HSM 2021\n Period : Emitido em dez. de 2021 - Nenhuma data de expiração\n Issuing Authority : HSM\n Title : Nova Era Contábil - Perícia Contábil\n Period : Emitido em nov. de 2020 - Expirounov. de 2020\n Issuing Authority : Conselho Regional de Contabilidade do Rio de Janeiro - CRC RJ\n \n Title : Programa de Capacitação em Franchising\n Period : Emitido em ago. de 2019 - Expirouout. de 2019\n Issuing Authority : ABF Rio (Associação Brasileira de Franchising Rio Janeiro)"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Ibmec\n Speciality : MBA em Gestão de Negócios\n Period : 22 – 222\n School name : Universidade Estácio de Sá\n Speciality : Bachelor of Technology - BTech, Gestão Financeira\n Period : 217 – 218\n School name : Estácio\n Speciality : MBA, Gestão de Operações, Produtos e Serviços\n Period : 22 – 222\n School name : Universidade Estácio de Sá\n Speciality : Bachelor of Technology - BTech, Ciências Contábeis\n Period : 29 – 216\n \n School name : Senac Brasil\n Speciality : Técnico, Departamento de Pessoal\n Period : 26 – 26"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "3184de06-ccde-4ff3-aa62-d9315e99227d",
+    "id": "ddc9f50c-b15c-497d-a740-bd682de6e982*3184de06-ccde-4ff3-aa62-d9315e99227d",
+    "talent": {
+      "updatedAt": "2023-12-20T14:00:42.134Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:00:42.134Z",
+      "linkedinUsername": "letíciacordeiro",
+      "email": "leticicsilva@gmail.com",
+      "phone": "11989823607",
+      "name": "Letícia Cordeiro",
+      "id": "3184de06-ccde-4ff3-aa62-d9315e99227d"
+    },
+    "timeInCurrentStage": 61412702196
+  },
+  {
+    "importedAt": "2024-02-08T18:39:52.736Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Comercial na Yduqs"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente Comercial na Yduqs\n Company name : YDUQS\n Period : out. de 221 – o momento\n Location : Pará, Brasil\n \n Job Title : Gerente Comercial\n Company name : Estácio\n Period : out. de 218 – out. de 221\n Location : Macapá, Amapá\n \n Job Title : Coordenador Comercial e Relacionamento com Mercado.\n Company name : Kroton\n Period : jul. de 214 – out. de 218\n Location : Macapá/AP\n \n \n Job Title : Consultor Comercial\n Company name : Kroton\n Period : mar. de 211 – jun. de 214"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Quality Service - Disney Institute\n Period : Emitido em set. de 2014 - Nenhuma data de expiração\n Issuing Authority : Disney Institute"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Estácio de Sá\n Speciality : Graduação, Administração e Negócios\n Period : 219 – 222\n School name : Universidade Norte do Paraná\n Speciality : Especializaçao Lato Sensu, MBA em Liderança e Coaching na Gestão de Pessoas\n Period : 216 – 217\n \n School name : Faculdade de Macapá - FAMA\n Speciality : Licenciatura Plena, Educação Física\n Period : 29 – 212"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "63b6ba5b-def4-468c-8bbf-7fc2af1f8d74",
+    "id": "ddc9f50c-b15c-497d-a740-bd682de6e982*63b6ba5b-def4-468c-8bbf-7fc2af1f8d74",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:53.896Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:53.896Z",
+      "linkedinUsername": "higgys-siqueira-178a9b55",
+      "email": "higgys1@hotmail.com",
+      "phone": "96981149610",
+      "name": "Higgys Siqueira",
+      "id": "63b6ba5b-def4-468c-8bbf-7fc2af1f8d74"
+    },
+    "timeInCurrentStage": 61412702196
+  },
+  {
+    "importedAt": "2024-02-08T18:39:52.762Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Planejamento Comercial"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de Planejamento Comercial\n Company name : YDUQS\n Period : jun. de 219 – o momento\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Coordenadora de Sistemas de Gestão\n Company name : YDUQS\n Period : abr. de 218 – mai. de 219\n \n Job Title : Coordenadora de Desenvolvimento de Negócios\n Company name : Grupo Technos S/A\n Period : jul. de 216 – mar. de 218\n Summary : - Estruturação e implantação de Programa de Desenvolvimento para os clientes chave do Grupo (Programa de Cogestão);\n - Planejamento da estratégia de crescimento de cada cliente para a categoria no curto, médio e longo prazo;\n - Acompanhamento de indicadores de desempenho (sell out, giro, conversão, margem, inadimplência);\n - Assessoria estratégica aos clientes na gestão de seus negócios e assessoria técnica sobre estratégia de vendas;\n - Consultoria financeira com elaboração de estudos e planejamento de recuperação e crescimento;\n - Inteligência no processo de abastecimento com sugestão de mix de acordo com o perfil do ponto de venda, tendo um crescimento de sell out de 12pp acima dos demais clientes mapeados;\n - Avaliação da performance das marcas do Grupo x concorrência, traçando estratégia para crescimento de share;\n - Responsável por estudos para trazer insights do mercado para balizar ações de trade marketing;\n - Definição de ações para potencializar o sell out no PDV;\n - Desenvolvimento de Programa de Excelência (PEx);\n - Desenvolvimento de BI exclusivo para cada cliente melhorar a gestão de seu negócio\n \n Job Title : Coordenadora de Administração Comercial\n Company name : Grupo Technos S/A\n Period : jul. de 215 – jun. de 216\n Summary : - Mapeamento das oportunidades de redução/controle de despesa comercial e de marketing;\n - Desenvolvimento de Portal para os clientes e Site B2B com representatividade de 4% na receita anual;\n - Criação de sistema de controle e gestão da verba de marketing;\n - Desenvolvimento de inteligência para redução da perda de vendas por falta de estoque com redução aproximada de R$6M/ano;\n - Responsável pela área de Faturamento (avaliação dos pedidos, liberação de prazo e desconto);\n - Negociação com grandes marcas nacionais com estudo de mercado e elaboração de business plan para introdução da categoria de relógios em seus portfólios (Reserva, Richards)\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Coordenadora de Planejamento Comercial\n Company name : Grupo Technos S/A\n Period : jul. de 214 – jun. de 215\n Summary : - Desenvolvimento da estratégia de vendas: canais, área de distribuição, capacidade de venda/marca/região, cross sell;\n - Implementação da estratégia de segmentação de clientes; \n - Definição e acompanhamento de indicadores comerciais de todas as unidades de negócio;\n - Reunião mensal de performance com toda a liderança comercial para traçar estratégias de atingimento de metas;\n - Inteligência Comercial: mapeamento das oportunidades de aumento de vendas e definição da estratégia de execução;\n - Gestão e remodelagem da remuneração comercial\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Coordenadora de Planejamento e Gestão de Metas\n Company name : Grupo Technos S/A\n Period : jan. de 213 – jun. de 214\n Summary : - Responsável pelo planejamento e condução do processo de desdobramento de metas para todos os níveis, garantindo alinhamento com as prioridades estratégicas da Empresa;\n - Acompanhamento do desempenho dos indicadores estratégicos;\n - Reuniões de resultados periódicas com toda a liderança para discussão e plano de recuperação dos KPIs ofensores, utilizando a metodologia PDCA;\n - Capacitação de todos os níveis nos métodos de gestão com foco em melhoria contínua com ciclos de treinamentos (Six Sigma - Yellow e Green Belt);\n - Condução de projetos estratégicos, atuando como PMO, com ganho de produtividade fabril na escala de 1% a 15% através de melhoria dos processos; \n - Report dos resultados mensais para a Diretoria;\n - Condução do processo de apuração dos bônus atrelados às metas (PLR)\n Location : Rio de Janeiro e Região, Brasil\n \n \n Job Title : Analista de Planejamento e Gestão de Metas\n Company name : Grupo Technos S/A\n Period : abr. de 211 – dez. de 212\n Summary : - Desdobramento das prioridades estratégicas em KPIs para cada uma das áreas;\n - Acompanhamento e apuração dos indicadores com divulgação mensal dos resultados;\n - Suporte aos gestores no desenvolvimento de análises e elaboração de plano de ação;\n - Desenvolvimento de sistema de acompanhamento e gestão dos KPIs mensais para todos os níveis;\n - Elaboração de book com performance de indicadores para a diretoria\n Location : Rio de Janeiro e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Black Belts\n Issuing Authority : Grupo Werkema"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Ibmec\n Speciality : MBA, Finanças\n Period : 213 – 214\n \n School name : Centro Universitário de Volta Redonda - UniFOA\n Speciality : Bacharelado em Administração\n Period : 26 – 21"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "37028194-eb2d-475d-8dcb-f7058b0b879a",
+    "id": "ddc9f50c-b15c-497d-a740-bd682de6e982*37028194-eb2d-475d-8dcb-f7058b0b879a",
+    "talent": {
+      "updatedAt": "2023-12-20T14:02:31.833Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:02:31.833Z",
+      "linkedinUsername": "ariane-pereira-14884778",
+      "email": "ariane.psilva@hotmail.com",
+      "phone": "",
+      "name": "Ariane Pereira",
+      "id": "37028194-eb2d-475d-8dcb-f7058b0b879a"
+    },
+    "timeInCurrentStage": 61412402196
+  }
+]

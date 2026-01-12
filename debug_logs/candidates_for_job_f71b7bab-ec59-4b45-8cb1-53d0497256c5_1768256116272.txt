@@ -1,0 +1,2142 @@
+[
+  {
+    "createdAt": "2024-01-31T11:25:50.944Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBK6D09GEMVEM6E2FR9",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 2
+    },
+    "status": "active",
+    "talentId": "78884c7c-947e-4b8d-9936-5ad55ee3d445",
+    "updatedAt": "2024-01-31T11:25:59.938Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*78884c7c-947e-4b8d-9936-5ad55ee3d445",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:25:48.892Z",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQEF0NGY7GuVwA/profile-displayphoto-shrink_200_200/0/1704788224228?e=1712188800&v=beta&t=hpT7yK3kjDR89OCRpir_tesX639eRC71GoNpf9SZkVo",
+      "linkedinUsername": "paulo-eduardo-loschiavo-980926125",
+      "name": "Paulo Eduardo Loschiavo",
+      "company": "inpEV",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:25:48.892Z",
+      "headline": "",
+      "id": "78884c7c-947e-4b8d-9936-5ad55ee3d445"
+    },
+    "timeInCurrentStage": 61555755915
+  },
+  {
+    "createdAt": "2024-01-24T11:57:49.981Z",
+    "customFields": [],
+    "reason": "competence",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "status": "rejected",
+    "talentId": "f690b7d7-d59c-4e26-b4aa-53970f570d72",
+    "updatedAt": "2024-01-30T19:12:13.387Z",
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*f690b7d7-d59c-4e26-b4aa-53970f570d72",
+    "talent": {
+      "company": "Solví Soluções para a Vida",
+      "createdAt": "2024-01-24T11:57:46.201Z",
+      "headline": "",
+      "linkedinUsername": "fabricio-novoletti-7458046b",
+      "location": "",
+      "name": "Fabricio Novoletti",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQGPrjK8ZcZB2g/profile-displayphoto-shrink_200_200/0/1600867827347?e=1712188800&v=beta&t=Tq3uwEwhgjLP_mgd_w_j5KRCaTl3LLsA0AFpnbTFUbI",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-01-29T21:39:09.224Z",
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "id": "f690b7d7-d59c-4e26-b4aa-53970f570d72"
+    },
+    "timeInCurrentStage": 62158645896
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-01-31T11:15:33.973Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-01-31T11:15:33.973Z",
+    "source": "manual",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*2ba48d53-cfef-41b5-847e-df96a8a1c191",
+    "talentId": "2ba48d53-cfef-41b5-847e-df96a8a1c191",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:15:31.203Z",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQF0IGbt_zX3bw/profile-displayphoto-shrink_200_200/0/1516507197398?e=1712188800&v=beta&t=uTn5usOjGhV9irRtlt4OwKEtQlJVCBfiKebd0Syy5P4",
+      "linkedinUsername": "thiago-lino-3b065513",
+      "name": "Thiago Lino",
+      "company": "EY",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:15:31.203Z",
+      "headline": "",
+      "id": "2ba48d53-cfef-41b5-847e-df96a8a1c191"
+    },
+    "timeInCurrentStage": 61556381904
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-01-31T11:24:38.514Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-01-31T11:24:38.514Z",
+    "source": "manual",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*1f6ca691-44d8-43fe-a678-f7f615ccd4c3",
+    "talentId": "1f6ca691-44d8-43fe-a678-f7f615ccd4c3",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:24:36.410Z",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQF4da5uS5Ve6Q/profile-displayphoto-shrink_200_200/0/1553651147161?e=1712188800&v=beta&t=f13TJdeWnOX6kIgKlnqDqjS-oyD7qw2-cAP07QOTdu8",
+      "linkedinUsername": "milena-gonçalves-real-42866b84",
+      "name": "Milena Gonçalves Real",
+      "company": "Camil Alimentos S/A",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:24:36.410Z",
+      "headline": "",
+      "id": "1f6ca691-44d8-43fe-a678-f7f615ccd4c3"
+    },
+    "timeInCurrentStage": 61555837363
+  },
+  {
+    "createdAt": "2024-01-24T12:19:31.767Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Abordagem",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "inApproach",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "status": "active",
+    "talentId": "7833e048-ce98-4847-8306-6f0c6c313ba9",
+    "updatedAt": "2024-01-24T16:26:26.802Z",
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "customFields": [],
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*7833e048-ce98-4847-8306-6f0c6c313ba9",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "createdAt": "2024-01-24T12:19:29.810Z",
+      "picture": "https://media.licdn.com/dms/image/D4E03AQHk3PW1-2Ds-A/profile-displayphoto-shrink_200_200/0/1704322473543?e=1711584000&v=beta&t=fZRVVXxAMLLnwcp-aKXiBfixkKpolZ4FGEPdueou_6U",
+      "linkedinUsername": "marilia-monteiro-de-lima-55809622",
+      "name": "Marilia Monteiro de Lima",
+      "company": "Melitta South America",
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "updatedAt": "2024-01-24T12:19:29.810Z",
+      "headline": "",
+      "id": "7833e048-ce98-4847-8306-6f0c6c313ba9"
+    },
+    "timeInCurrentStage": 62142529052
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "updatedAt": "2024-01-24T11:46:15.089Z",
+    "status": "active",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "createdAt": "2024-01-24T11:46:15.089Z",
+    "source": "manual",
+    "talentId": "af549af5-064c-4cb6-9a3d-f8a24603cb40",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*af549af5-064c-4cb6-9a3d-f8a24603cb40",
+    "customFields": [],
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "createdAt": "2024-01-24T11:46:12.980Z",
+      "picture": "https://media.licdn.com/dms/image/C5603AQGevzh6icGwOA/profile-displayphoto-shrink_200_200/0/1517567429114?e=1711584000&v=beta&t=IPHEky-AZlChmfF8l_D_Um6cVeFVDRJxHU8xtjW3Y5U",
+      "linkedinUsername": "francisco-ivonaldo-de-morais-a7b4aa4b",
+      "name": "Francisco Ivonaldo de Morais",
+      "company": "Terumo Blood and Cell Technologies",
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "updatedAt": "2024-01-24T11:46:12.980Z",
+      "headline": "",
+      "id": "af549af5-064c-4cb6-9a3d-f8a24603cb40"
+    },
+    "timeInCurrentStage": 62159340788
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "updatedAt": "2024-01-24T13:47:54.118Z",
+    "status": "active",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "createdAt": "2024-01-24T13:47:54.118Z",
+    "source": "manual",
+    "talentId": "2df3d9bc-fbc3-40ab-b016-dbfdb735832c",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*2df3d9bc-fbc3-40ab-b016-dbfdb735832c",
+    "customFields": [],
+    "talent": {
+      "company": "EY",
+      "createdAt": "2024-01-24T13:47:52.146Z",
+      "headline": "",
+      "linkedinUsername": "joice-marchiori-felix-768412148",
+      "location": "",
+      "name": "Joice Marchiori Felix",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQE3bxcagJHYoQ/profile-displayphoto-shrink_200_200/0/1538670591162?e=1711584000&v=beta&t=-tvi8jkyLhzBW5rGedBInUYP4M3cwDAA0ulevwOGdzM",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-10-06T15:12:26.155Z",
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "id": "2df3d9bc-fbc3-40ab-b016-dbfdb735832c"
+    },
+    "timeInCurrentStage": 62152041759
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-01-23T13:47:10.297Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-01-23T13:47:10.297Z",
+    "source": "manual",
+    "talentId": "e15109cc-8494-4482-b96d-21ca8f9a28ff",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*e15109cc-8494-4482-b96d-21ca8f9a28ff",
+    "customFields": [],
+    "talent": {
+      "company": "PepsiCo",
+      "createdAt": "2024-01-23T13:47:07.456Z",
+      "headline": "",
+      "linkedinUsername": "fernando-borges-santos",
+      "location": "",
+      "name": "Fernando Borges",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQFxI2FGZeHlRw/profile-displayphoto-shrink_200_200/0/1596998960024?e=1712188800&v=beta&t=m1n_l8ts2TmEJXhuNRpNkhThe-DCByBjG6nq2R9Li6w",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-01-31T11:15:53.420Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "e15109cc-8494-4482-b96d-21ca8f9a28ff"
+    },
+    "timeInCurrentStage": 62238485580
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-01-31T11:26:51.530Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-01-31T11:26:51.530Z",
+    "source": "manual",
+    "talentId": "73fd2ece-6180-40d7-b407-2ff55bbd82df",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*73fd2ece-6180-40d7-b407-2ff55bbd82df",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:26:49.111Z",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQFWPnawKO7qyQ/profile-displayphoto-shrink_200_200/0/1671548787013?e=1712188800&v=beta&t=mF2dnwIcxIkrxPUJ6_k5EQSpd5P_K3eyHYY0x7n_dZY",
+      "linkedinUsername": "victorlpereira",
+      "name": "Victor Pereira",
+      "company": "frete.com",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:26:49.111Z",
+      "headline": "",
+      "id": "73fd2ece-6180-40d7-b407-2ff55bbd82df"
+    },
+    "timeInCurrentStage": 61555704347
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "updatedAt": "2024-01-24T12:47:23.456Z",
+    "status": "active",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "createdAt": "2024-01-24T12:47:23.456Z",
+    "source": "manual",
+    "talentId": "c6db1936-d271-40a3-8c12-5d1142936191",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*c6db1936-d271-40a3-8c12-5d1142936191",
+    "customFields": [],
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "createdAt": "2024-01-24T12:47:21.325Z",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQEQxD0B9TltZA/profile-displayphoto-shrink_200_200/0/1635508340886?e=1711584000&v=beta&t=ZzAYPWplWX8uqPeIqNc98zg8BeJ2pqQUzaOLU9TjchY",
+      "linkedinUsername": "carolina-estela-dario-81426731",
+      "name": "Carolina Estela Dario",
+      "company": "Moove",
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "updatedAt": "2024-01-24T12:47:21.325Z",
+      "headline": "",
+      "id": "c6db1936-d271-40a3-8c12-5d1142936191"
+    },
+    "timeInCurrentStage": 62155672421
+  },
+  {
+    "createdAt": "2024-01-31T11:24:59.271Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Fit Cultural",
+        "id": "01HHCPTVBPB1DTTZ7V8KQJFGAM",
+        "type": "culturalFit",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 5,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Entrevista People",
+      "id": "5",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "culturalInterview",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 5
+    },
+    "status": "active",
+    "talentId": "ff6a20e4-6a84-4390-842f-09d207947458",
+    "updatedAt": "2024-01-31T11:41:59.650Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*ff6a20e4-6a84-4390-842f-09d207947458",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:24:56.284Z",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQHPdymmNp5sAQ/profile-displayphoto-shrink_200_200/0/1689989394105?e=1712188800&v=beta&t=IpPt2VIBsrExlUiw-JY8waq109O3hU81k6ucL92Drjg",
+      "linkedinUsername": "pábulo-melo-34185952",
+      "name": "Pábulo Melo",
+      "company": "BDO Brazil",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:24:56.284Z",
+      "headline": "",
+      "id": "ff6a20e4-6a84-4390-842f-09d207947458"
+    },
+    "timeInCurrentStage": 61554796204
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-01-31T11:16:45.474Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-01-31T11:16:45.474Z",
+    "source": "manual",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*7a8ab190-bb63-4183-8079-6f53588f9885",
+    "talentId": "7a8ab190-bb63-4183-8079-6f53588f9885",
+    "talent": {
+      "company": "AFL",
+      "createdAt": "2024-01-31T11:16:42.757Z",
+      "headline": "",
+      "linkedinUsername": "rickwhegman",
+      "location": "",
+      "name": "Rick Whegman",
+      "phone": "+5511979745499",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQEz7Wz8QDp4Bw/profile-displayphoto-shrink_200_200/0/1692547273385?e=1712188800&v=beta&t=KNXKlNAszo-JjWB1Vx8oLnxKlILDRVXM2yr2QQArcwI",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-11-04T12:23:50.518Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "7a8ab190-bb63-4183-8079-6f53588f9885"
+    },
+    "timeInCurrentStage": 61556310403
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-01-29T13:26:37.539Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-01-29T13:26:37.539Z",
+    "source": "manual",
+    "talentId": "9738c1fa-a77d-4783-af7d-f4cb86f6a85f",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*9738c1fa-a77d-4783-af7d-f4cb86f6a85f",
+    "customFields": [],
+    "talent": {
+      "company": "Deloitte",
+      "createdAt": "2024-01-29T13:26:35.575Z",
+      "headline": "",
+      "linkedinUsername": "fernanda-cristina-de-oliveira-santos-422b8831",
+      "location": "",
+      "name": "Fernanda Cristina de Oliveira Santos",
+      "phone": "+5511991730912",
+      "picture": "https://media.licdn.com/dms/image/D4D35AQHYwW2-2VKWlw/profile-framedphoto-shrink_200_200/0/1704204008799?e=1707148800&v=beta&t=r8Fmv9LOjYVVRKhM_0gEmNAmI7IdIC8_AFk4tduTq0s",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-11-06T13:50:35.606Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "9738c1fa-a77d-4783-af7d-f4cb86f6a85f"
+    },
+    "timeInCurrentStage": 61721318338
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-01-31T11:22:15.326Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-01-31T11:22:15.326Z",
+    "source": "manual",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*2bf5f072-f7ab-4ec6-b3d4-56a718e8c64b",
+    "talentId": "2bf5f072-f7ab-4ec6-b3d4-56a718e8c64b",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:22:13.553Z",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQFnvaEyfsVHxA/profile-displayphoto-shrink_200_200/0/1689276558492?e=1712188800&v=beta&t=La1FEVvjsOFOtW744yfsLWd5RFjpCMl9M1nqvBZJ4mQ",
+      "linkedinUsername": "camila-macedo-9a856bb8",
+      "name": "Camila Macedo",
+      "company": "Red Bull",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:22:13.553Z",
+      "headline": "",
+      "id": "2bf5f072-f7ab-4ec6-b3d4-56a718e8c64b"
+    },
+    "timeInCurrentStage": 61555980551
+  },
+  {
+    "createdAt": "2024-01-31T11:34:37.286Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBK6D09GEMVEM6E2FR9",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 2
+    },
+    "status": "active",
+    "talentId": "b6f0522d-5709-47a9-8253-8ab7a30a6770",
+    "updatedAt": "2024-01-31T11:34:49.980Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*b6f0522d-5709-47a9-8253-8ab7a30a6770",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:34:35.165Z",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQHYNqW5y6dRqA/profile-displayphoto-shrink_200_200/0/1569152165251?e=1712188800&v=beta&t=Mu8EY6Xrj8JbG39kanzKSksJoJdL2ND1XR0GoqWctu8",
+      "linkedinUsername": "renata-r-a7467137",
+      "name": "Renata R.",
+      "company": "",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:34:35.165Z",
+      "headline": "",
+      "id": "b6f0522d-5709-47a9-8253-8ab7a30a6770"
+    },
+    "timeInCurrentStage": 61555225876
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "updatedAt": "2024-01-24T11:48:01.198Z",
+    "status": "active",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "createdAt": "2024-01-24T11:48:01.198Z",
+    "source": "manual",
+    "talentId": "c8daafe8-77b5-43e3-bcb8-1285dd611982",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*c8daafe8-77b5-43e3-bcb8-1285dd611982",
+    "customFields": [],
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "createdAt": "2024-01-24T11:47:59.429Z",
+      "picture": "https://media.licdn.com/dms/image/C5603AQGIREcTQZ841g/profile-displayphoto-shrink_200_200/0/1517460870615?e=1711584000&v=beta&t=-xL4s70suwr5afRg4nsldRVOoZRIMO-dVurimzHNrOc",
+      "linkedinUsername": "fabio-feitosa-502a386a",
+      "name": "Fabio Feitosa",
+      "company": "Fundação Escola de Comércio Álvares Penteado",
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "updatedAt": "2024-01-24T11:47:59.429Z",
+      "headline": "",
+      "id": "c8daafe8-77b5-43e3-bcb8-1285dd611982"
+    },
+    "timeInCurrentStage": 62159234679
+  },
+  {
+    "createdAt": "2024-01-31T11:30:11.285Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBK6D09GEMVEM6E2FR9",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 2
+    },
+    "status": "active",
+    "talentId": "7058eee6-c67b-4083-b23b-34c0755a3491",
+    "updatedAt": "2024-01-31T11:30:28.587Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*7058eee6-c67b-4083-b23b-34c0755a3491",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:30:08.528Z",
+      "picture": "https://media.licdn.com/dms/image/C5603AQFJEHjbD0qvFg/profile-displayphoto-shrink_200_200/0/1657830320945?e=1712188800&v=beta&t=ZX1j3Z0SPD4TK28-NwW3nu7saT9fBL958s52wWM8Chg",
+      "linkedinUsername": "carolina-magalhães-297982162",
+      "name": "Carolina Magalhães",
+      "company": "Deloitte",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:30:08.528Z",
+      "headline": "",
+      "id": "7058eee6-c67b-4083-b23b-34c0755a3491"
+    },
+    "timeInCurrentStage": 61555487271
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-01-31T11:20:17.192Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-01-31T11:20:17.192Z",
+    "source": "manual",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*e863dee4-5a6a-47a8-a81f-d6b2fcede269",
+    "talentId": "e863dee4-5a6a-47a8-a81f-d6b2fcede269",
+    "talent": {
+      "company": "KPMG",
+      "createdAt": "2024-01-31T11:20:15.061Z",
+      "headline": "",
+      "linkedinUsername": "marcio-capozzi-neves-jr-a9ab92124",
+      "location": "",
+      "name": "Marcio Capozzi Neves Jr.",
+      "phone": "+5511998076375",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQEZJztkGuf9cg/profile-displayphoto-shrink_200_200/0/1695906767501?e=1712188800&v=beta&t=b7PR3wu0Wjgm-5C1GxYuUSrjKdPTRa7KeL3Ymp4fEMs",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-11-04T20:21:35.480Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "e863dee4-5a6a-47a8-a81f-d6b2fcede269"
+    },
+    "timeInCurrentStage": 61556098685
+  },
+  {
+    "createdAt": "2024-01-31T11:26:18.186Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBK6D09GEMVEM6E2FR9",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 2
+    },
+    "status": "active",
+    "talentId": "b6e672e0-d279-4dfb-84a1-49a2d683d5aa",
+    "updatedAt": "2024-01-31T11:26:32.847Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*b6e672e0-d279-4dfb-84a1-49a2d683d5aa",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:26:16.169Z",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQEWxBiXO0kcsg/profile-displayphoto-shrink_200_200/0/1676257461860?e=1712188800&v=beta&t=4GYT2D73W1yCwJItngF_C7cU_Q8yjuIY8i2oeJbaPrc",
+      "linkedinUsername": "anapaularodriguesgalhardo",
+      "name": "Ana Paula Rodrigues Galhardo",
+      "company": "Volkswagen do Brasil",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:26:16.169Z",
+      "headline": "",
+      "id": "b6e672e0-d279-4dfb-84a1-49a2d683d5aa"
+    },
+    "timeInCurrentStage": 61555723011
+  },
+  {
+    "createdAt": "2024-01-29T13:36:57.758Z",
+    "customFields": [],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Fit Técnico",
+        "id": "01HHCPTVBQAKVSQWNHT1Q813EQ",
+        "type": "technicalFit",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 6,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Short List",
+      "id": "6",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "technicalInterview",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 6
+    },
+    "status": "active",
+    "talentId": "5a5543ef-655c-42ae-ae86-b81a8f7507a6",
+    "updatedAt": "2024-01-31T11:42:59.429Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*5a5543ef-655c-42ae-ae86-b81a8f7507a6",
+    "talent": {
+      "company": "CSN - Companhia Siderúrgica Nacional",
+      "createdAt": "2024-01-29T13:36:55.954Z",
+      "email": "renatinharotta@gmail.com",
+      "headline": "",
+      "linkedinUsername": "renata-rotta-2838866a",
+      "location": "são Paulo, SP",
+      "name": "Renata Rotta",
+      "phone": "+5511992421982",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQEVJAEmGWeexg/profile-displayphoto-shrink_200_200/0/1688579499226?e=1712188800&v=beta&t=FNPsEqaLuT6nVnn3A4_BAInuE-L_-SJU1gYQgcQaMpI",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-12-05T14:59:04.217Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "5a5543ef-655c-42ae-ae86-b81a8f7507a6"
+    },
+    "timeInCurrentStage": 61554736421
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-01-31T11:20:33.666Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-01-31T11:20:33.666Z",
+    "source": "manual",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*d111c581-970a-44ae-9823-860fcb297369",
+    "talentId": "d111c581-970a-44ae-9823-860fcb297369",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:20:31.609Z",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQEkoWsSA001sQ/profile-displayphoto-shrink_200_200/0/1679261760067?e=1712188800&v=beta&t=Q-UjZjOuOKUmJvfpbhm8Lz3c8aLtoXpt38Qi5QLUKFw",
+      "linkedinUsername": "gustavo-oda-50084970",
+      "name": "Gustavo Oda",
+      "company": "Tax BI",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:20:31.609Z",
+      "headline": "",
+      "id": "d111c581-970a-44ae-9823-860fcb297369"
+    },
+    "timeInCurrentStage": 61556082211
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-01-31T11:21:58.369Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-01-31T11:21:58.369Z",
+    "source": "manual",
+    "talentId": "e495c9ac-666a-47dd-97fc-ab2df5ccc24e",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*e495c9ac-666a-47dd-97fc-ab2df5ccc24e",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:21:55.399Z",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQHbPC6G9D1J7A/profile-displayphoto-shrink_200_200/0/1655993286000?e=1712188800&v=beta&t=yVQgTpCUbsZE57N2rdDLazMD-0d1dpmhlckGThlwA4g",
+      "linkedinUsername": "fabio-komatsu-019b9967",
+      "name": "Fabio Komatsu",
+      "company": "Deloitte",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:21:55.399Z",
+      "headline": "",
+      "id": "e495c9ac-666a-47dd-97fc-ab2df5ccc24e"
+    },
+    "timeInCurrentStage": 61555997508
+  },
+  {
+    "createdAt": "2024-01-31T11:21:08.515Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Fit Cultural",
+        "id": "01HHCPTVBPB1DTTZ7V8KQJFGAM",
+        "type": "culturalFit",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 5,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Entrevista People",
+      "id": "5",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "culturalInterview",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 5
+    },
+    "status": "active",
+    "talentId": "2286a08a-7a24-404c-8366-5529cf9fbfd6",
+    "updatedAt": "2024-01-31T11:43:35.740Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*2286a08a-7a24-404c-8366-5529cf9fbfd6",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:21:06.465Z",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQGB-THcJlmRYw/profile-displayphoto-shrink_200_200/0/1599347023866?e=1712188800&v=beta&t=28fTq6w--S8O7Sq1gxOKT-adSQfXVQ0Bcog0j8qNnII",
+      "linkedinUsername": "felipeniederauerianovalli",
+      "name": "Felipe Niederauer Ianovalli",
+      "company": "KPMG",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:21:06.465Z",
+      "headline": "",
+      "id": "2286a08a-7a24-404c-8366-5529cf9fbfd6"
+    },
+    "timeInCurrentStage": 61554700116
+  },
+  {
+    "createdAt": "2024-01-29T13:27:04.861Z",
+    "customFields": [],
+    "files": [
+      {
+        "name": "CV_Higor_Souza_122023.pdf",
+        "fileCategory": "resumes",
+        "id": "d010a454-bc48-4cdd-b4db-7e2edcc2189d"
+      }
+    ],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Contratação",
+        "id": "01HHCPTVBVMQW5N08Z2JEM8A40",
+        "type": "hiring",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 8,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Contratação",
+      "id": "10",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "hired",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 10
+    },
+    "status": "active",
+    "talentId": "458fdead-0e3f-4238-8574-a66b597ae376",
+    "updatedAt": "2024-03-19T16:20:58.842Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*458fdead-0e3f-4238-8574-a66b597ae376",
+    "talent": {
+      "company": "Grupo FCamara",
+      "contactMethod": "whatsapp",
+      "createdAt": "2024-01-29T13:27:03.323Z",
+      "email": "higordesouzasilva@gmail.com",
+      "headline": "",
+      "linkedinUsername": "higor-souza-silva",
+      "location": "",
+      "name": "Higor Silva",
+      "phone": "",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQFXeLqUPi1AyQ/profile-displayphoto-shrink_200_200/0/1655330840525?e=1712188800&v=beta&t=2J4aWxT8FR3iC_1Glbff0YdybzQeGANBuNKVrObX3G8",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-01-31T11:32:24.033Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "458fdead-0e3f-4238-8574-a66b597ae376"
+    },
+    "timeInCurrentStage": 57390857014
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-01-31T11:15:05.616Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-01-31T11:15:05.616Z",
+    "source": "manual",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*3a3973c0-40ce-47d5-ad7e-ae46f2345a47",
+    "talentId": "3a3973c0-40ce-47d5-ad7e-ae46f2345a47",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:15:04.179Z",
+      "picture": "https://media.licdn.com/dms/image/C5603AQEprRFGEaoCVQ/profile-displayphoto-shrink_200_200/0/1632765042504?e=1712188800&v=beta&t=IZ3tV7yZnw_v2q1kc_O3hIC4VegoGsBq3pC4f7Mz6TM",
+      "linkedinUsername": "sidneycarvalho",
+      "name": "Sidney Carvalho",
+      "company": "CJ International Brazil",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:15:04.179Z",
+      "headline": "",
+      "id": "3a3973c0-40ce-47d5-ad7e-ae46f2345a47"
+    },
+    "timeInCurrentStage": 61556410261
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "updatedAt": "2024-01-24T12:22:35.879Z",
+    "status": "active",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "createdAt": "2024-01-24T12:22:35.879Z",
+    "source": "manual",
+    "talentId": "7e8993aa-4861-45b0-8733-87b9fdf1d061",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*7e8993aa-4861-45b0-8733-87b9fdf1d061",
+    "customFields": [],
+    "talent": {
+      "company": "YARA",
+      "createdAt": "2024-01-24T12:22:34.216Z",
+      "headline": "",
+      "linkedinUsername": "eduardo-kenji-goto",
+      "location": "",
+      "name": "Eduardo Goto",
+      "phone": "+5511993006491",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQE1lbWIbISmtg/profile-displayphoto-shrink_200_200/0/1653056510678?e=1712188800&v=beta&t=0qmmvo8jrLU7gNkocxdETQsLfGlWMrAJOPnsJRX3RuI",
+      "status": "UNKNOWN",
+      "updatedAt": "2025-11-04T12:25:05.660Z",
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "id": "7e8993aa-4861-45b0-8733-87b9fdf1d061"
+    },
+    "timeInCurrentStage": 62157159998
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "updatedAt": "2024-01-24T13:48:28.245Z",
+    "status": "active",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "createdAt": "2024-01-24T13:48:28.245Z",
+    "source": "manual",
+    "talentId": "d2442af3-ca0b-46c3-b32f-f7ac87a56aa1",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*d2442af3-ca0b-46c3-b32f-f7ac87a56aa1",
+    "customFields": [],
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "createdAt": "2024-01-24T13:48:26.689Z",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQEjhi0YHiVc0A/profile-displayphoto-shrink_200_200/0/1691965824693?e=1711584000&v=beta&t=1lnJU_txyX8bijXT1ofbSyq-PWqLCcd5TeOR7u9e8s4",
+      "linkedinUsername": "cecilia-costa-0930729b",
+      "name": "CECILIA COSTA",
+      "company": "Deloitte",
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "updatedAt": "2024-01-24T13:48:26.689Z",
+      "headline": "",
+      "id": "d2442af3-ca0b-46c3-b32f-f7ac87a56aa1"
+    },
+    "timeInCurrentStage": 62152007632
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-01-31T11:21:32.127Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-01-31T11:21:32.127Z",
+    "source": "manual",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*ac7a1e4c-200a-4bd8-a826-75514e4dba57",
+    "talentId": "ac7a1e4c-200a-4bd8-a826-75514e4dba57",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:21:30.240Z",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQFBPaoLZXZMEA/profile-displayphoto-shrink_200_200/0/1698759832715?e=1712188800&v=beta&t=NtoZaZMSQ3w3f9OdqxPWIrIZC52WL4dDF2UrJs59iGs",
+      "linkedinUsername": "fabio-sant-ana-5a3265b",
+      "name": "Fabio Sant'Ana",
+      "company": "ADM",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:21:30.240Z",
+      "headline": "",
+      "id": "ac7a1e4c-200a-4bd8-a826-75514e4dba57"
+    },
+    "timeInCurrentStage": 61556023750
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-01-31T11:14:50.834Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-01-31T11:14:50.834Z",
+    "source": "manual",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*845f552a-891a-4d20-aad4-8c33798c255f",
+    "talentId": "845f552a-891a-4d20-aad4-8c33798c255f",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:14:49.374Z",
+      "picture": "https://media.licdn.com/dms/image/C5603AQEDJlrHZ4D5pw/profile-displayphoto-shrink_200_200/0/1517489322818?e=1712188800&v=beta&t=m-UD7U9Baw7j7QD4sOqpungCp6kQYy_Y8d0Zvelqbc8",
+      "linkedinUsername": "michelli-alves-67b6aa48",
+      "name": "Michelli Alves",
+      "company": "EY",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:14:49.374Z",
+      "headline": "",
+      "id": "845f552a-891a-4d20-aad4-8c33798c255f"
+    },
+    "timeInCurrentStage": 61556425043
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-01-31T11:16:03.908Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-01-31T11:16:03.908Z",
+    "source": "manual",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*e17b313d-b986-4d12-af5a-14568973d953",
+    "talentId": "e17b313d-b986-4d12-af5a-14568973d953",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:16:01.941Z",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQFKVdHZr1SG1Q/profile-displayphoto-shrink_800_800/0/1597108777822?e=1712188800&v=beta&t=8PZDt4-dvXGsRPLThnjZaSLgDMYICp6R45y9FjCrlc0",
+      "linkedinUsername": "cristina-a-b80807127",
+      "name": "Cristina Augusto Mariano Rodrigues",
+      "company": "EY",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:16:01.941Z",
+      "headline": "",
+      "id": "e17b313d-b986-4d12-af5a-14568973d953"
+    },
+    "timeInCurrentStage": 61556351969
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-01-31T11:19:56.097Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-01-31T11:19:56.097Z",
+    "source": "manual",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*a6373e83-e718-4107-9ddb-45aea78c23b9",
+    "talentId": "a6373e83-e718-4107-9ddb-45aea78c23b9",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:19:52.713Z",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQGUTp7IKDXdiQ/profile-displayphoto-shrink_200_200/0/1701869429714?e=1712188800&v=beta&t=j-J147qoHaso3nBHt1phEWVlv4srato9xflu4WVB2wo",
+      "linkedinUsername": "alanzambianco",
+      "name": "Alan Zambianco",
+      "company": "Simões Pires Advogados",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:19:52.713Z",
+      "headline": "",
+      "id": "a6373e83-e718-4107-9ddb-45aea78c23b9"
+    },
+    "timeInCurrentStage": 61556119780
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-01-23T14:00:33.975Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-01-23T14:00:33.975Z",
+    "source": "manual",
+    "talentId": "da863e21-5006-40a1-b292-91d32822cdfe",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*da863e21-5006-40a1-b292-91d32822cdfe",
+    "customFields": [],
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-23T14:00:32.256Z",
+      "picture": "https://media.licdn.com/dms/image/D4D03AQEqLLD9hHqDag/profile-displayphoto-shrink_200_200/0/1693660068676?e=1711584000&v=beta&t=7l6CthGW8p4YLnZVq2N3MmOG2_6sTwEtEDlnwlzC8ko",
+      "linkedinUsername": "eric-neves-4156861bb",
+      "name": "Eric Neves",
+      "company": "Privalia",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-23T14:00:32.256Z",
+      "headline": "",
+      "id": "da863e21-5006-40a1-b292-91d32822cdfe"
+    },
+    "timeInCurrentStage": 62237681902
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "updatedAt": "2024-01-24T12:22:04.549Z",
+    "status": "active",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "createdAt": "2024-01-24T12:22:04.549Z",
+    "source": "manual",
+    "talentId": "b85ccd2a-2c5c-437b-a4b4-359fe9f0db23",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*b85ccd2a-2c5c-437b-a4b4-359fe9f0db23",
+    "customFields": [],
+    "talent": {
+      "company": "Deloitte",
+      "createdAt": "2024-01-24T12:22:02.439Z",
+      "headline": "",
+      "linkedinUsername": "amanda-goes-0a4131a7",
+      "location": "",
+      "name": "Amanda Goes",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQEddmf8wEpfPQ/profile-displayphoto-shrink_200_200/0/1618104014793?e=1711584000&v=beta&t=LHyevACFMNzmVVebfyfSTW7tttgA921yrhF6tEwNdf0",
+      "status": "UNKNOWN",
+      "updatedAt": "2026-01-05T13:02:23.434Z",
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "id": "b85ccd2a-2c5c-437b-a4b4-359fe9f0db23"
+    },
+    "timeInCurrentStage": 62157191328
+  },
+  {
+    "createdAt": "2024-02-02T17:40:27.014Z",
+    "reason": "underqualified",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Abordagem",
+        "id": "01HHCPTVBMT8ZFE72V7K4AF71B",
+        "type": "approach",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 2,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "inApproach",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 3
+    },
+    "status": "rejected",
+    "talentId": "f8a8be1c-24f4-4c29-ad57-7b3667f33a1f",
+    "updatedAt": "2024-02-02T17:44:42.872Z",
+    "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+    "userName": "Giulia Coelho Antonio Spinelli",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*f8a8be1c-24f4-4c29-ad57-7b3667f33a1f",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Giulia Coelho Antonio Spinelli",
+      "createdAt": "2024-02-02T17:40:24.663Z",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQF5MWH7Q_ytJQ/profile-displayphoto-shrink_200_200/0/1616108112252?e=1712188800&v=beta&t=sNsJaVNH1ED9qfyGc-_sgpevgx8dNFtIGJCPTytE3_s",
+      "linkedinUsername": "hisadoramonteiro",
+      "name": "Hisadora Monteiro",
+      "company": "Icatu Seguros",
+      "userId": "d34e0f37-0f20-436b-9382-a0825ec6d851",
+      "updatedAt": "2024-02-02T17:40:24.663Z",
+      "headline": "",
+      "id": "f8a8be1c-24f4-4c29-ad57-7b3667f33a1f"
+    },
+    "timeInCurrentStage": 61360241961
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-01-31T11:16:21.714Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-01-31T11:16:21.714Z",
+    "source": "manual",
+    "talentId": "b9f84e88-6abd-46da-9113-81ec5dd37505",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*b9f84e88-6abd-46da-9113-81ec5dd37505",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:16:19.774Z",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQGCT3MOqgCEgg/profile-displayphoto-shrink_200_200/0/1568171572632?e=1712188800&v=beta&t=k2kPWp_Tg9oJjwsUKEPOgOi5GKdprkqy-v7oDDQ-nHA",
+      "linkedinUsername": "arthur-guinsburg-5574a873",
+      "name": "Arthur Guinsburg",
+      "company": "Kimberly-Clark",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:16:19.774Z",
+      "headline": "",
+      "id": "b9f84e88-6abd-46da-9113-81ec5dd37505"
+    },
+    "timeInCurrentStage": 61556334163
+  },
+  {
+    "createdAt": "2024-01-31T11:25:27.054Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Fit Cultural",
+        "id": "01HHCPTVBPB1DTTZ7V8KQJFGAM",
+        "type": "culturalFit",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 5,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Entrevista People",
+      "id": "5",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "culturalInterview",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 5
+    },
+    "status": "active",
+    "talentId": "5ed087b2-9fb3-4af3-8736-eeb110415cf7",
+    "updatedAt": "2024-01-31T11:42:12.898Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*5ed087b2-9fb3-4af3-8736-eeb110415cf7",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:25:23.865Z",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQGi5prLJ9URMg/profile-displayphoto-shrink_200_200/0/1645145094170?e=1712188800&v=beta&t=oZT8n5iJpVrmpn_eKWFww5Vk7M2Jt984a8KNpy1vS9g",
+      "linkedinUsername": "stephanieceni",
+      "name": "Stephanie Ceni",
+      "company": "Unilever",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:25:23.865Z",
+      "headline": "",
+      "id": "5ed087b2-9fb3-4af3-8736-eeb110415cf7"
+    },
+    "timeInCurrentStage": 61554782954
+  },
+  {
+    "createdAt": "2024-01-31T11:27:09.813Z",
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "status": "active",
+    "talentId": "9022881a-8e7e-494f-be2b-bb901b9a32f3",
+    "updatedAt": "2024-01-31T11:27:09.813Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*9022881a-8e7e-494f-be2b-bb901b9a32f3",
+    "talent": {
+      "company": "DESKTOP",
+      "createdAt": "2024-01-31T11:27:07.388Z",
+      "headline": "",
+      "linkedinUsername": "igorlinhares",
+      "location": "",
+      "name": "Igor Linhares",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQHpSZtx-52vGA/profile-displayphoto-shrink_200_200/0/1587143710645?e=1714608000&v=beta&t=AD66A5E7BPd5JQOtRMzdEBefzgjMdGhEJG309UhwbIA",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-02-27T13:53:57.113Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "9022881a-8e7e-494f-be2b-bb901b9a32f3"
+    },
+    "timeInCurrentStage": 61555686064
+  },
+  {
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Listagem",
+        "id": "01HHCPTVBGH20FJ2F5BCB70KVF",
+        "type": "listing",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 1,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "listed",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 1
+    },
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "updatedAt": "2024-01-31T11:19:04.908Z",
+    "status": "active",
+    "userName": "Beatriz Frederico",
+    "createdAt": "2024-01-31T11:19:04.908Z",
+    "source": "manual",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*174b2d32-fa51-4d88-98db-16b004bfccca",
+    "talentId": "174b2d32-fa51-4d88-98db-16b004bfccca",
+    "talent": {
+      "location": "",
+      "status": "UNKNOWN",
+      "userName": "Beatriz Frederico",
+      "createdAt": "2024-01-31T11:19:03.348Z",
+      "picture": "https://media.licdn.com/dms/image/C4D03AQFmj6bXUDL5sw/profile-displayphoto-shrink_200_200/0/1593784747143?e=1712188800&v=beta&t=1ehDtBKoxH1oCN2B1KpF1fYrKme7B12fO_JtI5KJPuM",
+      "linkedinUsername": "josé-rosival-fernandes-oliveira-14b78388",
+      "name": "José Rosival Fernandes Oliveira",
+      "company": "Archer Daniels Midland Company",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "updatedAt": "2024-01-31T11:19:03.348Z",
+      "headline": "",
+      "id": "174b2d32-fa51-4d88-98db-16b004bfccca"
+    },
+    "timeInCurrentStage": 61556170969
+  },
+  {
+    "createdAt": "2024-01-31T11:20:45.246Z",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Fit Técnico",
+        "id": "01HHCPTVBQAKVSQWNHT1Q813EQ",
+        "type": "technicalFit",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 6,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Short List",
+      "id": "6",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "technicalInterview",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 6
+    },
+    "status": "active",
+    "talentId": "3ea7ea28-5ae2-4aa8-b6fc-022e819d32c1",
+    "updatedAt": "2024-02-06T17:56:04.107Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*3ea7ea28-5ae2-4aa8-b6fc-022e819d32c1",
+    "talent": {
+      "company": "Deloitte",
+      "createdAt": "2024-01-31T11:20:41.955Z",
+      "email": "sheilaarr@gmail.com",
+      "headline": "",
+      "linkedinUsername": "sheila-rizzato-65b57545",
+      "location": "",
+      "name": "Sheila Rizzato",
+      "phone": "",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQF0t69OZZns3Q/profile-displayphoto-shrink_200_200/0/1575997070470?e=1712793600&v=beta&t=jA_Bw4r4xxRmDimp-c7j__NHVc1DC-ABwtpPiHsyf1k",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-05T13:08:00.407Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "3ea7ea28-5ae2-4aa8-b6fc-022e819d32c1"
+    },
+    "timeInCurrentStage": 61554685810
+  },
+  {
+    "createdAt": "2024-01-31T11:19:40.707Z",
+    "customFields": [
+      {
+        "name": "Empresa Atual",
+        "id": "01",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Sexo",
+        "id": "03",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Mobilidade para mudança",
+        "id": "04",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": ""
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Contrato",
+        "id": "07",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro benefício monetário (Ex:Comissão)",
+        "id": "11",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Nível Hierárquico",
+        "id": "19",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": ""
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "source": "manual",
+    "stage": {
+      "phase": {
+        "createdAt": "2023-12-11T15:09:52.880Z",
+        "name": "Fit Cultural",
+        "id": "01HHCPTVBPB1DTTZ7V8KQJFGAM",
+        "type": "culturalFit",
+        "userName": "Carolina Rivaldo Fensterseifer",
+        "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+        "order": 5,
+        "updatedAt": "2023-12-11T15:09:52.880Z"
+      },
+      "createdAt": "2023-12-11T15:09:52.880Z",
+      "name": "Entrevista People",
+      "id": "5",
+      "userName": "Carolina Rivaldo Fensterseifer",
+      "type": "culturalInterview",
+      "userId": "fa4f4b0c-5caf-4c40-9afd-38735166a685",
+      "updatedAt": "2023-12-11T15:09:52.880Z",
+      "order": 5
+    },
+    "status": "active",
+    "talentId": "73c7abe9-ae07-40bc-8af4-a29cc5c88cf3",
+    "updatedAt": "2024-02-06T12:51:53.821Z",
+    "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+    "userName": "Beatriz Frederico",
+    "id": "f71b7bab-ec59-4b45-8cb1-53d0497256c5*73c7abe9-ae07-40bc-8af4-a29cc5c88cf3",
+    "talent": {
+      "company": "Deloitte",
+      "createdAt": "2024-01-31T11:19:39.075Z",
+      "email": "marcos_mkr@hotmail.com",
+      "headline": "",
+      "linkedinUsername": "mpds",
+      "location": "",
+      "name": "Marcos Paulo Dutra da Silva",
+      "phone": "",
+      "picture": "https://media.licdn.com/dms/image/C4E03AQE2ROsN4mVHAg/profile-displayphoto-shrink_200_200/0/1597278232639?e=1712793600&v=beta&t=DD04uYqdQhBFHhBkH1mpjZyhTSYxL5vBBts5mdlGNXg",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-02-06T13:36:57.658Z",
+      "userId": "9895fffe-a2f3-474b-89f8-e444ab15f8ac",
+      "userName": "Beatriz Frederico",
+      "id": "73c7abe9-ae07-40bc-8af4-a29cc5c88cf3"
+    },
+    "timeInCurrentStage": 61032263808
+  }
+]

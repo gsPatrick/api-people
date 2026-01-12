@@ -1,0 +1,1729 @@
+[
+  {
+    "importedAt": "2024-02-08T18:40:12.113Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "25/09/1986"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "3700"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "USD"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Estatística",
+          "id": "cc8eb113-438c-4671-9b5f-0049f2f4b8ff",
+          "label": "Estatística"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "ENCE"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Marketing de Performance | Hering"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de Marketing de Performance | Hering\n Company name : Grupo SOMA\n Period : mar de 222 - o momento – mar de 222 - o momento\n Location : Rio de Janeiro, Rio de Janeiro, Brasil\n \n Job Title : Gerente de Performance Digital | NV\n Company name : Grupo SOMA\n Period : ago de 221 - mar de 222 – ago de 221 - mar de 222\n Location : Rio de Janeiro, Brasil\n \n Job Title : Gerente de Mídia Performance, CRM e BI\n Company name : Grupo SOMA\n Period : set de 22 - out de 221 – set de 22 - out de 221\n Location : Rio de Janeiro, Rio de Janeiro, Brasil\n \n Job Title : Líder de e-commerce B2C da Divisão de Cosmética Ativa (La Roche-Posay + Skinceuticals)\n Company name : L'Oréal\n Period : abr de 218 - dez de 218 – abr de 218 - dez de 218\n Summary : Responsável pela criação da estratégia e gestão completa do canal de e-commerce direto.\n \n - Gestão do orçamento anual.\n - Estratégia de mídia performance digital (Facebook, Instagram, Google Ads, Afiliados, Criteo, DBM)\n - Planejamento do calendário comercial e ações de e-trade.\n - Gestão de equipe e agências.\n - Estratégia e gestão de CRM (Aquisição, Ativação e Retenção)\n - Idealização e implementação de projetos de inovação (Marketing Automation, Personalização de conteúdo).\n - Elaboração de apresentações para diretorias locais e internacionais.\n Location : Rio de Janeiro\n \n Job Title : Digital Analytics Expert\n Company name : L'Oréal\n Period : nov de 216 - mar de 218 – nov de 216 - mar de 218\n Summary : Responsável pela criação, desenvolvimento e gestão de soluções para as áreas de Mídia Digital, CRM e E-commerce com base na coleta, organização e análise de dados provenientes de plataformas digitais.\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Business Analyst - Ecommerce&CRM\n Company name : L'Oréal\n Period : mar de 216 - out de 216 – mar de 216 - out de 216\n Summary : Responsável por gerar soluções de tecnologia para os times de E-commerce e CRM, principalmente no que tange ao uso de plataformas como o Google Analytics 36 e a Salesforce Marketing Cloud, de forma a tomar decisões estratégicas baseadas em dados e à criar relacionamentos personalizados com os consumidores.\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : E-commerce/CRM Analyst\n Company name : Redley e Cantão\n Period : set de 214 - fev de 216 – set de 214 - fev de 216\n \n Job Title : E-commerce Planning Analyst\n Company name : Redley e Cantão\n Period : jul de 213 - ago de 214 – jul de 213 - ago de 214\n Location : Tijuca\n \n Job Title : Trainee - Digital Analytics\n Company name : dp6\n Period : mar de 212 - jun de 213 – mar de 212 - jun de 213\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Intern - Market Research\n Company name : GERP\n Period : jan de 21 - set de 21 – jan de 21 - set de 21"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Certificação em rede de Pesquisa do Google Ads\n Period : Emitido em mar de 2022-Expira em mar de 2023\n Issuing Authority : Google"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Ibmec\n Speciality : Gestão de Negócios\n Degree : Pós-graduação Lato Sensu - Especialização\n Period : 214 - 216\n \n School name : ENCE\n Speciality : Estatística\n Degree : Bacharel\n Period : 26 - 213\n Summary : Atividades e grupos: Diretório Acadêmico Felipe Bonan\n Courses: Title : MySQL"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "aa086e4e-d6cd-4c6d-8388-90143d5bab6c",
+    "id": "087fa08a-3f9b-4f89-8abd-ed0a8ffb32aa*aa086e4e-d6cd-4c6d-8388-90143d5bab6c",
+    "talent": {
+      "updatedAt": "2023-12-20T14:07:15.944Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:07:15.944Z",
+      "linkedinUsername": "yuriservulo",
+      "email": "yuri.silva@somagrupo.com.br",
+      "phone": "21999962070",
+      "name": "Yuri Servulo",
+      "id": "aa086e4e-d6cd-4c6d-8388-90143d5bab6c"
+    },
+    "timeInCurrentStage": 61412916776
+  },
+  {
+    "importedAt": "2024-02-08T18:40:11.865Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "18000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "va ajuda de cust, combustivel, saude seguro dde vida."
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Marketing",
+          "id": "6a8579af-cdb8-4706-aac9-c89b2630417b",
+          "label": "Marketing"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de CRM"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de CRM\n Company name : Justo\n Period : out de 221 - o momento\n Location : São Paulo, Brasil\n \n Summary : > Responsável por branding, conceito de loja, criação de campanhas e conteúdo da categoria de lentes de contato do escritório global;\n > Amplo escopo de projetos, desde marketing digital a campanhas internas para ampliar o conhecimento sobre a categoria e produtos de marca própria;\n > Criação de conteúdo para estratégia omnichannel (online e loja física) sobre lentes de contato, baseada em insights de comportamento do consumidor por meio de pesquisa de mercado, social listening e Google Analytics;\n > Apoio global de marketing, sendo responsável pelas diretrizes e orientações da matriz para os negócios locais em todo o mundo;\n > Gerenciamento de projetos internacionais com Europa e América Latina, incluindo processo de concorrência com agências.\n \n Job Title : Coordenador de produtos\n Company name : GrandVision by Fototica\n Period : set de 215 - jun de 218\n Summary : > Responsável pelo sortimento e estratégia da categoria de lentes de contato e lentes oftálmicas;\n > Geração do aumento da participação da categoria no negócio geral de 16% para 2%, crescimento da categoria maior do que crescimento do mercado e recorde de vendas da categoria por 5 meses em toda a história da companhia;\n > Impulsionamento do crescimento da categoria com foco no programa de embaixadores, campanhas promocionais, lançamento de novos produtos e parcerias exclusivas com fornecedores.\n Location : São Paulo Area, Brazil\n \n Job Title : Analista de produtos\n Company name : GrandVision by Fototica\n Period : dez de 212 - ago de 215\n Summary : > Coordenação e implementação do projeto de sistema de ERP para reposição de lojas de armações e óculos de sol, reduzindo tempo de trabalho em 9%;\n > Implementação de ferramenta de gerenciamento de inventário e compra de produtos best-sellers;\n > Lançamento de novas marcas e coleções para óculos de sol.\n Location : São Paulo Area, Brazil\n \n Job Title : Estagiário de supply chain\n Company name : GrandVision by Fototica\n Period : jun de 212 - dez de 212\n Location : São Paulo Area, Brazil\n \n Job Title : Assistente de marketing\n Company name : Latin Stock Brasil Produções Ltda\n Period : abr de 21 - jan de 211\n Location : São Paulo Area, Brazil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Developing Innovative Ideas for New Companies: The First Step in Entrepreneurship\n Issuing Authority : Coursera"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : FIA Business School\n Speciality : Gestão de negócios\n Degree : Pós-graduação Lato Sensu\n Period : 215 - 216\n \n School name : Universidade Presbiteriana Mackenzie\n Speciality : Marketing\n Degree : Bacharelado\n Period : 28 - 212\n Courses: Title : Gerência e supervisão de vendas; Title : Marketing Experiencial: a Gestão da Experiência do Cliente; Title : Programa GrandVision Leadership Lab"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "be461b27-6775-4288-8e60-626101006ad8",
+    "id": "087fa08a-3f9b-4f89-8abd-ed0a8ffb32aa*be461b27-6775-4288-8e60-626101006ad8",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:22.456Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:22.456Z",
+      "linkedinUsername": "flaviogroger",
+      "email": "flaviolang@gmail.com",
+      "phone": "11974783576",
+      "name": "Flávio Groger",
+      "id": "be461b27-6775-4288-8e60-626101006ad8"
+    },
+    "timeInCurrentStage": 61412916776
+  },
+  {
+    "importedAt": "2024-02-08T18:40:11.828Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "3879"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "USD"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Marketing",
+          "id": "6a8579af-cdb8-4706-aac9-c89b2630417b",
+          "label": "Marketing"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Metodista de São Paulo"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Growth Marketing Manager - iFood Shop"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "35"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Growth Marketing Manager - iFood Shop\n Company name : iFood\n Period : abr de 221 - o momento – abr de 221 - o momento\n Location : São Paulo, Brazil\n \n Job Title : Growth Marketing Manager - Groceries\n Company name : iFood\n Period : abr de 22 - abr de 221 – abr de 22 - abr de 221\n Location : Brazil\n \n Job Title : Growth Marketing Manager - CRM\n Company name : iFood\n Period : jul de 219 - abr de 22 – jul de 219 - abr de 22\n Location : Osasco\n \n Job Title : Expert\n Company name : Tera\n Period : nov de 219 - o momento – nov de 219 - o momento\n \n Job Title : Coordenador Mídia, CRM e Promoções - E-commerce\n Company name : LATAM Airlines\n Period : nov de 217 - jun de 219 – nov de 217 - jun de 219\n Summary : E-commerce Coordinator, responsible for the ticket and travel packages campaigns in latam.com POS, working with the Digital Advertising Agency, Google, Facebook and Affiliates program. The campaign objective is to increase sales volume while decreasing the average cost, in Search, Display and Affiliates.\n \n Since January 19, working as a Product Owner of the Performance Room Team, a 12 person operation using LATAM and Graphene squads, working 24/7 inside LATAM headquarters with Agile Methodology focused on increasing Revenue inside the e-commerce.\n Location : São Paulo Area, Brazil\n \n Job Title : Data Driven Manager\n Company name : WMcCann\n Period : mai de 217 - nov de 217 – mai de 217 - nov de 217\n Summary : Head of Metrics of LATAM, Mastercard, Lupo, Deca and team manager, responsible for creating multiple campaign analysis reports according to the client demand. Each of those reports focus on analyzing all sort of Media Data (Facebook Ads, Google Adwords, Admotion Reports) and crossing them with Omniture and Google Analytics, focusing on the campaign KPI and Macro Strategy.\n Location : São Paulo, São Paulo\n \n Job Title : Metrics Supervisor\n Company name : WMcCann\n Period : mar de 215 - mai de 217 – mar de 215 - mai de 217\n Summary : MasterCard's Metric's Supervisor, currently responsible for campaign and site analysis, also social media evaluation.\n \n Job Title : Analista Senior de BI\n Company name : W3haus\n Period : jun de 214 - mar de 215 – jun de 214 - mar de 215\n Summary : Responsible for LG, Reckitt Benckiser and Petrobras BI analysis, in charge of the campaigns and web analytics reports for all companies and assisting in new business plans for existing customers and new ones.\n Responsibilities\n Media, Web Analytics and Mastebrands BI Reports\n Website Tracking plans and checking\n Omniture and Google Analytics heavy user\n Consolidate campaign data (via adserver) and measure performance parts , and creative channels , indicating actions to improve performance\n Monitor the performance of sites via Google Analytics and propose actions to improve (optimize bounce rate , etc.)\n Create and update weekly campaigns and website dashboards ( and KPIs )with recommendations (dos and don'ts) . Include overview of SEM and social media.\n Build final campaign reports, with qualitative and quantitative analysis of performance including monitoring of mentions on social networks and analysis\n Generate insights for media and production team , based on data analysis\n Generate strategic studies based on research, trends and data.\n Location : São Paulo Area, Brazil\n Company 2: Tera"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Python Data Structures\n Period : Emitido em ago de 2020-Sem data de expiração\n Summary : Código da credencialAJ3YDE3RMNQX\n Issuing Authority : Coursera\n \n Title : Programming for Everybody (Getting Started with Python)\n Period : Emitido em jul de 2020-Sem data de expiração\n Summary : Código da credencial 438DENQ9C2JS\n Issuing Authority : Coursera"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Metodista de São Paulo\n Speciality : Marketing\n Degree : tecnólogo\n Period : 212 - 214"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "cca8df5b-2c3f-4bb2-9e3f-a4066b86d29b",
+    "id": "087fa08a-3f9b-4f89-8abd-ed0a8ffb32aa*cca8df5b-2c3f-4bb2-9e3f-a4066b86d29b",
+    "talent": {
+      "updatedAt": "2023-12-20T14:07:29.344Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:07:29.344Z",
+      "linkedinUsername": "augusto-de-souza-carneiro-10781565",
+      "email": "a.souza1011@gmail.com",
+      "phone": "11998588284",
+      "name": "Augusto de Souza Carneiro",
+      "id": "cca8df5b-2c3f-4bb2-9e3f-a4066b86d29b"
+    },
+    "timeInCurrentStage": 61412916776
+  },
+  {
+    "importedAt": "2024-02-08T18:40:12.024Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "14/08/1992"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Marketing",
+          "id": "6a8579af-cdb8-4706-aac9-c89b2630417b",
+          "label": "Marketing"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Senior Retention Manager (Growth)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Senior Retention Manager (Growth)\n Company name : Daki\n Period : set de 221 - o momento\n \n Job Title : Digital CRM Lead\n Company name : banco BV\n Period : mai de 221 - set de 221\n Summary : - Plan and ensure the exponential growth (6x) of new user acquisition and monetization for digital accounts\n - Guarantee alignment between CRM, Data Infrastructure, Marketing and Product teams\n - Explore untapped predictive models through clustering and contextualizing marketing campaigns\n Location : São Paulo, Brasil\n \n Job Title : Growth Retention Lead\n Company name : AMARO\n Period : ago de 219 - mai de 221\n Summary : - Increase customer journey value to achieve organic growth and steeper cohorts\n - Conceive and execute smart growth initiatives on and beyond messaging\n - Plan and manage coupons policy/features in search of incrementality\n - Promote and execute omnichannel initiatives with our physical Guide Shops\n - Value metrics of retention, recovery, trial, cross-sell and upsell across the company\n - Improve personalization engines for a sophisticated global operation\n - Leverage automation to deliver more revenue impact with cost-efficiency\n - Explore new untapped retention channels together with other squad leads\n \n Job Title : CRM Supervisor\n Company name : AMARO\n Period : set de 218 - ago de 219\n Location : São Paulo\n \n Job Title : CRM Sr Analyst\n Company name : enjoei\n Period : mar de 217 - set de 218\n \n Job Title : Product Owner\n Company name : enjoei\n Period : dez de 217 - mar de 218\n Summary : - Development of anti fraud initiatives that protected the sellers sales revenue.\n \n Job Title : CRM Analyst\n Company name : enjoei\n Period : set de 215 - fev de 217\n Summary : - Estimating and increasing campaigns monthly revenue share.\n - Defining, describing, scheduling and analysing daily campaigns.\n - Conducting AB tests to optimize email marketing conversion.\n - Leading online and offline customer behavior qualitative research.\n \n Job Title : Consultant\n Company name : Consultoria Júnior Pública - FGV\n Period : ago de 212 - jul de 214\n Summary : Amongst Instituto Patrícia Galvão, the primary NGO dedicated to improve women’s political rights in Brazil, we structured an online course focused on expanding women's political insertion."
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : StartSe\n Speciality : Empreendedorismo\n Degree : Missão China\n Period : 219 - 219\n \n School name : Fundação Getulio Vargas\n Speciality : Marketing\n Degree : Bacharelado em Administração\n Period : 212 - 217\n \n School name : ESPM Escola Superior de Propaganda e Marketing\n Speciality : Novos Caminhos do Varejo\n Degree : Curso de Extensão em E-Commerce\n Period : 215 - 215\n \n School name : Universitat Autònoma de Barcelona\n Speciality : Administração\n Degree : Bachelor of Business Administration (B.B.A.)\n Period : 215 - 215\n Courses: Title : CSPO - K21; Title : Eurocentres Paris; Title : Kaplan International NY"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "89550ab8-740c-431d-a242-a1d1f921c114",
+    "id": "087fa08a-3f9b-4f89-8abd-ed0a8ffb32aa*89550ab8-740c-431d-a242-a1d1f921c114",
+    "talent": {
+      "updatedAt": "2023-12-20T13:53:18.271Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:53:18.271Z",
+      "linkedinUsername": "marinapessoadequeiroz",
+      "email": "marinapessoadequeiroz@gmail.com",
+      "phone": "11992588862",
+      "name": "Marina Pessoa de Queiroz",
+      "id": "89550ab8-740c-431d-a242-a1d1f921c114"
+    },
+    "timeInCurrentStage": 61412916776
+  },
+  {
+    "importedAt": "2024-02-08T18:40:12.142Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "3266"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "USD"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Comunicação Social",
+          "id": "e5b3cfa3-f5c5-42cb-aefc-1b0f757be277",
+          "label": "Comunicação Social"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "ESPM"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "CRM Manager"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : CRM Manager\n Company name : SumUp\n Period : abr de 222 - o momento\n Summary : -Create the CRM strategy for SumUp’s Lending products and deliver it incrementally\n -Create, implement and monitor data-driven user journeys and campaigns, through the usage of experimentation and A/B tests to validate communications and channels effectiveness.\n -Oversee and understand the journeys and behaviour of our customers globally to leverage engagement with our lending processes and products.\n -Define and implement customer base segmentation for behavioural-triggered educational, transactional and promotional communications.\n -Work together with our product and engineering team to further develop our CRM platform including the implementation of new channels to serve lending specific use cases.\n -Measure the results and effectiveness of campaigns and experiments, communicate, document and discuss your learnings with our global Lending team and collaborate alongside our CRM teams outside of lending.\n \n Job Title : CRM Specialist - Reactivation\n Company name : Gympass\n Period : fev de 221 - mai de 222\n Summary : Help build the communication strategy with end-users according to their experiences, personal preferences and interactions with Gympass;\n - Run marketing campaigns and other initiatives end-to-end: design experiments, develop campaign strategy, and drive execution of the campaign through to completion;\n - Work closely with other functions within marketing (content, branding) to execute retention and reactivation campaigns;\n - Identify new scalable initiatives: plan, develop, test, analyze and report performance, optimizing conversion, visual creative and copy;\n - Create and roll-out of global scalable initiatives, building the User Engagement playbook to be implemented in all markets;\n - Design the reactivation strategies for ex-users of Gympass, customizing the approach based on their preferences and previous usage experiences, leveraging their interaction with us as well as new features and offerings;\n - Think strategically, analytically, and creatively about new ways to reach customers and increase the relevance of our communication, investigating, testing and tracking;\n \n Job Title : Especialista de CRM\n Company name : QuintoAndar\n Period : fev de 22 - fev de 221\n Summary : - Liderar a estratégia de Comunicação para o usuário “Proprietários” do QuintoAndar, sendo\n responsável por: aprovar todas as novas comunicações enviadas para o stakeholder,\n analisar e sugerir melhorias nas comunicações existentes e criar comunicações de acordo\n com a necessidade;\n - Criar, testar e analisar os resultados de comunicações com base em problemas trazidos\n por outras áreas da empresa como e-mails FUP para aumentar a conversão para a próxima etapa do funil;\n - Criar o relatório de métricas usado na área de CRM e atualização mensal do mesmo para\n insights de melhoria continua;\n - Elaborar nova régua de onboarding dos clientes na plataforma com base na análise de\n dados para diminuir os tickets gerados em CX, obtendo queda de 17% do contact rate;\n - Analisar a regra de comunicação atual e fazer novas sugestões (melhoria contínua), como\n implementar as alterações necessárias na régua de Whatsapp e e-mail para se adaptar à\n nova jornada do cliente durante a pandemia do Covid-19;\n - Realizar testes A/B de assunto, layout, copy e canal para melhorar as métricas das\n mensagens enviadas;\n - Fazer pesquisas e interpretar os resultados, a fim de entender melhor os pontos fracos do\n cliente e trazer insights para abordá-los;\n \n Job Title : Trainee comercial\n Company name : Lojas Marisa\n Period : dez de 217 - dez de 218\n Summary : - Criação de campanhas e catálogos de acordo com as datas do calendário festivo\n garantindo que as mesmas sejam executadas em tempo e de acordo com os padrões\n da empresa - como a ação de Dia das Crianças, que contou com folder com conteúdo\n especial distribuído em todas as lojas da rede e material de exposição de acrílico para\n ressaltar os produtos específicos do evento;\n - Monitorar KPIs de perfomance da categoria (vendas, margem, estoque);\n - Desenvolver reports de performance dos KPIs da categoria interpretando dados no\n excel e no Power BI;\n - Coordenação de todas as campanhas de brindes da empresa, sendo responsável pela\n definição do produto, negociação, compra, entrega no CD e distribuição dos mesmos\n para todas as lojas da rede;\n - Definição, junto ao time de Marketing e Estilo, da estratégia de divulgação da categoria\n – formatos de posts no Instagram, seleção de produtos para campanhas de TV e para\n vitrine das lojas;\n - Criação quinzenal de apresentações para expor para direção a estratégia de marketing\n da categoria de calçados da empresa e dos concorrentes – posicionamento, promoções\n vigentes, exposição da categoria em loja, campanhas de marketing;\n - Monitoramento do comportamento do consumidor e tendências do mercado;\n - Definição da estratégia da categoria de calçados (definição de público alvo, sortimento\n de produtos, faixas de preço, campanhas de marketing);\n \n Job Title : Executivo de vendas\n Company name : Convenia\n Period : 217 - nov de 217\n Summary : - Criar campanhas de e-mail marketing baseadas em personas específicas para atrair novos clientes;\n - Criar peças de e-mail marketing;\n - Prospectar leads via e-mail e cold call;\n - Qualificar os leads para analisar pontos de sinergia com o produto;\n - Reuniões de demonstração do produto;\n - Fechar a venda e manusear o contrato;\n - Atualizar progresso no CRM.\n \n Job Title : Desenolvimento de Novos Negócios\n Company name : Microsoft\n Period : ago de 215 - dez de 216\n Summary : - Criação de uma estratégia de relacionamento de e-mail marketing para aprimorar a experiência do parceiro no evento internacional de parceiros WPC, que na última edição contou com mais de 16 mil convidados de 139 países diferentes;\n - Análise dos melhores canais Microsoft para divulgação dos aplicativos desenvolvidos para plataforma Windows Phone e o acompanhamento dos resultados das ações;\n - Criação de e-mails com temas diversos em HTML;\n - Data quality e atualização do CRM da área – gerenciamento de leads e oportunidades por vir e atualização dos dados;\n - Gerenciamento de projeto para implementar tecnologia de nuvem em parceiro Microsoft; responsável por todas as etapas desde kick-off com o time técnico até negociação do contrato.\n - Organização dos eventos com parceiros para venda de solução -responsável pela organização da agenda, planejamento de verba e análise do resultado da ação;\n - Acompanhamento do resultado das vendas e atualização do relatório;\n - Hunting de novas empresas para implementar soluções Microsoft;\n - Criação da base de parceiros da área."
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Learn SQL Course\n Period : Emitido em abr de 2022-Sem data de expiração\n Issuing Authority : Codecademy"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Administração de Empresas\n Degree : Pós Graduação\n Period : 218 - 219\n \n School name : NABA Nuova Accademia di Belle Arti\n Degree : Design\n Period : 219 - 219\n \n School name : ESPM Escola Superior de Propaganda e Marketing\n Degree : Comunicação Social com ênfase em Publicidade e Propaganda\n Period : 212 - 216\n \n School name : ESPM Escola Superior de Propaganda e Marketing\n Degree : Estratégias Digitais de Marketing\n Period : 217 - 217\n \n School name : IÉSEG School of Management\n Degree : Exchange program\n Period : 214 - 214\n \n School name : Texas Tech University\n Degree : High School\n Period : 29 - 211"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "3f14384a-d000-4098-8356-0683cbbd45ce",
+    "id": "087fa08a-3f9b-4f89-8abd-ed0a8ffb32aa*3f14384a-d000-4098-8356-0683cbbd45ce",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:48.596Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:48.596Z",
+      "linkedinUsername": "carmen-pedrossian-419710b0",
+      "email": "carmen.pedrossian@hotmail.com",
+      "phone": "11987571374",
+      "name": "Carmen Pedrossian",
+      "id": "3f14384a-d000-4098-8356-0683cbbd45ce"
+    },
+    "timeInCurrentStage": 61412916776
+  },
+  {
+    "importedAt": "2024-02-08T18:40:12.174Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "4352"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "USD"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "VA, VR, plano de saúde, plano odontológico"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Publicidade",
+          "id": "9b93bdb0-8d47-4819-873d-06af51a3d08f",
+          "label": "Publicidade"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "FURB"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": "MBA em Marketing pela FGV\n MBA em marketing digital pelo Insper"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Growth & Performance Sr."
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de Growth & Performance Sr.\n Company name : Facily\n Period : nov de 221 - o momento\n Summary : • Responsável pela performance digital da primeira plataforma de Social Commerce da América Latina que virou Unicórnio;\n • Estruturação de todas as campanhas (Google, Face, TikTok, Programática, entre outras), redes socias, blog e ferramentas como RankMyApp.\n • Reestruturação de jornadas e personas;\n • Responsável pelas estratégias subsídios, campanhas para aquisição de novos usuários e para a base recorrente;\n • Implementação da estruturação de dados, KPI´s, aprimoramento de produtos e toda a inteligência envolvida na performance.\n Location : São Paulo, Brasil\n \n Job Title : Head Of Digital Marketing\n Company name : Rodobens\n Period : jul de 22 - out de 221\n Summary : • Responsável pela performance digital de uma das maiores empresas do Brasil, com foco em acelerar o desenvolvimento, implementar ferramentas e metodologias ágeis ao longo de toda a cadeia;\n • Implementar a estruturação de dados, aprimoramento de produtos, CRM e toda a inteligência envolvida para o banco digital (conta digital, cartão de crédito, empréstimos, financiamentos, entre outros) área de consórcios, seguros, varejo automotivo e varejo comercial;\n • Responsável pela performance de campanhas (Google, face, influencers...), dados, redes sociais e todos os conteúdos digitais. Gerenciamento dos KPI's como LTV/ CAC/ ROI.\n • Criação de seus sites, e-commerce, área logada e aplicativo, trazendo o cliente no centro (através da CDP);\n • Desenhar o atendimento multicanal, focando nas jornadas do cliente (UX), ferramentas e produtos;\n • Foco em impulsionar uma cultura de trabalho ágil (Formação de Tribos, Squads, Kanban, entre outros)\n • Criação e Implementação das squads de UX, SEO, Projetos e Performance Digital.\n • Trabalhando em parceria com a equipe comercial para atingimento de KPIs de vendas.\n • KPI's batidos 1%, e-commerce e app implementados, acrescentando um percentual significativo no faturamento.\n Location : São Paulo, Brasil\n \n Job Title : Chief Growth Officer\n Company name : PNR Group\n Period : dez de 218 - jun de 22\n Summary : • Criação e lançamento das novas marcas B2B e B2C (PNR Group, Edega e Monvin) nos canais on e off;\n • Implementação da estratégia digital, trazendo um crescimento em 33% no ano de 219 (CDP, Data management, ferramentas de automação de marketing, SaaS, CRM, KPI’s, campanhas google Ads e redes socias, influencers, entre outros);\n • Desenvolvimento e lançamento do novo e-commerce e do site institucional com melhoria de 1% no NPS;\n • Liderança estratégica e de negócios da empresa, como precificação, definição de mercados, aprimoramento de produtos, inovações e BP´s;\n • Gerenciamento das agências com foco em resultados;\n • Gerenciamento das estratégias de PR com ótimos resultados, como 2 capas no Jornal Valor Econômico e publicidade em revistas do segmento, assim como em canais digitais;\n • Definição e controle de orçamentos;\n • Gestão de eventos e equipes.\n Location : São Paulo e Região, Brasil\n \n Job Title : Diretora de marketing\n Company name : RP Linton Consultoria\n Period : out de 217 - dez de 218\n Summary : Projetos entregues com resultados 1% acima dos objetivos.\n • Responsável pela reestruturação e transformação digital das empresas, gestão da marca, expansão do negócio e interface com agências;\n Location : Brasil\n \n Job Title : Chefe de marketing\n Company name : JHSF\n Period : jun de 216 - out de 217\n Summary : • Responsável pela reestruturação do marketing da Holding JHSF Shoppings, seus canais digitais, normatização de processos e rotinas, PR, reestruturação de equipe, orçamentos e revisão do plano de marketing on e off.\n • Gerenciamento Corporativo das ações de marketing dos Shoppings do grupo;\n • Aprovação de todas as campanhas, contratação de novas Agências de Publicidade, Digital e Assessorias de imprensa;\n • Responsável pela aprovação e revisões das ações contemplando R$ 31milhões em orçamentos e planos de marketing;\n • Gestão do plano digital, redes sociais e ferramentas;\n • Realização de todos os eventos do Shopping Cidade Jardim e coordenação dos eventos e ações dos 19 lojistas;\n • Gestão e desenvolvimento de equipe (2 pessoas).\n Location : São Paulo e Região, Brasil\n \n Job Title : Marketing corporativo\n Company name : Iguatemi Empresa de Shopping Centers\n Period : mai de 211 - mai de 216\n Summary : • Gestão do marketing relacionado à marca Iguatemi, Novos Shoppings, Outlets e Expansões.\n • Elevação da marca Iguatemi de 33ª para 18ª posição, entre as marcas mais valiosas do Brasil;\n • Inauguração e expansão de 1 empreendimentos do grupo.\n • Responsável pelo plano de comunicação, projetos de posicionamento da marca e de seus novos produtos;\n • Coordenação do PR;\n • Criação e gestão dos sites e redes sociais.\n • Responsável pelo desenvolvimento da estratégia de marketing na companhia para entrada no mercado de Outlets.\n • Implementação e gestão dos projetos de CRM e Intranet da empresa.\n • Organização de eventos.\n Location : Brasil\n \n Job Title : Professora de marketing\n Company name : FGV Brazil\n Period : nov de 29 - mar de 211\n Summary : Professora de Marketing na pós Administração de Empresas.\n Location : Balneário Camboriú\n \n Job Title : Coordenadora de marketing\n Company name : Balneário Camboriú Shopping\n Period : dez de 29 - fev de 211\n Summary : Coordenação de eventos, responsável pela comunicação do Shopping e financeiro do departamento.\n Location : Balneário Camboriú, Santa Catarina"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Insper\n Degree : Marketing Digital\n Period : 217 - 217\n \n School name : Fundação Getúlio Vargas\n Speciality : Marketing - Relacionamento com Cliente\n Degree : MBA\n Period : 26 - 27\n \n School name : Cavendish College - Londres\n Speciality : Marketing\n Degree : LCCI - certificado em Marketing e Propaganda\n Period : 22 - 23\n \n School name : FURB\n Speciality : Publicidade e Propaganda\n Degree : bacharel\n Period : 1998 - 22\n Summary : Atividades e grupos: Atendimento e planejamento na agência interna da Universidade, responsável pela propaganda da universidade nos últimos dois anos (concursada).\n Courses: Title : BI e Analytics; Title : Behavioral Economics and Neuromarketing; Title : Content Marketing – University Rock Content"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "3a2c2dc9-4ede-4ff7-8ae8-273f9e2613d1",
+    "id": "087fa08a-3f9b-4f89-8abd-ed0a8ffb32aa*3a2c2dc9-4ede-4ff7-8ae8-273f9e2613d1",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:10.571Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:10.571Z",
+      "linkedinUsername": "rafaelamarketing",
+      "email": "rafaelapassosmkt@gmail.com",
+      "phone": "11976487622",
+      "name": "Rafaela Passos Linton",
+      "id": "3a2c2dc9-4ede-4ff7-8ae8-273f9e2613d1"
+    },
+    "timeInCurrentStage": 61412916776
+  },
+  {
+    "importedAt": "2024-02-08T18:40:11.967Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de CRM"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de CRM\n Company name : Profarma\n Period : dez de 22 - o momento – dez de 22 - o momento\n \n Job Title : Gerente de CRM\n Company name : Up Brasil\n Period : mai de 219 - dez de 22 – mai de 219 - dez de 22\n Location : São Paulo, São Paulo\n \n Job Title : Coordenador CRM/PMO\n Company name : Gocil Segurança e Serviços\n Period : jun de 217 - mai de 219 – jun de 217 - mai de 219\n Summary : Responsável pela implantação do CRM na Gocil\n Gestão de indicadores para execução do plano estratégico\n Gestão da estratégia de Prospecção\n Quality Assurance\n Segmentação de Clientes e Prospects\n Potencial de Mercado\n Inteligência de Mercado\n Gestor dos Projetos da área Comercial (CRM/BI/Sistema de Precificação)\n Treinamentos e Suporte com equipe Comercial\n Respondendo diretamente ao Diretor Comercial\n Gestão de Pessoas\n Location : São Paulo e Região, Brasil\n \n Job Title : Especialista CRM\n Company name : RaiaDrogasil\n Period : ago de 214 - jun de 217 – ago de 214 - jun de 217\n Summary : Construção e execução de Plano Estratégico de ações segmentadas in-store do Cupom Muito Mais Raia.\n Responsável pela definição da estratégia de ações segmentadas com fornecedores nos canais PDV, e-mail, SMS, TC e mídias sociais.\n Análises quantitativas e qualitativas de estratégias de relacionamento com cliente, canais e ofertas. Através de banco de dados SQL e ferramentas da Dunnhumby.\n KPIs de acompanhamento como RFV, LTV, Ticket Médio, Gasto Médio, incremento de vendas e retorno das ações segmentadas para a Diretoria.\n Responsável pela segmentação de clientes, produtos e unificação de clientes.\n Gestão das vendas e receita do Cupom Muito Mais Raia.\n Responsável pelo aumento de 75% na participação do Cupom na receita da companhia.\n Gestão de Projetos de CRM com a área de TI.\n Gestão do banco de dados de CRM com a IbopeDTM.\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista de Planejamento de Vendas\n Company name : Boa Vista Serviços\n Period : nov de 21 - mai de 214 – nov de 21 - mai de 214\n Summary : Analista responsável pela cadeia de Lead Generation para os canais da Boa Vista Serviços. Realização de estudos para retenção, attrition, potencial e clusterização de clientes.\n Analista responsável pelo desenvolvimento das informações para a tomada de decisão.\n Geração mensal dos MIS de Pricing, Produtos, Planejamento de Vendas e Comercial.\n Realização de relatórios de análise de mercado, monitoramento e realização de estudos sobre concorrência, utilizando modelos SWOT, Cinco Forças de Porter e Matriz BCG.\n Identificação de oportunidades de novos negócios e cross-sell de produtos.\n Responsável pelo desenvolvimento do Customer Life Cycle e Lead Generation para área de vendas.\n Análises e estudos de base para definição de público e praças para ações de ativação e relacionamento.\n Mensuração das ações de marketing, definição de público e processamento das bases para futuras ações."
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : MBA USP/Esalq\n Speciality : Gestão de Negócios\n Degree : Master of Business Administration - MBA\n Period : 221 - 222\n \n School name : Faculdades Integradas Campos Salles\n Speciality : Economia\n Degree : Bacharel\n Period : 25 - 29\n Courses: Title : Curso Ferramenta BO - Business Objects/Designer 6.5 e XI; Title : Curso de Finanças para não financeiros; Title : Introdução a Lógica de Programação"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "1c3bfdc3-6838-41d9-818f-9de6c2bd40e9",
+    "id": "087fa08a-3f9b-4f89-8abd-ed0a8ffb32aa*1c3bfdc3-6838-41d9-818f-9de6c2bd40e9",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:56.393Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:56.393Z",
+      "linkedinUsername": "guilherme-de-paula-monteiro-69540613",
+      "email": "guipmonteiro@gmail.com",
+      "phone": "",
+      "name": "Guilherme de Paula Monteiro",
+      "id": "1c3bfdc3-6838-41d9-818f-9de6c2bd40e9"
+    },
+    "timeInCurrentStage": 61412916776
+  },
+  {
+    "importedAt": "2024-02-08T18:40:11.927Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "52778"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "USD"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Economia",
+          "id": "72b9c97c-68f7-40f0-b9d8-7a317f72d545",
+          "label": "Economia"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Nova de Lisboa"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Customer Relationship Manager"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Customer Relationship Manager\n Company name : Sonae Sierra\n Period : out de 221 - o momento\n Location : Lisbon, Portugal\n \n Job Title : CVM Advanced Analytics | Team Manager - Iberia\n Company name : Worten Portugal\n Period : set de 218 - out de 221\n Summary : - Loyalty program Management and coordination of internal initiatives for this program’s evolution;\n - Customer Profiling and Segmentation & Recommendation and Next Best Offer models;\n - Direct Marketing (SMS and email) campaigns definition and operationalization. Results’ analysis for input for future campaigns and Customer characterization;\n - Customer and Product lifecycle strategic approach;\n - Follow-up in all ‘customer data’-based cross-company initiatives\n Location : Lisboa e Região, Portugal\n \n Job Title : Customer Project Manager - Iberia\n Company name : Worten Portugal\n Period : set de 218 - out de 221\n Summary : - Business areas’ priorities and needs assessment in terms of new platforms and/or processes;\n - Marketing e Service Cloud (Salesforce) Business Owner;\n - Main projects: Implementation of the new CRM platform, as well as MDM (Master Data Management) project management, unifying all Worten’s Customer databases.\n Location : Lisbon, Portugal\n \n Job Title : Portugal Promotion & Communication Coordinator\n Company name : BP\n Period : abr de 215 - mar de 218\n Summary : - Definition and Implementation of all communication and promotional activities related to fuel, convenience and Loyalty Program;\n - Digital marketing activities, such as website content update, SEO, Google AdWords and email marketing;\n - Daily interaction with advertising and media buying agencies, as well as point of sale communications, logistics and production;\n - Local brand management, in coordination with central team, including brand image, presence and activation in all events (including sponsorship);\n - Budget Planning and Control for Marketing activities in Portugal\n Location : Lisbon Area, Portugal\n \n Job Title : Product Manager - Mobile branded content portfolio\n Company name : Vodafone Portugal\n Period : abr de 213 - abr de 215\n Summary : - Mobile content portfolio management: Music, Games, Mobile TV, RBTs & Tones and Sports and Leisure alerts.\n - Marketing strategy definition, including communication (ATL and BTL), CRM activities, lifecycle and pricing\n - Team coordination\n Location : Lisbon, Portugal\n \n Job Title : Music Product Manager\n Company name : Vodafone Portugal\n Period : jan de 211 - mar de 213\n Summary : - Music service product management;\n - Customer interface with Music Services: PC & Mobile players as well as WAP & Web Music Stores;\n - Lifecycle and operational support definition;\n - Communication and Promotion of the service and its content to the customer base;\n - Service lifecycle management and operational support;\n - Support and definition of internal partnerships, both on the brand level as well as on specific products or services\n Location : Lisbon, Portugal\n \n Job Title : Marketing Specialist - B2C Distribution Channels\n Company name : Vodafone Portugal\n Period : jul de 26 - fev de 211\n Summary : - Training: Salesforce training program definition, including content and frequency;\n - Distributors’ Web Portal: Vodafone indirect sales channel’s platform management, guaranteeing coherence, relevance and keeping all information and available functionalities up-to-date. Content & layout definition, according to product management and sales areas objectives. Close interaction with IT;\n - Commissions & Incentives: Incentive programmes design and implementation for Vodafone’s own stores and indirect sales channel. Commission schemes definition, monitor and fine tune for all the sales channels in consumer business unit.\n Location : Lisbon, Portugal\n \n Job Title : Brand Manager\n Company name : Galp Energia\n Period : out de 22 - jul de 26\n Summary : - Implementing and monitoring the rebranding process and development for all new products/ brands, as well as definition, coordination and monitoring of brand’s image, values and positioning;\n - Relationship management between the different agencies (media, advertising and design) and the different business units (fuel, gas, lubricants, convenience, loyalty and B2B solutions), guarantying the brand coherence in all materials and solutions;\n - Market research and brand valuation methods;\n - Budget planning and control\n Location : Lisbon, Portugal\n \n Job Title : Marketing Assistant\n Company name : HP Portugal\n Period : mai de 22 - set de 22\n Summary : Implementation of the Corporate Services Solutions communication materials, including BTL, events and merchandising;\n Location : Lisbon, Portugal"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Power BI Data Methods\n Period : Emitido em jan de 2022-Sem data de expiração\n Issuing Authority : LinkedIn\n \n \n \n Title : Mentor\n Issuing Authority : Talent Bootcamp"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Nova de Lisboa\n Speciality : Economics\n Degree : Lic.\n Period : 1997 - 22\n \n School name : Católica Lisbon School of Business and Economics\n Speciality : Digital Marketing\n Degree : Postgraduate Degree\n Period : 218 - 218\n \n School name : ISCTE Executive Education\n Speciality : Finantial Marketing & e-banking\n Degree : Postgraduate Degree\n Period : 22 - 22\n \n School name : Colégio Moderno\n Period : 1987 - 1997"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "12d4fe49-525b-4e62-958a-3c9467d9fc50",
+    "id": "087fa08a-3f9b-4f89-8abd-ed0a8ffb32aa*12d4fe49-525b-4e62-958a-3c9467d9fc50",
+    "talent": {
+      "updatedAt": "2023-12-20T14:00:56.261Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:00:56.261Z",
+      "linkedinUsername": "cristinabaeta",
+      "email": "crb.cbaeta@gmail.com",
+      "phone": "351919477175",
+      "name": "Cristina Baeta",
+      "id": "12d4fe49-525b-4e62-958a-3c9467d9fc50"
+    },
+    "timeInCurrentStage": 61412916776
+  },
+  {
+    "importedAt": "2024-02-08T18:40:12.205Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de Marketing de Aquisição Digital"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de Marketing de Aquisição Digital\n Company name : Banco Sofisa S/A\n Period : jun de 221 - o momento\n Location : São Paulo, São Paulo, Brasil\n \n Job Title : Coordenador de Marketing Digital e CRM\n Company name : Chama\n Period : nov de 218 - mai de 221\n Summary : • Responsável pelo marketing de performance: planejamento de estrutura e configuração de canais de aquisição digital orientada para a expansão do negócio, tanto em aquisição quanto em retenção de usuários;\n • Responsável pelos briefings e aprovações de criativos com a agência;\n • Controle de budget e otimização para investimento em mídia digital;\n • Configuração e gerenciamento de campanhas do Google Ads, Facebook/Instagram, rede de afiliados, AdNetworks e remarketing;\n • Acompanhamento de KPI’s e definição de métricas de desempenho;\n • Responsável pela estratégia de otimização em lojas de aplicativos (ASO – App Store Optimization) e SEO;\n • Responsável pela performance de vendas do site;\n • Responsável pelas estratégias e jornadas de relacionamento com usuários (CRM).\n Location : São Paulo e Região, Brasil\n \n Job Title : Especialista de Marketing Digital\n Company name : Chama\n Period : nov de 218 - dez de 219\n Location : São Paulo\n \n Job Title : Coordenador de Marketing\n Company name : Digipix\n Period : abr de 214 - nov de 218\n Summary : • Planejamento estratégico, tático e gestão de performance de Mídias Digitais para a loja de e-commerce FotoRegistro (marketing de performance);\n • Gerenciamento e otimizações de campanhas Google AdWords, Facebook, Remarketing (Criteo e Afiliados), Display e Bing;\n • Análise de KPI´s dos canais digitais, Google Analytics, controle de budget, estudos de jornada do cliente e customer experience;\n • Gerenciamento de e-mail marketing e CRM: criação e coordenação de campanhas promocionais, ações de ativação, relacionamento e vendas no canal, avaliação de resultados e coordenação de peças publicitárias;\n • Negociação, gestão e desenvolvimento de parcerias estratégicas com marcas como Cacau Show, UOL, Santander, Vivo e licenciamentos Disney e Galinha Pintadinha;\n • Responsável pelas lojas de markeplace de Revelação Digital de redes como Magazine Luiza, Saraiva, Walmart e B2W.\n Location : São Paulo e Região, Brasil\n \n Job Title : Consultor de Marketing\n Company name : Alphalife Medicina Ocupacional\n Period : abr de 212 - abr de 214\n Summary : • Desenvolvimento e criação de website;\n • Criação e gerenciamento de campanhas AdWords; desenvolvimento e expansão da área comercial.\n Location : Alphaville\n \n Job Title : Especialista de Marketing Publicitário\n Company name : Abril\n Period : ago de 21 - mar de 212\n Summary : • Análise de mercados regionais para criação de projetos de publicidade;\n • Inteligência de negócios, estudos de portfólio de clientes, apresentações para área comercial e organização de eventos;\n \n Job Title : Trainee\n Company name : Abril\n Period : fev de 29 - jul de 21\n Summary : Programa de trainee com rotações on the job em áreas chaves da organização.\n • Marketing TV Abril: desenvolvimento de ações promocionais para divulgação das emissoras FIZ, Ideal e MTV;\n • Mobile MTV: estudo de mercado e desenvolvimento de novos produtos;\n • Mídias Digitais: elaboração de KPI’s para Google Analytics e implementação de novos espaços para publicidade em Internet nos sites da Editora Abril;\n • Marketing Abril Coleções: responsável pelo lançamento do Curso Preparatório Enem 21 (definição de público-alvo, estratégias de lançamento, distribuição, campanhas on e offline, plano de mídia e pesquisas);"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Administração\n Degree : Graduação\n Period : 25 - 28\n \n School name : IAE Université Pierre-Mendès France\n Speciality : Marketing\n Degree : Masters\n Period : 211 - 212\n Summary : Engenharia de Marketing\n \n School name : Fundação Instituto de Administração\n Speciality : Marketing e TI\n Degree : Pós-graduação\n Period : 211 - 211"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "ca9c4fb5-641f-4869-b677-13ca11c6f61b",
+    "id": "087fa08a-3f9b-4f89-8abd-ed0a8ffb32aa*ca9c4fb5-641f-4869-b677-13ca11c6f61b",
+    "talent": {
+      "updatedAt": "2023-12-20T14:06:06.032Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:06:06.032Z",
+      "linkedinUsername": "rodolfo-lutfi-39355022",
+      "email": "rlutfi@gmail.com",
+      "phone": "",
+      "name": "Rodolfo Lutfi",
+      "id": "ca9c4fb5-641f-4869-b677-13ca11c6f61b"
+    },
+    "timeInCurrentStage": 61412916776
+  },
+  {
+    "importedAt": "2024-02-08T18:40:11.738Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "3683"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "USD"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Comunicação Social",
+          "id": "e5b3cfa3-f5c5-42cb-aefc-1b0f757be277",
+          "label": "Comunicação Social"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "ESPM"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": "MBA em Administração pela ESPM"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenadora de CRM"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenadora de CRM\n Company name : McKinsey & Company\n Period : jan de 221 - o momento\n Summary : Responsável pelas iniciativas e projetos de CRM no Brasil:\n \n - Implementação da ferramenta Salesforce na McKinsey Brasil e LatAm:\n .Líder do projeto, sendo responsável pelo acompanhamento de todas as frentes e stakeholders (Salesforce e Implementadores);\n .Definição de variáveis da ferramenta, fontes de dados, níveis e tipos de acesso;\n .Definição das customizações e regras de negócio da ferramenta.\n \n - Desenvolvimento e integração de um banco de dados único, a partir de diversas origens;\n - Criação de processos para gerenciamento e quality assurance dos dados;\n - Interface com times globais de CRM;\n - Interação com sócios e demais áreas para definição de jornada de relacionamento com os clientes e prospects.\n - Líder da frente de CRM em projetos internos / institucionais.\n Location : São Paulo, Brasil\n \n Job Title : Especialista de CRM\n Company name : McKinsey & Company\n Period : mai de 218 - dez de 22\n Location : São Paulo, São Paulo\n \n Job Title : Analista de CRM Sênior\n Company name : Banco Santander\n Period : ago de 216 - abr de 218\n Summary : Responsável pela definição estratégica, acompanhamento e otimização das ações de Marketing Direto. Foco analítico com visão de negócios.\n \n - Elaboração de estudos e análises necessárias para tomada de decisão, visando maior conversão e eficiência das ações (análise de oportunidades, perfil de público, rentabilização).\n - Extração e manipulação de dados para elaboração de relatórios de acompanhamento e KPIs de aquisição de clientes, reativação, churn, entre outros.\n Location : São Paulo, São Paulo\n \n Job Title : Analista de CRM Pleno\n Company name : Porto Seguro\n Period : jan de 215 - jul de 216\n Summary : Responsável pelo desenvolvimento e implementação de campanhas de Marketing Direto com foco em vendas, cross selling, recuperação, up selling e prospecção para diversas Unidades de Negócio da Porto Seguro.\n \n - Elaboração de planejamento anual de marketing para clientes internos;\n - Desenvolvimento e implementação de réguas de marketing direto;\n - Definição de público para as ações com base em CRM, modelo de propensão e etc;\n - Controle de budget;\n - Aprovação de peças, disparo de e-mail marketing, mala direta, SMS;\n - Controle e análise de indicadores e apresentações gerenciais de resultados;\n - Interface com fornecedores como: agências de publicidade, gráficas, Correios, entre outros.\n Location : São Paulo, Brasil\n \n Job Title : Analista de CRM Jr\n Company name : Porto Seguro\n Period : mai de 214 - dez de 214\n \n Job Title : Executiva de Atendimento e Planejamento\n Company name : Marketdata\n Period : mai de 213 - fev de 214\n Summary : Responsável pelo atendimento das contas online de Brasilprev e Cargill (incluindo as marcas Liza, Pomarola, Purilev, Tarantella, Elefante, Maria, Mazola, Olívia e La Española).\n \n - Desenvolvimento, criação e manutenção de sites, peças online e etc;\n - Mensuração de resultados;\n - Contato direto com clientes da área de marketing de grandes empresas;\n - Controle de rentabilidade das contas;\n - Benchmarking e análise da concorrência;\n - Desenvolvimento de briefing e acompanhamento dos jobs até a entrega final, passando pelo processo de ajustes, desenvolvimento de layout, programação, interface e finalização.\n Location : São Paulo, Brasil\n \n Job Title : Assistente de Atendimento e Planejamento\n Company name : Marketdata\n Period : fev de 212 - abr de 213\n Summary : Responsável, durante um ano, pelo atendimento publicitário da conta GE Healthcare (Brasil e LATAM):\n \n - Desenvolvimento de projetos de marketing e comunicação online e offline;\n - Campanhas de lançamento de produtos, incentivo de vendas, member get member;\n - Realização de eventos, feiras, entre outros.\n \n - Desenvolvimento de projetos pontuais das contas Bodytech, Heineken (B2B), Liga Solidária, Natura (ações de CRM) e SOS Mata Atlântica (evento “Viva a Mata 212”, case de prata premiado pela ABEMD).\n Location : São Paulo, Brasil\n \n Job Title : Estagiária de Marketing\n Company name : Folha de S.Paulo\n Period : 21 – 21\n Summary : Atuação na área de Marketing Institucional do jornal Folha de S.Paulo.\n \n - Responsável pelo contato direto com a agência Africa;\n - Participação no planejamento de novas coleções e campanhas do jornal, entre eles a Reforma gráfica de 21, Coleções “Mundo do Vinho”, “Raízes da MPB”, “Livros que mudaram o mundo”, entre outros;\n - Definição de target, posicionamento, estratégias de comunicação e marketing;\n - Prospecção de promoções e parcerias pontuais;\n - Definição das datas de veiculação dos anúncios;\n - Desenvolvimento e análise de relatórios de acessos para peças online, entre outros.\n Location : São Paulo, Brasil\n \n Job Title : Estagiária de Atendimento e Planejamento\n Company name : Promo ESPM\n Period : 28 – 28\n Summary : Atendimento publicitário e planejamento para clientes do terceiro setor e/ou internos da faculdade ESPM.\n \n - Entendimento das propostas e solicitações dos clientes;\n - Montagem de briefings;\n - Criação de estratégias de comunicação;\n - Reunião com departamento de criação;\n - Acompanhamento do projeto até a entrega final, entre outros.\n Location : São Paulo, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : ESPM Escola Superior de Propaganda e Marketing\n Speciality : Ciências do Consumo Aplicadas\n Degree : Master of Business Administration (MBA)\n Period : jan de 214 - dez de 215\n Summary : Nota: 1\n \n School name : ESPM Escola Superior de Propaganda e Marketing\n Speciality : Comunicação Social & Marketing\n Degree : Bacharelado\n Period : 27 - 211\n Courses: Title : ESPM -Trade Marketing; Title : ESPM - Shopper Marketing: A influência no momento da compra; Title : FGV - Branding: Construção e Gestão de Marcas"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "23efdc15-2c7c-4e4f-80dd-3c87f8d5b245",
+    "id": "087fa08a-3f9b-4f89-8abd-ed0a8ffb32aa*23efdc15-2c7c-4e4f-80dd-3c87f8d5b245",
+    "talent": {
+      "updatedAt": "2023-12-20T14:07:11.299Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:07:11.299Z",
+      "linkedinUsername": "julia-sivelli-sabia",
+      "email": "julia.sabia@hotmail.com",
+      "phone": "11981939863",
+      "name": "Julia Sivelli Sabia",
+      "id": "23efdc15-2c7c-4e4f-80dd-3c87f8d5b245"
+    },
+    "timeInCurrentStage": 61412916776
+  },
+  {
+    "importedAt": "2024-02-08T18:40:11.892Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Publicidade",
+          "id": "9b93bdb0-8d47-4819-873d-06af51a3d08f",
+          "label": "Publicidade"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Performance Marketing Coordinator"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "PR",
+          "id": "ddacebd3-b647-4eb4-b74a-be67c4653033",
+          "label": "PR"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Performance Marketing Coordinator\n Company name : UOL EdTech\n Period : jan de 222 - mai de 222\n Summary : - Work with agencies to create and execute a marketing strategy to drive SMB leads through paid media and inbound marketing.\n - Create reports and dashboards on Hubspot to track lead generation and conversion metrics.\n - Generate insights through data analysis to help optimize campaigns.\n - Manage the SMB Marketing budget.\n Location : Brasil\n \n Job Title : Field Marketing Lead\n Company name : CrossKnowledge\n Period : abr de 221 - jan de 222\n Summary : - Responsible for creating the local marketing strategy and plan, to drive brand awareness and lead generation, including: nurturing programs, agency management, event sponsorship, webinars etc.\n - Develop and implement the annual marketing plan and budget.\n - Collaborate with the Digital Marketing and Content Marketing teams to coordinate campaigns and lead effective multi-channel localized marketing campaigns.\n - Collaborate with the sales team executing localized marketing campaigns to support the regional targets.\n - Forecast, measure and analyze the effectiveness and return on investment via monthly reports, making recommendations for future activity.\n Location : Curitiba, Paraná, Brasil\n \n Job Title : Marketing Coordinator\n Company name : Polen\n Period : ago de 219 - mar de 221\n Summary : - Lead generation: coordinating strategies that include inbound marketing and content marketing.\n - Campaign planning, development, and execution.\n - Close partner of sales teams to ensure strong marketing and sales alignment.\n - Weekly follow-up on reports based on marketing campaigns and tactics.\n - Monthly social media editorial content planning.\n Location : Curitiba Area, Brazil\n \n Job Title : International Marketing\n Company name : The Talent System - THT\n Period : mai de 217 - jan de 219\n Summary : - Marketing automation strategies, lead generation for Latin America market.\n - Managing automation marketing tool (RD Station)\n - Coordinating the production of content such as eBooks, blogposts, video interviews, landing pages.\n - Leading Social Media campaigns.\n - Actively looking for new business opportunities in Brazil and Spanish-speaking countries of Latin America.\n - Translating marketing material (Spanish-Portuguese).\n - Translated \"El Lenguaje de los Colores,\" by Juan David\n - Gomez (Spanish - Portuguese).\n Location : Bogotá D.C. Area, Colombia\n \n Job Title : Social Media Advisor for Spotify\n Company name : Sutherland\n Period : out de 215 - mar de 217\n Summary : - Customer support consultant: troubleshooting to solve software\n - issues (first 6 months) with constant recognition for quality.\n - Responsible for maintaining customer relations through social media, responding to comments and suggestions on Facebook and Twitter; using Sales Force.\n - Trained the new Customer Service teams of Brazil and Colombia.\n - Quality Control.\n Location : Bogotá D.C. Area, Colombia\n \n Job Title : Marketing Assistant\n Company name : XACT Studio International\n Period : jul de 214 - mai de 215\n Summary : - Designed the communication strategy for potential clients from Brazil and Portugal.\n - Prepared commercial presentations.\n - Commercially supported the company, through negotiations and translations, in well known international book fairs (e.g. bienal do Livro de São Paulo, Barcelona Book Fair and Frankfurt Book Fair).\n Location : New Delhi e Região, Índia\n \n Job Title : Marketing Analyst\n Company name : Navegg\n Period : mai de 213 - jun de 214\n Summary : - Planned and executed B2B marketing strategies.\n - Developed e-books and whitepapers for educating clients.\n - Produced content for the blog.\n - Negotiated with strategic partners.\n Location : Curitiba e Região, Brasil\n \n Job Title : Social Media Coordinator\n Company name : Agência Green Digital\n Period : mai de 21 - mai de 213\n Summary : - Began as a social media planner and then got promoted to coordinator after 9 months.\n - Coordinating digital campaigns for clients from small and medium sized businesses.\n - Analysed campaign results through using Facebook and Google Ads.\n Location : Curitiba e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Customer Experience (CX)\n Period : Emitido em mai de 2022-Sem data de expiração\n Issuing Authority : Escola Conquer\n \n Title : Metodologias Ágeis\n Period : Emitido em jan de 2022-Sem data de expiração\n Issuing Authority : Escola Conquer\n \n Title : Curso Online de Marketing Digital (Bootcamp)\n Period : Emitido em fev de 2021-Sem data de expiração\n Issuing Authority : Aldeia.cc\n \n Title : Treinamento em Eneagrama Vitruviano\n Period : Emitido em dez de 2020-Sem data de expiração\n Issuing Authority : MasterMind CWB Centro de Treinamentos Napoleon Hill\n \n \n \n Title : Inbound\n Period : Emitido em jul de 2019-Expira em ago de 2021\n Issuing Authority : HubSpot Academy\n \n Title : Certificação em Produção de Conteúdo para Web\n Period : Emitido em jul de 2019-Expira em ago de 2020\n Issuing Authority : Rock Content"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul\n Speciality : BI\n Degree : Pós-graduação Lato Sensu - MBA Executivo\n Period : jan de 222 - dez de 222\n \n School name : London Business School\n Speciality : Brand and Behaviour\n Degree : Aligning Business\n Period : 218 - 218\n Summary : Curso EAD\n \n School name : UniBrasil Centro Universitário\n Speciality : Comunicação social - Publicidade e Propaganda\n Degree : Bachelor’s Degree\n Period : 27 - 211\n Courses: Title : Inbound Marketing"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "2264e335-53a3-4490-952d-4a94c035a33d",
+    "id": "087fa08a-3f9b-4f89-8abd-ed0a8ffb32aa*2264e335-53a3-4490-952d-4a94c035a33d",
+    "talent": {
+      "updatedAt": "2023-12-20T14:02:05.930Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:02:05.930Z",
+      "linkedinUsername": "feralvesmello",
+      "email": "fer.alves.mello@gmail.com",
+      "phone": "4192539484",
+      "name": "Fernanda Alves de Mello",
+      "id": "2264e335-53a3-4490-952d-4a94c035a33d"
+    },
+    "timeInCurrentStage": 61412916776
+  },
+  {
+    "importedAt": "2024-02-08T18:40:12.080Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "15000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Desenho Industrial",
+          "id": "cb4adc4b-25d5-4468-b257-ae1ad3a92fd2",
+          "label": "Desenho Industrial"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Omni / Digital Customer Development"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Omni / Digital Customer Development\n Company name : Puig\n Period : mar de 22 - o momento\n Summary : Responsável por Key Accounts (Renner, C&A e Riachuelo) tenho como objetivo alavancar a digitalização de seus pontos de contato com o cliente focando em ações omni, maximizando os resultados do e-commerce e novos canais como social e whatsapp commerce. Além de propor e implementar planos para atingimento dos objetivos estratégicos da companhia junto a cada cliente.\n \n Desenvolvimento planos integrados integradas (on+off), para campanhas, visibilidades, ações com influenciadores, calendário de ações Always On, CRM. Avaliação de KPIs para geração de planos de ação relacionados a oportunidades, slowmovers, novos entrantes e exclusividades. Além da gestão do P&L e dos investimentos de mídia cooperada.\n \n Em 22, apesar do efeito Covid, a estratégia omni garantiu a manutenção da meta sellout para o canal Key Account, através do balanceamento entre físico x digital. As vendas nos canais digitais registraram crescimento de +6% acima da média de mercado.\n Location : Rio de Janeiro, Brazil\n \n Job Title : CRM & Digital Manager\n Company name : Puig\n Period : nov de 218 - mar de 22\n Summary : _ CRM projects in partnership with top e-retailers for beauty and fragrance market, defining strategies in order to be a catalyst for interplay with consumers, helping clients to enhance their customer´s transactions quality, converting them into brand lovers.\n \n _ Social media monitoring setup and implementation for Puig main Brands. Crisis monitoring, ad hoc studies and monitoring reports of key KPIs, turning online conversations into insights and actions.\n \n _ Digital Content for Puig´s brands official accounts, balancing local & global content in order to be locally relevant on social networks.\n Location : Rio de Janeiro Area, Brazil\n \n Job Title : Consultant\n Period : ago de 218 - out de 218\n Summary : Independent Consultant:\n _ SuperViz - Customer Experience: customer journey evaluation and recast planning for the onboard process.\n _ BrasilBrokers - ProductOwner at GM5 for the maintenance and evolution for BrasilBrokers and Credimorar transactional site.\n Location : Rio de Janeiro Area, Brazil\n \n Job Title : Customer Development Advertising Manager\n Company name : TIM Brasil\n Period : jan de 216 - jul de 218\n Summary : _ Gestão da comunicação com clientes. Expansão e integração com novas mídias e plataformas. Desenvolvimento de ações de rentabilização e relacionamento reforçando a reputação da marca.\n _ Abordagem Omnichannel gerando a percepção de inovação e valorizando a experiência do cliente.\n _ Responsável pela presença digital e monitoramento da marca nas redes sociais, com foco no fortalecimento da percepção de qualidade e gestão de crises.\n _Report a Executive Manager gerenciando cinco pessoas e agências.\n \n Realizações:\n + Melhoria da Customer Experience - Potencialização das ações de relacionamento e engajamento, com evolução da medição multicanal. Customer Knowledge com plataforma de mídia e BI.\n + APP MEU TIM - ​Estímulo ao uso e download do app. Em 217 a campanha gerou aumento de mais de 1% do número de usuários únicos em 217 e alcançou o Top 1 da Apple Store. Em 218 a Promoção MEU TIM teve +2 mil usuários cadastrados, atingindo 6MM de usuários únicos, ultrapassando a meta inicial.\n + Lançamento TIM BLACK -​Campanha de reposicionamento do produto, reforçando a conexão com o público jovem e o processo de transformação digital. Criação do primeiro chatbot TIM no Facebook, trazendo agilidade e redução de custos no atendimento.\n + Melhoria da Polaridade da Marca em Social Media - ​Ações e campanhas nos canais oficiais da TIM, com aumento de 27% no engajamento do Facebook e de 92% nos posts de curadoria. Projetos inovadores como a divulgação do vencedor do Masterchef em real time pelo Twitter e Instagram.\n + Implantação do Programa de Influenciadores - Mapeamento e gestão de micro influenciadores para comunicação com audiências de nicho e aumento do engajamento com este público.\n + Rebranding​ - Gestão ​end-to-end ​ da campanha digital de novo posicionamento “​TIM, Evoluir é fazer diferente”\n Location : Rio de Janeiro\n \n Job Title : Especialista Sr Digital Advertising\n Company name : TIM Brasil\n Period : jun de 211 - dez de 215\n Summary : _ Responsável pela estratégia de presença, posicionamento e publicidade digital, garantindo sinergia com a estratégia 36º de aumento de reconhecimento de marca e conversão de novos clientes.\n _ Criação e otimização de campanhas com foco em performance e relacionamento, para potencializar os resultados.\n _Lançamento e gestão dos canais oficiais da empresa no Facebook, Instagram e LinkedIn.\n _Controle de budget e revisão de investimentos, aproveitando possíveis oportunidades e corrigindo ações.\n _ Monitoramento, análise de dados, desempenho e tendências, com foco em resultados (KPI’s), fornecendo recomendações com base em insights criativos e data driven.\n \n Realizações:\n + O Esporte Mais Popular do Brasil é Torcer – Campanha recorde de views e case no Facebook. O “​Twittorcida”, ação em ​realtime com 16 filmes em 12 horas - conteúdo gerado a partir da colaboração dos torcedores via Twitter.\n + TIMmusic na Estrada – Case mundial da Vevo com mais de 1,5MM de views em apenas 24 hs (214). Aumento da sinergia do produto e reforço da aproximação dos consumidores com a marca. Ações especiais como a que permitiu ao público escolher, via redes sociais, músicas que seriam tocadas no line-up dos shows.\n + Gestão de Crise – Elaboração e implantação de plano de ação para resgate da imagem e reputação da imagem da após bloqueio pela Anatel da venda pela empresa em diversos estados do Brasil em 212. Criação do Portal Portas Abertas, campanhas digitais e linhas editoriais em social media.\n + “Indique seu Amigo” e “Mulheres Poderosas”​– Campanhas “Member Get Member” para aquisição de novos clientes com redução de churn.\n Location : Rio de Janeiro Area, Brazil\n \n Job Title : Coordenadora Acadêmica da Pós-graduação em Gestão Estratégica de Marketing Digital\n Company name : IGEC/ Facha\n Period : jun de 28 - dez de 212\n Summary : Coordenadora Acadêmica da Pós-graduação em Gestão Estratégica de Marketing Digital no Rio de Janeiro\n \n Professora dos módulos de Gerenciamento de Projetos, Introdução ao Marketing Digital, Redes Sociais e Orientação ao Trabalho de Conclusão de Curso.\n \n Mentora e executora do Conexões Digitais, série de eventos semestrais com palestras e desconferência sobre temas inovadores do mercado de internet.\n Alguns dos temas abordados:\n _ Como a gamificação pode alavancar seus resultados.\n _ Crowd: o poder das multidões - Como empresas podem alcançar sua estratégia através da força da coletividade\n \n Job Title : Project Manager\n Company name : Sirius Interativa\n Period : 2 - fev de 211\n Summary : _ Gerenciamento de projetos digitais para empresas de diversos portes e segmentos como: Embratel, Souza Cruz, Petrobras, GSK, Investe Brasil, Fundação Roberto Marinho, Odebrecht Realizações e CAIXA Seguros.\n _ Coordenação de equipe multidisciplinar: tecnologia, design, interface com negócios e clientes.\n _ Planejamento de testes e conceituação de novas campanhas e soluções digitais. Gestão da satisfação de clientes internos e externos, processos, garantia da execução e produtividade da equipe.\n \n Algumas Realizações:\n + BRASIF SHOPPING / DUTY FREE​ – E-commerce –​ Desenvolvimento com melhoria da experiência do usuário, especialmente no processo de compras, resultando no aumento da taxa de conversão de .4% para .9%.\n + SOUZA CRUZ - Intranet - ​planejamento e implementação de intranet corporativa que aumentou em mais de 8% o número de acessos diários. Projeto vencedor do concurso da Aberje, categoria Intranet. + EMBRATEL - Relações com Investidores - Melhor site de Telecom e 4º lugar entre os sites de RI brasileiros e 15º mundial da categoria pelo “Global Ranking” (Fonte: IR Web Report).\n \n Job Title : Project Manager\n Company name : Sirius Multimidia\n Period : 1995 - 2\n Location : Rio de Janeiro Area, Brazil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Tera\n Speciality : Product Management\n Degree : Digital Product Leadership\n Period : jul de 221 - set de 221\n \n School name : Caroli.org\n Speciality : Product Discovery\n Degree : Lean Inception\n Period : 221 - 221\n Summary : Leticia Bade_Lean InceptionCertificado do Treinamento\n \n School name : MIT Sloan Executive Education\n Period : 218 - 218\n Summary : Digital Transformation - Platform Strategies for Success > MIT - Sloan Executive Education\n \n School name : Pontifícia Universidade Católica do Rio de Janeiro\n Speciality : Business Administration and Management\n Degree : Mestrado\n Period : 212 - 216\n Summary : Atividades e grupos: “Os efeitos da confiança e seus antecedentes no Mobile Commerce” - Prof Orientador Jorge Brantes\n \n School name : Pontifícia Universidade Católica do Rio de Janeiro\n Speciality : Business Administration and Management\n Degree : MBA\n Period : 21 - 211\n \n School name : Institute of Project Management\n Speciality : Project Management\n Degree : PMP Certification\n Period : 26 - 26\n \n School name : Fundação Getulio Vargas\n Speciality : E-Business\n Degree : MBA\n Period : 21 - 22\n \n School name : Universidade Federal do Rio de Janeiro\n Speciality : Desenho Industrial\n Degree : Graduação\n Courses: Title : Programa de Desenvolvimento da Liderança - Fundação Dom Cabral"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "fd8102f2-be4c-4e1b-b991-c8888d312cce",
+    "id": "087fa08a-3f9b-4f89-8abd-ed0a8ffb32aa*fd8102f2-be4c-4e1b-b991-c8888d312cce",
+    "talent": {
+      "updatedAt": "2023-12-20T14:08:39.488Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:08:39.488Z",
+      "linkedinUsername": "leticiabade",
+      "email": "leticiabade.pmp@gmail.com",
+      "phone": "21990131172",
+      "name": "Leticia Bade",
+      "id": "fd8102f2-be4c-4e1b-b991-c8888d312cce"
+    },
+    "timeInCurrentStage": 61412916776
+  },
+  {
+    "importedAt": "2024-02-08T18:40:11.642Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretora de CRM"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Diretora de CRM\n Company name : PagSeguro PagBank\n Period : jun de 221 - o momento\n \n Job Title : Gerente Geral CRM\n Company name : PagSeguro PagBank\n Period : dez de 218 - jun de 221\n Location : São Paulo, São Paulo\n \n Job Title : Gerente de CRM\n Company name : PagSeguro PagBank\n Period : jul de 217 - nov de 218\n Location : São Paulo, São Paulo\n \n Job Title : Coordenadora de Inteligência e Planejamento Comercial\n Company name : Cielo\n Period : set de 211 - jul de 217\n Location : Barueri\n \n Job Title : Coordenadora Comercial - Varejo\n Company name : Cielo\n Period : ago de 21 - set de 211\n Location : Barueri\n \n Job Title : Analista de Planejamento Comercial Sênior\n Company name : Cielo\n Period : fev de 21 - ago de 21\n Location : Barueri\n \n Job Title : Analista de Planejamento e Desenvolvimento Comercial\n Company name : Hewlett Packard Enterprise\n Period : ago de 24 - dez de 27\n Location : Barueri\n \n Job Title : Assistente de Planejamento e Desenvolvimento Comercial\n Company name : OnController (Visanet,atual Cielo)\n Period : ago de 23 - ago de 24\n Location : Barueri\n \n Job Title : Analista Administrativo\n Company name : Personnel Gestão e Projetos\n Period : jan de 21 - ago de 23\n Location : São Paulo"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : FIAP\n Speciality : Business Intelligence\n Degree : Master of Business Administration (MBA)\n Period : 215 - 216\n \n School name : Impacta Tecnologia\n Speciality : Administração com ênfase em Tecnologia da Informação\n Degree : Bacharelado em Administração\n Period : 25 - 21"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "98da20b2-c658-4124-8caf-90d247e2bbc2",
+    "id": "087fa08a-3f9b-4f89-8abd-ed0a8ffb32aa*98da20b2-c658-4124-8caf-90d247e2bbc2",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:52.680Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:52.680Z",
+      "linkedinUsername": "andréa-morais-04359138",
+      "email": "aandreamorais@gmail.com",
+      "phone": "",
+      "name": "Andréa Morais",
+      "id": "98da20b2-c658-4124-8caf-90d247e2bbc2"
+    },
+    "timeInCurrentStage": 61412916776
+  },
+  {
+    "importedAt": "2024-02-08T18:40:11.556Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "12000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "saude refeição, auxilio pro filho autista."
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Senior CRM Consultant"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Senior CRM Consultant\n Company name : Marketdata\n Period : abr de 218 - o momento\n Summary : Team management and direction to develop communication for a loyalty program, benchmarking and strategies development assistance.\n Conducting meetings with different client areas, presentations, report, KPIs, customer surveys and marketing trends analysis, seeking innovation for the projects. Working alongside with other inhouse team to ensure better costumer experience within client businesses.\n Location : São Paulo Area, Brazil\n \n Job Title : OEM Account Manager\n Company name : Search Optics\n Period : jun de 216 - mar de 218\n Summary : Provide account leadership and excellent customer service while helping expand business. Work side by side with digital marketing team, ensuring the alignment and optimization between web site content/creative and campaigns. Provide senior level support to strategic clients, and be a thought leader liaison between the sales organization, Marketing Services, Account Operations and Technology teams.\n Location : Alphaville, São Paulo\n \n Job Title : Account Manager\n Company name : Digital Action\n Period : out de 215 - mar de 216\n Summary : HCor, management of brand social profiles and digital campaigns.\n WOW Nutrition, management of brand digital assets.\n Feel Good, management of brand digital campaigns.\n Cocinero, management of brand digital campaigns and social profiles.\n ProCobre and Programa Casa Segura, management of brand digital campaigns and social profiles.\n Eletricista Consciente, management of brand digital campaigns, social profiles and the CRM Strategy to create the database and improve the participation of the electricians to make the program profitable/self sustainable.\n Bio Brasil, implementation of the new logo and brand communication website. Managing the team to create the brand social profiles.\n Location : São Paulo Area, Brazil\n \n Job Title : Senior Account Executive\n Company name : W3haus\n Period : dez de 213 - set de 215\n Summary : Coral, management of brand social profiles and campaings.\n Melitta, management of brand social profiles and campaings.\n Mondelez, management of 4 brands social profiles and campaings: Lacta, Páscoa, Belvita e Toblerone.\n Boehringer, implementation and management of Programa Bem Me Quero's new CRM Strategy.\n Reckitt - Veja, management of brand social profiles and campaings.\n Devassa, management of brand social profiles and campaings.\n O Boticário, I'm responsible for the management of the Interactive CRM, working with all O Boticário brands on behalf of Clube Viva O Boticário, developing events for custumers, hotsites, e-mails and also assisting in the creation of communication strategies for Clube Viva O Boticário.\n \n Job Title : Account Manager - Client Services\n Company name : Media Contacts\n Period : jan de 212 - jul de 213\n Summary : Kiehl’s, implementation and management of e-commerce and social profiles of the national brand: kiehls.com.br\n Lancôme, management of e-commerce, brand social profiles and campaigns, managing media campaigns and sponsored ads of the brand in Brazil lancome.com.br\n Drakkar Noir, managing of the brand social profiles and managing of media campaigns focusing sales.\n \n Job Title : Account Supervisor – Client Services\n Company name : Lov Comunicacao Interativa\n Period : mai de 211 - jan de 212\n Summary : Sony, managing categories, like: VAIO, Cyber-shot, Bravia, Xplod, Walkman.\n Examples of campaigns developed:\n http://sony.com.br/internettv/, http://sony.com.br/dance.\n OHL, management of group companies’ intranet and internet restructure.\n \n Job Title : Account Manager – Client Services\n Company name : iThink\n Period : jul de 21 - mai de 211\n Summary : Johnson & Johnson, management of accounts Neutrogena, RoC e Wipes. To Neutrogena: coordination of Curling Arena Neutrogena action in 21, working with third parties to implement the Project execution and with inhouse team for the creation of communication on online and off-line social media actions.\n RoC e Wipes manage their online campaigns.\n PropMark e Reclame, management of accounts and maintenance of sites.\n Samsung, media campaign and maintenance of campaign sites.\n Ticket, account management, PAT (Programa de Alimentação do Trabalhador), Ticket Transporte and specific projects.\n \n Job Title : Accounts Junior Manager – Client Services\n Company name : Wunderman\n Period : out de 29 - jun de 21\n Summary : Amex and Bradesco, management of the team focusing on direct communication.\n Ajinomoto, management of the account, working on the point to point process. Development of Sazón promotional campaign, development of pieces parts (tabloids, direct mailing, wobbler, stopper, coil lining, site), outsourcing management.\n \n Job Title : Account Executive – Client Services\n Company name : Wunderman\n Period : ago de 28 - mar de 21\n Summary : Ford Cars, working with very demanding customers and tight deadlines. Participation in the annual account planning and development actions.\n Ajinomoto, development of promotional Sazón campaign.\n \n Job Title : ICP - International Cast Member\n Company name : Walt Disney World\n Period : jan de 28 - jul de 28\n Summary : Merchandise\n \n Job Title : Trainee\n Company name : Wunderman\n Period : mai de 26 - dez de 27\n Summary : Telefônica, responsible for the VPG, B2B communications area developing flyers, folders and direct mail.\n CitiFinancial, working the account alongside the Accounts Director. Learning about retail accounts, and the dynamism needed to meet clients’ deadlines.\n \n Job Title : Trainee\n Company name : Sun MRM\n Period : fev de 25 - nov de 25\n Summary : Nestlé, working in the dbm area with Purina projects.\n GM, analysis and reporting on the client´s database on customer purchase journey."
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : ESPM Escola Superior de Propaganda e Marketing\n Speciality : Digital Media and Business Inteligence\n Degree : Master of Business Administration - MBA\n Period : jan de 219 - jun de 221\n \n School name : University of Central Florida\n Speciality : Hospitality Management\n Degree : Extension\n Period : 28 - 28\n \n School name : Universidade Ibirapuera\n Speciality : Business\n Degree : Graduation\n Period : 24 - 27"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "4c78fb77-4726-4238-8aba-e4bab859c9b4",
+    "id": "087fa08a-3f9b-4f89-8abd-ed0a8ffb32aa*4c78fb77-4726-4238-8aba-e4bab859c9b4",
+    "talent": {
+      "updatedAt": "2023-12-20T14:06:04.773Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:06:04.773Z",
+      "linkedinUsername": "patithe",
+      "email": "alienap@gmail.com",
+      "phone": "11982285466",
+      "name": "Patrícia Eisenhauer",
+      "id": "4c78fb77-4726-4238-8aba-e4bab859c9b4"
+    },
+    "timeInCurrentStage": 61412916776
+  },
+  {
+    "importedAt": "2024-02-08T18:40:11.801Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "5000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "USD"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Gestão comercial",
+          "id": "c29fb2c9-f78f-4e0f-9f2a-fa46acd07559",
+          "label": "Gestão comercial"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Adolfo Ibañez"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "CRM & BI Manager"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : CRM & BI Manager\n Company name : PedidosYa\n Period : jan de 222 - o momento\n Summary : - Liderar equipo de analistas de CRM & BI para proveer información relevante para la definición de estrategias comerciales y detección de oportunidades, analizando comportamiento de usuarios, performance de campañas y replicando mejores prácticas entre países.\n - Desarrollar estrategia de inteligencia de negocios con el objeto de incrementar eficiencia y eficacia de campañas en medios propios (Email y elementos In-App como Banners, notificaciones PUSH, IAM, Newsfeed).\n - Gestión de ppto de incentivos directos y estrategia de implementación (adquisición, activación y retención).\n - Coordinación con operaciones en países de Latam y replicar mejores prácticas.\n - Estrategia y framework de campañas automatizadas basadas en la actividad del usuario.\n - Responsable de gestionar el presupuesto local de CRM.\n - Estrategia de Customer Journey.\n - Gestión de Customer LTV y tasa de clientes activos.\n - Construcción de Forecast de órdenes mensuales.\n Location : Región Metropolitana de Santiago, Chile\n \n Job Title : Owner\n Company name : ZELK\n Period : jan de 217 - o momento\n Summary : ZELK.cl - E-Commerce enfocado en la confección/venta de bolsos y accesorios de cuero hechos a mano.\n Location : Provincia de Santiago, Chile\n \n Job Title : eCommerce & CRM Manager\n Company name : Karün\n Period : mar de 22 - dez de 221\n Summary : - Administración comercial y tecnológica del canal eCommerce Karun global; con sus tiendas en Europa, Latam y US (todo en Shopify).\n - Asegurar cumplimiento de metas de venta en canal eCommerce.\n - Estratregia de medios digitales y construcción del tráfico Paid/Organic.\n - Administración comercial de Marketplaces a nivel global; Amazon, Shop Disney, Mercado Libre, Falabella, entre otros.\n - Otros eComm: SEO, Paid Media Analysis, KPI's, Analytics, etc.\n - Estrategia relacional digital\n Location : Región Metropolitana de Santiago, Chile\n \n Job Title : Digital Manager & CRM\n Company name : Rotter & Krauss\n Period : mar de 219 - out de 219\n Summary : Subgerente a cargo de:\n - Canales Digitales\n - Marketing Digital\n - E-Commerce\n - CRM\n - Servicio al cliente\n Location : Provincia de Santiago, Chile\n \n Job Title : Gerente de CRM\n Company name : Loteria de Concepción\n Period : ago de 212 - abr de 216\n Summary : - CRM y Fidelización.\n - Definición, implementación y control de diversas estrategias enfocadas a incrementar de forma sostenida la frecuencia y monto de compra de los clientes de Lotería, así como también la captación de nuevos clientes.\n - Definición de indicadores claves de rendimiento, manejo de base de datos, inteligencia de negocios y minería de datos.\n - Responsable del Programa de Beneficios Club Kino (acumulación y canje de puntos, ofertas y promociones, comercios asociados alianzas estratégicas).\n - Responsable del sitio web www.clubkino.cl\n - Responsable de las campañas de Marketing de Club Kino.\n - Importante experiencia en estudios de mercado.\n Location : Santiago, Chile\n \n Job Title : Product Manager\n Company name : Walmart Chile\n Period : jun de 26 - mai de 212\n Summary : Junio 29 a Mayo 212:\n Product Manager Gerencia Negocios Red Transaccional.\n Responsable del desarrollo comercial de Nuevos Negocios/Canales. Proyecto Servifácil.\n Responsable de la categoría de Juegos de Azar en Lider, Express de Lider, Super Bodega Acuenta y Ekono.\n \n Enero 29 a Mayo 29:\n Product Manager área de Compensaciones, Gerencia de Recursos Humanos.\n Responsable de la planificación e implementación del Proyecto Estratégico de Balanced Scorecard de Servicios Financieros Walmart Chile.\n \n Enero 28 a Diciembre 28:\n Jefe de Formato Express de Lider, Ekono, Super Bodega Acuenta y Emporium, Gerencia Comercio Walmart (Gerencia Comercial).\n Responsable de incrementar la venta y penetración de Tarjeta Presto en dichos supermercados.\n \n Julio 27 a Diciembre 27:\n Jefe de Area Comercial Non-Food, Gerencia Comercio Walmart (Gerencia Comercial).\n Responsable de incrementar la penetración y venta de la Tarjeta Presto en area Non-Food de Lider (Formatos Hiper Lider y Express de Lider).\n \n Junio 26 a Junio 27:\n Product Manager Tarjeta Presto, Gerencia de Productos Financieros.\n Responsable de los productos Avance en Efectivo, Vuelto en Caja, Refinanciamientos y Gift Card Personas.\n Location : Santiago, Chile\n \n Job Title : Asistente de Marketing\n Company name : Cencosud S.A\n Period : fev de 25 - mai de 26\n Summary : Asistente de Marketing Productos Financieros y Convenios, Gerencia de Marketing Servicios Financieros Cencosud.\n Ejecución y administración de campañas de marketing de Tarjeta Paris y Tarjeta Jumbo Más:\n - Productos Financieros Tarjeta Paris: Avance Efectivo, Superavance y Giftcard (tarjeta de regalo) en Tiendas Paris.\n - Convenios Tarjeta Paris: Implementación, control y activación de imagen de Tarjeta Paris en todos los comercios asociados (45 marcas y más de 1.5 puntos de venta en variados rubros).\n - Canales Propios Cencosud: Encargado de Canal Easy (Tarjeta Paris y Tarjeta Jumbo Más).\n - Control de presupuesto de la Gerencia de Marketing de Servicios Financieros Cencosud\n Location : Santiago, Chile\n \n Job Title : Category Manager Marketing\n Company name : Almacenes Paris\n Period : ago de 24 - fev de 25\n Summary : Category Manager de Seguros Paris y Banco Paris. Gerencia de Marketing de Servicios Financieros.\n Responsable de ejecutar y administrar las campañas de marketing de ambos negocios.\n Responsable del desarrollo de campaña y exitoso lanzamiento de Banco Paris en diciembre de 24.\n Location : Santiago, Chile\n Company 2: ZELK"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidad Adolfo Ibáñez\n Speciality : Retail Financiero\n Degree : Diplomado\n Period : 27 - 28\n Summary : Nota: 6,7\n \n School name : Universidad Adolfo Ibáñez\n Speciality : Business\n Degree : Master of Science in Marketing\n Period : 23 - 24\n \n School name : Universidad Adolfo Ibáñez\n Speciality : Master Of Science in Marketing\n Degree : Ingeniero Comercial\n Period : 1998 - 23\n \n School name : COLEGIO CRAIGHOUSE\n Period : 1985 - 1997\n Summary : Nota: 6,2"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "c18ec19f-ff0e-4d2d-bd9a-71904f6a9688",
+    "id": "087fa08a-3f9b-4f89-8abd-ed0a8ffb32aa*c18ec19f-ff0e-4d2d-bd9a-71904f6a9688",
+    "talent": {
+      "updatedAt": "2023-12-20T14:04:20.303Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:04:20.303Z",
+      "linkedinUsername": "cristianperezllull",
+      "email": "cperezllull@gmail.com",
+      "phone": "56993591829",
+      "name": "Cristián Pérez Llull",
+      "id": "c18ec19f-ff0e-4d2d-bd9a-71904f6a9688"
+    },
+    "timeInCurrentStage": 61412916776
+  },
+  {
+    "importedAt": "2024-02-08T18:40:11.770Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "30000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Outro Idioma",
+        "id": "15",
+        "type": "text",
+        "value": "English (Fluente ou nativo), Portuguese (Fluente ou nativo), Spanish (Nível avançado)"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Head of CRM, Loyalty & Marketing Intelligence - LATAM"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Head of CRM, Loyalty & Marketing Intelligence - LATAM\n Company name : Lojas Renner S.A\n Period : nov de 219 - jun de 221\n Summary : Lead the CRM, Loyalty & Marketing Intelligence area for Renner, Camicado, Youcom and Realize brands since its setup (planning, scope definition, processes, tools, suppliers, information sources and hiring professionals). Team composed by over 4 professionals, including managers, coordinators, POs, scrums, business, data and CX analysts.\n \n CRM & Loyalty Tribe (Agile management model) composed by 8 squads: Campaign Management (4 squads, one for each brand), Loyalty, Data, Martech and Customer Journey.\n - Direct Marketing strategy definition, customer database unification with e-commerce, implementation of campaign management platform (Responsys), channel integration (email, SMS, push), implementation of more than 2 new different moments of customer journey, overcoming the incremental revenue goal set for 22 in ~4x, generating incremental sales over R$1 million.\n - Development of statistical modeling, such as RFV segmentation, life cycle segmentation, Next Best Offer (NBO), to support the new targeted communication strategy.\n - Definition and development of data governance and progressive profiling, according to LGPD\n - Strategic design of the loyalty program (Renner + Camicado + Youcom + Realize).\n \n Marketing Insights: monitoring the competition and knowing consumers beyond their transactional behavior (already with in the scope of CRM).\n - NPS implementation: strategy design and process definition\n - Brand Image Tracking (recurring panel covering all brands in the ecosystem and their competitors)\n - Competitive price tracking (recurring field search)\n - Study: The Brazilian Woman and Dressing Up (ad hoc study to guide collections, digital content and communication for the coming years. It included stages of database exploration, digital and face-to-face ethnography, quantitative research and customer segmentation).\n - Study: Generation Z (ad hoc qualitative and quantitative study, aiming to guide collections and communication).\n Location : Brazil\n \n Job Title : Head of Innovation\n Company name : Iguatemi Empresa de Shopping Centers\n Period : mai de 218 - nov de 219\n Summary : 1. Developed and approved with the Executive Committee the Corporate Innovation methodology, for shopping malls, e-commerce and outlets.\n \n 2. Responsible for leveraging the use of Innovation methodologies, such as Design Thinking, Lean Startup, Agile, Startup Pitch, Trend Monitoring.\n \n 3. Led the creation of the Innovation Squad (multidisciplinary group, involving all areas of the company, for the development of Innovation projects). Squad Highlights: beepbeep (zero emission shared electric cars), Looqbox (human language information interface), new Loyalty Program One, app One, new NPS processes\n \n 4. Led innovation cultura enablers such as Innovation Award, Leaders capacitation (more than 3 leaders trained in 219), Innovation Roadshow (mall training).\n \n 5. Led the behavioral trend research, which directed the strategic plan of the current term, corporate projects and new projects of the Innovation track.\n \n 6. Developed partnerships for Open Innovation and Co-Innovation with hubs such as InovaBra, Sebrae, CASE, Techstars (Startup Weekend) and other corporations that have Innovation areas (benchmarking in more than 15 companies).\n \n 7. Constant knowledge update: between 218 and 219, I attended Innovation events and courses such as Collision New Orleans, SXSW, Meca Inhotim, Singularity U, Festival Path, Iguatemi Talks, Trend Hunting (Inova Business School), Extension in Corporate Innovation (IESE).\n \n 8. Return to the ecosystem (lectures and panels)\n - Corporate Innovation in Practice - Harvard Business Review\n - Designing Desirable Futures - Business Innovation EBDI\n - Corporate Innovation - NEXT Supermarket Generation (APAS)\n - Corporate Innovation: Learnings and Insights - InovaBra\n Location : São Paulo e Região, Brasil\n \n Job Title : Senior CRM Manager\n Company name : FS\n Period : set de 217 - mai de 218\n Summary : Responsible for leading the areas: Customer Journey, Customer Profitability, Churn Management and Analytics for FS, leading company in the VAS (Value Added Services) industry, working with clients such as Vivo, TIM, Oi, Claro, Fast, Máquina de Vendas, FNAC, and more than 3 million subscribers.\n Team which directly reports to me: managers & coordinators.\n Location : São Paulo\n \n Job Title : Senior Marketing Intelligence Manager\n Company name : Walmart\n Period : ago de 214 - ago de 217\n Summary : - Started and developed both Marketing and Commercial Intelligence areas, supporting Marketing, Commercial, Operations and C-level decisions, focusing on Competitive Intelligence, Promotional Efficiency (ROI & Marketing Mix), Sales, Margin, Transactions, Household behavior, Pricing and other KPI’s that impact Customer Experience and Value Proposition of each format and banner (7 banners in all country). It included scope planning, processes definition and automation.\n \n - Lead Consumer & Market Insights (CMI) area, bringing to the company knowledge, diagnostics and action plans through qualitative and quantitative research, going from ad hoc projects to regular tracking panels for Market Share, Brand, Price Perception, Satisfaction, Communication & Advertising, Customer Experience, with partners as Nielsen, GFK, Millward Brown, IBOPE.\n \n - Responsible for CRM and Relationship Program Strategy of Walmart co-branded card (with a major bank: Itau). Developed Strategic Plane, Value Proposition, Budgeting and processes to increase customer’s engagement and profitability to both companies. Also responsible for Segmentation, Statistical Modelling and Direct Marketing Campaign Management.\n \n Job Title : CRM & Marketing Analytics Manager\n Company name : GPA\n Period : mai de 212 - ago de 214\n Summary : - Managed CRM & Loyalty Programs area for Pão de Açúcar and Extra, having as main goal to increase customers' profitability for the company and value to the customers by offering a customized experience. My experience included SAP Campaign implementation, customer's segmentation models, development of 1to1 campaigns and management in partnership with Dunnhumby and Accenture.\n \n Won a prize with Pão de Açúcar team (214) from the Brazilian Direct Marketing Association, for the exclusive customer focused promotional process (beginning of \"Meu Desconto\" app, launched in 217 by Pão de Açúcar & Extra banners)\n \n - Leading role in the launching of Extra’s Loyalty Program \"Clube Extra\": value proposition definition, financial plan, processes, information and customer segmentation designing, technology definition for campaign management.\n \n - Leading role in the implementation of Promotional Efficiency tracking methodology (in partnership with Accenture), creating value by optimizing media budget Marketing Mix scenarios\n \n - Supported the change management process during transition from the former controllers to Casino Groupe with consumer behavior and company's performance analysis.\n \n Obs: started as Sr. CRM Coordinator with increase of responsibilities and a promotion to manager in 213.\n Location : Brazil\n \n Job Title : Database Marketing & Competitive Intelligence Coordinator\n Company name : SKY Brasil\n Period : out de 29 - mai de 212\n Summary : - Started and developed the Competitive Intelligence area, focused on churn prevention\n \n - Started the Campaign Management platform implementation with SAS (business requisites, processes design, statistical modelling)\n \n - Developed strategical analisys for the lauching of SKY Broad Band solution, including competition analysis, geomarketing and financial viability.\n \n Job Title : Senior CRM Analyst\n Company name : Peppers & Rogers Group\n Period : set de 26 - out de 29\n Summary : - Participated in CRM projects from customer-focused strategic planning, to call center implementation, customer segmentations, processes definition, loyalty programs, customer experience and information strategy."
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Statistical Modeling for Marketing\n Degree : Specialization (FGV PEC)\n Period : 213 - 213\n \n School name : ESPM Escola Superior de Propaganda e Marketing\n Speciality : Consumer Sciences\n Degree : MBA\n Period : 21 - 212\n \n School name : Universidade Presbiteriana Mackenzie\n Speciality : Information Systems\n Degree : Graduação\n Period : 22 - 27\n \n School name : ISE Business School\n Speciality : Corporate Innovation\n Degree : Specialization\n Period : jun de 219 - jun de 219\n Summary : Inovação Corporativa"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "b1d844da-d2f3-410e-9c6f-654d5d22d74a",
+    "id": "087fa08a-3f9b-4f89-8abd-ed0a8ffb32aa*b1d844da-d2f3-410e-9c6f-654d5d22d74a",
+    "talent": {
+      "updatedAt": "2024-02-08T18:40:11.852Z",
+      "status": "UNKNOWN",
+      "createdAt": "2024-02-08T18:40:11.852Z",
+      "email": "andre.aafs@gmail.com",
+      "phone": "+5511991123130",
+      "name": "Andre Almeida",
+      "id": "b1d844da-d2f3-410e-9c6f-654d5d22d74a"
+    },
+    "timeInCurrentStage": 61412916776
+  }
+]

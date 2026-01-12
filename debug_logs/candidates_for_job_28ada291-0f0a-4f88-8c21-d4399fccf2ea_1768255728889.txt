@@ -1,0 +1,92 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:07.022Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Consultora Sócia em Gestão Estratégica e de Negócio"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Consultora Sócia em Gestão Estratégica e de Negócio\n Company name : Instituto Aquila\n Period : jan. de 218 – o momento\n Summary : Atuando como Consultora em Gestão em empresas de segmentos diversos: Têxtil, Alimentício, Siderurgia , Varejo e Transporte , participando ativamente em projetos que envolvem: • Gestão do portifólio de projetos desde o desenvolvimento de diagnósticos à implantação de projetos que focam maximizar e sustentar os resultados da empresa. A partir da elaboração e gestão do plano estratégico, orçamento anual, inteligência competitiva, desdobramento de metas, definição de KPIs. redução de custos (OBZ), Excelência Comercial (Análise do mix de produtos, posicionamento, pesquisa de preço), análises de cenário análises de risco, elaboração de planos de ação e mapeamento e redesenho de processos através da notação BPMN.• Atuação como agente mediador e orientador para nas análises de causas, elaboração e implementação dos planos de ação, garantindo a efetividade do escopo, cronograma, qualidade, recursos, riscos, aquisições e partes interessadas, baseadas nas boas práticas do PMI.• Elaboração de relatórios, cronogramas, curvas de avanço físico e financeiro, bem como participação e suporte na condução de reuniões com equipe interna e arbitro dos projetos participação dos Rituais de Gestão de diferentes níveis táticos.• Treinamento para equipes para uso de ferramentas de gestão.\n Location : São Paulo e Região, Brasil\n \n Job Title : Estagiária Engenharia\n Company name : Falcão Bauer\n Period : jul. de 217 – ago. de 217\n Summary : Obra Rodoanel Norte Mário CovasAtividades desenvolvidas:• Análise do controle financeiro versus controle do departamento;• Interpretação de especificações técnicas de solos e materiais de base, bem como o acompanhamento na realização de ensaios de controle tecnológico;• Participação em reuniões técnicas e de planejamento;• Acompanhamento das ações pendentes no plano de ação;• Verificação dos serviços realizados - conformidade com o projeto da obra;\n Location : São Paulo e Região, Brasil\n \n Job Title : Assistente Técnica de Gestão da Qualidade\n Company name : ArcelorMittal\n Period : mai. de 214 – mar. de 217\n Summary : Belgo Bekaert, empresa do grupo ArcelorMittal• Planejamento e desenvolvimento do evento interno da “Semana de Excelência Operacional”, com o objetivo disseminar boas práticas internas e do mercado.• Elaboração e gestão do One Page Report direcionado as diretorias Industrial, Comercial e Logística. Relatório este que gere os KPIs e direciona à elaboração dos planos de ação para tratamento das anormalidades.• Suporte nas auditorias de qualidade com foco em 5S, OPEX, Sistema e Produto visando cumprimento do calendário anual e manutenção dos certificados ISO 91, ISO 141 e OHSAS 181;• Revisão e otimização de processos com foco na melhoria contínua e implantação de KPIs para medição dos ganhos.• Apoio no gerenciamento das normas técnicas e procedimentos padrão da empresa, garantindo revisões periódicas e coerência com o cenário atual das áreas administrativas e de produção.• Planejamento e desenvolvimento de workshops com foco na disseminação de boas práticas.\n Location : Contagem e Região, Brasil\n \n \n Job Title : Supervisora de Marketing e Pos Venda\n Company name : Instituto Cultural Inhotim\n Period : jan. de 28 – jan. de 215\n Summary : • Supervisão do departamento responsável prospectar novos clientes e gerir as entregas acordadas nos contratos de Patrocínio via Leis de Incentivo à Cultura (Estadual e Federal), verba direta e também contratos por Permuta;• Elaboração do planejamento do pós-venda para que os cronogramas, orçamentos e produtos fossem atendidos conforme o escopo. Assim como a elaboração de relatórios e a prestação de contas garantindo satisfação do patrocinador, renovação do Patrocínio e perpetuação do projeto;• Desenvolvimento de ações de relacionamento com empresas de pequeno, médio e grande porte. É possível listar eventos de Gastronomia, Lançamento de carro, Inauguração de novos pavilhões/obras de arte.\n Location : Belo Horizonte e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Inteligência Emocional\n Period : Emitido em nov. de 2020 - Nenhuma data de expiração\n Issuing Authority : Escola Conquer\n Title : Scrum\n Period : Emitido em jul. de 2020 - Nenhuma data de expiração\n Issuing Authority : CertiProf\n \n Title : Preparatório Certificação PMP\n Period : Emitido em abr. de 2020 - Nenhuma data de expiração\n Issuing Authority : Clarify - Excelência em Cursos de Tecnologia e Gestão"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : FIA - Fundação Instituto de Administração\n Speciality : Master of Business Administration - MBA, Economia e Gestão Empresarial\n Period : 219 – 221\n Summary : Credenciamentos:• ANAMBA – Associação Nacional de MBAs• Eduniversal• AMBA – Association of MBAs• ANPAD – Associação Nacional de Pós Graduação em Administração• MEC – Ministério da Educação e Cultura\n School name : Centro Universitário Belas Artes de São Paulo\n Speciality : Gerenciamento de Escritórios de Arquitetura e Desing de Interiores\n Period : 219 – 219\n School name : Universidade FUMEC\n Speciality : Civil Production Engineering\n Period : 212 – 217\n \n School name : Pontifícia Universidade Católica de Minas Gerais\n Speciality : Communications and Public Relations\n Period : 28 – 212\n Courses: Title : Excel Avançado; Title : Inovação na Construção - Ministrado Prof. Doutor Luiz Henrique Ceotto; \n Title : Inspeção e Manutenção de Pontes e Viadutos-ABECE"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "806c0ac0-c2c4-46f6-a330-ead43ce5aa2e",
+    "id": "28ada291-0f0a-4f88-8c21-d4399fccf2ea*806c0ac0-c2c4-46f6-a330-ead43ce5aa2e",
+    "talent": {
+      "updatedAt": "2023-12-20T14:08:58.867Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:08:58.867Z",
+      "email": "importacao3489@importacaoinhire.com",
+      "phone": "",
+      "name": "Euenia Carolina Santos",
+      "id": "806c0ac0-c2c4-46f6-a330-ead43ce5aa2e"
+    },
+    "timeInCurrentStage": 61412926190
+  }
+]

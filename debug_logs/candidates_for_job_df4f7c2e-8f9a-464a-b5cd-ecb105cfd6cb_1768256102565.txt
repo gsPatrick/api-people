@@ -1,0 +1,1397 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:35.987Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "27/03/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "9000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45047"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Project controller"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Project controller\n Company name : Voltalia\n Period : nov. de 22 – o momento\n Location : Rio de Janeiro, Brasil\n \n Job Title : Fleet Cost Controller\n Company name : MODEC, Inc\n Period : set. de 217 – set. de 219\n Summary : Responsável pela elaboração orçamentária, monitoramento, avaliação financeira e econômica da Operação e da Administração de ativos da BU (OPEX & CAPEX);\n Ajuste mensal do Forecast, englobando análise de cenário, indicação de ações preventivas para a maximização de margem e explicação técnica de possíveis desvios do orçamento (real x orçado);\n Controle do Fluxo de Caixa mensal com devidas explicações de desvios;\n Planejamento financeiro efetivo, desde a correta alocação dos custos em contas contábeis com estudo de tendências e medidas preventivas até a tomada de decisão gerencial;\n Processos de fechamentos mensais de receitas, consolidação de projeções de receita e custos diretos;\n Elaboração de relatórios gerenciais mensais de resultados para clientes internos\n Location : Santos\n \n Job Title : Sr. Cost Controller\n Company name : MODEC, Inc\n Period : jul. de 216 – set. de 217\n Summary : Responsável pela elaboração orçamentária, monitoramento, avaliação financeira e econômica da Operação da BU (OPEX & CAPEX);\n Ajuste mensal do Forecast, englobando análise de cenário, indicação de ações preventivas para a maximização de margem e explicação técnica de possíveis desvios do orçamento (real x orçado);\n Controle do Fluxo de Caixa mensal com devidas explicações de desvios;\n Planejamento financeiro efetivo, desde a correta alocação dos custos em contas contábeis com estudo de tendências e medidas preventivas até a tomada de decisão gerencial;\n Processos de fechamentos mensais de receitas, consolidação de projeções de receita e custos diretos;\n Elaboração de relatórios gerenciais mensais de resultados para clientes internos\n Location : Santos, São Paulo, Brasil\n \n Job Title : Cost Controller\n Company name : Saipem\n Period : mai. de 214 – jul. de 216\n Summary : Planejamento Orçamentário, monitoramentos, avaliação financeira e econômica do Projeto Lula Norte, Sul e Extremo sul;\n Responsabilidades:\n Fechamento de custos e provimento de relatórios de fechamento, tais como: Fluxo de Caixa, Projeções de custos, etc\n Estudo dos custos e suas alocações contábeis para um efetivo planejamento estratégico do projeto, elencando possíveis desvios, garantindo a acurácia das alocações e provendo possíveis cenários;\n Emissão de relatórios de custos diversos através do SAP;\n Controle dos Milestones contratuais dos fornecedores afim de garantir o andamento dos contratos e o correto desembolso financeiro;\n Estudos diversos de viabilidade financeira afim de melhorar a margem do projeto;\n Emissão trimestral de relatórios de custos e acompanhamento do projeto para a apresentação à sede na Itália\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Cost Controller PL\n Company name : Toyo Setal\n Period : jul. de 213 – mai. de 214\n Summary : Desmembramento do Orçamento Executivo em Orçamento do projeto;\n Desenho e análise do Fluxo de Caixa Mensal;\n Planejamento estratégico de custos;\n Controle de contratos com fornecedores do projeto e análise de suas notas fiscais;\n Estudos de viabilidade do projeto;\n Análise de custos incorridos e suas devidas alocações\n Location : São Paulo e Região, Brasil\n \n Job Title : Cost Controller\n Company name : Saipem\n Period : jan. de 213 – jul. de 213\n Summary : Análise do Orçado x Real;\n Análise e apuração dos custos incorridos;\n Atualização trimestral do orçamento executivo;\n Controle das invoices do projeto;\n Apropriação de custos e Ordens de compra;\n Emissão de relatórios através do SAP;\n Atualização do Fluxo de Caixa;\n Controle de milestones contratuais\n Location : Rio de Janeiro e Região, Brasil\n \n \n Job Title : Assistente de custos\n Company name : Consórcio Interpar (Toyo Setal, Mendes Junior, MPE)\n Period : fev. de 211 – jan. de 213\n Summary : Atuação no Orçamento e suas devidas atualizações;\n Desenho de fluxo de caixa mensal;\n Controle de notas fiscais do projeto;\n Controle de contrato com fornecedores;\n Análise de custos incorridos e suas devidas alocações;\n Apropriação de ordens de compra\n Location : Araucária, Paraná, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Master of Business Administration - MBA, Gestão Financeira, Controladoria e Auditoria\n Period : 218 – 22\n \n School name : Universidade Federal de Lavras\n Speciality : Bacharel, Administração\n Period : 26 – 21"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "b8afab83-7c12-4568-8ed5-3107809dff00",
+    "id": "df4f7c2e-8f9a-464a-b5cd-ecb105cfd6cb*b8afab83-7c12-4568-8ed5-3107809dff00",
+    "talent": {
+      "updatedAt": "2023-12-20T14:06:14.123Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:06:14.123Z",
+      "linkedinUsername": "marcos-mohallem",
+      "email": "marcos.mohallem@hotmail.com",
+      "phone": "21979241223",
+      "name": "Marcos Daniel Berthi Mohallem",
+      "id": "b8afab83-7c12-4568-8ed5-3107809dff00"
+    },
+    "timeInCurrentStage": 61412702175
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.673Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Controller"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Controller\n Company name : Carvalheira\n Period : dez. de 219 – o momento\n Summary : • Gestão direta de uma gerente financeira e três colaboradores;\n • Elaboração de processos para implatação da Controladoria e criação da cultura orçamentária;\n • Elaboração do planejamento financeiro anual por centro de resultado e orçamento por projeto comparando o orçado vs realizado;\n • Implantação do sistema ERP Sankhya com os módulos de compras, orçamento, financeiro, contábil e fiscal\n • Elaboração e gestão de fluxo de caixa de curto e médio prazo e relacionamento com instituições financeiras para captação de recursos e investimentos;\n Location : Recife e Região, Brasil\n \n Job Title : Controller\n Company name : DUCA Participações\n Period : jun. de 217 – mar. de 219\n Summary : • Responsável pela gestão direta de 1 coordenadora e 1 colaboradores nas áreas do contas a pagar e receber, faturamento e controladoria, com foco em melhoria dos processos\n • Elaboração do orçamento anual das empresas do grupo e revisões a cada semestre;\n • Elaboração de relatórios gerenciais e demonstrações financeiras, como DRE e Fluxo de Caixa e KPI’s;\n • Apresentação do resultado financeiro mensal das empresas do grupo para a diretoria, justificando os pontos de desvios e planos de ação para recuperação, caso necessário;\n • Participação nas etapas de desenvolvimento do BI (Business Intelligence), implantação e monitoramento da ferramenta\n Location : Pernambuco\n \n Job Title : Planejamento e Controle Financeiro\n Company name : FCA Fiat Chrysler Automobiles\n Period : jul. de 214 – jun. de 217\n Summary : • Participação na implantação do Centro de Engenharia da FCA em Pernambuco como Controller de investimento, projeto de aproximadamente 2 milhões de reais;\n • Controle financeiro da área de Pesquisa e Desenvolvimento de novos produtos da Fiat Chrysler, como Fiat Toro, Renegade e Compass;\n • Elaboração do Budget anual das áreas e elaboração do forecast dos projetos relacionados a novos produtos, bem como as revisões a cada trimestre;\n • Apuração do resultado mensal e apresentação para diretoria do orçado X realizado pontuando a justificativa dos desvio e plano de ação para atender o budget;\n • Acompanhar as atividades de atendimento à auditoria interna e externa e controle SOX;\n • Reuniões semanais para apresentação do resultado e dos indicadores financeiros para diretoria e plano de ação para maximizar a elegibilidade dos benefícios fiscais e pontuar os riscos\n Location : Recife\n \n Job Title : Project Controller\n Company name : ABB\n Period : nov. de 212 – jun. de 214\n Summary : • Responsável pelo controle de 6 projetos de subestação e linha de transmissão totalizando 1 milhões de reais;\n • Fechamento de forecast dos custos, receitas, recebimentos e pagamentos com o Project Manager e controle do fluxo de caixa do projeto;\n • Elaboração de cenário de desvios de margem;\n • Análise detalhada dos Riscos e Oportunidades em conjunto com o PM;;\n • Análise dos custos incorridos de acordo com o previsto;\n • Reporte mensal dos KPI’s de caixa e receita para a diretoria e atualização da ferramenta de reporte dos indicadores econômicos e financeiros para a matriz em Zurich;\n • Contratação e controle dos hedges;\n • Análise da tributação correta e a adequação das operações com a legislação tributária vigente;\n • Interface com o cliente e demais áreas da empresa;\n • Preparação para project review ( curvas comparativas , relatórios( modelo PMO -project meeting), controle de variações cambiais , forecast)\n Location : Recife e Região, Brasil\n \n Job Title : Project Administrator\n Company name : Invensys\n Period : jun. de 212 – out. de 212\n Summary : • Controle e gerenciamento das despesas e custos do projeto;\n • Planejamento da receita mensal e da margem, faturamento;\n • Elaboração das planilhas e relatórios do orçamento comparando o realizado com o previsto;\n • Interface com as demais áreas da empresa, principalmente com a área de Gerenciamento de Projetos e Planejamento, trabalhando em conjunto com o PM (Project Manager), com o objetivo de compartilhar informações financeiras relevantes ao projeto\n \n \n Job Title : Project Controller\n Company name : Areva\n Period : mai. de 27 – jun. de 212\n Summary : • Responsável pelo controle financeiro de aproximadamente 13 projetos de EPC, onde acompanhei do início ao fim, sendo o último um projeto de 2 milhões considerando subcontratados; \n • Controle dos resultados financeiros dos projetos; \n • Acompanhamento e análise dos valores do contrato, aditivos, receitas, faturamento, custos, alocações e impostos; • Análise do fluxo de caixa e previsão do Cash In, Cash Out, receita e margens do projeto; \n • Alinhamento das informações entre as áreas e interface com o cliente e os subcontratados; \n • Acompanhamento dos riscos e oportunidades financeiras nos projetos; \n • Apresentação dos resultados consolidados dos projetos à diretoria em reuniões mensais; \n • Análise das principais variações da margem do projeto e elaboração de planos de ação para recuperação de resultado quando necessário\n Location : Pernambuco"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade de Pernambuco\n Speciality : MBA em Gestão de Custos e Controladoria, Mba em Gestão de Custos e Controladoria\n Period : 29 – 212\n \n School name : Universidade Católica de Pernambuco\n Speciality : Administação de Empresas, Administração de Empresas\n Period : 1997 – 21\n Courses: Title : Excel Avançado; Title : Power BI em excel; \n Title : Retenção e apuração de Impostos"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "3e59a470-39d8-44ff-9958-b74bf3736606",
+    "id": "df4f7c2e-8f9a-464a-b5cd-ecb105cfd6cb*3e59a470-39d8-44ff-9958-b74bf3736606",
+    "talent": {
+      "updatedAt": "2023-12-20T14:00:28.506Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:00:28.506Z",
+      "linkedinUsername": "isabelle-pestana",
+      "email": "isabellepestana@hotmail.com",
+      "phone": "81992751001",
+      "name": "Isabelle Pestana",
+      "id": "3e59a470-39d8-44ff-9958-b74bf3736606"
+    },
+    "timeInCurrentStage": 61412702175
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.645Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "USD"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Project Controller Coordinator"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Project Controller Coordinator\n Company name : Siemens\n Period : mar de 22 - o momento\n Location : Jundiaí, São Paulo, Brasil\n \n Job Title : Commercial Project Manager\n Company name : Siemens\n Period : jan de 211 - mar de 22\n Location : Jundiai\n \n \n Job Title : Representante de Negócios\n Company name : Vivo\n Period : mar de 29 - abr de 21\n Location : Campinas e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Insigna Framework\n Issuing Authority : United Latino Students Association"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Pontifícia Universidade Católica de Campinas\n Speciality : Economia\n Period : 29 - 212"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "0830664a-66eb-43e8-bd57-d54a5d4e2e68",
+    "id": "df4f7c2e-8f9a-464a-b5cd-ecb105cfd6cb*0830664a-66eb-43e8-bd57-d54a5d4e2e68",
+    "talent": {
+      "updatedAt": "2023-12-20T14:08:02.138Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:08:02.138Z",
+      "linkedinUsername": "victor-frustockl",
+      "email": "victorfrust@hotmail.com",
+      "phone": "",
+      "name": "Victor FRUSTOCKL",
+      "id": "0830664a-66eb-43e8-bd57-d54a5d4e2e68"
+    },
+    "timeInCurrentStage": 61413302176
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.920Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Project Controller | FP&A"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Project Controller | FP&A\n Company name : SAE Towers\n Period : jul. de 221 – o momento\n Location : Betim, Minas Gerais, Brasil\n \n Job Title : Cost and Budget Specialist | Measurement | Inspection | SAP (Project NEXA)\n Company name : SNC-Lavalin\n Period : abr. de 221 – jul. de 221\n Location : Aripuanã, Mato Grosso, Brasil\n \n Job Title : Accounting Reporting Coordinator | IFRS | SAP\n Company name : TMF Group\n Period : set. de 22 – abr. de 221\n Location : São Paulo, Brasil\n \n Job Title : Administrative Head | HR Business Partner (Project BRESCO VIRACOPOS)\n Company name : Mutual Engenharia\n Period : jan. de 22 – abr. de 22\n Location : Boituva - SP, Campinas - SP\n \n Job Title : Administrative and Financial Coordinator | HR (Project PETROBRAS)\n Company name : Método Potencial Engenharia\n Period : abr. de 219 – out. de 219\n Location : Santos, São Paulo, Rio de Janeiro\n \n Job Title : Business Partner | Finance Head\n Company name : Espaço Maria Flor\n Period : fev. de 217 – mar. de 219\n Location : Santos (SP), Chapada dos Veadeiros (GO)\n \n Job Title : Head of Controller\n Company name : PROAUTO Produtos de Automação\n Period : abr. de 218 – dez. de 218\n Location : Sorocaba e Região, Brasil\n \n Job Title : Administrative Head | HR (Project PETROBRAS)\n Company name : ENGECAMPO Engenharia Industrial\n Period : abr. de 216 – jan. de 217\n Location : Porto Alegre (RS) São Jose dos Campos (SP)\n \n Job Title : Administrative and Financial Manager | HR (Project Port of Paranagua)\n Company name : ATEXP - Associação dos Terminais do Corredor de Exportação de Paranaguá\n Period : jan. de 216 – mar. de 216\n Location : Paranaguá e Região, Brasil\n \n Job Title : Administrative Manager | HR (Project PETROBRAS)\n Company name : Estrutural Serviços Industriais\n Period : jul. de 215 – dez. de 215\n Location : Porto Alegre e Região, Brasil\n \n Job Title : Administrative and Financial Manager | HR (Project PETROBRAS)\n Company name : Método Engenharia\n Period : fev. de 211 – jul. de 215\n Location : Bahia, Parana, São Paulo, Minas Gerais\n \n Job Title : Administrative and Financial Coordinator | HR (Project PETROBRAS)\n Company name : Bueno Engenharia\n Period : ago. de 28 – ago. de 21\n Location : Paraná, São Paulo, Bahia\n \n Job Title : Internal Audit Coordinator\n Company name : Cia Industrial H Carlos Schneider - Ciser\n Period : jun. de 26 – jun. de 28\n Location : Santa Catarina, Minas Gerais\n \n Job Title : Head of Controller\n Company name : Artefacto USA\n Period : out. de 25 – jun. de 26\n Location : São Paulo e Região, Brasil\n \n Job Title : Senior Auditor | Tax and Financial Accounting\n Company name : TG&C - Trevisan Gestão & Consultoria\n Period : abr. de 22 – out. de 25\n Location : São Paulo, Bahia, Brasil\n \n \n Job Title : Senior Accounting | Management Analyst\n Company name : Holcim\n Period : dez. de 1996 – jan. de 22\n Location : São Paulo, Minas Gerais, Espirito Santo"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "FP&A"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Master of Business Administration - MBA, Controlling, Finance and Auditing\n Period : 26 – 28\n School name : Universidade de Sorocaba\n Speciality : Bachelor's degree, Accounting\n Period : 1995 – 1999\n School name : Faculdade Católica Paulista\n Speciality : Master of Business Administration - MBA, Accounting and Business Finance Management\n Period : 22\n \n School name : Faculdade Metropolitana\n Speciality : Master's degree, International, Accounting, IFRS\n Period : 22"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "9a096831-a670-45d2-98a7-f0e4ff313795",
+    "id": "df4f7c2e-8f9a-464a-b5cd-ecb105cfd6cb*9a096831-a670-45d2-98a7-f0e4ff313795",
+    "talent": {
+      "updatedAt": "2023-12-20T14:02:29.529Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:02:29.529Z",
+      "linkedinUsername": "valdimir-diniz-vaz-ab7aa828",
+      "email": "valdimirdiniz@uol.com.br",
+      "phone": "",
+      "name": "Valdimir Diniz Vaz",
+      "id": "9a096831-a670-45d2-98a7-f0e4ff313795"
+    },
+    "timeInCurrentStage": 61413302176
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.955Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "28/08/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "13000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador Contábil"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador Contábil\n Company name : State Grid Brazil Holding S.A\n Period : 216 – o momento\n Summary : • Reporte ao CFO e Gerente Contábil\n • Gestão de Equipes\n • Responsável pelo Projeto XRTE de transmissão de energia atuando como Contador responsável nos anos 218 e 219\n • Controle contábil de contratos Capex e Opex\n • Demonstrações financeiras societárias e regulatórias\n • Envio de informações mensais, trimestrais e anuais ao agente regulador (Aneel)\n • Fechamento contábil e envio de reportes ao controlador\n • Revisão das bases de impostos diferidos e de PIS/COFINS/IRPJ e CSLL\n • Preparação e envio da ECD\n • Atendimento às auditorias internas e externas\n • Revisão de análises contábeis e resultado\n • Participação na migração do sistema RM Totvs para o Protheus\n • Controle de importações e imobilizado\n Cargo anterior: Analista Contábil Sênior\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Analista Contábil e Custos Pleno\n Company name : Queiroz Galvão Óleo e Gás S.A\n Period : 213 – 216\n Summary : • Reporte ao Coordenador de Patrimônio\n • Análise dos custos de materiais das sondas onshore/offshore\n • Conferência de relatórios gerenciais em sistema\n • Controle e análise de adiantamentos para a compra de estoques e ativos e de projetos por centro de custo (Capex/Opex)\n • Análise comparativa de real x orçado dos projetos\n • Participação nos inventários da QGOG com análise sobre o impacto no custo\n • Acompanhamento dos custos das sondas em docagem\n • Cadastro de Ativos em sistema\n • Controle e análise de Intercompany\n • Atendimento à auditoria\n • Sistema Protheus e BI\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Analista Contábil Pleno\n Company name : Estaleiro Mauá\n Period : 213\n Summary : • Análise de contas patrimoniais\n • Análise dos custos de materiais e pessoal dos navios em construção para a Transpetro\n • Análise de centro de custo por projeto e overhead\n • Análise de folha de pagamento\n • Atendimento a auditoria externa\n • Suporte na elaboração das DF’s anuais e notas explicativas\n • Controle e análise de empréstimos e financiamentos\n • Controle e análise de Intercompany\n • Participação na criação de um novo plano de contas do Grupo\n • Sistema RM Totvs\n Location : Niterói\n \n Job Title : Analista Contábil Júnior\n Company name : Grupo Bravante\n Period : 211 – 213\n Summary : • Reporte ao Gerente Contábil\n • Análise de contas patrimoniais\n • Controle e Análise do Contas a receber com aging list\n • Controle e análise dos empréstimos e financiamentos para a construção de navios e estaleiro\n • Análise de custos das embarcações e projetos\n • Análise de Intercompany\n • Suporte na elaboração das DF’s anuais e notas explicativas\n • Participação no processo de migração RM Totvs para o SAP\n • Atendimento a auditoria\n • Sistema SAP\n Location : São Gonçalo - RJ\n \n Job Title : Analista de Controladoria Júnior\n Company name : Brookfield Incorporações CO\n Period : 21 – 211\n Summary : • Análise de contas patrimoniais e de custos e despesas\n • Suporte na elaboração das DF’s anuais e notas explicativas\n • Atendimento à auditoria / Análise de Intercompany\n • Sistema SAP\n Location : Brasil - Rio de Janeiro\n \n Job Title : Assistente Contábil\n Company name : Supergasbras Energia Ltda\n Period : 29 – 21\n Summary : • Análise de contas patrimoniais e de custos de estoque\n • Controle de estoque e imobilizado\n • Fechamento de balancetes por filial\n • Atendimento a auditoria\n • Sistema Datasul\n Location : Brasil - Rio de Janeiro\n \n \n Job Title : Assistente Contábil\n Company name : Álamo Assessoria Contábil\n Period : 27 – 29\n Summary : • Reporte ao Gerente Contábil\n • Execução de tarefas como Análise, Classificação, Composição e Conciliação de contas patrimoniais, conciliação bancária, contas a pagar e a receber\n • Análise de folha de pagamento e relatórios fiscais\n • Gerenciamento de imobilizado através de software específico\n • Controle Fiscal de empresas optantes dos Lucros Presumido, Real e Simples\n • Utilização do sistema integrado ALTERDATA, módulos CONTÁBIL, FISCAL, DP e INSS\n • Controle de livros diário e razão\n Location : Niterói"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Fundação Getulio Vargas\n Speciality : MBA Executivo em finanças: Controladoria, Auditoria e Compliance\n School name : Universidade Candido Mendes\n Speciality : MBA, Contabilidade Internacional\n \n School name : Centro Universitário Plinio Leite\n Speciality : Bacharel, Ciências Contábeis\n Courses: Title : Análise das Demonstrações Contábeis - Cefis; Title : Contabilidade Geral - CRC RJ; Title : Contabilidade Tributária Setor Elétrico- IBEF RJ; Title : Contabilidade Tributária uma Revisão Completa - IPEC RJ; Title : English - Hansa School - Toronto; Title : Excel Avançado - Udemy; Title : IFRS - Fipecafi; Title : IFRS - First Degree - IACAFM; Title : Lucro Real - Cefis; Title : Padrões Contábeis CPC/IFRS - UFRJ; \n Title : Sped Contábil - Cefis"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "3f875259-0fe2-462f-a953-af195096a8d2",
+    "id": "df4f7c2e-8f9a-464a-b5cd-ecb105cfd6cb*3f875259-0fe2-462f-a953-af195096a8d2",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:59.084Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:59.084Z",
+      "linkedinUsername": "kelson-carvalho",
+      "email": "kelsoncontabil@gmail.com",
+      "phone": "21987658365",
+      "name": "Kelson Carvalho",
+      "id": "3f875259-0fe2-462f-a953-af195096a8d2"
+    },
+    "timeInCurrentStage": 61412402176
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.790Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Senior Project Controller - Project Manager and Senior Contract Management"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Senior Project Controller - Project Manager and Senior Contract Management\n Company name : Em transição de carreira, sendo assessorada pela Lee Hecht Harrison\n Period : jun. de 216 – o momento\n Location : São Paulo e Região, Brasil\n \n Job Title : Senior Project Controller\n Company name : Alstom Group\n Period : jul. de 214 – jun. de 216\n Summary : Análise de custos diretos e indiretos incorridos mensalmente nos contratos de Operação e Manutenção de aerogeradores;\n Análise dos principais desvios e identificação da causa raiz, em comparação aos custos previstos em Budget;\n Identificação de Riscos Contratuais, riscos financeiros e plano de mitigação dos mesmos; \n Elaboração de Budget para Contratos de Prestação de Serviço;\n Estudo tributário para redução de custos (ICMS, DIFAL de ICMS, IPI, PIS e COFINS);\n Forecast de Caixa, Custo e Revenue Recognition;\n Estudo, contratação e controle de operações de Hedge;\n Lançamentos contábeis (debito e credito) nos projetos;\n Faturamento de Materiais e Serviços;\n Report trimestral do resultado financeiro e operacional dos projetos à nível internacional; \n Análise e forecast da curva de cash-flow;\n Calculo de reajuste contratual, PoH, S&A e outros fee´s aplicáveis;\n Controle de apontamento de horas; \n Controle do resultado bruto e liquido dos projetos;\n Acompanhamento de WIP , CCIP e estoque de Projeto; \n Suporte Financeiro ao gerente de projetos;\n Location : São Paulo e Região, Brasil\n \n Job Title : Project Manager\n Company name : Alstom Group\n Period : abr. de 211 – jul. de 214\n Summary : Atuação na área de execução de contratos como Gerente de Projetos, sendo responsável por todo acompanhamento técnico e comercial do projeto desde assinatura do contrato até a aceitação final , definições de responsabilidades (DoW) entre cliente e fornecedor, acompanhamento para conclusão dos eventos contratuais e faturamento dos eventos, acompanhamento mensal de receitas e custos, onde tais informações seguem para apresentação dos relatórios de forecast da controladoria, negociação de claim junto à clientes e fornecedores, interface com a engenharia e Field Service para atender as necessidade técnicas do projeto e cumprimento do escopo contratual, foco em redução de custos e segurança - EHS\n \n Job Title : Administradora de Contratos\n Company name : Voith Hydro\n Period : nov. de 27 – abr. de 211\n Summary : ü Gerenciamento Comercial de Contratos Internacionais para construção de usinas Hidroelétricas e Pequenas Centrais Elétricas desde sua assinatura até seu término\n ü Controle dos eventos de pagamentos, reconhecimento de milestones e receitas\n ü Controle das operações de Hegde de compra e venda\n ü Controle de do fechamento de cambio e envio de divisas ao exterior\n ü Reuniões internacionais para negociação de reajustes contratuais, prorrogação de prazos e impactos financeiros em diversos países: Canadá, Alemanha, Chile, Colômbia e Índia\n ü Controle Contábil e Fiscal da Filial da Colômbia\n ü Interface com à área de suprimentos para redução de custo ou atingimento do budget e prazo de entrega\n \n Job Title : Senior Project Controller - Project Manager and Senior Contract Management\n Company name : Em transição de carreira, sendo assessorada pela Lee Hecht Harrison\n Period : jun. de 216 – o momento\n Location : São Paulo e Região, Brasil\n \n Job Title : Senior Project Controller\n Company name : Alstom Group\n Period : jul. de 214 – jun. de 216\n Summary : Análise de custos diretos e indiretos incorridos mensalmente nos contratos de Operação e Manutenção de aerogeradores;\n Análise dos principais desvios e identificação da causa raiz, em comparação aos custos previstos em Budget;\n Identificação de Riscos Contratuais, riscos financeiros e plano de mitigação dos mesmos; \n Elaboração de Budget para Contratos de Prestação de Serviço;\n Estudo tributário para redução de custos (ICMS, DIFAL de ICMS, IPI, PIS e COFINS);\n Forecast de Caixa, Custo e Revenue Recognition;\n Estudo, contratação e controle de operações de Hedge;\n Lançamentos contábeis (debito e credito) nos projetos;\n Faturamento de Materiais e Serviços;\n Report trimestral do resultado financeiro e operacional dos projetos à nível internacional; \n Análise e forecast da curva de cash-flow;\n Calculo de reajuste contratual, PoH, S&A e outros fee´s aplicáveis;\n Controle de apontamento de horas; \n Controle do resultado bruto e liquido dos projetos;\n Acompanhamento de WIP , CCIP e estoque de Projeto; \n Suporte Financeiro ao gerente de projetos;\n Location : São Paulo e Região, Brasil\n \n Job Title : Project Manager\n Company name : Alstom Group\n Period : abr. de 211 – jul. de 214\n Summary : Atuação na área de execução de contratos como Gerente de Projetos, sendo responsável por todo acompanhamento técnico e comercial do projeto desde assinatura do contrato até a aceitação final , definições de responsabilidades (DoW) entre cliente e fornecedor, acompanhamento para conclusão dos eventos contratuais e faturamento dos eventos, acompanhamento mensal de receitas e custos, onde tais informações seguem para apresentação dos relatórios de forecast da controladoria, negociação de claim junto à clientes e fornecedores, interface com a engenharia e Field Service para atender as necessidade técnicas do projeto e cumprimento do escopo contratual, foco em redução de custos e segurança - EHS\n \n \n Job Title : Administradora de Contratos\n Company name : Voith Hydro\n Period : nov. de 27 – abr. de 211\n Summary : ü Gerenciamento Comercial de Contratos Internacionais para construção de usinas Hidroelétricas e Pequenas Centrais Elétricas desde sua assinatura até seu término\n ü Controle dos eventos de pagamentos, reconhecimento de milestones e receitas\n ü Controle das operações de Hegde de compra e venda\n ü Controle de do fechamento de cambio e envio de divisas ao exterior\n ü Reuniões internacionais para negociação de reajustes contratuais, prorrogação de prazos e impactos financeiros em diversos países: Canadá, Alemanha, Chile, Colômbia e Índia\n ü Controle Contábil e Fiscal da Filial da Colômbia\n ü Interface com à área de suprimentos para redução de custo ou atingimento do budget e prazo de entrega\n Company 2: Em transição de carreira, sendo assessorada pela Lee Hecht Harrison"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Presbiteriana Mackenzie\n Speciality : Especialização, Controladoria\n Period : 211 – 212\n School name : Centro Universitário Nove de Julho\n Speciality : Bacharel, Administração com ênfase em comércio exterior\n Period : 22 – 25\n School name : Universidade Presbiteriana Mackenzie\n Speciality : Especialização, Controladoria\n Period : 211 – 212\n \n School name : Centro Universitário Nove de Julho\n Speciality : Bacharel, Administração com ênfase em comércio exterior\n Period : 22 – 25"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "e7c012ca-b714-4c9e-9435-5fc321392328",
+    "id": "df4f7c2e-8f9a-464a-b5cd-ecb105cfd6cb*e7c012ca-b714-4c9e-9435-5fc321392328",
+    "talent": {
+      "updatedAt": "2023-12-20T14:07:01.476Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:07:01.476Z",
+      "linkedinUsername": "maria-paula-avelino-nunes",
+      "email": "m.p.nunes2016@gmail.com",
+      "phone": "",
+      "name": "Maria Paula Avelino Nunes",
+      "id": "e7c012ca-b714-4c9e-9435-5fc321392328"
+    },
+    "timeInCurrentStage": 61412402176
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.612Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "USD"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Engenheiro de planejamento"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Engenheiro de planejamento\n Company name : Promon Engenharia\n Period : out de 219 - o momento\n Location : São Paulo e Região, Brasil\n \n Job Title : Engenheiro de planejamento\n Company name : Worley\n Period : jan de 219 - out de 219\n Location : São Paulo e Região, Brasil\n \n Job Title : Engenheiro de Projetos\n Company name : Consultor Autonomo\n Period : jan de 218 - jan de 219\n Location : São Paulo\n \n Job Title : Engenheiro mecânico\n Company name : Fluor Corporation\n Period : dez de 215 - jan de 218\n Summary : Engenheiro Mecânico – Gerenciamento de Obra – Projeto Modernização Terminal Portuário ADM (1,5 anos)\n \n -Coordenação de Montagem Eletromecânica - Elevadores de caneca, Correias transportadoras enclausuradas, Filtros Cartucho, Filtros Mangas e outros equipamentos de terminais de transbordo de granéis sólidos; Coordenação de Paradas Programadas;\n -Supervisão e Acompanhamento de obra – Fundação, Piso, bases, Montagem de Pré-moldados, execução de pavimentação, etc;\n -Elaboração de Memoriais Descritivos e Especificações Técnicas de Contratação, Equalização técnica;\n -Manutenção do terminal do cliente em pleno funcionamento, objetivando concluir a obra dentro do prazo de 1 ano e meio, dentro do budget de 28 milhões e com toda segurança necessária;\n -Condução e elaboração do plano de execução do projeto – PEP e também responsável pelo treinamento das subcontratadas para atendimento do procedimento elaborado;\n -Liderança no comissionamento e start-up dos equipamentos.\n -Responsável por todo o ciclo de vida de alguns projetos de menor porte (Equalização técnica e contratação, Kickoff meeting, mobilização, aprovação de projetos e metodologias de execução, levantamento de interferências e start-up);\n Location : São Paulo\n \n Job Title : Engenheiro de planejamento e Controle\n Company name : CFPS Engenharia e Projetos\n Period : set de 213 - dez de 215\n Summary : • Gestão dos relatórios de acompanhamento mensal de controle físico / financeiro do projeto;\n • Elaboração da programação semanal da engenharia, dos histogramas dos projetos, da Estrutura Analítica do Projeto (EAP), Curva S e Cronogramas;\n • Encarregado pelo Controle de Custos e Despesas, KPI´s de performance e Follow-up das documentações;\n • Responsável pelo projeto fast-tracking de maior valor da empresa (3Mi e 1º EPC), lidando com a gestão estrangeira em obra situada no MA, para implementar sistemas de controle e gerenciamento da multinacional;\n • Responsável pela atualização do sistema de controle de horas e custo do escritório, economizando tempo para sua atualização semanal;\n • Atuação como auditor interno para implementação de certificações ISO e requisitos de Clientes Internos / Externos;\n Principais Projetos PGN – Nova Estação de Produção e Escoamento de Gás Natural – Gavião Branco; Yara Fertilizantes – Utilidades – Rio Grande Terminal; PepsiCo – Contrato “Guarda-Chuva” de Longa Duração; Braskem – Contrato “Guarda-Chuva” de Longa Duração.\n Location : São Paulo e Região, Brasil\n \n Job Title : Engenheiro Tubulação\n Company name : CFPS Engenharia e Projetos\n Period : dez de 212 - set de 213\n Summary : • Análise de linhas críticas, elaboração de memoriais de cálculo de flexibilidade; Software Autopipe;\n • Apoio na estruturação inicial da empresa, focado na tradução e tropicalização dos procedimentos globais;\n • Proposta e Projetos UPGN e UGH/COMPERJ – RJ.\n Location : São Paulo e Região, Brasil\n \n Job Title : Assistente de Engenharia\n Company name : Consórcio UFN3\n Period : abr de 212 - dez de 212\n Summary : • Participação em projeto UFN 3 da Petrobrás (5Bi), atuando na determinação das linhas críticas;\n • Análise de linhas críticas, elaboração de memoriais de cálculo de flexibilidade; Softwares – Ceaser II e Triflex.\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Estagiário Tubulação\n Company name : CH2M HILL\n Period : out de 21 - abr de 212\n Summary : • Suporte para as disciplinas de tubulação e mecânica – revisão de documentos, avaliação de propostas, tradução de procedimentos globais\n Location : São Paulo"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Certificação Green Belt\n Period : Emitido em dez de 2017-Sem data de expiração\n Issuing Authority : Escola EDTI"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Gestão de Projetos\n Period : 218 - 22\n \n School name : Centro Universitário FEI\n Speciality : Engenharia Mecânica\n Period : 28 - 212"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "bf167d31-1f23-4d65-afef-364231dba64f",
+    "id": "df4f7c2e-8f9a-464a-b5cd-ecb105cfd6cb*bf167d31-1f23-4d65-afef-364231dba64f",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:44.577Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:44.577Z",
+      "linkedinUsername": "bruno-tebet",
+      "email": "bruno.g.tebet@gmail.com",
+      "phone": "",
+      "name": "Bruno Tebet",
+      "id": "bf167d31-1f23-4d65-afef-364231dba64f"
+    },
+    "timeInCurrentStage": 61413302176
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.888Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "23/04/1982"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "13000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Consultora Financeira de Projetos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Consultora Financeira de Projetos\n Company name : Votorantim Energia\n Period : jan. de 221 – o momento\n \n Job Title : .\n Company name : Período Sabático\n Period : jul. de 218 – dez. de 22\n \n Job Title : Senior Project Controller\n Company name : ABB Brasil\n Period : mar. de 218 – jun. de 218\n \n Job Title : Senior Project Controller\n Company name : GE Grid Solutions\n Period : nov. de 215 – ago. de 217\n Summary : Revisão dos contratos para esclarecer termos comerciais e garantir conformidade;\n Inserção de ordens de vendas, projetos e alterações de pedidos;\n Elaboração e controle do planejamento financeiro dos projetos (orçamentos, previsões e revisões);\n Cálculo de reajuste contratual;\n Emissão de notas fiscais e elaboração de cobrança para o cliente;\n Relação significativa com o cliente nas questões comerciais;\n Atualização contínua do cálculo do custo do projeto;\n Análise e previsões e elaboração do planejamento dos custos dos projetos;\n Revisão mensal de custo / EAP e previsões (orçamentadas, planejadas e reais);\n Análise fiscal;\n Controle de compras e faturamento dos projetos (interface com as áreas operacionais);\n Acompanhamento das finanças dos projetos, tais como: receitas, custos e fluxos de caixa;\n Encerramento e relatórios - informações financeiras mensais e trimestrais dos projetos;\n Reuniões de revisão dos projetos para a tomada de ações e identificação de pontos potenciais de melhorias;\n Identificação e gerenciamento dos riscos e oportunidades dos projetos;\n Capacidade de trabalhar de forma cruzada funcionalmente com aquisição, gerenciamento de projetos, vendas, controle e contabilidade;\n Elaboração das planilhas FINAME para a comprovação do índice de nacionalização da subestação de energia;\n Consolidação contábil das contas do balanço dos projetos; e \n Implantação do Bloco K para controle de estoque físico e contábil\n Location : São Paulo Area, Brazil\n \n Job Title : Senior Project Controller\n Company name : Alstom\n Period : abr. de 213 – out. de 215\n Summary : Responsável pelo gerenciamento de projetos de grande porte (>R$ 3MM)\n \n Encerramento e elaboração de relatórios - informações financeiras mensais e trimestrais dos projetos;\n Consolidação e análise dos resultados dos projetos;\n Análise mensal dos projetos (custos de vendas, rentabilidade, EBIT, EVA, fluxo de caixa, ativos, etc);\n Cálculo do reajuste contratual;\n Relatórios de gestão e apresentação dos projetos para reuniões com a alta direção e matriz;\n Participação nas reuniões de negócios e revisão de projetos para tomar ações e identificação de pontos potenciais de melhorias; e\n Controle de gestão de riscos e oportunidades dos projetos\n Location : São Paulo Area, Brazil\n \n Job Title : Analista Financeiro de Propostas Sênior\n Company name : Siemens\n Period : abr. de 211 – abr. de 213\n Summary : Responsável pela formação de preços para projetos de grande porte (>R$ 1MM) de implantação de subestação e ampliação de transmissão de energia para utilitários, geradores e indústrias\n \n Sólida experiência em concorrência pública;\n Análise dos impostos, parte jurídica e financeira;\n Análise de contratos, apuração dos custos, fluxo de caixa, impostos, multas contratuais, hedge, seguro;\n Elaboração de cronograma físico-financeiro, apuração dos riscos e oportunidades;\n Elaboração da planilha FINAME na fase de oferta;\n Forte interação com o cliente, definindo prazos de execução;\n Elaboração de propostas comerciais dos projetos\n Location : São Paulo Area, Brazil\n \n Job Title : Analista Econômico Financeiro de Contratos Pleno\n Company name : Siemens\n Period : mar. de 26 – mar. de 211\n Summary : Responsável pelo gerenciamento de projetos de pequeno porte até R$ 2MM\n \n Gestão de indicadores de desempenho chave; \n Atendimento à auditoria interna e externa;\n Responsável pelas regras de verificação e jurídica corporativa do negócio;\n Responsável pelo desenvolvimento do Business Target Agreement com a matriz;\n Participação na elaboração do planejamento econômico e estratégico da unidade, envolvendo toda a estrutura de custos e distribuição proporcional; e\n Acompanhamento dos indicadores financeiros efetivo x planejado e identificação dos desvios\n Location : São Paulo Area, Brazil\n \n Job Title : Analista Econômico Financeiro de Contratos Junior\n Company name : Siemens\n Period : jul. de 24 – fev. de 26\n Summary : Responsável pela implantação e monitoramento do Balanced Scoredcard e outros relatórios gerenciais\n \n Usuária chave do sistema SAP módulo SD (vendas)\n Elaboração do manual de qualidade para a certificação da ISO 9;\n Consolidação, análise mensal e controle do centro de custo;\n Controle de custos e faturamento;\n Cálculo e conferências de valores a serem quitados (ordem de compra x nota fiscais, impostos);\n Programação de pagamentos; e \n Cobrança de clientes inadimplentes\n Location : São Paulo Area, Brazil\n \n Job Title : Assistente Administrativo\n Company name : Siemens\n Period : dez. de 22 – jun. de 24\n Summary : Responsável pelo auxílio no controle de notas fiscais, garantias, recebíveis da unidade de negócio\n \n Faturamento e cobranças;\n Conferência de documentos e arquivos\n Location : São Paulo Area, Brazil\n \n \n Job Title : Estagiária de Administração de Empresas\n Company name : Siemens\n Period : jan. de 2 – nov. de 22\n Summary : Responsável pelo auxílio no controle de notas fiscais, garantias, recebíveis da unidade de negócio\n \n Faturamento e cobranças;\n Conferência de documentos e arquivos\n Location : São Paulo Area, Brazil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Insper Instituto de Ensino e Pesquisa\n Speciality : Pós Graduação, CBA - Certificate in Business Administration\n Period : 29 – 211\n School name : Pontifícia Universidade Católica de São Paulo\n Speciality : Bachelor of Business Administration - BBA\n Period : 22 – 26\n \n School name : FGV - Fundação Getulio Vargas\n Speciality : 28, Negociação"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "5dc3b53b-6720-464b-8264-9c1bac68a2a9",
+    "id": "df4f7c2e-8f9a-464a-b5cd-ecb105cfd6cb*5dc3b53b-6720-464b-8264-9c1bac68a2a9",
+    "talent": {
+      "updatedAt": "2023-12-20T13:50:52.677Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:50:52.677Z",
+      "linkedinUsername": "tamara-g-alves-b5126115",
+      "email": "tamara.georgea@hotmail.com",
+      "phone": "1199904018",
+      "name": "Tamara G. Alves",
+      "id": "5dc3b53b-6720-464b-8264-9c1bac68a2a9"
+    },
+    "timeInCurrentStage": 61412402176
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.730Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "b4d04a7d-7153-46aa-ad10-fdf2ca6228a6",
+    "id": "df4f7c2e-8f9a-464a-b5cd-ecb105cfd6cb*b4d04a7d-7153-46aa-ad10-fdf2ca6228a6",
+    "talent": {
+      "updatedAt": "2023-12-20T14:02:19.180Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:02:19.180Z",
+      "email": "tha.camargo@uol.com.br",
+      "phone": "11992811443",
+      "name": "Thais Camargo",
+      "id": "b4d04a7d-7153-46aa-ad10-fdf2ca6228a6"
+    },
+    "timeInCurrentStage": 61413302176
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.860Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "14/09/1990"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "19000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "usp"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "especialista project controller"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Project Controller\n Company name : Hitachi Energy\n Period : out. de 221 – o momento\n Location : São Paulo, Brasil\n \n Job Title : Project Controller\n Company name : ABB Brasil\n Period : out. de 215 – out. de 221\n Summary : • Management of short and long-term projects (Over time and Point in time revenue recognition methodologies)\n • Evaluation of project risks/opportunities, tracking the mitigation measures and ensuring compliance/financial requirements\n • Contract analysis from a financial/fiscal perspective and direct relationship with customers\n • Analysis of project´s balance sheet, income statements, cash flow, NOWC and financial reporting in conformity with the IFRS, Group accounting instructions and SOX standards\n • Responsible for monitoring and updating the forecast, taking joint responsibility with the Project Manager\n • Analysis and conciliation of asset and liability accounts and income statement\n • Management of hedge contracts and their impacts on the projects\n • Daily use of SAP for planning and analysis\n • Ensure process efficiency through the Company's internal controls\n • LATAM Financial leader/BPO in the implementation of a new global tool for financial planning, project controls and reporting\n Location : São Paulo e Região, Brasil\n \n Job Title : Trainee / Consultant\n Company name : EY\n Period : ago. de 214 – set. de 215\n Summary : Foreign Exchange Microsoft Project: Management of Microsoft Brazil's foreign exchange hedging program\n \n • Responsible for the restructuring and development of Microsoft´s foreign exchange process through the transfer of the main activities, originally allocated in the Philippines and Argentina, to Brazil\n • Analysis of hedge contracts and swaps impacts\n • Daily interaction with Microsoft Corporation Treasury for the hedge operations analysis and with the Commercial Area to analyze the foreign exchange risk exposure on sales\n • Implementation of a derivative instrument (Options contract) in Brazil, Turkey and Mexico\n • Process review in accordance to Compliance requirements\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Financial Planning intern\n Company name : Johnson & Johnson\n Period : jan. de 212 – mai. de 213\n Summary : • Structuring monthly and annual closing results\n • Expenses projection\n • Support on the internal budget control\n • Collection and evaluation of regional and departmental expenses\n • Calculation and analysis of foreign exchange exposure and hedge mechanisms\n • Responsible for internal control procedures (SOX tester)\n Location : Sao Paulo"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Registro no Conselho Regional de Contabilidade (CRC)"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/renata-marcuzzo-339235"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "5d7868b7-22f5-4eb7-babe-54ab25fb5a32",
+    "id": "df4f7c2e-8f9a-464a-b5cd-ecb105cfd6cb*5d7868b7-22f5-4eb7-babe-54ab25fb5a32",
+    "talent": {
+      "updatedAt": "2023-12-20T13:57:34.723Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:57:34.723Z",
+      "linkedinUsername": "renata-marcuzzo-30309235",
+      "email": "re.marcuzzo@gmail.com",
+      "phone": "11975036565",
+      "name": "Renata Marcuzzo",
+      "id": "5d7868b7-22f5-4eb7-babe-54ab25fb5a32"
+    },
+    "timeInCurrentStage": 61412702176
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.760Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "10/05/1988"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "20000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia civil",
+          "id": "9556216e-65f1-4fb6-b9a8-a919194e751a",
+          "label": "Engenharia civil"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de Engenharia e Projetos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de Engenharia e Projetos\n Company name : Sigdo Koppers ICSK\n Period : mar. de 219 – o momento\n Summary : Projetos\n \n Alupar\n \n ETB - Empresa de Transmissão Baiana SA\n Juazeiro III - Ourolândia II - 5kV - 186km\n Bom Jesus da Lapa II - Gentio do Ouro II - 5kV - 26km\n \n \n TCC - Transmissora Caminho do Café SA\n Governador Valadares 6 - Mutum 5kV - 156km\n Mutum - Rio Novo do Sul - 5kV - 132km\n \n ESTE- Empresa Sudeste de Transmissora de Energia SA\n Mesquita - João Neiva 2 - 5kV - 236km\n \n Novo Estado \n \n ENGIE\n \n LT5kV Xingu -Rio Itacaiúnas C1 e C2 - 748km - 6 cabos/fase\n \n Job Title : Engenheiro civil\n Company name : State Grid Brazil Holding S.A\n Period : abr. de 217 – fev. de 219\n Summary : _Departamento de Engenharia_\n \n -Análise e aprovação de projetos básico, executivo e especificações técnicas das disciplinas Arquitetura e civil\n \n -Auxílio e acompanhamento das obras \n \n -Elaboração de R4 \n \n -Análise e aprovação de projetos das Acessantes e de expansão das SE's das SGBH\n \n \n \n #Projetos realizados: \n \n Leilão ANEEL 13/215 - Lotes C e O \n \n LOTE C\n – LT 5 kV Paranatinga –Ribeirãozinho – C3, com 355 km;\n – CS 475 Mvar no terminal de Paranatinga;\n – LT 5 kV Cláudia - Paranatinga - C3, com 35 km;\n – CS 43 Mvar no terminal de Paranatinga;\n – LT 5 kV Paranaíta - Cláudia C3, com 3 km\n \n \n LOTE O ( energizado em 3/6/218, antecipação de 2 anos)\n \n \n – LT 23 kV Paranatinga - Canarana, 262 km;\n – SE 23/138 kV Canarana - pátio novo em 23 kV - (3+1R) x 4 MVA;\n – SE 5/23 kV Paranatinga - pátio novo em 23 kV - (3+ 1R) x 4MVA\n \n Reforços\n - Curral Novo do Piauí \n - Nova Porto Primavera\n \n \n \n \n \n \n  R4 - \n LEILÃO 2/218 - Lote 2 - SE Pirapora 2\n LEILÃO Nº 4/218 - Lote 2 - SE Terminal Rio\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Engenheiro Civil\n Company name : Engepro Engenharia\n Period : mai. de 215 – mar. de 217\n Summary : ------ABENGOA---------\n ATE XVI\n \n \n SE MIRACEMA\n -LAJE DE COBERTURA PARA CASA DE COMANDO\n \n SE GILBUÉS \n -LAJE DE COBERTURA PARA CASA DE COMANDO\n -PAREDES CORTA-FOGO\n \n SE BARREIRAS II\n -LAJE DE COBERTURA PARA CASA DE COMANDO\n -PAREDES CORTA-FOGO \n \n SE BOM JESUS DA LAPA II\n -LAJE DE COBERTURA PARA CASA DE COMANDO\n -PAREDES CORTA-FOGO \n -SUPORTE DE CONCRETO\n \n SE IBICOARA\n -LAJE DE COBERTURA PARA CASA DE COMANDO\n -PAREDES CORTA-FOGO \n -SUPORTE DE CONCRETO\n \n \n SE SAPEAÇU\n -LAJE DE COBERTURA PARA CASA DE COMANDO\n -PAREDES CORTA-FOGO \n -SUPORTE DE CONCRETO\n \n SE IGAPORÃ\n -PROJETO BÁSICO E EXECUTIVO CIVIL\n \n \n ------BRAXENERGY------\n \n \n SE ARACATI\n -PROJETO BÁSICO CIVIL\n \n SE BANABUIÚ\n -PROJETO BÁSICO CIVIL\n \n SE IBIAPINA II\n -PROJETO BÁSICO CIVIL\n \n SE MARACANAÚ\n -PROJETO BÁSICO CIVIL\n \n SE RUSSAS\n -PROJETO BÁSICO CIVIL\n \n SE RUSSAS II\n -PROJETO BÁSICO CIVIL\n \n SE SOBRAL III\n -PROJETO BÁSICO CIVIL\n \n ---------SÃO PEDRO TRANSMISSORA (SPT) / SÃO JOÃO TRANSMISSORA (SJT)--------------\n \n ENGENHARIA DO PROPRIETÁRIO\n \n -SE BARREIRAS\n \n -SE BARREIRAS II\n \n -SE BOM JESUS II\n \n -SE GILBUÉS\n \n -SE RIO GRANDE II\n \n -SE SÃO JOÃO DO PIAUÍ\n \n \n \n \n ------COBRA / SÃO SIMÃO------\n \n SE BOM JESUS II - 23-69kV\n -PROJETO EXECUTIVO CIVIL\n \n SE GILBUÉS II - LOTE A - 5/23-69kV\n -PROJETO EXECUTIVO CIVIL\n \n SE GILBUÉS II - LOTE C - 5/23-69kV\n -PROJETO EXECUTIVO CIVIL\n \n SE ELISEU MARTINS COM SVC- 23-69kV\n - PROJETO EXECUTIVO CIVIL\n \n \n \n \n ------STATE GRID------\n \n  BELO MONTE 2\n \n ---LT----\n \n -ALUMINI - TRECHOS 6 E 7\n \n -XPTT - TRECHO 8\n \n -SEPCO1 - 9\n \n TELES PIRES \n \n ALUMINI - C1\n \n SEPCO - C3\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Engenheiro Civil\n Company name : Marte Engenharia LTDA\n Period : ago. de 214 – mai. de 215\n Summary : ------STATE GRID------\n \n SE RIBEIRÃOZINHO/ SE RIO VERDE NORTE\n \n \n -----ABENGOA--------\n \n LT ITACAIÚNAS 23kV\n \n Job Title : Engenheiro\n Company name : Marte Engenharia LTDA\n Period : nov. de 21 – jul. de 214\n Summary : Ø\n Ø----- IESUL--------\n \n SE Curitiba/ SE Forquilhinha/ SE Joinville Norte/ SE Jorge Lacerda B/ SE Nova Santa Rita/ SE Siderópolis\n \n Ø----- ISOLUX------\n \n SE Lechuga/ SE Oriximiná / SE Silves\n \n -------CATXERÊ------\n \n SE Rio Verde Norte/ SE Ribeirãozinho\n \n Ø----- TRANSENERGIA--------\n \n  SE Chapadão/ SE Barra dos Coqueiros/ SE Edéia/ SE Jataí/ SE Mineiros/ SE Morro Vermelho/ SE Palmeiras/ SE Quirinópolis/ SE Scharlau\n \n Ø --------TEYMA-----\n  SE Las Brujas/ SE Punta del Tigre\n \n Ø-------ABENGOA-------\n \n SE São João\n \n Ø----- ELETRONORTE------\n \n SE Sadia/ SE Ribeiro Gonçalves / SE Balsas\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Estagiário\n Company name : Marte Engenharia\n Period : nov. de 28 – nov. de 21\n Summary : Ø------ABENGOA-----\n  \n ATE IV\n \n SE Mateus do Sul/ SE Bateias/ SE Canoinhas/ SE Curitiba\n \n ATE V\n \n SE Bateias/ SE Canoinhas/ SE Curitiba/ SE Itararé/ SE Jaguariaíva/ SE Londrina/ SE Maringá\n \n ATE VI\n \n SE Campos Novos/ SE Dona Francisca/ SE Santa Maria 3/ SE Videira\n \n ATE VII\n \n SE Cascavel Oeste/ SE Foz do Iguaçu Norte\n \n Ø----- ALUSA------\n \n SE Mascarenhas/ SE Verona\n \n Ø------ISOLUX---------\n  SE Cacuaco/ SE Capanda Elevadora/ SE Lucala/ SE Viana\n Location : Rio de Janeiro e Região, Brasil\n \n \n Job Title : Estagiário\n Company name : JLL\n Period : ago. de 28 – nov. de 28\n Summary : • Representação de ocupantes: Análise das necessidades da empresa, estudos de localização, pesquisas para verificação e implementação do projeto\n Location : Rio de Janeiro e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Candido Mendes\n Speciality : Engenharia de Segurança do Trabalho\n Period : 217 – 218\n School name : Fundação Getulio Vargas\n Speciality : MBA GERENCIAMENTO DE PROJETOS, MBA Gerenciamento de Projetos\n Period : 214 – 216\n \n School name : Universidade Estácio de Sá\n Speciality : ENGENHEIRO CIVIL, Engenharia Civil\n Period : 29 – 214"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "5f892dd6-c981-495c-b4a9-53b777d7a0f4",
+    "id": "df4f7c2e-8f9a-464a-b5cd-ecb105cfd6cb*5f892dd6-c981-495c-b4a9-53b777d7a0f4",
+    "talent": {
+      "company": "",
+      "createdAt": "2023-12-20T13:56:51.488Z",
+      "email": "viniciusmauricio_3@hotmail.com",
+      "headline": "",
+      "linkedinUsername": "vinicius-maurício-b94b96aa",
+      "location": "",
+      "name": "Vinicius Maurício",
+      "phone": "21991810474",
+      "picture": "https://media.licdn.com/dms/image/v2/C4D03AQHxcW7vz49k4g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1646520776396?e=1730937600&v=beta&t=9Z1PgwCHxoQeaVm2y6P7rHKhLhvU8-PNJmNPODhZWXo",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-09-05T20:35:49.993Z",
+      "id": "5f892dd6-c981-495c-b4a9-53b777d7a0f4"
+    },
+    "timeInCurrentStage": 61412702176
+  },
+  {
+    "importedAt": "2024-02-08T18:39:36.016Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenador de Projetos"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenador de Projetos\n Company name : EDP Brasil\n Period : dez. de 22 – o momento\n Location : São Paulo, Brasil\n \n Job Title : Engenheiro mecânico\n Company name : Brookfield Energia Renovável\n Period : fev. de 219 – jun. de 22\n Summary : Engenheiro de Manutenção atuando na gestão das equipes de Manutenção e Operação de onze ativos nas “PCH’s (Pequenas Centrais Hidrelétricas)” localizadas na região sul do Brasil (RS, SC e PR) Atuando nas áreas de Manutenção, Meio Ambiente e Segurança do Trabalho com foco na manutenção preventiva e preditiva dos equipamentos das usinas\n Location : Caxias do Sul e Região, Brasil\n \n Job Title : Engenheiro Especialista\n Company name : EDP Brasil\n Period : mar. de 217 – jan. de 219\n Summary : Jan218 - Ate a presente data EDP Transmissão Lote 24 / Linha de Transmissão 23 kV Linhares II – São Mateus II / Espirito Santo\n Abr217 - Dez217 Usina São Manoel Energia (Mata Grosso) responsável pela Linha de Transmissão com extensão de 4 km e Bay de Conexão de 5kV na SE Paranaíta/MT\n - Principais atribuições / Resultados:\n - Coordenação da equipe multidisciplinar de colaboradores que supervisiona a execução dos projetos de engenharia e fabricação de equipamentos;\n - Mapeando todas as etapas do processo até a entrega do projeto a operação, em parceria com outras áreas da empresa e outras empresas;\n - Acompanhamento de compra e logística de estruturas metalicas para torres de transmissão e equipamentos de pátio para subestações;\n - Gerenciamento administrativo-financeiro (boletim de medição, NF's, eventograma);\n - Cumprimento das Instruções Operativas (normas internas) da unidade de Construção para as diferentes etapas da obra; \n - Responsável pela emissão dos relatórios diários, semanais e mensais;\n - Coordenação de reuniões de produção e coordenação \n - Fiscalização e coordenação de obra civil, montagem eletromecânica e comissionamento de estruturas;\n - Fiscalização e coordenação de montagem de Subestação e Bay de Conexão 23 e 5 kV; \n - Interface entre os agentes das acessadas;\n - Comissionamento dos equipamentos;\n - Acompanhamento da execução de serviços por parte dos contratados nas áreas de Segurança do Trabalho, Meio Ambiente e Qualidade\n Location : Espirito Santo\n \n Job Title : Engenheiro\n Company name : EDP Brasil\n Period : ago. de 214 – mar. de 217\n Summary : Ago216 – Mar217 Engenheiro Especialista\n - Condução e execução das obras do reservatório, atuando na área de engenharia civil;\n - Responsável pelo cronograma físico e financeiro;\n - Principais atividades, acompanhamento e desenvolvimento nas fases de implantação, execução e restauração das obras no município de Porto Grande – Amapá; \n Set214 – Jul216 Engenheiro Especialista\n - Responsável pela realização da Engenharia do Proprietário em implantações eletromecânicas nas Usinas (UHE Santo Antônio do Jari 375MW turbina Kaplan) e (UHE Cachoeira Caldeirão 219MW turbina Bulbo) realizando as seguintes funções;\n - Coordenador dos técnicos mecânicos e elétricos, com coordenação pela montagem de turbina, gerador e subestação 23kV;\n - Gestão de interface entre as áreas da civil com a eletromecânica; \n - Qualidade, responsável por todos os certificados de calibração e instrumentação da obra, abertura e fechamento de Não Conformidades perante o projeto e liberação dos protocolos topográficos;\n - Acompanhamento do comissionamento Turbina e Gerador;\n - Integração com a O&M para auxilio de manutenção de equipamentos instalados, implementação e acompanhamento das ações corretivas e preventivas;\n - Cumprimento dos procedimentos de EHS;\n - Promover feedback por meio das ferramentas disponíveis, alem de contratar, desligar e aplicar medidas disciplinares, quando necessário\n \n \n Job Title : Engenheiro\n Company name : Voith Hydro\n Period : fev. de 21 – jul. de 214\n Summary : Nov213 – Jul214 Planejamento de Matérias\n - Estudo e analise de consumo de matéria prima, junta a Engenharia de Produção, para identificar quais os prazos e os materiais que serão utilizados nos próximos projetos, viabilizando a compra de matéria prima no mínimo de 6 meses de antecedência\n - Estabelecer canal de comunicação entre as áreas da empresa envolvidas no ciclo de vida do produto e identificar parâmetros para análise de riscos e tomadas de decisão (matérias alternativos)\n - Elaboração de lista final de compras para a área de suprimentos indicando o prazo para fabricação\n - Inspeção de recebimento da matéria prima, identificação e rastreabilidade, realização de inventários internos e de materiais em poder de terceiros\n 211 – 213 Engenheiro de Projetos de Sistemas Auxiliares Mecânicos\n - Acompanhamento e execução de projeto e arranjo dos Sistemas: Resfriamento, Drenagem,\n - Esgotamento e Enchimento de Poços, Medições Hidráulicas, Rebaixamento do Tubo de Sucção, Ar comprimido, Tratamento de Óleo, Proteção Contra Incêndio e Oficina mecânica para execução de pequenos reparos\n - Projetos que atue diretamente: Belo Monte, Estreito, Ferreira Gomes, Teles Pires, Água Vermelha e Chavantes\n 27 – 211 Desenhista Projetista em PCH\n - Acompanhamento ao Projeto Básico\n - Detalhamento do Projeto de Turbina, para execução de compra e fabricação\n - Acompanhamento de testes na fabricação e montagem junto ao Field Service\n - Arranjo de Layout para Auxiliares Mecânicos e Elétricos\n - Padronização de ferramentas e praticas destinadas á evolução do departamento\n - Interface com a Alemanha no Projeto RPP6 (Turbina bomba reversível) responsável pelo Layout\n Turbina, Gerador e interfaces dos sistemas Hidromecânicos e Elétricos\n - Projetos que atue diretamente: Apertadinho, Pocosol, Esmeralda, São Joaquim, Carangola, Calheiros,\n Funil, Planalto, Malagone, Anhanguera, Bridge Water, Palomino e Palo Viejo\n 26 – 27 Estágio em PCH"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : UCS - Universidade de Caxias do Sul\n Speciality : Master of Business Administration - MBA, MBA em Gerência de Projetos\n Period : 219 – 22\n \n School name : Centro Universitário Nove de Julho\n Speciality : Master of Engineering (MEng), engenharia mecanica\n Period : 211"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "e942b508-d73b-464b-a4ef-4e4114f5f2de",
+    "id": "df4f7c2e-8f9a-464a-b5cd-ecb105cfd6cb*e942b508-d73b-464b-a4ef-4e4114f5f2de",
+    "talent": {
+      "updatedAt": "2023-12-20T14:09:50.412Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:09:50.412Z",
+      "linkedinUsername": "rodolfo-moura-704823a0",
+      "email": "moura_rodolfo@yahoo.com.br",
+      "phone": "",
+      "name": "Rodolfo Moura",
+      "id": "e942b508-d73b-464b-a4ef-4e4114f5f2de"
+    },
+    "timeInCurrentStage": 61413302176
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.826Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Project Controller Manager"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Project Controller Manager\n Company name : Focus Energia\n Period : fev. de 221 – o momento\n \n Job Title : Project Finance Controller\n Company name : Sterlite Power\n Period : ago. de 218 – fev. de 221\n Location : São Paulo e Região, Brasil\n \n Job Title : Coordenadora Financeira\n Company name : Âmbar Energia (Grupo J&F Investimentos)\n Period : set. de 216 – ago. de 218\n \n Job Title : Coordenador de projetos\n Company name : Tecnogera Geradores\n Period : fev. de 216 – set. de 216\n Location : São Paulo e Região, Brasil\n \n Job Title : Head of Project controller\n Company name : Alstom Grid\n Period : 21 – jan. de 215\n Summary : • At Alstom Grid - In alternative current substation (ACS), High Voltage Direct Current (HVDC), Network Management Solutions (NMS) ,Power Electronics Activities (PEA), Substation Automation Solutions (SAS) as head of Project Controlling Responsible for implementation and management of the new Project Controlling organization/structure consolidating all information including manufacture units, leading monthly project reviews, analysis of planned vs actual project results and cash-flow identifying deviations, causes and proposing corrective actions, projects risk analysis, closing costs / expenses for projects / financial performance analysis of local business units, consolidation of financial information\n • Support Controller on providing financial information in closing end performing processing of the production recovery calculation, WIP/Provision and Result Analysis for reporting in other package “Teranga”\n • Participation in Overdue reduction and Zero overdue coming from administrative tasks like invoices, NF's, finance mistakes etc, analyses and manage financial data in the Alstom industrial environment: Cost accounting, full cost method, hour rate calculation, over / under recovery\n • KEY USER to implementation SAP modulo PS / SD\n • During 6 months in 21, I was responsible on Network Management Solutions (NMS) and Substation Automation Solutions (SAS) business, \"acting\" as Controller reporting directing for Unit in France\n \n Job Title : Contracts Supervisor\n Company name : AREVA T&D\n Period : 26 – 21\n Summary : • Supervision of project controllers in Automation Systems, Automation Support, coordinating a team of eight project controllers and two trainees;\n • Systems Project Control: KEOPS / EAS with required accuracy and on time Drive the team to deliver the required information for their projects in the required timeframe and completeness; \n • Participation in the monthly closing of the units showing the profitability of contracts; Keeping visibility and predictability of the monthly results;\n • Act as interface to commercial team for Orders Received Assure documentation, tools and processes are being followed and when necessary make realignments;\n • Support to the Controller showing the result of monthly units since the entry of orders, revenues, costs, costs to incurred, provisions and inventory (WIP); Improve OWC optimization, focus on Accounts Receivables (A/R) and WIP Reinforce cash collection process & Overdue Reduction;\n • Administration of the main contracts of the Automation Systems Unit, having a direct interface with customers on administrative and financial matters: Request for charges to Customer, of physical events completed, submission of claims for contractual adjustments and recognition of sales contracts and obtaining financial event for the company\n \n \n Job Title : Contract Analyst\n Company name : Cegelec Ltda\n Period : ago. de 1998 – jan. de 26\n Summary : • Development, implementation and training of \"Project Review\" - Report detailing the specific features of the contract showing its financial performance and internal and external indicators of the contract Installed in 6 contracts from Brazil's regional, training all Projects Managers and Coordinators of the maintenance contracts of long duration in Cegelec \n • Coordination of the register PROGEFE - Program Management Engineering Suppliers - PETROBRAS on items of Studies and Projects - Electricity-substations \n • Development, implementation and training management system - System designed to build a corporate information of a commercial company in its various stages of development, from initial prospecting, through the approvals, risk assessments and proposals;"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : FIA– São Paulo, Brazil\n Speciality : MBA – Project Management\n Period : 213 – 215\n School name : Faculdade Armando Alvares Penteado – FAAP\n Speciality : MBA – Executive\n Period : 28 – 21\n \n School name : Universidade Ibero Americana\n Speciality : Bachelor in Business Administration with an emphasis on Systems Analysis\n Period : 1992 – 1997"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "663d3c52-78df-4649-b12a-c61639dd646e",
+    "id": "df4f7c2e-8f9a-464a-b5cd-ecb105cfd6cb*663d3c52-78df-4649-b12a-c61639dd646e",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:33.720Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:33.720Z",
+      "linkedinUsername": "ana-paula-pereira-87a61718",
+      "email": "anapaulagp75@hotmail.com",
+      "phone": "11969266750",
+      "name": "Ana Paula Pereira",
+      "id": "663d3c52-78df-4649-b12a-c61639dd646e"
+    },
+    "timeInCurrentStage": 61412702176
+  },
+  {
+    "importedAt": "2024-02-08T18:39:35.703Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "21/02/1981"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "19000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "45047"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45047"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "puc sp"
+      },
+      {
+        "name": "Preferência por trabalhar em empresas que valorizam Diversidade",
+        "id": "16",
+        "type": "text",
+        "value": "Sim"
+      },
+      {
+        "name": "Como se classifica em relação à Diversidade",
+        "id": "17",
+        "type": "text",
+        "value": "Gênero"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Administradora de Contratos Senior (Project Controller)"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Administradora de Contratos Senior (Project Controller)\n Company name : ABB\n Period : dez de 28 - o momento\n Summary : - Experiencia em coordenação de equipes, sendo responsável pela consolidação da área para apresentação para diretoria;\n - Análise do DRE, com comparação budget x forecast x actual, sendo responsável pela análise das contas contábeis para verificação e report de desvios. Suporte ao Controller no Planejamento Financeiro, Controladoria, Revenue Management da área;\n - Elaboração e participação nas discussões referentes a centro de custos para projeção das despesas, bem como seu acompanhamento trimestral de gastos;\n - Suporte à área de Vendas/Proposta para elaboração de planilha de custos as-sold. Análise do draft do contrato para identificação de possíveis riscos financeiros durante a fase operacional;\n - Administração dos projetos em conjunto com o Gerente de Projeto. Acompanhamento, análise e controle/atualização mensais dos principais KPIs de projetos (Receita, lucro, custo, fluxo de caixa, net working capital, margem bruta e margem net). Comparação e análise de budget x actual x forecast;\n - Elaboração e acompanhamento do relatório de custos com verificação da causa raiz. Acompanhamento com o departamento da qualidade para correção dos processos;\n - Acompanhamento e controle de valores de consórcio;\n - Elaboração e análise de relatórios gerenciais, incluindo relatórios Backlog, Overdue e CoPQ (costs of poor quality);\n - Elaboração em conjunto com a equipe de projetos do Risk and Opportunity assessment. Acompanhamento mensal dos itens levantados e valores de probabilidades para correta apuração da margem dos projetos;\n - Experiência em cálculo de reajuste contratual e em análise de garantias contratuais (seguro garantia e fiança bancária);\n - Experiência em contratos com hedges, através do controle de contratações para assegurar custos e receitas em moeda estrangeira programadas no projeto. Experiência com projetos de exportação;\n - Acompanhamento do fechamento mensal com a área de controladoria;\n - Participação ativa em Project Reviews;\n - Atendimento a auditoria baseada na SOX.\n Location : São Paulo e Região, Brasil\n \n Job Title : Administradora de Contratos Pleno\n Company name : Alcatel-Lucent\n Period : jul de 24 - dez de 28\n Summary : - Experiência em administração de contratos de alto valor na área de telecomunicações (Telefonica / Brasil Telecom Celular) para implantação e ampliação de rede de telefonia fixa e móvel, acompanhando os eventos físicos e financeiros;\n - Report para Matriz dos projetos com fornecimento direto (Alcatel França – Cliente Brasil);\n - Acompanhamento de processos de importação;\n - Conciliação de contratos com cliente;\n - Cadastro de pedidos de compra, faturamento, cobrança e recebimentos no SAP.\n Location : São Paulo e Região, Brasil\n \n Job Title : Assistente de Importação/Exportação\n Company name : Schreder do Brasil Ltda\n Period : nov de 22 - jul de 24\n Summary : - Responsável por todos os processos de importação e exportação da empresa, desde a cotação do pedido de compra, até o fechamento de câmbio. Análise e preparação de toda a documentação, incluindo certificados de origem e cartas de crédito;\n - Administração da carteira de compras/vendas internacionais em USD;\n - Experiência com negociação de Incoterms na exportação e na importação, classificação fiscal de mercadorias, emissão de notas fiscais de importação e exportação;\n - Coordenação logística e aplicação da legislação aduaneira nas operações de Comércio Exterior;\n - Fechamentos de câmbio no mercado livre e flutuante, diretamente com instituições financeiras.\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Estagiária de Compras Internacionais e Administração de Contratos\n Company name : Alcatel-Lucent\n Period : fev de 21 - nov de 22\n Summary : Estagiária na área de Compras Internacionais/Administração de Contratos\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/aline-carvalho-guzeloto-9b6a8331"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "227d8609-5bd6-4f75-a1bd-2fa35a188756",
+    "id": "df4f7c2e-8f9a-464a-b5cd-ecb105cfd6cb*227d8609-5bd6-4f75-a1bd-2fa35a188756",
+    "talent": {
+      "company": "Hitachi Energy",
+      "createdAt": "2023-12-20T13:52:19.676Z",
+      "email": "alinecav@hotmail.com",
+      "headline": "",
+      "linkedinUsername": "aline-carvalho-guzeloto-9b6a8331",
+      "location": "",
+      "name": "Aline Carvalho Guzeloto",
+      "phone": "11984812061",
+      "picture": "https://media.licdn.com/dms/image/C5603AQE-s7Jbqi_ZDg/profile-displayphoto-shrink_200_200/0/1516490262100?e=1714608000&v=beta&t=_dOP6FYekQ8EdVPvmPkLcG2rOxO8Db4g2h2eJzmBu6I",
+      "status": "UNKNOWN",
+      "updatedAt": "2024-02-26T17:12:25.436Z",
+      "id": "227d8609-5bd6-4f75-a1bd-2fa35a188756"
+    },
+    "timeInCurrentStage": 61413302176
+  }
+]

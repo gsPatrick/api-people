@@ -1,0 +1,587 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:30.683Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "20/05/1980"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "26500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Elétrica",
+          "id": "9351680b-8549-4071-98fc-d485b31dc312",
+          "label": "Engenharia Elétrica"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Desenvolvimento de Negócios - Energia e Telecom"
+      },
+      {
+        "name": "Estado Civil",
+        "id": "20",
+        "type": "select",
+        "value": {
+          "value": "Separado(a)",
+          "id": "59c5b0bd-f19d-41c1-88f0-3636592206e9",
+          "label": "Separado(a)"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de Desenvolvimento de Negócios - Energia e Telecom\n Company name : Andrade Gutierrez S.A\n Period : jan. de 221 – o momento\n Summary : Desenvolvimento de novos negócios na área de transmissão e distribuição de energia elétrica no Brasil e America Latina, com foco em clientes públicos e privados Prospecção de novos mercados, criando oportunidades de negócios dentro dos mercados foco\n Location : São Paulo, São Paulo, Brasil\n \n Job Title : Gerente de Administração Contratual - Obras de Linhas de Transmissão e Usinas Fotovoltáicas\n Company name : Andrade Gutierrez S.A\n Period : fev. de 22 – dez. de 22\n Summary : Gerente de Administração Contratual de contratos EPC de linhas de transmissão, subestações e usinas fotovoltaicas, totalizando mais de 22 km de linhas em 5kV, 2 subestações novas, 4 ampliações, 35MWp em geração solar Atuação direta na gestão junto aos clientes, garantindo o cumprimento integral das obrigações dos empreendimentos, com foco na entrega com qualidade e dentro do cronograma Gestão de suprimentos de materiais e serviços engenheirados, atuando desde os processos de contratação, negociação comercial, fechamento dos contratos e gestão do fornecimento Responsável pela medição cliente, medição subcontratados, faturamento direto, change orders e reinvindicações\n Location : Belo Horizonte, Minas Gerais, Brasil\n \n Job Title : Engenheiro de Obras - Administração Contratual e Riscos - Linhas de Transmissão\n Company name : Andrade Gutierrez S.A\n Period : jun. de 218 – fev. de 22\n Summary : Gerente de Administração Contratual e Risco de Contrato EPC para execução de mais de 21 km em Linhas de Transmissão de 5 kV, 23 kV e 6 subestações (novas e ampliações) nos estados da Bahia, Para, Piaui e Minas Gerais Implantação das rotinas e controles de administração contratual, gestão de riscos, acompanhamento e gestão de Plano de Captura de Valor\n Location : Belo Horizonte e Região, Brasil\n \n Job Title : Engenheiro de Obras - Administração Contratual - Linha 17 - Ouro\n Company name : Andrade Gutierrez S.A\n Period : jan. de 216 – mai. de 218\n Summary : Responsável pela administração contratual em obra metroviária de grande porte, controlando e garantindo o cumprimento das obrigações e deveres estabelecidos no Contrato Elaboração de correspondências oficiais, controle de toda documentação do Contrato e gestão da medição dos serviços executados Analise de resultados financeiros e econômicos, atuação ativa na tomada de decisões do Contrato e Gestão de Riscos Participação na implantação do lean construction no projeto e atuação como agente de mudança na área de captura de valor\n Location : São Paulo\n \n Job Title : Engenheiro de Obras - Sistemas - Linha 17 - Ouro\n Company name : Andrade Gutierrez S.A\n Period : abr. de 214 – jan. de 216\n Summary : Coordenador da implantação dos sistemas operacionais da Linha 17 - Ouro do Metrô de São Paulo Instalação de sistema de captação de energia, sinalização CBTC - UTO da Thales, Track Switch, Sistema de Transmissão por Fibra Ótica, bandejamento e PSD (Porta de Plataforma de Estação)\n Location : São Paulo e Região, Brasil\n \n Job Title : Engenheiro de Obras - Modernizacao Estadio Beira Rio\n Company name : Andrade Gutierrez S.A\n Period : fev. de 213 – abr. de 214\n Summary : Responsável pela implantação dos sistemas elétricos e eletrônicos da obra de Modernização do Estádio Beira Rio, em Porto Alegre\n Sistema de Iluminação Esportiva com mais de 8 kW de potência, iluminação interna e externa do Estádio e Edificio Garagem, CFTV com mais de 28 câmeras IP, oito subestações, instalações Elétricas AT/BT, Sistemas de áudio e vídeo, Digital Signage, dois telões de 82 m2, Sistema de Telecomunicações, SPDA, Sistema de Geradores e UPS Rotativa\n Atendimento aos padrões FIFA e certificação LEED\n \n Job Title : Engenheiro de Obras - Expansao Linha 1 Trensurb\n Company name : Andrade Gutierrez S.A\n Period : fev. de 29 – jan. de 213\n Summary : Responsável pela implantação dos sistemas operacionais da expansão, entre São Leopoldo e Novo Hamburgo, incluindo 18,6 km de rede aérea de tração autocompensada, uma subestação retificadora de 1 MVA, expansão do sistema de sinalização em bloco fixo, sistema de telecomunicações e auxiliares de energia para 5 estações Expansão do sistema de controle de trafego e energia \n Experiência em máquinas de chave CONTEC e instalação em jacarés móveis de aparelhos de mudança de via VAE\n \n Job Title : Engenheiro de Obras - Corredor Noroeste Campinas Lote B\n Company name : Andrade Gutierrez S.A\n Period : mar. de 28 – fev. de 29\n Summary : Engenheiro de produção responsável pela pavimentação asfáltica de vias urbanas, pavimento rígido de corredores de ônibus, calcadas em blocos intertravados, construção de duas pontes, obras de arte corrente, macrodrenagem, urbanização e edificação de um terminal de ônibus (terminal Hortolândia da EMTU-SP)\n Location : Campinas e Região, Brasil\n \n Job Title : Assistente Comercial - Escritorio Porto Alegre\n Company name : Andrade Gutierrez S.A\n Period : set. de 25 – mar. de 28\n Summary : Assessoria na gestão comercial da regional sul, atendendo clientes públicos e privados no RS \n Auxilio na prospecção de negócios e na construção de relacionamentos com clientes de grande porte\n Estudo de grandes projetos, como centrais termelétricas, barragens, sistemas de saneamento publico, drenagem urbana, metros e BRTs\n Auxilio na montagem de PPPs e financimento de projetos em geral (BNDES, BID, BIRD e CAF)\n \n Job Title : Consultor Trainee\n Company name : INDG\n Period : fev. de 25 – set. de 25\n Summary : Consultoria de redução de despesas no governo do estado do Rio Grande do Sul, com o uso da metodologia GMD (Gerenciamento Matricial de Despesas)\n Atuação direta em secretarias e autarquias do governo estadual, com relacionamento no médio e alto escalão, na implantação da metodologia de redução de despesas proposta\n Location : Porto Alegre e Região, Brasil\n \n \n Job Title : Estagiario Engenharia Eletrica\n Company name : VARIG\n Period : mai. de 23 – jan. de 25\n Summary : Elaboração de relatórios para re-certificação junto a FAA (Federal Aviation Administration)\n Location : Porto Alegre e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Universidade Federal do Rio Grande do Sul / UFRGS\n Speciality : Especialista em Gestao de Energia, Pos Graduacao em Gestao de Energia Eletrica\n Period : 211 – 212\n \n School name : Universidade Federal do Rio Grande do Sul / UFRGS\n Speciality : Engenheiro Eletricista, Electrical, Electronics and Communications Engineering\n Period : 1999 – 24\n Courses: Title : Construction Claims; Title : Engenharia Elétrica; Title : Especialização em Gestão de Energia; Title : NR-1; \n Title : Segurança Ferroviária"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "ab23b619-009e-46f2-b99e-f398ab505700",
+    "id": "28890951-c5c2-4172-8ffc-00b2c087f26d*ab23b619-009e-46f2-b99e-f398ab505700",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:08.330Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:08.330Z",
+      "linkedinUsername": "andrederesenderodrigues",
+      "email": "andre_deresende@yahoo.com.br",
+      "phone": "11976499559",
+      "name": "Andre de Resende Rodrigues",
+      "id": "ab23b619-009e-46f2-b99e-f398ab505700"
+    },
+    "timeInCurrentStage": 61412025961
+  },
+  {
+    "importedAt": "2024-02-08T18:39:30.724Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "09/11/1980"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "12500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Pontifícia Universidade Católica de Minas Gerais / PUC Minas"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Analista de Controles Internos Master"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "MG",
+          "id": "fd9a75a0-f705-48e8-9abe-cb8601c06067",
+          "label": "MG"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Analista de Controles Internos Master\n Company name : Vale\n Period : mar. de 221 – o momento\n Location : Belo Horizonte, Minas Gerais, Brasil\n \n Job Title : Administração Contratual\n Company name : Andrade Gutierrez S.A\n Period : ago. de 22 – mar. de 221\n Summary : - Responsável pelas atividades da área de Administração Contratual e Gestão de Riscos do\n contrato EPC para execução de uma usina termelétrica do tipo ciclo combinado e uma subestação de energia no Porto do Açu/RJ Implantação das rotinas e controles de\n administração contratual e gestão de riscos;\n - Apoio às rotinas da área de gestão de subcontratos nos contratos estratégicos no que diz\n respeito à elaboração das atas de reunião, gestão dos relatórios diários de obra, emissão de\n cartas/notificações e análise de pleitos\n Location : Campos dos Goytacazes, Rio de Janeiro, Brasil\n \n Job Title : Administração Contratual\n Company name : Andrade Gutierrez S.A\n Period : jan. de 219 – ago. de 22\n Summary : - Responsável pelas atividades da área de Administração Contratual e Gestão de Riscos do \n contrato EPC para execução de 1168 Km de Linhas de Transmissão de 5KV e 3 \n subestações nos estados da Bahia e Minas Gerais Implantação das rotinas e controles de \n administração contratual e gestão de riscos;\n - Apoio às rotinas da área de gestão de subcontratos nos contratos estratégicos no que diz \n respeito à elaboração das atas de reunião, gestão dos relatórios diários de obra, emissão de \n cartas/notificações e análise de pleitos\n Location : Janaúba, Minas Gerais\n \n Job Title : Analista Senior de Compliance\n Company name : Andrade Gutierrez S.A\n Period : jul. de 216 – dez. de 218\n Summary : - Responsável por promover o desenvolvimento e aplicação de treinamento e conscientização para todos os funcionários e terceiros da empresa, desenvolver campanhas de comunicação, propor políticas e procedimentos e suas melhorias, assessorar no acompanhamento e aprimoramento das políticas de conduta empresarial, contribuir para a melhoria dos controles internos, esclarecer dúvidas relacionadas ao código de ética e conduta e às principais políticas da empresa e auxiliar a empresa no atendimento a due diligences efetuadas por terceiros\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Coordenadora de Governança Corporativa (Gestão, Processos e Qualidade)\n Company name : SERPAF Projetos e Construções\n Period : jul. de 215 – jun. de 216\n Summary : - Elaboração do modelo SERPAF de governança corporativa, aprovação deste, na forma da constituição social e organização das posições funcionais, coordenação, manutenção e melhoria do sistema visando uma organização transparente e compliance quanto as regulamentações;\n - Revisão e gestão da estratégia, parametrização de resultados e gerenciamento pelas diretrizes da empresa, sugerindo e aprovando o modelo de gestão, treinando e supervisionando o processo, apurando e auditando os resultados;\n - Coordenação da qualidade intrínseca dos processos, mapeamento dos processos de: engenharia, suprimentos, construção e montagem eletromecânica, elaboração do manual de qualidade da empresa e dos planos de qualidade dos projetos na busca de padrões de alto nível de performance operacional com menor custo de manutenção\n Location : Rio de Janeiro e Região, Brasil\n \n \n Job Title : Consultor de gestão de projetos\n Company name : MCA Auditoria e Gerenciamento\n Period : jul. de 21 – mar. de 215\n Summary : - Atuou na área de Gestão, Auditoria de Obra, Compliance, Gerenciamento de Projetos e Obras, Análise de Pleitos, Mapeamento de Processos, Elaboração de Procedimentos e Treinamentos"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Comunicação e Oratória\n Period : Emitido em ago. de 2021 - Nenhuma data de expiração\n Issuing Authority : Escola Conquer\n \n Title : Inteligência Emocional\n Period : Emitido em mai. de 2020 - Nenhuma data de expiração\n Issuing Authority : Escola Conquer"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "Education: School name : Ohio University\n Speciality : Master of Business Administration (M.B.A.), Strategic Business Leadership, 9,7\n Period : 213 – 213\n Summary : Strategic Business Leadership, Trabalho de conclusão de curso com o tema \"Gerenciamento de Mudanças em Projetos\".\n School name : Fundação Getulio Vargas\n Speciality : Master of Business Administration (MBA), Gerenciamento de Projetos, 1\n Period : 211 – 212\n Summary : Trabalho de Conclusão de Curso com o tema \"A Prevenção Sistemática de Conflitos Contratuais em Obras de Grande Porte\" aprovado com nota máxima e indicado para publicação., MBA Executivo Internacional em Gerenciamento de Projetos\n School name : Universidade Federal de Minas Gerais\n Speciality : Especialização, Tecnologia em Engenharia Ambiental\n Period : 26 – 27\n Summary : Pós-Graduação em Tecnologia Ambiental\n \n School name : Pontifícia Universidade Católica de Minas Gerais\n Speciality : Bacharelado em Arquitetura e Urbanismo, Arquitetura e Urbanismo\n Period : 1999 – 25\n Summary : Graduação em Arquitetura e Urbanismo\n Courses: Title : Excel Avançado; Title : Formação de Auditores Internos da Qualidade e Sistemas de Gestão Integrado; Title : Gestão de Contratos de Construção e Montagem com ênfase em registros e pleitos; Title : Lead Assessor ISO 19.6 : 214; Title : Mapeamento e Gerenciamento de Processos; \n Title : Sistema de Padronização de Engenharia /Vale"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "bfafc514-f612-4583-93d6-55d09d7a2410",
+    "id": "28890951-c5c2-4172-8ffc-00b2c087f26d*bfafc514-f612-4583-93d6-55d09d7a2410",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:07.446Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:07.446Z",
+      "linkedinUsername": "martinabaiao",
+      "email": "martinabaiao@gmail.com",
+      "phone": "31997906698",
+      "name": "Martina Baião",
+      "id": "bfafc514-f612-4583-93d6-55d09d7a2410"
+    },
+    "timeInCurrentStage": 61412325961
+  },
+  {
+    "importedAt": "2024-02-08T18:39:30.743Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "29/06/1982"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "28000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "6"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe + prev priv"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia civil",
+          "id": "9556216e-65f1-4fb6-b9a8-a919194e751a",
+          "label": "Engenharia civil"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Administração Contratual, Subcontratos e Gestão de Riscos"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "4 filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente de Administração Contratual, Subcontratos e Gestão de Riscos\n Company name : Andrade Gutierrez S.A\n Period : nov. de 217 – o momento\n Summary : Responsável por Administração Contratual, Subcontratos e Gestão de Riscos relativos ao contrato EPC da Usina Termoelétrica GNA I Usina de ciclo combinado de 1,3 GW situada no Porto do Açu\n Location : Porto do Açu, São João da Barra, Rio de Janeiro\n \n Job Title : Gerente de Engenharia\n Company name : Andrade Gutierrez S.A\n Period : dez. de 214 – nov. de 217\n Location : Rio de Janeiro\n \n Job Title : Coordenador de Projetos\n Company name : Andrade Gutierrez S.A\n Period : mar. de 213 – dez. de 214\n Summary : Coordenação de equipe para elaboração de propostas técnicas e econômicas para obras de infraestrutura na América Latina\n \n Job Title : Engenheiro Civil\n Company name : Andrade Gutierrez S.A\n Period : ago. de 26 – fev. de 213\n Summary : Elaboração de propostas técnicas e econômicas para obras de infraestrutura na América Latina\n \n Job Title : Estagiário de Engenharia Civil\n Company name : LENC LAB DE ENGENHARIA\n Period : out. de 25 – ago. de 26\n Summary : - Elaboração de projetos de sistemas viários, pavimentação e drenagem, incluindo o dimensionamento das estruturas, realização dos desenhos, elaboração dos quantitativos e redação dos relatórios finais dos projetos\n \n \n Job Title : Estagiário de Engenharia Civil\n Company name : Drenatec Engenharia e Consultoria\n Period : dez. de 24 – out. de 25\n Summary : - Avaliação técnica de projetos de esgotamento sanitário;\n - Elaboração de projetos básicos de sistemas de drenagem e barragem de alteamento para captação de água, incluindo o dimensionamento das estruturas, realização dos desenhos, elaboração dos quantitativos e redação dos relatórios finais dos projetos"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "https://www.linkedin.com/in/paulo-couri-abb3aa"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "a37cb4b3-4068-42f1-854a-006f7c8eb0b0",
+    "id": "28890951-c5c2-4172-8ffc-00b2c087f26d*a37cb4b3-4068-42f1-854a-006f7c8eb0b0",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:05.979Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:05.979Z",
+      "linkedinUsername": "paulo-couri-ab0b3aa",
+      "email": "paulo.couri@gmail.com",
+      "phone": "11943008379",
+      "name": "Paulo Couri",
+      "id": "a37cb4b3-4068-42f1-854a-006f7c8eb0b0"
+    },
+    "timeInCurrentStage": 61412025961
+  },
+  {
+    "importedAt": "2024-02-08T18:39:30.805Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "16/07/1983"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "12000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Coordenadora de Administração Contratual"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Coordenadora de Administração Contratual\n Company name : Consórcio SNE - Sacyr Neopul ETC\n Period : jun. de 22 – set. de 221\n Location : Rio Verde, Goiás, Brasil\n \n Job Title : Supervisora de Adm. Contratual\n Company name : Consórcio SNE - Sacyr Neopul ETC\n Period : nov. de 219 – jun. de 22\n Location : Rio Verde, Goiás\n \n Job Title : Supervisora de Contratos/ Regulação\n Company name : K-INFRA RODOVIA DO AÇO\n Period : out. de 218 – out. de 219\n Summary : • Controle e respostas aos TRO’s; \n • Controle dos prazos de respostas das solicitações da ANTT (Reprogramação de obra, Reconsideração, Reprogramação do Planejamento Anual, Revisão Ordinária e Extraordinária, entrega de as built)\n  • Elaboração e envio de relatórios mensais a ANTT (RETOFF e PRF);\n • Controle/ solicitação de autorização de compra de bens para PRF, dos documentos e gastos do convênio a ANTT;\n • Controle dos AI’s;\n • Elaboração de pedidos de reprogramação das obras do Contrato de Concessão;\n • Monitoração – elaboração de TR, contratação, acompanhamento das atividades de monitoração, check list de atendimento as exigências dos relatórios padrões e PER;\n • Controle das apólices de seguro das obras;\n • Controle dos prazos de respostas às Prefeituras\n Location : Vassouras RJ\n \n Job Title : Supervisora Administrativo Financeiro\n Company name : ACCIONA Construcción\n Period : ago. de 217 – out. de 218\n Location : Vassouras, Rio de Janeiro, Brasil\n \n Job Title : Analista Financeiro Senior\n Company name : ACCIONA Construcción\n Period : out. de 212 – jul. de 217\n Summary : Atuação no setor Administrativo Financeiro – Supervisão tesouraria – Cash Flow (real/ previsto/ diferença); conferência e controle dos caixas de todos os Projetos; Controle das contas bancárias; Fiscalização das prestações de contas de todos os colaboradores; Gestão e elaboração dos procedimentos do Setor de Contas à pagar; Responsável pela relação financeira entre Obra x Matriz; Acompanhamento diário SERASA; Gestão de toda a rotina financeira; Controle logístico das notas fiscais (volume aproximado de 3 notas/mês; Controle dos pagamentos; Controle de todos os adiantamentos a fornecedores por projeto\n Location : São João da Barra RJ\n \n Job Title : Encarregado Administrativo\n Company name : Grupo Riwa\n Period : jun. de 212 – out. de 212\n Summary : Gestão de atividades Administrativo/ financeiro do escritório de um dos contratos da Empresa; Suporte à Gerência da Obra e do escritório através de relatórios periódicos; Controle de fluxos financeiros com relação à legislação fiscal, trabalhista e previdenciária; Controle de processos de pagamentos da Obra através de lançamentos de NF’s e impostos em Sistema próprio e despachos em Bancos; Administração de Fundo Fixo (Caixa Obra); Aplicação de Recursos Humanos, admissões, demissões e conferência folha de pagamento\n Location : Macaé e Região, Brasil\n \n Job Title : Assistente Administrativo Financeiro\n Company name : Carioca Christiani Nielsen Engenharia\n Period : nov. de 211 – jun. de 212\n Summary : Atuação no setor Administrativo Financeiro – Elaboração e acompanhamento diariamente o fluxo de caixa e c/c; Preparação de projeções de caixa para análises com enfoque a médio/longo prazo; Relacionamento com bancos; Análise de controle bancário; Análise e envio de relatórios financeiros e gerenciais de acompanhamento periódico; Realizamento de toda rotina de pagamentos e conciliações bancárias; Garantia que todos os documentos estejam devidamente aprovados e dentro do prazo de pagamento; Realização de montagem dos processos de pagamento para emissão do borderô e pagamentos eletrônicos; Controle e agendamento dos pagamentos; Preparação de relatórios com previsão de valores a pagar para efeitos de elaboração do Fluxo de caixa; Controle dos ativos fixo/inventário; Realização de conciliações e classificações contábeis; Coordenação de equipe; Mobilização e desmobilização de Canteiro de Obras Civil; Admissões e demissões de colaboradores;\n – Setor Engenharia - Confecção e controle de medições de subempreiteiro\n Location : Macaé e Região, Brasil - Obra ETE Virgem Santa e RJ 16\n \n \n Job Title : Assistente Administrativo Financeiro\n Company name : Carioca Christiani Nielsen Engenharia\n Period : mar. de 211 – ago. de 211\n Summary : Atuação no setor Administrativo Financeiro - toda a rotina de contas a pagar- e na Sessão Técnica - Confecção e controle de medições de subempreiteiro\n Location : Obra Emergência Teresópolis RJ"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : MBA USP/Esalq\n Speciality : Master of Business Administration - MBA, Gestão de Projetos\n Period : 221 – 222\n School name : Centro Universitário Serra dos Órgãos\n Speciality : UNIFESO, Administração\n Period : 23 – 26\n \n School name : UNIFESO\n Speciality : Bacharelado em Administração"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "0a82a917-f5d0-4202-bcf3-b23030816dd9",
+    "id": "28890951-c5c2-4172-8ffc-00b2c087f26d*0a82a917-f5d0-4202-bcf3-b23030816dd9",
+    "talent": {
+      "updatedAt": "2023-12-20T14:07:47.339Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:07:47.339Z",
+      "linkedinUsername": "juliana-souza-404a9136",
+      "email": "juliana.souza.adm@hotmail.com",
+      "phone": "21992104225",
+      "name": "Juliana Souza",
+      "id": "0a82a917-f5d0-4202-bcf3-b23030816dd9"
+    },
+    "timeInCurrentStage": 61412025961
+  },
+  {
+    "importedAt": "2024-02-08T18:39:30.770Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "07/06/1985"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "20000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Presbiteriana Mackenzie"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente de Administração Contratual"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Gerente de Administração Contratual\n Company name : Sigdo Koppers Brasil SKIC\n Period : ago. de 221 – o momento\n Location : São Paulo, Brasil\n \n Job Title : Gerente de Administração Contratual\n Company name : Sigdo Koppers Brasil SKIC\n Period : ago. de 221\n Location : São Paulo, Brasil\n \n Job Title : Coordenadora de Gestão de Contratos\n Company name : ICSK\n Period : ago. de 217 – o momento\n Location : São Paulo, São Paulo\n \n \n Job Title : Coordenadora de Gestão de Contratos\n Company name : Alusa Engenharia SA\n Period : mai. de 28 – jun. de 217\n Summary : Responsável pela mitigação dos riscos contratuais, análise da documentação do fornecedor, assim como a análise financeira e tributária/fiscal conforme a contratação que será realizada, além da análise das propostas comerciais, dos valores unitários, condições comerciais e planilhas de medições\n Revisão de valores de acordo com as unidades estabelecidas dos contratos, para lançamento em Sistema RP e liberação de faturamento\n Gestão de equipes das Obras e Matriz, garantindo de que todos os processos que se referem à área sejam realizados de acordo com os procedimentos estabelecidos, garantindo a qualidade dos serviços\n Implantação e reestruturação do setor de Contratos, aplicando revisão, descrição e inserção de procedimentos e políticas, a fim de estabelecer maior facilidade no gerenciamento das rotinas e desenvolvimento do setor, bem como redução de custos\n Análise, apuração e recolhimento dos impostos (ISS / PIS / COFINS / IRRF / Contribuição sobre Empreendimentos Autônomos / Seguridade Social retidos na fonte), assim como atendimento a fiscalizações previdenciárias, federal e municipal\n Negociação com fornecedores e clientes, visando a melhor relação no que se refere a custo x benefício, além de suporte à área no processo de busca de novos fornecedores\n Gerenciamento de carteira de contratos de subempreiteiros e prestadores de serviços por meio de Sistema RP\n Acompanhamento dos custos das obras para apuração do realizado x orçado a fim de apresentar mensalmente à Direção de Suprimentos, o andamento dos contratos e conformidade de custos e prazos estabelecidos\n Fechamento de contratos, bem como suas medições e acompanhamento financeiro\n Revisão de contratos no que se refere a prazo, saldo, valor, medições, documentação de Regularidade Fiscal de acordo com itens contratados e cláusulas contratuais\n Location : São Paulo e Região, Brasil\n Company 2: ICSK"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Master of Business Administration - MBA, Gerencimento Estratégico e Economico de Negócios\n Period : 218 – 22\n School name : Fundação Getulio Vargas\n Speciality : Master of Business Administration (MBA), Gestão de Projetos\n Period : 211 – 213\n \n School name : Universidade Presbiteriana Mackenzie\n Speciality : Bachelor's degree, Administração de Empresas\n Period : 23 – 26"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "3667ef48-66a1-4f75-8373-27e1401ba6a2",
+    "id": "28890951-c5c2-4172-8ffc-00b2c087f26d*3667ef48-66a1-4f75-8373-27e1401ba6a2",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:10.484Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:10.484Z",
+      "linkedinUsername": "renata-ranzani-de-miranda-0a07458b",
+      "email": "rranzanimiranda@gmail.com",
+      "phone": "19981818428",
+      "name": "Renata Ranzani de Miranda",
+      "id": "3667ef48-66a1-4f75-8373-27e1401ba6a2"
+    },
+    "timeInCurrentStage": 61412025961
+  }
+]

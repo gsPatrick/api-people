@@ -1,0 +1,1909 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:53.284Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "09/07/1970"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "17000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "44960"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Industrial"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "7 e 15"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente Industrial\n Company name : PIRELLI PNEUS LTDA\n Period : abr de 212 - o momento\n Summary : • Projetos: instalação de 3 unidades/processos para atender Jeep, Audi e Jaguar Land Rover. Investimento R$5 milhões. Definições industriais e logística, solução de problemas, gerenciamento de cronograma e orçamento, relatório de atividades e análise de risco/plano de ação;\n • Gerente da Planta: responsável por todas as atividades Administrativas e Operacionais de uma unidade industrial e suas áreas de suporte, tais como: Produção, Manutenção, Suprimentos, Planejamento, Qualidade, Engenharia, HSE e Recursos Humanos. Principais ações:\n - Ações Preventivas para redução de acidentes e quase acidentes: Instalação de 2 Comitês de segurança com mais de 3 ações; fortalecimento e engajamento do trabalho da CIPA;\n - Coordenação de 22 projetos Kaizen nos últimos 4 anos, com ganhos em produtividade e segurança.\n - Certificação Sistema da Qualidade IATF 16949; análise de risco dos processos; elaboração e implementação de planos de contingencia, para evitar ou mitigar riscos;\n - Ações de excelência em produção e qualidade, resultando em (1) uma reclamação do Cliente nos últimos 5 anos;\n \n • Qualidade: responsável por 4 unidades, quanto ao Sistema da Qualidade e Qualidade de Entrega e Fornecedor.\n - Redefinição de métricas de indicadores para 4 unidades, objetivando melhor atuação dos gestores diretos;\n - Estruturação e formação do comitê de risco para 3 unidades, e treinamento para as pessoas de suporte ao comitê;\n - Programa para implementar gestão de riscos nos fornecedores;\n - Manutenção Sistema da Qualidade e Certificação IATF 16949 para 3 unidades\n Location : Santo Andre\n \n Job Title : Gerente de Projeto/Programa\n Company name : PIRELLI PNEUS LTDA\n Period : ago de 29 - mar de 212\n Summary : • Instalação de 2 unidades Pirelli (PSA -Argentina, e Toyota -Sorocaba), atuando como principal referência para o Cliente nas comunicações, negociações do projeto, solução de problemas, e gerenciamento de cronograma e orçamento, relatório de atividades e análise de risco/plano de ação;\n • Projeto PSA – implantação da unidade Pirelli em Hurlinghan na Argentina, com grande atuação como responsável na transferência e instalação de equipamentos usados transferidos da Pirelli Inglaterra, e no planejamento da transferência da produção de um fornecedor PSA para a Pirelli;\n • Projeto Toyota – implantação da unidade Pirelli em Sorocaba – SP, atuando como facilitador e conexão entre as empresas (Pirelli x Toyota x Construtora x Investidor), para a elaboração de diversos contratos entre as partes, viabilizando a construção e locação do galpão (Built to Suit). Visitei complexo de fornecedores Toyota na China, com a finalidade de benchmarking, e melhorias durante a instalação da planta no Brasil.\n • Conquistei envolvimento e comprometimento dos responsáveis das áreas da empresa, demonstrando a importância dos projetos, e permitindo a alocação dos recursos necessários para atendimento das metas estabelecidas.\n Location : Santo André\n \n Job Title : Gerente de Planta\n Company name : PIRELLI PNEUS LTDA\n Period : dez de 25 - jul de 29\n Summary : • Head da unidade, responsável por todas as atividades Administrativas e Operacionais de uma unidade industrial e suas áreas de suporte, tais como: Produção, Manutenção, Suprimentos, Planejamento, Qualidade, Engenharia, HSE e Recursos Humanos. Principais ações:\n - Implementei estudos de MSA (Análise dos Sistemas de Medição), e cultura de ZERO DEFEITO, o que resultou em ZERO reclamações do cliente por mais de 24 meses, além de experiência em MASP, FMEA, Plano de Controle, 8D, e Controle Estatístico de Processo;\n - Reduzi 95% dos gastos com estadias de frete, na implantação de janela de entregas para recebimento de materiais, através de um planejamento de entregas, acordo com os fornecedores, e indicadores específicos;\n - Forte atuação na gestão de pessoas, obtendo altos índices nas pesquisas de clima;\n - Desenvolvi cultura para valorização e crescimento dos funcionários, com base no empoderamento, espirito de equipe, objetivos claros, e responsabilidades, obtendo 1% de aproveitamento dos recursos internos para novas posições / promoções.\n Location : Curitiba\n \n Job Title : Coordenador de Logistica e Qualidade\n Company name : PIRELLI PNEUS LTDA\n Period : jun de 1998 - nov de 25\n Summary : • Coordenei cinco unidades (plantas), no acompanhamento de compras de peças, CAPEX, e serviços, e suporte para o pleno funcionamento das unidades, envolvendo-se com diversas áreas da empresa, clientes e fornecedores;\n • Realizei estudos para definição de fluxo produtivo e logístico, área de armazenamento e produtiva, e dimensionamento de recursos (equipamentos e pessoas), para a implantação de fábricas;\n • Padronizei procedimentos de qualidade e operacional, baseado no Sistema da Qualidade ISO/TS 16949, e implantei qualidade assegurada e indicador de pontualidade de entrega dos fornecedores, para cinco plantas;\n • Implantei Certificação ISO/TS 16949, em quatro plantas no prazo de 6 meses, e fui responsável por auditorias de primeira, segunda e terceira partes nessas unidades;\n • Desenvolvi através de auditoria de qualidade e avaliação de processo, desenvolver um novo fornecedor de matéria-prima.\n Location : Santo Andre\n \n Job Title : Técnico de Processos\n Company name : FEVAP\n Period : fev de 1996 - mai de 1998\n Summary : • Atuei como responsável por Organização e Métodos (O&M); documentação operacional; treinamentos; fluxo produtivo e projeto de células produtivas; e Certificação ISO 91;\n • Realizei melhoria em embalagens, que resultou no aumento da capacidade de transporte de peças (15%), e reduziu peças danificadas (2%).\n Location : Sao Paulo\n \n \n Job Title : Estagiário\n Company name : FEVAP\n Period : 1994 - 1996"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Logistics\n Period : 23 - 25\n School name : Universidade de São Paulo\n Speciality : Quality and Productivity\n Period : 1997 - 1999\n \n School name : Jobs in São Paulo\n Speciality : Production Process Technologist\n Period : 1992 - 1995"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "584ad421-bedc-49c1-ac9e-1593f334bf32",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*584ad421-bedc-49c1-ac9e-1593f334bf32",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:16.553Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:16.553Z",
+      "linkedinUsername": "mariano-veneroso-junior-gerente-industrial",
+      "email": "mariano.veneroso@gmail.com",
+      "phone": "11987853737",
+      "name": "Mariano Veneroso Junior",
+      "id": "584ad421-bedc-49c1-ac9e-1593f334bf32"
+    },
+    "timeInCurrentStage": 61412071018
+  },
+  {
+    "importedAt": "2024-02-08T18:39:53.143Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "25/03/1966"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "51570"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "FGV - Fundação Getulio Vargas"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Operations Director"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "Adultas"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Operations Director\n Company name : The Goodyear Tire & Rubber Company\n Period : nov de 219 - out de 221\n Location : Americana\n \n Job Title : Manufacturing Director at Perú Plant Goodyear Perú\n Company name : The Goodyear Tire & Rubber Company\n Period : jul de 214 - nov de 219\n Summary : Liderar equipo de manufactura para superar los objetivos, entregar las promesas y superar las expectativas de nuestros clientes.\n \n Job Title : Manufacturing Director at Goodyear de Venezuela\n Company name : The Goodyear Tire & Rubber Company\n Period : out de 21 - jul de 214\n Summary : Lead people to delivery results, next 5 years operational plan, motivational speech with leadership, annual budget administration, Cost reduction process, improve indicators, regarding to safety, Quality and Costs.\n \n Job Title : Gerente de producción planta de Venezuela\n Company name : The Goodyear Tire & Rubber Company\n Period : out de 27 - out de 21\n Summary : Lead managers to improve and delivery results.\n \n Job Title : Gerente de Producao Planta de Sao Paulo\n Company name : The Goodyear Tire & Rubber Company\n Period : abr de 27 - out de 27\n Summary : Following daily production and process as well as indicators regarding to Safety, Quality and Costs.\n \n Job Title : Gerente Inginieria Industrial Planta de Sao Paulo\n Company name : The Goodyear Tire & Rubber Company\n Period : out de 26 - abr de 27\n Summary : Capacity update, Standards, Lean activities and apply CIS tools.\n \n Job Title : Gerente Planta de Moldes en Sao Paulo\n Company name : The Goodyear Tire & Rubber Company\n Period : ago de 25 - out de 26\n Summary : Lead associates to improve indicators, delivery results and reduce costs. All indicators regarding to production process such as Safety, Quality and Costs.\n \n Job Title : Gerente de Operaciones\n Company name : The Goodyear Tire & Rubber Company\n Period : out de 2 - ago de 25\n Summary : Lead supervisors to delivery results, improve indicators and develop new people.\n \n \n Job Title : Gerente de Operaciones Planta de Sao Paulo\n Company name : The Goodyear Tire & Rubber Company\n Period : out de 1999 - ago de 25\n Summary : Lead people to delivery daily production, new project implementation, transfer new product line to our plant and follow new product development. Also budget control and all manufacturing indicators."
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : MBA Business management\n Issuing Authority : Fundação Getulio Vargas"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Gestión Empresarial\n Period : 26 - 27\n Summary : Atividades e grupos: Voleiball, basketballExcelente actividad de apertura y administración de una empresa donde todos los miembros del grupo tiene la oportunidad de aprender como hacerla rentable y exitosa.\n \n School name : Unicid\n Speciality : Business Management\n Period : 1987 - 199\n Summary : Atividades e grupos: Gremio de los estudiantes, voleyballBusiness Administration"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "c0df20e3-bfee-4328-bfcb-002faafc820e",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*c0df20e3-bfee-4328-bfcb-002faafc820e",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:28.405Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:28.405Z",
+      "linkedinUsername": "jose-ronaldo-campos-6a4a4121",
+      "email": "joseronaldo_campos@hotmail.com",
+      "phone": "19971013132",
+      "name": "Jose Ronaldo Campos",
+      "id": "c0df20e3-bfee-4328-bfcb-002faafc820e"
+    },
+    "timeInCurrentStage": 61412371018
+  },
+  {
+    "importedAt": "2024-02-08T18:39:53.334Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Quality Manager - Brazil plants at Groupe Seb"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Quality Manager - Brazil plants at Groupe Seb\n Company name : Groupe SEB\n Period : nov de 22 - o momento\n Location : Itatiaia, Rio de Janeiro, Brasil\n \n Job Title : Plant manager at groupe Seb\n Company name : Groupe SEB\n Period : set de 219 - nov de 221\n Location : Itatiaia, Rio de Janeiro\n \n Job Title : Deca\n Company name : Duratex\n Period : ago de 218 - set de 219\n Summary : Gerir as atividades de produção de uma equipe de 25 colaboradores indiretos e 6 diretos.\n Definir e implementar plano operacional, analisando a demanda dos produtos, a capacidade produtiva e os recursos.\n Elaborar plano de racionalização e redução de custos, plano de investimentos e orçamento de despesas;\n Treinar e desenvolver as equipes para cumprir os padrões e os processos definidos, criação de DTO e folha de processo para toda a área produtiva.\n Gerenciar, acompanhar e manter as equipes de produção altamente motivadas e comprometidas na busca pela melhoria continua.\n Desenvolver métodos para e otimizar o processo de produção;\n Criar mecanismos de acompanhamento de produção, em todos os processos do fluxo produtivo (Indicadores, gestão a vista e etc)\n Desenvolver estratégia para buscar novas soluções para melhoria da qualidade.\n Location : Queimados, Rio de Janeiro\n \n Job Title : Gerente de Treinamento de Líderes – AdS\n Company name : Michelin\n Period : ago de 217 - mai de 218\n Summary : • Coordenei e aplicação dos programas de treinamento da liderança da empresa sobre gestão de pessoas: Avaliação de desempenho, acolhimento, gestão de carreiras, remuneração, lideranças, soft skills, comunicação gerencial, gestão de conflitos, gestão de mudança e autoconhecimento.\n • Geri os processos de treinamento e desenvolvimento, alinhados com a estratégia do negócio.\n • Capacitação e desenvolvimento de equipes através da aplicação de dinâmicas de team building e facilitação de workshops;\n • Análise de clima organizacional das equipes e desenvolvimento de programas de transformação;\n \n Metas Alcançadas: Metas Alcançadas: - Atualização e facilitação dos módulos de treinamento gerencial.\n - Implementação do programa de mentoria\n - Criação de team building e workshops mediante aos disfuncionamentos e demandas das equipes.\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Gerente de Produção\n Company name : Michelin\n Period : set de 212 - ago de 217\n Summary : • Gerenciei as atividades de produção de uma equipe de 4 colaboradores indiretos e 2 diretos.\n • Geri as atividades de uma equipe multifuncional de produção, manutenção e qualidade construindo equipes autônomas, empoderadas e que prestam conta dos seus resultados.\n • Conduzi e implantei indicadores SMQDC, através da aplicação do Lean Manufacturing, 5S, Kaizen e Seis Sigma para melhoria da produtividade e desempenho operacional.\n • Liderei e implantei projetos de aumento de capacidade produtiva.\n • Negociei a aprovação de investimentos para novos projetos de expansão, como membro do comitê de validação da usina para os novos projetos e do plano anual de Investimento, viabilizei novas alternativas para equipamentos, modificação de máquinas, matérias-primas e insumos, primando a redução de custos e melhoria contínua dos processos.\n • Coordenei grandes paradas de manutenção de equipamentos: Extrusoras, cortadeiras e prensas. Geri contratos de empresas terceirizadas e equipamentos de transportem como empilhadeiras.\n • Conduzi a gestão da equipe técnica nas atividades de manutenção preventiva e corretiva de equipamentos, moldes, usinagem e ferramentarias.\n • Dimensionamento e controle do budget destinado à produção, projetos e manutenção com foco no controle da energia e redução dos custos.\n Metas Alcançadas: - Desenvolvimento das equipes autônomas através de uma gestão voltada para a performance e progresso conseguimos quebrar a marca dos 5. pneus/dia, com um aumento de 27% de produção em 1 ano, um marco na história da fábrica.\n - Aumento de capacidade produtiva em 3% da linha de prensas por meio de melhoria de processos, otimização de equipamentos e redução dos gargalos.\n - Redução de 61% na quantidade de acidentes e incidentes no ano de 216, através da mudança cultural e rigor com os básicos de segurança.\n - Redução de 57% do refugo metálico em um ano, por meio de domínio do processo, respeito aos básicos de qualidade e aos padrões estabelecidos.\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Gerente Lean Manufacturing\n Company name : Michelin\n Period : set de 21 - ago de 212\n Summary : • Implantei o MMW (Michelin Manufacturing Way) na fábrica nova GC, um conjunto de boas práticas, ferramentas e sistemas de gestão na busca pela melhoria contínua dos resultados SMQDC.\n • Liderei e conduzi WKS Kaizen, 5S, TPM, VSM, SMED, Gestão Visual na produção.\n • Coordenei vários projetos de melhorias, com foco no controle e redução de custo;\n • Coordenei auditorias internas e externas de avaliação dos sistemas e processos ( Lean e ISO 91);\n • Garanti as execuções e desenvolvimento de ações corretivas e preventivas, orientando as equipes envolvidas otimizando os recursos disponíveis, com o objetivo de promover a melhoria contínua.\n Metas Alcançadas: - Implementação do Lean através de várias ferramentas com ganhos de produtividade e eliminação de desperdícios, durante 2 anos seguidos fomos considerados Benchmarking na ADS em Lean.\n - Aumento de 1% em disponibilidade de máquina, redução de 6% de tx de pane através da implantação do TPM e canteiros kaizen nas máquinas, no ano de 212 no cozimento.\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Coordenadora Melhoria Contínua\n Company name : Guardian Industries\n Period : jul de 28 - ago de 21\n Summary : • Coordenação da implantação do Sistema de produção, desdobramento do Lean pela liderança da empresa através de um grupo de multiplicadores.\n • Projetos de melhoria continua com ótimos resultados de redução de custo.\n • Gerenciamento de ferramentas da qualidade e na melhoria dos resultados dos indicadores de qualidade, responsável pelos projetos de qualidade, gerindo as documentações e respondendo pelo setor perante Auditorias internas e externas, atuando na gestão, desenvolvimento e evolução dos membros da equipe, definindo padrões técnicos e operacionais do processo.\n • Qualifiquei fornecedores, através de planos de ação, avaliações e medições de desempenho;\n • Elaboração de estudos técnicos e econômicos para a implantação de novos projetos.\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Supervisora de Produção\n Company name : Guardian Industries\n Period : fev de 26 - jun de 28\n Summary : • Gerenciamento da equipe de produção;\n • Planejamento de produção segundo a prioridade do estoque e planejamento;\n • Supervisão do laboratório de qualidade;\n • Gerenciamento da equipe visando comprometimento, unidade e segurança;\n • Desenvolvimentos de projetos de melhorias\n • Atendimento das reclamações (claims) de clientes relacionadas a produção a nível nacional.\n Location : Porto Real, Rio de Janeiro\n \n \n Job Title : Engenheira de Qualidade e Processos\n Company name : Fumecarp Fundição de Metais Ltda\n Period : jan de 25 - fev de 26\n Summary : • Suporte técnico e definição de estratégias para a produção.\n • Acompanhamento e desenvolvimento de novos produtos.\n • Monitoramento de novos processos.\n • Acompanhamento e supervisão do laboratório\n • Implantação do sistema de Gestão da Qualidade (Iso 91).\n • Documentação do sistema de Gestão da Qualidade.\n Location : Barra Mansa, RJ"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Ibmec\n Speciality : MBA Gestão de negócios\n Period : 217 - 218\n \n School name : Universidade Federal Fluminense\n Speciality : Engenharia Metalurgica\n Period : 2 - 25"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "f3d6d3c7-7206-4c18-aae5-4605c1af15c1",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*f3d6d3c7-7206-4c18-aae5-4605c1af15c1",
+    "talent": {
+      "updatedAt": "2023-12-20T14:09:46.174Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:09:46.174Z",
+      "linkedinUsername": "fernandavieiralopes",
+      "email": "fernanda_vlp@hotmail.com",
+      "phone": "21996327656",
+      "name": "Fernanda Vieira Lopes",
+      "id": "f3d6d3c7-7206-4c18-aae5-4605c1af15c1"
+    },
+    "timeInCurrentStage": 61412371018
+  },
+  {
+    "importedAt": "2024-02-08T18:39:52.891Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "16/10/1984"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "17000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Padrão + carro (Volksvagen T-Cross)"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Sistemas Eletrônicos",
+          "id": "0913ae23-3309-4959-bd4e-dee937d8e08d",
+          "label": "Engenharia de Sistemas Eletrônicos"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Universidade Federal de Pernambuco"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Engineering and Maintenance Operations Manager"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "PE",
+          "id": "672331ee-ff5a-4dba-b8f2-5d627bc9e98c",
+          "label": "PE"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Engineering and Maintenance Operations Manager\n Company name : Solenis\n Period : jul de 221 - o momento\n Summary : Leading Industrial Operations\n Location : Recife e Região\n \n Job Title : Gerente industrial / Operações\n Company name : Guardian Industries (Koch Industries)\n Period : mar de 22 - nov de 22\n Summary : - Liderança de toda a operação (Produção, Manutenção e Processos Industriais);\n - Gestão de Produtividade, Segurança, Qualidade, Manutenção e Controle de Processo da linha continua de produção de vidro float com output 6 Ton / dia;\n - Gestão do programa de Reliability / Confiabilidade da planta;\n - Líder Imediato de 1 Gerente, 7 coordenadores, 4 engenheiros e 1 profissionais técnicos e operacionais;\n - Gestão de indicadores (KPIs) de Produtividade GLY, Segurança, Qualidade, Manutenção e Controle de Processo e de linha de output 6Ton Vidro/ Dia;\n - Gestão de VIC (Energia Elétrica e Gás Natural) e Budget (Manutenção e Head Count);\n - Desenvolvimento de novos produtos na linha de vidros de eficiência energética;\n - Interface direta com presidência e diretorias Brasil;\n Location : Porto Real, Rio de Janeiro, Brasil\n \n Job Title : Gerente Sr de Manutenção, Utilidades e Confiabilidade\n Company name : Guardian Industries (Koch Industries)\n Period : mai de 219 - fev de 22\n Summary : - Liderança dos times de Manutenção, Utilidades e implantação do programa de Manutenção Centrada em Confiabilidade RCM;\n - Gestão de energia elétrica, custos de manutenção (18Mi/ano) e suporte na implementação de projetos Capex;\n - Gestão direta pelos resultados de % Yield e Uptime das linhas de produção;\n - Líder imediato de 3 coord., 1 engenheiro e 4 profissionais técnicos e operacionais;\n Location : Porto Real, Rio de Janeiro\n \n Job Title : Gerente de Engenharia, Manutenção, EHS e Operações Industriais\n Company name : BD - Becton Dickinson Industrias Cirúrgicas\n Period : nov de 214 - mai de 219\n Summary : - Gerenciar os times de engenharia, manutenção, utilidades, EHS, projetos e operações de agulhas;\n - Gestão de indicadores de manutenção, produtividade e perdas;\n - Gestão de budget anual da filial, gerenciamento e execução dos projetos (upholding, capacity, cost driven) e capex, com investimentos de US$ 3Mi/ano e budget de US$ 4Mi/ano;\n - Negociação/gestão dos contratos de abastecimento de utilidades (EE e Água);\n - Aderência às normas de segurança do trabalho e regulamentação ambiental;\n - Head dos projetos de automação industrial e soluções para novos produtos com construção de equipamentos voltados para tecnologia médica – US$ 5k/ano;\n - Líder imediato de 6 Coord., 2 Engenheiros. e 1 profissionais técnicos;\n Location : Juiz de Fora e Região, Brasil\n \n Job Title : Gerente de Engenharia Manutenção e Utilidades\n Company name : Ambev\n Period : jul de 212 - nov de 214\n Summary : - Head das áreas de Manutenção e Utilidades;\n - Gestão de indicadores de Manutenção, Produtividade, Consumo de Vapor e CO2;\n - Gestão de budget anual (manutenção) e melhoria continua (Six Sigma);\n - Líder imediato de 2 coord., 1 superv. e 1 profissionais técnicos e operacionais;\n Location : Aracaju e Região, Brasil\n \n Job Title : Coordenador de Planejamento e Controle da Manutenção\n Company name : Ambev\n Period : jul de 211 - jul de 212\n Summary : - Criação e elaboração de todo o sistema de manutenção baseado em RCM de acordo com a criticidade no processo produtivo;\n - Gestão de Custos de Manutenção e Peças de Reposição;\n Location : Recife e Região, Brasil\n \n Job Title : Trainee\n Company name : Ambev\n Period : ago de 21 - jul de 211\n Summary : - Programa de Trainee corporativo: todas as fases de negócio, Logística, Produção, Operações, Engenharia, EHS, Qualidade até Vendas, Distribuição, Suprimentos, RH, Marketing, Jurídico, Relações Corporativas, relações com Investidores e Finanças;\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Estagiário\n Company name : Hahn-Schickard (HSG-IMIT)\n Period : mar de 26 - ago de 26\n Summary : - Estágio em Pesquisa de Microeletrônica na extensão acadêmica na Alemanha;\n Location : Villingen-Schwenningen e Região, Alemanha"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Brewery Packaging Tecnology Course\n Period : Emitido em mai de 2014-Sem data de expiração\n Issuing Authority : University of Wisconsin-Madison\n \n Title : Six Sigma Yellow Belt\n Period : Emitido em jul de 2010-Sem data de expiração\n Issuing Authority : Falconi"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Dom Cabral\n Speciality : (cursando)\n Period : 218 - 221\n School name : Fundação Getulio Vargas\n Speciality : MBA em Gestão Empresarial\n Period : 216 - 217\n School name : University of California, Irvine - The Paul Merage School of Business\n Speciality : MBA em Negócios e Gestão para Profissionais Internacionais\n Period : 217 - 217\n School name : Universidade Federal de Pernambuco\n Speciality : Graduação em Engenharia Eletrônica\n Period : 23 - 28\n \n School name : Hochschule Bremen\n Speciality : Extensão Acadêmica em Engenharia\n Period : 25 - 26"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "83b4f9e3-d995-4384-be82-ac0e5de0a0b1",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*83b4f9e3-d995-4384-be82-ac0e5de0a0b1",
+    "talent": {
+      "updatedAt": "2023-12-20T14:09:36.241Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:09:36.241Z",
+      "linkedinUsername": "jocelino-rodrigues-jr",
+      "email": "jocelinojunior@gmail.com",
+      "phone": "24992208448",
+      "name": "Jocelino Rodrigues Jr",
+      "id": "83b4f9e3-d995-4384-be82-ac0e5de0a0b1"
+    },
+    "timeInCurrentStage": 61412371018
+  },
+  {
+    "importedAt": "2024-02-08T18:39:53.234Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "08/01/1986"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "25000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Plant Operations Manager"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Plant Operations Manager\n Company name : Guardian Industries\n Period : fev de 221 - o momento\n Location : Porto Real, Rio de Janeiro, Brasil\n \n Job Title : Production Manager\n Company name : Guardian Industries\n Period : fev de 218 - fev de 221\n Location : Porto Real, Rio de Janeiro\n \n Job Title : Shift Production Manager\n Company name : Guardian Industries\n Period : jul de 214 - fev de 218\n \n Job Title : Supervisor de Produção\n Company name : Michelin\n Period : dez de 212 - jul de 214\n Summary : Planejar, organizar e supervisionar as atividades de produção, dentro das especificações e padrões de qualidade estabelecidos, visando assegurar o cumprimento dos objetivos da empresa. Supervisionar a elaboração dos cronogramas de fabricação, garantir a melhor alocação da mão-de-obra, equipamentos e materiais.\n Location : Resende e Região, Brasil\n \n Job Title : Engenheiro de Organização e Métodos\n Company name : Michelin\n Period : mai de 211 - nov de 212\n Summary : - Realizar estudos de organização industrial com foco no aumento da produtividade e redução de custos operacionais.\n \n - Realizar cálculos de capacidade e análise de efetivo necessário, visando atender as expectativas do mercado, utilizando o menor número de recursos.\n \n - Realizar o Planejamento Anual e Visão de Longo Prazo da usina - Determinar a capacidade da fábrica e quantidade de efetivo necessário.\n \n - Criar indicadores de acompanhamento da performance e produção.\n Location : Resende e Região, Brasil\n \n Job Title : Analista de Organização e Métodos\n Company name : Michelin\n Period : set de 21 - abr de 211\n Summary : Aplicar conceitos de Manufatura Enxuta e Teoria das Restrições através de estudos de processo e em postos de trabalho com foco no aumento da produtividade, organizar setores de produção focando a melhor produtividade.\n Location : Resende e Região, Brasil\n \n \n Job Title : Estagiário Engenharia Industrial\n Company name : Michelin\n Period : set de 29 - ago de 21\n Summary : Aplicar conceitos de Manufatura Enxuta e Teoria das Restrições através de estudos de processo e em postos de trabalho com foco no aumento da produtividade.\n Location : Resende e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade do Estado do Rio de Janeiro\n Speciality : Engenharia de Produção\n Period : 25 - 211"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "8bccdc7c-450b-4835-a789-adc0cfbac3f8",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*8bccdc7c-450b-4835-a789-adc0cfbac3f8",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:33.217Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:33.217Z",
+      "linkedinUsername": "leonardo-méxas-9a8ba454",
+      "email": "leonardomexas@hotmail.com",
+      "phone": "24992875105",
+      "name": "Leonardo Méxas",
+      "id": "8bccdc7c-450b-4835-a789-adc0cfbac3f8"
+    },
+    "timeInCurrentStage": 61412371018
+  },
+  {
+    "importedAt": "2024-02-08T18:39:52.871Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : MBA Business Management\n Period : out de 219 - jul de 221\n Summary : Atividades e grupos: Business Challenge | Finance | Compliance | Ethics and Sustainability | Business Law for Managers | Business Economics | Strategic Management | People Management | Project Management | Marketing | Negotiation and Conflict Management | Budget and Control.\n School name : Universidade do Vale do Rio dos Sinos\n Speciality : Bachelor of Business Administration - BBA\n Period : jan de 1987 - fev de 1992\n School name : Bentley University\n Speciality : Teams & Projects\n Period : mai de 219 - jun de 219\n Summary : Atividades e grupos: Effective Leadership program to improve my leadership skills, with the tools, strategies, and frameworks that allowed me to capitalize my leadership strengths and enhance my ability to drive value through the organizations. Interactive, action‐oriented team engagement, examineing the strengths of my individual leaders, understand the needs of their team members, and develop strategies to garner influence and drive results throughout their organization.\n \n School name : Emmanuel College (Boston)\n Speciality : American English Program\n Period : mar de 1995 - set de 1995"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "02706bc3-ae6b-4e3e-8d94-a41a9a0451d5",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*02706bc3-ae6b-4e3e-8d94-a41a9a0451d5",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:59.201Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:59.201Z",
+      "linkedinUsername": "moreira-paulo",
+      "email": "prbmak@yahoo.com",
+      "phone": "24999647246",
+      "name": "Paulo Moreira",
+      "id": "02706bc3-ae6b-4e3e-8d94-a41a9a0451d5"
+    },
+    "timeInCurrentStage": 61412371018
+  },
+  {
+    "importedAt": "2024-02-08T18:39:53.254Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "VP Industrial | VP Operações | Diretor Industrial | Diretor Operações | Diretor Engenharia"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : VP Industrial | VP Operações | Diretor Industrial | Diretor Operações | Diretor Engenharia\n Company name : Transição de Carreira\n Period : nov de 22 - o momento\n Location : São Paulo, Brasil\n \n Job Title : Diretor de Engenharia\n Company name : USIMINAS\n Period : fev de 218 - out de 22\n Summary : Empresa líder na produção de aços planos na América Latina, faturamento de US$ 4 bilhões ano, 15. colaboradores, tendo como acionistas majoritários a Nippon Steel e Grupo Techint.\n \n Responsável pela área de Engenharia Capex e Obras.\n • Planejei a estratégia de investimentos CAPEX com foco em sustentabilidade, melhorias e investimentos estratégicos com visão de 5 anos.\n • Priorizei investimentos com visão de curto prazo, com metodologia desenvolvida através de benchmark, bem como recursos necessários para implementação.\n • Executei investimentos na ordem de US$ 25 milhões ano, desde a aprovação em comitê até o start up com equipe de 22 pessoas próprias e 8 terceiros.\n • Implementei os principais indicadores físicos e financeiros através da metodologia do PMI, com ações corretivas através da metodologia de gestão da qualidade.\n • Desenvolvi novas ações de segurança das pessoas e meio ambiente, através das barreiras de sistemas, condições físicas e comportamento\n Location : Belo Horizonte e Região, Brasil\n \n Job Title : General Manager\n Company name : Ternium\n Period : dez de 215 - jan de 218\n Summary : Maior empresa siderúrgica da América Latina, pertencente ao Grupo Techint, faturamento de US$ 15 bilhões ano, presente em 6 países com 21. colaboradores.\n Grupo Techint através da Ternium adquiriu os ativos da ThyssenKrupp em 217.\n \n Responsável pelas áreas de Engenharia, Manutenção e Infraestrutura da Usina com capacidade de 5 milhões de toneladas por ano e com uma equipe de 6 colaboradores diretos e 12 indiretos\n • Redução de 15 % nos contratos de serviços de manutenção em 2 anos, com redução de 5 milhões de reais.\n • Cumprimento do plano de capex em 1 %, com aproximadamente 2 milhões de dólares de desembolso sem overrun, nos últimos 2 anos.\n • Implementação do projeto de manutenção de classe mundial com objetivo de capturar 18 u$/t até 218.\n • Aumento da produtividade do pool de serviços de 15 para 45 % através do projeto “wrench time”\n • Insourcing de 2 grandes contratos com redução de custo de 43 milhões de reais em 3 anos\n • Gestão da NR-13 tendo atendido todos os requisitos da norma.\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : General Manager\n Company name : thyssenkrupp\n Period : dez de 215 - set de 217\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Diretor de Operações\n Company name : Grupo Nortene: Plásticos Nortene; Engepol Geossintéticos; Santeno Soluções Agrícolas\n Period : jul de 214 - abr de 215\n Summary : Empresa Brasileira líder em soluções e aplicações de plásticos para agro business, faturamento de US$ 1 milhões ano, 5 colaboradores.\n \n Responsável pela área de operações de transformação de plástico das 3 unidades do Grupo e membro do comitê executivo.\n • Participei do processo de implantação da governança coordenando o sistema de gestão, com desenvolvimento e implantação dos KPI’s.\n • Redesenhei a estrutura da área de operações com conceitos de rotina e melhoria.\n • Implementei o sistema de gerenciamento de reuniões, prática do PNQ.\n • Aumentei a capacidade disponível em 15 %, obtendo 2 recordes de faturamento em 1 meses.\n • Reduzi reclamações de clientes em 4% (ritmo de 215), através de programas comportamentais e tratamento de falhas.\n • Reduzi a taxa de frequência de eventos com perdas em 67% (ritmo 215), através das barreiras de condições físicas, sistemas e comportamento.\n • Introduzi o conceito de plano diretor de investimentos como ferramenta da estratégia de longo prazo.\n • Capacitei as equipes sob minha supervisão no conceito de custos fixos, variáveis e gestão da rotina de custos.\n • Desenvolvi junto com a área de Recursos Humanos alguns processos tais como : planejamento de pessoal, comitê de desenvolvimento de pessoas e gestão por células.\n Location : Barueri, SP - Brasil\n \n Job Title : Diretor Executivo Operações - Corte e Dobra\n Company name : Gerdau\n Period : nov de 21 - ago de 213\n Summary : Responsável por 4 regionais, operação de downstream, com 39 unidades, tendo liderado 2.8 pessoas. Essa operação oferece um serviço de entrega da estrutura pronta para o cliente final.\n \n • Redesenhei a estrutura de cargos e processos da operação de negócio, orientado para a visão de longo prazo e conceito de serviço, com a criação de nova regional e processos de apoio.\n \n • Implementei o conceito de inventário rotativo de produtos, o que reduziu diferenças de estoques , tendo como base o roteiro, o centro de trabalho e a lista técnica dos produtos vendidos.\n \n • Reduzi a rotatividade de 15% para ritmo de 8% em 213 através de programas específicos para desenvolvimento de pessoas e equipes.\n \n • Sponsor do projeto Corte e Dobra Gerdau, cujo objetivo foi de aumentar a curva de valor oferecendo uma abordagem comercial e uma interface com o cliente inovadora, simples e confiável para garantir competitividade no mercado, criando um diferencial frente à concorrência, com uma estratégia de atendimento à clientes suportado por sistemas adequados e padronizados nas frentes de vendas, produção e logística.\n \n • Coordenei a frente industrial do estudo de mercado e da estratégia de crescimento do negócio.\n Location : Brazil\n \n Job Title : Gerente Executivo Downstream - Fabricas SP\n Company name : Gerdau\n Period : nov de 25 - out de 21\n Summary : Responsável por três unidades, Cotia, Cumbica e SJC, na fabricação de arames especiais para indústria e construção civil com 1.1 colaboradores.\n \n • Conduzi por três anos o processo matricial downstream de Trefilados, 15 fábricas, objetivando a troca de melhores praticas, benchmarking, e desdobramento das diretrizes do planejamento de curto, médio e longo prazo em projetos e ações.\n \n • Liderei a implementação dos processos de gestão de pessoas sendo reconhecido com apresentação de 2 CASES em fórum internos, além de obter por 6 vezes seguidas, entre 23 e 21, posições de destaque em pesquisas de clima interno coordenadas pelo Grupo Hay.\n \n • Atuei nas cinco dimensões da qualidade através do mapeamento de processos críticos, obtendo resultados expressivos em Segurança, Produtividade e Qualidade.\n \n • Desenvolvi processo de benchmarking com fabricantes europeus na linha de arames para solda.\n \n • Reestruturei a manutenção das fábricas na frente de estrutura de pessoas e processos, implementando o conceito de pilares da manutenção.\n \n • Coordenei a frente industrial do estudo de mercado e proposta de investimento de dois novos produtos, além do desenvolvimento do fornecedor principal e do parceiro tecnológico e de capacitação (China, Suíça e Itália).\n Location : Sao Paulo and Region, Brazil\n \n Job Title : Gerente Executivo - Cotia\n Company name : Gerdau\n Period : mar de 23 - out de 25\n Summary : Responsável pela unidade de fabricação de arames especiais, alto e baixo carbono, galvanizados com camada pesada, bem como fabricação de cordoalhas, com 218 colaboradores.\n \n • Introduzi o gerenciamento da rotina, com as ferramentas de estabilização de processos, PDCA, SDCA e benchmarking, com resultados no custo de produto vendido, qualidade e lead time.\n \n • Participei por dois anos consecutivos do Prêmio Paulista da Qualidade da Gestão, tendo conquistado medalha de prata.\n \n • Conduzi na frente industrial, o projeto Plano Diretor de Arames Especiais, com o lançamento de 3 novos produtos, bem como coordenei os investimentos e realizei contrato de parceria tecnológica com fornecedor Europeu.\n Location : Cotia\n \n Job Title : Gerente Engenharia - Cosigua\n Company name : Gerdau\n Period : nov de 1998 - fev de 23\n Summary : Responsável pelo projeto da nova usina de Araçariguama, na frente de produtos laminados, desde o estudo de mercado até a definição do fornecedor principal.\n Location : Rio de Janeiro e São Paulo, Brasil\n \n Job Title : Gerente de Planta\n Company name : Gerdau\n Period : jan de 1997 - out de 1998\n Summary : Responsável pela unidade da fabricação de produtos ampliados para construção civil, com 18 colaboradores.\n • Remodelei o parque industrial, com resultados em custo do produto vendido, custo de frete além do aumento do retorno dos ativos.\n • Desenvolvi, na frente industrial, 3 novos produtos ampliados inovadores no Brasil.\n Location : São Paulo e Região, Brasil\n \n Job Title : Gerente Executivo - Armafer\n Company name : Gerdau\n Period : mar de 1993 - dez de 1996\n Summary : Participei da compra e incorporação dessa nova empresa e do novo negócio, na frente de operações, em março de 23, tendo realizado o turnaround de resultado negativo após dois anos, e startup de dois novos sites.\n Location : Rio de Janeiro e São Paulo, Brasil\n \n Job Title : Chefe de Produção - Cosigua\n Company name : Gerdau\n Period : ago de 1988 - fev de 1993\n Summary : Responsável pela área de produção de arames para concreto com 27 colaboradores.\n Location : Rio de Janeiro, Brasil\n \n Job Title : Assessor de Engenharia - Cosigua\n Company name : Gerdau\n Period : dez de 1987 - jul de 1988\n Summary : Assessor de Engenharia na área de Laminações\n Location : Rio de Janeiro, Brasil\n \n Job Title : Trainee - Cosigua\n Company name : Gerdau\n Period : out de 1986 - nov de 1987\n Summary : Trainee na área de Laminações\n Location : Rio de Janeiro, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Insper\n Speciality : Executivo\n Degree : Master of Business Administration (MBA)\n Period : 29 - 211\n Summary : 1295d82\n \n School name : ESPM Escola Superior de Propaganda e Marketing\n Speciality : Marketing de Serviços\n Degree : Master of Business Administration (MBA)\n Period : 25 - 26\n \n School name : Pontifícia Universidade Católica do Rio de Janeiro\n Speciality : Gestão Empresarial\n Degree : Master of Business Administration (MBA)\n Period : 2 - 21\n \n School name : Universidade Santa Ursula\n Speciality : Mecânica\n Degree : Engenharia\n Period : 1981 - 1986"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "39b14d86-e70e-47be-8b3b-5cad94b7eaf4",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*39b14d86-e70e-47be-8b3b-5cad94b7eaf4",
+    "talent": {
+      "updatedAt": "2023-12-20T13:56:24.374Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:56:24.374Z",
+      "linkedinUsername": "marcelonasser",
+      "email": "marcelocnasser@gmail.com",
+      "phone": "11941908164",
+      "name": "Marcelo Nasser",
+      "id": "39b14d86-e70e-47be-8b3b-5cad94b7eaf4"
+    },
+    "timeInCurrentStage": 61412371018
+  },
+  {
+    "importedAt": "2024-02-08T18:39:53.110Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Sr. Supply Chain and Logistics Manager"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Sr. Supply Chain and Logistics Manager\n Company name : Euro Colchões\n Period : jan de 222 - o momento\n Summary : Responsável pelas áreas de Compras, PCP, Logística e Comex.\n \n Job Title : Engineering & Industrial Maintenance Manager\n Company name : Açotel Indústria de Aço\n Period : mar de 221 - jan de 222\n Summary : Minha vasta experiência de operações em empresas anteriores me levou a um convite para integrar a esta empresa, liderando uma equipe de 28 colaboradores, entre eles: Coordenadores, supervisores e engenheiros, buscando forte atuação na melhoria de processos, redesenho das linhas de produção, além da implementação da manutenção preventiva e preditiva com metas ambiciosas visando elevar os índices de disponibilidade e eficiência em todos os equipamentos industriais e infraestrutura da fábrica através de projetos de melhoria contínua Kaizens e Lean Manufacturing.\n Location : Três Rios, Rio de Janeiro, Brasil\n \n Job Title : Supply Chain and Logistics Manager\n Company name : Wayne Fueling Systems\n Period : jan de 217 - mar de 221\n Summary : Após sólida atuação como Supervisor assumi um posição gerencial liderando as equipes de logística doméstica e internacional, planejamento de materiais (compras), planejamento de demanda, data master (cadastramento de materiais), planejamento e controle de produção (PCP) e peças de reposição (Revenda), liderando um time de 8 colaboradores diretos, entre eles 4 supervisores, 1 Engenheiro, 2 especialistas, 14 analistas, 4 encarregados e 55 operacionais, com o desafio de buscar maior eficiência nos processos através do Lean Manufacturing.\n \n ▪ Desenvolvi novo layout do almoxarifado com foco em eficiência, eliminei as despesas com armazenamento de matéria prima em operadores logísticos, favorecendo o fluxo Lean de materiais na planta trazendo um aumento de 1% da capacidade interna de armazenamento e uma redução de custo de R$1,1MM ao ano.\n ▪ Elaborei nova política de compras/suprimentos com critérios para aplicação dos métodos Min e Max, MRP e Kanban, inovando os processos e revertendo para a empresa uma redução de inventário de 3% ou R$12,6MM e uma elevação do giro (Turns) de estoque de 4 para 7,6 ao ano, baleando o estoque e contribuindo para o aumento de OEE em 2%.\n Location : Rio de Janeiro, Rio de Janeiro\n \n Job Title : Logistics Supervisor\n Company name : Wayne Fueling Systems\n Period : jun de 214 - jan de 217\n Summary : Indicado para liderar a área de Logística com o desafio de implementar diversos projetos de Lean Manufacturing / Six Sigma para melhorar os processos de logística da empresa e alcance de resultados financeiros e operacionais na ordem de R$7MM. Coordenei toda a cadeia logística desde o recebimento e armazenagem até expedição e transporte, supervisionando 39 colaboradores diretos, 4 encarregados, 2 analistas, 1 especialistas, 32 operacionais.\n ▪ Reorganizei o processo de abastecimento de produção, eliminando os gargalos no processo, através do desenvolvimento do mapa de fluxo de valor e corrigindo as falhas de abastecimento, melhorando expressivamente o tempo médio de parada da linha de produção de 25 min para 7 min por mês.\n ▪ Implementei o sistema 2 Bims (Kanban) e Front Feed na linha de produção, através do desenvolvimento de projetos A3, alcançando a redução de 75% do tempo de abastecimento da produção e obtendo 1º lugar na América Latina para projetos de melhoria contínua que foi apresentado em seminário global de melhoria contínua da empresa em Houston.\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Supervisor de Manutenção e Suprimentos/MRO\n Company name : Wayne Fueling Systems\n Period : jun de 212 - jun de 214\n Summary : Assumi a equipe de manutenção industrial e Suprimentos/MRO, composto por 12 colaboradores diretos 26 indiretos, incluindo gestão MRO, CAPEX e OPEX, PCM, facilities, utilities além de gestão contratos. Trabalhei com forte atuação na mudança de midset frente a uma operação voltada para a segurança pessoal, dos equipamentos e instalações, bem como a preservação das áreas e do meio ambiente. E ainda, atuei com produtividade para obter o menor prazo possível, minimizando os custos e despesas através de reestruturações do setor, controle de KPIs e novas rotinas de Manutenção Preventiva e Preditiva.\n ▪ Atuei como responsável técnico na elaboração de edital para BID (concorrência para os setores de manutenção Predial e Facilities) conseguindo reduções na ordem de R$,5M/ano.\n ▪ Reorganizei todo o processo de suprimentos de materiais indiretos, controlando custos e dispêndios, elaborando Budget anual, desenvolvimento de novos fornecedores e fazendo gestão dos contratos de serviços.\n § Obtive 2º colocação no Lean Challenge GE 213 (atuando como Co-mentor do time). Reduções em torno de R$,2M/ ano.\n Location : Rio de Janeiro\n \n Job Title : Supply Chain Analyst\n Company name : Companhia Siderurgica Nacional\n Period : jun de 29 - jun de 212\n Summary : Responsável pelo planejamento de materiais diretos, indiretos MRO e contratação se serviços;\n Responsável pela emissão, controle e acompanhamento de requisições e POs, com sólido conhecimento em sistema ERP - SAP módulo MM;\n Responsável pelo acompanhamento dos custos anuais do departamento, emitindo periodicamente relatórios gerenciais, elaboração e atualização dos KPIs;\n Responsável pela padronização das especificações de materiais PDM, visando otimização e confiabilidade no processo de compras;\n Responsável pela gestão dos contratos de prestação de serviços vigentes;\n Experiência na elaboração de orçamento anual de custeio e investimentos (mão de obra / material) tendo como base de dados o histórico, expectativa de demanda dos próximos anos e aspectos mercadológicos;\n Responsável pelo controle de beneficiamentos externos de matéria prima:\n Desenvolvimento de novos fornecedores de materiais e serviços, obtendo referências de produtos, preços e suprimentos alternativos de matéria-prima;\n Location : Volta Redonda e Região, Brasil\n \n Job Title : Senior Planning Technician\n Company name : Companhia Siderurgica Nacional\n Period : jun de 28 - jun de 29\n Summary : Dei suporte técnico a todos os processos produtivos de reparo e inspeções de campo com foco na correção de desvios e otimizando processos. Adquiri grande experiência na elaboração de orçamentos, relatórios de custos de produção, reparos e montagens aplicando melhorias em qualidade de processos e acuracidade das informações. Utilizei o software de planejamento (IBM máximo) na elaboração e acompanhamento de cronograma e planejamento junto ao método PERT na identificação de caminhos críticos dos planos.\n Location : Volta Redonda R.J\n \n \n Job Title : Maintenance Technician\n Company name : Companhia Siderurgica Nacional\n Period : mai de 25 - jun de 28\n Summary : Em 3 anos atuando como técnico, promovi processos de melhorias contínuas KAIZEN em equipamentos, processos de fabricação e reparos de montagens mecânicas. Elaborei planos de ação usando método 5W2H. Geri contratos de prestação de serviços, acompanhamento diário da produtividade (SLA) e emissão de relatórios para faturamento.\n Location : Volta Redonda e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Black Belt em Lean Six Sigma\n Period : Emitido em jan de 2018-Sem data de expiração\n Issuing Authority : Escola EDTI"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : iBRA - Instituto Brasil de Ensino\n Speciality : MBA em Logística & Supply Chain\n Period : 22 - 221\n School name : Universidade Veiga de Almeida\n Speciality : MBA em Gestão Empresarial\n Period : 215 - 216\n School name : UBM - Centro Universitário de Barra Mansa\n Speciality : Engenharia de Produção\n Period : 27 - 211\n School name : Escola Técnica Pandiá Calógeras - ETPC\n Speciality : Técnico em Eletromecânica\n Period : 25 - 27\n \n School name : Colégio do Instituto Batista Americano\n Speciality : Técnico em Informática\n Period : 1997 - 2"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "da85c0f3-01f5-44a5-8d60-82287a49085f",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*da85c0f3-01f5-44a5-8d60-82287a49085f",
+    "talent": {
+      "updatedAt": "2023-12-20T13:59:59.841Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:59:59.841Z",
+      "linkedinUsername": "wendel-do-carmo-almeida-53053",
+      "email": "wendelbrasil@hotmail.com",
+      "phone": "24988040474",
+      "name": "Wendel do Carmo Almeida",
+      "id": "da85c0f3-01f5-44a5-8d60-82287a49085f"
+    },
+    "timeInCurrentStage": 61412371018
+  },
+  {
+    "importedAt": "2024-02-08T18:39:53.094Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Plant Operations Manager"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Plant Operations Manager\n Company name : Dana Brasil\n Period : ago de 221 - o momento\n Location : São Paulo, Brasil\n \n Job Title : Diretor Industrial e Operações\n Company name : Johnson Controls\n Period : ago de 215 - ago de 219\n Summary : - Gestão direta das áreas de Engenharia de Processos, Produção, Qualidade, Logística e Manutenção, liderando time com mais de 1.1 colaboradores dentro da unidade de negócios com faturamento de R$ 1,2 bilhões/ano.\n \n - Projetos de automação e robotização em pontos críticos da produção (ergonomia, falta de capabilidade, qualidade e movimentos repetitivos, reduções de custos, etc..).\n \n - Balanceamento do fluxo produtivo (recebimento a expedição) considerando tempo homem, tempo máquina e WIP.\n \n - Disseminação e implantação de conceitos voltados ao Supply Chain tais como inventários cíclicos, slow move, administração e write off de SKU´s, formação da curva ABC e planejamento da demanda através de reuniões S&OP com participação direta do PCP, PCM, vendas e controladoria.\n - Implantação de sistemas de gerenciamento: SAP, ERP, WMS.\n \n - Implantação do sistema OHSAS 18 com foco nas NR´s 4/5/1/12/35.\n \n - Certificação / recertificação IATF, VDA, ISSO 14.\n \n - Planejamento do do Budget e CAPEX com foco em segurança, qualidade, produtividade, manutenção e logística.\n \n - Programa de Inovação: alinhado com a estratégia os colaboradores são incentivados a enviar ideias inovadoras para solucionar os desafios da empresa.\n \n - Implantação do JCMS (Johnson Controls Manufacturing System) que visa capacitar a liderança e colaboradores em 9 princípios de excelência: Segurança, Empower People, Qualidade, Cultura Six Sigma, VSM (Mapeamento do Fluxo de Valor), Controle de Materiais, Padrão Visual, Meio Ambiente e Processos.\n \n - Turnaround do Site de Sorocaba (3 Unidades de Negócios) entre 215 e 217 atingindo:\n - zero acidentes com afastamento / redução de 5% na sucata / aumento de produtividade de 4%/ano.\n - breakeven nas 3 Unidades de Negócios.\n \n - Merit Award em janeiro de 219 para a planta de Componentes como a melhor planta mundial em excelência operacional, dentre as 28 plantas do grupo Johnson alocadas na Europa, Ásia e Américas.\n \n - Prêmio 218 FIESP / CIESP de Mérito Ambiental.\n Location : Sorocaba e Região, Brasil\n \n Job Title : Consultor / Gerente de Fabrica\n Company name : Hengst Filtration\n Period : set de 214 - jul de 215\n Summary : - Gestão direta das áreas de Engenharia de Processos, Produção, Qualidade, Logística e Manutenção.\n - Planejamento do Budget da fábrica.\n - VSM no fluxo produtivo visando produtividade.\n - Implantação TPM.\n - Implantação de conceitos logísticos (PCP/PCM) e planejamento através de reuniões S&OP.\n - Gestão de CAPEX.\n Location : Santa Catarina, Brasil\n \n Job Title : Diretor Industrial / Plant Manager\n Company name : ZF Lenksysteme India Pvt. Ltd\n Period : mai de 211 - abr de 214\n Summary : - Responsável pelo Start-up da operação na Índia e da fábrica (green field), levando a operação do zero a um faturamento de .8 milhões de Euros no terceiro ano, com 85 colaboradores com participação direta do projeto e construção do Site (2K M²).\n \n - Licenças ambientais, sanitárias e AVCB.\n \n - Desenvolvimento de produtos até o SOP final com o cliente.\n \n - Responsável direto pela formação da liderança da empresa em todos os departamentos.\n \n - Capacitação da liderança para funcionabilidade do produto, equipamentos e gestão.\n \n - Atendimento direto aos clientes como a Tata Motors, Ashok e Ford.\n \n - Gestão direta das áreas de Engenharia de Processos, Produção, Qualidade, Logística e Manutenção.\n \n - Implantação dos Sistemas de Qualidade, como IATF, VDA, OHSAS 18 e ISO 14.\n \n - Programas de redução de custos e aumento de produtividade na ordem de 6% ao ano.\n \n - Desenvolvimento de fontes de componentes e matérias-primas em países de baixo custo (principalmente China e Índia), que resultou em uma economia da ordem de 35% se comparado com o mercado europeu e também em uma fonte para novos negócios.\n \n - Participação ativa no direcionamento geral da implantação do sistema SAP, ERP e WMS.\n Location : Pune, India\n \n Job Title : Gerente de Manufatura / Produção\n Company name : ZF Sistemas de Direção\n Period : out de 1989 - abr de 211\n Summary : - Coordenação de Projetos internacionais no Canadá, China, Alemanha e México (ex.: upgrade de equipamentos, desenvolvimento de linhas de montagem, retrofit de máquinas e transferências de máquinas e equipamentos).\n - Implantação de Sistemas de Qualidade IATF, VDA.\n - Implantação de Lean Manufacturing (Células Autônomas de Manufatura com fluxo contínuo, estudos de ergonomia e lead time balanceado, MFV (Mapeamento do Fluxo de Valor), sistema puxado de produção e Kaizen.\n - Programas de Inovação, Kanban, TPM, 5s e capacitação dos colaboradores.\n - Planejamento do CAPEX na ordem de US$ 3,5 milhões.\n - Premiação em 21 na modalidade Total Quality Management com o Projeto Célula de Gerenciamento Total e representação da América do Sul durante a entrega de premiação na Cidade de Friedrichshafen, Alemanha.\n - Negociações complexas com fornecedores (outsourcing de usinagem e montagem) e com entidades Sindicais (data base, PLR, férias coletivas, etc.).\n Location : Cidade de Sorocaba - Sao Paulo\n \n \n Job Title : Trainee de Manutenção\n Company name : General Motors\n Period : set de 1988 - set de 1989\n Location : São Caetano do sul, São Paulo"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Definição e Objetivos da Gestão de Projetos\n Period : Emitido em mai de 2020-Sem data de expiração\n Issuing Authority : FGV Online\n Title : Fundamentos de Marketing\n Period : Emitido em abr de 2020-Sem data de expiração\n Issuing Authority : FGV Online\n \n Title : Mentalidade de Desenvolvimento Contínuo\n Period : Emitido em abr de 2020-Sem data de expiração\n Issuing Authority : PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : FACULDADES SENADOR FLÁQUER\n Speciality : Production Process\n Period : 1987 - 199\n \n School name : LE - Leadership Edge\n Speciality : Gestão de Pessoas com Ênfase em Liderança Organizacional\n Period : 211 - 213\n Summary : Nota: ZF (Compass 211/213) / Johnson Controls (JCLE 218)Desenvolvido para executivos C-Level com duração de 2 anos; 6 módulos com realização em 6 diferentes países.\n Usando o próprio conhecimento das tendências econômicas, financeiras, de mercado e da indústria para compreender e melhorar os resultados individuais, de grupo de trabalho e / ou organizacionais; usando a compreensão das principais funções de negócios, tendências da indústria e posição da própria organização para contribuir para estratégias e / ou táticas de negócios eficazes.LE - Leadership Edge.pdf"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "22b1008c-79fc-4efd-8a1d-ba19c2ce94da",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*22b1008c-79fc-4efd-8a1d-ba19c2ce94da",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:24.927Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:24.927Z",
+      "linkedinUsername": "ronaldoalves",
+      "email": "ronaldo.alves_67@hotmail.com",
+      "phone": "",
+      "name": "Ronaldo Alves",
+      "id": "22b1008c-79fc-4efd-8a1d-ba19c2ce94da"
+    },
+    "timeInCurrentStage": 61412971018
+  },
+  {
+    "importedAt": "2024-02-08T18:39:52.995Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "19/04/1968"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "50000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Mecânica",
+          "id": "612a9e7a-ad38-4218-924b-ae8b5a2311e8",
+          "label": "Engenharia Mecânica"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "FEI - Faculdade de Engenharia Industrial"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Plant Manager"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "Adultos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Plant Manager\n Company name : Corning Optical Communications\n Period : abr de 215 - o momento\n Summary : Diretor industrial / Diretor de Projetos / Diretor de Operações / Plant Manager / Diretor de Manufatura / Gerente Industrial / Gerente de Manutenção / Gerente de Planta / Gerente de Operações\n \n Sou profissional com experiência de 23 anos no segmento industrial / plant manager / projetos tendo atuado em empresas multinacionais, em posições executivas na Direção Industrial, na Gerencia Industrial, de Projetos, Produção, Manutenção, Utilidades, Segurança do Trabalho, Ferramentaria e Engenharias.\n \n Tive a oportunidade de encerrar a operação de uma fábrica e transferi-la para um outro Estado, fazendo contratações e startups de equipamentos.\n \n Como Diretor de Projetos desenvolvi diversos projetos voltados para a expansão e desenvolvimento de negócios no Brasil e no exterior. Possuo forte experiência na gestão da produção utilizando tecnologias para aumento da produtividade e qualidade tais como: Six Sigma, Lean, Kaizen, 5S, TPM, VSM, dentre outros.\n \n Habilidade na liderança de times e capacidade de implementar inovações tecnológicas, com foco no aumento do nível de serviço e diminuição de custos operacionais.\n \n Possuo formação em Engenharia Mecânica pela FEI, com pós graduação em Controladoria pela FCETM e MBA em Gerenciamento de projetos ela FGV.\n \n Sou flexível e acostumado a ambientes de pressão e forte competição. Vivenciei uma fusão de duas empresas líderes mundiais em seus segmentos, participando de diversas reestruturações.\n \n Busco novas oportunidades como executivo senior nas áreas: industrial, de projetos, de operações.\n \n Envio meu currículo, em anexo, e coloco-me à disposição para um contato pessoal, no qual poderei falar mais de minha experiência e aspirações.\n Location : Rio de Janeiro Area, Brazil\n \n Job Title : Diretor Industrial / Plant Manager\n Company name : Stanley Black & Decker, Inc\n Period : jul de 212 - out de 214\n Summary : Gestão de todas as áreas de manufatura / industrial: manutenção, ferramentaria, engenharias de produto e processo, utilidades, RH, EHS, produção, projetos de melhorias, novos produtos, respondendo pelos relatórios financeiros para a corporação, planejamento estratégico, controle de todo o investimento da área de manufatura / industrial.\n \n Como Plant Manager e Diretor industrial fui responsável por todo o resultado das operações industriais, passando relatórios semanais e planejando o orçamento dos próximos anos.\n \n Transferência de processos e produtos de outras plantas do mundo para a planta de Uberaba, bem como verticalização de processos de usinagem, pintura, motores, plásticos e estamparia;\n Location : Uberaba, MG - Brasil\n \n Job Title : Gerente Industrial\n Company name : Stanley Black & Decker, Inc\n Period : dez de 1996 - jul de 212\n Summary : Gerenciamento da manutenção, ferramentaria, utilidades, produção e engenharia de processos. Controle dos indicadores de manufatura, verticalização de processos, projeto e construção de equipamentos e moldes. Desenvolvimento de equipes para novos processos. Gerenciamento de todo o processo produtivo, incluindo áreas como fundição de alumínio, usinagens, pintura, estamparia, plásticos, motores e montagens.\n \n Criação de um sistema de gerenciamento de produtividade que entregou de 7% a 9% de reduções anuais sobre o custo total de fabricação consistentemente nos últimos 5 anos.\n \n Implantação em toda a empresa das ferramentas de Lean Six Sigma – 5S, Kaizen, VSM, TPM, SMED e Six Sigma trazendo reduções da ordem de 7 a 9% em inventário, 4 a 5% de mão de obra direta, 8% de tempos de ajustes de máquinas.\n \n Desenvolvimento de sistema de gerenciamento de projetos, seguindo a metodologia do PMBoK / PMI, com destaque para os projetos de implementação do SAP, lançamentos de novos produtos e verticalizações de processos.\n \n Forte redução de índices de sucata partindo de 1,5% chegando a menos de ,3% do custo de fabricação, redução em cerca de 5% do custo de garantia, bem como melhoria nas métricas da manufatura (qualidade, output de produção, redução de paradas de máquinas, melhorias de controle de inventário).\n \n Implementação de softwares de manutenção SMI e de controles de produção PC Factory, para melhorias de OEE, MTBF, MTTR e redução de inventário em processo em cerca de 8%.\n \n Construção e implementação do planejamento estratégico da planta de Uberaba, desenvolvendo controles de toda a planta, redução de investimentos na ordem de 7% através de desenvolvimento de tecnologia interna para projetos e confecção de equipamentos, moldes e reformas.\n Location : Uberaba, MG - Brasil\n \n \n Job Title : Gerente de Manutenção / Supervisor e Planejador de Manutenção\n Company name : Black & Decker\n Period : dez de 1991 - dez de 1996\n Summary : Desenvolvimento do sistema de manutenção preventiva, preditiva e produtiva total (TPM) incluindo a implementação de software SMI de manutenção. Gerenciamento da manutenção.\n \n Construção da planta industrial de Uberaba - MG, transferência de equipamentos, startups, contratações, estruturação e treinamento de novos colaboradores e em paralelo o encerramento da unidade industrial de Santo André - SP.\n Location : Santo André - SP - Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : MBA Gerenciamento de Projetos\n Period : 27 - 28\n School name : FCETM\n Speciality : pós graduação em controladoria\n Period : 1998 - 1999\n \n School name : Centro Universitário FEI\n Speciality : Engenheiro Mecanico Pleno\n Period : 1987 - 1991"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "e8807d9b-231b-4ed5-b737-58d38f724963",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*e8807d9b-231b-4ed5-b737-58d38f724963",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:37.709Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:37.709Z",
+      "linkedinUsername": "rocharonaldo",
+      "email": "rorocha100@hotmail.com",
+      "phone": "21971539282",
+      "name": "Ronaldo do Prado Rocha",
+      "id": "e8807d9b-231b-4ed5-b737-58d38f724963"
+    },
+    "timeInCurrentStage": 61412371018
+  },
+  {
+    "importedAt": "2024-02-08T18:39:52.965Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Plant General Manager"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Plant General Manager\n Company name : IBRLAM Laminação de Metais Ltda\n Period : ago de 218 - mai de 221\n Summary : IBRLAM – Laminação de Metais Ltda\n Empresa nacional de laminação de Metais não Ferroso com 2 unidades fabril, de cobre em Itatiaia RJ e Alumínio em Joinville SC.\n Plant Manager / Diretor – 218 – Maio 21\n Reporte: CEO e Presidente proprietário\n • Responsável pelas 2 unidades Fabris de Fundição e Laminação com produção média anual de 6. toneladas de Cobre e 3. toneladas de Alumínio. Tendo na hierarquia direta os setores de Fabricação, Qualidade, Engenharia, Manutenção, Compras, Logística e Gestão Industrial.\n • Principais projetos, Readequação da fábrica de Alumínio resultando em maior confiabilidade e aumento da sua capacidade em 2%, Aumento da produção de Cobre utilizando o máximo da capacidade fabril com implantação de turnos de trabalho em tempo recorde em plena pandemia e a transferência de linhas de fabricação entre as fábricas de acordo com as estratégias de venda.\n • Responsável pelo controle dos custos e investimentos das unidades e pelo resultado final com redução superior a 15% do custo fabril, aumento da produtividade e estabilização dos processos.\n \n Job Title : Gerente Geral de Projetos Industriais\n Company name : PSA Peugeot Citroën Brasil\n Period : mar de 212 - jul de 217\n Summary : PSA Peugeot Citroen\n Multinacional francesa detentora das marcas Peugeot, Citroen, DS e Opel, presente em mais de 1 países. Possui 2 fábricas na América Latina (Brasil e Argentina).\n Reporte: Diretor Industrial América Latina - Equipe: 12 diretos\n Gerenciamento de projetos industriais para redução de custos e otimização de processos (logísticos e de manufatura), para formação de parcerias tecnológicas (joint-venture) e de implantação de programas de melhorias contínuas (Lean Manufacturing, Kaizen, etc).\n Principais Projetos:\n . Correspondente industrial para a construção de nova fábrica em parceria com outra montadora (joint-venture) visando a fabricação de novo veículo para ambas marcas, envolvendo interface com áreas de engenharia do Brasil, França e EUA;\n . Projeto do Novo Armazém de Peças e Acessórios: adaptação de toda infraestrutura da planta de produção no RJ para instalação do novo armazém (recebimento e expedição de peças), com 26 mil m2 de área e investimento de R$ 13,2 milhões. Esse projeto envolveu transferência do antigo armazém de SP para o RJ visando obtenção de incentivos fiscais (R$ 7,9 milhões), eliminação dos custos de locação do prédio de SP (R$ 6,1 milhões) e a terceirização do processo interno de logística (3% do custo logístico), além da readequação de toda a logística de armazenamento de cerca de 25 mil itens;\n . Projetos de melhoria de produtividade (Lean Manufacturing) nas fábricas do Brasil e Argentina, obtendo redução no lead time em mais 2% e redução do índice de reclamações e retrabalho em 1%;\n . Implantação da Unidade de transformação de Veículos para a vendas no B2B e Séries Especiais (Limitadas) com o total de 4 mil veículos modificados e um aumento no faturamento de mais de R$ 2.7 milhões no período de 216 a 217.\n Projetos de melhoria de produtividade (Lean Manufacturing) nas fábricas do Brasil e Argentina, obtendo redução no lead time em mais 2% na cadeia de estampados e redução do índice de reclamações e retrabalho em 1%;\n Location : Porto Real RJ\n \n Job Title : Diretor industrial- 211/12 // Gerente Geral – Centro de Prod e Unidade de Manutenção Ind – 28/1\n Company name : PSA Peugeot Citroen Brasil\n Period : ago de 28 - fev de 212\n Summary : Reporte: Diretor Industrial América Latina Equipe: até 1 pessoas\n • Gestão da única planta no Brasil com capacidade de produção de 15 mil veículos/ano e mais de 4 mil funcionários.\n • Cumprimento das metas definidas pelo Grupo em 1% nos indicadores de Qualidade, Custo e Produção onde o principal objetivo foi a de receber o projeto de duplicação do potencial fabril ao qual gerou enormes pertubações no Polo Industrial evitando paradas de fabricação e acidentes.\n • Responsável pelo Planejamento Estratégico do Centro de Produção na gestão de volumes, prazos e custos produtivos e administração de todas variáveis que impactavam na performance da operação (problemas de fornecimento e de transportes, energia, greves, etc).\n • Gestão da Logística (planejamento de demanda e de produção): entrega dos fornecedores local, análise de riscos financeiros dos materiais importados (taxas aduaneiras e marítimas). Atuação direta com a área de Compras nas análises sobre a evolução dos fornecedores.\n • Planejamento Estratégico da Operação / Plano Diretor (projeção de 3 e 6 anos), estudos de CAPEX, novos produtos, implantação das diretrizes de melhoria, elaboração de relatórios gerenciais para o board.\n • Implantação das diretrizes de melhoria e gerenciamentio da Unidade de Manutenção industrial com redução dos custos de energia em 15% e disponibilidade dos meios acima de 95%.\n • Responsável por toda área Manutenção Preventiva e Controle de Qualidade, com a obtenção de redução em 7% dos custos de fabricação através do conceito Lean Manufacturing.\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Assessor Industrial (Expatriado na França)\n Company name : PSA Peugeot Citroën - França\n Period : jan de 26 - jul de 28\n Summary : • Adjunto do Diretor Industrial Global, sendo responsável pelo reporte dos resultados da unidade fabril do Brasil, por buscar soluções e inovação no segmento automobilístico com o intuito de sugerir diretrizes de melhorias e reduções de custos de fabricação.\n Location : Paris e Região, França\n \n Job Title : Gerente Industrial da Unidade de Carroceria (1998/22), Montagem e Teste (22/25)\n Company name : PSA Peugeot Citroën Brasil\n Period : out de 1998 - dez de 25\n Summary : Reporte: Diretor da Planta. Equipe: 8 pessoas\n • Responsável desde a implantação do projeto da Unidade de Carroceria (Estrutura Metálica do Veículo), em Porto Real/RJ, até o gerenciamento da Unidade com cerca de 8 funcionários.\n • Treinamento em unidades da PSA Europa para implementação da unidade de carroceira no Brasil.\n • Gerenciamento das atividades de montagem final e testes dos veículos com cerca de 9 funcionários e uma sequência produtiva de 1 veículo a cada 2,5 minutos.\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Gerente Adjunto Industrial\n Company name : SUMIDENSO DO BRASIL Indústrias Elétricas Ltda\n Period : jul de 1997 - out de 1998\n Summary : Reporte: Diretor da Planta. Equipe: 8 pessoas\n • Responsável pela área de produção de chicotes elétricos para a Fiat do Brasil, obtendo a produtividade das linhas de produção e a diminuição do set-up das máquinas em 1%.\n Location : Mateus leme MG\n \n Job Title : Gerente de unidade de negócios\n Company name : Auto Comercio e Industria ACIL Ltda\n Period : mai de 1993 - jul de 1996\n Summary : Reporte: Diretor da Planta. Equipe: 25 pessoas\n • Implementação da produção de linha de estrutura metálica de bancos automotivos, tendo conduzido toda a transferência para essa fábrica em conjunto com a Jonhson Controls da Espanha.\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Supervisor de produção\n Company name : Unisys\n Period : jan de 1981 - dez de 1992\n Summary : > Atuei em vários setores técnicos supervisionando e chegando a gerenciar uma unidade de produção de cabeamento elétrico dos computadores de grande porte englobando os setores de produção, planejamento e engenharia.\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : MBA executivo em Gestão Empresarial - COPPEAD UFRJ\n Speciality : Administração de Empresas\n School name : Faculdade de Educação Paulo Eiro\n Speciality : Administração de Empresas\n Period : 1988 - 1992\n \n School name : Colégio Osvaldo Cruz\n Speciality : Técnico em Eletrônica\n Period : 1976 - 1979"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "8090afbe-cc6c-44b5-928d-988ab8c968e8",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*8090afbe-cc6c-44b5-928d-988ab8c968e8",
+    "talent": {
+      "updatedAt": "2023-12-20T13:52:26.565Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:52:26.565Z",
+      "linkedinUsername": "lucio-shimoyama",
+      "email": "shimoyama.luciok@gmail.com",
+      "phone": "24998787698",
+      "name": "Lucio Shimoyama",
+      "id": "8090afbe-cc6c-44b5-928d-988ab8c968e8"
+    },
+    "timeInCurrentStage": 61412371018
+  },
+  {
+    "importedAt": "2024-02-08T18:39:53.174Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "14/06/1971"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "30000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia Mecânica",
+          "id": "612a9e7a-ad38-4218-924b-ae8b5a2311e8",
+          "label": "Engenharia Mecânica"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Faculdade Souza Marques"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente industrial"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "Adultos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "PR",
+          "id": "ddacebd3-b647-4eb4-b74a-be67c4653033",
+          "label": "PR"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente industrial\n Company name : Gerdau\n Period : jan de 221 - o momento\n Summary : Plant Manager\n Location : Araucária, Paraná, Brasil\n \n Job Title : Gerente Industrial\n Company name : Gerdau\n Period : fev de 219 - abr de 221\n Summary : Melt Shop & Finishing / Heat Treatment Manager at Gerdau\n Location : Mogi das Cruzes, São Paulo\n \n Job Title : Gerente Aciaria\n Company name : Gerdau\n Period : nov de 217 - fev de 219\n Location : Mogi das Cruzes, Brazil\n \n Job Title : Maintenance and Engineering Manager\n Company name : Gerdau\n Period : jul de 213 - nov de 217\n Location : Pindamonhangaba Area, Brazil\n \n Job Title : Maintenance Manager\n Company name : Gerdau\n Period : abr de 212 - jul de 213\n Location : Barão de Cocais\n \n Job Title : Chefe Laminação\n Company name : Gerdau\n Period : abr de 29 - abr de 212\n Summary : Responsável pela operação do laminador de vergalhões e perfis.\n \n \n Job Title : Chefe de manutenção\n Company name : Gerdau\n Period : dez de 199 - mar de 29\n Location : Rio de Janeiro, Rio de Janeiro"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul\n Speciality : Inovação e Gestão 4.\n Period : 22 - 221\n School name : PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul\n Speciality : Liderança e Tecnologia\n Period : 22 - 22\n School name : Ibmec\n Speciality : Gestão de Negócios\n Period : 27 - 28\n \n School name : Faculdade Souza Marques\n Speciality : Engenharia Mecânica\n Period : 1994 - 1999"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d3aeb131-3ea5-4657-8436-4235ea657fe8",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*d3aeb131-3ea5-4657-8436-4235ea657fe8",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:19.389Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:19.389Z",
+      "linkedinUsername": "marcos-welby-silva-13045015",
+      "email": "welby.silva@hotmail.com",
+      "phone": "12991015578",
+      "name": "Marcos Welby Silva",
+      "id": "d3aeb131-3ea5-4657-8436-4235ea657fe8"
+    },
+    "timeInCurrentStage": 61412371018
+  },
+  {
+    "importedAt": "2024-02-08T18:39:53.217Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "16400"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Plant Operations Manager"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Plant Operations Manager\n Company name : ELSA Electrical Safety Technology Inc\n Period : mai de 217 - o momento\n Summary : Gestão completa da planta para a fabricação de produtos isolantes a partir de \"Isoprene Rubber\".\n Location : São Paulo e Região\n \n Job Title : Chefe de Engenharia\n Company name : TECSIS - Clean Power for the World\n Period : jul de 215 - jun de 216\n Summary : Gestão corporativa para todos os projetos de melhoria contínua, trabalho padronizado e lean manufacturing.\n Location : Brazil\n \n Job Title : Consultor em Gestão Industrial\n Company name : Toledo Consultoria Lean\n Period : out de 211 - jun de 215\n Summary : TECSIS\n Consultor para projetos de melhoria de processos visando, ganho no Lead Time de fabricação e aumento na eficiência de utilização da Mão de Obra.\n \n ADIENT\n Implementação de projetos específicos de melhoria contínua baseado nas ferramentas do Lean Manufacturing e MODAPTS.\n Condução do programa de nivelamento do conhecimento e aplicação efetiva do MODAPTS.\n Location : Brazil\n \n Job Title : Diretor Industrial\n Company name : Steammaster industria de caldeiras\n Period : mar de 211 - out de 211\n Summary : Responsável pela Produção, Logística, Qualidade, Engenharia de Processos e Manutenção.\n Location : Varginha Area, Brazil\n \n Job Title : Gerente da Qualidade\n Company name : Metagal Indústria e Comércio Ltda\n Period : mai de 28 - dez de 21\n Summary : Desenvolvimento e Gerenciamento dos KPIs;\n Gerenciamento da rotina do Incoming Quality;\n Gerenciamento do laboratório de análises dos polímeros e metais;\n Responsável pelo atendimento à clientes.\n Location : Pouso Alegre Area, Brazil\n \n Job Title : Gerente de Melhoria Contínua\n Company name : Automotiva Usiminas SA\n Period : fev de 26 - mai de 28\n Summary : Desenvolvimento de projetos para redução de custos usando Lean Manufacturing e Six Sigma.\n \n Job Title : Gerente da Engenharia de Processos e Desenvolvimento\n Company name : Automotiva Usiminas SA\n Period : nov de 1996 - fev de 26\n Summary : Responsável pelos processos de:\n Estamparia;\n Montagem e solda;\n Pintura de carrocerias;\n Orçamentos técnicos e custeio;\n Planejamento de Investimentos e ampliações.\n Location : Pouso Alegre Area, Brazil\n \n Job Title : Supervisor de curso Técnico\n Company name : SENAI - MG\n Period : jan de 1994 - nov de 1996\n Location : Pouso Alegre Area, Brazil\n \n Job Title : Engenheiro de Processos de Usinagem\n Company name : Mangels Industrial S.A\n Period : jan de 1992 - jan de 1993\n Location : Três Corações Area, Brazil\n \n \n Job Title : Especialista de Processos\n Company name : CBC Indústrias Pesadas SA\n Period : abr de 1985 - dez de 1991\n Summary : Especialista em dispositivos de montagem e processos de soldagem.\n Location : Varginha Area, Brazil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : MBA"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Gestão Empresarial\n Period : 22 - 23\n \n School name : Universidade do Estado de Minas Gerais\n Speciality : Engenharia Mecânica\n Period : 1989 - 1993"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "1648f1b0-d56b-4ba3-b41a-37e94fcd24e4",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*1648f1b0-d56b-4ba3-b41a-37e94fcd24e4",
+    "talent": {
+      "updatedAt": "2023-12-20T14:06:42.905Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:06:42.905Z",
+      "linkedinUsername": "gilberto-meneguci-bb265919",
+      "email": "gilbertomeneguci@gmail.com",
+      "phone": "35998432112",
+      "name": "Gilberto Meneguci",
+      "id": "1648f1b0-d56b-4ba3-b41a-37e94fcd24e4"
+    },
+    "timeInCurrentStage": 61412071018
+  },
+  {
+    "importedAt": "2024-02-08T18:39:53.062Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Plant Manager"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Plant Manager\n Company name : Closure Systems International (CSI)\n Period : ago de 219 - o momento\n Location : Jundiaí, São Paulo, Brasil\n \n Job Title : Quality & Process Manager\n Company name : CSI - Closures Systems International\n Period : ago de 219 - out de 221\n Location : Jundiaí SP\n \n Job Title : Quality Manager\n Company name : Magneti Marelli\n Period : abr de 217 - out de 218\n Summary : Responsável pelas atividades do Sistema de Gestão da Qualidade.\n Líder do Pilar QC do World Class Manufacturing – WCM.\n Responsável pelos laboratórios químico, físico, metrológico e de validação de produto.\n Responsável pelo Controle da Qualidade da planta de componentes para amortecedores.\n Auditorias Internas corporativas.\n Gerenciamento de KPI´s da Qualidade.\n Gestão de fornecedores de itens correntes.\n Suporte à Engenharia de Produto nos desenvolvimentos e validações de novos produtos.\n Planejamento Estratégico e Budget.\n Location : Mauá - SP\n \n Job Title : Quality Manager South America\n Company name : TrelleborgVibracoustic\n Period : mar de 212 - ago de 216\n Summary : « Responsável pelo planejamento do Sistema de Qualidade (ISO-91 e ISO-TS 16949) em duas unidades fabris.\n « Gestão dos KPI´s da Qualidade em nível local e corporativo.\n « Aplicação dos Requisitos Específicos de Clientes.\n « Auditorias Internas, de Certificação e de Clientes.\n « Planejamento Estratégico e Budget.\n « Gestão da aplicação de normas, procedimentos, instruções e documentos técnicos.\n Location : Guarulhos, Brasil\n \n Job Title : Quality Manager\n Company name : TRW Automotive\n Period : jul de 28 - mar de 212\n Summary : « Responsável pelo planejamento e administração do Sistema de Gestão da Qualidade, abrangendo o CQ e Garantia da Qualidade em atendimento às normas NBR ISO 91:28 e ISO/TS 16949:29.\n « Desenvolvimento e qualificação de fornecedores de materiais e serviços.\n « Gestão de grupos multifuncionais para desenvolvimento de APQP, FMEA, Planos de Controle, QOS, QSB, Q1 e outras atividades correlatas.\n « Implementação de requisitos específicos dos clientes automotivos tais como QSB, VDA, QOS e suas core tools em toda a cadeia de fornecimento.\n Location : Diadema, Brasil\n \n Job Title : Industrial Manager\n Company name : Black & Decker Company - Emhart Refal Division\n Period : mar de 1996 - nov de 27\n Summary : « Responsável pelo planejamento e administração do Sistema de Gestão da Qualidade, abrangendo o CQ e Garantia da Qualidade em atendimento às normas NBR ISO 91 e ISO/TS 16949.\n « Gestão de grupos multifuncionais para desenvolvimento de APQP, FMEA, Planos de Controle, QOS, QSB e outras atividades correlatas.\n « Indicação à Alta Direção das Políticas e Objetivos da Qualidade, de acordo com as demandas e expectativas dos clientes e com o plano de negócios da organização.\n « Negociações com clientes, fornecedores e certificadoras para tratamento de problemas da qualidade, elaboração e acompanhamento de ações corretivas e desenvolvimento de especificações.\n « Planejamento e administração do Sistema de Gestão Ambiental compreendendo o mapeamento dos processos.\n \n \n « Identificação e análise de aspectos e impactos ambientais e utilizar essa análise como base para o planejamento do Sistema de Gestão Ambiental.\n « Administração da obtenção e manutenção de todas as licenças ambientais e atendimento de outros requisitos legais relativos à gestão ambiental.\n Location : São Paulo, Brasil\n \n \n Job Title : Special Analysis Technician\n Company name : Formica Corporation\n Period : abr de 1991 - mar de 1995\n Summary : § Coordenador da Qualidade\n Técnico em Análises Especiais\n Analista de Controle da Qualidade\n Location : Suzano, Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade de São Paulo\n Speciality : Industrial Administration\n Period : 2 - 22\n \n School name : UNICASTELO - Universidade Camilo Castelo Branco\n Speciality : Chemical Engineering\n Period : 1991 - 1996"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "3956ec50-d69d-46eb-934c-1cecdb443b19",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*3956ec50-d69d-46eb-934c-1cecdb443b19",
+    "talent": {
+      "updatedAt": "2023-12-20T14:02:51.891Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:02:51.891Z",
+      "linkedinUsername": "adilson-lazotti-47bb641b",
+      "email": "adilson.lazotti@hotmail.com",
+      "phone": "",
+      "name": "Adilson Lazotti",
+      "id": "3956ec50-d69d-46eb-934c-1cecdb443b19"
+    },
+    "timeInCurrentStage": 61412971018
+  },
+  {
+    "importedAt": "2024-02-08T18:39:53.317Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Industrial"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente Industrial\n Company name : Johnson Controls\n Period : abr de 213 - abr de 22\n Summary : Gerenciamento da planta com volume de produção anual de 3 milhões de unidades (1% entrega para as montadoras, mercado de reposição e clientes de exportação). Responsável pela equipe de coordenação, supervisão, manutenção preventiva e corretiva, engenharia de processo, qualidade, melhoria continua (six sigma), inovação, PCP (WIP) e operadores, totalizando 17 colaboradores.\n \n Principais Resultados:\n - Implantação de controle de gastos de custos variáveis, sistema de planejamento e controle de despesas por centro de custos com 2% de redução de R$ 4MM ao mês (Custo da fábrica).\n - Desenvolvimento de 4 novos projetos de investimento CAPEX, no valor de R$ 5 MM.\n - Aumento da produção de 21K para 25K unidades, através de solução de gargalos.\n - Redução de refugo de 4g para 13g, mediante o envolvimento de todos e estratégia de melhoria continua.\n - Aumento da produtividade em 7% ano por intermédio do TPM, cartas ABE e ATE, redução de setup, programação do PCP, robustez no processo, produto e o engajamento dos operadores e liderança.\n - Redução dos custos da fábrica, com foco em produtividade, controle de custos diretos e indiretos e redução da sucata.\n - Diminuição do tempo de máquinas paradas (Downtime).\n - Nacionalização de componentes com o objetivo melhorar a qualidade e o custo, prazo de entrega dos itens mais críticos.\n - Redução de estoques em processo e controles de estoque mínimo e máximo nas áreas de produção.\n - Redução de 1% de reclamação por dores com a implementação de equipamentos e dispositivos ergonômicos.\n Location : Sorocaba - São Paulo\n \n Job Title : Six Sigma Black Belt\n Company name : Johnson Controls\n Period : mai de 27 - mar de 213\n Summary : - Desenvolvimento de projetos voltados à melhoria contínua com o objetivo de aumentar a produtividade, robustez no produto e equipamento, reduzir o scrap com ganho significativo de saving, através da ferramenta minitab (DMAIC).\n - Entrega de projetos de saving de US$ 9 mil/ano fom foco em melhoria da qualidade, que garantiram êxito com os clientes de montadoras (Honda Automovéis, Fiat, GM, Honda motos Manaus, Yamaha, Dafra, Kasinki, BMW.\n Location : Sorocaba, São Paulo, Brasil\n \n Job Title : Supervisor de Produção\n Company name : Valeo\n Period : abr de 26 - mai de 27\n Summary : Responsável pela produção de motores para arrefecimento e limpadores de para-brisas dianteiro e traseiro. Incumbido de atender as metas de segurança, scrap, produtividade, MPT, absenteísmo com o intuito de buscar a melhoria através do PDCA.\n Coordenar e orientar os processos de produção, visando garantir os padrões de qualidade e a eficiência do processo.\n Gerir a equipe industrial – selecionar, direcionar, engajar e fornecer suporte técnico e capacitar os colaboradores da área;\n Gerenciar os indicadores de eficiência da área, tratar não conformidades e identificar oportunidades de melhoria.\n \n Principais Resultados:\n  Crescimento de 4% de produtividade devido a relocação de pessoas, manutenção preventiva e do uso de ferramentas estatísticas para definir o gargalo e treinamento. Ações que garantiram atendimento de 98% da demanda do cliente.\n  Realização de 1% das preventivas, redução do downtime de 4% através do TPM.\n  Zero acidentes registráveis, redução de 3% de pessoas devido a reestruturação e baixa performance.\n Location : Indaiatuba - São Paulo\n \n Job Title : Coordenador de Produção\n Company name : Johnson Controls\n Period : mai de 24 - abr de 26\n Summary : Gestão de equipe de 9 colaboradores e subordinação ao Gerente Industrial. Responsável pela segurança, qualidade, manutenção, produtividade, scrap, absenteísmo, up time.\n Laborar análises técnicas de problemas através de ferramentas da qualidade e planos de ações, com foco em aumento de produtividade, qualidade do produto e desenvolvimento das condições de trabalho, aplicando conceitos de Lean Manufacturing, DMAIC, PDCA.\n Comprometimento dos operadores e da liderança, interagir com as áreas de suporte. Desenvolver todas as pessoas da equipe treinando, avaliando, orientando de forma contínua e cotidiana.\n \n Principais Resultados:\n  Aumento de produtividade em 3% ao ano e atingimento de produção em 97%.\n  Redução da sucata através de projeto de melhoria continua em 12%.\n  Melhoria do processo em 2% reduzindo o retrabalho, com foco no produto.\n  Redução de 1% nos acidentes registráveis.\n Location : Sorocaba - São Paulo\n \n Job Title : Supervisor de Produção\n Company name : Impacta S.A. Indústria e Comércio\n Period : ago de 23 - mai de 24\n Summary : Gestão de equipe de 5 colaboradores, reportando para o Gerente Industrial. Responsável pela segurança, qualidade, produtividade, refugo, absenteísmo, apontamento de produção, up time, manutenção e desenvolvimento de métodos de trabalho com o objetivo de aumentar o desempenho das linhas de produção de tubos e bisnagas de alumínio.\n Realizar suporte gerencial, através da elaboração e aplicação de indicadores KPI’s de processos, garantindo a execução e controle da produção assegurando o cumprimento das metas.\n Garantir e adequar a capacidade de produção, recursos humanos e matéria-prima através de análise de demanda.\n Supervisionar os processos de produção, monitorar os indicadores de performance do processo produtivo através da análise de dados do sistema de gestão.\n Realizar periodicamente a avaliação de desempenho dos colaboradores.\n Location : Cajamar - São Paulo\n \n \n Job Title : Coordenador de Produção\n Company name : Delphi\n Period : mar de 1991 - abr de 23\n Summary : § Coordenador de Produção  22 - 23\n § Engenharia da Qualidade  21 - 22\n § Coordenador de Laboratórios Químico, Elétrico e Mecânico  1998 - 21\n § Técnico Laboratório Mecânico e Elétrico:    1994 - 1998\n § Operador de Produção:    1991 - 1994\n Location : Piracicaba - são Paulo"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : I lead People\n Period : Emitido em set de 2016-Sem data de expiração\n Issuing Authority : Johnson Controls\n \n Title : JCMS (Johnson Controls Manufacturing System)\n Period : Emitido em fev de 2016-Sem data de expiração\n Issuing Authority : Johnson Controls"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade Metodista de Piracicaba\n Speciality : engenharia Industrial Mecânica\n \n School name : Universidade Centro Paula Souza ( em desenvolvimento)\n Speciality : Produção\n Period : jun de 22 - ago de 222"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "6c845b3b-3c0e-4303-9a8f-9f975c784844",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*6c845b3b-3c0e-4303-9a8f-9f975c784844",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:19.186Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:19.186Z",
+      "linkedinUsername": "jose-lucio-o-santos",
+      "email": "lucio_santos1@hotmail.com",
+      "phone": "15991183837",
+      "name": "José Lucio Santos",
+      "id": "6c845b3b-3c0e-4303-9a8f-9f975c784844"
+    },
+    "timeInCurrentStage": 61412371018
+  },
+  {
+    "importedAt": "2024-02-08T18:39:52.924Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Diretor Industrial Corporativo"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Diretor Industrial Corporativo\n Company name : InBetta\n Period : nov de 219 - o momento\n Summary : Responsável pelas operações em 4 plantas do grupo.\n Location : Porto Alegre, RS\n \n Job Title : Diretor de Operações\n Company name : Tupperware Brands\n Period : ago de 216 - nov de 219\n Summary : - Responsável pelas operações industriais no Brasil, liderando uma organização com 1,3 associados nas áreas de Produção, Manutenção, Engenharia, PCP, Logística, RH, Qualidade, Projetos, EHS, Lean e Distribuição.\n Location : Rio de Janeiro, RJ\n \n Job Title : Diretor de Operações América do Sul\n Company name : Robertshaw\n Period : mar de 215 - jun de 216\n Summary : Responsável pela estratégia da Operação Industrial na América do Sul dos negócios linha branca em áreas-chave como produção, manutenção, engenharia, planejamento de produção, qualidade, supply chain e segurança do trabalho e meio ambiente, num universo de 1.2 pessoas e 4 plantas.\n Location : Manaus Area, Brazil\n \n Job Title : Diretor de Operações América Latina\n Company name : Philips\n Period : jul de 214 - fev de 215\n Summary : Responsável pelas operações industriais em 2 plantas, gerenciando mais de 6 funcionários nas áreas de P&D, Supply Chain, Produção, Qualidade, Lean, Manutenção, Engenharia, Finanças.\n Location : Minas Gerais, Brazil\n \n Job Title : Diretor de Operações Brasil\n Company name : Philips\n Period : nov de 211 - jun de 214\n Summary : • Responsável pela Operação Industrial do grupo Healthcare PCMS, com 12 pessoas nas áreas de produção, manutenção, engenharia de processos e produtos, planejamento de produção, almoxarifado, supply chain, recursos humanos e finanças, em 2 plantas (Manaus e São Paulo), definindo a estratégia de Operações no Brasil;\n • Integração da empresa Dixtal Biomédica para os processos globais da Philips como S&OP (Vendas), NPI (R&D), Legal Merge (Fiscal), Branding (RH) e Lean Six Sigma;\n • Atuação como responsável técnico pelos produtos mediante organismo regulamentador (Anvisa);\n • Liderança de projeto de start up de nova planta em Manaus, através da sinergia de 2 fábricas de BUs diferentes;\n Location : Manaus e Região, Brasil\n \n Job Title : Gerente Senior de Projetos LATAM\n Company name : Philips\n Period : fev de 29 - out de 211\n Summary : - Manage and execute Simply Philips Operating System in Industrial sites across Latam;\n - Guest speaker in Lean Summit Brasil 21 and 214 to share Simply Philips experiences, results and learnings.\n Location : Manaus Area, Brazil\n \n Job Title : Manufacturing Manager\n Company name : Philips\n Period : mai de 28 - fev de 29\n Location : Varginha, MG\n \n Job Title : Gerente Industrial\n Company name : Pyrotek\n Period : out de 26 - mai de 28\n Summary : Responsible for managing areas of Production & Maintenance, Production Planning, Engineering, Procurement, Logistics, Customer Service.\n \n Job Title : Gerente Lean de Divisão\n Company name : Parker Hannifin\n Period : jul de 25 - out de 26\n Summary : • Implantação das ferramentas Lean (Parker Lean System) nas divisões Seals e Refrigeration, fornecedoras de produtos para a indústria automotiva;\n • Definição da estratégia Lean para redução de desperdício na cadeia de valor, focando em aumento de produtividade e redução de custo em ambiente de alto mix /alto volume com mais de 3 funcionários.\n Location : São Paulo Area, Brazil\n \n Job Title : Engenheiro de Processos Sr / Coordenador Lean Manufacturing\n Company name : Kodak\n Period : 21 - 25\n Location : São José dos Campos Area, Brazil\n \n Job Title : Engenheiro de Qualidade\n Company name : Embraer\n Period : 2 - 21\n Location : São José dos Campos Area, Brazil\n \n \n Job Title : Engenheiro de Desenvolvimento de Produto\n Company name : Siemens\n Period : mar de 1999 - dez de 2\n Location : Campinas Area, Brazil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Transformational Leadership Program\n Period : Emitido em out de 2017-Sem data de expiração\n Issuing Authority : Tupperware Brands\n Title : Maggelan Leadership Program\n Period : Emitido em jul de 2013-Sem data de expiração\n Issuing Authority : Center for Creative Leadership\n \n Title : Certificado como Six Sigma Master Black Belt e Especialista em Lean Manufacturing"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Gestão Empresarial\n Period : 21 - 22\n \n School name : UNESP - Universidade Estadual Paulista \"Júlio de Mesquita Filho\"\n Speciality : Engenharia Mecânica\n Period : 1995 - 1999"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "331cf17f-de22-4c41-af87-5a2651be6c58",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*331cf17f-de22-4c41-af87-5a2651be6c58",
+    "talent": {
+      "updatedAt": "2023-12-20T13:58:56.595Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:58:56.595Z",
+      "linkedinUsername": "higashimarcelo",
+      "email": "marcelo.higashi@hotmail.com",
+      "phone": "51992847427",
+      "name": "Marcelo Higashi",
+      "id": "331cf17f-de22-4c41-af87-5a2651be6c58"
+    },
+    "timeInCurrentStage": 61412371018
+  },
+  {
+    "importedAt": "2024-02-08T18:39:52.939Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "13/01/1981"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "23500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "Faculdade de Engenharia de Minas Gerais"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Plant Manager"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2 e 6"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Plant Manager\n Company name : Varroc Lighting Systems\n Period : fev de 218 - o momento\n Summary : - Full Operations Sorocaba Unit P&L, Balance Sheet and Cash flow responsibility on ~R$75M Annual Revenue.\n - Responsible for R$12M CAPEX budget on green field facility Launch for Plant, Process, Product, and Personnel.\n - Direct and manage all plant operations with overall responsibilities for all disciplines—including EH&S, production, process, maintenance, tooling shop, and materials/logistics (buying, planning, stockroom, shipping & receiving).\n - Establish and drive the attainment of key performance indicators for overall facility success with a focus on safety, quality, delivery, cost, and inventory.\n - Provide direction, mentorship, and leadership to the local operation management team.\n - Collaborate with Sales, Finance, Project Management, Purchasing, Product Management, IT, and HR to coordinate and agree on manufacturing programs and strategies.\n - Lead by example a culture that focuses on safety, quality, cost, and delivery while actively driving continuous improvement across the organization.\n Location : Sorocaba, São Paulo, Brazil\n \n Job Title : Manufacturing Engineering Manager\n Company name : Marelli\n Period : jan de 217 - fev de 218\n Summary : - Led Industrial Development activities for the entire plant on Injection (8) Molding, (2) Metallizers, Hard coating, and Antifog Machines. (5) Assembly Lines. Total Capex Budget: $25MIUSD.\n - Design, Develop and Implement Manufacturing processes and material flows to support Plant Organization.\n - Support redesign layout optimization of entire shop floor during Plant readiness period.\n - Implement best practices and lessons learned and lead continuous improvements initiatives to increase efficiency.\n - Responsible for all process documentation: Layouts flows, PFMEA, and work instructions.\n - Built up and led manufacturing team and ensure adequate staff during plant ramp up.\n Location : Clarkston, Michigan\n \n Job Title : Manufacturing Engineering Coordinator\n Company name : Marelli\n Period : abr de 214 - dez de 216\n Summary : - Coordinated assembly line stations design, layout, testing, evaluation of mechanical and electrical systems.\n - Developed technical specification mainly focused on optimal golden and strike zones target setting, ergonomic aspects, and maintenance standards.\n - Ensure best utilization of available manufacturing best practices, lessons learned, and MP information in order to minimize capital expenditures.\n - Secure all World Class Manufacturing (WCM) pillars through Work Place Integration (WPI) methodology.\n Location : Contagem, Minas Gerais, Brazil\n \n Job Title : Industrial Development Engineer\n Company name : Marelli\n Period : out de 21 - abr de 214\n Summary : - Assembly line development based on APQP steps and World Class Manufacturing (WCM) concepts.\n - Executed technical specification mainly focused on optimal golden and strike zones target setting, ergonomic aspects, and maintenance standards.\n - Responsible for equipment tryout, Standard Operating Procedures during the validation phase.\n Location : Contagem, Minas Gerais, Brazil\n \n Job Title : Process Tecnician\n Company name : Marelli\n Period : jan de 29 - out de 21\n Summary : - Regular Vibrational welding, Pre Heating Vibrational Welding process, ultrasonic plastic welding, glue through bi-component adhesive, scredriver torque control.\n - Update of standardized worksheets, flowchart and PFMEA.\n - Improvement of layouts and Kaizens performing.\n Location : Contagem, Minas Gerais, Brazil\n \n \n Job Title : Tool Maker\n Company name : Aethra Automotive Systems\n Period : 26 - 28\n Summary : - Construction of medium and large dies for the automotive field\n Location : Contagem, Minas Gerais"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidade de São Paulo\n Speciality : Business Administration and Management\n Period : 221 - 222\n School name : Ietec - Instituto de Educação Tecnológica\n Speciality : MBA Project Management\n Period : 212 - 212\n School name : Ietec - Instituto de Educação Tecnológica\n Speciality : Industrial\n Period : 21 - 21\n School name : FEAMIG - Faculdade de Engenharia de Minas Gerais\n Speciality : Information Management\n Period : 25 - 29\n \n School name : SENAI/SC - Serviço Nacional de Aprendizagem Industrial\n Speciality : Mechanic Technician\n Period : 1996 - 1999"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "cd0003a7-0e70-4904-a6db-0883a88df066",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*cd0003a7-0e70-4904-a6db-0883a88df066",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:37.001Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:37.001Z",
+      "linkedinUsername": "andresouza-pm",
+      "email": "ags2673@yahoo.com.br",
+      "phone": "15988346153",
+      "name": "André Souza",
+      "id": "cd0003a7-0e70-4904-a6db-0883a88df066"
+    },
+    "timeInCurrentStage": 61412371018
+  },
+  {
+    "importedAt": "2024-02-08T18:39:53.202Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "01/04/1974"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "47000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "8"
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "UFRJ - Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Plant Manager Gerdau São Paulo"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "6 e 15"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Plant Manager Gerdau São Paulo\n Company name : Gerdau\n Period : jan de 221 - o momento\n Location : São Paulo, Brasil\n \n Job Title : Diretor executivo\n Company name : AcerBrag S.A\n Period : mar de 219 - jul de 22\n Summary : Responsável pela Unidade de Negócios de Aços Longos, com faturamento de US$ 25 M, 8 colaboradores, sendo 6 diretos nas áreas Comercial, Recursos Humanos, Produção, Jurídico, Financeiro e Supply Chain. Reporte ao Diretor Internacional de Aços Longos.\n Location : Greater Buenos Aires, Argentina\n \n Job Title : Diretor industrial\n Company name : AcerBrag S.A\n Period : mai de 218 - mar de 219\n Summary : Responsável pela Planta Industrial com capacidade de 4 Kt/ano, 65 colaboradores, sendo 7 diretos na área de SSMA, Gestão, Engenharia, Manutenção e Linhas Operacionais (3)\n Location : Bragado Partido, Greater Buenos Aires, Argentina\n \n Job Title : Gerente Geral Industrial\n Company name : Votorantim Siderurgia\n Period : jan de 215 - abr de 218\n Summary : Responsável pela principal Unidade Industrial de Aços Longos do Grupo, com capacidade anual de 1. Mt/ano, 6 colaboradores, sendo 5 reportes diretos.\n Location : Resende\n \n Job Title : Gerente Geral Industrial\n Company name : Votorantim Siderurgia\n Period : dez de 21 - dez de 214\n Summary : Responsável pela Unidade Industrial, com capacidade anual de 8 kt/ano, 6 colaboradores, sendo 5 reportes diretos nas áreas de operação e manutenção.\n Location : Barra Mansa\n \n Job Title : Gerente de Planejamento e Logistica\n Company name : Votorantim Siderurgia\n Period : dez de 26 - dez de 21\n Summary : Responsável pela área de Supply Chain, com 2 centros de distribuição e diversas filiais de venda distribuídas no Brasil, 3 colaboradores.\n Location : Barra Mansa\n \n Job Title : Coordenador de Planejamento\n Company name : Nexa Resources\n Period : jan de 23 - dez de 26\n Summary : Responsável pela área de planejamento industrial no negocio Aço.\n Location : Barra Mansa\n \n Job Title : Analista de Planejamento\n Company name : GSK\n Period : 21 - 23\n Summary : • Participação na definição do modelo de Planejamento Global – UK 21/22\n • Implantação do ERP BPCS em dois sites Industriais\n \n \n Job Title : Analista de Planejamento\n Company name : GSK\n Period : jan de 2 - abr de 21\n Summary : Coordenei a implementação do módulo de manufatura e suprimentos do ERP BPCS em dois sites incorporados pela empresa. Além disso, fui selecionado para representar a GSK Brasil, com outros sete brasileiros, em um grupo interdisciplinar, sediado na Inglaterra – onde estive baseado por cerca de um ano - e constituído por pessoal da GSK de vários países, visando a definição da arquitetura do sistema SAP R/3 a ser usado pela GSK em suas unidades\n Location : Inglaterra"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Northwestern University - Kellogg School of Management\n Speciality : Business Administration and Management\n Period : 212 - 212\n School name : Amana Key\n Speciality : APG - Programa de Gestão Avançada\n Period : 213 - 213\n School name : Fundação Getulio Vargas\n Speciality : MBA Gestão Empresarial\n Period : 26 - 27\n School name : Fundação Getulio Vargas\n Speciality : MBA Logistica\n Period : 24 - 25\n \n School name : Universidade Federal do Rio de Janeiro\n Speciality : Bachelor of Engineering (B.Eng.)\n Period : 1992 - 1998"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "aeeac8d3-3cf7-4509-bb1a-9b18fc5451b5",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*aeeac8d3-3cf7-4509-bb1a-9b18fc5451b5",
+    "talent": {
+      "updatedAt": "2023-12-20T14:09:24.405Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:09:24.405Z",
+      "linkedinUsername": "luizfelipeoliveira1974",
+      "email": "lfcorio@gmail.com",
+      "phone": "24999818322",
+      "name": "Luiz Felipe Oliveira",
+      "id": "aeeac8d3-3cf7-4509-bb1a-9b18fc5451b5"
+    },
+    "timeInCurrentStage": 61412371018
+  },
+  {
+    "importedAt": "2024-02-08T18:39:53.300Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFYAKAXP4BTY4QHTJDZ",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Com contato",
+      "id": "2",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 2
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Lean Manufacturing"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente Lean Manufacturing\n Company name : Michelin\n Period : jul de 22 - o momento\n Location : Rio de Janeiro, Brasil\n \n Job Title : Gerente de Produção Adjunta\n Company name : Michelin\n Period : jun de 219 - jul de 22\n Location : Rio de Janeiro\n \n Job Title : Chefe de produção\n Company name : Michelin\n Period : out de 217 - mai de 219\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Engenheiro industrial Pleno\n Company name : Michelin\n Period : out de 213 - out de 217\n Location : Rio de Janeiro e Região, Brasil\n \n Job Title : Industrial Engineer Junior\n Company name : Michelin\n Period : mar de 212 - jun de 213\n Location : Colômbia\n \n \n Job Title : Estagiaria MMW ( Lean Manufacturing)\n Company name : Michelin\n Period : nov de 211 - mar de 212\n Location : Cali, Colombia"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Universidad ICESI\n Speciality : Industrial Engineering\n Period : 27 - 212\n School name : Universidade Estácio de Sá\n Speciality : Engenharia e Gestão Industrial\n Period : 216 - 218\n School name : Smyrna High School\n Speciality : Academica\n Period : 26 - 27\n \n School name : Fundação Vanzolini\n Speciality : Engenharia Industrial\n Period : 217 - 218"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "4852e546-768b-41c5-a875-267f3fea9a1f",
+    "id": "6bff9d21-f95c-4928-b421-b2e79f39b85b*4852e546-768b-41c5-a875-267f3fea9a1f",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:03.274Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:03.274Z",
+      "linkedinUsername": "karol-andrea-morales-mesa-294261b6",
+      "email": "karol.andrea4@gmail.com",
+      "phone": "21994856926",
+      "name": "Karol Andrea Morales Mesa",
+      "id": "4852e546-768b-41c5-a875-267f3fea9a1f"
+    },
+    "timeInCurrentStage": 61412371018
+  }
+]

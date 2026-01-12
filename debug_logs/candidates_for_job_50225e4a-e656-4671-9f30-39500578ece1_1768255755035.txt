@@ -1,0 +1,3016 @@
+[
+  {
+    "importedAt": "2024-02-08T18:39:11.574Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "10259"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "USD"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe de mercado + stock options (vesting de 3 anos)"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Comunicação Social",
+          "id": "e5b3cfa3-f5c5-42cb-aefc-1b0f757be277",
+          "label": "Comunicação Social"
+        }
+      },
+      {
+        "name": "Universidade de Graduação",
+        "id": "13",
+        "type": "text",
+        "value": "FACHA"
+      },
+      {
+        "name": "Complemento de formação (pós, mestrado, outros)",
+        "id": "14",
+        "type": "text",
+        "value": "MBA em Marketing pela ESPM"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2 filhos (3 anos)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "a70bf134-a6b5-47aa-8706-63ae11a63734",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*a70bf134-a6b5-47aa-8706-63ae11a63734",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:09.081Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:09.081Z",
+      "linkedinUsername": "fabiobalassiano",
+      "email": "fabio.balassiano@gmail.com",
+      "phone": "21998164854",
+      "name": "Fábio Balassiano",
+      "id": "a70bf134-a6b5-47aa-8706-63ae11a63734"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.050Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "09/06/1973"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "20000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "44959"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Economia",
+          "id": "72b9c97c-68f7-40f0-b9d8-7a317f72d545",
+          "label": "Economia"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2 filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "391cf29b-370e-47f4-b186-0c8f465cb7ec",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*391cf29b-370e-47f4-b186-0c8f465cb7ec",
+    "talent": {
+      "updatedAt": "2023-12-20T13:50:19.036Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:50:19.036Z",
+      "linkedinUsername": "roberto-c-pontes-a4a205a",
+      "email": "ropont@uol.com.br",
+      "phone": "11997413436",
+      "name": "Roberto C. Pontes",
+      "id": "391cf29b-370e-47f4-b186-0c8f465cb7ec"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.305Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "27/08/1991"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "11500"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "7.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Estatística",
+          "id": "cc8eb113-438c-4671-9b5f-0049f2f4b8ff",
+          "label": "Estatística"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Gerente Canais Digitais"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Gerente Canais Digitais\n Company name : Banco Safra\n Period : jul. de 219 – o momento\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista Produtos e Canais Digitais PF\n Company name : Banco Safra\n Period : jan. de 217 – jun. de 219\n Summary : Desenvolvimento e gestão dos Canais Digitais (Internet e Mobile Banking), buscando melhorias na experiência de atendimento aos clientes PF.Gestão do projeto da nova ferramenta de trabalho para os gerentes PF - Cockpit. Uso de metodologia ágil, entendimento das necessidades dos usuários, especificação das funcionalidades, suporte a equipe de UX na prototipação da ferramenta, participação no Kick off e reuniões técnicas de entendimento funcional com a equipe de tecnologia, além de participar de toda fase de homologação e piloto até a entrega final da ferramenta. Suporte no pós-implantação, realizando treinamentos a área comercial e apoio às dúvidas e sugestões de melhoria. Sinergia com as equipes de Tecnologia, Marketing e Área Comercial.\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista CRM\n Company name : Banco Safra\n Period : jan. de 215 – dez. de 216\n Summary : Experiência no ramo de Produtos e Serviços para a pessoa física. Atuação na área de CRM, manipulação de banco de dados (SQL Server) para realização de análises utilizando técnicas de Estatística (modelagem e análise de clusters). Levantamento de dados para estudos e campanhas para a área comercial, com o intuito de um melhor direcionamento estratégico de produtos, segmentação de usuários, tomada de decisões e direções estratégicas de relacionamento e negócios. Indicadores de desempenho dos Canais digitais para ações de melhorias dos mesmos.\n Location : São Paulo e Região, Brasil\n \n Job Title : Trainee\n Company name : Banco Safra\n Period : jan. de 215 – dez. de 215\n Summary : Job Rotation por diversas áreas do banco para uma total imersão de conhecimentos sobre o mercado financeiro. Gestão e desenvolvimento de projetos de novos negócios, além de melhorias de processos nas áreas do Job Rotation;Apresentações executivas;\n Location : São Paulo e Região, Brasil\n \n Job Title : Analista de Políticas de Crédito\n Company name : Itaú Unibanco\n Period : ago. de 213 – jan. de 214\n Summary : Responsável pela criação de políticas de crédito dos principais produtos bancários pessoa física, tais como cartão de crédito, cheque especial, crediário, veículos, entre outros. Acompanhamento e monitoramento das políticas.\n Location : São Paulo e Região, Brasil\n \n Job Title : Estagiária\n Company name : HSBC\n Period : jul. de 213 – ago. de 213\n Summary : Estagiária dando suporte aos analistas no monitoramento dos modelos de crédito do banco pessoa jurídica.\n Location : São Paulo e Região, Brasil\n \n \n Job Title : Presidência, Diretoria de Finanças e Estagiária\n Company name : EJE - Empresa Junior de Estatística\n Period : ago. de 21 – jul. de 213\n Summary : Consultoria Estatística. Realização de reuniões com clientes, definição das técnicas estatísticas apropriadas para cada análise e execução das mesmas. Atuação na área administrativa da empresa, convocando e presidindo as reuniões e assembleias da Diretoria Executiva e suporte a área Financeira.\n Location : São Carlos"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Master of Business Administration - MBA, Gestão de Projetos\n Period : 218 – 22\n School name : Fundação Getulio Vargas\n Speciality : Programa para Futuros Gestores de Alta Performance, Finanças\n Period : 215 – 215\n Summary : Apresentação das principais características de produtos e serviços bancários, bem como a participação em um \"Banking Game\" com o propósito de demonstrar o funcionamento de um banco de rede típico do Brasil.\n School name : Universidade de São Paulo\n Speciality : Mestre, Estatística, Programa Interinstitucional de pós graduação USP/UFSCar\n Period : 214 – 216\n \n School name : Universidade Federal de São Carlos\n Speciality : Estatística\n Period : 21 – 213"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "4a61273e-efa4-4ecf-bdcb-a4c6c3bd9073",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*4a61273e-efa4-4ecf-bdcb-a4c6c3bd9073",
+    "talent": {
+      "updatedAt": "2023-12-20T13:55:26.584Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:55:26.584Z",
+      "linkedinUsername": "laryssa-vieira-dos-santos-1a833b2a",
+      "email": "laryssa_santos91@yahoo.com.br",
+      "phone": "13988330441",
+      "name": "Laryssa Vieira dos Santos",
+      "id": "4a61273e-efa4-4ecf-bdcb-a4c6c3bd9073"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.842Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "11/09/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "15000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "87.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Head of Digital Products | Partner"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 filha (1 meses)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "RJ",
+          "id": "90e2bf3a-f71a-473e-a592-0eb950f1c565",
+          "label": "RJ"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Head of Digital Products | Partner\n Company name : XP INVESTIMENTOS\n Period : nov. de 218 – o momento\n Summary : Responsible for a group of +15 squads using the agile framework for developing, delivering, and sustaining complex products. With the know-how of over 1 years on the financial market, the main goal now is to make technology a tool to improve the efficiency, mobility, and well being of our users. We're the pioneers in having a team built exclusively for Financial Advisors to improve their work therefore benefiting all of our customers.\n \n Job Title : Manager | Partner\n Company name : XP INVESTIMENTOS\n Period : jul. de 215 – out. de 218\n \n Job Title : Head of Securities Lending Desk - Associate\n Company name : XP INVESTIMENTOS\n Period : dez. de 211 – jul. de 215\n Summary : • #1 independent broker in Brazil\n Location : XP Investimentos\n \n Job Title : Equity Desk / Stock Loan Desk\n Company name : XP INVESTIMENTOS\n Period : jan. de 29 – dez. de 211\n Summary : • Helped develop a new stock loan process for individuals• Traded single stocks for local investors\n Location : XP Investimentos\n \n \n Job Title : Intern\n Company name : Alpes CCTVM\n Period : jan. de 27 – dez. de 28\n Summary : March 27 – Dec. 28Intern, Equity Desk / Stock Loan Desk• Responsible for Stock Loan Desk in Rio de Janeiro (franchise) • Started on the stock loan desk• Traded singles stocks and FX for offshore investorsAlpes CCTVM Jan. 27 – March 27Intern, Back Office• Helped settling all international trades."
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Insper\n Speciality : Master’s Degree (MSc), Finance & Economics\n Period : 215 – 217\n School name : Pontificia Universidade Catolica - PUC Rio\n Speciality : Bachelor of Business Administration (B.B.A.)\n Period : 26 – 21\n \n School name : Colegio Santo Agostinho"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "6c0e9b10-f01b-42fe-912d-eadc7f839696",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*6c0e9b10-f01b-42fe-912d-eadc7f839696",
+    "talent": {
+      "updatedAt": "2023-12-20T14:11:01.499Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:11:01.499Z",
+      "linkedinUsername": "gabriel-boselli-msc-74789995",
+      "email": "gsboselli@gmail.com",
+      "phone": "11995254260",
+      "name": "Gabriel Boselli",
+      "id": "6c0e9b10-f01b-42fe-912d-eadc7f839696"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.752Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "15/03/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "16000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "VA + VR + Plano de Saude (Unimed)"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Head de Produtos digitais"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "PR",
+          "id": "ddacebd3-b647-4eb4-b74a-be67c4653033",
+          "label": "PR"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Head de Produtos digitais\n Company name : Banco Bari\n Period : jan. de 221 – o momento\n Location : Curitiba, Paraná, Brasil\n \n Job Title : Gerente de Produtos Financeiros\n Company name : Banco RCI Brasil\n Period : jan. de 218 – dez. de 22\n Summary : Head da área de investimentos e responsável pela implementação e gestão das plataformas digitais de investimentos do Banco RCI Brasil (tendo sido o primeiro banco de montadora no Brasil a oferecer uma plataforma própria neste modelo).Reportes a direção local e matriz (França).Definição das estratégias do negócio.Gestão dos projetos com foco em metodologias ágeis.Implantação de Aplicativo Mobile (“CDB Banco RCI”) e Internet Banking para captação online de produtos de renda Fixa.Implantação de Onboarding digital para cadastro dos clientes.Relacionamento transversal com os diversos stakeholders.Definição de estratégias de Marketing (em apoio ao Marketing interno e agências especializadas).Definição e priorização de backlog dos fornecedores, garantindo entregas mais rápidas e que mais geram valor aos clientes internos e externos.Acompanhamento do mercado local e externo em busca de melhorias de produtos e processos.Benchmaking com pares de mercado.Identificação de correções e melhorias com utilização de metodologia ágil (SCRUM) para melhor experiência do cliente.\n Location : Curitiba, Paraná\n \n Job Title : Gerente de Produtos e Planejamento Comercial\n Company name : Paraná Banco S/A\n Period : mai. de 215 – dez. de 217\n Summary : Product Manager responsável pela implantação e gestão dos canais digitais.Líder do projeto de implantação de aplicativo mobile e internet banking para investidores.Gestão do time de atendimento a clientes investidores oriundos dos canais digitais.Responsável pelos novos projetos do negócio, com foco em utilização de metodologias ágeis.\n Location : Curitiba e Região, Brasil\n \n \n Job Title : coordenador de planejanento comercial\n Company name : Paraná Banco S/A\n Period : fev. de 213 – jan. de 215\n Summary : Responsável pelo planejamento comercial, com foco em análise de receitas, despesas e planos de ação para atingimento de metas.\n Location : Curitiba e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Curso Online de Product Discovery\n Period : Emitido em mar. de 2021 - Nenhuma data de expiração\n Issuing Authority : Cursos PM3\n Title : Curso Online de Product Management\n Period : Emitido em dez. de 2020 - Nenhuma data de expiração\n Issuing Authority : Cursos PM3\n \n Title : Gestão Ágil com Scrum\n Period : Emitido em dez. de 2020 - Nenhuma data de expiração\n Issuing Authority : Udemy"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Ibmec Business School / IBMEC\n Speciality : Master of Business Administration (MBA), Finanças\n Period : 211 – 212\n \n School name : Pontifícia Universidade Católica do Paraná\n Speciality : Ciencias contábeis, Contabilidade\n Period : 26 – 29"
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "e2c6795d-9bed-4711-94eb-b59871b823b9",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*e2c6795d-9bed-4711-94eb-b59871b823b9",
+    "talent": {
+      "updatedAt": "2023-12-20T14:00:21.797Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:00:21.797Z",
+      "linkedinUsername": "renatonegrão",
+      "email": "renato_negrao@hotmail.com",
+      "phone": "41999624014",
+      "name": "Renato Negrão",
+      "id": "e2c6795d-9bed-4711-94eb-b59871b823b9"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.413Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "10/12/1978"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "24000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45056"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "ddf21b2f-119f-4f23-8d3d-b7dcc9f98598",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*ddf21b2f-119f-4f23-8d3d-b7dcc9f98598",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:34.749Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:34.749Z",
+      "linkedinUsername": "renato-mortensen-1a76aa",
+      "email": "renato.mortensen@gmail.com",
+      "phone": "11982493873",
+      "name": "Renato Mortensen",
+      "id": "ddf21b2f-119f-4f23-8d3d-b7dcc9f98598"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.103Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "25/10/1977"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "31000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "7db912a3-32fa-4df2-bf7a-dddf40ec47f8",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*7db912a3-32fa-4df2-bf7a-dddf40ec47f8",
+    "talent": {
+      "updatedAt": "2023-12-20T14:06:43.308Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:06:43.308Z",
+      "linkedinUsername": "marcos-teixeira-99785113",
+      "email": "mpsteixeira@yahoo.com.br",
+      "phone": "11982728277",
+      "name": "Marcos Teixeira",
+      "id": "7db912a3-32fa-4df2-bf7a-dddf40ec47f8"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.271Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "14/08/1981"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "20000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Auxilio Creche + PLano de Saude e Odonto + p/p +"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "831e5b38-2d94-4f96-9a25-8087f16f768f",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*831e5b38-2d94-4f96-9a25-8087f16f768f",
+    "talent": {
+      "updatedAt": "2023-12-20T13:53:10.825Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:53:10.825Z",
+      "linkedinUsername": "bruno-biazon",
+      "email": "bbiazon@gmail.com",
+      "phone": "19981212277",
+      "name": "Bruno Biazon",
+      "id": "831e5b38-2d94-4f96-9a25-8087f16f768f"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.507Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "07/07/1991"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "22000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45027"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Economia",
+          "id": "72b9c97c-68f7-40f0-b9d8-7a317f72d545",
+          "label": "Economia"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "72d385f6-6021-4f0d-aab4-8d279b441bda",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*72d385f6-6021-4f0d-aab4-8d279b441bda",
+    "talent": {
+      "updatedAt": "2023-12-20T13:56:40.536Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:56:40.536Z",
+      "linkedinUsername": "bretasrgfelipe",
+      "email": "felipebretas@gmail.com",
+      "phone": "11973738391",
+      "name": "Felipe Brêtas",
+      "id": "72d385f6-6021-4f0d-aab4-8d279b441bda"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.542Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "150aedd3-acdc-418a-9a53-24f4f89cd261",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*150aedd3-acdc-418a-9a53-24f4f89cd261",
+    "talent": {
+      "updatedAt": "2023-12-20T14:04:35.897Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:04:35.897Z",
+      "linkedinUsername": "driribe",
+      "email": "driribe@gmail.com",
+      "phone": "",
+      "name": "Adriana R",
+      "id": "150aedd3-acdc-418a-9a53-24f4f89cd261"
+    },
+    "timeInCurrentStage": 61412954809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.343Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Partner | Head of Digital Products & Growth"
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Partner | Head of Digital Products & Growth\n Company name : XP Investimentos\n Period : nov. de 22 – o momento\n Summary : Responsável por toda a jornada digital do cliente XP e Rico, desde a abertura de conta, gestão de portfólio, engajamento, rentabilização e aprendizado (conteúdos, cursos e MBAs).\n Location : São Paulo, Brasil\n \n Job Title : Partner | Head of Digital Products\n Company name : XP Investimentos\n Period : jan. de 22 – nov. de 22\n Summary : Liderei as tribos de fundos e seguridade (seguros e previdência).\n Location : São Paulo e Região, Brasil\n \n Job Title : Global Senior Product Director\n Company name : Gympass\n Period : fev. de 219 – jan. de 22\n Summary : Digital Turnaround: @End User Tribe, leading GPMs, responsible for the whole digital experience strategy in 14 countries on the desktop and native app.Main achievements:- Growth and restructuring of the End-User tribe, focusing on the customer journey.- Digital repositioning from the end user side, launching the new app and website: new search, new booking flow, new gym details page and also, creating the new profile page providing self management.- Increase 6 p.p of Active users.- Improve the app store ratings from 2 to 4+, both stores.- Increase 4% of mobile NPS.- Increase 45% of tribe (employees) NPS.\n Location : São Paulo e Região, Brasil\n \n Job Title : Senior Digital Business Manager\n Company name : Rede\n Period : ago. de 217 – fev. de 219\n Summary : Digital Turnaround - Itaú-Unibanco Holding: Leading GPMs, Responsible for the merchant experience tribe (desktop and native app), which is related to the client's digital journey after they activate/register its terminal.This tribe has more than 12 squads directly leading more than 2 people, responsible for onboarding, conciliation, e-commerce and customer service journey. We were also responsible for the customer acquisition, engagement and retention.Main achievements:- Launching of Rede’s new iOS and Android app, improving app store rating from 2 to 4,5.- Launching of the new Rede Portal.- Increase 1 p.p of MAU.- Decrease Contact Rate from digital users in 5 p.p.- Increase 8 p.p of digital sales\n \n Job Title : Group Product Manager - Credit Card\n Company name : Itaú Unibanco\n Period : mai. de 216 – jul. de 217\n Summary : As a GPM, I was responsible to support a business expansion strategy through digital products of the biggest credit card's app in the Brazilian Market (native app).Main achievements:- Launching of the new Itaucard, Credicard and Hipercard app as a platform, enabling new brandings launching.- Increase app stores rating.- Double of MAU YoY.- Increase 5% of the NPS.- Launching of the Virtual Card product.\n Location : São Paulo\n \n Job Title : Product Manager - Credit Card\n Company name : Itaú Unibanco\n Period : abr. de 215 – mai. de 216\n Summary : As a Product Manager of Itaucard's App, lead a squad formed by a multidisciplinary team - UX, Designers, Scrum Master, Tech Lead, Developers, Testers, Business analysts, Marketing and others - managing the product's backlog and assuring the focus on business capabilities using Scrum Methodology. The main responsibilities were:• Backlog planning with stakeholders, using prioritization methods such as value engineering;• Roadmap definition - Inception;• Epics and product flow definition;• Stories specifications using user stories method: User vision, Business narrative, Map of TAGs analytics, accessibility, acceptance criteria, layouts and wireframes;• Scrum methodology application together with the Scrum Master, performing the ceremonies of Grooming, Planning, Daily Meeting, Review and Retrospective between the business and technology areas;• Homologation and consequent validation of acceptance criteria;• Follow the client's feedback, App's bugs and market benchmarks on performance and opportunities to increase the Backlog.\n Location : São Paulo\n \n Job Title : Trainee\n Company name : Itaú Unibanco\n Period : jan. de 214 – mar. de 215\n Summary : Participated in the trainee program on 214 comprising three main phases: • 1 month of several trainings, including a Financial Certificate given by FIA; • 6 months of job rotation, spending 1 to 15 days in each area to understand the bank structure and the relationship among area – the most important,since trainees must exercise teamwork, leading skills, initiative and fast reasoning; • finally, 8 months in the final area: Digital Products;During all the program: behavioral, financial and leadership training.\n Location : São Paulo\n \n Job Title : UX/Product Senior Analyst\n Company name : Itaú Unibanco\n Period : jan. de 212 – dez. de 213\n Location : São Paulo\n \n \n Job Title : Commercial\n Company name : Itaú Unibanco\n Period : jan. de 28 – dez. de 211\n Summary : Relationship manager.\n Location : São Paulo e Região, Brasil"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : Product Masterclass: How to Build Digital Products\n Period : Emitido em mar. de 2020 - Nenhuma data de expiração\n Issuing Authority : Product School\n Title : Digital Product Leadership\n Period : Emitido em ago. de 2018 - Nenhuma data de expiração\n Issuing Authority : Tera\n \n Title : Leading SAFe\n Period : Emitido em jul. de 2018 - Nenhuma data de expiração\n Issuing Authority : Adaptworks"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Fundação Getulio Vargas\n Speciality : Executive MBA, Business Management\n Period : 215 – 217\n School name : Fundação Dom Cabral\n Speciality : Extension course, Organizational Leadership\n Period : 215 – 216\n School name : FIA - Fundação Instituto de Administração\n Speciality : Extension course, Accounting and Finance\n Period : 214 – 214\n \n School name : Universidade Paulista\n Speciality : Bachelor of Business Administration - BBA, Business\n Period : 28 – 211"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "7e921dfd-a897-4e08-b618-04fe56fd49ed",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*7e921dfd-a897-4e08-b618-04fe56fd49ed",
+    "talent": {
+      "updatedAt": "2023-12-20T14:09:06.127Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:09:06.127Z",
+      "linkedinUsername": "thiago-ferro",
+      "email": "thiagoferro05@gmail.com",
+      "phone": "11995006368",
+      "name": "Thiago Ferro",
+      "id": "7e921dfd-a897-4e08-b618-04fe56fd49ed"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.453Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "02/04/1975"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "26000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "44963"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "10.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Plano de Saude + p/p (1:1)"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "044ef9d2-0eee-4520-848f-007b6bbe2370",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*044ef9d2-0eee-4520-848f-007b6bbe2370",
+    "talent": {
+      "updatedAt": "2023-12-20T14:06:08.976Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:06:08.976Z",
+      "linkedinUsername": "judithdacunha",
+      "email": "j.cunharodriguez@hotmail.com",
+      "phone": "11999384816",
+      "name": "Judith Da Cunha",
+      "id": "044ef9d2-0eee-4520-848f-007b6bbe2370"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.668Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "02/02/1986"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "20000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45026"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "343d46c2-5b01-4934-bd8d-5670be26c00a",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*343d46c2-5b01-4934-bd8d-5670be26c00a",
+    "talent": {
+      "updatedAt": "2023-12-20T14:00:57.302Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:00:57.302Z",
+      "linkedinUsername": "andré-fernandes-595a6133",
+      "email": "andrefernandes19@yahoo.com.br",
+      "phone": "11999652471",
+      "name": "André Fernandes",
+      "id": "343d46c2-5b01-4934-bd8d-5670be26c00a"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.382Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "05/12/1986"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "14000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "7.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe de mercado + p/p (até 5%)"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "fca64781-eaa9-45a5-9f0b-173f8fd48bfe",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*fca64781-eaa9-45a5-9f0b-173f8fd48bfe",
+    "talent": {
+      "updatedAt": "2023-12-20T13:52:41.614Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:52:41.614Z",
+      "linkedinUsername": "raphael-tozi-50165537",
+      "email": "raphatozi@hotmail.com",
+      "phone": "11991590010",
+      "name": "Raphael Tozi",
+      "id": "fca64781-eaa9-45a5-9f0b-173f8fd48bfe"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.203Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "30/06/1994"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "8200"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "VA/VR + VT + Plano de Saude + Seguro de Vida + Gympass"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Gestão Financeira",
+          "id": "04116f57-8c18-4e17-a5e6-475f09303935",
+          "label": "Gestão Financeira"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "MG",
+          "id": "fd9a75a0-f705-48e8-9abe-cb8601c06067",
+          "label": "MG"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "688eb6dc-6aee-4b1e-9e0f-d5ade5bc325f",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*688eb6dc-6aee-4b1e-9e0f-d5ade5bc325f",
+    "talent": {
+      "updatedAt": "2023-12-20T14:06:07.793Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:06:07.793Z",
+      "linkedinUsername": "ingrid-medrado-6b510a137",
+      "email": "ingridalencarmp@hotmail.com",
+      "phone": "31999742033",
+      "name": "Ingrid Medrado",
+      "id": "688eb6dc-6aee-4b1e-9e0f-d5ade5bc325f"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.137Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "12/06/1905"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "20000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "VA + VR (15,), Estacionamento, p/p + Plano de Saude"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Relações Internacionais",
+          "id": "b13dcd8f-5e6d-484c-a5eb-8bea4b9a05fb",
+          "label": "Relações Internacionais"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "a5ba4ba4-ba12-43ea-ac4b-8d8902bfa0f1",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*a5ba4ba4-ba12-43ea-ac4b-8d8902bfa0f1",
+    "talent": {
+      "updatedAt": "2023-12-20T14:10:49.007Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:10:49.007Z",
+      "linkedinUsername": "jaquelinekosilekpaiva",
+      "email": "jack.kosilek@gmail.com",
+      "phone": "11993875921",
+      "name": "Jaqueline Kosilek de Paiva",
+      "id": "a5ba4ba4-ba12-43ea-ac4b-8d8902bfa0f1"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.472Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "03/10/1983"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "12000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "20.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "VA + VR + Estacionamento + Plano Medico e Odonto + Seguro de Vida + Academia"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Economia",
+          "id": "72b9c97c-68f7-40f0-b9d8-7a317f72d545",
+          "label": "Economia"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "e9527c58-ad42-46f8-8c28-2f411cd6324b",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*e9527c58-ad42-46f8-8c28-2f411cd6324b",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:40.599Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:40.599Z",
+      "linkedinUsername": "adriana-costa-siebert-cfp®-a446511a",
+      "email": "acostasiebert@gmail.com",
+      "phone": "11984892800",
+      "name": "Adriana Costa Siebert",
+      "id": "e9527c58-ad42-46f8-8c28-2f411cd6324b"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:10.953Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "02/03/1976"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "17000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "15.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciências Contábeis",
+          "id": "ac569059-e63a-4bd1-bd9b-19e5149e5f00",
+          "label": "Ciências Contábeis"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "8698f26d-cfbd-49e6-a573-9febf195d3f3",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*8698f26d-cfbd-49e6-a573-9febf195d3f3",
+    "talent": {
+      "updatedAt": "2023-12-20T13:52:00.255Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:52:00.255Z",
+      "linkedinUsername": "ricardo-funcasta-dias",
+      "email": "drrfuncasta@gmail.com",
+      "phone": "11984987777",
+      "name": "Ricardo Funcasta Dias",
+      "id": "8698f26d-cfbd-49e6-a573-9febf195d3f3"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.014Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "04/07/1987"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "17000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "12.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "VR (8,) + VA (68) + Plano de Saude e Odonto (Itau) + p/p"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "9c96676c-ecb7-4094-824a-7ce60197ee93",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*9c96676c-ecb7-4094-824a-7ce60197ee93",
+    "talent": {
+      "updatedAt": "2023-12-20T13:51:43.840Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:51:43.840Z",
+      "linkedinUsername": "carolrosassanchez",
+      "email": "ca.g.rosas@gmail.com",
+      "phone": "11995558160",
+      "name": "Carolina Rosas Sanchez",
+      "id": "9c96676c-ecb7-4094-824a-7ce60197ee93"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.783Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "16/09/1980"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "28000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "6.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe de mercado"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Ciência da Computação",
+          "id": "31170328-4766-43ac-b200-830fbc8bd302",
+          "label": "Ciência da Computação"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 filho (12 anos)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d810136c-7954-400b-ae17-5d0509a92a21",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*d810136c-7954-400b-ae17-5d0509a92a21",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:45.283Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:45.283Z",
+      "linkedinUsername": "rodrigo-bacega",
+      "email": "rodrigobacega@yahoo.com.br",
+      "phone": "11984944465",
+      "name": "Rodrigo Bacega",
+      "id": "d810136c-7954-400b-ae17-5d0509a92a21"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.071Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "28/05/1995"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "12000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45058"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "5a4ea8fa-28f6-412a-a241-3dd9e0550e2e",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*5a4ea8fa-28f6-412a-a241-3dd9e0550e2e",
+    "talent": {
+      "updatedAt": "2023-12-20T13:52:42.317Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:52:42.317Z",
+      "linkedinUsername": "liviaweigertmanso",
+      "email": "lwmanso.lcm@gmail.com",
+      "phone": "19987274545",
+      "name": "Livia Weigert Manso",
+      "id": "5a4ea8fa-28f6-412a-a241-3dd9e0550e2e"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.168Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "22/03/1976"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "25000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "VA + VR + Plano de Saude + p/p + seguro de vida + free choice (3.,/ano para gastar como queria) + estacionamenot + 14º salario"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 filha (6 anos)"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d2497c53-44fd-45e9-bf3b-cf4bcb42c639",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*d2497c53-44fd-45e9-bf3b-cf4bcb42c639",
+    "talent": {
+      "updatedAt": "2023-12-20T14:08:22.281Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:08:22.281Z",
+      "linkedinUsername": "fatima-derenzo-7a555141",
+      "email": "fderenzo@hotmail.com",
+      "phone": "11996867908",
+      "name": "Fatima Derenzo",
+      "id": "d2497c53-44fd-45e9-bf3b-cf4bcb42c639"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.698Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "7cdfac90-7142-4cd7-90a2-ae3d9fd9290e",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*7cdfac90-7142-4cd7-90a2-ae3d9fd9290e",
+    "talent": {
+      "updatedAt": "2023-12-20T13:54:31.015Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:54:31.015Z",
+      "linkedinUsername": "carlacmoliveira",
+      "email": "carlacmolive@gmail.com",
+      "phone": "11941343331",
+      "name": "Carla Oliveira",
+      "id": "7cdfac90-7142-4cd7-90a2-ae3d9fd9290e"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.634Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "11/01/1977"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "35000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "44989"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "VA + VR + Plano de Saude + p/p (1:,5) + seguro de vida"
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Superintendente de Serviços Digitais, Dados, Tarifas & Conta Corrente | Citi Brazil"
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "2 filhos"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Job Title : Superintendente de Serviços Digitais, Dados, Tarifas & Conta Corrente | Citi Brazil\n Company name : Citi\n Period : mar. de 216 – ago. de 22\n Summary : Responsável por todo o portfólio de Serviços Digitais para os produtos de Cash Management, Tesouraria, Empréstimos e Investimentos, que permite que empresas se conectem e efetuem transações financeiras em 22 países LATAM e mais de 9 países globalmente, em mais de 1 moedas e 27 idiomas.Liderei toda a estratégia de comercialização e adoção de serviços digitais para o Citi Brasil para as plataformas Web, Mobile, Integração com ERPs e conectividade Host to Host, através de modernização de transações, UX / CX e melhoria da jornada dos clientes nos canais.Ex-Membro do Comissão Executiva de Inovação da FEBRABAN que discute iniciativas de Open Banking, P2P, Blockchain, Instant Payments e Onboarding Digital.Premiado 6 vezes com pelo Citi Global & LATAM Recognition Awards por diferentes projetos relacionados a experiência digital e digitalização de processos. Nos últimos 4 anos, eleito o Melhor Banco Digital na América Latina pela revista Global Finance.\n Location : Brasil\n \n Job Title : Gerente de Canais Digitais | Itaú BBA\n Company name : Banco Itaú BBA\n Period : set. de 28 – mar. de 216\n Summary : Responsável pela gestão e desenvolvimento de novas funcionalidades para os Canais Eletrônicos de Internet e Mobile para o banco de Atacado, incluindo todos os produtos de Cash Management, empréstimos, Investimentos e plataforma de e-commerce (Itaú Shopline).Coordenei os times que desenvolveram e implementaram várias plataformas de transaction banking (Web e Mobile) para os clientes do Atacado através de modernização de transações, revisão de usabilidade / UX / CX, novas funcionalidades para clientes e nichos, campanhas de uso, comunicação e mkt digital e cash consulting.Prêmios: Escolhido o melhor banco de Cash management por 8 anos consecutivos pela revista Euromoney e o melhor banco eletrônico por 7 anos consecutivos, pela pesquisa PIF.\n Location : Brasil\n \n \n Job Title : Gerente de Produtos e Canais Eletrônicos | Santander\n Company name : Banco Santander\n Period : ago. de 1995 – set. de 28\n Summary : Tive uma carreira de sucesso, iniciei minha jornada como Analista de Produtos Jr. e me tornei Gerente de Produtos Sr. em apenas 5 anos.Fui responsável pela instalação e implementação das primeiras ferramentas de office banking, EDI e softwares offline para geração de arquivos de remessa e retorno. Mais tarde, como Gerente de Produtos, fui responsável por todos os Canais eletrônicos do banco PF e PJ. Coordenei o time que especificou e desenvolveu um dos primeiros Internet Bankings da indústria financeira, o SantanderNet.Participei de vários projetos de Internet Banking para os produtos de pagamentos, cobrança, conta correntes, empréstimos, investimentos, segurança na internet. Também fui responsável por toda a gestão de conteúdo do Site Santander.com.br com o lançamento de campanhas e vendas de produtos.Trabalhei com especificações funcionais, protótipos e provas de conceito, teste de usabilidade, homologação de novas funcionalidades, treinamentos, acompanhamento de KPI’s e Gestão de Incidentes.Liderei e participei de vários projetos de integração de sistemas dos bancos incorporados pelo Santander, como: Noroeste, Meridional, Banespa e Banco Real.\n Location : Brasil"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : fia.com.br\n Speciality : MBA, Marketing de Serviços\n Period : 24 – 26"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "de8fc290-7360-4e86-9789-1796adbb8231",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*de8fc290-7360-4e86-9789-1796adbb8231",
+    "talent": {
+      "updatedAt": "2023-12-20T14:09:37.698Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:09:37.698Z",
+      "linkedinUsername": "renato-cortezze-1b680b",
+      "email": "rcortezze@hotmail.com",
+      "phone": "11942426604",
+      "name": "Renato Cortezze",
+      "id": "de8fc290-7360-4e86-9789-1796adbb8231"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:10.992Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "30/06/1988"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "12000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "42.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "Auxilio HO + VA + VR + Plano de Saude (SulAmerica)"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Engenharia de Produção",
+          "id": "bc16e636-bfe5-4dec-826a-a04e11cf6847",
+          "label": "Engenharia de Produção"
+        }
+      },
+      {
+        "name": "Cargo",
+        "id": "18",
+        "type": "text",
+        "value": "Head of Digital Products & Channels XP"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      },
+      {
+        "name": "Carreira",
+        "id": "23",
+        "type": "text",
+        "value": "Background experience: Job Title : Head of Digital Products & Channels XP\n Company name : XP Inc\n Period : jan. de 221 – o momento\n Location : São Paulo, Brazil\n \n Job Title : Manager | B2C Digital\n Company name : XP Inc\n Period : jun. de 22 – jan. de 221\n Location : São Paulo, Brazil\n \n Job Title : Tsinghua-MIT Global MBA Candidate\n Company name : Tsinghua University\n Period : ago. de 219 – o momento\n Location : Beijing City, China\n \n Job Title : Investor Relations Manager\n Company name : Banco Pine\n Period : out. de 218 – ago. de 219\n Location : São Paulo Area, Brazil\n \n Job Title : Digital Manager\n Company name : Banco Pine\n Period : jul. de 217 – out. de 218\n Location : São Paulo e Região, Brasil\n \n Job Title : Investment Banking Analyst\n Company name : Banco Pine\n Period : fev. de 215 – jun. de 217\n Summary : Debt Capital MarketsMergers And AcquisitionsStructure and Project Finance\n Location : São Paulo e Região, Brasil\n \n Job Title : WMS (Wealth Management & Services) - Analyst\n Company name : Banco Itaú\n Period : set. de 214 – jan. de 215\n Location : São Paulo Area, Brazil\n \n Job Title : Business Analyst - Fellow\n Company name : McKinsey & Company\n Period : out. de 213 – set. de 214\n Summary : McKinsey & Company, Inc. is an American global management consulting firm that focuses on solving issues of concern to senior management. The firm serves as an adviser to businesses, governments, and institutions around the world. Fellow program is to coach talents with the methodology / tools McKinsey in order to apply them in consulting projects.\n Location : São Paulo Area, Brazil\n \n Job Title : WMS (Wealth Management & Services) Trainee\n Company name : Itaú Unibanco\n Period : jan. de 213 – out. de 213\n Summary : Divided in three stages, the Itaú Unibanco Trainee Program aims to speedy the development of young talents:- The first stage introduces economic/financial theory and fortifies behavioral knowledge through top-ranked business schools.- The second step is focused on practical learning through job rotations in a diverse pipeline of banking areas where trainees can learn develop strong networking and are submitted to challenging projects with a tight schedule.- The last part is classified as specialist, where trainees are allocated in their final area with defined goals. - The program also includes mentoring with executives to support the trainees decisions and increase their learning transforming high potential into outstanding performance.Job rotation in Wealth Management: Risks ( fiduciary ) , Innovation (Identify prospective clients and how the bank can communicate with them) , Quality ( Management Tool ) , Operations ( Creating a new model of management contracts ) and Products ( Knowledge of Bussiness and marketing strategies ).Duties: Project restructuring of the entire WMS bussiness with regard to NAV calculation. Seeking an aggressive goal aimed at improving the following attributes: Excellence , Scalability , Efficiency and Risk of the transactions contemplated by all operations of NAV calculation.\n Location : São Paulo Area, Brazil\n \n Job Title : Intern\n Company name : Siemens Wind Power\n Period : jan. de 212 – dez. de 212\n Summary : Intern – PDT (Talent Develop Program) - Siemens Wind Power Main Responsibilities: Ensure the progress of wind projects through interaction with functional areas such as: sitting, project management, logistics and engineering. Working at the interface of these areas optimizing resources for better performance of internal customers. Job rotation for knowledge of the organization as a whole. Project within a metaproject of sustainability called Social Responsibility @ PDT – We were responsible for manage a social project aimed to sports area in a public school.\n Location : São Paulo Area, Brazil\n \n Job Title : Project Managment\n Company name : Produção Jr. - UFSCar\n Period : jan. de 21 – jul. de 211\n Summary : Production Jr. Junior is a consultancy company in the area of Production Engineering, linked to the Production Engineering Department (DEP) of the Federal University of São Carlos (UFSCar).Our main activity is to perform consulting projects for micro and small companies, in order to implement methods and tools that assist in reducing costs and raising revenue, that is, diagnose and propose solutions to help organize and maximize the company's internal of their profits.\n Location : São Carlos Area, Brazil\n \n \n Job Title : Intern\n Company name : ZF - Division Sachs\n Period : jul. de 21\n Summary : Training in Lean Manufacturing, Six Sigma, Statistical Process Control, FMEA, Kaizen Kanban, and Presentation Techniques. Development of a project to organize and standardize the layout of manufacturing cells of ZF Brazil - Division Sachs Araraquara\n Location : Araraquara Area , Brazil\n Company 2: Tsinghua University"
+      },
+      {
+        "name": "Certificações",
+        "id": "24",
+        "type": "text",
+        "value": "Title : CFP® (Certified Financial Planner)\n Period : Emitido em dez. de 2013 - Nenhuma data de expiração\n Issuing Authority : IBCPF - Instituto Brasileiro de Certificação de Profissionais Financeiros\n \n Title : CPA-20\n Period : Emitido em ago. de 2013 - Nenhuma data de expiração\n Issuing Authority : ANBIMA"
+      },
+      {
+        "name": "Formação Acadêmica - Linkedin",
+        "id": "25",
+        "type": "text",
+        "value": "School name : Massachusetts Institute of Technology\n Speciality : Master of Business Administration - MBA, Business Administration and Management, General\n Period : 219 – 221\n School name : Tsinghua University\n Speciality : Master of Business Administration - MBA, Tsinghua-MIT Global MBA\n Period : 219 – 221\n Summary : Awarded by the Shicong Sang Scholarship for Excellence in Social Contribution.Student Ambassador – Class 221.Finalist - BlackRock Case Competition.Next Tech Breakthrough – JP Morgan project leader.Best Social Innovation Team - OpenHack Tsinghua-Geneva University. UN.\n School name : Insper\n Speciality : MSc, Finance - Economics\n Period : 214 – 215\n Summary : This stricto sensu graduate program develops professionals with high analytical capacity and a strong focus on business strategy who can work critically and systematically to find innovative solutions to the major challenges faced by organizations.Master's Thesis: The impact on equities portfolios return of Brazilian companies given the earnings announcement surprise after Earnings Release.\n School name : FIA - Fundação Instituto de Administração\n Speciality : Extention program, Business Administration and Management, General\n Period : 213 – 213\n Summary : Economics, Banking, Finance, Leadership, Project Management, Valuation.\n \n School name : Universidade Federal de São Carlos\n Speciality : Bachelor's degree, Industrial Engineering\n Period : 28 – 212\n Summary : Produção Jr. / CAEP - Centro Acadêmico de Engenharia de Produção / SEMEP - Semana da Engenharia de Produção"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "607f8dc4-9a89-491c-bfbe-327556c61afe",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*607f8dc4-9a89-491c-bfbe-327556c61afe",
+    "talent": {
+      "updatedAt": "2023-12-20T14:09:14.148Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:09:14.148Z",
+      "linkedinUsername": "caio-vaz-范凯欧-345a1221",
+      "email": "caioduartevaz@gmail.com",
+      "phone": "11981233227",
+      "name": "Caio Vaz",
+      "id": "607f8dc4-9a89-491c-bfbe-327556c61afe"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.604Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "27/12/1983"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "12000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "17.0"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Publicidade",
+          "id": "9b93bdb0-8d47-4819-873d-06af51a3d08f",
+          "label": "Publicidade"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "5939f172-d44d-47bb-8c1b-c46d55001230",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*5939f172-d44d-47bb-8c1b-c46d55001230",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:22.116Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:22.116Z",
+      "linkedinUsername": "filipe-menossi-a151a510",
+      "email": "fmenossi83@gmail.com",
+      "phone": "11987370500",
+      "name": "Filipe Menossi",
+      "id": "5939f172-d44d-47bb-8c1b-c46d55001230"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.802Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "24/03/1984"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "12000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45029"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Economia",
+          "id": "72b9c97c-68f7-40f0-b9d8-7a317f72d545",
+          "label": "Economia"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "d7b8193c-40b6-4e39-a2b2-2cf3f06fe422",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*d7b8193c-40b6-4e39-a2b2-2cf3f06fe422",
+    "talent": {
+      "updatedAt": "2023-12-20T14:03:38.327Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:03:38.327Z",
+      "linkedinUsername": "vanessa-alencar-cfp®-58607928",
+      "email": "vanalencar24@gmail.com",
+      "phone": "11998290064",
+      "name": "Vanessa Alencar",
+      "id": "d7b8193c-40b6-4e39-a2b2-2cf3f06fe422"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:10.883Z",
+    "stage": {
+      "phase": {
+        "name": "Listagem",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATFRK4PM33QS5QZTK6NB",
+        "type": "listing",
+        "order": 1,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Identificados",
+      "id": "1",
+      "userName": "Inhire",
+      "type": "listed",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 1
+    },
+    "customFields": [
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "undefined"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "0"
+      }
+    ],
+    "status": "declined",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "0d385aed-a07e-413b-9049-e440f3b26529",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*0d385aed-a07e-413b-9049-e440f3b26529",
+    "talent": {
+      "updatedAt": "2023-12-20T13:54:13.166Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:54:13.166Z",
+      "linkedinUsername": "vitorialakiss",
+      "email": "vitorialakiss@gmail.com",
+      "phone": "",
+      "name": "Vitoria Jacaranda Lakiss",
+      "id": "0d385aed-a07e-413b-9049-e440f3b26529"
+    },
+    "timeInCurrentStage": 61412954809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.236Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "01/11/1986"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "26000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "45091"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "16.0"
+      },
+      {
+        "name": "Benefícios (não monetário)",
+        "id": "10",
+        "type": "text",
+        "value": "praxe de mercado + stock options"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Filhos (Idade)",
+        "id": "21",
+        "type": "text",
+        "value": "1 ano e 8 meses"
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "6aae3536-2a6d-46ba-bd9a-28f12e94f50e",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*6aae3536-2a6d-46ba-bd9a-28f12e94f50e",
+    "talent": {
+      "updatedAt": "2023-12-20T14:01:50.304Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:01:50.304Z",
+      "email": "fioridur56@outlook.com",
+      "phone": "11953070738",
+      "name": "Felipe Durante",
+      "id": "6aae3536-2a6d-46ba-bd9a-28f12e94f50e"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:10.921Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "29/01/1978"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "12000"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "7.0"
+      }
+    ],
+    "status": "rejected",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "other",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "c7cc63e9-0c77-402d-8340-5012b510e34c",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*c7cc63e9-0c77-402d-8340-5012b510e34c",
+    "talent": {
+      "updatedAt": "2023-12-20T14:05:17.604Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T14:05:17.604Z",
+      "linkedinUsername": "solangebelchior",
+      "email": "solbelchior@yahoo.com",
+      "phone": "11981966003",
+      "name": "Solange Belchior",
+      "id": "c7cc63e9-0c77-402d-8340-5012b510e34c"
+    },
+    "timeInCurrentStage": 61412054809
+  },
+  {
+    "importedAt": "2024-02-08T18:39:11.724Z",
+    "stage": {
+      "phase": {
+        "name": "Candidatura",
+        "createdAt": "2024-02-05T17:16:25.976Z",
+        "id": "01HNX4ATG016W1R9EMH8G3AKXT",
+        "type": "application",
+        "order": 4,
+        "updatedAt": "2024-02-05T17:16:25.976Z"
+      },
+      "createdAt": "2024-02-05T17:16:25.976Z",
+      "name": "Abordados",
+      "id": "3",
+      "userName": "Inhire",
+      "type": "inApproach",
+      "userId": null,
+      "updatedAt": "2024-02-05T17:16:25.976Z",
+      "order": 3
+    },
+    "customFields": [
+      {
+        "name": "Data de Nascimento",
+        "id": "02",
+        "type": "text",
+        "value": "06/06/1981"
+      },
+      {
+        "name": "Remuneração Fixa",
+        "id": "05",
+        "type": "number",
+        "value": "16800"
+      },
+      {
+        "name": "Moeda",
+        "id": "06",
+        "type": "text",
+        "value": "BRL"
+      },
+      {
+        "name": "Bônus Recebido (em número de salários)",
+        "id": "08",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "name": "Bônus Target (em número de salários)",
+        "id": "09",
+        "type": "text",
+        "value": "45118"
+      },
+      {
+        "name": "Graduação",
+        "id": "12",
+        "type": "select",
+        "value": {
+          "value": "Administração",
+          "id": "761a778e-4a10-4b8b-b9c0-6bc5832319f4",
+          "label": "Administração"
+        }
+      },
+      {
+        "name": "Estado (UF)",
+        "id": "22",
+        "type": "select",
+        "value": {
+          "value": "SP",
+          "id": "9159ca77-8b82-4fab-acd3-196c48ba1e9a",
+          "label": "SP"
+        }
+      }
+    ],
+    "status": "active",
+    "userName": "Produto Intera",
+    "createdAt": "2024-02-02T03:00:00.000Z",
+    "source": "import",
+    "reason": "",
+    "userId": null,
+    "updatedAt": "2024-02-02T03:00:00.000Z",
+    "talentId": "06b4986e-98cb-4eaa-9428-91e1aa2de992",
+    "id": "50225e4a-e656-4671-9f30-39500578ece1*06b4986e-98cb-4eaa-9428-91e1aa2de992",
+    "talent": {
+      "updatedAt": "2023-12-20T13:55:44.185Z",
+      "status": "UNKNOWN",
+      "createdAt": "2023-12-20T13:55:44.185Z",
+      "linkedinUsername": "paloma-young-9a8a4554",
+      "email": "palomayoung@gmail.com",
+      "phone": "11985366966",
+      "name": "Paloma Young",
+      "id": "06b4986e-98cb-4eaa-9428-91e1aa2de992"
+    },
+    "timeInCurrentStage": 61412054809
+  }
+]
