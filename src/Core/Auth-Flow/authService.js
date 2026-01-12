@@ -9,7 +9,7 @@ const JWT_SECRET = process.env.JWT_SECRET || 'seu-segredo-super-secreto-padrao';
 
 export const login = async (email, password) => {
     log(`Tentativa de login para o email: ${email}`);
-    const user = findUserByEmail(email);
+    const user = await findUserByEmail(email);
 
     if (!user) {
         error(`Falha no login: usuário ${email} não encontrado.`);
@@ -32,6 +32,6 @@ export const login = async (email, password) => {
 
     const token = jwt.sign(payload, JWT_SECRET, { expiresIn: '8h' });
     log(`Login bem-sucedido para ${email}. Token gerado.`);
-    
+
     return { token, user: payload };
 };
