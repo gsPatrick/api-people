@@ -1,57 +1,49 @@
-// CRIE O ARQUIVO: src/Platform/Storage/localCache.service.js
+// ARQUIVO ATUALIZADO: src/Platform/Storage/localCache.service.js (MIGRADO PARA POSTGRESQL)
 
-import sqlite3 from 'sqlite3';
+import { sequelize } from '../../models/index.js';
 import { log, error } from '../../utils/logger.service.js';
 
-const DB_PATH = './local_cache.sqlite';
-let db;
+// Nota: A tabela usada aqui ('cache_profiles') é a mesma do cache.service.js,
+// consolidando o armazenamento.
 
 /**
- * Inicializa a conexão com o banco de dados SQLite e cria a tabela se não existir.
- * Deve ser chamado uma vez na inicialização do servidor.
+ * Inicializa a conexão (No-op no endpoint Postgres, pois já está conectado via models).
  */
 export const initializeCache = () => {
-    db = new sqlite3.Database(DB_PATH, (err) => {
-        if (err) {
-            error('Erro ao conectar ao banco de dados SQLite', err.message);
-        } else {
-            log('✅ Conectado ao banco de dados de cache local (SQLite).');
-            // Garante que a tabela exista
-            db.run(`CREATE TABLE IF NOT EXISTS raw_profiles (
-                linkedin_username TEXT PRIMARY KEY,
-                raw_data TEXT NOT NULL,
-                created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-            )`, (createErr) => {
-                if (createErr) {
-                    error('Erro ao criar a tabela raw_profiles', createErr.message);
-                }
-            });
-        }
-    });
+    log('✅ Conectado ao cache centralizado (PostgreSQL) para raw profiles.');
 };
 
 /**
  * Salva ou atualiza os dados brutos de um perfil no cache.
- * @param {string} linkedinUsername - O username do LinkedIn (será a chave).
+ * @param {string} linkedinUsername - O username do LinkedIn.
  * @param {object} rawData - O objeto JSON completo do scraping.
  */
-export const saveRawProfile = (linkedinUsername, rawData) => {
-    return new Promise((resolve, reject) => {
-        if (!db || !linkedinUsername) return reject('Cache não inicializado ou username inválido.');
-        
-        const jsonData = JSON.stringify(rawData);
-        // "INSERT OR REPLACE" (UPSERT): Insere se não existir, substitui se já existir.
-        const sql = `INSERT OR REPLACE INTO raw_profiles (linkedin_username, raw_data) VALUES (?, ?)`;
-        
-        db.run(sql, [linkedinUsername, jsonData], function(err) {
-            if (err) {
-                error(`Erro ao salvar perfil ${linkedinUsername} no cache`, err.message);
-                return reject(err);
+export const saveRawProfile = async (linkedinUsername, rawData) => {
+    if (!linkedinUsername) return Promise.reject('Username inválido.');
+
+    try {
+        await sequelize.query(`
+            INSERT INTO cache_profiles (linkedin_username, scraped_data, last_scraped_at, updated_at)
+            VALUES (:username, :data, :ts, NOW())
+            ON CONFLICT (linkedin_username) 
+            DO UPDATE SET 
+                scraped_data = :data, 
+                last_scraped_at = :ts,
+                updated_at = NOW();
+        `, {
+            replacements: {
+                username: linkedinUsername,
+                data: JSON.stringify(rawData),
+                ts: Date.now()
             }
-            log(`💾 Perfil bruto de ${linkedinUsername} salvo/atualizado no cache local.`);
-            resolve();
         });
-    });
+
+        log(`💾 Perfil bruto de ${linkedinUsername} salvo/atualizado no cache Postgres.`);
+        return Promise.resolve();
+    } catch (err) {
+        error(`Erro ao salvar perfil ${linkedinUsername} no Postgres:`, err.message);
+        return Promise.reject(err);
+    }
 };
 
 /**
@@ -59,23 +51,24 @@ export const saveRawProfile = (linkedinUsername, rawData) => {
  * @param {string} linkedinUsername - O username do LinkedIn.
  * @returns {Promise<object|null>} O objeto do perfil parseado ou null.
  */
-export const getRawProfile = (linkedinUsername) => {
-    return new Promise((resolve, reject) => {
-        if (!db || !linkedinUsername) return reject('Cache não inicializado ou username inválido.');
+export const getRawProfile = async (linkedinUsername) => {
+    if (!linkedinUsername) return Promise.reject('Username inválido.');
 
-        const sql = `SELECT raw_data FROM raw_profiles WHERE linkedin_username = ?`;
-        db.get(sql, [linkedinUsername], (err, row) => {
-            if (err) {
-                error(`Erro ao buscar perfil ${linkedinUsername} do cache`, err.message);
-                return reject(err);
-            }
-            if (row) {
-                log(`HIT: Perfil bruto de ${linkedinUsername} encontrado no cache local.`);
-                resolve(JSON.parse(row.raw_data));
-            } else {
-                log(`MISS: Perfil bruto de ${linkedinUsername} NÃO encontrado no cache local.`);
-                resolve(null);
-            }
-        });
-    });
+    try {
+        const [results] = await sequelize.query(
+            'SELECT scraped_data FROM cache_profiles WHERE linkedin_username = :username',
+            { replacements: { username: linkedinUsername } }
+        );
+
+        if (results.length > 0) {
+            log(`HIT: Perfil bruto de ${linkedinUsername} encontrado no cache Postgres.`);
+            return JSON.parse(results[0].scraped_data);
+        } else {
+            log(`MISS: Perfil bruto de ${linkedinUsername} NÃO encontrado no cache Postgres.`);
+            return null;
+        }
+    } catch (err) {
+        error(`Erro ao buscar perfil ${linkedinUsername} do cache Postgres:`, err.message);
+        return Promise.reject(err);
+    }
 };
