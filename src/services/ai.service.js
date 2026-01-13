@@ -93,6 +93,7 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
 
         const result = JSON.parse(response.choices[0].message.content);
         return {
+            id: criterion.id, // Adicionado para garantir match preciso
             name: criterion.name,
             score: result.score || 1,
             justification: result.justification || "Análise incompleta",
@@ -100,6 +101,7 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
     } catch (err) {
         logError(`Erro ao avaliar (GPT-4o) "${criterion.name}":`, err.message);
         return {
+            id: criterion.id, // Adicionado para fallback
             name: criterion.name,
             score: 1,
             justification: "Erro na análise da IA"
