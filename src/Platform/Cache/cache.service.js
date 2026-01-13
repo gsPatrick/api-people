@@ -167,12 +167,15 @@ export const saveLocalScorecardResponse = async (applicationId, scorecardId, pay
 export const getLocalScorecardResponse = async (applicationId) => {
     try {
         const [results] = await sequelize.query(
-            'SELECT payload FROM scorecard_responses WHERE application_id = :appId',
+            'SELECT payload, scorecard_id FROM scorecard_responses WHERE application_id = :appId',
             { replacements: { appId: applicationId } }
         );
 
         if (results.length > 0) {
-            return JSON.parse(results[0].payload);
+            return {
+                payload: JSON.parse(results[0].payload),
+                scorecardId: results[0].scorecard_id
+            };
         }
         return null;
     } catch (err) {
