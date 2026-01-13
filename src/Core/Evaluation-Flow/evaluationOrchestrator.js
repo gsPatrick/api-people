@@ -89,14 +89,14 @@ const mapScorecardSummary = (apiSummary) => {
     return allEvaluations;
 };
 
-const mapLocalPayloadToSummary = (localPayload) => {
+const mapLocalPayloadToSummary = (localPayload, scorecardId) => {
     if (!localPayload) return [];
 
     // Converte o payload local para o formato de "Summary" esperado pelo frontend
     return [{
         userId: 'local-user', // Placeholder, já que o backend não sabe quem salvou nesse contexto
         userName: 'Você (Salvo Localmente)',
-        scorecardInterviewId: 'local-save',
+        scorecardInterviewId: scorecardId, // ID REAL vindo do banco, crucial para o match no frontend
         interviewName: 'Avaliação Recente',
         feedback: localPayload.feedback,
         privateNotes: localPayload.privateNotes,
@@ -109,10 +109,15 @@ export const fetchScorecardDataForApplication = async (applicationId, jobId) => 
         log(`[SCORECARD] Fetching data for applicationId: ${applicationId}`);
 
         // 1. Tenta buscar do cache local PRIMEIRO (Prioridade para dados recentes)
-        const localData = await getLocalScorecardResponse(applicationId);
-        if (localData) {
+        const localResponse = await getLocalScorecardResponse(applicationId);
+
+        // Verifica se localResponse existe e tem os campos necessários
+        if (localResponse && localResponse.payload) {
             log(`[SCORECARD] ✅ FOUND local data for app ${applicationId}. Serving immediately.`);
-            const formattedSummary = mapLocalPayloadToSummary(localData);
+
+            // Passa o payload E o scorecardId para o mapper
+            const formattedSummary = mapLocalPayloadToSummary(localResponse.payload, localResponse.scorecardId);
+
             log(`[SCORECARD] Formatted summary items: ${formattedSummary.length}`);
             return { success: true, data: { type: 'summary', content: formattedSummary } };
         } else {
