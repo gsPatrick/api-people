@@ -152,6 +152,9 @@ export const handleScorecardSubmission = async (applicationId, scorecardId, eval
             throw new Error("Não foi possível encontrar a estrutura do kit para formatar o payload.");
         }
 
+        // Garante que a estrutura tenha os IDs (caso a API crua não traga)
+        enrichKitDataWithIds(kitStructure);
+
         // ==========================================================
         // CORREÇÃO DE ROBUSTEZ APLICADA AQUI
         // ==========================================================
