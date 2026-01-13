@@ -1,10 +1,10 @@
 // src/controllers/aimemory.controller.js
-import { AIMemory } from '../models/index.js';
+import db from '../models/index.js';
 import { log, error as logError } from '../utils/logger.service.js';
 
 export const getAllMemories = async (req, res) => {
     try {
-        const memories = await AIMemory.findAll({ order: [['term', 'ASC']] });
+        const memories = await db.AIMemory.findAll({ order: [['term', 'ASC']] });
         res.json(memories);
     } catch (err) {
         logError('Erro ao buscar memórias da IA:', err.message);
@@ -19,7 +19,7 @@ export const createMemory = async (req, res) => {
             return res.status(400).json({ message: 'Termo e definição são obrigatórios.' });
         }
 
-        const newMemory = await AIMemory.create({ term, definition });
+        const newMemory = await db.AIMemory.create({ term, definition });
         log(`Memória da IA criada: ${term}`);
         res.status(201).json(newMemory);
     } catch (err) {
@@ -36,7 +36,7 @@ export const updateMemory = async (req, res) => {
         const { id } = req.params;
         const { term, definition } = req.body;
 
-        const memory = await AIMemory.findByPk(id);
+        const memory = await db.AIMemory.findByPk(id);
         if (!memory) {
             return res.status(404).json({ message: 'Memória não encontrada.' });
         }
@@ -56,7 +56,7 @@ export const updateMemory = async (req, res) => {
 export const deleteMemory = async (req, res) => {
     try {
         const { id } = req.params;
-        const memory = await AIMemory.findByPk(id);
+        const memory = await db.AIMemory.findByPk(id);
         if (!memory) {
             return res.status(404).json({ message: 'Memória não encontrada.' });
         }

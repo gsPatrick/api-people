@@ -120,7 +120,9 @@ export const analyzeAllCriteriaInBatch = async (criteriaWithChunks, globalContex
         try {
             // Precisamos acessar o model AIMemory. Vamos importar models/index.js no topo ou usar aqui.
             // Importando dinamicamente para garantir.
-            const { AIMemory } = await import('../models/index.js');
+            // Carregando o db do default export
+            const db = (await import('../models/index.js')).default;
+            const AIMemory = db.AIMemory;
             if (AIMemory) {
                 memories = await AIMemory.findAll();
                 log(`Memórias da IA carregadas: ${memories.length}`);
