@@ -49,7 +49,7 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
         // ETAPA 1: Obter dados do perfil do candidato (lógica existente)
         const talentInHire = await getTalentById(talentId);
         if (!talentInHire || !talentInHire.linkedinUsername) throw new Error(`Talento ${talentId} ou seu LinkedIn não foram encontrados.`);
-        const cached = getCachedProfile(talentInHire.linkedinUsername);
+        const cached = await getCachedProfile(talentInHire.linkedinUsername);
         if (!cached) throw new Error('Dados do perfil não encontrados no cache. Sincronize primeiro.');
 
         // ETAPA 2: FULL CONTEXT - Preparar texto completo do perfil (em vez de vetores)
@@ -120,7 +120,7 @@ const generateOverallFeedback = async (jobDetails, candidateProfile, evaluations
 
     const prompt = `
         **Contexto:** Você é um Tech Recruiter Sênior finalizando uma análise de perfil.
-        **Dados da Vaga:** ${jobDetails.name}
+        **Dados da Vaga:** ${jobDetails?.name || 'Vaga não especificada'}
         **Dados do Candidato:** ${candidateProfile.name} - ${candidateProfile.headline}
         **Suas Avaliações Detalhadas (Nota/Justificativa/Peso):**
         ${JSON.stringify(evaluationsWithWeights, null, 2)}
@@ -166,7 +166,7 @@ export const evaluateSkillFromCache = async (talentId, jobDetails, skillToEvalua
         const linkedinUsername = talentInHire.linkedinUsername;
         if (!linkedinUsername) throw new Error(`O talento ${talentInHire.name} não possui um LinkedIn associado.`);
 
-        const cached = getCachedProfile(linkedinUsername);
+        const cached = await getCachedProfile(linkedinUsername);
         if (!cached) {
             throw new Error('Dados do perfil não encontrados no cache. Por favor, sincronize com o LinkedIn primeiro.');
         }
@@ -180,7 +180,7 @@ export const evaluateSkillFromCache = async (talentId, jobDetails, skillToEvalua
 };
 
 const evaluateSkillWithAI = async (candidateProfileData, jobDetails, skillToEvaluate) => {
-    log(`Enviando perfil de "${candidateProfileData.name}" para análise do critério "${skillToEvaluate.name}" no contexto da vaga "${jobDetails.name}"`);
+    log(`Enviando perfil de "${candidateProfileData?.name || 'N/A'}" para análise do critério "${skillToEvaluate?.name || 'N/A'}" no contexto da vaga "${jobDetails?.name || 'N/A'}"`);
     if (!OPENAI_API_KEY) {
         throw new Error("A chave da API da OpenAI (OPENAI_API_KEY) não está configurada no .env");
     }
