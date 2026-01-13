@@ -40,6 +40,15 @@ const initializeCacheTables = async () => {
             );
         `);
 
+        await sequelize.query(`
+            CREATE TABLE IF NOT EXISTS scorecard_responses (
+                application_id TEXT PRIMARY KEY,
+                scorecard_id TEXT NOT NULL,
+                payload TEXT NOT NULL,
+                updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+            );
+        `);
+
         log('✅ Tabelas de cache (PostgreSQL) verificadas/criadas com sucesso.');
     } catch (err) {
         error('Erro ao inicializar tabelas de cache no Postgres:', err.message);
@@ -119,6 +128,54 @@ export const getCacheStatus = async (linkedinUsername) => {
     } catch (err) {
         error("Erro ao verificar status do cache Postgres:", err.message);
         return { hasCache: false, lastScrapedAt: null };
+    }
+};
+
+/**
+ * Salva a resposta do scorecard no banco local (Postgres).
+ */
+export const saveLocalScorecardResponse = async (applicationId, scorecardId, payload) => {
+    try {
+        await sequelize.query(`
+            INSERT INTO scorecard_responses (application_id, scorecard_id, payload, updated_at)
+            VALUES (:appId, :scId, :payload, NOW())
+            ON CONFLICT (application_id) 
+            DO UPDATE SET 
+                scorecard_id = :scId,
+                payload = :payload, 
+                updated_at = NOW();
+        `, {
+            replacements: {
+                appId: applicationId,
+                scId: scorecardId,
+                payload: JSON.stringify(payload)
+            }
+        });
+        log(`Scorecard response para aplicação ${applicationId} salvo localmente.`);
+        return true;
+    } catch (err) {
+        error("Erro ao salvar scorecard response localmente:", err.message);
+        return false;
+    }
+};
+
+/**
+ * Busca a resposta do scorecard no banco local.
+ */
+export const getLocalScorecardResponse = async (applicationId) => {
+    try {
+        const [results] = await sequelize.query(
+            'SELECT payload FROM scorecard_responses WHERE application_id = :appId',
+            { replacements: { appId: applicationId } }
+        );
+
+        if (results.length > 0) {
+            return JSON.parse(results[0].payload);
+        }
+        return null;
+    } catch (err) {
+        error("Erro ao buscar scorecard response localmente:", err.message);
+        return null;
     }
 };
 

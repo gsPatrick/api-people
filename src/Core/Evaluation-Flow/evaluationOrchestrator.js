@@ -3,6 +3,7 @@
 import { htmlToText } from 'html-to-text';
 import { getInterviewKitsForJob, submitScorecardResponse, getScorecardSummaryForApplication, createJobScorecard, createInterviewKit, getInterviewKitById } from '../../Inhire/ScoreCards/scorecards.service.js';
 import { getWeightsForKit, saveWeightsForKit } from './weights.service.js';
+import { saveLocalScorecardResponse, getLocalScorecardResponse } from '../../Platform/Cache/cache.service.js'; // Importação do Cache Local
 import { log, error } from '../../utils/logger.service.js';
 import { saveDebugDataToFile } from '../../utils/debug.service.js';
 
@@ -31,8 +32,8 @@ const cleanHtmlScript = (kit) => {
                 { selector: 'p', options: { marginBottom: 1, trimEmptyLines: true } },
                 { selector: 'h1', options: { uppercase: false, prefix: '## ', suffix: ' ##' } },
                 { selector: 'h2', options: { uppercase: false, prefix: '### ', suffix: ' ###' } },
-                { selector: 'strong', format: 'inline', options: { uppercase: false, prefix: '**', suffix: '**' }},
-                { selector: 'b', format: 'inline', options: { uppercase: false, prefix: '**', suffix: '**' }},
+                { selector: 'strong', format: 'inline', options: { uppercase: false, prefix: '**', suffix: '**' } },
+                { selector: 'b', format: 'inline', options: { uppercase: false, prefix: '**', suffix: '**' } },
                 { selector: 'a', format: 'skip' }
             ]
         });
@@ -88,11 +89,35 @@ const mapScorecardSummary = (apiSummary) => {
     return allEvaluations;
 };
 
+const mapLocalPayloadToSummary = (localPayload) => {
+    if (!localPayload) return [];
+
+    // Converte o payload local para o formato de "Summary" esperado pelo frontend
+    return [{
+        userId: 'local-user', // Placeholder, já que o backend não sabe quem salvou nesse contexto
+        userName: 'Você (Salvo Localmente)',
+        scorecardInterviewId: 'local-save',
+        interviewName: 'Avaliação Recente',
+        feedback: localPayload.feedback,
+        privateNotes: localPayload.privateNotes,
+        skillCategories: localPayload.skillCategories
+    }];
+};
+
 export const fetchScorecardDataForApplication = async (applicationId, jobId) => {
     try {
+        // 1. Tenta buscar do cache local PRIMEIRO (Prioridade para dados recentes)
+        const localData = await getLocalScorecardResponse(applicationId);
+        if (localData) {
+            log(`Serving scorecard data from LOCAL CACHE for application ${applicationId}`);
+            const formattedSummary = mapLocalPayloadToSummary(localData);
+            return { success: true, data: { type: 'summary', content: formattedSummary } };
+        }
+
+        // 2. Se não tiver local, busca da API InHire
         const summary = await getScorecardSummaryForApplication(applicationId);
-        const hasActualEvaluations = summary && Array.isArray(summary) && summary.length > 0 && 
-                                    summary.some(group => group.evaluationsFeedbacks && group.evaluationsFeedbacks.length > 0);
+        const hasActualEvaluations = summary && Array.isArray(summary) && summary.length > 0 &&
+            summary.some(group => group.evaluationsFeedbacks && group.evaluationsFeedbacks.length > 0);
 
         if (hasActualEvaluations) {
             const formattedSummary = mapScorecardSummary(summary);
@@ -109,57 +134,61 @@ export const fetchScorecardDataForApplication = async (applicationId, jobId) => 
 export const handleScorecardSubmission = async (applicationId, scorecardId, evaluationDataFromFrontend) => {
     log(`--- ORQUESTRADOR: Submetendo avaliação para a candidatura ${applicationId} ---`);
     try {
-      if (!applicationId || !scorecardId || !evaluationDataFromFrontend) {
-          throw new Error("applicationId, scorecardId e evaluationData são obrigatórios.");
-      }
-      const kitStructure = await getInterviewKitById(scorecardId);
-      if (!kitStructure) {
-          throw new Error("Não foi possível encontrar a estrutura do kit para formatar o payload.");
-      }
+        if (!applicationId || !scorecardId || !evaluationDataFromFrontend) {
+            throw new Error("applicationId, scorecardId e evaluationData são obrigatórios.");
+        }
+        const kitStructure = await getInterviewKitById(scorecardId);
+        if (!kitStructure) {
+            throw new Error("Não foi possível encontrar a estrutura do kit para formatar o payload.");
+        }
 
-      // ==========================================================
-      // CORREÇÃO DE ROBUSTEZ APLICADA AQUI
-      // ==========================================================
-      const payloadForInHire = {
-          feedback: {
-              comment: evaluationDataFromFrontend.feedback || '',
-              // Garante que a decisão seja um valor válido, com um fallback seguro.
-              proceed: ['YES', 'NO', 'NO_DECISION'].includes(evaluationDataFromFrontend.decision) 
-                       ? evaluationDataFromFrontend.decision 
-                       : 'NO_DECISION'
-          },
-          privateNotes: evaluationDataFromFrontend.notes || '',
-          skillCategories: (kitStructure.skillCategories || []).map(category => ({
-              name: category.name,
-              // Garante que 'skills' seja um array antes de mapear
-              skills: (category.skills || []).map(skill => {
-                   // Garante que 'ratings' exista e que 'skill.id' seja válido
-                   const ratingData = evaluationDataFromFrontend.ratings && skill.id
-                                      ? evaluationDataFromFrontend.ratings[skill.id]
-                                      : null; // Se não houver dados, ratingData é nulo
-                   
-                   return {
-                      name: skill.name,
-                      // Acessa 'score' e 'description' de forma segura, com fallbacks
-                      score: ratingData?.score || 0,
-                      description: ratingData?.description || ''
-                   };
-              })
-          }))
-      };
+        // ==========================================================
+        // CORREÇÃO DE ROBUSTEZ APLICADA AQUI
+        // ==========================================================
+        const payloadForInHire = {
+            feedback: {
+                comment: evaluationDataFromFrontend.feedback || '',
+                // Garante que a decisão seja um valor válido, com um fallback seguro.
+                proceed: ['YES', 'NO', 'NO_DECISION'].includes(evaluationDataFromFrontend.decision)
+                    ? evaluationDataFromFrontend.decision
+                    : 'NO_DECISION'
+            },
+            privateNotes: evaluationDataFromFrontend.notes || '',
+            skillCategories: (kitStructure.skillCategories || []).map(category => ({
+                name: category.name,
+                // Garante que 'skills' seja um array antes de mapear
+                skills: (category.skills || []).map(skill => {
+                    // Garante que 'ratings' exista e que 'skill.id' seja válido
+                    const ratingData = evaluationDataFromFrontend.ratings && skill.id
+                        ? evaluationDataFromFrontend.ratings[skill.id]
+                        : null; // Se não houver dados, ratingData é nulo
 
-      saveDebugDataToFile( `submission_payload_${applicationId}_${Date.now()}.txt`, { fromFrontend: evaluationDataFromFrontend, sentToInHire: payloadForInHire });
-      
-      const submissionResult = await submitScorecardResponse(applicationId, scorecardId, payloadForInHire);
-      if (!submissionResult) {
-        throw new Error("Falha ao submeter avaliação. A API da InHire não retornou sucesso.");
-      }
-      return { success: true, submission: submissionResult };
+                    return {
+                        name: skill.name,
+                        // Acessa 'score' e 'description' de forma segura, com fallbacks
+                        score: ratingData?.score || 0,
+                        description: ratingData?.description || ''
+                    };
+                })
+            }))
+        };
+
+        saveDebugDataToFile(`submission_payload_${applicationId}_${Date.now()}.txt`, { fromFrontend: evaluationDataFromFrontend, sentToInHire: payloadForInHire });
+
+        // 1. Salva localmente para garantir persistência imediata
+        await saveLocalScorecardResponse(applicationId, scorecardId, payloadForInHire);
+
+        // 2. Envia para a InHire
+        const submissionResult = await submitScorecardResponse(applicationId, scorecardId, payloadForInHire);
+        if (!submissionResult) {
+            throw new Error("Falha ao submeter avaliação. A API da InHire não retornou sucesso.");
+        }
+        return { success: true, submission: submissionResult };
     } catch (err) {
-      error("Erro em handleScorecardSubmission:", err.message);
-      // Inclui o stack trace no erro para melhor depuração no backend
-      error("Stack Trace:", err.stack);
-      return { success: false, error: err.message };
+        error("Erro em handleScorecardSubmission:", err.message);
+        // Inclui o stack trace no erro para melhor depuração no backend
+        error("Stack Trace:", err.stack);
+        return { success: false, error: err.message };
     }
 };
 
@@ -174,7 +203,7 @@ export const handleCreateScorecardAndKit = async (data) => {
         log(`Scorecard base para a vaga ${jobId} garantido.`);
         const newKit = await createInterviewKit({ jobId, jobStageId, name, script, skillCategories });
         if (!newKit) throw new Error("Falha ao criar o novo Kit de Entrevista.");
-        
+
         const enrichedKit = enrichKitDataWithIds(newKit);
         const cleanedKit = cleanHtmlScript(enrichedKit);
 
@@ -211,10 +240,10 @@ export const fetchInterviewKitDetails = async (kitId) => {
         if (!kit) {
             throw new Error(`Kit de entrevista com ID ${kitId} não encontrado.`);
         }
-        
+
         const enrichedKit = enrichKitDataWithIds(kit);
         const cleanedKit = cleanHtmlScript(enrichedKit);
-        
+
         const weights = await getWeightsForKit(kitId);
         const finalKit = { ...cleanedKit, weights };
 
