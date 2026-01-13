@@ -1,0 +1,20 @@
+--- INICIANDO TESTE FAST RAW TEXT ---
+Lendo arquivo: ./Profile.pdf
+[PDF Parser] Carregando documento PDF via pdfjs-dist...
+[PDF Parser] PDF carregado com sucesso. Páginas: 2
+[PDF Parser] Texto extraído: 3305 chars, ~79 linhas.
+[PDF Parser] Extração raw text concluída em 125.42ms
+Resultado salvo em: ./extraction_response.txt
+---------------------------------------------------
+{
+  "nome": "Contato",
+  "headline": "(21) 97587-5130 (Mobile)",
+  "resumo": "",
+  "experiencias": [],
+  "formacao": [],
+  "competencias": [],
+  "idiomas": [],
+  "certificacoes": [],
+  "textoCompleto": "Contato \n(21) 97587-5130   (Mobile) \njoaovitorcgds@gmail.com \nwww.linkedin.com/in/joaovitorcgds \n(LinkedIn) \ngithub.com/Joaovitorcgds   (Other) \njvportfolio.vercel.app/   (Portfolio) \nPrincipais competências \nDocumentação técnica \nAtendimento ao cliente \nAtividades de integração de equipe \nCertifications \nCertificado de Conclusão HTML, \nCSS e JavaScript \nJoão Vitor Costa \nEstágiario Suporte TI | Técnico Suporte TI | Tecnologia em Sistema \npara Internet | Ciência da Computação \nRio de Janeiro e Região \nResumo \nSou apaixonado por tecnologia e programação. Atualmente, \nestou cursando Ciência da Computação na modalidade EAD pela \nFaculdade Descomplica e me esforço para me manter atualizado \nassistindo conteúdos relevantes no YouTube e fazendo projetos \npráticos que aplicam conceitos aprendidos em casos reais. Estou \ntotalmente disposto a enfrentar novos desafios e me adaptar a \nnovas tecnologias. \nMeu foco atual é a programação web, em particular o \ndesenvolvimento Front-end usando as tecnologias Javascript com \nReactJs e NodeJs, que proporcionam o melhor desempenho e \numa excelente experiência do usuário. Além disso, sempre priorizo \na escrita de códigos limpos (clean code), visando facilitar futuras \nmodificações e a legibilidade do código. \nProcuro manter contato com pessoas da área de programação para \najudar aqueles que estão iniciando e para esclarecer dúvidas sobre \nqualquer conteúdo. Essas conversas também me proporcionam a \noportunidade de aprender algo novo e de me conectar com outros \nprofissionais da área. \nLink do Github: https://github.com/Joaovitorcgds \nLink do Portfólio: https://portfolio-joaovitorcgds.vercel.app/ \nExperiência \nCOMPREV \nEstagiário administrador de redes \njunho de 2024 - Present   (1 ano 8 meses) \nInfotech \nEstagiário de TI \nnovembro de 2023 - maio de 2024   (7 meses) \nPage   1   of   2 • Suporte a Sistemas Operacionais (Windows, macOS). \n• Configuração e manutenção de hardware de computadores e dispositivos. \n• Administração de Redes Locais (LAN) e Redes sem Fio (Wi-Fi). \n• Instalação e suporte a aplicativos de escritório (Microsoft Office, Google \nWorkspace). \n• Ferramentas de Controle Remoto (ex: TeamViewer, Remote Desktop, \nAnydesk). \n• Monitoramento de Sistemas e Redes. \n• Configuração e suporte a sistemas de backup e recuperação de dados. \nNmx Course \nDesenvolvedor Web \nsetembro de 2022 - fevereiro de 2023   (6 meses) \nRio de Janeiro, Brasil \nUma aplicação Full Stack web construída com a finalidade de exibir para \nos clientes os cursos disponíveis na empresa Nova Mix Food Service e o \nadministrador pode cadastrar novos cursos e gerenciar os alunos que irão \nparticipar de cada aula. \nEsses cursos são de fins culinários, onde professores alugam o espaço da \nempresa para que que possam estar ensinando os clientes a usarem os \nprodutos disponíveis na loja. \nNovamix Food Service Comercio De Alimentos \nAuxiliar de escritório \nnovembro de 2020 - fevereiro de 2022   (1 ano 4 meses) \nRio de Janeiro, Brasil \nFormação acadêmica \nDescomplica \nBacharelado, Ciência da Computação   · (abril de 2022 - abril de 2026) \nProgramadorBr \nDesenvolvimento web, JavaScript, HTML, CSS   · (dezembro de 2020 - abril de \n2021) \nCentro Educacional Luiz Carlos Barbosa \nEnsino Médio   · (fevereiro de 2017 - dezembro de 2019) \nPage   2   of   2 "
+}
+---------------------------------------------------

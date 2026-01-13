@@ -9,7 +9,15 @@ import { parseProfileWithAI } from '../controllers/aiParser.controller.js'; // 1
 import adminRoutes from './adminRoutes.js';
 import scorecardRoutes from './scorecard.routes.js'; // <-- 1. IMPORTAR O ROTEADOR
 import matchRoutes from './match.routes.js'; // <-- IMPORTAR O ROTEADOR DE MATCH TAMBÉM
+import aiMemoryRoutes from './aimemory.routes.js';
+import authRoutes from './authRoutes.js'; // <-- IMPORTAR O ROTEADOR DE MEMORIA
 import authRoutes from './authRoutes.js';
+
+// ... lines 13-60 ...
+
+router.use('/scorecards', scorecardRoutes); // <-- 2. REGISTRAR O ROTEADOR AQUI
+router.use('/match', matchRoutes);         // <-- 2. REGISTRAR O ROTEADOR DE MATCH AQUI
+router.use('/ai-memory', aiMemoryRoutes);  // <-- REGISTRAR O ROTEADOR DE MEMORIA
 import { extractProfileFromPdf } from '../controllers/pdf.controller.js'; // 2. Importe o novo controller
 import { fetchLinkedInProfilePdf, checkLinkedInCookieStatus } from '../controllers/linkedinPdf.controller.js'; // LinkedIn PDF Scraping
 const upload = multer({ storage: multer.memoryStorage() }); // 3. Configure o multer para usar a memória

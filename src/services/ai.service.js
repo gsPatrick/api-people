@@ -13,7 +13,17 @@ const openai = new OpenAI({
 // MUDANÇA PRINCIPAL APLICADA AQUI
 // Esta função foi atualizada com um prompt muito mais rigoroso.
 // ==========================================================
-const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext) => {
+// Função auxiliar para formatar memórias
+const formatMemoriesForPrompt = (memories) => {
+    if (!memories || memories.length === 0) return "";
+    return `
+    **GLOSSÁRIO DA EMPRESA (MEMÓRIA):**
+    Use estas definições para interpretar termos específicos. Se o candidato mencionar estes termos, considere-os conforme definido abaixo:
+    ${memories.map(m => `- "${m.term}": ${m.definition}`).join('\n')}
+    `;
+};
+
+const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext, memoriesStr) => {
     if (!relevantChunks || relevantChunks.length === 0) {
         return {
             name: criterion.name,
@@ -22,7 +32,7 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext)
         };
     }
 
-    const limitedChunks = relevantChunks.slice(0, 5); // Aumentado para 5
+    const limitedChunks = relevantChunks.slice(0, 5);
 
     // Construção do Contexto Global (Resumo do Candidato)
     let contextStr = "";
@@ -35,13 +45,15 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext)
         `;
     }
 
-    // NOVO PROMPT: Chain of Thought + Citação de Evidência + Contexto Global
+    // NOVO PROMPT: Chain of Thought + Citação de Evidência + Contexto Global + GLOSSÁRIO
     const prompt = `
         **Persona:** Você é um Tech Recruiter Sênior de Elite, conhecido por análises profundas, justas e baseadas em fatos. Você não é apenas cético, você é *preciso*.
 
         **Tarefa:** Avalie o candidato para o critério abaixo.
 
         ${contextStr}
+
+        ${memoriesStr}
 
         **Critério de Avaliação:**
         "${criterion.name}"
@@ -57,7 +69,7 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext)
         - **1 (Ausente):** Nenhuma evidência encontrada nestes fragmentos ou apenas menções irrelevantes.
 
         **Protocolo de Pensamento (Chain of Thought):**
-        1. Analise os fragmentos e o contexto global.
+        1. Analise os fragmentos, o contexto global E O GLOSSÁRIO.
         2. Identifique trechos exatos que suportam o critério.
         3. Avalie a força dessa evidência (é apenas uma palavra-chave ou uma descrição de responsabilidade?).
         4. Defina a nota baseada na rubrica.
@@ -72,10 +84,10 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext)
 
     try {
         const response = await openai.chat.completions.create({
-            model: "gpt-4o", // UPGRADE PARA GPT-4o
+            model: "gpt-4o",
             messages: [{ role: "user", content: prompt }],
             response_format: { type: "json_object" },
-            temperature: 0.1, // Ligeiramente maior que 0 para permitir raciocínio, mas ainda muito determinístico
+            temperature: 0.1,
             max_tokens: 300
         });
 
@@ -84,7 +96,6 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext)
             name: criterion.name,
             score: result.score || 1,
             justification: result.justification || "Análise incompleta",
-            // Opcional: retornar o 'thinking' se quiser debugar, mas o front espera justification
         };
     } catch (err) {
         logError(`Erro ao avaliar (GPT-4o) "${criterion.name}":`, err.message);
@@ -101,9 +112,28 @@ export const analyzeAllCriteriaInBatch = async (criteriaWithChunks, globalContex
     log(`Análise em PARALELO de ${criteriaWithChunks.length} critérios com GPT-4o...`);
 
     try {
-        // Envia o globalContext para cada análise
+        // Carregar Memórias da IA aqui
+        // Import dinâmico para evitar dependência cíclica se houver, ou apenas para garantir que o model esteja carregado
+        // Mas como models/index.js já foi carregado no server start, podemos importar { AIMemory } de lá ou carregar via sequelize
+
+        let memories = [];
+        try {
+            // Precisamos acessar o model AIMemory. Vamos importar models/index.js no topo ou usar aqui.
+            // Importando dinamicamente para garantir.
+            const { AIMemory } = await import('../models/index.js');
+            if (AIMemory) {
+                memories = await AIMemory.findAll();
+                log(`Memórias da IA carregadas: ${memories.length}`);
+            }
+        } catch (memErr) {
+            logError('Erro ao carregar memórias da IA (continuando sem elas):', memErr.message);
+        }
+
+        const memoriesStr = formatMemoriesForPrompt(memories);
+
+        // Envia o globalContext E memoriesStr para cada análise
         const allPromises = criteriaWithChunks.map(({ criterion, chunks }) =>
-            analyzeCriterionWithGPT(criterion, chunks, globalContext)
+            analyzeCriterionWithGPT(criterion, chunks, globalContext, memoriesStr)
         );
 
         const results = await Promise.all(allPromises);

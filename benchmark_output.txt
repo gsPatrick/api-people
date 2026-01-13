@@ -1,0 +1,133 @@
+--- INICIANDO TESTE FAST HEURISTIC ---
+Lendo arquivo: ./Profile.pdf
+[PDF Parser] Carregando documento PDF via pdfjs-dist...
+[PDF Parser] PDF carregado com sucesso. Páginas: 2
+[PDF Parser] Texto extraído: 3305 chars, ~96 linhas.
+[PDF Parser] Extração heurística concluída em 563.94ms
+Resultado salvo em: ./extraction_response.txt
+---------------------------------------------------
+{
+  "nome": "Contato",
+  "headline": "(21) 97587-5130",
+  "resumo": "Sou apaixonado por tecnologia e programação. Atualmente, estou cursando Ciência da Computação na modalidade EAD pela Faculdade Descomplica e me esforço para me manter atualizado assistindo conteúdos relevantes no YouTube e fazendo projetos práticos que aplicam conceitos aprendidos em casos reais. Estou totalmente disposto a enfrentar novos desafios e me adaptar a novas tecnologias. Meu foco atual é a programação web, em particular o desenvolvimento Front-end usando as tecnologias Javascript com ReactJs e NodeJs, que proporcionam o melhor desempenho e uma excelente experiência do usuário. Além disso, sempre priorizo a escrita de códigos limpos (clean code), visando facilitar futuras modificações e a legibilidade do código. Procuro manter contato com pessoas da área de programação para ajudar aqueles que estão iniciando e para esclarecer dúvidas sobre qualquer conteúdo. Essas conversas também me proporcionam a oportunidade de aprender algo novo e de me conectar com outros profissionais da área. Link do Github: https://github.com/Joaovitorcgds Link do Portfólio: https://portfolio-joaovitorcgds.vercel.app/",
+  "experiencias": [
+    {
+      "cargo": "COMPREV",
+      "empresa": "Estagiário administrador de redes",
+      "periodo": "junho de 2024 - Present",
+      "descricao": ""
+    },
+    {
+      "cargo": "(1 ano 8 meses)",
+      "empresa": "Infotech",
+      "periodo": "Estagiário de TI",
+      "descricao": ""
+    },
+    {
+      "cargo": "novembro de 2023 - maio de 2024",
+      "empresa": "(7 meses)",
+      "periodo": "Page",
+      "descricao": ""
+    },
+    {
+      "cargo": "1",
+      "empresa": "of",
+      "periodo": "2",
+      "descricao": ""
+    },
+    {
+      "cargo": "• Suporte a Sistemas Operacionais (Windows, macOS).",
+      "empresa": "• Configuração e manutenção de hardware de computadores e dispositivos.",
+      "periodo": "• Administração de Redes Locais (LAN) e Redes sem Fio (Wi-Fi).",
+      "descricao": ""
+    },
+    {
+      "cargo": "• Instalação e suporte a aplicativos de escritório (Microsoft Office, Google",
+      "empresa": "Workspace).",
+      "periodo": "• Ferramentas de Controle Remoto (ex: TeamViewer, Remote Desktop,",
+      "descricao": ""
+    },
+    {
+      "cargo": "Anydesk).",
+      "empresa": "• Monitoramento de Sistemas e Redes.",
+      "periodo": "• Configuração e suporte a sistemas de backup e recuperação de dados.",
+      "descricao": ""
+    },
+    {
+      "cargo": "Nmx Course",
+      "empresa": "Desenvolvedor Web",
+      "periodo": "setembro de 2022 - fevereiro de 2023",
+      "descricao": ""
+    },
+    {
+      "cargo": "(6 meses)",
+      "empresa": "Rio de Janeiro, Brasil",
+      "periodo": "Uma aplicação Full Stack web construída com a finalidade de exibir para",
+      "descricao": ""
+    },
+    {
+      "cargo": "os clientes os cursos disponíveis na empresa Nova Mix Food Service e o",
+      "empresa": "administrador pode cadastrar novos cursos e gerenciar os alunos que irão",
+      "periodo": "participar de cada aula.",
+      "descricao": ""
+    },
+    {
+      "cargo": "Esses cursos são de fins culinários, onde professores alugam o espaço da",
+      "empresa": "empresa para que que possam estar ensinando os clientes a usarem os",
+      "periodo": "produtos disponíveis na loja.",
+      "descricao": ""
+    },
+    {
+      "cargo": "Novamix Food Service Comercio De Alimentos",
+      "empresa": "Auxiliar de escritório",
+      "periodo": "novembro de 2020 - fevereiro de 2022",
+      "descricao": ""
+    },
+    {
+      "cargo": "(1 ano 4 meses)",
+      "empresa": "Rio de Janeiro, Brasil",
+      "periodo": "Formação acadêmica",
+      "descricao": ""
+    },
+    {
+      "cargo": "Descomplica",
+      "empresa": "Bacharelado, Ciência da Computação",
+      "periodo": "· (abril de 2022 - abril de 2026)",
+      "descricao": ""
+    },
+    {
+      "cargo": "ProgramadorBr",
+      "empresa": "Desenvolvimento web, JavaScript, HTML, CSS",
+      "periodo": "· (dezembro de 2020 - abril de",
+      "descricao": ""
+    },
+    {
+      "cargo": "2021)",
+      "empresa": "Centro Educacional Luiz Carlos Barbosa",
+      "periodo": "Ensino Médio",
+      "descricao": ""
+    },
+    {
+      "cargo": "· (fevereiro de 2017 - dezembro de 2019)",
+      "empresa": "Page",
+      "periodo": "2",
+      "descricao": ""
+    }
+  ],
+  "formacao": [],
+  "competencias": [
+    "Documentação técnica",
+    "Atendimento ao cliente",
+    "Atividades de integração de equipe"
+  ],
+  "idiomas": [],
+  "certificacoes": [
+    "CSS e JavaScript",
+    "João Vitor Costa",
+    "Estágiario Suporte TI | Técnico Suporte TI | Tecnologia em Sistema",
+    "para Internet | Ciência da Computação",
+    "Rio de Janeiro e Região"
+  ],
+  "textoCompleto": "Contato\n\n(21) 97587-5130\n \n(Mobile)\n\njoaovitorcgds@gmail.com\n\nwww.linkedin.com/in/joaovitorcgds\n\n(LinkedIn)\n\ngithub.com/Joaovitorcgds\n \n(Other)\n\njvportfolio.vercel.app/\n \n(Portfolio)\n\nPrincipais competências\n\nDocumentação técnica\n\nAtendimento ao cliente\n\nAtividades de integração de equipe\n\nCertifications\n\nCertificado de Conclusão HTML,\n\nCSS e JavaScript\n\nJoão Vitor Costa\n\nEstágiario Suporte TI | Técnico Suporte TI | Tecnologia em Sistema\n\npara Internet | Ciência da Computação\n\nRio de Janeiro e Região\n\nResumo\n\nSou apaixonado por tecnologia e programação. Atualmente,\n\nestou cursando Ciência da Computação na modalidade EAD pela\n\nFaculdade Descomplica e me esforço para me manter atualizado\n\nassistindo conteúdos relevantes no YouTube e fazendo projetos\n\npráticos que aplicam conceitos aprendidos em casos reais. Estou\n\ntotalmente disposto a enfrentar novos desafios e me adaptar a\n\nnovas tecnologias.\n\nMeu foco atual é a programação web, em particular o\n\ndesenvolvimento Front-end usando as tecnologias Javascript com\n\nReactJs e NodeJs, que proporcionam o melhor desempenho e\n\numa excelente experiência do usuário. Além disso, sempre priorizo\n\na escrita de códigos limpos (clean code), visando facilitar futuras\n\nmodificações e a legibilidade do código.\n\nProcuro manter contato com pessoas da área de programação para\n\najudar aqueles que estão iniciando e para esclarecer dúvidas sobre\n\nqualquer conteúdo. Essas conversas também me proporcionam a\n\noportunidade de aprender algo novo e de me conectar com outros\n\nprofissionais da área.\n\nLink do Github: https://github.com/Joaovitorcgds\n\nLink do Portfólio: https://portfolio-joaovitorcgds.vercel.app/\n\nExperiência\n\nCOMPREV\n\nEstagiário administrador de redes\n\njunho de 2024 - Present\n \n(1 ano 8 meses)\n\nInfotech\n\nEstagiário de TI\n\nnovembro de 2023 - maio de 2024\n \n(7 meses)\n\nPage\n \n1\n \nof\n \n2\n• Suporte a Sistemas Operacionais (Windows, macOS).\n\n• Configuração e manutenção de hardware de computadores e dispositivos.\n\n• Administração de Redes Locais (LAN) e Redes sem Fio (Wi-Fi).\n\n• Instalação e suporte a aplicativos de escritório (Microsoft Office, Google\n\nWorkspace).\n\n• Ferramentas de Controle Remoto (ex: TeamViewer, Remote Desktop,\n\nAnydesk).\n\n• Monitoramento de Sistemas e Redes.\n\n• Configuração e suporte a sistemas de backup e recuperação de dados.\n\nNmx Course\n\nDesenvolvedor Web\n\nsetembro de 2022 - fevereiro de 2023\n \n(6 meses)\n\nRio de Janeiro, Brasil\n\nUma aplicação Full Stack web construída com a finalidade de exibir para\n\nos clientes os cursos disponíveis na empresa Nova Mix Food Service e o\n\nadministrador pode cadastrar novos cursos e gerenciar os alunos que irão\n\nparticipar de cada aula.\n\nEsses cursos são de fins culinários, onde professores alugam o espaço da\n\nempresa para que que possam estar ensinando os clientes a usarem os\n\nprodutos disponíveis na loja.\n\nNovamix Food Service Comercio De Alimentos\n\nAuxiliar de escritório\n\nnovembro de 2020 - fevereiro de 2022\n \n(1 ano 4 meses)\n\nRio de Janeiro, Brasil\n\nFormação acadêmica\n\nDescomplica\n\nBacharelado, Ciência da Computação\n \n· (abril de 2022 - abril de 2026)\n\nProgramadorBr\n\nDesenvolvimento web, JavaScript, HTML, CSS\n \n· (dezembro de 2020 - abril de\n\n2021)\n\nCentro Educacional Luiz Carlos Barbosa\n\nEnsino Médio\n \n· (fevereiro de 2017 - dezembro de 2019)\n\nPage\n \n2\n \nof\n \n2\n"
+}
+---------------------------------------------------

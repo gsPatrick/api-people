@@ -1,0 +1,14 @@
+--- INICIANDO BENCHMARK SCORECARD (FULL CONTEXT - MINI) ---
+[DATA] Texto do perfil carregado: 3305 caracteres.
+[DATA] Critérios definidos: Experiência com Node.js, ReactJS, Inglês Avançado, Formação Acadêmica
+[AI] Enviando prompt único para GPT-4o-mini...
+[AI] Resposta recebida em: 7823.57ms
+---------------------------------------------------
+{
+    "Experiência com Node.js": { "score": 3, "justification": "O candidato menciona foco em desenvolvimento Front-end usando Node.js, mas não apresenta experiência profissional direta com a tecnologia." },
+    "ReactJS": { "score": 3, "justification": "O candidato indica foco em desenvolvimento Front-end com ReactJS, mas não fornece detalhes sobre a profundidade da experiência ou projetos específicos." },
+    "Inglês Avançado": { "score": 1, "justification": "Não há menção de habilidades em inglês, nem evidências de leitura ou escrita técnica." },
+    "Formação Acadêmica": { "score": 5, "justification": "O candidato está cursando Ciência da Computação, atendendo plenamente ao critério." }
+}
+---------------------------------------------------
+⚠️ RESULTADO: LENTO (> 3s). Tempo: 7823.57ms

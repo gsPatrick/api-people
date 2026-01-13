@@ -5,9 +5,13 @@ import { createUser, getAllUsers, updateUser, deleteUser } from '../Core/User-Fl
 
 const router = Router();
 
-router.get('/users', (req, res) => {
-    const users = getAllUsers();
-    res.json(users);
+router.get('/users', async (req, res) => {
+    try {
+        const users = await getAllUsers();
+        res.json(users);
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
 });
 
 router.post('/users', async (req, res) => {
