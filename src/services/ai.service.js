@@ -175,6 +175,7 @@ export const normalizeProfileData = async (rawData) => {
     {
       "perfil": {
         "nome": string | null,
+        "username": string | null, // Extraído de linkedin.com/in/<username>
         "titulo": string | null,
         "linkedin": string | null,
         "localizacao": string | null
@@ -211,10 +212,12 @@ export const normalizeProfileData = async (rawData) => {
     - Preserve parágrafos
 
     ETAPA 2 — PERFIL
-    - Nome: primeira ocorrência clara
-    - Linkedin: URL válida
+    - Nome: O nome do candidato é geralmente a segunda linha ou aparece logo após headers de certificado.
+      - IGNORE completamente linhas que contenham: "Certificado de Conclusão", "Certificate of Completion", "Page X of Y".
+      - Se não encontrar um nome claro de pessoa (ex: "João Vitor Costa"), use o username da URL do LinkedIn como fallback (ex: "joaovitorcgds" de linkedin.com/in/joaovitorcgds).
+    - Linkedin: URL válida. Extraia também o "username" (parte após /in/).
     - Localização: cidade/país explícito
-    - Título: linha curta com função principal
+    - Título: linha curta com função principal (cargo atual ou objetivo profissional)
 
     ETAPA 3 — RESUMO
     - Use APENAS o bloco "Resumo"
