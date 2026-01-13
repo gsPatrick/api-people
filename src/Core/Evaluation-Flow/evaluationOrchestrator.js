@@ -106,12 +106,17 @@ const mapLocalPayloadToSummary = (localPayload) => {
 
 export const fetchScorecardDataForApplication = async (applicationId, jobId) => {
     try {
+        log(`[SCORECARD] Fetching data for applicationId: ${applicationId}`);
+
         // 1. Tenta buscar do cache local PRIMEIRO (Prioridade para dados recentes)
         const localData = await getLocalScorecardResponse(applicationId);
         if (localData) {
-            log(`Serving scorecard data from LOCAL CACHE for application ${applicationId}`);
+            log(`[SCORECARD] ✅ FOUND local data for app ${applicationId}. Serving immediately.`);
             const formattedSummary = mapLocalPayloadToSummary(localData);
+            log(`[SCORECARD] Formatted summary items: ${formattedSummary.length}`);
             return { success: true, data: { type: 'summary', content: formattedSummary } };
+        } else {
+            log(`[SCORECARD] ⚠️ No local data found for app ${applicationId}. Falling back to InHire API.`);
         }
 
         // 2. Se não tiver local, busca da API InHire

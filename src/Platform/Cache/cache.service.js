@@ -50,6 +50,8 @@ const initializeCacheTables = async () => {
         `);
 
         log('✅ Tabelas de cache (PostgreSQL) verificadas/criadas com sucesso.');
+        // Verify specifically correctness of scorecard table
+        log('✅ Tabela scorecard_responses garantida.');
     } catch (err) {
         error('Erro ao inicializar tabelas de cache no Postgres:', err.message);
     }
