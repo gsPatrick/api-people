@@ -10,7 +10,7 @@ import adminRoutes from './adminRoutes.js';
 import scorecardRoutes from './scorecard.routes.js'; // <-- 1. IMPORTAR O ROTEADOR
 import matchRoutes from './match.routes.js'; // <-- IMPORTAR O ROTEADOR DE MATCH TAMBÉM
 import aiMemoryRoutes from './aimemory.routes.js';
-import authRoutes from './authRoutes.js';
+import authenticationRouter from './authRoutes.js';
 import { extractProfileFromPdf } from '../controllers/pdf.controller.js'; // 2. Importe o novo controller
 import { fetchLinkedInProfilePdf, checkLinkedInCookieStatus } from '../controllers/linkedinPdf.controller.js'; // LinkedIn PDF Scraping
 const upload = multer({ storage: multer.memoryStorage() }); // 3. Configure o multer para usar a memória
@@ -43,7 +43,7 @@ const router = Router();
 // ==========================================================
 // 1. ROTAS PÚBLICAS (NÃO EXIGEM TOKEN)
 // ==========================================================
-router.use('/auth', authRoutes);
+router.use('/auth', authenticationRouter);
 
 // ==========================================================
 // 2. MIDDLEWARE DE AUTENTICAÇÃO GLOBAL
