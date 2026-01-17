@@ -13,6 +13,7 @@ import aiMemoryRoutes from './aimemory.routes.js';
 import authenticationRouter from './authRoutes.js';
 import { extractProfileFromPdf } from '../controllers/pdf.controller.js'; // 2. Importe o novo controller
 import { fetchLinkedInProfilePdf, checkLinkedInCookieStatus } from '../controllers/linkedinPdf.controller.js'; // LinkedIn PDF Scraping
+import * as systemConfigController from '../controllers/systemConfig.controller.js'; // Controller de Configurações Dinâmicas
 const upload = multer({ storage: multer.memoryStorage() }); // 3. Configure o multer para usar a memória
 
 // Orquestradores para as rotas da aplicação

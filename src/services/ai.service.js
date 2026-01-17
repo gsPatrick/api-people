@@ -3,9 +3,29 @@
 import { OpenAI } from 'openai';
 import { log, error as logError } from '../utils/logger.service.js';
 
-const getClient = () => {
+// Função auxiliar para buscar a chave correta (DB ou ENV)
+const getOpenAIKey = async () => {
+    try {
+        // Tenta importar os models se ainda não estiverem carregados, ou usa o import global
+        // Nota: ai.service.js é carregado depois do boot, então models/index deve estar ok?
+        // Vamos fazer um import dinâmico seguro
+        const db = (await import('../models/index.js')).default;
+        if (db && db.SystemConfig) {
+            const config = await db.SystemConfig.findByPk('OPENAI_API_KEY');
+            if (config && config.value) {
+                return config.value.trim();
+            }
+        }
+    } catch (err) {
+        // Silencia erro de DB (pode não estar init ainda), fallback para ENV
+    }
+    return process.env.OPENAI_API_KEY;
+};
+
+const getClient = async () => {
+    const apiKey = await getOpenAIKey();
     return new OpenAI({
-        apiKey: process.env.OPENAI_API_KEY,
+        apiKey: apiKey,
         timeout: 100000,
         maxRetries: 2
     });
@@ -85,7 +105,7 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
     `;
 
     try {
-        const client = getClient();
+        const client = await getClient();
         const response = await client.chat.completions.create({
             model: "gpt-4o",
             messages: [{ role: "user", content: prompt }],
@@ -279,7 +299,7 @@ export const normalizeProfileData = async (rawData) => {
     `;
 
     try {
-        const client = getClient();
+        const client = await getClient();
         const response = await client.chat.completions.create({
             model: "gpt-4o", // Usando modelo mais capaz para parsing complexo
             messages: [{ role: "system", content: prompt }], // System prompt é melhor para instrução
