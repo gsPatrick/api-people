@@ -3,11 +3,13 @@
 import { OpenAI } from 'openai';
 import { log, error as logError } from '../utils/logger.service.js';
 
-const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY,
-    timeout: 100000, // Timeout aumentado
-    maxRetries: 2
-});
+const getClient = () => {
+    return new OpenAI({
+        apiKey: process.env.OPENAI_API_KEY,
+        timeout: 100000,
+        maxRetries: 2
+    });
+};
 
 // ==========================================================
 // MUDANÇA PRINCIPAL APLICADA AQUI
@@ -83,7 +85,8 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
     `;
 
     try {
-        const response = await openai.chat.completions.create({
+        const client = getClient();
+        const response = await client.chat.completions.create({
             model: "gpt-4o",
             messages: [{ role: "user", content: prompt }],
             response_format: { type: "json_object" },
@@ -273,7 +276,8 @@ export const normalizeProfileData = async (rawData) => {
     `;
 
     try {
-        const response = await openai.chat.completions.create({
+        const client = getClient();
+        const response = await client.chat.completions.create({
             model: "gpt-4o", // Usando modelo mais capaz para parsing complexo
             messages: [{ role: "system", content: prompt }], // System prompt é melhor para instrução
             response_format: { type: "json_object" },
