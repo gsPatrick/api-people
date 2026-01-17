@@ -3,29 +3,9 @@
 import { OpenAI } from 'openai';
 import { log, error as logError } from '../utils/logger.service.js';
 
-// Função auxiliar para buscar a chave correta (DB ou ENV)
-const getOpenAIKey = async () => {
-    try {
-        // Tenta importar os models se ainda não estiverem carregados, ou usa o import global
-        // Nota: ai.service.js é carregado depois do boot, então models/index deve estar ok?
-        // Vamos fazer um import dinâmico seguro
-        const db = (await import('../models/index.js')).default;
-        if (db && db.SystemConfig) {
-            const config = await db.SystemConfig.findByPk('OPENAI_API_KEY');
-            if (config && config.value) {
-                return config.value.trim();
-            }
-        }
-    } catch (err) {
-        // Silencia erro de DB (pode não estar init ainda), fallback para ENV
-    }
-    return process.env.OPENAI_API_KEY;
-};
-
-const getClient = async () => {
-    const apiKey = await getOpenAIKey();
+const getClient = () => {
     return new OpenAI({
-        apiKey: apiKey,
+        apiKey: process.env.OPENAI_API_KEY,
         timeout: 100000,
         maxRetries: 2
     });
@@ -67,11 +47,12 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
         `;
     }
 
-    // NOVO PROMPT: Chain of Thought + Citação de Evidência + Contexto Global + GLOSSÁRIO
+    // NOVO PROMPT: Análise Estratégica e Inferencial
     const prompt = `
-        **Persona:** Você é um Tech Recruiter Sênior de Elite, conhecido por análises profundas, justas e baseadas em fatos. Você não é apenas cético, você é *preciso*.
+        **Persona:** Você é um Consultor de Talentos Estratégico (Sênior). Seu objetivo é identificar *potencial* e *match*, não apenas fazer checklist de palavras-chave.
+        Você sabe ler nas entrelinhas: um "CTO" sabe "Liderança" mesmo que não escreva a palavra "Liderança".
 
-        **Tarefa:** Avalie o candidato para o critério abaixo.
+        **Tarefa:** Avalie o candidato para o critério abaixo, buscando evidências diretas ou *indiretas* no contexto da carreira.
 
         ${contextStr}
 
@@ -80,32 +61,31 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
         **Critério de Avaliação:**
         "${criterion.name}"
 
-        **Evidências Específicas Encontradas (Fragmentos relevantes):**
+        **Evidências (Texto do Perfil):**
         ${limitedChunks.map((c, i) => `[Frag ${i + 1}]: ${c}`).join('\n')}
 
-        **Rubrica de Avaliação (Rigidez Justa):**
-        - **5 (Excepcional):** Evidência explícita, contundente e repetida. O candidato domina o tema.
-        - **4 (Forte):** Evidência clara e direta. Possui a competência de forma sólida.
-        - **3 (Investigar/Parcial):** Há indícios, mas falta profundidade ou a menção é breve. Requer entrevista para confirmar.
-        - **2 (Fraco):** Menção vaga, indireta ou apenas palavras-chave soltas sem contexto de aplicação.
-        - **1 (Ausente):** Nenhuma evidência encontrada nestes fragmentos ou apenas menções irrelevantes.
+        **Rubrica de Avaliação (Inferência Permitida):**
+        - **5 (Excepcional):** Evidência clara de domínio expert ou senioridade elevada no tema.
+        - **4 (Forte):** Experiência sólida ou inferência muito forte baseada em cargos/projetos.
+        - **3 (Potencial/Investigar):** Indícios parciais ou contexto que sugere a competência, mas requer validação na entrevista.
+        - **2 (Fraco):** Menção vaga ou muito junior para o que se espera.
+        - **1 (Ausente/Não Detectado):** Realmente não há nada que conecte o candidato a este tema.
 
-        **Protocolo de Pensamento (Chain of Thought):**
-        1. Analise os fragmentos, o contexto global E O GLOSSÁRIO.
-        2. Identifique trechos exatos que suportam o critério.
-        3. Avalie a força dessa evidência (é apenas uma palavra-chave ou uma descrição de responsabilidade?).
-        4. Defina a nota baseada na rubrica.
+        **Protocolo de Análise:**
+        1. **Contextualize:** Um Diretor de Engenharia provavelmente tem visão estratégica, mesmo que não cite explicitamente.
+        2. **Infira:** Se pede "Java" e ele trabalha com "Spring Boot" há 5 anos, o match é 5, não 1.
+        3. **Justifique para o RH:** Sua justificativa deve ajudar na decisão. Não diga apenas "não achei". Diga "Não há menção direta, mas pelo cargo X sugere vivência...".
 
         **Formato da Resposta JSON:**
         {
-            "thinking": "Breve raciocínio explicativo sobre como a conclusão foi atingida...",
+            "thinking": "Raciocínio inferencial...",
             "score": <inteiro de 1 a 5>,
-            "justification": "Justificativa final para o recrutador. Cite trechos entre aspas."
+            "justification": "Texto curto e direto para o Recrutador (em PT-BR). Destaque pontos fortes ou riscos reais. Use linguagem de mercado."
         }
     `;
 
     try {
-        const client = await getClient();
+        const client = getClient();
         const response = await client.chat.completions.create({
             model: "gpt-4o",
             messages: [{ role: "user", content: prompt }],
@@ -299,7 +279,7 @@ export const normalizeProfileData = async (rawData) => {
     `;
 
     try {
-        const client = await getClient();
+        const client = getClient();
         const response = await client.chat.completions.create({
             model: "gpt-4o", // Usando modelo mais capaz para parsing complexo
             messages: [{ role: "system", content: prompt }], // System prompt é melhor para instrução
