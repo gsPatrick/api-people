@@ -104,7 +104,7 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
             id: criterion.id, // Adicionado para fallback
             name: criterion.name,
             score: 1,
-            justification: "Erro na análise da IA"
+            justification: `Erro na análise da IA: ${err.message}`
         };
     }
 };
