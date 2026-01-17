@@ -102,7 +102,10 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
             justification: result.justification || "Análise incompleta",
         };
     } catch (err) {
-        logError(`Erro ao avaliar (GPT-4o) "${criterion.name}":`, err.message);
+        // DIAGNÓSTICO DE CHAVE:
+        const keyPrefix = process.env.OPENAI_API_KEY ? process.env.OPENAI_API_KEY.substring(0, 20) : 'SEM_CHAVE';
+        logError(`Erro ao avaliar (GPT-4o) "${criterion.name}": ${err.message}. Key Prefix: ${keyPrefix}...`);
+
         return {
             id: criterion.id, // Adicionado para fallback
             name: criterion.name,
@@ -289,7 +292,8 @@ export const normalizeProfileData = async (rawData) => {
         return normalizedData;
 
     } catch (err) {
-        logError('❌ Erro na normalização com LLM:', err.message);
+        const keyPrefix = process.env.OPENAI_API_KEY ? process.env.OPENAI_API_KEY.substring(0, 20) : 'SEM_CHAVE';
+        logError(`❌ Erro na normalização com LLM: ${err.message}. Key Prefix: ${keyPrefix}...`);
         // Fallback: retorna o dado original se der erro, mas idealmente deveria tratar
         return rawData;
     }
