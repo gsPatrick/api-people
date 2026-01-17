@@ -47,12 +47,17 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
         `;
     }
 
-    // NOVO PROMPT: Análise Estratégica e Inferencial
+    // NOVO PROMPT: Análise Estratégica, Inferencial e Contextual de Mercado
     const prompt = `
-        **Persona:** Você é um Consultor de Talentos Estratégico (Sênior). Seu objetivo é identificar *potencial* e *match*, não apenas fazer checklist de palavras-chave.
-        Você sabe ler nas entrelinhas: um "CTO" sabe "Liderança" mesmo que não escreva a palavra "Liderança".
+        **Persona:** Você é um Headhunter Executivo de Elite (Ex-McKinsey/Egon Zehnder).
+        Sua especialidade é correlacionar a *trajetória* do candidato com o *desafio* da vaga.
+        
+        **Superpoderes Liberados:**
+        1. **Knowledge Graph de Mercado:** Você CONHECE as empresas. Se o candidato trabalhou no "Nubank", você sabe que é Fintech, Alta Escala, AWS e Cultura Forte. Use isso!
+        2. **Inferência de Complexidade:** Se ele foi "Head de Eng" em um Banco, ele lidou com Regulação (Bacen). Se foi "CTO" de Startup, lidou com "Zero to One".
+        3. **Leitura de Entrelinhas:** Converta "cargos" em "competências".
 
-        **Tarefa:** Avalie o candidato para o critério abaixo, buscando evidências diretas ou *indiretas* no contexto da carreira.
+        **Tarefa:** Avalie o candidato para o critério abaixo.
 
         ${contextStr}
 
@@ -65,22 +70,22 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
         ${limitedChunks.map((c, i) => `[Frag ${i + 1}]: ${c}`).join('\n')}
 
         **Rubrica de Avaliação (Inferência Permitida):**
-        - **5 (Excepcional):** Evidência clara de domínio expert ou senioridade elevada no tema.
-        - **4 (Forte):** Experiência sólida ou inferência muito forte baseada em cargos/projetos.
-        - **3 (Potencial/Investigar):** Indícios parciais ou contexto que sugere a competência, mas requer validação na entrevista.
-        - **2 (Fraco):** Menção vaga ou muito junior para o que se espera.
-        - **1 (Ausente/Não Detectado):** Realmente não há nada que conecte o candidato a este tema.
+        - **5 (Excepcional):** Experiência comprovada em empresas referência (Big Tech, Unicórnios) ou cargos de alto impacto no tema.
+        - **4 (Forte):** Experiência sólida. O contexto das empresas anteriores valida a competência (ex: trabalhou com pagamentos em uma Fintech).
+        - **3 (Potencial/Investigar):** O histórico sugere capacidade, mas falta a "prova cabal" no texto. Indício forte de transferibilidade.
+        - **2 (Fraco):** A experiência parece ser em escopo muito menor ou contexto irrelevante para este critério.
+        - **1 (Ausente/Não Detectado):** Nada conecta o candidato ao tema, nem direta nem indiretamente.
 
-        **Protocolo de Análise:**
-        1. **Contextualize:** Um Diretor de Engenharia provavelmente tem visão estratégica, mesmo que não cite explicitamente.
-        2. **Infira:** Se pede "Java" e ele trabalha com "Spring Boot" há 5 anos, o match é 5, não 1.
-        3. **Justifique para o RH:** Sua justificativa deve ajudar na decisão. Não diga apenas "não achei". Diga "Não há menção direta, mas pelo cargo X sugere vivência...".
+        **Protocolo de Análise (Obrigatoriamente use seu conhecimento sobre as empresas):**
+        1. **Analise as Empresas:** Onde ele trabalhou? É consultoria? Produto? Banco? Startup? Isso valida o critério? (Ex: "Scale-up" require gente que trabalhou em empresa que cresceu rápido).
+        2. **Analise o Tempo de Casa:** Ficou 5 anos promovido 3x? É sinal de alta performance (Soft Skills, Entrega).
+        3. **Conecte os Pontos:** Se o critério é "Inglês Avançado" e ele trabalhou em multinacional reportando pra fora, o score é alto (Inferência).
 
         **Formato da Resposta JSON:**
         {
-            "thinking": "Raciocínio inferencial...",
+            "thinking": "Cite quais empresas do perfil ajudaram na inferência e por quê...",
             "score": <inteiro de 1 a 5>,
-            "justification": "Texto curto e direto para o Recrutador (em PT-BR). Destaque pontos fortes ou riscos reais. Use linguagem de mercado."
+            "justification": "Resposta de nível executivo. Explique O PORQUÊ do score citando o contexto das empresas. Ex: 'Embora não cite X, sua passagem de 3 anos pelo Nubank durante o IPO valida a experiência em alta escala e regulação.'"
         }
     `;
 
