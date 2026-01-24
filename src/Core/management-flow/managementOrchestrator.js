@@ -7,6 +7,7 @@ import { log, error } from '../../utils/logger.service.js';
 import { saveDebugDataToFile } from '../../utils/debug.service.js';
 import { getCustomFieldsForEntity } from '../../Inhire/CustomDataManager/customDataManager.service.js';
 import { getFromCache, setToCache } from '../../utils/cache.service.js';
+import db from '../../models/index.js'; // Importação do DB
 
 const TALENTS_CACHE_KEY = 'all_talents';
 
@@ -53,7 +54,7 @@ export const fetchCandidatesForJob = async (jobId) => {
 
         const dataToCache = { candidates: formattedCandidates, stages: availableStages };
         setToCache(CACHE_KEY, dataToCache);
-        
+
         return { success: true, data: dataToCache };
 
     } catch (err) {
@@ -78,16 +79,16 @@ export const handleUpdateApplicationStatus = async (applicationId, newStageId) =
                 const candidateIndex = cachedData.candidates.findIndex(c => c.application.id === applicationId);
                 if (candidateIndex !== -1) {
                     const newStage = cachedData.stages.find(s => s.id === newStageId);
-                    
+
                     cachedData.candidates[candidateIndex].application.stageId = newStageId;
                     cachedData.candidates[candidateIndex].application.stageName = newStage?.name || 'Etapa Desconhecida';
-                    
+
                     setToCache(CACHE_KEY, cachedData);
                     log(`CACHE UPDATE: Status da candidatura ${applicationId} atualizado no cache da vaga ${jobId}.`);
                 }
             }
         }
-        
+
         return { success: true, application: updatedApplication };
     } catch (err) {
         error("Erro em handleUpdateApplicationStatus:", err.message);
@@ -98,27 +99,27 @@ export const handleUpdateApplicationStatus = async (applicationId, newStageId) =
 export const fetchTalentDetails = async (talentId) => {
     log(`--- ORQUESTRADOR: Buscando detalhes do perfil do talento ${talentId} ---`);
     try {
-        const talentData = await getTalentById(talentId); 
+        const talentData = await getTalentById(talentId);
         if (!talentData) {
             throw new Error(`Talento com ID ${talentId} não encontrado.`);
         }
 
-        const applications = talentData.jobs || []; 
-        
+        const applications = talentData.jobs || [];
+
         const enrichedApplications = await Promise.all(
             applications.map(async (app) => {
-                const jobDetails = await getJobDetails(app.id); 
+                const jobDetails = await getJobDetails(app.id);
                 return {
-                    id: app.id, 
-                    jobId: app.id, 
+                    id: app.id,
+                    jobId: app.id,
                     jobName: jobDetails ? jobDetails.name : 'Vaga Desconhecida',
-                    status: app.stage?.name || 'Status Desconhecido' 
+                    status: app.stage?.name || 'Status Desconhecido'
                 };
             })
         );
-        
-        talentData.appliedJobs = enrichedApplications; 
-        delete talentData.jobs; 
+
+        talentData.appliedJobs = enrichedApplications;
+        delete talentData.jobs;
 
         return { success: true, talent: talentData };
     } catch (err) {
@@ -145,14 +146,14 @@ export const fetchCandidateDetailsForJobContext = async (jobId, talentId) => {
 
         const enrichedCustomFields = (customFieldDefinitions || []).map(definition => {
             const answerOptions = definition.options || [];
-            
+
             return {
                 ...definition,
                 answerOptions,
                 value: savedValuesMap.get(definition.id) || null
             };
         });
-        
+
         const candidateData = {
             id: talentProfile.id,
             name: talentProfile.name,
@@ -168,7 +169,7 @@ export const fetchCandidateDetailsForJobContext = async (jobId, talentId) => {
                 stageId: applicationDetails.stage?.id || null,
                 status: applicationDetails.status,
                 createdAt: applicationDetails.createdAt,
-                customFields: enrichedCustomFields 
+                customFields: enrichedCustomFields
             }
         };
 
@@ -187,12 +188,12 @@ export const fetchAllTalentsForSync = async () => {
         let hasMorePages = true;
         let exclusiveStartKey = null;
 
-        while(hasMorePages) {
+        while (hasMorePages) {
             const response = await getAllTalentsPaginated(100, exclusiveStartKey);
             if (!response || !response.items) {
                 throw new Error("A API falhou ao buscar uma página de talentos.");
             }
-            
+
             allTalents.push(...response.items);
 
             if (response.exclusiveStartKey) {
@@ -212,47 +213,70 @@ export const fetchAllTalentsForSync = async () => {
 // ==========================================================
 // CORREÇÃO: Lógica de paginação robusta
 // ==========================================================
+import db from '../../models/index.js';
+const { LocalTalent } = db;
+import { Op } from 'sequelize';
+
 export const fetchAllTalents = async (pageParam, limitParam, filters = {}) => {
     // 1. Garantir que page e limit sejam números válidos
     const page = parseInt(pageParam, 10) || 1;
     const limit = parseInt(limitParam, 10) || 10;
+    const offset = (page - 1) * limit;
 
-    log(`--- ORQUESTRADOR: Servindo talentos paginados do cache (Página: ${page}, Limite: ${limit}, Filtros: ${JSON.stringify(filters)}) ---`);
+    log(`--- ORQUESTRADOR: Buscando talentos locais (DB) (Página: ${page}, Limite: ${limit}, Filtros: ${JSON.stringify(filters)}) ---`);
     try {
-        const allTalents = getFromCache(TALENTS_CACHE_KEY);
-        if (!allTalents) {
-            log("AVISO: Cache de talentos ainda está vazio. Retornando lista vazia.");
-            return { success: true, data: { talents: [], currentPage: 1, totalPages: 1, totalTalents: 0 } };
-        }
+        const whereClause = {};
 
-        let filteredTalents = allTalents;
+        // Filtro de Texto (Nome, Headline, Email)
         if (filters.searchTerm) {
-            const term = filters.searchTerm.toLowerCase();
-            filteredTalents = filteredTalents.filter(t =>
-                t.name?.toLowerCase().includes(term) ||
-                t.headline?.toLowerCase().includes(term)
-            );
+            const term = `%${filters.searchTerm}%`;
+            whereClause[Op.or] = [
+                { name: { [Op.iLike]: term } },
+                { headline: { [Op.iLike]: term } },
+                { email: { [Op.iLike]: term } }
+            ];
         }
 
-        const totalTalentsInFilter = filteredTalents.length;
-        // 2. Cálculo correto de totalPages, tratando o caso de 0 talentos
-        const totalPages = totalTalentsInFilter > 0 ? Math.ceil(totalTalentsInFilter / limit) : 1;
-        const startIndex = (page - 1) * limit;
-        
-        // 3. O `slice` lida com `startIndex` fora dos limites, retornando array vazio, o que é o comportamento esperado.
-        const paginatedTalents = filteredTalents.slice(startIndex, startIndex + limit);
+        // Filtro de jobId (se necessário no futuro para listar talentos de uma vaga específica na visão geral)
+        // Nota: Para "Kanban" de vaga, usamos fetchCandidatesForJob. Aqui é o Banco de Talentos geral.
+        // Se quisermos filtrar por vaga aqui, precisaríamos de include no LocalApplication.
+
+        // Filtro de Score Mínimo
+        if (filters.minScore) {
+            whereClause.matchScore = { [Op.gte]: parseFloat(filters.minScore) };
+        }
+
+        // Opcional: Esconder REJECTED por padrão se não solicitado explicitamente?
+        // O frontend pode passar filters.status para controlar.
+        if (filters.status) {
+            whereClause.status = filters.status;
+        }
+
+        const { count, rows } = await LocalTalent.findAndCountAll({
+            where: whereClause,
+            limit: limit,
+            offset: offset,
+            order: [
+                ['matchScore', 'DESC'], // Melhor match primeiro
+                ['createdAt', 'DESC']   // Mais recentes como desempate
+            ],
+            // O frontend espera objetos planos, mas o Sequelize retorna instâncias.
+            // .toJSON() ou raw: true ajuda, mas aqui retornamos as instâncias e o serializer do Express lida.
+        });
+
+        const totalPages = Math.ceil(count / limit);
 
         return {
             success: true,
             data: {
-                talents: paginatedTalents,
+                talents: rows, // Array de LocalTalent
                 currentPage: page,
-                totalPages: totalPages,
-                totalTalents: totalTalentsInFilter
+                totalPages: totalPages > 0 ? totalPages : 1,
+                totalTalents: count
             }
         };
     } catch (err) {
-        error("Erro em fetchAllTalents (cache):", err.message);
+        error("Erro em fetchAllTalents (Local DB):", err.message);
         return { success: false, error: err.message };
     }
 };
@@ -280,11 +304,11 @@ export const handleUpdateCustomFieldsForApplication = async (applicationId, cust
         log("Payload de atualização de campos personalizados:", JSON.stringify(payload, null, 2));
 
         const updatedApplication = await updateApplication(applicationId, payload);
-        
+
         if (!updatedApplication) {
             throw new Error("Falha ao atualizar os campos personalizados da candidatura.");
         }
-        
+
         return { success: true, application: updatedApplication };
 
     } catch (err) {

@@ -42,20 +42,51 @@ export const syncProfileFromLinkedIn = async (talentId) => {
 // =================================================================================
 // FUNÇÃO PRINCIPAL MODIFICADA PARA ORQUESTRAR ANÁLISE E CACHE (DO CÓDIGO 02)
 // =================================================================================
+import db from '../../models/index.js';
+const { LocalTalent, LocalApplication, LocalJob } = db;
+
 export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard, weights) => {
     log(`--- ORQUESTRADOR IA: Avaliando e preparando feedback para Talento ID: ${talentId} ---`);
 
     try {
-        // ETAPA 1: Obter dados do perfil do candidato (lógica existente)
-        const talentInHire = await getTalentById(talentId);
-        if (!talentInHire || !talentInHire.linkedinUsername) throw new Error(`Talento ${talentId} ou seu LinkedIn não foram encontrados.`);
-        const cached = await getCachedProfile(talentInHire.linkedinUsername);
-        if (!cached) throw new Error('Dados do perfil não encontrados no cache. Sincronize primeiro.');
+        // ETAPA 0: Resolver Entidades Locais (Local-First Persistence)
+        let localTalent = await LocalTalent.findByPk(talentId);
 
-        // ETAPA 2: FULL CONTEXT - Preparar texto completo do perfil (em vez de vetores)
-        // Concatenar tudo em um único texto rico
+        // Se não achou por PK, tenta pelo external ID ou username (caso venha ID antigo)
+        if (!localTalent) {
+            // Tenta buscar na InHire para obter username e resolver localmente
+            const talentInHire = await getTalentById(talentId);
+            if (talentInHire && talentInHire.linkedinUsername) {
+                localTalent = await LocalTalent.findOne({ where: { linkedinUsername: talentInHire.linkedinUsername } });
+            }
+        }
+
+        if (!localTalent) throw new Error(`Talento Local não encontrado para análise (ID/Ref: ${talentId})`);
+
+        // Busca ou cria Job Local
+        let localJob = await LocalJob.findOne({ where: { externalId: jobDetails.id } });
+        if (!localJob && jobDetails.id) {
+            // Fallback: se não existir job local (ex: job criado antes da migração), cria stub
+            localJob = await LocalJob.create({
+                title: jobDetails.name,
+                externalId: jobDetails.id,
+                status: 'OPEN',
+                isSynced: true
+            });
+        }
+
+        // ETAPA 1: Obter dados do perfil do candidato (lógica existente - agora via LocalTalent.data ou Cache)
+        // Prioriza dados locais se existirem
+        let profileData = localTalent.data;
+        if (!profileData) {
+            const cached = await getCachedProfile(localTalent.linkedinUsername);
+            if (!cached) throw new Error('Dados do perfil não encontrados no cache. Sincronize primeiro.');
+            profileData = cached.profile;
+        }
+
+        // ETAPA 2: FULL CONTEXT - Preparar texto completo do perfil
         let fullProfileText = "";
-        const profile = cached.profile;
+        const profile = profileData || {};
         if (profile.name) fullProfileText += `NOME: ${profile.name}\n`;
         if (profile.headline) fullProfileText += `HEADLINE: ${profile.headline}\n`;
         if (profile.about) fullProfileText += `SOBRE: ${profile.about}\n`;
@@ -75,7 +106,6 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
         }));
 
         // ETAPA 3: Chamar a IA para avaliar cada critério em paralelo
-        // O ai.service vai enviar esse blocão de texto para o GPT
         const evaluations = await analyzeAllCriteriaInBatch(criteriaWithChunks, {
             name: profile.name,
             headline: profile.headline,
@@ -83,12 +113,43 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
         });
 
         // ETAPA 4: Gerar o feedback geral e a decisão final com base nas avaliações
-        const summaryResult = await generateOverallFeedback(jobDetails, cached.profile, evaluations, weights);
+        const summaryResult = await generateOverallFeedback(jobDetails, profile, evaluations, weights);
         const finalResult = { evaluations, ...summaryResult };
 
-        // ETAPA 5: Armazenar a avaliação da IA e as evidências no cache temporário
-        // Como não temos chunks extraídos via vetor, a evidência é "Análise Full Context"
-        // Ou podemos tentar extrair o que a IA citou na justificativa.
+        // ETAPA 4.5: Calcular Match Score Ponderado (0-100 ou 0-5)
+        // Vamos usar base 5 para alinhar com estrelas
+        let totalScore = 0;
+        let totalWeight = 0;
+        const weightMap = { 1: 1, 2: 2, 3: 3 }; // Low=1, Med=2, High=3
+
+        evaluations.forEach(ev => {
+            const w = weightMap[weights[ev.id] || 2] || 2;
+            totalScore += (ev.score * w);
+            totalWeight += w;
+        });
+
+        const finalMatchScore = totalWeight > 0 ? (totalScore / totalWeight) : 0;
+
+
+        // ETAPA 5: Persistência Local (LocalApplication)
+        if (localJob) {
+            const [application, created] = await LocalApplication.findOrCreate({
+                where: { talentId: localTalent.id, jobId: localJob.id },
+                defaults: { stage: 'Applied' }
+            });
+
+            await application.update({
+                matchScore: parseFloat(finalMatchScore.toFixed(2)),
+                aiReview: finalResult
+            });
+
+            // Também atualiza o score mais recente no Talento para listagem rápida
+            await localTalent.update({ matchScore: parseFloat(finalMatchScore.toFixed(2)) });
+
+            log(`PERSISTÊNCIA: Avaliação salva em LocalApplication (Score: ${finalMatchScore.toFixed(2)})`);
+        }
+
+        // Cache Legado (Manter por compatibilidade com frontend antigo se necessário)
         const evidenceMap = criteriaWithChunks.reduce((map, item) => {
             map[item.criterion.id] = ["Análise realizada com contexto completo do perfil."];
             return map;
@@ -126,12 +187,16 @@ const generateOverallFeedback = async (jobDetails, candidateProfile, evaluations
         ${JSON.stringify(evaluationsWithWeights, null, 2)}
 
         **Sua Tarefa:**
-        1.  **Escreva um Feedback Geral:** Com base nas suas avaliações ponderadas, escreva um parágrafo conciso (2-4 frases) resumindo a adequação do candidato para a vaga. Dê ênfase aos pontos com peso 'Alto'.
-        2.  **Tome a Decisão Final:** Sugira uma decisão: "YES" (bom fit), "NO" (mau fit), ou "NO_DECISION" (ambíguo).
+        1.  **Identifique Pontos Fortes:** Liste 3-5 pontos fortes principais que tornam este candidato um bom fit.
+        2.  **Identifique Pontos de Atenção:** Liste 1-3 pontos de atenção ou gaps que o recrutador deve investigar.
+        3.  **Escreva um Feedback Geral:** Com base nas suas avaliações ponderadas, escreva um parágrafo conciso (2-4 frases) resumindo a adequação do candidato para a vaga. Dê ênfase aos pontos com peso 'Alto'.
+        4.  **Tome a Decisão Final:** Sugira uma decisão: "YES" (bom fit), "NO" (mau fit), ou "NO_DECISION" (ambíguo).
 
         **Formato OBRIGATÓRIO da Resposta:**
         Responda APENAS com um objeto JSON válido.
         {
+          "strengths": ["Ponto forte 1", "Ponto forte 2", ...],
+          "weaknesses": ["Ponto de atenção 1", ...],
           "overallFeedback": "<seu parágrafo de feedback aqui>",
           "finalDecision": "<sua decisão aqui>"
         }
@@ -146,7 +211,12 @@ const generateOverallFeedback = async (jobDetails, candidateProfile, evaluations
         return JSON.parse(response.choices[0].message.content);
     } catch (err) {
         error("Erro ao gerar feedback geral da IA:", err.message);
-        return { overallFeedback: "Falha ao gerar o resumo.", finalDecision: "NO_DECISION" };
+        return {
+            strengths: [],
+            weaknesses: [],
+            overallFeedback: "Falha ao gerar o resumo.",
+            finalDecision: "NO_DECISION"
+        };
     }
 };
 

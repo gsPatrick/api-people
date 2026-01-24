@@ -163,9 +163,11 @@ router.post('/create-talent', async (req, res) => {
 });
 
 // --- ROTAS DE GERENCIAMENTO (TALENTOS) ---
+// --- ROTAS DE GERENCIAMENTO (TALENTOS) ---
 router.get('/talents', async (req, res) => {
-    const { page, limit, searchTerm } = req.query;
-    const result = await fetchAllTalents(page, limit, { searchTerm });
+    const { page, limit, searchTerm, jobId, minScore } = req.query; // Added filters
+    // A função orchestrator agora deve consultar o LocalTalent
+    const result = await fetchAllTalents(page, limit, { searchTerm, jobId, minScore });
     if (result.success) {
         res.status(200).json(result);
     } else {
@@ -184,6 +186,19 @@ router.patch('/talents/:id', async (req, res) => {
     const { id } = req.params;
     const result = await handleEditTalent(id, req.body);
     if (result.success) res.status(200).json({ message: 'Talento atualizado com sucesso.' });
+    else res.status(500).json({ error: result.error });
+});
+
+// NOVA ROTA: Gerenciar Status (Sem deletar)
+router.patch('/talents/:id/status', async (req, res) => {
+    const { id } = req.params;
+    const { status } = req.body;
+    if (!['NEW', 'ACTIVE', 'REJECTED', 'HIRED'].includes(status)) {
+        return res.status(400).json({ error: 'Status inválido.' });
+    }
+    // Reutiliza handleEditTalent pois ele já encaminha para o orquestrador correto
+    const result = await handleEditTalent(id, { status });
+    if (result.success) res.status(200).json({ message: `Status atualizado para ${status}.` });
     else res.status(500).json({ error: result.error });
 });
 
