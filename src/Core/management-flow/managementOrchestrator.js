@@ -37,7 +37,7 @@ export const fetchCandidatesForJob = async (jobId) => {
                 application: {
                     id: app.id,
                     stageName: app.stage || 'Applied',
-                    stageId: app.stage || 'applied', // Usamos string como ID para local
+                    stageId: (app.stage || 'applied').toLowerCase(), // Garantir lowercase
                     status: app.status || 'ACTIVE',
                     createdAt: app.createdAt
                 }
@@ -227,7 +227,7 @@ export const fetchCandidateDetailsForJobContext = async (jobId, talentId) => {
                     application: {
                         id: isLocalApp.id,
                         stageName: isLocalApp.stage || 'Applied',
-                        stageId: isLocalApp.stage || 'applied',
+                        stageId: (isLocalApp.stage || 'applied').toLowerCase(),
                         status: isLocalApp.status || 'ACTIVE',
                         createdAt: isLocalApp.createdAt,
                         customFields: [] // Local jobs might not have CF definitions yet
