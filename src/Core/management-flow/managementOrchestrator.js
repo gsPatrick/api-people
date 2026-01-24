@@ -8,7 +8,7 @@ import { saveDebugDataToFile } from '../../utils/debug.service.js';
 import { getCustomFieldsForEntity } from '../../Inhire/CustomDataManager/customDataManager.service.js';
 import { getFromCache, setToCache } from '../../utils/cache.service.js';
 import db from '../../models/index.js'; // Importação do DB
-const { LocalTalent, LocalApplication } = db;
+// const { LocalTalent, LocalApplication } = db; // REMOVIDO: Causa erro 500 no startup
 
 const TALENTS_CACHE_KEY = 'all_talents';
 
@@ -254,7 +254,7 @@ export const fetchAllTalents = async (pageParam, limitParam, filters = {}) => {
             whereClause.status = filters.status;
         }
 
-        const { count, rows } = await LocalTalent.findAndCountAll({
+        const { count, rows } = await db.LocalTalent.findAndCountAll({
             where: whereClause,
             limit: limit,
             offset: offset,

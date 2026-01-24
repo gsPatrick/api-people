@@ -43,31 +43,31 @@ export const syncProfileFromLinkedIn = async (talentId) => {
 // FUNÇÃO PRINCIPAL MODIFICADA PARA ORQUESTRAR ANÁLISE E CACHE (DO CÓDIGO 02)
 // =================================================================================
 import db from '../../models/index.js';
-const { LocalTalent, LocalApplication, LocalJob } = db;
+// const { LocalTalent, LocalApplication, LocalJob } = db; // REMOVIDO: Destruturação no topo causa undefined
 
 export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard, weights) => {
     log(`--- ORQUESTRADOR IA: Avaliando e preparando feedback para Talento ID: ${talentId} ---`);
 
     try {
         // ETAPA 0: Resolver Entidades Locais (Local-First Persistence)
-        let localTalent = await LocalTalent.findByPk(talentId);
+        let localTalent = await db.LocalTalent.findByPk(talentId);
 
         // Se não achou por PK, tenta pelo external ID ou username (caso venha ID antigo)
         if (!localTalent) {
             // Tenta buscar na InHire para obter username e resolver localmente
             const talentInHire = await getTalentById(talentId);
             if (talentInHire && talentInHire.linkedinUsername) {
-                localTalent = await LocalTalent.findOne({ where: { linkedinUsername: talentInHire.linkedinUsername } });
+                localTalent = await db.LocalTalent.findOne({ where: { linkedinUsername: talentInHire.linkedinUsername } });
             }
         }
 
         if (!localTalent) throw new Error(`Talento Local não encontrado para análise (ID/Ref: ${talentId})`);
 
         // Busca ou cria Job Local
-        let localJob = await LocalJob.findOne({ where: { externalId: jobDetails.id } });
+        let localJob = await db.LocalJob.findOne({ where: { externalId: jobDetails.id } });
         if (!localJob && jobDetails.id) {
             // Fallback: se não existir job local (ex: job criado antes da migração), cria stub
-            localJob = await LocalJob.create({
+            localJob = await db.LocalJob.create({
                 title: jobDetails.name,
                 externalId: jobDetails.id,
                 status: 'OPEN',
@@ -133,7 +133,7 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
 
         // ETAPA 5: Persistência Local (LocalApplication)
         if (localJob) {
-            const [application, created] = await LocalApplication.findOrCreate({
+            const [application, created] = await db.LocalApplication.findOrCreate({
                 where: { talentId: localTalent.id, jobId: localJob.id },
                 defaults: { stage: 'Applied' }
             });

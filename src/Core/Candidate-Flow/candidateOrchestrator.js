@@ -58,7 +58,7 @@ export const validateProfile = async (profileUrl) => {
 import db from '../../models/index.js';
 import SyncService from '../../services/sync.service.js';
 
-const { LocalTalent } = db;
+const { LocalTalent } = db; // REMOVIDO: Destruturação no topo causa erro se models ainda não carregaram
 
 export const handleConfirmCreation = async (talentData, jobId) => {
   log(`--- ORQUESTRADOR (LOCAL-FIRST): Criando talento '${talentData.name}' na vaga '${jobId}' ---`);
@@ -67,7 +67,7 @@ export const handleConfirmCreation = async (talentData, jobId) => {
 
     // === PASSO 1: Persistência Local Imediata (INSTANT UX) ===
     // Criamos o registro localmente com status PENDING para sincronização
-    const localTalent = await LocalTalent.create({
+    const localTalent = await db.LocalTalent.create({
       name: talentData.name || 'Nome Desconhecido',
       headline: talentData.headline,
       linkedinUsername: talentData.linkedinUsername,
