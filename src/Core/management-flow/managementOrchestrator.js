@@ -100,9 +100,47 @@ export const handleUpdateApplicationStatus = async (applicationId, newStageId) =
 export const fetchTalentDetails = async (talentId) => {
     log(`--- ORQUESTRADOR: Buscando detalhes do perfil do talento ${talentId} ---`);
     try {
+        // 1. Tentar buscar Localmente Primeiro (Importante para Perfis que ainda não sincronizaram)
+        log(`[FETCH_DETAILS] Buscando talento ${talentId} no Banco Local...`);
+        const localTalent = await db.LocalTalent.findByPk(talentId);
+
+        if (localTalent) {
+            log(`[FETCH_DETAILS] ✅ Talento encontrado localmente.`);
+            const talentData = localTalent.get({ plain: true });
+
+            // Busca candidaturas locais relacionadas
+            const localApps = await db.LocalApplication.findAll({
+                where: { talentId },
+                include: [{ model: db.LocalJob, as: 'job' }]
+            });
+
+            const enrichedApplications = localApps.map(app => ({
+                id: app.id,
+                jobId: app.jobId,
+                jobName: app.job ? app.job.name : 'Vaga Desconhecida',
+                status: app.status || 'Status Desconhecido'
+            }));
+
+            talentData.appliedJobs = enrichedApplications;
+
+            // Compatibilidade: Garante que os campos de dados aninhados estejam acessíveis no topo se o front esperar
+            if (talentData.data && typeof talentData.data === 'object') {
+                const innerData = talentData.data;
+                // Mescla innerData no topo para facilitar renderização (name, headline, etc)
+                return {
+                    success: true,
+                    talent: { ...talentData, ...innerData, appliedJobs: enrichedApplications }
+                };
+            }
+
+            return { success: true, talent: talentData };
+        }
+
+        // 2. Fallback para InHire API (Se não for local ou se for legado)
+        log(`[FETCH_DETAILS] ⚠️ Talento não encontrado localmente. Buscando na InHire API...`);
         const talentData = await getTalentById(talentId);
         if (!talentData) {
-            throw new Error(`Talento com ID ${talentId} não encontrado.`);
+            throw new Error(`Talento com ID ${talentId} não encontrado em nenhuma fonte.`);
         }
 
         const applications = talentData.jobs || [];
