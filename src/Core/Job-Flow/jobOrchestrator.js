@@ -43,34 +43,48 @@ export const handleCreateJob = async (jobData) => {
 };
 
 // ==========================================================
-// CORREÇÃO: Função modificada para remover a lógica de paginação
-// e retornar sempre a lista completa de vagas filtradas.
+// CORREÇÃO: Função modificada para mesclar vagas LOCAIS (DB)
+// com vagas do InHire (Cache).
 // ==========================================================
 export const fetchPaginatedJobs = async (page = 1, limit = 10, status = 'open') => {
-    log(`--- ORQUESTRADOR: Servindo TODAS as vagas do cache (Status: ${status}) ---`);
+    log(`--- ORQUESTRADOR: Buscando vagas (Status: ${status}) ---`);
 
     try {
-        const allJobs = getFromCache(JOBS_CACHE_KEY);
+        // 1. Buscar Vagas Locais do Banco de Dados
+        const localJobsFromDb = await db.LocalJob.findAll({
+            where: {
+                status: status.toUpperCase() // Frontend envia 'open', DB usa 'OPEN'
+            },
+            order: [['createdAt', 'DESC']]
+        });
 
-        if (!allJobs) {
-            log("AVISO: Cache de vagas ainda está vazio. Retornando lista vazia.");
-            return {
-                success: true,
-                data: { jobs: [], currentPage: 1, totalPages: 1, totalJobs: 0 }
-            };
-        }
+        const formattedLocalJobs = localJobsFromDb.map(job => ({
+            id: job.id,
+            name: job.title,
+            description: job.description,
+            status: job.status.toLowerCase(),
+            externalId: job.externalId,
+            isSynced: job.isSynced,
+            activeTalents: 0, // Poderíamos contar aplicações locais depois
+            area: { name: 'Local' }
+        }));
 
-        const filteredJobs = allJobs.filter(job => job.status === status);
+        // 2. Buscar Vagas do InHire no Cache
+        const inhireJobsCached = getFromCache(JOBS_CACHE_KEY) || [];
+        const filteredInhireJobs = inhireJobsCached.filter(job =>
+            (job.status || '').toLowerCase() === status.toLowerCase()
+        );
 
-        const totalJobsInFilter = filteredJobs.length;
+        // 3. Mesclar as listas (Locais primeiro)
+        const allMergedJobs = [...formattedLocalJobs, ...filteredInhireJobs];
 
-        // A resposta agora sempre contém todas as vagas filtradas.
-        // As chaves de paginação são mantidas para não quebrar o frontend,
-        // mas sempre indicarão uma única página.
+        const totalJobsInFilter = allMergedJobs.length;
+
+        // A resposta agora contém as vagas de ambas as fontes.
         return {
             success: true,
             data: {
-                jobs: filteredJobs,
+                jobs: allMergedJobs,
                 currentPage: 1,
                 totalPages: 1,
                 totalJobs: totalJobsInFilter
