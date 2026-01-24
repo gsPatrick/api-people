@@ -16,47 +16,85 @@ export const fetchCandidatesForJob = async (jobId) => {
     const CACHE_KEY = `candidates_for_job_${jobId}`;
     log(`--- ORQUESTRADOR: Buscando candidaturas para a vaga ${jobId} ---`);
 
-    const cachedData = getFromCache(CACHE_KEY);
-    if (cachedData) {
-        log(`CACHE HIT: Retornando candidaturas para a vaga ${jobId} do cache.`);
-        return { success: true, data: cachedData };
-    }
-
-    log(`CACHE MISS: Buscando candidaturas para a vaga ${jobId} da API.`);
     try {
-        const applications = await getApplicationsForJob(jobId);
-        if (applications === null) throw new Error("Falha ao buscar candidaturas na API.");
-
-        saveDebugDataToFile(`candidates_for_job_${jobId}_${Date.now()}.txt`, applications);
-
-        const stageMap = new Map();
-        applications.forEach(app => {
-            if (app?.stage?.id && app?.stage?.name) {
-                stageMap.set(app.stage.id, { id: app.stage.id, name: app.stage.name });
-            }
+        // 1. Buscar Candidaturas LOCAIS primeiro
+        log(`[CANDIDATES] Buscando candidaturas locais para vaga ${jobId}...`);
+        const localApps = await db.LocalApplication.findAll({
+            where: { jobId },
+            include: [{ model: db.LocalTalent, as: 'talent' }]
         });
-        const availableStages = Array.from(stageMap.values());
 
-        const formattedCandidates = applications
-            .filter(app => app?.talent?.id && app?.stage?.id)
-            .map(app => ({
-                id: app.talent.id,
-                name: app.talent.name,
-                headline: app.talent.headline || 'Sem título',
-                photo: app.talent.photo || null,
+        const formattedLocalCandidates = localApps.map(app => {
+            const talent = app.talent?.toJSON() || {};
+            const innerData = talent.data || {};
+
+            return {
+                id: talent.id,
+                name: innerData.name || talent.name || 'Candidato Local',
+                headline: innerData.headline || talent.headline || 'Sem título',
+                photo: talent.photo || null,
+                isLocal: true,
                 application: {
                     id: app.id,
-                    stageName: app.stage.name,
-                    stageId: app.stage.id,
-                    status: app.status,
+                    stageName: app.stage || 'Applied',
+                    stageId: app.stage || 'applied', // Usamos string como ID para local
+                    status: app.status || 'ACTIVE',
                     createdAt: app.createdAt
                 }
-            }));
+            };
+        });
 
-        const dataToCache = { candidates: formattedCandidates, stages: availableStages };
-        setToCache(CACHE_KEY, dataToCache);
+        // 2. Buscar da API InHire (se não for UUID ou se quisermos mesclar)
+        let inhireCandidates = [];
+        let stages = [
+            { id: 'applied', name: 'Applied' },
+            { id: 'screened', name: 'Screened' },
+            { id: 'interview', name: 'Interview' },
+            { id: 'offered', name: 'Offered' },
+            { id: 'hired', name: 'Hired' },
+            { id: 'rejected', name: 'Rejected' },
+        ];
 
-        return { success: true, data: dataToCache };
+        const isUUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(jobId);
+
+        if (!isUUID) {
+            log(`[CANDIDATES] Vaga InHire detectada. Buscando na API...`);
+            const apiResult = await getApplicationsForJob(jobId);
+            if (apiResult) {
+                inhireCandidates = apiResult
+                    .filter(app => app?.talent?.id)
+                    .map(app => ({
+                        id: app.talent.id,
+                        name: app.talent.name,
+                        headline: app.talent.headline || 'Sem título',
+                        photo: app.talent.photo || null,
+                        application: {
+                            id: app.id,
+                            stageName: app.stage?.name || 'Status',
+                            stageId: app.stage?.id,
+                            status: app.status,
+                            createdAt: app.createdAt
+                        }
+                    }));
+
+                // Enriquecer etapas se vierem da API
+                const apiStages = Array.from(new Map(apiResult.map(a => [a.stage?.id, a.stage?.name])).values())
+                    .filter(s => s && s.id)
+                    .map(s => ({ id: s.id, name: s.name }));
+
+                if (apiStages.length > 0) stages = apiStages;
+            }
+        }
+
+        const allCandidates = [...formattedLocalCandidates, ...inhireCandidates];
+
+        return {
+            success: true,
+            data: {
+                candidates: allCandidates,
+                stages: stages
+            }
+        };
 
     } catch (err) {
         error("Erro em fetchCandidatesForJob:", err.message);
@@ -67,28 +105,20 @@ export const fetchCandidatesForJob = async (jobId) => {
 export const handleUpdateApplicationStatus = async (applicationId, newStageId) => {
     log(`--- ORQUESTRADOR: Atualizando etapa da candidatura ${applicationId} para o ID: ${newStageId} ---`);
     try {
+        const isUUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(applicationId);
+
+        if (isUUID) {
+            log(`[UPDATE_STAGE] Candidatura LOCAL detectada.`);
+            const app = await db.LocalApplication.findByPk(applicationId);
+            if (!app) throw new Error("Candidatura local não encontrada.");
+
+            await app.update({ stage: newStageId });
+            return { success: true, application: app };
+        }
+
         const payload = { stageId: newStageId };
         const updatedApplication = await updateApplication(applicationId, payload);
-        if (!updatedApplication) throw new Error("Falha ao atualizar a candidatura.");
-
-        const jobId = updatedApplication.jobId;
-        if (jobId) {
-            const CACHE_KEY = `candidates_for_job_${jobId}`;
-            const cachedData = getFromCache(CACHE_KEY);
-
-            if (cachedData) {
-                const candidateIndex = cachedData.candidates.findIndex(c => c.application.id === applicationId);
-                if (candidateIndex !== -1) {
-                    const newStage = cachedData.stages.find(s => s.id === newStageId);
-
-                    cachedData.candidates[candidateIndex].application.stageId = newStageId;
-                    cachedData.candidates[candidateIndex].application.stageName = newStage?.name || 'Etapa Desconhecida';
-
-                    setToCache(CACHE_KEY, cachedData);
-                    log(`CACHE UPDATE: Status da candidatura ${applicationId} atualizado no cache da vaga ${jobId}.`);
-                }
-            }
-        }
+        if (!updatedApplication) throw new Error("Falha ao atualizar a candidatura na InHire.");
 
         return { success: true, application: updatedApplication };
     } catch (err) {
@@ -170,49 +200,79 @@ export const fetchTalentDetails = async (talentId) => {
 export const fetchCandidateDetailsForJobContext = async (jobId, talentId) => {
     log(`--- ORQUESTRADOR: Buscando detalhes contextuais para T:${talentId} em V:${jobId} ---`);
     try {
+        // 1. Tentar contexto LOCAL primeiro
+        const isLocalApp = await db.LocalApplication.findOne({
+            where: { jobId, talentId },
+            include: [
+                { model: db.LocalTalent, as: 'talent' },
+                { model: db.LocalJob, as: 'job' }
+            ]
+        });
+
+        if (isLocalApp) {
+            log(`[DETAILS] Contexto LOCAL encontrado.`);
+            const talent = isLocalApp.talent?.toJSON() || {};
+            const innerData = talent.data || {};
+
+            return {
+                success: true,
+                candidateData: {
+                    id: talent.id,
+                    name: innerData.name || talent.name,
+                    headline: innerData.headline || talent.headline,
+                    email: innerData.email || talent.email,
+                    linkedinUsername: innerData.linkedinUsername || talent.linkedinUsername,
+                    location: innerData.location || talent.location,
+                    photo: talent.photo || null,
+                    application: {
+                        id: isLocalApp.id,
+                        stageName: isLocalApp.stage || 'Applied',
+                        stageId: isLocalApp.stage || 'applied',
+                        status: isLocalApp.status || 'ACTIVE',
+                        createdAt: isLocalApp.createdAt,
+                        customFields: [] // Local jobs might not have CF definitions yet
+                    }
+                }
+            };
+        }
+
+        // 2. Tentar InHire
         const [talentProfile, applicationDetails, customFieldDefinitions] = await Promise.all([
             getTalentById(talentId),
             getJobTalent(jobId, talentId),
             getCustomFieldsForEntity('JOB_TALENTS')
         ]);
 
-        if (!talentProfile) throw new Error(`Perfil do talento ${talentId} não encontrado.`);
-        if (!applicationDetails) throw new Error(`Candidatura para talento ${talentId} na vaga ${jobId} não encontrada.`);
+        if (!talentProfile || !applicationDetails) throw new Error(`Candidatura InHire não encontrada.`);
 
-        const savedValuesMap = new Map(
-            (applicationDetails.customFields || []).map(field => [field.id, field.value])
-        );
+        const savedValuesMap = new Map((applicationDetails.customFields || []).map(field => [field.id, field.value]));
+        const enrichedCustomFields = (customFieldDefinitions || []).map(def => ({
+            ...def,
+            answerOptions: def.options || [],
+            value: savedValuesMap.get(def.id) || null
+        }));
 
-        const enrichedCustomFields = (customFieldDefinitions || []).map(definition => {
-            const answerOptions = definition.options || [];
-
-            return {
-                ...definition,
-                answerOptions,
-                value: savedValuesMap.get(definition.id) || null
-            };
-        });
-
-        const candidateData = {
-            id: talentProfile.id,
-            name: talentProfile.name,
-            headline: talentProfile.headline,
-            email: talentProfile.email,
-            phone: talentProfile.phone,
-            location: talentProfile.location,
-            linkedinUsername: talentProfile.linkedinUsername,
-            photo: talentProfile.photo || null,
-            application: {
-                id: applicationDetails.id,
-                stageName: applicationDetails.stage?.name || 'Etapa não definida',
-                stageId: applicationDetails.stage?.id || null,
-                status: applicationDetails.status,
-                createdAt: applicationDetails.createdAt,
-                customFields: enrichedCustomFields
+        return {
+            success: true,
+            candidateData: {
+                id: talentProfile.id,
+                name: talentProfile.name,
+                headline: talentProfile.headline,
+                email: talentProfile.email,
+                phone: talentProfile.phone,
+                location: talentProfile.location,
+                linkedinUsername: talentProfile.linkedinUsername,
+                photo: talentProfile.photo || null,
+                application: {
+                    id: applicationDetails.id,
+                    stageName: applicationDetails.stage?.name || 'Etapa não definida',
+                    stageId: applicationDetails.stage?.id || null,
+                    status: applicationDetails.status,
+                    createdAt: applicationDetails.createdAt,
+                    customFields: enrichedCustomFields
+                }
             }
         };
-
-        return { success: true, candidateData: candidateData };
 
     } catch (err) {
         error("Erro em fetchCandidateDetailsForJobContext:", err.message);

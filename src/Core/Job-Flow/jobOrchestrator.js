@@ -138,8 +138,47 @@ export const handleJobSelection = async (jobId, talentId) => {
     log(`--- ORQUESTRADOR: Aplicando talento ${talentId} à vaga ${jobId} ---`);
     try {
         if (!jobId || !talentId) throw new Error("jobId e talentId são obrigatórios.");
+
+        // 1. Verificar se Job ou Talent são LOCAIS
+        const [isLocalJob, isLocalTalent] = await Promise.all([
+            db.LocalJob.findByPk(jobId),
+            db.LocalTalent.findByPk(talentId)
+        ]);
+
+        if (isLocalJob || isLocalTalent) {
+            log(`[APPLY] Detectado contexto LOCAL (Job: ${!!isLocalJob}, Talent: ${!!isLocalTalent}). Criando LocalApplication.`);
+
+            // Verifica se já existe para evitar duplicatas
+            const existingApp = await db.LocalApplication.findOne({
+                where: { jobId, talentId }
+            });
+
+            if (existingApp) {
+                return { success: true, application: existingApp };
+            }
+
+            const newApp = await db.LocalApplication.create({
+                jobId,
+                talentId,
+                stage: 'Applied',
+                status: 'ACTIVE'
+            });
+
+            return {
+                success: true,
+                application: {
+                    id: newApp.id,
+                    jobId: newApp.jobId,
+                    talentId: newApp.talentId,
+                    status: newApp.status,
+                    isLocal: true
+                }
+            };
+        }
+
+        // 2. Fallback para InHire (Apenas se ambos forem externos)
         const application = await addTalentToJob(jobId, talentId);
-        if (!application) throw new Error("Falha ao adicionar talento à vaga.");
+        if (!application) throw new Error("Falha ao adicionar talento à vaga na InHire API.");
         return { success: true, application };
     } catch (err) {
         error("Erro em handleJobSelection:", err.message);
@@ -150,6 +189,19 @@ export const handleJobSelection = async (jobId, talentId) => {
 export const handleRemoveApplication = async (applicationId) => {
     log(`--- ORQUESTRADOR: Removendo candidatura ${applicationId} ---`);
     try {
+        // Verifica se é um UUID (Candidatura Local)
+        const isUUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(applicationId);
+
+        if (isUUID) {
+            log(`[REMOVE] Detectada candidatura LOCAL. Removendo do BD...`);
+            const deleted = await db.LocalApplication.destroy({
+                where: { id: applicationId }
+            });
+            if (!deleted) throw new Error("Candidatura local não encontrada.");
+            return { success: true };
+        }
+
+        // Caso contrário, tenta InHire
         const success = await removeApplication(applicationId);
         if (!success) {
             throw new Error("A API da InHire falhou ao remover a candidatura.");
