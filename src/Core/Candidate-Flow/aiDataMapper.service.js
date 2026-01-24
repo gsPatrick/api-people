@@ -3,9 +3,10 @@
 import { OpenAI } from 'openai';
 import { log, error as logError } from '../../utils/logger.service.js';
 import { createEmbeddings } from '../../services/embedding.service.js';
-import { createProfileVectorTable, dropProfileVectorTable } from '../../services/vector.service.js';
+import { createEmbeddings } from '../../services/embedding.service.js';
+// Vector imports removed (Full Context migration)
 
-const openai = new OpenAI({ 
+const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
     timeout: 10000, // Timeout agressivo para garantir performance
     maxRetries: 1
@@ -114,32 +115,21 @@ export const mapProfileToCustomFieldsWithAI = async (scrapedData, customFieldDef
             company: scrapedData.experience?.[0]?.companyName || null,
         };
 
-        // ETAPA 2: Vetorizar o perfil do candidato para busca rápida.
+        // ETAPA 2: Preparar chunks (evidências) - Full Context Strategy
         const profileChunks = chunkProfileForMapping(scrapedData);
         if (profileChunks.length === 0) {
             logError("IA Mapper: Perfil sem conteúdo textualmente analisável.");
             return { talentPayload, customFieldsPayload: [] };
         }
-        const profileEmbeddings = await createEmbeddings(profileChunks);
-        const profileDataForLance = profileEmbeddings.map((vector, i) => ({ vector, text: profileChunks[i] }));
-        profileTable = await createProfileVectorTable(tempTableName, profileDataForLance);
-        log(`IA Mapper: Tabela vetorial temporária '${tempTableName}' criada.`);
 
-        // ETAPA 3: Buscar evidências relevantes para CADA campo em PARALELO.
-        const fieldSearchPromises = customFieldDefinitions.map(async (field) => {
-            const queryEmbedding = await createEmbeddings(field.name);
-            const searchResults = await profileTable.search(queryEmbedding[0])
-                .limit(3)
-                .select(['text'])
-                .execute();
-            const chunks = [...new Set(searchResults.map(r => r.text))];
-            return { field, chunks };
-        });
-        const fieldsWithChunks = await Promise.all(fieldSearchPromises);
+        // Na estratégia Full Context, usamos todos os chunks para todos os campos.
+        // O perfil de um candidato cabe tranquilamente no contexto do GPT-4o-mini.
+        const allChunks = profileChunks;
 
-        // ETAPA 4: Chamar a IA para extrair o valor de CADA campo em PARALELO.
-        const extractionPromises = fieldsWithChunks.map(({ field, chunks }) => 
-            extractSingleFieldWithAI(field, chunks)
+        // ETAPA 3: Chamar a IA para extrair o valor de CADA campo em PARALELO.
+        // Não precisamos de busca vetorial prévia.
+        const extractionPromises = customFieldDefinitions.map(field =>
+            extractSingleFieldWithAI(field, allChunks)
         );
         const extractedValues = await Promise.all(extractionPromises);
 
@@ -156,7 +146,7 @@ export const mapProfileToCustomFieldsWithAI = async (scrapedData, customFieldDef
                 });
             }
         });
-        
+
         const duration = Date.now() - startTime;
         log(`✓ IA MAPPER: Mapeamento concluído em ${duration}ms. ${customFieldsPayload.length} campos preenchidos.`);
 
@@ -165,9 +155,9 @@ export const mapProfileToCustomFieldsWithAI = async (scrapedData, customFieldDef
     } catch (err) {
         logError('IA Mapper: Erro crítico durante o mapeamento com IA.', err.message);
         // Fallback: retorna pelo menos o payload básico
-        return { 
-            talentPayload: { name: scrapedData.name, linkedinUsername: scrapedData.linkedinUsername }, 
-            customFieldsPayload: [] 
+        return {
+            talentPayload: { name: scrapedData.name, linkedinUsername: scrapedData.linkedinUsername },
+            customFieldsPayload: []
         };
     } finally {
         if (profileTable) {
