@@ -131,6 +131,20 @@ router.get('/jobs', async (req, res) => {
     else res.status(500).json({ error: result.error });
 });
 
+router.post('/jobs', async (req, res) => {
+    try {
+        const result = await handleCreateJob(req.body);
+        if (result.success) {
+            res.status(201).json(result.job);
+        } else {
+            res.status(400).json({ error: result.error });
+        }
+    } catch (err) {
+        console.error("Erro na rota POST /jobs:", err);
+        res.status(500).json({ error: `INTERNAL_SERVER_ERROR: ${err.message}` });
+    }
+});
+
 router.post('/apply', async (req, res) => {
     const { jobId, talentId } = req.body;
     if (!jobId || !talentId) return res.status(400).json({ error: 'Os campos "jobId" e "talentId" são obrigatórios.' });
