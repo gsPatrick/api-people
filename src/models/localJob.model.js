@@ -22,7 +22,7 @@ export default (sequelize) => {
             comment: "ID da vaga no sistema externo (InHire)"
         },
         status: {
-            type: DataTypes.ENUM('OPEN', 'CLOSED', 'DRAFT'),
+            type: DataTypes.ENUM('OPEN', 'CLOSED', 'DRAFT', 'PAUSED', 'CANCELED'),
             defaultValue: 'DRAFT'
         },
         isSynced: {

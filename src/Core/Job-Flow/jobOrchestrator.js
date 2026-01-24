@@ -21,9 +21,6 @@ export const handleCreateJob = async (jobData) => {
             isSynced: false
         });
 
-        // Invalidate cache
-        setToCache(JOBS_CACHE_KEY, null);
-
         // Return formatted as expected by frontend (name property)
         return {
             success: true,
@@ -31,7 +28,7 @@ export const handleCreateJob = async (jobData) => {
                 id: newJob.id,
                 name: newJob.title,
                 description: newJob.description,
-                status: newJob.status,
+                status: newJob.status.toLowerCase(),
                 externalId: null,
                 isSynced: false
             }
@@ -51,9 +48,20 @@ export const fetchPaginatedJobs = async (page = 1, limit = 10, status = 'open') 
 
     try {
         // 1. Buscar Vagas Locais do Banco de Dados
+        // Mapeamento robusto de front-end para DB
+        const statusMap = {
+            'open': 'OPEN',
+            'paused': 'PAUSED',
+            'closed': 'CLOSED',
+            'canceled': 'CANCELED',
+            'draft': 'DRAFT'
+        };
+
+        const dbStatus = statusMap[status.toLowerCase()] || 'OPEN';
+
         const localJobsFromDb = await db.LocalJob.findAll({
             where: {
-                status: status.toUpperCase() // Frontend envia 'open', DB usa 'OPEN'
+                status: dbStatus
             },
             order: [['createdAt', 'DESC']]
         });
@@ -62,10 +70,10 @@ export const fetchPaginatedJobs = async (page = 1, limit = 10, status = 'open') 
             id: job.id,
             name: job.title,
             description: job.description,
-            status: job.status.toLowerCase(),
+            status: (job.status || 'OPEN').toLowerCase(),
             externalId: job.externalId,
             isSynced: job.isSynced,
-            activeTalents: 0, // Poderíamos contar aplicações locais depois
+            activeTalents: 0,
             area: { name: 'Local' }
         }));
 
