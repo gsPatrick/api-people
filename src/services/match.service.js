@@ -183,7 +183,8 @@ export const analyze = async (scorecardId, profileData) => {
       overallScore,
       profileName: profileData.name,
       profileHeadline: profileData.headline,
-      categories: categoryResults
+      categories: categoryResults,
+      evaluations: evaluations // Mantém a lista flat para facilitar exibição detalhada
     };
 
     const duration = Date.now() - startTime;

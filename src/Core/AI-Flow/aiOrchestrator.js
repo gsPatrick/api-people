@@ -187,10 +187,10 @@ const generateOverallFeedback = async (jobDetails, candidateProfile, evaluations
         ${JSON.stringify(evaluationsWithWeights, null, 2)}
 
         **Sua Tarefa:**
-        1.  **Identifique Pontos Fortes:** Liste 3-5 pontos fortes principais que tornam este candidato um bom fit.
-        2.  **Identifique Pontos de Atenção:** Liste 1-3 pontos de atenção ou gaps que o recrutador deve investigar.
-        3.  **Escreva um Feedback Geral:** Com base nas suas avaliações ponderadas, escreva um parágrafo conciso (2-4 frases) resumindo a adequação do candidato para a vaga. Dê ênfase aos pontos com peso 'Alto'.
-        4.  **Tome a Decisão Final:** Sugira uma decisão: "YES" (bom fit), "NO" (mau fit), ou "NO_DECISION" (ambíguo).
+        1.  **Identifique Pontos Fortes:** Liste 3 pontos fortes principais.
+        2.  **Identifique Pontos de Atenção:** Liste 1-2 pontos de atenção críticos.
+        3.  **Escreva um Feedback Geral:** Escreva uma síntese executiva de 2 frases. NÃO repita as justificativas dos critérios aqui.
+        4.  **Tome a Decisão Final:** Sugira uma decisão: "YES", "NO", ou "NO_DECISION".
 
         **Formato OBRIGATÓRIO da Resposta:**
         Responda APENAS com um objeto JSON válido.

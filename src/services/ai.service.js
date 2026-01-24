@@ -122,48 +122,52 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
 
 export const analyzeAllCriteriaInBatch = async (criteriaWithChunks, globalContext) => {
     const startTime = Date.now();
-    log(`Análise em PARALELO de ${criteriaWithChunks.length} critérios com GPT-4o...`);
+    log(`Análise CONTROLADA de ${criteriaWithChunks.length} critérios com GPT-4o...`);
 
     try {
-        // Carregar Memórias da IA aqui
-        // Import dinâmico para evitar dependência cíclica se houver, ou apenas para garantir que o model esteja carregado
-        // Mas como models/index.js já foi carregado no server start, podemos importar { AIMemory } de lá ou carregar via sequelize
-
         let memories = [];
         try {
-            // Precisamos acessar o model AIMemory. Vamos importar models/index.js no topo ou usar aqui.
-            // Importando dinamicamente para garantir.
-            // Carregando o db do default export
             const db = (await import('../models/index.js')).default;
             const AIMemory = db.AIMemory;
             if (AIMemory) {
                 memories = await AIMemory.findAll();
-                log(`Memórias da IA carregadas: ${memories.length}`);
             }
         } catch (memErr) {
-            logError('Erro ao carregar memórias da IA (continuando sem elas):', memErr.message);
+            logError('Erro ao carregar memórias:', memErr.message);
         }
 
         const memoriesStr = formatMemoriesForPrompt(memories);
+        const results = [];
+        const CONCURRENCY_LIMIT = 3; // Limite de 3 requisições simultâneas para evitar 429
 
-        // Envia o globalContext E memoriesStr para cada análise
-        const allPromises = criteriaWithChunks.map(({ criterion, chunks }) =>
-            analyzeCriterionWithGPT(criterion, chunks, globalContext, memoriesStr)
-        );
+        // Processamento em lotes (sliding window style)
+        for (let i = 0; i < criteriaWithChunks.length; i += CONCURRENCY_LIMIT) {
+            const batch = criteriaWithChunks.slice(i, i + CONCURRENCY_LIMIT);
+            log(`Processando lote IA: ${i + 1} até ${Math.min(i + CONCURRENCY_LIMIT, criteriaWithChunks.length)}...`);
 
-        const results = await Promise.all(allPromises);
+            const batchPromises = batch.map(({ criterion, chunks }) =>
+                analyzeCriterionWithGPT(criterion, chunks, globalContext, memoriesStr)
+            );
+
+            const batchResults = await Promise.all(batchPromises);
+            results.push(...batchResults);
+
+            // Pequeno delay entre lotes para suavizar o RPM (Requests Per Minute)
+            if (i + CONCURRENCY_LIMIT < criteriaWithChunks.length) {
+                await new Promise(resolve => setTimeout(resolve, 200));
+            }
+        }
 
         const duration = ((Date.now() - startTime) / 1000).toFixed(2);
-        log(`✓ Análise GPT-4o concluída em ${duration}s. Todas as ${results.length} avaliações recebidas.`);
-
+        log(`✓ Análise controlada concluída em ${duration}s. Total: ${results.length}`);
         return results;
 
     } catch (err) {
-        logError('Erro crítico durante a análise em paralelo (GPT-4o):', err.message);
+        logError('Erro crítico na análise controlada:', err.message);
         return criteriaWithChunks.map(({ criterion }) => ({
             name: criterion.name,
             score: 1,
-            justification: "Falha geral na análise paralela"
+            justification: "Falha na análise controlada"
         }));
     }
 };

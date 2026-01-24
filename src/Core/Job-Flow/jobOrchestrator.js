@@ -148,6 +148,14 @@ export const handleJobSelection = async (jobId, talentId) => {
         if (isLocalJob || isLocalTalent) {
             log(`[APPLY] Detectado contexto LOCAL (Job: ${!!isLocalJob}, Talent: ${!!isLocalTalent}). Criando LocalApplication.`);
 
+            // Reconsider logic: Se for um talento local e estiver REJECTED, volta para ACTIVE
+            if (isLocalTalent && isLocalTalent.status === 'REJECTED') {
+                log(`[RECONSIDER] Atualizando status do talento ${talentId} de REJECTED para ACTIVE.`);
+                // IMPORTANTE: Atualiza tanto o campo status quanto o campo dentro do JSON 'data'
+                const updatedData = { ...(isLocalTalent.data || {}), status: 'ACTIVE' };
+                await isLocalTalent.update({ status: 'ACTIVE', data: updatedData });
+            }
+
             // Verifica se já existe para evitar duplicatas
             const existingApp = await db.LocalApplication.findOne({
                 where: { jobId, talentId }
@@ -160,7 +168,7 @@ export const handleJobSelection = async (jobId, talentId) => {
             const newApp = await db.LocalApplication.create({
                 jobId,
                 talentId,
-                stage: 'Applied',
+                stage: 'applied', // Garantir lowercase aqui na criação
                 status: 'ACTIVE'
             });
 
