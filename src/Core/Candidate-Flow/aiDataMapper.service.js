@@ -3,7 +3,6 @@
 import { OpenAI } from 'openai';
 import { log, error as logError } from '../../utils/logger.service.js';
 import { createEmbeddings } from '../../services/embedding.service.js';
-import { createEmbeddings } from '../../services/embedding.service.js';
 // Vector imports removed (Full Context migration)
 
 const openai = new OpenAI({
