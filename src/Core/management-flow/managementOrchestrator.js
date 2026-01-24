@@ -8,6 +8,7 @@ import { saveDebugDataToFile } from '../../utils/debug.service.js';
 import { getCustomFieldsForEntity } from '../../Inhire/CustomDataManager/customDataManager.service.js';
 import { getFromCache, setToCache } from '../../utils/cache.service.js';
 import db from '../../models/index.js'; // Importação do DB
+const { LocalTalent, LocalApplication } = db;
 
 const TALENTS_CACHE_KEY = 'all_talents';
 
@@ -213,8 +214,9 @@ export const fetchAllTalentsForSync = async () => {
 // ==========================================================
 // CORREÇÃO: Lógica de paginação robusta
 // ==========================================================
-import db from '../../models/index.js';
-const { LocalTalent } = db;
+// ==========================================================
+// CORREÇÃO: Lógica de paginação robusta
+// ==========================================================
 import { Op } from 'sequelize';
 
 export const fetchAllTalents = async (pageParam, limitParam, filters = {}) => {
