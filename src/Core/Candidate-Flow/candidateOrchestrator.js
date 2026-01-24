@@ -60,13 +60,12 @@ import SyncService from '../../services/sync.service.js';
 
 const { LocalTalent } = db; // REMOVIDO: Destruturação no topo causa erro se models ainda não carregaram
 
-export const handleConfirmCreation = async (talentData, jobId) => {
+export const handleConfirmCreation = async (talentData, jobId, matchData = null) => {
   log(`--- ORQUESTRADOR (LOCAL-FIRST): Criando talento '${talentData.name}' na vaga '${jobId}' ---`);
   try {
     if (!jobId) throw new Error("O ID da Vaga (jobId) é obrigatório.");
 
     // === PASSO 1: Persistência Local Imediata (INSTANT UX) ===
-    // Criamos o registro localmente com status PENDING para sincronização
     const localTalent = await db.LocalTalent.create({
       name: talentData.name || 'Nome Desconhecido',
       headline: talentData.headline,
@@ -76,31 +75,32 @@ export const handleConfirmCreation = async (talentData, jobId) => {
       location: talentData.location,
       data: talentData, // Salva todo o payload cru como backup/referência
       syncStatus: 'PENDING',
-      status: talentData.status || 'NEW'
+      status: talentData.status || 'NEW',
+      matchScore: matchData?.result?.overallScore || null
     });
 
+    // === PASSO 1.5: Criar LocalApplication com matchData (SE HOUVER) ===
+    if (matchData && matchData.result) {
+      await db.LocalApplication.create({
+        jobId,
+        talentId: localTalent.id,
+        stage: 'applied',
+        status: 'ACTIVE',
+        matchScore: matchData.result.overallScore || 0,
+        aiReview: matchData.result // Salva o resultado completo do match
+      });
+      log(`✅ LocalApplication criada com aiReview para talento ${localTalent.id}`);
+    }
+
     // === PASSO 2: Disparar Sincronização em Background (FIRE AND FORGET) ===
-    // O usuário não espera isso. O SyncService cuida de mandar para Inhire/Gupy.
     SyncService.triggerBackgroundSync(localTalent.id, jobId);
 
     // === PASSO 3: Mapeamento com IA (Background Local) ===
-    // Continuamos o enriquecimento de dados localmente para ter filtros funcionando.
-    // Isso roda em background sem travar o retorno inicial, MAS como queremos
-    // preencher os dados, vamos rodar a promise sem await bloqueante ou com um catch silencioso
-    // para garantir que o retorno para o front seja rápido.
-
-    // NOTA: Para UX "instantânea" (< 200ms), deveríamos retornar AGORA.
-    // Mas o mapeamento leva uns 3-4s. Se o frontend precisar dos campos preenchidos
-    // na hora, teríamos que esperar. Como a prioridade descrita é "Listagem Rápida",
-    // vamos retornar o básico e deixar a IA preencher depois.
-
-    // Dispara enriquecimento assíncrono
     mapAndEnrichLocalTalent(localTalent, talentData).catch(err => {
       error(`Erro no enriquecimento background de ${localTalent.id}:`, err);
     });
 
     log("🚀 Talento criado localmente. Retornando ID para a UI imediatamente.");
-    // Retornamos a estrutura que o frontend espera (agora com ID local)
     return { success: true, talent: localTalent };
 
   } catch (err) {
@@ -108,6 +108,7 @@ export const handleConfirmCreation = async (talentData, jobId) => {
     return { success: false, error: err.message };
   }
 };
+
 
 /**
  * Função auxiliar para enriquecer o talento local com IA sem travar a resposta principal.
