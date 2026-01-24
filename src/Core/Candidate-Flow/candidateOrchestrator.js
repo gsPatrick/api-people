@@ -76,7 +76,7 @@ export const handleConfirmCreation = async (talentData, jobId) => {
       location: talentData.location,
       data: talentData, // Salva todo o payload cru como backup/referência
       syncStatus: 'PENDING',
-      status: 'NEW'
+      status: talentData.status || 'NEW'
     });
 
     // === PASSO 2: Disparar Sincronização em Background (FIRE AND FORGET) ===
