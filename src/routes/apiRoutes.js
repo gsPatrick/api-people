@@ -35,7 +35,7 @@ import {
     handleSaveKitWeights
 } from '../Core/Evaluation-Flow/evaluationOrchestrator.js';
 import { syncProfileFromLinkedIn, evaluateSkillFromCache, getAIEvaluationCacheStatus, evaluateScorecardFromCache } from '../Core/AI-Flow/aiOrchestrator.js';
-import { handleJobSelection, handleRemoveApplication, fetchPaginatedJobs } from '../Core/Job-Flow/jobOrchestrator.js';
+import { handleJobSelection, handleRemoveApplication, fetchPaginatedJobs, handleCreateJob } from '../Core/Job-Flow/jobOrchestrator.js';
 import { handleFullProfileUpdate } from '../Core/Candidate-Flow/updateOrchestrator.js';
 
 const router = Router();
