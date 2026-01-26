@@ -137,26 +137,16 @@ export const analyzeAllCriteriaInBatch = async (criteriaWithChunks, globalContex
         }
 
         const memoriesStr = formatMemoriesForPrompt(memories);
-        const results = [];
-        const CONCURRENCY_LIMIT = 3; // Limite de 3 requisições simultâneas para evitar 429
 
-        // Processamento em lotes (sliding window style)
-        for (let i = 0; i < criteriaWithChunks.length; i += CONCURRENCY_LIMIT) {
-            const batch = criteriaWithChunks.slice(i, i + CONCURRENCY_LIMIT);
-            log(`Processando lote IA: ${i + 1} até ${Math.min(i + CONCURRENCY_LIMIT, criteriaWithChunks.length)}...`);
+        // REVERTIDO: Executa todos os critérios em paralelo (FULL PARALLELISM)
+        // O throttling será feito a nível de PERFIL no frontend, não de critério.
+        log(`Executando ${criteriaWithChunks.length} análises em paralelo...`);
 
-            const batchPromises = batch.map(({ criterion, chunks }) =>
-                analyzeCriterionWithGPT(criterion, chunks, globalContext, memoriesStr)
-            );
+        const allPromises = criteriaWithChunks.map(({ criterion, chunks }) =>
+            analyzeCriterionWithGPT(criterion, chunks, globalContext, memoriesStr)
+        );
 
-            const batchResults = await Promise.all(batchPromises);
-            results.push(...batchResults);
-
-            // Pequeno delay entre lotes para suavizar o RPM (Requests Per Minute)
-            if (i + CONCURRENCY_LIMIT < criteriaWithChunks.length) {
-                await new Promise(resolve => setTimeout(resolve, 200));
-            }
-        }
+        const results = await Promise.all(allPromises);
 
         const duration = ((Date.now() - startTime) / 1000).toFixed(2);
         log(`✓ Análise controlada concluída em ${duration}s. Total: ${results.length}`);
