@@ -60,15 +60,18 @@ import SyncService from '../../services/sync.service.js';
 
 const { LocalTalent } = db; // REMOVIDO: Destruturação no topo causa erro se models ainda não carregaram
 
-export const handleConfirmCreation = async (talentData, jobId, matchData = null) => {
+export const handleConfirmCreation = async (talentData, jobId, externalMatchData = null) => {
   log(`--- ORQUESTRADOR (LOCAL-FIRST): Criando talento '${talentData.name}' na vaga '${jobId}' ---`);
   try {
     if (!jobId) throw new Error("O ID da Vaga (jobId) é obrigatório.");
 
+    // Se o matchData não veio por argumento, busca dentro do payload (para rotas unificadas)
+    const matchData = externalMatchData || talentData.matchData;
+
     // === PASSO 1: Persistência Local Imediata (INSTANT UX) ===
     const localTalent = await db.LocalTalent.create({
-      name: talentData.name || 'Nome Desconhecido',
-      headline: talentData.headline,
+      name: talentData.name || talentData.nome || 'Nome Desconhecido',
+      headline: talentData.headline || talentData.titulo,
       linkedinUsername: talentData.linkedinUsername,
       email: talentData.email,
       phone: talentData.phone,
@@ -84,8 +87,7 @@ export const handleConfirmCreation = async (talentData, jobId, matchData = null)
       await db.LocalApplication.create({
         jobId,
         talentId: localTalent.id,
-        stage: 'applied',
-        status: 'ACTIVE',
+        stage: 'Applied',
         matchScore: matchData.result.overallScore || 0,
         aiReview: matchData.result // Salva o resultado completo do match
       });
@@ -105,6 +107,13 @@ export const handleConfirmCreation = async (talentData, jobId, matchData = null)
 
   } catch (err) {
     error("Erro em handleConfirmCreation:", err.message);
+    if (err.errors) {
+      err.errors.forEach(e => {
+        error(`Detalhamento do erro: Campo=${e.path}, Valor=${e.value}, Tipo=${e.type}, Mensagem=${e.message}`);
+      });
+      const detail = err.errors.map(e => `${e.path}: ${e.message}`).join(', ');
+      return { success: false, error: `Erro de Validação: ${detail}` };
+    }
     return { success: false, error: err.message };
   }
 };
