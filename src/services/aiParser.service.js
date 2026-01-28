@@ -52,26 +52,23 @@ export const extractFieldWithAI = async (rawText, question, formatDescription) =
 export const extractIdentityWithAI = async (rawText) => {
     log('AI PARSER SERVICE: Iniciando extração de identidade...');
 
-    // Pega os primeiros 3000 caracteres para garantir que temos o topo do perfil
-    const headText = rawText.slice(0, 3000);
-
     const prompt = `
         Você é um especialista em extração de IDENTIDADE de perfis profissionais.
-        Analise o início do texto de um perfil do LinkedIn abaixo e extraia os dados básicos.
+        Analise o texto do perfil do LinkedIn abaixo e extraia os dados básicos de identificação do candidato.
 
         REGRAS DE OURO PARA O NOME:
-        1. O NOME de uma pessoa NUNCA é "Contact", "Experience", "AWS", "Education", "Repositories" ou "Página".
-        2. O NOME é um nome próprio humano (Ex: "Leonardo Magalhães", "Ana Silva").
-        3. Se encontrar algo como "Leonardo Magalhães - Especialista n8n", o NOME é apenas "Leonardo Magalhães".
-        4. NÃO extraia nomes de empresas ou grupos como nome do candidato.
+        1. O NOME de uma pessoa NUNCA é "Contact", "Experience", "AWS", "Education", "Repositories", "Página" ou qualquer label de seção.
+        2. O NOME é o nome próprio humano do dono do perfil (Ex: "Leonardo Magalhães", "Ana Silva").
+        3. Se encontrar o nome seguido de um título (Ex: "João Silva - Engenheiro de Software"), o NOME é apenas "João Silva".
+        4. O nome geralmente aparece com destaque ou no início, mas identifique-o onde quer que esteja.
 
         REGRAS PARA O TÍTULO (HEADLINE):
         1. É a descrição profissional (Ex: "Software Engineer", "Head de Recrutamento").
         2. Se estiver junto com o nome, separe-os.
 
-        TEXTO DO PERFIL (TOPO):
+        TEXTO DO PERFIL:
         ---
-        ${headText}
+        ${rawText}
         ---
 
         Responda APENAS um JSON no formato:
