@@ -50,23 +50,33 @@ export const extractFieldWithAI = async (rawText, question, formatDescription) =
  * Extract identity fields (Name, Headline, Location) in a single call for efficiency.
  */
 export const extractIdentityWithAI = async (rawText) => {
-    const prompt = `
-        Analise o topo de um perfil do LinkedIn e extraia a identidade do candidato.
-        
-        REGRAS CRÍTICAS:
-        1. O NOME não pode ser "Contact", "Experience", "AWS...", "Repositories", "Página...", ou URLs.
-        2. O NOME é geralmente a primeira linha de conteúdo real (não labels).
-        3. O TÍTULO (Headline) é a descrição profissional logo abaixo do nome.
-        4. A LOCALIZAÇÃO é a cidade/estado/país.
+    log('AI PARSER SERVICE: Iniciando extração de identidade...');
 
-        TEXTO (Início do Perfil):
+    // Pega os primeiros 3000 caracteres para garantir que temos o topo do perfil
+    const headText = rawText.slice(0, 3000);
+
+    const prompt = `
+        Você é um especialista em extração de IDENTIDADE de perfis profissionais.
+        Analise o início do texto de um perfil do LinkedIn abaixo e extraia os dados básicos.
+
+        REGRAS DE OURO PARA O NOME:
+        1. O NOME de uma pessoa NUNCA é "Contact", "Experience", "AWS", "Education", "Repositories" ou "Página".
+        2. O NOME é um nome próprio humano (Ex: "Leonardo Magalhães", "Ana Silva").
+        3. Se encontrar algo como "Leonardo Magalhães - Especialista n8n", o NOME é apenas "Leonardo Magalhães".
+        4. NÃO extraia nomes de empresas ou grupos como nome do candidato.
+
+        REGRAS PARA O TÍTULO (HEADLINE):
+        1. É a descrição profissional (Ex: "Software Engineer", "Head de Recrutamento").
+        2. Se estiver junto com o nome, separe-os.
+
+        TEXTO DO PERFIL (TOPO):
         ---
-        ${rawText.slice(0, 2000)}
+        ${headText}
         ---
 
         Responda APENAS um JSON no formato:
         {
-            "nome": "Nome Completo",
+            "nome": "Nome Completo do Candidato",
             "titulo": "Headline Profissional",
             "localizacao": "Cidade, Estado, País"
         }
@@ -80,7 +90,10 @@ export const extractIdentityWithAI = async (rawText) => {
             temperature: 0,
             max_tokens: 200
         });
-        return JSON.parse(response.choices[0].message.content);
+
+        const result = JSON.parse(response.choices[0].message.content);
+        log(`AI PARSER SERVICE: Identidade extraída: ${result.nome} | ${result.titulo}`);
+        return result;
     } catch (err) {
         logError(`AI PARSER SERVICE: Erro ao extrair identidade`, err.message);
         return { nome: null, titulo: null, localizacao: null };
