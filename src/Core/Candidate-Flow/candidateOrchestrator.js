@@ -68,30 +68,60 @@ export const handleConfirmCreation = async (talentData, jobId, externalMatchData
     // Se o matchData não veio por argumento, busca dentro do payload (para rotas unificadas)
     const matchData = externalMatchData || talentData.matchData;
 
-    // === PASSO 1: Persistência Local Imediata (INSTANT UX) ===
-    const localTalent = await db.LocalTalent.create({
-      name: talentData.name || talentData.nome || 'Nome Desconhecido',
-      headline: talentData.headline || talentData.titulo,
-      linkedinUsername: talentData.linkedinUsername,
-      email: talentData.email,
-      phone: talentData.phone,
-      location: talentData.location,
-      data: talentData, // Salva todo o payload cru como backup/referência
-      syncStatus: 'PENDING',
-      status: talentData.status || 'NEW',
-      matchScore: matchData?.result?.overallScore || null
+    // === PASSO 1: Persistência Local (FIND OR CREATE / UPSERT) ===
+    // Verifica primeiro se já existe para evitar erro de UNIQUE constraint
+    let localTalent = await db.LocalTalent.findOne({
+      where: { linkedinUsername: talentData.linkedinUsername }
     });
 
-    // === PASSO 1.5: Criar LocalApplication com matchData (SE HOUVER) ===
-    if (matchData && matchData.result) {
-      await db.LocalApplication.create({
-        jobId,
-        talentId: localTalent.id,
-        stage: 'Applied',
-        matchScore: matchData.result.overallScore || 0,
-        aiReview: matchData.result // Salva o resultado completo do match
+    if (localTalent) {
+      log(`⚡ Talento '${talentData.linkedinUsername}' já existe. Atualizando dados...`);
+      await localTalent.update({
+        name: talentData.name || talentData.nome || localTalent.name, // Prioriza novo, fallback antigo
+        headline: talentData.headline || talentData.titulo || localTalent.headline,
+        email: talentData.email || localTalent.email,
+        phone: talentData.phone || localTalent.phone,
+        location: talentData.location || localTalent.location,
+        data: { ...localTalent.data, ...talentData }, // Merge de dados
+        status: talentData.status || localTalent.status, // Atualiza status se enviado (ex: REJECTED)
+        matchScore: matchData?.result?.overallScore || localTalent.matchScore
       });
-      log(`✅ LocalApplication criada com aiReview para talento ${localTalent.id}`);
+    } else {
+      log(`🌱 Criando NOVO talento local: ${talentData.linkedinUsername}`);
+      localTalent = await db.LocalTalent.create({
+        name: talentData.name || talentData.nome || 'Nome Desconhecido',
+        headline: talentData.headline || talentData.titulo,
+        linkedinUsername: talentData.linkedinUsername,
+        email: talentData.email,
+        phone: talentData.phone,
+        location: talentData.location,
+        data: talentData,
+        syncStatus: 'PENDING',
+        status: talentData.status || 'NEW',
+        matchScore: matchData?.result?.overallScore || null
+      });
+    }
+
+    // === PASSO 1.5: Criar LocalApplication (Evita duplicidade na mesma vaga) ===
+    const [application, created] = await db.LocalApplication.findOrCreate({
+      where: { jobId, talentId: localTalent.id },
+      defaults: {
+        stage: 'Applied',
+        matchScore: matchData?.result?.overallScore || 0,
+        aiReview: matchData?.result || null
+      }
+    });
+
+    if (created) {
+      log(`✅ Nova LocalApplication criada para a vaga ${jobId}`);
+    } else {
+      log(`ℹ️ LocalApplication já existia para vaga ${jobId}. Atualizando match se necessário.`);
+      if (matchData && matchData.result) {
+        await application.update({
+          matchScore: matchData.result.overallScore,
+          aiReview: matchData.result
+        });
+      }
     }
 
     // === PASSO 2: Disparar Sincronização em Background (FIRE AND FORGET) ===
@@ -102,7 +132,7 @@ export const handleConfirmCreation = async (talentData, jobId, externalMatchData
       error(`Erro no enriquecimento background de ${localTalent.id}:`, err);
     });
 
-    log("🚀 Talento criado localmente. Retornando ID para a UI imediatamente.");
+    log("🚀 Processo de persistência concluído. Retornando talento.");
     return { success: true, talent: localTalent };
 
   } catch (err) {
