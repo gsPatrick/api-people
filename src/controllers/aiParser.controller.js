@@ -3,7 +3,7 @@
 import { OpenAI } from 'openai';
 import { log, error as logError } from '../utils/logger.service.js';
 
-const openai = new OpenAI({ 
+const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
     timeout: 15000, // Timeout maior para parsing
     maxRetries: 1
@@ -80,6 +80,12 @@ export const parseProfileWithAI = async (req, res) => {
 
         // Monta o objeto final com as respostas
         const profileData = {
+            perfil: {
+                nome: results[0],
+                titulo: results[1],
+                localizacao: results[2],
+            },
+            // Campos legados/redundantes facultativos para compatibilidade
             name: results[0],
             headline: results[1],
             location: results[2],
@@ -88,7 +94,7 @@ export const parseProfileWithAI = async (req, res) => {
             education: results[5] || [],
             skills: results[6] || []
         };
-        
+
         const duration = Date.now() - startTime;
         log(`✅ AI PARSER CONTROLLER: Perfil completo estruturado em ${duration}ms.`);
 

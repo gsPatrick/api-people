@@ -5,9 +5,13 @@ import { findById as findScorecardById } from './scorecard.service.js';
 
 // Função para converter o perfil estruturado em um texto rico e legível para a IA
 const formatProfileToText = (profileData) => {
-  let text = `NOME: ${profileData.name || 'N/A'}\n`;
-  text += `TÍTULO: ${profileData.headline || 'N/A'}\n`;
-  text += `LOCALIZAÇÃO: ${profileData.location || 'N/A'}\n\n`;
+  const nome = profileData.perfil?.nome || profileData.name || 'N/A';
+  const titulo = profileData.perfil?.titulo || profileData.headline || 'N/A';
+  const local = profileData.perfil?.localizacao || profileData.location || 'N/A';
+
+  let text = `NOME: ${nome}\n`;
+  text += `TÍTULO: ${titulo}\n`;
+  text += `LOCALIZAÇÃO: ${local}\n\n`;
 
   if (profileData.about) {
     text += `RESUMO/SOBRE:\n${profileData.about}\n\n`;
@@ -181,8 +185,8 @@ export const analyze = async (scorecardId, profileData) => {
 
     const result = {
       overallScore,
-      profileName: profileData.name,
-      profileHeadline: profileData.headline,
+      profileName: profileData.perfil?.nome || profileData.name,
+      profileHeadline: profileData.perfil?.titulo || profileData.headline,
       categories: categoryResults,
       evaluations: evaluations // Mantém a lista flat para facilitar exibição detalhada
     };
