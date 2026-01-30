@@ -1,4 +1,3 @@
-
 import { log, error } from '../utils/logger.service.js';
 import InhireProvider from '../Inhire/Providers/inhire.provider.js';
 import db from '../models/index.js';
@@ -35,7 +34,7 @@ class SyncService {
         log(`SYNC: Iniciando processamento para ${localTalentId}`);
 
         try {
-            const localTalent = await LocalTalent.findByPk(localTalentId);
+            const localTalent = await db.LocalTalent.findByPk(localTalentId);
             if (!localTalent) {
                 error(`SYNC: LocalTalent ${localTalentId} não encontrado.`);
                 return;
@@ -77,7 +76,7 @@ class SyncService {
             error(`SYNC: Falha ao sincronizar ${localTalentId}:`, err.message);
 
             // Update status to ERROR so we can retry later
-            const localTalent = await LocalTalent.findByPk(localTalentId);
+            const localTalent = await db.LocalTalent.findByPk(localTalentId);
             if (localTalent) {
                 await localTalent.update({ syncStatus: 'ERROR' });
             }
