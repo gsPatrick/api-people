@@ -2,6 +2,7 @@
 
 import { createTalent, deleteTalent, updateTalent } from '../../Inhire/Talents/talents.service.js';
 import { addTalentToJob, updateApplication } from '../../Inhire/JobTalents/jobTalents.service.js';
+import { getJobDetails } from '../../Inhire/Jobs/jobs.service.js';
 import { getCustomFieldsForEntity } from '../../Inhire/CustomDataManager/customDataManager.service.js';
 // Importa o novo mapeador de IA no lugar do antigo.
 import { mapProfileToCustomFieldsWithAI } from './aiDataMapper.service.js';
@@ -67,6 +68,35 @@ export const handleConfirmCreation = async (talentData, jobId, externalMatchData
 
     // Se o matchData não veio por argumento, busca dentro do payload (para rotas unificadas)
     const matchData = externalMatchData || talentData.matchData;
+
+    // === PASSO 0: Garantir que a Vaga (LocalJob) exista localmente ===
+    // Se for uma vaga externa (InHire) que nunca foi sincronizada, precisamos criar o stub local
+    // para satisfazer a foreign key da LocalApplication.
+    const existingJob = await db.LocalJob.findByPk(jobId);
+    if (!existingJob) {
+      log(`⚠️ LocalJob ${jobId} não encontrada. Tentando buscar detalhes externos para criar stub...`);
+      try {
+        const jobDetails = await getJobDetails(jobId);
+        if (jobDetails) {
+          await db.LocalJob.create({
+            id: jobId, // Forçamos o ID para bater com o UUID externo
+            title: jobDetails.name,
+            description: jobDetails.description || '',
+            externalId: jobId,
+            status: 'OPEN', // Assumimos aberta se veio da API
+            isSynced: true
+          });
+          log(`✅ Stub LocalJob criado para vaga externa: ${jobDetails.name} (${jobId})`);
+        } else {
+          // Se não achou na API, talvez seja erro de ID ou permissão.
+          // Mas não podemos bloquear se o usuário forçou.
+          log(`❌ Vaga não encontrada na API InHire. Prosseguindo, mas pode dar erro de FK se o ID for inválido.`);
+        }
+      } catch (jobErr) {
+        error(`Erro ao buscar/criar stub de vaga externa: ${jobErr.message}`);
+        // Continuamos, pois o erro original de FK vai acontecer e ser tratado no catch global se falhar
+      }
+    }
 
     // === PASSO 1: Persistência Local (FIND OR CREATE / UPSERT) ===
     // Verifica primeiro se já existe para evitar erro de UNIQUE constraint
