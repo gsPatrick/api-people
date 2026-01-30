@@ -40,28 +40,31 @@ export const getApplicationsForJob = async (jobId) => {
   let exclusiveStartKey = null;
 
   try {
-    while(hasMorePages) {
-        const body = {};
-        if (exclusiveStartKey) body.exclusiveStartKey = exclusiveStartKey;
+    while (hasMorePages) {
+      const body = {};
+      if (exclusiveStartKey) body.exclusiveStartKey = exclusiveStartKey;
 
-        const response = await apiClient.post(`${API_BASE_URL}/job-talents/${jobId}/talents/paginated/lean`, body);
-        const pageItems = response.data.jobTalents;
+      const response = await apiClient.post(`${API_BASE_URL}/job-talents/${jobId}/talents/paginated/lean`, body);
 
-        if (pageItems?.length > 0) {
-            allApplications.push(...pageItems);
-        }
+      const pageItems = response.data.items || response.data.jobTalents || [];
 
-        if (response.data.exclusiveStartkey) {
-            exclusiveStartKey = response.data.exclusiveStartkey;
-        } else {
-            hasMorePages = false;
-        }
+      if (pageItems.length > 0) {
+        allApplications.push(...pageItems);
+      }
+
+      const nextKey = response.data.exclusiveStartKey || response.data.exclusiveStartkey;
+
+      if (nextKey) {
+        exclusiveStartKey = nextKey;
+      } else {
+        hasMorePages = false;
+      }
     }
     log(`Busca completa. Total de ${allApplications.length} candidaturas carregadas para a vaga ${jobId}.`);
     return allApplications;
-  } catch(err) {
-      error(`Erro ao buscar candidaturas para a vaga ${jobId}:`, err.response?.data?.message || err.message);
-      return null;
+  } catch (err) {
+    error(`Erro ao buscar candidaturas para a vaga ${jobId}:`, err.response?.data?.message || err.message);
+    return null;
   }
 };
 
@@ -71,14 +74,14 @@ export const getApplicationsForJob = async (jobId) => {
 
 
 export const updateApplication = async (applicationId, updateData) => {
-    log(`--- SERVIÇO: Atualizando candidatura ${applicationId} ---`);
-    try {
-        const response = await apiClient.patch(`${API_BASE_URL}/job-talents/talents/${applicationId}`, updateData);
-        return response.data;
-    } catch(err) {
-        error(`Erro ao atualizar candidatura ${applicationId}:`, err.response?.data?.message || err.message);
-        return null; // Retornar null em caso de falha.
-    }
+  log(`--- SERVIÇO: Atualizando candidatura ${applicationId} ---`);
+  try {
+    const response = await apiClient.patch(`${API_BASE_URL}/job-talents/talents/${applicationId}`, updateData);
+    return response.data;
+  } catch (err) {
+    error(`Erro ao atualizar candidatura ${applicationId}:`, err.response?.data?.message || err.message);
+    return null; // Retornar null em caso de falha.
+  }
 };
 
 // ==========================================================
@@ -92,16 +95,16 @@ export const updateApplication = async (applicationId, updateData) => {
  * @returns {Promise<object|null>} Os detalhes da candidatura.
  */
 export const getJobTalent = async (jobId, talentId) => {
-    log(`Buscando detalhes da candidatura (JobTalent) para o talento ${talentId} na vaga ${jobId}`);
-    try {
-        const response = await apiClient.get(`${API_BASE_URL}/job-talents/${jobId}/talents/${talentId}`);
-        return response.data;
-    } catch (err) {
-        if (err.response?.status === 404) {
-            log(`Candidatura não encontrada para talento ${talentId} na vaga ${jobId}.`);
-            return null;
-        }
-        error(`Erro ao buscar detalhes da candidatura para o talento ${talentId} na vaga ${jobId}:`, err.response?.data?.message || err.message);
-        return null;
+  log(`Buscando detalhes da candidatura (JobTalent) para o talento ${talentId} na vaga ${jobId}`);
+  try {
+    const response = await apiClient.get(`${API_BASE_URL}/job-talents/${jobId}/talents/${talentId}`);
+    return response.data;
+  } catch (err) {
+    if (err.response?.status === 404) {
+      log(`Candidatura não encontrada para talento ${talentId} na vaga ${jobId}.`);
+      return null;
     }
+    error(`Erro ao buscar detalhes da candidatura para o talento ${talentId} na vaga ${jobId}:`, err.response?.data?.message || err.message);
+    return null;
+  }
 };

@@ -62,9 +62,15 @@ export const fetchCandidatesForJob = async (jobId) => {
 
         if (isUUID) {
             const localJob = await db.LocalJob.findByPk(jobId);
-            if (localJob && localJob.externalId) {
-                log(`[CANDIDATES] Vaga Local ${jobId} possui vínculo externo ${localJob.externalId}. Buscando na API...`);
-                externalJobId = localJob.externalId;
+            if (localJob) {
+                log(`[DEBUG] LocalJob found: ${localJob.id}, ExternalId: ${localJob.externalId}`);
+                if (localJob.externalId) {
+                    externalJobId = localJob.externalId;
+                } else {
+                    log(`[DEBUG] LocalJob has NO externalId. Skipping API fetch.`);
+                }
+            } else {
+                log(`[DEBUG] LocalJob NOT found for ID: ${jobId}`);
             }
         } else {
             log(`[CANDIDATES] ID não é UUID (${jobId}). Assumindo ID externo direto.`);
@@ -73,7 +79,10 @@ export const fetchCandidatesForJob = async (jobId) => {
 
         if (externalJobId) {
             try {
+                log(`[DEBUG] Fetching from API for External ID: ${externalJobId}`);
                 const apiResult = await getApplicationsForJob(externalJobId);
+                log(`[DEBUG] API Result Count: ${apiResult ? apiResult.length : 'null'}`);
+
                 if (apiResult) {
                     inhireCandidates = apiResult
                         .filter(app => app?.talent?.id)
