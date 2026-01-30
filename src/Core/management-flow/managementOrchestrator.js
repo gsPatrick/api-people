@@ -70,7 +70,9 @@ export const fetchCandidatesForJob = async (jobId) => {
                     log(`[DEBUG] LocalJob has NO externalId. Skipping API fetch.`);
                 }
             } else {
-                log(`[DEBUG] LocalJob NOT found for ID: ${jobId}`);
+                log(`[DEBUG] LocalJob NOT found for ID: ${jobId}. Assuming external InHire UUID.`);
+                // FALLBACK: Se não está no banco local, assume que é um ID da InHire (legado ou não sincronizado)
+                externalJobId = jobId;
             }
         } else {
             log(`[CANDIDATES] ID não é UUID (${jobId}). Assumindo ID externo direto.`);
