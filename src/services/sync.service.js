@@ -42,15 +42,19 @@ class SyncService {
 
             // 1. Create in External Provider
             // We map the local data to what the provider expects
+            // [FIX] Do NOT spread ...localTalent.data indiscriminately. 
+            // The API schema is strict and rejects fields like 'jobId', 'matchData', 'perfil', etc.
             const payload = {
                 name: localTalent.name,
                 linkedinUsername: localTalent.linkedinUsername,
                 headline: localTalent.headline,
                 email: localTalent.email,
                 phone: localTalent.phone,
-                location: localTalent.location,
-                ...localTalent.data // Spread raw data as fallback/enrichment
+                location: localTalent.location
             };
+
+            // If we have specific extra fields that ARE allowed (like 'urls'), map them manually here.
+            // For now, sending only the core identity fields to pass validation.
 
             const externalResult = await this.provider.createTalent(payload);
 
