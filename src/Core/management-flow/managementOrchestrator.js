@@ -55,34 +55,53 @@ export const fetchCandidatesForJob = async (jobId) => {
             { id: 'rejected', name: 'Rejected' },
         ];
 
+        // 2. Buscar da API InHire (Híbrido: Se for UUID, verifica se tem ID Externo mapeado)
+        let externalJobId = null;
+
         const isUUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(jobId);
 
-        if (!isUUID) {
-            log(`[CANDIDATES] Vaga InHire detectada. Buscando na API...`);
-            const apiResult = await getApplicationsForJob(jobId);
-            if (apiResult) {
-                inhireCandidates = apiResult
-                    .filter(app => app?.talent?.id)
-                    .map(app => ({
-                        id: app.talent.id,
-                        name: app.talent.name,
-                        headline: app.talent.headline || 'Sem título',
-                        photo: app.talent.photo || null,
-                        application: {
-                            id: app.id,
-                            stageName: app.stage?.name || 'Status',
-                            stageId: app.stage?.id,
-                            status: app.status,
-                            createdAt: app.createdAt
-                        }
-                    }));
+        if (isUUID) {
+            const localJob = await db.LocalJob.findByPk(jobId);
+            if (localJob && localJob.externalId) {
+                log(`[CANDIDATES] Vaga Local ${jobId} possui vínculo externo ${localJob.externalId}. Buscando na API...`);
+                externalJobId = localJob.externalId;
+            }
+        } else {
+            log(`[CANDIDATES] ID não é UUID (${jobId}). Assumindo ID externo direto.`);
+            externalJobId = jobId;
+        }
 
-                // Enriquecer etapas se vierem da API
-                const apiStages = Array.from(new Map(apiResult.map(a => [a.stage?.id, a.stage?.name])).values())
-                    .filter(s => s && s.id)
-                    .map(s => ({ id: s.id, name: s.name }));
+        if (externalJobId) {
+            try {
+                const apiResult = await getApplicationsForJob(externalJobId);
+                if (apiResult) {
+                    inhireCandidates = apiResult
+                        .filter(app => app?.talent?.id)
+                        .map(app => ({
+                            id: app.talent.id, // ID Externo
+                            name: app.talent.name,
+                            headline: app.talent.headline || 'Sem título',
+                            photo: app.talent.photo || null,
+                            isLocal: false, // Marca como vindo da API
+                            application: {
+                                id: app.id,
+                                stageName: app.stage?.name || 'Status',
+                                stageId: app.stage?.id,
+                                status: app.status,
+                                createdAt: app.createdAt
+                            }
+                        }));
 
-                if (apiStages.length > 0) stages = apiStages;
+                    // Enriquecer etapas se vierem da API
+                    const apiStages = Array.from(new Map(apiResult.map(a => [a.stage?.id, a.stage?.name])).values())
+                        .filter(s => s && s.id)
+                        .map(s => ({ id: s.id, name: s.name }));
+
+                    if (apiStages.length > 0) stages = apiStages;
+                }
+            } catch (apiErr) {
+                error(`[CANDIDATES] Falha ao buscar candidatos da API InHire para ${externalJobId}:`, apiErr.message);
+                // Não falha o request todo, apenas loga e retorna o local
             }
         }
 
