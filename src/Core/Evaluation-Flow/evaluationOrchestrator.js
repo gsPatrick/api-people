@@ -1,11 +1,41 @@
-// ARQUIVO COMPLETO E CORRIGIDO: src/Core/Evaluation-Flow/evaluationOrchestrator.js
-
 import { htmlToText } from 'html-to-text';
 import { getInterviewKitsForJob, submitScorecardResponse, getScorecardSummaryForApplication, createJobScorecard, createInterviewKit, getInterviewKitById } from '../../Inhire/ScoreCards/scorecards.service.js';
 import { getWeightsForKit, saveWeightsForKit } from './weights.service.js';
 import { saveLocalScorecardResponse, getLocalScorecardResponse } from '../../Platform/Cache/cache.service.js'; // Importação do Cache Local
 import { log, error } from '../../utils/logger.service.js';
 import { saveDebugDataToFile } from '../../utils/debug.service.js';
+import db from '../../models/index.js'; // Importa o banco para acessar LocalApplication
+
+/**
+ * Converte o aiReview (resultado do Match) para o formato de summary esperado pelo frontend.
+ * Este formato é compatível com o ScorecardView.jsx.
+ */
+const mapAiReviewToSummary = (aiReview, scorecardId) => {
+    if (!aiReview || !aiReview.categories) return null;
+
+    // Converte 'categories' -> 'skillCategories' e 'criteria' -> 'skills'
+    const skillCategories = aiReview.categories.map(cat => ({
+        name: cat.name,
+        skills: (cat.criteria || []).map(crit => ({
+            name: crit.name,
+            score: crit.score,
+            description: crit.justification || ''
+        }))
+    }));
+
+    return {
+        userId: 'ai-match',
+        userName: 'Match Automático (IA)',
+        scorecardInterviewId: scorecardId,
+        interviewName: 'Avaliação do Match',
+        feedback: {
+            comment: aiReview.overallFeedback || '',
+            proceed: aiReview.finalDecision || 'NO_DECISION'
+        },
+        privateNotes: '',
+        skillCategories
+    };
+};
 
 const enrichKitDataWithIds = (kit) => {
     if (kit && Array.isArray(kit.skillCategories)) {
@@ -106,40 +136,73 @@ const mapLocalPayloadToSummary = (localPayload, scorecardId) => {
 
 export const fetchScorecardDataForApplication = async (applicationId, jobId) => {
     try {
-        log(`[SCORECARD] Fetching data for applicationId: ${applicationId}`);
+        log(`[SCORECARD] Fetching data for applicationId: ${applicationId}, jobId: ${jobId}`);
 
-        // 1. Tenta buscar do cache local PRIMEIRO (Prioridade para dados recentes)
+        const allSummaries = [];
+
+        // === PASSO 0: Busca scorecardId do primeiro kit disponível ou gera um virtual ===
+        let defaultScorecardId = null;
+        let virtualKit = null;
+
+        try {
+            const kitsRes = await fetchAvailableKitsForJob(jobId);
+            if (kitsRes.success && kitsRes.kits && kitsRes.kits.length > 0) {
+                defaultScorecardId = kitsRes.kits[0].id;
+                log(`[SCORECARD] Kit principal encontrado ou sintetizado: ${defaultScorecardId}`);
+                if (defaultScorecardId.startsWith('ai_kit_')) {
+                    virtualKit = kitsRes.kits[0];
+                }
+            }
+        } catch (e) {
+            log(`[SCORECARD] Could not fetch kits for jobId ${jobId}: ${e.message}`);
+        }
+
+        // === PASSO 1: Buscar aiReview do LocalApplication (Match) ===
+        try {
+            const localApp = await db.LocalApplication.findOne({ where: { id: applicationId } });
+            if (localApp && localApp.aiReview && localApp.aiReview.categories) {
+                log(`[SCORECARD] ✅ FOUND aiReview from Match in LocalApplication ${applicationId}`);
+                // Usamos o defaultScorecardId (pode ser o real ou o virtual 'ai_kit_...')
+                const matchSummary = mapAiReviewToSummary(localApp.aiReview, defaultScorecardId);
+                if (matchSummary) {
+                    allSummaries.push(matchSummary);
+                }
+            }
+        } catch (e) {
+            log(`[SCORECARD] Could not fetch LocalApplication: ${e.message}`);
+        }
+
+        // === PASSO 2: Buscar do cache local (salvamentos manuais recentes) ===
         const localResponse = await getLocalScorecardResponse(applicationId);
-
-        // Verifica se localResponse existe e tem os campos necessários
         if (localResponse && localResponse.payload) {
-            log(`[SCORECARD] ✅ FOUND local data for app ${applicationId}. Serving immediately.`);
-
-            // Passa o payload E o scorecardId para o mapper
+            log(`[SCORECARD] ✅ FOUND local cache data for app ${applicationId}`);
             const formattedSummary = mapLocalPayloadToSummary(localResponse.payload, localResponse.scorecardId);
-
-            log(`[SCORECARD] Formatted summary items: ${formattedSummary.length}`);
-            return { success: true, data: { type: 'summary', content: formattedSummary } };
-        } else {
-            log(`[SCORECARD] ⚠️ No local data found for app ${applicationId}. Falling back to InHire API.`);
+            allSummaries.push(...formattedSummary);
         }
 
-        // 2. Se não tiver local, busca da API InHire
-        const summary = await getScorecardSummaryForApplication(applicationId);
-        const hasActualEvaluations = summary && Array.isArray(summary) && summary.length > 0 &&
-            summary.some(group => group.evaluationsFeedbacks && group.evaluationsFeedbacks.length > 0);
+        // === PASSO 3: Buscar da API InHire (dados externos) ===
+        try {
+            const summary = await getScorecardSummaryForApplication(applicationId);
+            const hasActualEvaluations = summary && Array.isArray(summary) && summary.length > 0 &&
+                summary.some(group => group.evaluationsFeedbacks && group.evaluationsFeedbacks.length > 0);
 
-        if (hasActualEvaluations) {
-            const formattedSummary = mapScorecardSummary(summary);
-            return { success: true, data: { type: 'summary', content: formattedSummary } };
-        } else {
-            return { success: true, data: { type: 'summary', content: [] } };
+            if (hasActualEvaluations) {
+                const formattedSummary = mapScorecardSummary(summary);
+                allSummaries.push(...formattedSummary);
+            }
+        } catch (e) {
+            log(`[SCORECARD] InHire API fallback failed: ${e.message}`);
         }
+
+        log(`[SCORECARD] Total summaries found: ${allSummaries.length}`);
+        return { success: true, data: { type: 'summary', content: allSummaries } };
+
     } catch (err) {
         error("Erro em fetchScorecardDataForApplication:", err.message);
         return { success: false, error: err.message };
     }
 };
+
 
 export const handleScorecardSubmission = async (applicationId, scorecardId, evaluationDataFromFrontend) => {
     log(`--- ORQUESTRADOR: Submetendo avaliação para a candidatura ${applicationId} ---`);
@@ -147,7 +210,22 @@ export const handleScorecardSubmission = async (applicationId, scorecardId, eval
         if (!applicationId || !scorecardId || !evaluationDataFromFrontend) {
             throw new Error("applicationId, scorecardId e evaluationData são obrigatórios.");
         }
-        const kitStructure = await getInterviewKitById(scorecardId);
+        let kitStructure = null;
+
+        if (scorecardId && scorecardId.startsWith('ai_kit_')) {
+            // Sintetiza a estrutura a partir do match para validar o payload
+            const jobId = scorecardId.replace('ai_kit_', '');
+            const fallbackApplication = await db.LocalApplication.findOne({
+                where: { jobId, aiReview: { [db.Sequelize.Op.ne]: null } },
+                order: [['updatedAt', 'DESC']]
+            });
+            if (fallbackApplication) {
+                kitStructure = synthesizeKitFromMatch(jobId, fallbackApplication.aiReview);
+            }
+        } else {
+            kitStructure = await getInterviewKitById(scorecardId);
+        }
+
         if (!kitStructure) {
             throw new Error("Não foi possível encontrar a estrutura do kit para formatar o payload.");
         }
@@ -191,12 +269,17 @@ export const handleScorecardSubmission = async (applicationId, scorecardId, eval
         // 1. Salva localmente para garantir persistência imediata
         await saveLocalScorecardResponse(applicationId, scorecardId, payloadForInHire);
 
-        // 2. Envia para a InHire
-        const submissionResult = await submitScorecardResponse(applicationId, scorecardId, payloadForInHire);
-        if (!submissionResult) {
-            throw new Error("Falha ao submeter avaliação. A API da InHire não retornou sucesso.");
+        // 2. Envia para a InHire (apenas se não for virtual)
+        if (scorecardId && !scorecardId.startsWith('ai_kit_')) {
+            const submissionResult = await submitScorecardResponse(applicationId, scorecardId, payloadForInHire);
+            if (!submissionResult) {
+                throw new Error("Falha ao submeter avaliação. A API da InHire não retornou sucesso.");
+            }
+            return { success: true, submission: submissionResult };
+        } else {
+            log(`[SCORECARD] ✅ Submissão de kit VIRTUAL salva apenas localmente.`);
+            return { success: true, submission: { message: "Salvo localmente com sucesso." } };
         }
-        return { success: true, submission: submissionResult };
     } catch (err) {
         error("Erro em handleScorecardSubmission:", err.message);
         // Inclui o stack trace no erro para melhor depuração no backend
@@ -232,6 +315,22 @@ export const fetchAvailableKitsForJob = async (jobId) => {
     log(`--- ORQUESTRADOR: Buscando APENAS KITS para a vaga ${jobId} ---`);
     try {
         let kits = await getInterviewKitsForJob(jobId);
+
+        // [NOVO] Se não houver kits e houver um Match da IA recente, sintetiza um kit virtual
+        if (!kits || kits.length === 0) {
+            log(`Nenhum kit encontrado para ${jobId}. Verificando se há Match IA disponível...`);
+            const fallbackApplication = await db.LocalApplication.findOne({
+                where: { jobId, aiReview: { [db.Sequelize.Op.ne]: null } },
+                include: [{ model: db.LocalJob, as: 'job' }],
+                order: [['updatedAt', 'DESC']]
+            });
+
+            if (fallbackApplication && fallbackApplication.aiReview) {
+                const virtualKit = synthesizeKitFromMatch(jobId, fallbackApplication.aiReview);
+                kits = [virtualKit];
+            }
+        }
+
         if (kits && Array.isArray(kits)) {
             kits = kits.map(kit => {
                 const enrichedKit = enrichKitDataWithIds(kit);
@@ -245,11 +344,42 @@ export const fetchAvailableKitsForJob = async (jobId) => {
     }
 };
 
+// Auxiliar para gerar estrutura de kit a partir do Match
+const synthesizeKitFromMatch = (jobId, aiReview) => {
+    return {
+        id: `ai_kit_${jobId}`,
+        name: "Ficha de Abordagem (Match IA)",
+        isAiGenerated: true,
+        skillCategories: (aiReview.categories || []).map((cat, catIdx) => ({
+            id: `cat-ai-${catIdx}`,
+            name: cat.name,
+            skills: (cat.criteria || []).map((crit, critIdx) => ({
+                id: `skill-ai-${catIdx}-${critIdx}`,
+                name: crit.name
+            }))
+        }))
+    };
+};
+
 
 export const fetchInterviewKitDetails = async (kitId) => {
     log(`--- ORQUESTRADOR: Buscando detalhes para o kit de entrevista ${kitId} ---`);
     try {
-        let kit = await getInterviewKitById(kitId);
+        let kit = null;
+
+        if (kitId && kitId.startsWith('ai_kit_')) {
+            const jobId = kitId.replace('ai_kit_', '');
+            const fallbackApplication = await db.LocalApplication.findOne({
+                where: { jobId, aiReview: { [db.Sequelize.Op.ne]: null } },
+                order: [['updatedAt', 'DESC']]
+            });
+            if (fallbackApplication) {
+                kit = synthesizeKitFromMatch(jobId, fallbackApplication.aiReview);
+            }
+        } else {
+            kit = await getInterviewKitById(kitId);
+        }
+
         if (!kit) {
             throw new Error(`Kit de entrevista com ID ${kitId} não encontrado.`);
         }

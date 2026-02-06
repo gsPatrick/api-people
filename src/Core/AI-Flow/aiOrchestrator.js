@@ -19,24 +19,66 @@ const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
 
 
-// Esta função permanece inalterada.
-export const syncProfileFromLinkedIn = async (talentId) => {
-    log(`--- ORQUESTRADOR IA: Sincronizando perfil do Talento ID: ${talentId} ---`);
-    try {
-        const talentInHire = await getTalentById(talentId);
-        if (!talentInHire) throw new Error(`Talento com ID ${talentId} não encontrado.`);
-        const linkedinUsername = talentInHire.linkedinUsername;
-        if (!linkedinUsername) throw new Error(`O talento ${talentInHire.name} não possui um LinkedIn associado.`);
-        log(`Forçando scraping para "${linkedinUsername}"...`);
-        const profileUrl = `https://www.linkedin.com/in/${linkedinUsername}/`;
-        const richProfileData = await extractProfileData(profileUrl);
-        if (!richProfileData) throw new Error(`Falha ao extrair dados do LinkedIn para ${profileUrl}.`);
-        saveCachedProfile(linkedinUsername, richProfileData);
-        return { success: true, message: 'Perfil sincronizado com sucesso.', lastScrapedAt: Date.now() };
-    } catch (err) {
-        error("Erro ao forçar sincronização de perfil:", err.message);
-        throw err;
+// Função para converter o perfil estruturado em um texto rico e legível para a IA
+// Suporta tanto o formato do scraper quanto o formato estruturado do PDF
+const formatProfileToText = (profileData) => {
+    if (!profileData) return "";
+
+    const nome = profileData.name || profileData.perfil?.nome || 'N/A';
+    const titulo = profileData.headline || profileData.perfil?.titulo || 'N/A';
+    const local = profileData.location || profileData.perfil?.localizacao || 'N/A';
+
+    let text = `NOME: ${nome}\n`;
+    text += `TÍTULO: ${titulo}\n`;
+    text += `LOCALIZAÇÃO: ${local}\n\n`;
+
+    if (profileData.about || profileData.perfil?.resumo) {
+        text += `RESUMO/SOBRE:\n${profileData.about || profileData.perfil?.resumo}\n\n`;
     }
+
+    // Tenta experiências estruturadas (PDF ou Scraper novo)
+    const experiences = profileData.structureExperience || profileData.experience || [];
+    if (experiences.length > 0) {
+        text += `EXPERIÊNCIA PROFISSIONAL:\n`;
+        experiences.forEach(exp => {
+            const role = exp.role || exp.title || 'N/A';
+            const company = exp.company || exp.companyName || 'N/A';
+            const start = exp.start || exp.startDate || '';
+            const end = exp.end || exp.endDate || 'Momento';
+            const desc = exp.description || '';
+
+            text += `- ${role} na ${company} (${start} - ${end})\n`;
+            if (desc) text += `  Detalhes: ${desc}\n`;
+        });
+        text += `\n`;
+    }
+
+    // Formação
+    const education = profileData.structureEducation || profileData.education || [];
+    if (education.length > 0) {
+        text += `FORMAÇÃO ACADÊMICA:\n`;
+        education.forEach(edu => {
+            const degree = edu.degree || '';
+            const field = edu.field || edu.fieldOfStudy || '';
+            const school = edu.school || edu.schoolName || 'N/A';
+            text += `- ${degree} ${field} na ${school}\n`;
+        });
+        text += `\n`;
+    }
+
+    // Skills
+    const skills = profileData.skills || [];
+    if (skills.length > 0) {
+        text += `COMPETÊNCIAS:\n${Array.isArray(skills) ? skills.join(', ') : skills}\n\n`;
+    }
+
+    // Certificações
+    const certs = profileData.certifications || [];
+    if (certs.length > 0) {
+        text += `CERTIFICAÇÕES:\n${Array.isArray(certs) ? certs.join(', ') : certs}\n`;
+    }
+
+    return text;
 };
 
 // =================================================================================
@@ -84,18 +126,15 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
             profileData = cached.profile;
         }
 
-        // ETAPA 2: FULL CONTEXT - Preparar texto completo do perfil
-        let fullProfileText = "";
-        const profile = profileData || {};
-        if (profile.name) fullProfileText += `NOME: ${profile.name}\n`;
-        if (profile.headline) fullProfileText += `HEADLINE: ${profile.headline}\n`;
-        if (profile.about) fullProfileText += `SOBRE: ${profile.about}\n`;
-        if (profile.experience && profile.experience.length) {
-            fullProfileText += `EXPERIÊNCIA:\n` + profile.experience.map(exp => `- ${exp.title} na ${exp.companyName}. ${exp.description || ''}`).join('\n') + `\n`;
+        // ETAPA 2: FULL CONTEXT - Preparar texto completo do perfil usando formatador robusto
+        const fullProfileText = formatProfileToText(profileData);
+
+        if (!fullProfileText || fullProfileText.trim().length < 50) {
+            log(`[DEBUG] Texto do perfil insuficiente. profileData keys: ${Object.keys(profileData || {})}`);
+            throw new Error('O perfil não contém informações suficientes para análise. Certifique-se de que o PDF foi processado corretamente ou tente sincronizar com o LinkedIn.');
         }
-        if (profile.skills && profile.skills.length) {
-            fullProfileText += `SKILLS: ${profile.skills.join(', ')}\n`;
-        }
+
+        const profile = profileData || {}; // Para compatibilidade com os nomes abaixo
 
         const allCriteria = scorecard.skillCategories.flatMap(cat => cat.skills.map(skill => ({ id: skill.id, name: skill.name })));
 
@@ -222,9 +261,29 @@ const generateOverallFeedback = async (jobDetails, candidateProfile, evaluations
 
 
 export const getAIEvaluationCacheStatus = async (talentId) => {
-    const talentInHire = await getTalentById(talentId);
-    if (!talentInHire?.linkedinUsername) return { hasCache: false, lastScrapedAt: null };
-    return getCacheStatus(talentInHire.linkedinUsername);
+    try {
+        // 1. Verificar se existe no banco local e tem dados suficientes
+        const localTalent = await db.LocalTalent.findByPk(talentId);
+        if (localTalent && localTalent.data && Object.keys(localTalent.data).length > 5) {
+            log(`[CACHE] ✅ Cache local encontrado no banco para talente ${talentId}`);
+            return { hasCache: true, source: 'local_database' };
+        }
+
+        // 2. Fallback para cache de scraping legado
+        const talentInHire = await getTalentById(talentId);
+        if (talentInHire && talentInHire.linkedinUsername) {
+            const legacyCache = await getCacheStatus(talentInHire.linkedinUsername);
+            if (legacyCache && legacyCache.hasCache) {
+                log(`[CACHE] ✅ Cache legado encontrado para talente ${talentId}`);
+                return legacyCache;
+            }
+        }
+
+        return { hasCache: false, lastScrapedAt: null };
+    } catch (err) {
+        error("Erro ao verificar status do cache de IA:", err.message);
+        return { hasCache: false };
+    }
 };
 
 export const evaluateSkillFromCache = async (talentId, jobDetails, skillToEvaluate) => {
