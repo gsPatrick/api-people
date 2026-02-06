@@ -1,7 +1,7 @@
-// src/services/match.service.js
 import { analyzeAllCriteriaInBatch } from './ai.service.js';
 import { log, error as logError } from '../utils/logger.service.js';
-import { findById as findScorecardById } from './scorecard.service.js';
+import { findById as findLocalScorecardById } from './scorecard.service.js';
+import { fetchInterviewKitDetails } from '../Core/Evaluation-Flow/evaluationOrchestrator.js';
 
 // Função para converter o perfil estruturado em um texto rico e legível para a IA
 const formatProfileToText = (profileData) => {
@@ -65,19 +65,72 @@ const sortChildrenInMemory = (data) => {
   }
 };
 
+// Normalização para unificar InHire Kit, Kit Virtual e Scorecard Local
+const normalizeScorecard = (source) => {
+  if (!source) return null;
+
+  // Se for estrutura de Kit vinda do orquestrador (skillCategories)
+  if (source.skillCategories) {
+    return {
+      id: source.id,
+      name: source.name,
+      categories: source.skillCategories.map(cat => ({
+        name: cat.name,
+        criteria: (cat.skills || []).map(skill => ({
+          id: skill.id,
+          name: skill.name,
+          weight: source.weights?.[skill.id] || 2
+        }))
+      }))
+    };
+  }
+
+  // Se já for a estrutura de Scorecard (categories)
+  if (source.categories) {
+    return {
+      id: source.id,
+      name: source.name,
+      categories: source.categories.map(cat => ({
+        name: cat.name,
+        criteria: (cat.criteria || []).map(crit => ({
+          id: crit.id,
+          name: crit.name,
+          weight: crit.weight || 2
+        }))
+      }))
+    };
+  }
+
+  return null;
+};
+
 export const analyze = async (scorecardId, profileData) => {
   const startTime = Date.now();
-  log(`Iniciando análise FULL CONTEXT (sem vetores)...`);
+  log(`Iniciando análise FULL CONTEXT para o scorecard/kit: ${scorecardId}`);
 
   try {
-    // 1. Busca scorecard
-    const scorecard = await findScorecardById(scorecardId);
-    if (!scorecard) {
-      const err = new Error('Scorecard não encontrado.');
+    // 1. Busca scorecard ou kit unificado via orquestrador
+    let source = null;
+
+    // Tenta primeiro via orquestrador (Kits InHire e Virtuais)
+    const kitResult = await fetchInterviewKitDetails(scorecardId);
+    if (kitResult.success && kitResult.kit) {
+      source = kitResult.kit;
+    } else {
+      // Fallback para Scorecard Local
+      source = await findLocalScorecardById(scorecardId);
+    }
+
+    if (!source) {
+      const err = new Error('Scorecard ou Kit de Entrevista não encontrado.');
       err.statusCode = 404;
       throw err;
     }
-    sortChildrenInMemory(scorecard);
+
+    const scorecard = normalizeScorecard(source);
+    if (!scorecard) {
+      throw new Error('Falha ao processar a estrutura do scorecard/kit.');
+    }
 
     // 2. Prepara o texto completo do perfil
     const fullProfileText = formatProfileToText(profileData);
