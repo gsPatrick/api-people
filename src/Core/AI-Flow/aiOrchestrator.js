@@ -81,6 +81,26 @@ const formatProfileToText = (profileData) => {
     return text;
 };
 
+// Esta função permanece inalterada.
+export const syncProfileFromLinkedIn = async (talentId) => {
+    log(`--- ORQUESTRADOR IA: Sincronizando perfil do Talento ID: ${talentId} ---`);
+    try {
+        const talentInHire = await getTalentById(talentId);
+        if (!talentInHire) throw new Error(`Talento com ID ${talentId} não encontrado.`);
+        const linkedinUsername = talentInHire.linkedinUsername;
+        if (!linkedinUsername) throw new Error(`O talento ${talentInHire.name} não possui um LinkedIn associado.`);
+        log(`Forçando scraping para "${linkedinUsername}"...`);
+        const profileUrl = `https://www.linkedin.com/in/${linkedinUsername}/`;
+        const richProfileData = await extractProfileData(profileUrl);
+        if (!richProfileData) throw new Error(`Falha ao extrair dados do LinkedIn para ${profileUrl}.`);
+        saveCachedProfile(linkedinUsername, richProfileData);
+        return { success: true, message: 'Perfil sincronizado com sucesso.', lastScrapedAt: Date.now() };
+    } catch (err) {
+        error("Erro ao forçar sincronização de perfil:", err.message);
+        throw err;
+    }
+};
+
 // =================================================================================
 // FUNÇÃO PRINCIPAL MODIFICADA PARA ORQUESTRAR ANÁLISE E CACHE (DO CÓDIGO 02)
 // =================================================================================
