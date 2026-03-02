@@ -228,16 +228,41 @@ export const handleEditTalent = async (talentId, updateData) => {
 export const handleDeleteTalent = async (talentId) => {
   log(`--- ORQUESTRADOR: Deletando talento ${talentId} ---`);
   try {
-    const success = await deleteTalent(talentId);
-    if (!success) throw new Error("Falha ao excluir talento.");
+    // 1. Busca o talento localmente para obter o ID externo (InHire)
+    const localTalent = await db.LocalTalent.findByPk(talentId);
 
+    if (localTalent && localTalent.externalId) {
+      log(`Removendo talento da InHire (External ID: ${localTalent.externalId})...`);
+      const success = await deleteTalent(localTalent.externalId);
+      if (!success) {
+        log("AVISO: Falha ao excluir talento na InHire (pode não existir mais lá). Prosseguindo com deleção local.");
+      }
+    } else {
+      log("Talento não possui externalId ou não foi encontrado localmente. Tentando deleção direta se o ID for compatível (fallback).");
+      // Se não tem externalId mas o ID parece ser o da InHire (não UUID), tenta apagar.
+      if (talentId && talentId.length < 30) {
+        await deleteTalent(talentId);
+      }
+    }
+
+    // 2. Remoção Local
+    if (localTalent) {
+      log(`Removendo registros locais para o talento ${talentId}...`);
+      // O CASCADE configurado no modelo cuidará da LocalApplication se as FKs estiverem corretas, 
+      // mas garantimos aqui por segurança se necessário.
+      await db.LocalApplication.destroy({ where: { talentId } });
+      await localTalent.destroy();
+    }
+
+    // 3. Limpeza de Cache
     const cachedTalents = getFromCache(TALENTS_CACHE_KEY);
     if (cachedTalents) {
       const updatedCache = cachedTalents.filter(t => t.id !== talentId);
       setToCache(TALENTS_CACHE_KEY, updatedCache);
       log(`CACHE UPDATE: Talento ID '${talentId}' removido do cache.`);
     }
-    return { success: true, message: "Talento excluído com sucesso." };
+
+    return { success: true, message: "Talento excluído com sucesso (InHire + Local)." };
   } catch (err) {
     error("Erro em handleDeleteTalent:", err.message);
     return { success: false, error: err.message };

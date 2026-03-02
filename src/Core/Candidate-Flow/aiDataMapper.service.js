@@ -7,8 +7,8 @@ import { createEmbeddings } from '../../services/embedding.service.js';
 
 const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
-    timeout: 10000, // Timeout agressivo para garantir performance
-    maxRetries: 1
+    timeout: 1800000,  // 30 minutos - timeout anterior de 10s era muito agressivo e causava falhas
+    maxRetries: 3     // 3 tentativas automáticas
 });
 
 // Função auxiliar para "fatiar" o perfil em pedaços de texto relevantes

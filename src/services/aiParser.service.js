@@ -3,8 +3,8 @@ import { log, error as logError } from '../utils/logger.service.js';
 
 const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
-    timeout: 20000,
-    maxRetries: 1
+    timeout: 1800000, // 30 minutos - garante que nunca falhe por lentidão da OpenAI
+    maxRetries: 3    // 3 tentativas automáticas antes de declarar falha
 });
 
 /**

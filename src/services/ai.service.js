@@ -6,8 +6,8 @@ import { log, error as logError } from '../utils/logger.service.js';
 const getClient = () => {
     return new OpenAI({
         apiKey: process.env.OPENAI_API_KEY,
-        timeout: 100000,
-        maxRetries: 2
+        timeout: 1800000,  // 30 minutos - garante que avaliações complexas com GPT-4o não falhem
+        maxRetries: 3     // 3 tentativas automáticas antes de declarar falha
     });
 };
 

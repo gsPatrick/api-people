@@ -77,7 +77,9 @@ export default (sequelize) => {
     LocalTalent.associate = (models) => {
         LocalTalent.hasMany(models.LocalApplication, {
             foreignKey: 'talentId',
-            as: 'applications'
+            as: 'applications',
+            onDelete: 'CASCADE',
+            hooks: true
         });
     };
 
