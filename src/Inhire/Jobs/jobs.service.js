@@ -79,4 +79,37 @@ export const getJobDetails = async (jobId) => {
         log(`Erro ao buscar detalhes da vaga ${jobId}:`, err.response?.data || err.message);
         return null;
     }
-}
+};
+
+/**
+ * Cria uma nova vaga no InHire.
+ * @param {object} jobData - Dados da vaga (title, description, etc).
+ * @returns {Promise<object|null>} Vaga criada ou null.
+ */
+export const createJob = async (jobData) => {
+    log(`--- SERVIÇO: Criando vaga no InHire: ${jobData.title} ---`);
+    try {
+        const response = await apiClient.post(`${API_BASE_URL}/jobs`, jobData);
+        return response.data;
+    } catch (err) {
+        error("Erro ao criar vaga no InHire:", err.response?.data || err.message);
+        return null;
+    }
+};
+
+/**
+ * Atualiza uma vaga existente no InHire.
+ * @param {string} jobId - ID da vaga no InHire.
+ * @param {object} jobData - Dados para atualização.
+ * @returns {Promise<object|null>} Vaga atualizada ou null.
+ */
+export const updateJob = async (jobId, jobData) => {
+    log(`--- SERVIÇO: Atualizando vaga ${jobId} no InHire ---`);
+    try {
+        const response = await apiClient.patch(`${API_BASE_URL}/jobs/${jobId}`, jobData);
+        return response.data;
+    } catch (err) {
+        error("Erro ao atualizar vaga no InHire:", err.response?.data || err.message);
+        return null;
+    }
+};

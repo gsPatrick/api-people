@@ -35,7 +35,7 @@ import {
     handleSaveKitWeights
 } from '../Core/Evaluation-Flow/evaluationOrchestrator.js';
 import { syncProfileFromLinkedIn, evaluateSkillFromCache, getAIEvaluationCacheStatus, evaluateScorecardFromCache } from '../Core/AI-Flow/aiOrchestrator.js';
-import { handleJobSelection, handleRemoveApplication, fetchPaginatedJobs, handleCreateJob } from '../Core/Job-Flow/jobOrchestrator.js';
+import { handleJobSelection, handleRemoveApplication, fetchPaginatedJobs, handleCreateJob, handleUpdateJob, handleSyncJobToInHire, fetchJobDetails } from '../Core/Job-Flow/jobOrchestrator.js';
 import { handleFullProfileUpdate } from '../Core/Candidate-Flow/updateOrchestrator.js';
 
 const router = Router();
@@ -132,17 +132,27 @@ router.get('/jobs', async (req, res) => {
 });
 
 router.post('/jobs', async (req, res) => {
-    try {
-        const result = await handleCreateJob(req.body);
-        if (result.success) {
-            res.status(201).json(result.job);
-        } else {
-            res.status(400).json({ error: result.error });
-        }
-    } catch (err) {
-        console.error("Erro na rota POST /jobs:", err);
-        res.status(500).json({ error: `INTERNAL_SERVER_ERROR: ${err.message}` });
-    }
+    const result = await handleCreateJob(req.body);
+    if (result.success) res.status(201).json(result.job);
+    else res.status(500).json({ error: result.error });
+});
+
+router.get('/jobs/:id', async (req, res) => {
+    const result = await fetchJobDetails(req.params.id);
+    if (result.success) res.status(200).json(result.job);
+    else res.status(404).json({ error: result.error });
+});
+
+router.patch('/jobs/:id', async (req, res) => {
+    const result = await handleUpdateJob(req.params.id, req.body);
+    if (result.success) res.status(200).json(result.job);
+    else res.status(500).json({ error: result.error });
+});
+
+router.post('/jobs/:id/sync-inhire', async (req, res) => {
+    const result = await handleSyncJobToInHire(req.params.id);
+    if (result.success) res.status(200).json(result);
+    else res.status(500).json({ error: result.error });
 });
 
 router.post('/apply', async (req, res) => {

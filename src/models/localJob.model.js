@@ -25,9 +25,22 @@ export default (sequelize) => {
             type: DataTypes.ENUM('OPEN', 'CLOSED', 'DRAFT', 'PAUSED', 'CANCELED'),
             defaultValue: 'DRAFT'
         },
+        source: {
+            type: DataTypes.ENUM('LOCAL', 'INHIRE'),
+            defaultValue: 'LOCAL'
+        },
+        syncStatus: {
+            type: DataTypes.ENUM('SYNCHRONIZED', 'PENDING', 'FAILED'),
+            defaultValue: 'PENDING'
+        },
         isSynced: {
             type: DataTypes.BOOLEAN,
             defaultValue: false
+        },
+        data: {
+            type: DataTypes.JSON,
+            allowNull: true,
+            comment: "Snapshot completo dos dados do InHire ou metadados locais"
         }
     }, {
         tableName: 'local_jobs',

@@ -1,6 +1,6 @@
 // COLE ESTE CÓDIGO ATUALIZADO NO ARQUIVO: src/Core/Job-Flow/jobOrchestrator.js
 
-import { getAllJobs, getJobTags } from '../../Inhire/Jobs/jobs.service.js';
+import { getAllJobs, getJobTags, createJob as createInHireJob, updateJob as updateInHireJob } from '../../Inhire/Jobs/jobs.service.js';
 import { addTalentToJob, removeApplication } from '../../Inhire/JobTalents/jobTalents.service.js';
 import { log, error } from '../../utils/logger.service.js';
 import { getFromCache, setToCache } from '../../utils/cache.service.js';
@@ -15,13 +15,14 @@ export const handleCreateJob = async (jobData) => {
         if (!jobData.name) throw new Error("O nome da vaga é obrigatório.");
 
         const newJob = await db.LocalJob.create({
-            title: jobData.name, // Mapping 'name' (frontend) to 'title' (db)
+            title: jobData.name,
             description: jobData.description || '',
             status: 'OPEN',
-            isSynced: false
+            source: 'LOCAL',
+            syncStatus: 'PENDING',
+            data: jobData
         });
 
-        // Return formatted as expected by frontend (name property)
         return {
             success: true,
             job: {
@@ -29,12 +30,120 @@ export const handleCreateJob = async (jobData) => {
                 name: newJob.title,
                 description: newJob.description,
                 status: newJob.status.toLowerCase(),
-                externalId: null,
-                isSynced: false
+                source: 'LOCAL',
+                syncStatus: 'PENDING'
             }
         };
     } catch (err) {
         error("Erro em handleCreateJob:", err.message);
+        return { success: false, error: err.message };
+    }
+};
+
+export const handleUpdateJob = async (jobId, jobData) => {
+    log(`--- ORQUESTRADOR: Atualizando vaga ${jobId} ---`);
+    try {
+        const localJob = await db.LocalJob.findByPk(jobId);
+        
+        if (localJob) {
+            // Se for local, atualiza no banco
+            const updates = {};
+            if (jobData.name) updates.title = jobData.name;
+            if (jobData.description !== undefined) updates.description = jobData.description;
+            if (jobData.status) updates.status = jobData.status.toUpperCase();
+            
+            updates.data = { ...(localJob.data || {}), ...jobData };
+            
+            await localJob.update(updates);
+            
+            // Se já estiver sincronizada, tenta atualizar no InHire também
+            if (localJob.source === 'LOCAL' && localJob.syncStatus === 'SYNCHRONIZED' && localJob.externalId) {
+                await updateInHireJob(localJob.externalId, {
+                    title: jobData.name || localJob.title,
+                    description: jobData.description || localJob.description
+                });
+            }
+            
+            return { success: true, job: localJob };
+        } else {
+            // Se não for local, assume que é do InHire (Cache/Proxy)
+            // Por enquanto, apenas vagas locais são editáveis via PeopleAi se forem criadas aqui
+            // Mas o requisito pede para unificar. Se for InHire, tentamos atualizar direto lá.
+            const result = await updateInHireJob(jobId, {
+                title: jobData.name,
+                description: jobData.description
+            });
+            return { success: !!result, job: result };
+        }
+    } catch (err) {
+        error("Erro em handleUpdateJob:", err.message);
+        return { success: false, error: err.message };
+    }
+};
+
+export const handleSyncJobToInHire = async (jobId) => {
+    log(`--- ORQUESTRADOR: Sincronizando vaga ${jobId} com InHire ---`);
+    try {
+        const localJob = await db.LocalJob.findByPk(jobId);
+        if (!localJob) throw new Error("Vaga local não encontrada.");
+        
+        if (localJob.syncStatus === 'SYNCHRONIZED' && localJob.externalId) {
+            return { success: true, message: "Já sincronizada.", externalId: localJob.externalId };
+        }
+
+        // Criar no InHire
+        const inhireJob = await createInHireJob({
+            title: localJob.title,
+            description: localJob.description || 'Vaga criada via PeopleAi'
+        });
+
+        if (inhireJob && inhireJob.id) {
+            await localJob.update({
+                externalId: inhireJob.id,
+                syncStatus: 'SYNCHRONIZED',
+                data: { ...(localJob.data || {}), inhireSnapshot: inhireJob }
+            });
+            return { success: true, externalId: inhireJob.id };
+        } else {
+            await localJob.update({ syncStatus: 'FAILED' });
+            throw new Error("Falha ao criar vaga na API do InHire.");
+        }
+    } catch (err) {
+        error("Erro em handleSyncJobToInHire:", err.message);
+        return { success: false, error: err.message };
+    }
+};
+
+export const fetchJobDetails = async (jobId) => {
+    try {
+        // Tenta local primeiro
+        const localJob = await db.LocalJob.findByPk(jobId);
+        if (localJob) {
+            return {
+                success: true,
+                job: {
+                    id: localJob.id,
+                    name: localJob.title,
+                    description: localJob.description,
+                    status: localJob.status.toLowerCase(),
+                    source: localJob.source,
+                    syncStatus: localJob.syncStatus,
+                    externalId: localJob.externalId,
+                    data: localJob.data
+                }
+            };
+        }
+        
+        // Se não, busca do InHire (Cache)
+        const inhireJobsCached = getFromCache(JOBS_CACHE_KEY) || [];
+        const inhireJob = inhireJobsCached.find(j => j.id === jobId);
+        
+        if (inhireJob) {
+            return { success: true, job: { ...inhireJob, name: inhireJob.title, source: 'INHIRE' } };
+        }
+        
+        return { success: false, error: "Vaga não encontrada." };
+    } catch (err) {
         return { success: false, error: err.message };
     }
 };
@@ -72,7 +181,8 @@ export const fetchPaginatedJobs = async (page = 1, limit = 10, status = 'open') 
             description: job.description,
             status: (job.status || 'OPEN').toLowerCase(),
             externalId: job.externalId,
-            isSynced: job.isSynced,
+            source: job.source,
+            syncStatus: job.syncStatus,
             activeTalents: 0,
             area: { name: 'Local' }
         }));
@@ -84,7 +194,7 @@ export const fetchPaginatedJobs = async (page = 1, limit = 10, status = 'open') 
         );
 
         // 3. Mesclar as listas (Locais primeiro)
-        const allMergedJobs = [...formattedLocalJobs, ...filteredInhireJobs];
+        const allMergedJobs = [...formattedLocalJobs, ...filteredInhireJobs.map(j => ({ ...j, name: j.title, source: 'INHIRE', syncStatus: 'SYNCHRONIZED' }))];
 
         const totalJobsInFilter = allMergedJobs.length;
 
