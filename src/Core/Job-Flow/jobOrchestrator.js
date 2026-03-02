@@ -20,6 +20,7 @@ export const handleCreateJob = async (jobData) => {
             status: 'OPEN',
             source: 'LOCAL',
             syncStatus: 'PENDING',
+            areaId: jobData.areaId,
             data: jobData
         });
 
@@ -62,6 +63,8 @@ export const handleUpdateJob = async (jobId, jobData) => {
             if (jobData.name) updates.title = jobData.name;
             if (jobData.description !== undefined) updates.description = jobData.description;
             if (jobData.status) updates.status = jobData.status.toUpperCase();
+            
+            if (jobData.areaId) updates.areaId = jobData.areaId;
             
             updates.data = { ...(localJob.data || {}), ...jobData };
             
@@ -127,6 +130,7 @@ export const handleSyncJobToInHire = async (jobId) => {
         const inhireJob = await createInHireJob({
             title: localJob.title,
             description: localJob.description || 'Vaga criada via PeopleAi',
+            departmentId: localJob.areaId,
             scorecardId: localJob.data?.scorecardId,
             interviewKitId: localJob.data?.interviewKitId
         });

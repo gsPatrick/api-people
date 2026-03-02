@@ -41,6 +41,11 @@ export default (sequelize) => {
             type: DataTypes.JSON,
             allowNull: true,
             comment: "Snapshot completo dos dados do InHire ou metadados locais"
+        },
+        areaId: {
+            type: DataTypes.STRING,
+            allowNull: true,
+            comment: "ID do departamento/area no InHire"
         }
     }, {
         tableName: 'local_jobs',
@@ -56,6 +61,10 @@ export default (sequelize) => {
         LocalJob.hasMany(models.LocalApplication, {
             foreignKey: 'jobId',
             as: 'applications'
+        });
+        LocalJob.hasMany(models.Scorecard, {
+            foreignKey: 'jobId',
+            as: 'scorecards'
         });
     };
 

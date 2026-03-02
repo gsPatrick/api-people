@@ -28,7 +28,10 @@ export const findAll = async () => {
   }
   try {
     const scorecards = await db.Scorecard.findAll({
-      include: [ { model: db.Category, as: 'categories', include: [{ model: db.Criterion, as: 'criteria' }] } ],
+      include: [ 
+        { model: db.Category, as: 'categories', include: [{ model: db.Criterion, as: 'criteria' }] },
+        { model: db.LocalJob, as: 'job' }
+      ],
       order: [['name', 'ASC']],
     });
     const plainScorecards = scorecards.map(sc => sc.get({ plain: true }));
@@ -67,8 +70,8 @@ export const findById = async (id) => {
 export const create = async (scorecardData) => {
   const t = await db.sequelize.transaction();
   try {
-    const { categories, ...restOfData } = scorecardData;
-    const newScorecard = await db.Scorecard.create(restOfData, { transaction: t });
+    const { categories, jobId, ...restOfData } = scorecardData;
+    const newScorecard = await db.Scorecard.create({ ...restOfData, jobId }, { transaction: t });
 
     if (categories && categories.length > 0) {
       for (const [categoryIndex, categoryData] of categories.entries()) {
@@ -107,8 +110,8 @@ export const update = async (id, scorecardData) => {
     try {
         const scorecard = await db.Scorecard.findByPk(id, { transaction: t });
         if (!scorecard) throw new Error('Scorecard não encontrado.');
-        const { categories, ...restOfData } = scorecardData;
-        await scorecard.update(restOfData, { transaction: t });
+        const { categories, jobId, ...restOfData } = scorecardData;
+        await scorecard.update({ ...restOfData, jobId }, { transaction: t });
         await db.Category.destroy({ where: { scorecardId: id }, transaction: t });
         if (categories && categories.length > 0) {
             for (const [categoryIndex, categoryData] of categories.entries()) {

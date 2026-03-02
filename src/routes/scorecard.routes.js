@@ -8,6 +8,7 @@ router.post('/', scorecardController.createScorecard);
 router.get('/', scorecardController.getAllScorecards);
 router.get('/:id', scorecardController.getScorecardById);
 router.put('/:id', scorecardController.updateScorecard);
+router.post('/:id/sync-inhire', scorecardController.syncScorecardToInHire);
 router.delete('/:id', scorecardController.deleteScorecard);
 
 export default router;

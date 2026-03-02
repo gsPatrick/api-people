@@ -1,4 +1,5 @@
 import * as scorecardService from '../services/scorecard.service.js';
+import { handleSyncScorecardToInHire } from '../Core/Evaluation-Flow/evaluationOrchestrator.js';
 
 /**
  * Cria um novo scorecard.
@@ -73,6 +74,23 @@ export const deleteScorecard = async (req, res) => {
     }
     // Retorna 204 No Content, um padrão para exclusão bem-sucedida.
     res.status(204).send();
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
+/**
+ * Sincroniza um scorecard local com o InHire.
+ */
+export const syncScorecardToInHire = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const result = await handleSyncScorecardToInHire(id);
+    if (result.success) {
+      res.status(200).json(result);
+    } else {
+      res.status(500).json({ error: result.error });
+    }
   } catch (error) {
     res.status(500).json({ error: error.message });
   }

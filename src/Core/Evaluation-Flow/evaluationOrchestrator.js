@@ -3,6 +3,7 @@ import { getInterviewKitsForJob, submitScorecardResponse, getScorecardSummaryFor
 import { getWeightsForKit, saveWeightsForKit } from './weights.service.js';
 import { saveLocalScorecardResponse, getLocalScorecardResponse } from '../../Platform/Cache/cache.service.js'; // Importação do Cache Local
 import { log, error } from '../../utils/logger.service.js';
+import { handleSyncJobToInHire } from '../Job-Flow/jobOrchestrator.js';
 import { saveDebugDataToFile } from '../../utils/debug.service.js';
 import db from '../../models/index.js'; // Importa o banco para acessar LocalApplication
 
@@ -411,6 +412,80 @@ export const handleSaveKitWeights = async (kitId, weightsData) => {
         return { success: true };
     } catch (err) {
         error(`Erro em handleSaveKitWeights para o kit ${kitId}:`, err.message);
+        return { success: false, error: err.message };
+    }
+};
+
+/**
+ * Sincroniza um scorecard local com o InHire.
+ * O InHire exige que o scorecard seja criado associado a uma vaga.
+ */
+export const handleSyncScorecardToInHire = async (scorecardId) => {
+    log(`--- ORQUESTRADOR: Sincronizando Scorecard ${scorecardId} com InHire ---`);
+    try {
+        const scorecard = await db.Scorecard.findByPk(scorecardId, {
+            include: [
+                { model: db.Category, as: 'categories', include: [{ model: db.Criterion, as: 'criteria' }] },
+                { model: db.LocalJob, as: 'job' }
+            ]
+        });
+
+        if (!scorecard) throw new Error("Scorecard não encontrado.");
+        if (!scorecard.jobId) throw new Error("Este scorecard não possui uma vaga vinculada. Vincule uma vaga antes de sincronizar.");
+        
+        let job = scorecard.job;
+        if (!job) throw new Error("Vaga vinculada não encontrada.");
+
+        // Se a vaga não estiver sincronizada, sincroniza agora automaticamente
+        if (job.syncStatus !== 'SYNCHRONIZED' || !job.externalId) {
+            log(`Vaga ${job.id} não sincronizada. Iniciando sincronização automática da vaga...`);
+            const syncResult = await handleSyncJobToInHire(job.id);
+            if (!syncResult.success) {
+                throw new Error(`Falha ao sincronizar a vaga vinculada automaticamente: ${syncResult.error}`);
+            }
+            // Recarrega os dados da vaga após o sync
+            job = await db.LocalJob.findByPk(job.id);
+            log(`Vaga ${job.id} sincronizada automaticamente com externalId: ${job.externalId}`);
+        }
+
+        // Formata os dados no padrão do InHire (Categories e Skills)
+        const skillCategories = (scorecard.categories || []).map(cat => ({
+            name: cat.name,
+            skills: (cat.criteria || []).map(crit => ({
+                name: crit.name,
+                weight: crit.weight || 2
+            }))
+        }));
+
+        // 1. Cria o Scorecard Base na Vaga (InHire)
+        log(`Criando scorecard base no InHire para vaga ${job.externalId}...`);
+        await createJobScorecard(job.externalId, skillCategories);
+
+        // 2. Cria o Kit de Entrevista (InHire exige os dois passos para ser usável)
+        log(`Criando Kit de Entrevista no InHire para vaga ${job.externalId}...`);
+        const kitData = {
+            jobId: job.externalId,
+            jobStageId: null, 
+            name: `Kit: ${scorecard.name}`,
+            skillCategories
+        };
+
+        const inhireKit = await createInterviewKit(kitData);
+
+        if (inhireKit && inhireKit.id) {
+            await scorecard.update({
+                externalId: inhireKit.id,
+                syncStatus: 'SYNCHRONIZED',
+                isSynced: true,
+                source: 'INHIRE'
+            });
+            return { success: true, externalId: inhireKit.id };
+        } else {
+            throw new Error("Falha ao criar Kit de Entrevista na API do InHire.");
+        }
+
+    } catch (err) {
+        error(`Erro em handleSyncScorecardToInHire:`, err.message);
         return { success: false, error: err.message };
     }
 };
