@@ -8,7 +8,7 @@ const API_BASE_URL = 'https://api.inhire.app';
 /**
  * Busca a definição de todos os campos personalizados para uma entidade específica.
  * Endpoint: GET /custom-data-manager/custom-fields/entity/:entity
- * @param {string} entity - A entidade ("TALENTS" ou "JOB_TALENTS").
+ * @param {string} entity - A entidade ("TALENTS", "JOB_TALENTS" ou "JOBS").
  * @returns {Promise<Array<object>|null>} Uma lista de definições de campos personalizados.
  */
 export const getCustomFieldsForEntity = async (entity) => {

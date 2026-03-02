@@ -155,6 +155,13 @@ router.post('/jobs/:id/sync-inhire', async (req, res) => {
     else res.status(500).json({ error: result.error });
 });
 
+router.get('/areas', async (req, res) => {
+    const { fetchAvailableAreas } = await import('../Core/Job-Flow/jobOrchestrator.js');
+    const result = await fetchAvailableAreas();
+    if (result.success) res.status(200).json(result.areas);
+    else res.status(500).json({ error: result.error });
+});
+
 router.post('/apply', async (req, res) => {
     const { jobId, talentId } = req.body;
     if (!jobId || !talentId) return res.status(400).json({ error: 'Os campos "jobId" e "talentId" são obrigatórios.' });
@@ -298,8 +305,8 @@ router.post('/create-scorecard-and-kit', async (req, res) => {
 // --- ROTAS DE GERENCIAMENTO (CAMPOS PERSONALIZADOS E KITS) ---
 router.get('/custom-fields/:entity', async (req, res) => {
     const { entity } = req.params;
-    if (!['TALENTS', 'JOB_TALENTS'].includes(entity.toUpperCase())) {
-        return res.status(400).json({ error: 'Entidade inválida. Use "TALENTS" ou "JOB_TALENTS".' });
+    if (!['TALENTS', 'JOB_TALENTS', 'JOBS'].includes(entity.toUpperCase())) {
+        return res.status(400).json({ error: 'Entidade inválida. Use "TALENTS", "JOB_TALENTS" ou "JOBS".' });
     }
     const result = await fetchCustomFields(entity.toUpperCase());
     if (result.success) res.status(200).json(result.fields);

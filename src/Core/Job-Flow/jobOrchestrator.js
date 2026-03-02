@@ -23,6 +23,17 @@ export const handleCreateJob = async (jobData) => {
             data: jobData
         });
 
+        // Se solicitado sincronização imediata
+        if (jobData.syncNow) {
+            log(`[CREATE_JOB] Sincronização imediata solicitada para ${newJob.id}.`);
+            try {
+                await handleSyncJobToInHire(newJob.id);
+            } catch (err) {
+                error(`[CREATE_JOB] Falha na sincronização imediata de ${newJob.id}:`, err.message);
+                // Não falha a criação da vaga se o sync falhar
+            }
+        }
+
         return {
             success: true,
             job: {
@@ -31,7 +42,7 @@ export const handleCreateJob = async (jobData) => {
                 description: newJob.description,
                 status: newJob.status.toLowerCase(),
                 source: 'LOCAL',
-                syncStatus: 'PENDING'
+                syncStatus: jobData.syncNow ? 'SYNCHRONIZED' : 'PENDING'
             }
         };
     } catch (err) {
@@ -157,7 +168,6 @@ export const fetchPaginatedJobs = async (page = 1, limit = 10, status = 'open') 
 
     try {
         // 1. Buscar Vagas Locais do Banco de Dados
-        // Mapeamento robusto de front-end para DB
         const statusMap = {
             'open': 'OPEN',
             'paused': 'PAUSED',
@@ -184,7 +194,7 @@ export const fetchPaginatedJobs = async (page = 1, limit = 10, status = 'open') 
             source: job.source,
             syncStatus: job.syncStatus,
             activeTalents: 0,
-            area: { name: 'Local' }
+            area: job.areaId ? { id: job.areaId, name: job.data?.areaName || 'Local' } : { name: 'Local' }
         }));
 
         // 2. Buscar Vagas do InHire no Cache
@@ -198,7 +208,6 @@ export const fetchPaginatedJobs = async (page = 1, limit = 10, status = 'open') 
 
         const totalJobsInFilter = allMergedJobs.length;
 
-        // A resposta agora contém as vagas de ambas as fontes.
         return {
             success: true,
             data: {
@@ -211,6 +220,32 @@ export const fetchPaginatedJobs = async (page = 1, limit = 10, status = 'open') 
 
     } catch (err) {
         error("Erro em fetchPaginatedJobs:", err.message);
+        return { success: false, error: err.message };
+    }
+};
+
+/**
+ * Extrai a lista de áreas disponíveis a partir das vagas em cache do InHire.
+ */
+export const fetchAvailableAreas = async () => {
+    log("--- ORQUESTRADOR: Extraindo áreas disponíveis do cache ---");
+    try {
+        const inhireJobsCached = getFromCache(JOBS_CACHE_KEY) || [];
+        
+        // Extrai áreas únicas
+        const areasMap = new Map();
+        inhireJobsCached.forEach(job => {
+            if (job.area && job.area.id) {
+                areasMap.set(job.area.id, job.area);
+            }
+        });
+
+        const areas = Array.from(areasMap.values());
+        log(`[AREAS] ${areas.length} áreas identificadas.`);
+        
+        return { success: true, areas };
+    } catch (err) {
+        error("Erro em fetchAvailableAreas:", err.message);
         return { success: false, error: err.message };
     }
 };
