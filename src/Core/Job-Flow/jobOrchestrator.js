@@ -71,15 +71,15 @@ export const handleUpdateJob = async (jobId, jobData) => {
             if (localJob.source === 'LOCAL' && localJob.syncStatus === 'SYNCHRONIZED' && localJob.externalId) {
                 await updateInHireJob(localJob.externalId, {
                     title: jobData.name || localJob.title,
-                    description: jobData.description || localJob.description
+                    description: jobData.description || localJob.description,
+                    scorecardId: jobData.scorecardId || localJob.data?.scorecardId,
+                    interviewKitId: jobData.interviewKitId || localJob.data?.interviewKitId
                 });
             }
             
             return { success: true, job: localJob };
         } else {
             // Se não for local, assume que é do InHire (Cache/Proxy)
-            // Por enquanto, apenas vagas locais são editáveis via PeopleAi se forem criadas aqui
-            // Mas o requisito pede para unificar. Se for InHire, tentamos atualizar direto lá.
             const result = await updateInHireJob(jobId, {
                 title: jobData.name,
                 description: jobData.description
@@ -88,6 +88,27 @@ export const handleUpdateJob = async (jobId, jobData) => {
         }
     } catch (err) {
         error("Erro em handleUpdateJob:", err.message);
+        return { success: false, error: err.message };
+    }
+};
+
+export const handleDeleteJob = async (jobId) => {
+    log(`--- ORQUESTRADOR: Excluindo vaga ${jobId} ---`);
+    try {
+        const localJob = await db.LocalJob.findByPk(jobId);
+        
+        if (localJob) {
+            // Exclui localmente (incluindo candidaturas locais associadas se necessário)
+            // O Sequelize por padrão não deletas as associações se não configurado CASCADE.
+            // Aqui vamos deletar apenas a vaga por simplicidade, ou as candidaturas também.
+            await localJob.destroy();
+            return { success: true, message: "Vaga local excluída com sucesso." };
+        } else {
+            // Por enquanto não temos exclusão remota via API documentada/implementada
+            return { success: false, error: "Exclusão remota não disponível. Apenas vagas locais podem ser excluídas." };
+        }
+    } catch (err) {
+        error("Erro em handleDeleteJob:", err.message);
         return { success: false, error: err.message };
     }
 };
@@ -105,7 +126,9 @@ export const handleSyncJobToInHire = async (jobId) => {
         // Criar no InHire
         const inhireJob = await createInHireJob({
             title: localJob.title,
-            description: localJob.description || 'Vaga criada via PeopleAi'
+            description: localJob.description || 'Vaga criada via PeopleAi',
+            scorecardId: localJob.data?.scorecardId,
+            interviewKitId: localJob.data?.interviewKitId
         });
 
         if (inhireJob && inhireJob.id) {

@@ -35,7 +35,7 @@ import {
     handleSaveKitWeights
 } from '../Core/Evaluation-Flow/evaluationOrchestrator.js';
 import { syncProfileFromLinkedIn, evaluateSkillFromCache, getAIEvaluationCacheStatus, evaluateScorecardFromCache } from '../Core/AI-Flow/aiOrchestrator.js';
-import { handleJobSelection, handleRemoveApplication, fetchPaginatedJobs, handleCreateJob, handleUpdateJob, handleSyncJobToInHire, fetchJobDetails } from '../Core/Job-Flow/jobOrchestrator.js';
+import { handleJobSelection, handleRemoveApplication, fetchPaginatedJobs, handleCreateJob, handleUpdateJob, handleDeleteJob, handleSyncJobToInHire, fetchJobDetails } from '../Core/Job-Flow/jobOrchestrator.js';
 import { handleFullProfileUpdate } from '../Core/Candidate-Flow/updateOrchestrator.js';
 
 const router = Router();
@@ -146,6 +146,12 @@ router.get('/jobs/:id', async (req, res) => {
 router.patch('/jobs/:id', async (req, res) => {
     const result = await handleUpdateJob(req.params.id, req.body);
     if (result.success) res.status(200).json(result.job);
+    else res.status(500).json({ error: result.error });
+});
+
+router.delete('/jobs/:id', async (req, res) => {
+    const result = await handleDeleteJob(req.params.id);
+    if (result.success) res.status(200).json(result);
     else res.status(500).json({ error: result.error });
 });
 
