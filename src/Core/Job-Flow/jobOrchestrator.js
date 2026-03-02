@@ -229,7 +229,8 @@ export const fetchPaginatedJobs = async (page = 1, limit = 10, status = 'open') 
             (job.status || '').toLowerCase() === status.toLowerCase()
         ).map(j => ({ 
             ...j, 
-            name: j.title, 
+            name: j.title || j.name || 'Sem Título',
+            title: j.title || j.name || 'Sem Título', 
             source: 'INHIRE', 
             syncStatus: 'SYNCHRONIZED',
             createdAt: j.createdAt || new Date(0) // Fallback para ordenação
