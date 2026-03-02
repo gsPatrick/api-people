@@ -224,14 +224,21 @@ export const fetchPaginatedJobs = async (page = 1, limit = 10, status = 'open') 
     }
 };
 
-/**
- * Extrai a lista de áreas disponíveis a partir das vagas em cache do InHire.
- */
 export const fetchAvailableAreas = async () => {
-    log("--- ORQUESTRADOR: Extraindo áreas disponíveis do cache ---");
+    log("--- ORQUESTRADOR: Extraindo áreas disponíveis do cache/API ---");
     try {
-        const inhireJobsCached = getFromCache(JOBS_CACHE_KEY) || [];
+        let inhireJobsCached = getFromCache(JOBS_CACHE_KEY) || [];
         
+        // Se o cache estiver vazio, busca da API InHire para preenchê-lo
+        if (inhireJobsCached.length === 0) {
+            log("[AREAS] Cache de vagas vazio. Buscando da API InHire para extrair as áreas...");
+            const allJobsObject = await fetchAllJobsWithDetails();
+            if (allJobsObject && allJobsObject.success) {
+                inhireJobsCached = allJobsObject.jobs || [];
+                setToCache(JOBS_CACHE_KEY, inhireJobsCached, 3600); // Cache por 1 hora
+            }
+        }
+
         // Extrai áreas únicas
         const areasMap = new Map();
         inhireJobsCached.forEach(job => {
