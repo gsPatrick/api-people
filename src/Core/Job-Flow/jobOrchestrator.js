@@ -227,21 +227,22 @@ export const fetchPaginatedJobs = async (page = 1, limit = 10, status = 'open') 
 export const fetchAvailableAreas = async () => {
     log("--- ORQUESTRADOR: Extraindo áreas disponíveis do cache/API ---");
     try {
-        let inhireJobsCached = getFromCache(JOBS_CACHE_KEY) || [];
+        let jobsToExtractFrom = getFromCache(JOBS_CACHE_KEY) || [];
         
-        // Se o cache estiver vazio, busca da API InHire para preenchê-lo
-        if (inhireJobsCached.length === 0) {
-            log("[AREAS] Cache de vagas vazio. Buscando da API InHire para extrair as áreas...");
-            const allJobsObject = await fetchAllJobsWithDetails();
-            if (allJobsObject && allJobsObject.success) {
-                inhireJobsCached = allJobsObject.jobs || [];
-                setToCache(JOBS_CACHE_KEY, inhireJobsCached, 3600); // Cache por 1 hora
+        // Se o cache estiver vazio, busca da API InHire de forma rápida (sem enriquecer as vagas)
+        if (jobsToExtractFrom.length === 0) {
+            log("[AREAS] Cache de vagas vazio. Buscando da API InHire para extrair as áreas de forma otimizada...");
+            const rawJobs = await getAllJobs();
+            if (rawJobs && rawJobs.length > 0) {
+                jobsToExtractFrom = rawJobs;
+                // Opcional: não sobrescrevemos o JOBS_CACHE_KEY com rawJobs pois o restante do app
+                // espera vagas enriquecidas (com tags). Mas usamos rawJobs apenas para extrair as áreas.
             }
         }
 
         // Extrai áreas únicas
         const areasMap = new Map();
-        inhireJobsCached.forEach(job => {
+        jobsToExtractFrom.forEach(job => {
             if (job.area && job.area.id) {
                 areasMap.set(job.area.id, job.area);
             }
