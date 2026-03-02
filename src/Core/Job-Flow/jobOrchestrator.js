@@ -191,10 +191,10 @@ export const fetchJobDetails = async (jobId) => {
 // com vagas do InHire (Cache).
 // ==========================================================
 export const fetchPaginatedJobs = async (page = 1, limit = 10, status = 'open') => {
-    log(`--- ORQUESTRADOR: Buscando vagas (Status: ${status}) ---`);
+    log(`--- ORQUESTRADOR: Buscando vagas (Status: ${status}, Page: ${page}, Limit: ${limit}) ---`);
 
     try {
-        // 1. Buscar Vagas Locais do Banco de Dados
+        // 1. Buscar TODAS as Vagas Locais do Banco de Dados para filtragem em memória (para garantir ordenação global correta)
         const statusMap = {
             'open': 'OPEN',
             'paused': 'PAUSED',
@@ -206,41 +206,61 @@ export const fetchPaginatedJobs = async (page = 1, limit = 10, status = 'open') 
         const dbStatus = statusMap[status.toLowerCase()] || 'OPEN';
 
         const localJobsFromDb = await db.LocalJob.findAll({
-            where: {
-                status: dbStatus
-            },
-            order: [['createdAt', 'DESC']]
+            where: { status: dbStatus }
         });
 
         const formattedLocalJobs = localJobsFromDb.map(job => ({
             id: job.id,
             name: job.title,
+            title: job.title,
             description: job.description,
             status: (job.status || 'OPEN').toLowerCase(),
             externalId: job.externalId,
             source: job.source,
             syncStatus: job.syncStatus,
             activeTalents: 0,
-            area: job.areaId ? { id: job.areaId, name: job.data?.areaName || 'Local' } : { name: 'Local' }
+            area: job.areaId ? { id: job.areaId, name: job.data?.areaName || 'Local' } : { name: 'Local' },
+            createdAt: job.createdAt
         }));
 
         // 2. Buscar Vagas do InHire no Cache
         const inhireJobsCached = getFromCache(JOBS_CACHE_KEY) || [];
         const filteredInhireJobs = inhireJobsCached.filter(job =>
             (job.status || '').toLowerCase() === status.toLowerCase()
-        );
+        ).map(j => ({ 
+            ...j, 
+            name: j.title, 
+            source: 'INHIRE', 
+            syncStatus: 'SYNCHRONIZED',
+            createdAt: j.createdAt || new Date(0) // Fallback para ordenação
+        }));
 
-        // 3. Mesclar as listas (Locais primeiro)
-        const allMergedJobs = [...formattedLocalJobs, ...filteredInhireJobs.map(j => ({ ...j, name: j.title, source: 'INHIRE', syncStatus: 'SYNCHRONIZED' }))];
+        // 3. Mesclar as listas
+        const allMergedJobs = [...formattedLocalJobs, ...filteredInhireJobs];
+
+        // 4. Ordenação Global (Mais recentes primeiro)
+        allMergedJobs.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
 
         const totalJobsInFilter = allMergedJobs.length;
+
+        // 5. Aplicar Paginação (Se limit > 0)
+        let paginatedJobs = allMergedJobs;
+        let totalPages = 1;
+        const numericLimit = parseInt(limit);
+        const numericPage = parseInt(page);
+
+        if (numericLimit > 0) {
+            const startIndex = (numericPage - 1) * numericLimit;
+            paginatedJobs = allMergedJobs.slice(startIndex, startIndex + numericLimit);
+            totalPages = Math.ceil(totalJobsInFilter / numericLimit) || 1;
+        }
 
         return {
             success: true,
             data: {
-                jobs: allMergedJobs,
-                currentPage: 1,
-                totalPages: 1,
+                jobs: paginatedJobs,
+                currentPage: numericPage,
+                totalPages: totalPages,
                 totalJobs: totalJobsInFilter
             }
         };
