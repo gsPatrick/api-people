@@ -219,6 +219,30 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
 
         const finalMatchScore = totalWeight > 0 ? (totalScore / totalWeight) : 0;
 
+        // Convertemos a nota de 1-5 para um range 0-100 para ser padrão universal no Front:
+        const normalizedScore = parseFloat((finalMatchScore * 20).toFixed(2));
+
+        // Mapear categorias e critérios com as notas já integradas para o FrontEnd/BD
+        const categoriesResult = scorecard.skillCategories.map(cat => ({
+            name: cat.name,
+            criteria: cat.skills.map(skill => {
+                const evaluation = evaluations.find(e => e.id === skill.id) || {};
+                return {
+                    name: skill.name,
+                    weightType: skill.weightType || 'normal',
+                    tag: skill.tag || null,
+                    score: evaluation.score || 0,
+                    justification: evaluation.justification || ''
+                };
+            })
+        }));
+
+        // Injetar detalhamento na resposta final que será retornada à API
+        finalResult.categories = categoriesResult;
+        finalResult.matchScore = normalizedScore;
+        finalResult.essentialFailed = essentialFailed;
+        finalResult.essentialCriterion = essentialCriterion;
+
         // ETAPA 5: Persistência Local (LocalApplication) com Histórico
         if (localJob) {
             const [application, created] = await db.LocalApplication.findOrCreate({
@@ -227,7 +251,7 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
             });
 
             const snapshot = {
-                score: parseFloat(finalMatchScore.toFixed(2)),
+                score: normalizedScore,
                 jobName: localJob.title,
                 jobId: localJob.id,
                 evaluatedAt: new Date().toISOString(),
@@ -235,31 +259,19 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
                 essentialTag,
                 essentialCriterion,
                 status: essentialFailed ? 'rejected_essential' : 'evaluated',
-                categories: scorecard.skillCategories.map(cat => ({
-                    name: cat.name,
-                    criteria: cat.skills.map(skill => {
-                        const evaluation = evaluations.find(e => e.id === skill.id) || {};
-                        return {
-                            name: skill.name,
-                            weightType: skill.weightType || 'normal',
-                            tag: skill.tag || null,
-                            score: evaluation.score || 0,
-                            justification: evaluation.justification || ''
-                        };
-                    })
-                }))
+                categories: categoriesResult
             };
 
             await application.update({
-                matchScore: parseFloat(finalMatchScore.toFixed(2)),
+                matchScore: normalizedScore,
                 aiReview: finalResult,
                 evaluationResult: snapshot // persistindo histórico detalhado
             });
 
             // Também atualiza o score mais recente no Talento para listagem rápida
-            await localTalent.update({ matchScore: parseFloat(finalMatchScore.toFixed(2)) });
+            await localTalent.update({ matchScore: normalizedScore });
 
-            log(`PERSISTÊNCIA: Avaliação salva em LocalApplication (Score: ${finalMatchScore.toFixed(2)}, EssentialFailed: ${essentialFailed})`);
+            log(`PERSISTÊNCIA: Avaliação salva em LocalApplication (Score: ${normalizedScore}, EssentialFailed: ${essentialFailed})`);
         }
 
         // Cache Legado (Manter por compatibilidade com frontend antigo se necessário)
