@@ -13,6 +13,17 @@ export default (sequelize) => {
     name: { type: DataTypes.STRING, allowNull: false },
     description: { type: DataTypes.TEXT, allowNull: true },
     weight: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 2, validate: { min: 1, max: 3 } },
+    weightType: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      defaultValue: 'normal',
+      comment: 'Tipo de peso interno: normal, priority (2x), essential (imprescindível)'
+    },
+    tag: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      comment: 'Tag descritiva para critérios imprescindíveis (exibida na borda vermelha)'
+    },
     order: { type: DataTypes.INTEGER, defaultValue: 0 },
     // <-- MUDANÇA: O CAMPO EMBEDDING VOLTOU, AGORA PARA POSTGRESQL
     embedding: {
