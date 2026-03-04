@@ -22,6 +22,11 @@ export default (sequelize) => {
             type: DataTypes.JSONB,
             allowNull: true,
             comment: "Armazena o resultado da avaliação da IA, feedback, justificativas"
+        },
+        evaluationResult: {
+            type: DataTypes.JSONB,
+            allowNull: true,
+            comment: "Resultado persistido da avaliação: { score, jobName, jobId, evaluatedAt, essentialFailed, essentialTag, essentialCriterion, status }"
         }
     }, {
         tableName: 'local_applications',
