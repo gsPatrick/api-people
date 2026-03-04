@@ -110,7 +110,33 @@ export const create = async (scorecardData) => {
 export const update = async (id, scorecardData) => {
     const t = await db.sequelize.transaction();
     try {
+        let existingCriteriaMap = {};
         let scorecard = await db.Scorecard.findByPk(id, { transaction: t });
+        
+        if (scorecard) {
+            // Guardamos os critérios existentes para extrair o estado do weight, weightType, tag e embedding 
+            // no caso da requisição de PUT externa (extensão inhire) que omite esses campos
+            const existingCategories = await db.Category.findAll({ 
+                where: { scorecardId: id },
+                include: [{ model: db.Criterion, as: 'criteria' }],
+                transaction: t 
+            });
+            existingCategories.forEach(cat => {
+                if (cat.criteria) {
+                    cat.criteria.forEach(crit => {
+                        if (crit.name) {
+                            existingCriteriaMap[crit.name.trim()] = {
+                                weightType: crit.weightType,
+                                tag: crit.tag,
+                                embedding: crit.embedding,
+                                weight: crit.weight
+                            };
+                        }
+                    });
+                }
+            });
+        }
+
         const { categories, jobId, id: payloadId, ...restOfData } = scorecardData;
         const cleanJobId = (jobId && jobId.trim() !== '') ? jobId : null;
 
@@ -129,9 +155,20 @@ export const update = async (id, scorecardData) => {
                 const newCategory = await db.Category.create({ ...restOfCategory, scorecardId: id, order: categoryIndex }, { transaction: t });
                 if (criteria && criteria.length > 0) {
                     for (const [criterionIndex, criterionData] of criteria.entries()) {
-                        if (criterionData.name && criterionData.name.trim() !== '') {
+                        const critName = criterionData.name ? criterionData.name.trim() : '';
+                        if (critName !== '') {
                            const { id: critId, ...restOfCriterion } = criterionData;
-                           await db.Criterion.create({ ...restOfCriterion, categoryId: newCategory.id, order: criterionIndex }, { transaction: t });
+                           
+                           // Mescla os dados recebidos com os dados que já estavam em banco (preservando alterações locais de peso/tag)
+                           const existingData = existingCriteriaMap[critName] || {};
+                           const finalCriterionData = {
+                               ...existingData,
+                               ...restOfCriterion, // Dados que vêm da requisição sobrescrevem se estiverem setados explicitamente
+                               categoryId: newCategory.id, 
+                               order: criterionIndex
+                           };
+
+                           await db.Criterion.create(finalCriterionData, { transaction: t });
                         }
                     }
                 }
