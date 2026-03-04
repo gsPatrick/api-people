@@ -341,6 +341,42 @@ router.get('/jobs/:jobId/scorecard', async (req, res) => {
             // 2b. Busca os kits de entrevista no InHire
             const result = await fetchAvailableKitsForJob(jobId);
             if (result.success && result.kits && result.kits.length > 0) {
+                // Tenta achar configurações locais de peso/tag pra mesclar no visual antes de exibir
+                const localScorecard = await db.Scorecard.findOne({
+                    where: { jobId },
+                    include: [{ model: db.Category, as: 'categories', include: [{ model: db.Criterion, as: 'criteria' }] }]
+                });
+
+                if (localScorecard) {
+                    const localCriteriaMap = {};
+                    (localScorecard.categories || []).forEach(cat => {
+                        (cat.criteria || []).forEach(crit => {
+                            if (crit.name) localCriteriaMap[crit.name.trim()] = crit;
+                        });
+                    });
+
+                    // Injeta (Merge) os daddos locais em cada kit q voltará pro frontend
+                    result.kits.forEach(kit => {
+                        if (kit.skillCategories) {
+                            kit.skillCategories.forEach(cat => {
+                                if (cat.skills) {
+                                    cat.skills.forEach(skill => {
+                                        const localCrit = localCriteriaMap[skill.name ? skill.name.trim() : ''];
+                                        if (localCrit) {
+                                            skill.weightType = localCrit.weightType || 'normal';
+                                            skill.tag = localCrit.tag || '';
+                                            skill.embedding = localCrit.embedding || null;
+                                        } else {
+                                            skill.weightType = 'normal';
+                                            skill.tag = '';
+                                        }
+                                    });
+                                }
+                            });
+                        }
+                    });
+                }
+
                 return res.status(200).json({ source: 'INHIRE', scorecard: result.kits[0], allKits: result.kits });
             } else {
                 return res.status(200).json({ source: 'INHIRE', scorecard: null, message: 'Nenhum kit de entrevista encontrado no InHire para esta vaga.' });
