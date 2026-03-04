@@ -222,14 +222,18 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
         // Convertemos a nota de 1-5 para um range 0-100 para ser padrão universal no Front:
         const normalizedScore = parseFloat((finalMatchScore * 20).toFixed(2));
 
+        const weightLabelMap = { 1: 'Baixo', 2: 'Médio', 3: 'Alto' };
+
         // Mapear categorias e critérios com as notas já integradas para o FrontEnd/BD
         const categoriesResult = scorecard.skillCategories.map(cat => ({
             name: cat.name,
             criteria: cat.skills.map(skill => {
                 const evaluation = evaluations.find(e => e.id === skill.id) || {};
+                const critInfo = criteriaWeightsMap[skill.id] || { weight: 2 };
                 return {
                     name: skill.name,
                     weightType: skill.weightType || 'normal',
+                    weightLabel: weightLabelMap[critInfo.weight] || 'Médio',
                     tag: skill.tag || null,
                     score: evaluation.score || 0,
                     justification: evaluation.justification || ''
