@@ -110,11 +110,18 @@ export const create = async (scorecardData) => {
 export const update = async (id, scorecardData) => {
     const t = await db.sequelize.transaction();
     try {
-        const scorecard = await db.Scorecard.findByPk(id, { transaction: t });
-        if (!scorecard) throw new Error('Scorecard não encontrado.');
+        let scorecard = await db.Scorecard.findByPk(id, { transaction: t });
         const { categories, jobId, id: payloadId, ...restOfData } = scorecardData;
         const cleanJobId = (jobId && jobId.trim() !== '') ? jobId : null;
-        await scorecard.update({ ...restOfData, jobId: cleanJobId }, { transaction: t });
+
+        if (!scorecard) {
+            // Em caso de integrações externas (Inhire) mandarem um PUT com ID não registrado, atuamos como UPSERT (cria o Scorecard com esse ID)
+            log(`Scorecard ID ${id} não achado no banco. Executando criação UPSERT para integração externa.`);
+            scorecard = await db.Scorecard.create({ id, ...restOfData, jobId: cleanJobId }, { transaction: t });
+        } else {
+            // Caso contrário apenas atualiza as tabelas root
+            await scorecard.update({ ...restOfData, jobId: cleanJobId }, { transaction: t });
+        }
         await db.Category.destroy({ where: { scorecardId: id }, transaction: t });
         if (categories && categories.length > 0) {
             for (const [categoryIndex, categoryData] of categories.entries()) {
