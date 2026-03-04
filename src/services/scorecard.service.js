@@ -71,7 +71,8 @@ export const create = async (scorecardData) => {
   const t = await db.sequelize.transaction();
   try {
     const { categories, jobId, ...restOfData } = scorecardData;
-    const newScorecard = await db.Scorecard.create({ ...restOfData, jobId }, { transaction: t });
+    const cleanJobId = (jobId && jobId.trim() !== '') ? jobId : null;
+    const newScorecard = await db.Scorecard.create({ ...restOfData, jobId: cleanJobId }, { transaction: t });
 
     if (categories && categories.length > 0) {
       for (const [categoryIndex, categoryData] of categories.entries()) {
@@ -80,7 +81,8 @@ export const create = async (scorecardData) => {
         if (criteria && criteria.length > 0) {
           for (const [criterionIndex, criterionData] of criteria.entries()) {
             if (criterionData.name && criterionData.name.trim() !== '') {
-              await db.Criterion.create({ ...criterionData, categoryId: newCategory.id, order: criterionIndex }, { transaction: t });
+              const { id: critId, ...restOfCriterion } = criterionData;
+              await db.Criterion.create({ ...restOfCriterion, categoryId: newCategory.id, order: criterionIndex }, { transaction: t });
             }
           }
         }
@@ -111,7 +113,8 @@ export const update = async (id, scorecardData) => {
         const scorecard = await db.Scorecard.findByPk(id, { transaction: t });
         if (!scorecard) throw new Error('Scorecard não encontrado.');
         const { categories, jobId, id: payloadId, ...restOfData } = scorecardData;
-        await scorecard.update({ ...restOfData, jobId }, { transaction: t });
+        const cleanJobId = (jobId && jobId.trim() !== '') ? jobId : null;
+        await scorecard.update({ ...restOfData, jobId: cleanJobId }, { transaction: t });
         await db.Category.destroy({ where: { scorecardId: id }, transaction: t });
         if (categories && categories.length > 0) {
             for (const [categoryIndex, categoryData] of categories.entries()) {
@@ -120,7 +123,8 @@ export const update = async (id, scorecardData) => {
                 if (criteria && criteria.length > 0) {
                     for (const [criterionIndex, criterionData] of criteria.entries()) {
                         if (criterionData.name && criterionData.name.trim() !== '') {
-                           await db.Criterion.create({ ...criterionData, categoryId: newCategory.id, order: criterionIndex }, { transaction: t });
+                           const { id: critId, ...restOfCriterion } = criterionData;
+                           await db.Criterion.create({ ...restOfCriterion, categoryId: newCategory.id, order: criterionIndex }, { transaction: t });
                         }
                     }
                 }

@@ -1,0 +1,5 @@
+npm error Missing script: "dev"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /Users/patrickgomessiqueira/.npm/_logs/2026-03-04T21_57_49_766Z-debug-0.log
