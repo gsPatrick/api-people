@@ -175,37 +175,91 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
         const summaryResult = await generateOverallFeedback(jobDetails, profile, evaluations, weights);
         const finalResult = { evaluations, ...summaryResult };
 
-        // ETAPA 4.5: Calcular Match Score Ponderado (0-100 ou 0-5)
-        // Vamos usar base 5 para alinhar com estrelas
+        // ETAPA 4.5: Calcular Match Score Ponderado e Verificar Critérios Imprescindíveis
         let totalScore = 0;
         let totalWeight = 0;
+        let essentialFailed = false;
+        let essentialTag = null;
+        let essentialCriterion = null;
+
         const weightMap = { 1: 1, 2: 2, 3: 3 }; // Low=1, Med=2, High=3
 
+        // Mapear critérios originais para acesso fácil aos pesos e tipos
+        const criteriaWeightsMap = {};
+        scorecard.skillCategories.forEach(cat => {
+            cat.skills.forEach(skill => {
+                criteriaWeightsMap[skill.id] = {
+                    weight: weights[skill.id] || 2,
+                    weightType: skill.weightType || 'normal',
+                    tag: skill.tag || null,
+                    name: skill.name
+                };
+            });
+        });
+
         evaluations.forEach(ev => {
-            const w = weightMap[weights[ev.id] || 2] || 2;
+            const critInfo = criteriaWeightsMap[ev.id] || { weight: 2, weightType: 'normal' };
+            let w = weightMap[critInfo.weight] || 2;
+            
+            // Prioridade dobra o peso
+            if (critInfo.weightType === 'priority') {
+                w *= 2;
+            }
+
+            // Imprescindível: Se nota < 3 (ajustável), marca como falha
+            if (critInfo.weightType === 'essential' && ev.score < 3) {
+                essentialFailed = true;
+                essentialTag = critInfo.tag;
+                essentialCriterion = critInfo.name;
+            }
+
             totalScore += (ev.score * w);
             totalWeight += w;
         });
 
         const finalMatchScore = totalWeight > 0 ? (totalScore / totalWeight) : 0;
 
-
-        // ETAPA 5: Persistência Local (LocalApplication)
+        // ETAPA 5: Persistência Local (LocalApplication) com Histórico
         if (localJob) {
             const [application, created] = await db.LocalApplication.findOrCreate({
                 where: { talentId: localTalent.id, jobId: localJob.id },
                 defaults: { stage: 'Applied' }
             });
 
+            const snapshot = {
+                score: parseFloat(finalMatchScore.toFixed(2)),
+                jobName: localJob.title,
+                jobId: localJob.id,
+                evaluatedAt: new Date().toISOString(),
+                essentialFailed,
+                essentialTag,
+                essentialCriterion,
+                status: essentialFailed ? 'rejected_essential' : 'evaluated',
+                categories: scorecard.skillCategories.map(cat => ({
+                    name: cat.name,
+                    criteria: cat.skills.map(skill => {
+                        const evaluation = evaluations.find(e => e.id === skill.id) || {};
+                        return {
+                            name: skill.name,
+                            weightType: skill.weightType || 'normal',
+                            tag: skill.tag || null,
+                            score: evaluation.score || 0,
+                            justification: evaluation.justification || ''
+                        };
+                    })
+                }))
+            };
+
             await application.update({
                 matchScore: parseFloat(finalMatchScore.toFixed(2)),
-                aiReview: finalResult
+                aiReview: finalResult,
+                evaluationResult: snapshot // persistindo histórico detalhado
             });
 
             // Também atualiza o score mais recente no Talento para listagem rápida
             await localTalent.update({ matchScore: parseFloat(finalMatchScore.toFixed(2)) });
 
-            log(`PERSISTÊNCIA: Avaliação salva em LocalApplication (Score: ${finalMatchScore.toFixed(2)})`);
+            log(`PERSISTÊNCIA: Avaliação salva em LocalApplication (Score: ${finalMatchScore.toFixed(2)}, EssentialFailed: ${essentialFailed})`);
         }
 
         // Cache Legado (Manter por compatibilidade com frontend antigo se necessário)

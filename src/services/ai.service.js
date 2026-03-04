@@ -29,7 +29,7 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
     if (!relevantChunks || relevantChunks.length === 0) {
         return {
             name: criterion.name,
-            score: 1,
+            score: 0,
             justification: "Nenhuma evidência relevante encontrada no perfil para este critério específico."
         };
     }
@@ -70,11 +70,11 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
         ${limitedChunks.map((c, i) => `[Frag ${i + 1}]: ${c}`).join('\n')}
 
         **Rubrica de Avaliação (Inferência Permitida):**
-        - **5 (Excepcional):** Experiência comprovada em empresas referência (Big Tech, Unicórnios) ou cargos de alto impacto no tema.
-        - **4 (Forte):** Experiência sólida. O contexto das empresas anteriores valida a competência (ex: trabalhou com pagamentos em uma Fintech).
-        - **3 (Potencial/Investigar):** O histórico sugere capacidade, mas falta a "prova cabal" no texto. Indício forte de transferibilidade.
-        - **2 (Fraco):** A experiência parece ser em escopo muito menor ou contexto irrelevante para este critério.
-        - **1 (Ausente/Não Detectado):** Nada conecta o candidato ao tema, nem direta nem indiretamente.
+        - **90-100 (Excepcional):** Experiência comprovada em empresas referência (Big Tech, Unicórnios) ou cargos de alto impacto no tema. Domínio absoluto.
+        - **70-89 (Forte):** Experiência sólida. O contexto das empresas anteriores valida a competência de forma clara.
+        - **40-69 (Médio/Potencial):** Possui conhecimento ou o histórico sugere forte capacidade, mas lacks a "prova definitiva". Indício de transferibilidade.
+        - **10-39 (Fraco):** Experiência rasa, em escopo reduzido ou contexto pouco relevante para este critério.
+        - **0-9 (Ausente):** Nada conecta o candidato ao tema, nem direta nem indiretamente.
 
         **Protocolo de Análise (Obrigatoriamente use seu conhecimento sobre as empresas):**
         1. **Analise as Empresas:** Onde ele trabalhou? É consultoria? Produto? Banco? Startup? Isso valida o critério? (Ex: "Scale-up" require gente que trabalhou em empresa que cresceu rápido).
@@ -84,8 +84,8 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
         **Formato da Resposta JSON:**
         {
             "thinking": "Cite quais empresas do perfil ajudaram na inferência e por quê...",
-            "score": <inteiro de 1 a 5>,
-            "justification": "Resposta de nível executivo. Explique O PORQUÊ do score citando o contexto das empresas. Ex: 'Embora não cite X, sua passagem de 3 anos pelo Nubank durante o IPO valida a experiência em alta escala e regulação.'"
+            "score": <inteiro de 0 a 100>,
+            "justification": "Resposta de nível executivo. Explique O PORQUÊ do score citando o contexto das empresas."
         }
     `;
 
@@ -103,7 +103,7 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
         return {
             id: criterion.id, // Adicionado para garantir match preciso
             name: criterion.name,
-            score: result.score || 1,
+            score: result.score !== undefined ? result.score : 0,
             justification: result.justification || "Análise incompleta",
         };
     } catch (err) {
@@ -114,7 +114,7 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
         return {
             id: criterion.id, // Adicionado para fallback
             name: criterion.name,
-            score: 1,
+            score: 0,
             justification: `Erro na análise da IA: ${err.message}`
         };
     }
@@ -156,7 +156,7 @@ export const analyzeAllCriteriaInBatch = async (criteriaWithChunks, globalContex
         logError('Erro crítico na análise controlada:', err.message);
         return criteriaWithChunks.map(({ criterion }) => ({
             name: criterion.name,
-            score: 1,
+            score: 0,
             justification: "Falha na análise controlada"
         }));
     }

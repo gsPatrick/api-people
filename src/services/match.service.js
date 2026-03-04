@@ -95,7 +95,9 @@ const normalizeScorecard = (source) => {
         criteria: (cat.criteria || []).map(crit => ({
           id: crit.id,
           name: crit.name,
-          weight: crit.weight || 2
+          weight: crit.weight || 2,
+          weightType: crit.weightType || 'normal',
+          tag: crit.tag
         }))
       }))
     };
@@ -158,6 +160,8 @@ export const analyze = async (scorecardId, profileData) => {
       categoryName,
       criterion,
       weight,
+      weightType: criterion.weightType || 'normal',
+      tag: criterion.tag,
       chunks: [fullProfileText] // FULL CONTEXT MAGIC!
     }));
 
@@ -189,26 +193,46 @@ export const analyze = async (scorecardId, profileData) => {
       logError(`Erro de mapeamento: esperado ${criteriaWithChunks.length} resultados, mas recebeu ${evaluations.length}.`);
     }
 
-    criteriaWithChunks.forEach(({ categoryName, criterion, weight }, index) => {
+    let essentialFailed = false;
+    let essentialCriterion = null;
+    let essentialTag = null;
+    let essentialJustification = null;
+
+    criteriaWithChunks.forEach(({ categoryName, criterion, weight, weightType, tag }, index) => {
       let evaluation = evaluations[index];
 
       if (!evaluation || typeof evaluation.score === 'undefined') {
         evaluation = {
           name: criterion.name,
-          score: 1,
+          score: 0,
           justification: "Falha na análise da IA"
         };
       } else {
         evaluation.name = criterion.name;
-        // Ajuste no justification caso a IA cite "Fragmento 1" (estética)
         evaluation.justification = evaluation.justification.replace(/\[Frag \d+\]:?/g, '').trim();
+      }
+
+      // Adiciona metadados de peso para o frontend
+      evaluation.weightType = weightType;
+      evaluation.tag = tag;
+
+      // Lógica de Peso e Imprescindível
+      let effectiveWeight = 1;
+      if (weightType === 'priority') effectiveWeight = 2;
+      
+      // Ajuste de Threshold para Imprescindível: falha se nota for menor que 60 (escala 0-100)
+      if (weightType === 'essential' && evaluation.score < 60 && !essentialFailed) {
+          essentialFailed = true;
+          essentialCriterion = criterion.name;
+          essentialTag = tag;
+          essentialJustification = evaluation.justification;
       }
 
       const category = categoryMap.get(categoryName);
       if (category) {
         category.criteria.push(evaluation);
-        category.weightedScore += evaluation.score * weight;
-        category.totalWeight += 5 * weight;
+        category.weightedScore += evaluation.score * effectiveWeight;
+        category.totalWeight += effectiveWeight; // Agora apenas o peso absoluto
       }
     });
 
@@ -219,7 +243,7 @@ export const analyze = async (scorecardId, profileData) => {
 
     categoryMap.forEach(category => {
       const categoryScore = category.totalWeight > 0
-        ? Math.round((category.weightedScore / category.totalWeight) * 100)
+        ? Math.round(category.weightedScore / category.totalWeight)
         : 0;
 
       totalWeightedScore += category.weightedScore;
@@ -233,7 +257,7 @@ export const analyze = async (scorecardId, profileData) => {
     });
 
     const overallScore = totalWeight > 0
-      ? Math.round((totalWeightedScore / totalWeight) * 100)
+      ? Math.round(totalWeightedScore / totalWeight)
       : 0;
 
     const result = {
@@ -241,7 +265,11 @@ export const analyze = async (scorecardId, profileData) => {
       profileName: profileData.perfil?.nome || profileData.name,
       profileHeadline: profileData.perfil?.titulo || profileData.headline,
       categories: categoryResults,
-      evaluations: evaluations // Mantém a lista flat para facilitar exibição detalhada
+      evaluations: evaluations, // Mantém a lista flat para facilitar exibição detalhada
+      essentialFailed,
+      essentialCriterion,
+      essentialTag,
+      essentialJustification
     };
 
     const duration = Date.now() - startTime;

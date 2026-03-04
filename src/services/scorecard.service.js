@@ -110,7 +110,7 @@ export const update = async (id, scorecardData) => {
     try {
         const scorecard = await db.Scorecard.findByPk(id, { transaction: t });
         if (!scorecard) throw new Error('Scorecard não encontrado.');
-        const { categories, jobId, ...restOfData } = scorecardData;
+        const { categories, jobId, id: payloadId, ...restOfData } = scorecardData;
         await scorecard.update({ ...restOfData, jobId }, { transaction: t });
         await db.Category.destroy({ where: { scorecardId: id }, transaction: t });
         if (categories && categories.length > 0) {

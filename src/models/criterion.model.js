@@ -36,31 +36,33 @@ export default (sequelize) => {
     tableName: 'criteria',
     timestamps: false,
     hooks: {
-      afterSave: async (criterion, options) => {
-        // As importações dinâmicas não são mais necessárias aqui, pois o problema do ciclo foi resolvido.
-        try {
-          const textToEmbed = criterion.description || criterion.name;
-          if (textToEmbed && textToEmbed.trim() !== '') {
-            const embedding = await createEmbedding(textToEmbed);
-            if (embedding) {
-              // 1. Salva o embedding no próprio critério no PostgreSQL
-              // O { hooks: false } evita um loop infinito do 'afterSave'.
-              await criterion.update({ embedding }, { hooks: false, transaction: options.transaction });
-              
-              // 2. Sincroniza o vetor com o LanceDB
-              await addOrUpdateVector(criterion.id, embedding);
+      afterSave: (criterion, options) => {
+        // Dispara o processamento de forma assíncrona (non-blocking) para não amarrar a transação do banco de dados
+        // que pode estourar um timeout (ex: atualizar 20 critérios = 20 chamadas longas na OpenAI).
+        setTimeout(async () => {
+          try {
+            const textToEmbed = criterion.description || criterion.name;
+            if (textToEmbed && textToEmbed.trim() !== '') {
+              const embedding = await createEmbedding(textToEmbed);
+              if (embedding) {
+                // Removemos o envio da transaction atual pois ela provavelmente já concluiu
+                await criterion.update({ embedding }, { hooks: false });
+                await addOrUpdateVector(criterion.id, embedding);
+              }
             }
+          } catch (err) {
+            logError(`HOOK (afterSave): Falha ao sincronizar o critério ${criterion.id}.`, err);
           }
-        } catch (err) {
-          logError(`HOOK (afterSave): Falha ao sincronizar o critério ${criterion.id}.`, err);
-        }
+        }, 0);
       },
-      afterDestroy: async (criterion, options) => {
-        try {
-          await deleteVector(criterion.id);
-        } catch (err) {
-          logError(`HOOK (afterDestroy): Falha ao remover o critério ${criterion.id} do LanceDB.`, err);
-        }
+      afterDestroy: (criterion, options) => {
+        setTimeout(async () => {
+          try {
+            await deleteVector(criterion.id);
+          } catch (err) {
+            logError(`HOOK (afterDestroy): Falha ao remover o critério ${criterion.id} do LanceDB.`, err);
+          }
+        }, 0);
       }
     }
   });

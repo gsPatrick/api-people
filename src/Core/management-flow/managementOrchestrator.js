@@ -174,11 +174,28 @@ export const fetchTalentDetails = async (talentId) => {
                 include: [{ model: db.LocalJob, as: 'job' }]
             });
 
-            const enrichedApplications = localApps.map(app => ({
-                id: app.id,
-                jobId: app.jobId,
-                jobName: app.job ? app.job.name : 'Vaga Desconhecida',
-                status: app.status || 'Status Desconhecido'
+            const enrichedApplications = await Promise.all(localApps.map(async (app) => {
+                let jobName = app.job ? (app.job.title || app.job.name) : null;
+                
+                // Fallback 1: Se não tem job local mas tem ID externo, tenta buscar no cache/API
+                if (!jobName && (app.job?.externalId || (app.jobId && !app.jobId.includes('-')))) {
+                    const extId = app.job?.externalId || app.jobId;
+                    const jobDetails = await getJobDetails(extId);
+                    if (jobDetails) jobName = jobDetails.name || jobDetails.title;
+                }
+
+                // Fallback 2: Se tudo falhar, usa o jobName que foi salvo no snapshot da avaliação
+                if (!jobName && app.evaluationResult?.jobName) {
+                    jobName = app.evaluationResult.jobName;
+                }
+
+                return {
+                    id: app.id,
+                    jobId: app.jobId,
+                    jobName: jobName || 'Vaga Desconhecida',
+                    status: app.stage || app.status || 'Applied',
+                    evaluationResult: app.evaluationResult // Histórico da avaliação
+                };
             }));
 
             talentData.appliedJobs = enrichedApplications;
@@ -211,8 +228,8 @@ export const fetchTalentDetails = async (talentId) => {
                 return {
                     id: app.id,
                     jobId: app.id,
-                    jobName: jobDetails ? jobDetails.name : 'Vaga Desconhecida',
-                    status: app.stage?.name || 'Status Desconhecido'
+                    jobName: jobDetails ? (jobDetails.name || jobDetails.title) : 'Vaga InHire',
+                    status: app.stage?.name || 'Novo'
                 };
             })
         );
@@ -367,19 +384,27 @@ export const fetchAllTalents = async (pageParam, limitParam, filters = {}) => {
             ];
         }
 
-        // Filtro de jobId (se necessário no futuro para listar talentos de uma vaga específica na visão geral)
-        // Nota: Para "Kanban" de vaga, usamos fetchCandidatesForJob. Aqui é o Banco de Talentos geral.
-        // Se quisermos filtrar por vaga aqui, precisaríamos de include no LocalApplication.
+        // Filtro de jobId (Filtrar talentos que se candidataram a uma vaga específica)
+        if (filters.jobId) {
+            // Usamos um subquery ou include para filtrar talentos associados a essa vaga
+            whereClause['$applications.jobId$'] = filters.jobId;
+        }
+
+        // Filtro de Data (Período)
+        if (filters.startDate || filters.endDate) {
+            whereClause.createdAt = {};
+            if (filters.startDate) whereClause.createdAt[Op.gte] = new Date(filters.startDate);
+            if (filters.endDate) whereClause.createdAt[Op.lte] = new Date(filters.endDate);
+        }
 
         // Filtro de Score Mínimo
         if (filters.minScore) {
             whereClause.matchScore = { [Op.gte]: parseFloat(filters.minScore) };
         }
 
-        // Opcional: Esconder REJECTED por padrão se não solicitado explicitamente?
-        // O frontend pode passar filters.status para controlar.
+        // Filtro de Status da Candidatura
         if (filters.status) {
-            whereClause.status = filters.status;
+            whereClause['$applications.stage$'] = { [Op.iLike]: filters.status };
         }
 
         const { count, rows } = await db.LocalTalent.findAndCountAll({
@@ -387,19 +412,56 @@ export const fetchAllTalents = async (pageParam, limitParam, filters = {}) => {
             limit: limit,
             offset: offset,
             order: [
-                ['matchScore', 'DESC'], // Melhor match primeiro
-                ['createdAt', 'DESC']   // Mais recentes como desempate
+                ['matchScore', 'DESC'],
+                ['createdAt', 'DESC']
             ],
-            // O frontend espera objetos planos, mas o Sequelize retorna instâncias.
-            // .toJSON() ou raw: true ajuda, mas aqui retornamos as instâncias e o serializer do Express lida.
+            include: [{
+                model: db.LocalApplication,
+                as: 'applications',
+                required: filters.jobId || filters.status ? true : false,
+                include: [{ model: db.LocalJob, as: 'job' }]
+            }],
+            distinct: true // Evita duplicatas ao fazer join com candidaturas
         });
 
         const totalPages = Math.ceil(count / limit);
 
+        // Enriquecer talentos com informações de vaga e etapa para a listagem
+        const enrichedTalents = await Promise.all(rows.map(async (talent) => {
+            const raw = talent.get({ plain: true });
+            const primaryApp = raw.applications && raw.applications.length > 0 ? raw.applications[0] : null;
+            
+            let jobName = null;
+            if (primaryApp) {
+                jobName = primaryApp.job ? (primaryApp.job.title || primaryApp.job.name) : null;
+                
+                // Fallback 1: ID externo
+                if (!jobName && (primaryApp.job?.externalId || (primaryApp.jobId && !primaryApp.jobId.includes('-')))) {
+                    const extId = primaryApp.job?.externalId || primaryApp.jobId;
+                    try {
+                        const jobDetails = await getJobDetails(extId);
+                        if (jobDetails) jobName = jobDetails.name || jobDetails.title;
+                    } catch (e) { /* ignore */ }
+                }
+
+                // Fallback 2: evaluationResult
+                if (!jobName && primaryApp.evaluationResult?.jobName) {
+                    jobName = primaryApp.evaluationResult.jobName;
+                }
+            }
+
+            return {
+                ...raw,
+                primaryJobName: jobName || (primaryApp ? 'Vaga s/ nome' : 'Sem vaga'),
+                lastStatus: primaryApp ? (primaryApp.stage || primaryApp.status || 'Applied') : 'New',
+                matchScore: raw.matchScore || (primaryApp ? primaryApp.matchScore : 0)
+            };
+        }));
+
         return {
             success: true,
             data: {
-                talents: rows, // Array de LocalTalent
+                talents: enrichedTalents, // Array enriquecido
                 currentPage: page,
                 totalPages: totalPages > 0 ? totalPages : 1,
                 totalTalents: count
@@ -443,6 +505,37 @@ export const handleUpdateCustomFieldsForApplication = async (applicationId, cust
 
     } catch (err) {
         error("Erro em handleUpdateCustomFieldsForApplication:", err.message);
+        return { success: false, error: err.message };
+    }
+};
+
+/**
+ * Adiciona um talento existente a uma nova vaga local.
+ */
+export const handleAddTalentToJob = async (talentId, jobId) => {
+    log(`--- ORQUESTRADOR: Adicionando talento ${talentId} à vaga ${jobId} ---`);
+    try {
+        if (!talentId || !jobId) {
+            throw new Error("talentId e jobId são obrigatórios.");
+        }
+
+        const [application, created] = await db.LocalApplication.findOrCreate({
+            where: { talentId, jobId },
+            defaults: { 
+                stage: 'Applied',
+                status: 'ACTIVE'
+            }
+        });
+
+        if (!created) {
+            return { success: false, message: "Este talento já está inscrito nesta vaga.", application };
+        }
+
+        log(`[ADD_TO_JOB] Sucesso: Talento vinculado à vaga.`);
+        return { success: true, application };
+
+    } catch (err) {
+        error("Erro em handleAddTalentToJob:", err.message);
         return { success: false, error: err.message };
     }
 };

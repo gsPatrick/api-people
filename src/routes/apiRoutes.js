@@ -24,7 +24,8 @@ import {
     fetchTalentDetails,
     fetchCustomFields,
     fetchCandidateDetailsForJobContext,
-    handleUpdateCustomFieldsForApplication
+    handleUpdateCustomFieldsForApplication,
+    handleAddTalentToJob
 } from '../Core/management-flow/managementOrchestrator.js';
 import {
     fetchScorecardDataForApplication,
@@ -217,6 +218,15 @@ router.get('/talents/:id', async (req, res) => {
     const result = await fetchTalentDetails(id);
     if (result.success) res.status(200).json(result);
     else res.status(404).json({ error: result.error });
+});
+
+router.post('/talents/:id/add-to-job', async (req, res) => {
+    const { id } = req.params;
+    const { jobId } = req.body;
+    if (!jobId) return res.status(400).json({ error: 'O campo "jobId" é obrigatório.' });
+    const result = await handleAddTalentToJob(id, jobId);
+    if (result.success) res.status(200).json(result);
+    else res.status(500).json({ error: result.error });
 });
 
 router.patch('/talents/:id', async (req, res) => {
