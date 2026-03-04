@@ -296,6 +296,51 @@ router.get('/jobs/:jobId/interview-kits', async (req, res) => {
     else res.status(500).json({ error: result.error });
 });
 
+// --- ROTA UNIFICADA DE SCORECARD POR VAGA ---
+router.get('/jobs/:jobId/scorecard', async (req, res) => {
+    const { jobId } = req.params;
+    try {
+        const { default: db } = await import('../models/index.js');
+        
+        // 1. Verifica se a vaga é local ou InHire
+        const localJob = await db.LocalJob.findByPk(jobId);
+        const source = localJob?.source || 'INHIRE';
+
+        if (source === 'LOCAL') {
+            // 2a. Busca o scorecard local vinculado a essa vaga
+            const scorecard = await db.Scorecard.findOne({
+                where: { jobId },
+                include: [
+                    { model: db.Category, as: 'categories', include: [{ model: db.Criterion, as: 'criteria' }] }
+                ]
+            });
+            if (scorecard) {
+                const plain = scorecard.get({ plain: true });
+                // Ordena categorias e critérios
+                if (plain.categories) {
+                    plain.categories.sort((a, b) => a.order - b.order);
+                    plain.categories.forEach(cat => {
+                        if (cat.criteria) cat.criteria.sort((a, b) => a.order - b.order);
+                    });
+                }
+                return res.status(200).json({ source: 'LOCAL', scorecard: plain });
+            } else {
+                return res.status(200).json({ source: 'LOCAL', scorecard: null, message: 'Nenhum scorecard vinculado a esta vaga local.' });
+            }
+        } else {
+            // 2b. Busca os kits de entrevista no InHire
+            const result = await fetchAvailableKitsForJob(jobId);
+            if (result.success && result.kits && result.kits.length > 0) {
+                return res.status(200).json({ source: 'INHIRE', scorecard: result.kits[0], allKits: result.kits });
+            } else {
+                return res.status(200).json({ source: 'INHIRE', scorecard: null, message: 'Nenhum kit de entrevista encontrado no InHire para esta vaga.' });
+            }
+        }
+    } catch (err) {
+        res.status(500).json({ error: `Erro ao buscar scorecard: ${err.message}` });
+    }
+});
+
 router.post('/submit-scorecard', async (req, res) => {
     const result = await handleScorecardSubmission(req.body.applicationId, req.body.scorecardId, req.body.evaluationData);
     if (result.success) res.status(200).json(result.submission);
