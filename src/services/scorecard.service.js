@@ -137,7 +137,7 @@ export const update = async (id, scorecardData) => {
     } catch (err) {
         await t.rollback();
         logError(`Erro ao atualizar scorecard ${id}:`, err.message);
-        throw new Error('Falha ao atualizar o scorecard. A transação foi revertida.');
+        throw new Error(`Falha ao atualizar o scorecard. A transação foi revertida. Detalhe do banco: ${err.message}`);
     }
 };
 
