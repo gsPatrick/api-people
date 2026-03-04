@@ -206,8 +206,8 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
                 w *= 2;
             }
 
-            // Imprescindível: Se nota < 3 (ajustável), marca como falha
-            if (critInfo.weightType === 'essential' && ev.score < 3) {
+            // Imprescindível: Base 100 agora - Se nota < 50 (ajustável), marca como falha
+            if (critInfo.weightType === 'essential' && ev.score < 50) {
                 essentialFailed = true;
                 essentialTag = critInfo.tag;
                 essentialCriterion = critInfo.name;
@@ -219,8 +219,8 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
 
         const finalMatchScore = totalWeight > 0 ? (totalScore / totalWeight) : 0;
 
-        // Convertemos a nota de 1-5 para um range 0-100 para ser padrão universal no Front:
-        const normalizedScore = parseFloat((finalMatchScore * 20).toFixed(2));
+        // A nota final já está na escala 0-100, mantemos a proporcionalidade e arredondamos
+        const normalizedScore = parseFloat(finalMatchScore.toFixed(2));
 
         const weightLabelMap = { 1: 'Baixo', 2: 'Médio', 3: 'Alto' };
 

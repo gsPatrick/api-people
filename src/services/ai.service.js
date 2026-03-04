@@ -77,9 +77,10 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
         - **0-9 (Ausente):** Nada conecta o candidato ao tema, nem direta nem indiretamente.
 
         **Protocolo de Análise (Obrigatoriamente use seu conhecimento sobre as empresas):**
-        1. **Analise as Empresas:** Onde ele trabalhou? É consultoria? Produto? Banco? Startup? Isso valida o critério? (Ex: "Scale-up" require gente que trabalhou em empresa que cresceu rápido).
-        2. **Analise o Tempo de Casa:** Ficou 5 anos promovido 3x? É sinal de alta performance (Soft Skills, Entrega).
-        3. **Conecte os Pontos:** Se o critério é "Inglês Avançado" e ele trabalhou em multinacional reportando pra fora, o score é alto (Inferência).
+        1. **Analise as Empresas:** Onde ele trabalhou? É consultoria? Produto? Banco? Startup? Isso valida o critério?
+        2. **Analise o Tempo de Casa:** Ficou 5 anos promovido 3x? É sinal de alta performance.
+        3. **Conecte os Pontos:** Use inferência ativamente.
+        4. **Nota Mínima Estrita:** Se as evidências estiverem completamente ausentes para passar, ou houver extrema falta de dados, você DEVE retornar no mínimo uma nota *10* para designar "fracasso" da entrevista. Retorne *0* APENAS em caso excepcional de erro/recusa não tratável do currículo. Toda nota é de 0 a 100 em blocos redondos de dezenos de preferência (10, 20, 30... 100).
 
         **Formato da Resposta JSON:**
         {
