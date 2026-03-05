@@ -112,7 +112,6 @@ export const syncProfileFromLinkedIn = async (talentId) => {
 // =================================================================================
 // FUNÇÃO PRINCIPAL MODIFICADA PARA ORQUESTRAR ANÁLISE E CACHE (DO CÓDIGO 02)
 // =================================================================================
-import db from '../../models/index.js';
 // const { LocalTalent, LocalApplication, LocalJob } = db; // REMOVIDO: Destruturação no topo causa undefined
 
 export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard, weights) => {
