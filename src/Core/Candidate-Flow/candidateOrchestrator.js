@@ -136,7 +136,7 @@ export const handleConfirmCreation = async (talentData, jobId, externalMatchData
     const [application, created] = await db.LocalApplication.findOrCreate({
       where: { jobId, talentId: localTalent.id },
       defaults: {
-        stage: 'Applied',
+        stage: talentData.status === 'REJECTED' ? 'REJECTED' : 'Applied',
         matchScore: matchData?.result?.overallScore || 0,
         aiReview: matchData?.result || null
       }
@@ -146,11 +146,17 @@ export const handleConfirmCreation = async (talentData, jobId, externalMatchData
       log(`✅ Nova LocalApplication criada para a vaga ${jobId}`);
     } else {
       log(`ℹ️ LocalApplication já existia para vaga ${jobId}. Atualizando match se necessário.`);
+      const updateData = {};
       if (matchData && matchData.result) {
-        await application.update({
-          matchScore: matchData.result.overallScore,
-          aiReview: matchData.result
-        });
+        updateData.matchScore = matchData.result.overallScore;
+        updateData.aiReview = matchData.result;
+      }
+      if (talentData.status === 'REJECTED') {
+        updateData.stage = 'REJECTED';
+      }
+      
+      if (Object.keys(updateData).length > 0) {
+        await application.update(updateData);
       }
     }
 

@@ -2,6 +2,7 @@ import { analyzeAllCriteriaInBatch } from './ai.service.js';
 import { log, error as logError } from '../utils/logger.service.js';
 import { findById as findLocalScorecardById } from './scorecard.service.js';
 import { fetchInterviewKitDetails } from '../Core/Evaluation-Flow/evaluationOrchestrator.js';
+import db from '../models/index.js'; // Adicionado para enriquecimento
 
 // Função para converter o perfil estruturado em um texto rico e legível para a IA
 const formatProfileToText = (profileData) => {
@@ -65,8 +66,15 @@ const sortChildrenInMemory = (data) => {
   }
 };
 
+const normalizeName = (name) => {
+    if (!name) return '';
+    return name.trim().toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
+};
+
 // Normalização para unificar InHire Kit, Kit Virtual e Scorecard Local
-const normalizeScorecard = (source) => {
+const normalizeScorecard = (source, getEnrichment = null) => {
   if (!source) return null;
 
   // Se for estrutura de Kit vinda do orquestrador (skillCategories)
@@ -76,11 +84,16 @@ const normalizeScorecard = (source) => {
       name: source.name,
       categories: source.skillCategories.map(cat => ({
         name: cat.name,
-        criteria: (cat.skills || []).map(skill => ({
-          id: skill.id,
-          name: skill.name,
-          weight: source.weights?.[skill.id] || 2
-        }))
+        criteria: (cat.skills || []).map(skill => {
+          const enrich = getEnrichment ? getEnrichment(skill.name) : {};
+          return {
+            id: skill.id,
+            name: skill.name,
+            weight: source.weights?.[skill.id] || 2,
+            weightType: enrich.weightType || 'normal',
+            tag: enrich.tag || null
+          };
+        })
       }))
     };
   }
@@ -106,20 +119,17 @@ const normalizeScorecard = (source) => {
   return null;
 };
 
-export const analyze = async (scorecardId, profileData) => {
+export const analyze = async (scorecardId, profileData, jobId = null) => {
   const startTime = Date.now();
-  log(`Iniciando análise FULL CONTEXT para o scorecard/kit: ${scorecardId}`);
+  log(`Iniciando análise FULL CONTEXT para o scorecard/kit: ${scorecardId} (Job: ${jobId})`);
 
   try {
     // 1. Busca scorecard ou kit unificado via orquestrador
     let source = null;
-
-    // Tenta primeiro via orquestrador (Kits InHire e Virtuais)
     const kitResult = await fetchInterviewKitDetails(scorecardId);
     if (kitResult.success && kitResult.kit) {
       source = kitResult.kit;
     } else {
-      // Fallback para Scorecard Local
       source = await findLocalScorecardById(scorecardId);
     }
 
@@ -129,7 +139,46 @@ export const analyze = async (scorecardId, profileData) => {
       throw err;
     }
 
-    const scorecard = normalizeScorecard(source);
+    // 1.5. Busca Enriquecimento Local (Campos personalizados que a InHire não tem)
+    const enrichmentMap = {};
+    try {
+        const localSC = await db.Scorecard.findOne({
+            where: {
+                [db.Sequelize.Op.or]: [
+                    { jobId: jobId || null }, // Prioridade total se vier o jobId
+                    { id: typeof scorecardId === 'string' && scorecardId.length > 20 ? scorecardId : null }, // Apenas se for UUID
+                    { externalId: String(scorecardId) }
+                ].filter(Boolean)
+            },
+            include: [{
+                model: db.Category,
+                as: 'categories',
+                include: [{ model: db.Criterion, as: 'criteria' }]
+            }]
+        });
+
+        if (localSC) {
+            (localSC.categories || []).forEach(cat => {
+                (cat.criteria || []).forEach(crit => {
+                    const norm = normalizeName(crit.name);
+                    enrichmentMap[norm] = {
+                        weightType: crit.weightType,
+                        tag: crit.tag
+                    };
+                });
+            });
+        }
+    } catch (e) {
+        log(`Aviso: Falha ao buscar enriquecimento local: ${e.message}`);
+    }
+
+    // Função interna para buscar no map de forma robusta
+    const getEnrichedData = (name) => {
+        const norm = normalizeName(name);
+        return enrichmentMap[norm] || {};
+    };
+
+    const scorecard = normalizeScorecard(source, getEnrichedData);
     if (!scorecard) {
       throw new Error('Falha ao processar a estrutura do scorecard/kit.');
     }
@@ -217,8 +266,9 @@ export const analyze = async (scorecardId, profileData) => {
       evaluation.tag = tag;
 
       // Lógica de Peso e Imprescindível
-      let effectiveWeight = 1;
-      if (weightType === 'priority') effectiveWeight = 2;
+      let baseWeight = weight || 2; // Default para médio (2)
+      let effectiveWeight = baseWeight;
+      if (weightType === 'priority') effectiveWeight = baseWeight * 2;
       
       // Ajuste de Threshold para Imprescindível: falha se nota for menor que 60 (escala 0-100)
       if (weightType === 'essential' && evaluation.score < 60 && !essentialFailed) {

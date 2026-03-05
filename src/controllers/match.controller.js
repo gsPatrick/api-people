@@ -8,6 +8,7 @@ import { log, error as logError } from '../utils/logger.service.js';
  */
 export const analyzeProfile = async (req, res) => {
   const { scorecardId } = req.params;
+  const { jobId } = req.body; // Aceita jobId no corpo da requisição
   const profileData = req.body;
 
   if (!scorecardId) return res.status(400).json({ message: 'O ID do Scorecard é obrigatório.' });
@@ -15,9 +16,10 @@ export const analyzeProfile = async (req, res) => {
 
   // <-- MUDANÇA: O try...catch agora está aqui, envolvendo a chamada do serviço.
   try {
-    log(`CONTROLLER: Iniciando chamada de serviço para o scorecard: ${scorecardId}`);
+    log(`CONTROLLER: Iniciando chamada de serviço para o scorecard: ${scorecardId} (Job: ${jobId})`);
     
-    const matchResult = await matchService.analyze(scorecardId, profileData);
+    // Passa o jobId como terceiro argumento
+    const matchResult = await matchService.analyze(scorecardId, profileData, jobId);
     
     res.status(200).json(matchResult);
 

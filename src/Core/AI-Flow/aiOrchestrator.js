@@ -13,10 +13,18 @@ import { setEvaluationToCache } from '../../services/aiEvaluationCache.service.j
 // import { createEmbeddings } from '../../services/embedding.service.js'; // REMOVIDO: Full Context
 // import { createProfileVectorTable, dropProfileVectorTable } from '../../services/vector.service.js'; // REMOVIDO: Full Context
 import { analyzeAllCriteriaInBatch } from '../../services/ai.service.js';
+import db from '../../models/index.js'; // Adicionado para enriquecimento de pesos
 
 const OPENAI_API_URL = 'https://api.openai.com/v1/chat/completions';
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
+
+const normalizeName = (name) => {
+    if (!name) return '';
+    return name.trim().toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
+};
 
 
 // Função para converter o perfil estruturado em um texto rico e legível para a IA
@@ -184,6 +192,39 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
 
         const weightMap = { 1: 1, 2: 2, 3: 3 }; // Low=1, Med=2, High=3
 
+
+        // ETAPA 4.6: Enriquecer com Pesos Locais (Caso venha de um Kit InHire externo)
+        const enrichmentMap = {};
+        if (scorecard.skillCategories && !scorecard.categories) {
+            try {
+                log(`DEBUG AI ORCH: Enriquecendo pesos para kit ${scorecard.id}`);
+                const localSC = await db.Scorecard.findOne({
+                    where: {
+                        [db.Sequelize.Op.or]: [
+                            { jobId: localJob ? localJob.id : null }, // Busca pela vaga local vinculada
+                            { id: typeof scorecard.id === 'string' && scorecard.id.length > 20 ? scorecard.id : null },
+                            { externalId: String(scorecard.id) }
+                        ].filter(Boolean)
+                    },
+                    include: [{ model: db.Category, as: 'categories', include: [{ model: db.Criterion, as: 'criteria' }] }]
+                });
+
+                if (localSC) {
+                    (localSC.categories || []).forEach(cat => {
+                        (cat.criteria || []).forEach(crit => {
+                            const norm = normalizeName(crit.name);
+                            enrichmentMap[norm] = {
+                                weightType: crit.weightType,
+                                tag: crit.tag
+                            };
+                        });
+                    });
+                }
+            } catch (e) {
+                log(`Erro no enriquecimento de pesos: ${e.message}`);
+            }
+        }
+
         // Mapear critérios originais para acesso fácil aos pesos e tipos
         const criteriaWeightsMap = {};
         const categories = scorecard.categories || scorecard.skillCategories || [];
@@ -191,10 +232,12 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
         categories.forEach(cat => {
             const skills = cat.criteria || cat.skills || [];
             skills.forEach(skill => {
+                const norm = normalizeName(skill.name);
+                const enrich = enrichmentMap[norm] || {};
                 criteriaWeightsMap[skill.id] = {
                     weight: weights[skill.id] || 2,
-                    weightType: skill.weightType || 'normal',
-                    tag: skill.tag || null,
+                    weightType: skill.weightType || enrich.weightType || 'normal',
+                    tag: skill.tag || enrich.tag || null,
                     name: skill.name
                 };
             });
