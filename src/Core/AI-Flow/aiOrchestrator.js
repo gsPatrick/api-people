@@ -186,8 +186,11 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
 
         // Mapear critérios originais para acesso fácil aos pesos e tipos
         const criteriaWeightsMap = {};
-        scorecard.skillCategories.forEach(cat => {
-            cat.skills.forEach(skill => {
+        const categories = scorecard.categories || scorecard.skillCategories || [];
+        
+        categories.forEach(cat => {
+            const skills = cat.criteria || cat.skills || [];
+            skills.forEach(skill => {
                 criteriaWeightsMap[skill.id] = {
                     weight: weights[skill.id] || 2,
                     weightType: skill.weightType || 'normal',
@@ -225,21 +228,24 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
         const weightLabelMap = { 1: 'Baixo', 2: 'Médio', 3: 'Alto' };
 
         // Mapear categorias e critérios com as notas já integradas para o FrontEnd/BD
-        const categoriesResult = scorecard.skillCategories.map(cat => ({
-            name: cat.name,
-            criteria: cat.skills.map(skill => {
-                const evaluation = evaluations.find(e => e.id === skill.id) || {};
-                const critInfo = criteriaWeightsMap[skill.id] || { weight: 2 };
-                return {
-                    name: skill.name,
-                    weightType: skill.weightType || 'normal',
-                    weightLabel: weightLabelMap[critInfo.weight] || 'Médio',
-                    tag: skill.tag || null,
-                    score: evaluation.score || 0,
-                    justification: evaluation.justification || ''
-                };
-            })
-        }));
+        const categoriesResult = categories.map(cat => {
+            const skills = cat.criteria || cat.skills || [];
+            return {
+                name: cat.name,
+                criteria: skills.map(skill => {
+                    const evaluation = evaluations.find(e => e.id === skill.id) || {};
+                    const critInfo = criteriaWeightsMap[skill.id] || { weight: 2 };
+                    return {
+                        name: skill.name,
+                        weightType: skill.weightType || 'normal',
+                        weightLabel: weightLabelMap[critInfo.weight] || 'Médio',
+                        tag: skill.tag || null,
+                        score: evaluation.score !== undefined ? evaluation.score : 0,
+                        justification: evaluation.justification || ''
+                    };
+                })
+            };
+        });
 
         // Injetar detalhamento na resposta final que será retornada à API
         finalResult.categories = categoriesResult;
