@@ -209,6 +209,7 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
                 });
 
                 if (localSC) {
+                    log(`DEBUG AI ORCH: LocalScorecard encontrado: ${localSC.id}`);
                     (localSC.categories || []).forEach(cat => {
                         (cat.criteria || []).forEach(crit => {
                             const norm = normalizeName(crit.name);
@@ -218,6 +219,9 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
                             };
                         });
                     });
+                    log(`DEBUG AI ORCH: enrichmentMap gerado com ${Object.keys(enrichmentMap).length} itens`);
+                } else {
+                     log(`DEBUG AI ORCH: LocalScorecard NÃO encontrado para ${scorecard.id}`);
                 }
             } catch (e) {
                 log(`Erro no enriquecimento de pesos: ${e.message}`);
@@ -239,11 +243,17 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
                     tag: skill.tag || enrich.tag || null,
                     name: skill.name
                 };
+                log(`DEBUG AI ORCH: Critério "${skill.name}" (ID: ${skill.id}) -> WeightType: ${criteriaWeightsMap[skill.id].weightType}`);
             });
         });
 
         evaluations.forEach(ev => {
             const critInfo = criteriaWeightsMap[ev.id] || { weight: 2, weightType: 'normal' };
+            
+            // Adiciona metadados para o frontend exibir corretamente
+            ev.weightType = critInfo.weightType;
+            ev.tag = critInfo.tag;
+
             let w = weightMap[critInfo.weight] || 2;
             
             // Prioridade dobra o peso
