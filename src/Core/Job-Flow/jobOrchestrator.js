@@ -273,7 +273,7 @@ export const fetchPaginatedJobs = async (page = 1, limit = 10, status = 'open') 
 };
 
 export const fetchAvailableAreas = async () => {
-    log("--- ORQUESTRADOR: Extraindo áreas disponíveis do cache/API ---");
+    // log("--- ORQUESTRADOR: Extraindo áreas disponíveis do cache/API ---");
     try {
         let jobsToExtractFrom = getFromCache(JOBS_CACHE_KEY) || [];
         
@@ -308,7 +308,7 @@ export const fetchAvailableAreas = async () => {
 
 // Esta função continua sendo usada pelo processo de sync em segundo plano
 export const fetchAllJobsWithDetails = async () => {
-    log("--- ORQUESTRADOR (SYNC): Buscando e enriquecendo todas as vagas ---");
+    // log("--- ORQUESTRADOR (SYNC): Buscando e enriquecendo todas as vagas ---");
     try {
         const allJobs = await getAllJobs();
         if (!allJobs) {

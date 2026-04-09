@@ -92,7 +92,7 @@ export const create = async (scorecardData) => {
     
     // <-- MUDANÇA 2: Invalidar apenas o cache geral, não os individuais.
     clearCache(ALL_SCORECARDS_CACHE_KEY);
-    log(`Cache de scorecards invalidado após a criação de '${newScorecard.name}'.`);
+    // log(`Cache de scorecards invalidado após a criação de '${newScorecard.name}'.`);
     
     // <-- MUDANÇA 3: A função `findById` agora vai buscar do DB e AUTOMATICAMENTE popular o cache para o novo ID.
     return findById(newScorecard.id);
@@ -142,7 +142,7 @@ export const update = async (id, scorecardData) => {
 
         if (!scorecard) {
             // Em caso de integrações externas (Inhire) mandarem um PUT com ID não registrado, atuamos como UPSERT (cria o Scorecard com esse ID)
-            log(`Scorecard ID ${id} não achado no banco. Executando criação UPSERT para integração externa.`);
+            // log(`Scorecard ID ${id} não achado no banco. Executando criação UPSERT para integração externa.`);
             scorecard = await db.Scorecard.create({ id, ...restOfData, jobId: cleanJobId }, { transaction: t });
         } else {
             // Caso contrário apenas atualiza as tabelas root
@@ -176,7 +176,7 @@ export const update = async (id, scorecardData) => {
         }
         await t.commit();
         clearCacheByPrefix(SCORECARDS_CACHE_PREFIX);
-        log(`Cache de scorecards invalidado após a atualização de '${scorecard.name}'.`);
+        // log(`Cache de scorecards invalidado após a atualização de '${scorecard.name}'.`);
         return findById(id);
     } catch (err) {
         await t.rollback();
@@ -195,7 +195,7 @@ export const remove = async (id) => {
         await scorecard.destroy({ transaction: t });
         await t.commit();
         clearCacheByPrefix(SCORECARDS_CACHE_PREFIX);
-        log(`Cache de scorecards invalidado após a remoção do scorecard ${id}.`);
+        // log(`Cache de scorecards invalidado após a remoção do scorecard ${id}.`);
         return true;
     } catch (err) {
         await t.rollback();

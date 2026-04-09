@@ -12,7 +12,7 @@ const API_BASE_URL = 'https://api.inhire.app';
  * @returns {Promise<Array<object>|null>} Uma lista de definições de campos personalizados.
  */
 export const getCustomFieldsForEntity = async (entity) => {
-    log(`--- SERVIÇO: Buscando campos personalizados para a entidade: ${entity} ---`);
+    // log(`--- SERVIÇO: Buscando campos personalizados para a entidade: ${entity} ---`);
     try {
         // CORREÇÃO: O caminho da URL foi corrigido para corresponder à documentação,
         // removendo o "/custom-fields" duplicado.

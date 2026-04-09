@@ -14,11 +14,11 @@ const TALENTS_CACHE_KEY = 'all_talents';
 
 export const fetchCandidatesForJob = async (jobId) => {
     const CACHE_KEY = `candidates_for_job_${jobId}`;
-    log(`--- ORQUESTRADOR: Buscando candidaturas para a vaga ${jobId} ---`);
+    // log(`--- ORQUESTRADOR: Buscando candidaturas para a vaga ${jobId} ---`);
 
     try {
         // 1. Buscar Candidaturas LOCAIS primeiro
-        log(`[CANDIDATES] Buscando candidaturas locais para vaga ${jobId}...`);
+        // log(`[CANDIDATES] Buscando candidaturas locais para vaga ${jobId}...`);
         const localApps = await db.LocalApplication.findAll({
             where: { jobId },
             include: [{ model: db.LocalTalent, as: 'talent' }]
@@ -328,7 +328,7 @@ export const fetchCandidateDetailsForJobContext = async (jobId, talentId) => {
 };
 
 export const fetchAllTalentsForSync = async () => {
-    log("--- ORQUESTRADOR (SYNC): Buscando TODOS os talentos com paginação interna ---");
+    // log("--- ORQUESTRADOR (SYNC): Buscando TODOS os talentos com paginação interna ---");
     try {
         let allTalents = [];
         let hasMorePages = true;
@@ -348,7 +348,7 @@ export const fetchAllTalentsForSync = async () => {
                 hasMorePages = false;
             }
         }
-        log(`--- ORQUESTRADOR (SYNC): Busca completa. Total de ${allTalents.length} talentos carregados.`);
+        // log(`--- ORQUESTRADOR (SYNC): Busca completa. Total de ${allTalents.length} talentos carregados.`);
         return { success: true, talents: allTalents };
     } catch (err) {
         error("Erro em fetchAllTalentsForSync:", err.message);

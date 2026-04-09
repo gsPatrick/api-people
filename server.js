@@ -33,15 +33,15 @@ export const initializeDatabase = async () => {
     log('--- INICIALIZAÇÃO DO BANCO DE DADOS (PostgreSQL + Sequelize) ---');
     try {
         await sequelize.authenticate();
-        log('✅ Conexão com o PostgreSQL estabelecida com sucesso.');
+        // log('✅ Conexão com o PostgreSQL estabelecida com sucesso.');
 
         log('Carregando models dinamicamente...');
         await initializeModels(); // <-- CHAMADA EXPLÍCITA
-        log('✅ Models carregados.');
+        // log('✅ Models carregados.');
 
         log('Sincronizando models com o banco de dados (force: false)...');
         await sequelize.sync({ force: false });
-        log('✅ Models sincronizados com sucesso (tabelas recriadas/atualizadas).');
+        // log('✅ Models sincronizados com sucesso (tabelas recriadas/atualizadas).');
     } catch (err) {
         logError('Falha crítica ao inicializar o banco de dados PostgreSQL:', { message: err.message, stack: err.stack });
         process.exit(1);
@@ -54,20 +54,20 @@ const syncJobs = () => syncEntityCache(JOBS_CACHE_KEY, fetchAllJobsWithDetails);
 const syncTalents = () => syncEntityCache(TALENTS_CACHE_KEY, fetchAllTalentsForSync);
 
 const prefetchAllCandidates = async () => {
-    log('--- PREFETCH WORKER: Iniciando pré-carregamento de candidatos InHire (em segundo plano) ---');
+    // log('--- PREFETCH WORKER: Iniciando pré-carregamento de candidatos InHire (em segundo plano) ---');
     const allJobs = getFromCache(JOBS_CACHE_KEY);
     if (!allJobs || allJobs.length === 0) {
         logError('PREFETCH WORKER: Não há vagas no cache para buscar candidatos. Pulando.');
         return;
     }
-    log(`PREFETCH WORKER: Encontradas ${allJobs.length} vagas. Buscando candidatos...`);
+    // log(`PREFETCH WORKER: Encontradas ${allJobs.length} vagas. Buscando candidatos...`);
     const concurrencyLimit = 5;
     const batches = _.chunk(allJobs, concurrencyLimit);
     for (const batch of batches) {
         await Promise.all(batch.map(job => fetchCandidatesForJob(job.id)));
-        log(`PREFETCH WORKER: Lote de ${batch.length} vagas processado.`);
+        // log(`PREFETCH WORKER: Lote de ${batch.length} vagas processado.`);
     }
-    log('--- PREFETCH WORKER: Pré-carregamento de candidatos concluído. ---');
+    // log('--- PREFETCH WORKER: Pré-carregamento de candidatos concluído. ---');
 };
 
 const seedAdminUser = async () => {
@@ -82,13 +82,13 @@ const seedAdminUser = async () => {
                 password: 'senhasuperdificil',
                 role: 'admin'
             });
-            log('✅ Usuário admin criado com sucesso.');
+            // log('✅ Usuário admin criado com sucesso.');
         } catch (err) {
             logError('Falha crítica ao criar o usuário admin:', err.message);
             process.exit(1);
         }
     } else {
-        log('Usuário admin já existe.');
+        // log('Usuário admin já existe.');
     }
 };
 
@@ -103,13 +103,13 @@ const startServer = async () => {
 
     try {
         // --- ETAPA 1: INICIALIZAÇÃO DAS BASES DE DADOS ---
-        log('ETAPA 1: Conectando e sincronizando bancos de dados...');
+        // log('ETAPA 1: Conectando e sincronizando bancos de dados...');
         await initializeDatabase();
         // await initializeVectorDB(); // DESATIVADO: Full Context Mode
-        log('✅ Bancos de dados (PostgreSQL Relacional) prontos.');
+        // log('✅ Bancos de dados (PostgreSQL Relacional) prontos.');
 
         // --- ETAPA 2: AUTENTICAÇÃO E PREPARAÇÃO DE SERVIÇOS ---
-        log('ETAPA 2: Configurando serviços e autenticação...');
+        // log('ETAPA 2: Configurando serviços e autenticação...');
         initializeSessionService(memoryStorageAdapter);
         initializeAuthStorage(memoryStorageAdapter);
         await seedAdminUser();
@@ -117,39 +117,39 @@ const startServer = async () => {
         if (!loginResult.success) {
             throw new Error('Falha crítica no login da API InHire.');
         }
-        log('✅ Autenticação com a API externa bem-sucedida.');
+        // log('✅ Autenticação com a API externa bem-sucedida.');
 
         // --- ETAPA 3: SINCRONIZAÇÃO DE DADOS CRÍTICOS (BLOQUEANTE) ---
-        log('ETAPA 3: Sincronizando dados essenciais (Vagas, Talentos, Scorecards)...');
+        // log('ETAPA 3: Sincronizando dados essenciais (Vagas, Talentos, Scorecards)...');
         // Usamos Promise.all para executar em paralelo, mas o 'await' garante que o fluxo só continua após a conclusão de TODAS.
         await Promise.all([
             scorecardService.findAll(), // Carrega e cacheia os scorecards
             syncJobs(),               // Carrega e cacheia as vagas
             syncTalents()             // Carrega e cacheia os talentos
         ]);
-        log('✅ Sincronização inicial de dados essenciais concluída. O cache está pronto.');
+        // log('✅ Sincronização inicial de dados essenciais concluída. O cache está pronto.');
 
         // --- ETAPA 4: CONFIGURAÇÃO DAS ROTAS DA API ---
-        log('ETAPA 4: Configurando as rotas da API...');
+        // log('ETAPA 4: Configurando as rotas da API...');
         app.use('/api', apiRoutes);
-        log('✅ Rotas da API prontas.');
+        // log('✅ Rotas da API prontas.');
 
         // --- ETAPA 5: ABERTURA DO SERVIDOR PARA REQUISIÇÕES ---
         // Esta é a última etapa. O servidor só começa a aceitar conexões AQUI.
-        log('ETAPA 5: Abrindo a porta do servidor...');
+        // log('ETAPA 5: Abrindo a porta do servidor...');
         app.listen(PORT, () => {
             log(`🚀 SERVIDOR PRONTO E OUVINDO NA PORTA ${PORT}`);
 
             // Tarefas não-críticas que podem rodar em segundo plano após o início
-            log('Iniciando tarefas de segundo plano (pré-carregamento de candidatos)...');
+            // log('Iniciando tarefas de segundo plano (pré-carregamento de candidatos)...');
             prefetchAllCandidates().catch(err => logError("Erro durante o pré-carregamento em segundo plano:", err));
         });
 
         // --- ETAPA 6: AGENDAMENTO DE TAREFAS PERIÓDICAS ---
-        log('ETAPA 6: Agendando sincronizações periódicas...');
+        // log('ETAPA 6: Agendando sincronizações periódicas...');
         setInterval(syncJobs, 60000);
         setInterval(syncTalents, 60000);
-        log('🔄 Sincronização periódica agendada a cada 60s.');
+        // log('🔄 Sincronização periódica agendada a cada 60s.');
 
     } catch (error) {
         logError('❌ FALHA CRÍTICA NA INICIALIZAÇÃO DO SERVIDOR. O PROCESSO SERÁ ENCERRADO.', error.message);
