@@ -40,20 +40,21 @@ const formatProfileToText = (profileData) => {
     text += `TÍTULO: ${titulo}\n`;
     text += `LOCALIZAÇÃO: ${local}\n\n`;
 
-    if (profileData.about || profileData.perfil?.resumo) {
-        text += `RESUMO/SOBRE:\n${profileData.about || profileData.perfil?.resumo}\n\n`;
+    const resumo = profileData.about || profileData.perfil?.resumo || profileData.resumo || '';
+    if (resumo) {
+        text += `RESUMO/SOBRE:\n${resumo}\n\n`;
     }
 
     // Tenta experiências estruturadas (PDF ou Scraper novo)
-    const experiences = profileData.structureExperience || profileData.experience || [];
-    if (experiences.length > 0) {
+    const exps = profileData.structureExperience || profileData.experience || profileData.experiencias || [];
+    if (exps.length > 0) {
         text += `EXPERIÊNCIA PROFISSIONAL:\n`;
-        experiences.forEach(exp => {
-            const role = exp.role || exp.title || 'N/A';
-            const company = exp.company || exp.companyName || 'N/A';
-            const start = exp.start || exp.startDate || '';
-            const end = exp.end || exp.endDate || 'Momento';
-            const desc = exp.description || '';
+        exps.forEach(exp => {
+            const role = exp.role || exp.title || exp.cargo || 'N/A';
+            const company = exp.company || exp.companyName || exp.empresa || 'N/A';
+            const start = exp.start || exp.startDate || exp.inicio || '';
+            const end = exp.end || exp.endDate || exp.fim || 'Momento';
+            const desc = exp.description || exp.descricao || '';
 
             text += `- ${role} na ${company} (${start} - ${end})\n`;
             if (desc) text += `  Detalhes: ${desc}\n`;
@@ -62,14 +63,16 @@ const formatProfileToText = (profileData) => {
     }
 
     // Formação
-    const education = profileData.structureEducation || profileData.education || [];
-    if (education.length > 0) {
+    const edus = profileData.structureEducation || profileData.education || profileData.formacao || [];
+    if (edus.length > 0) {
         text += `FORMAÇÃO ACADÊMICA:\n`;
-        education.forEach(edu => {
-            const degree = edu.degree || '';
+        edus.forEach(edu => {
+            const degree = edu.degree || edu.curso || '';
             const field = edu.field || edu.fieldOfStudy || '';
-            const school = edu.school || edu.schoolName || 'N/A';
-            text += `- ${degree} ${field} na ${school}\n`;
+            const school = edu.school || edu.schoolName || edu.instituicao || 'N/A';
+            const start = edu.start || edu.inicio || '';
+            const end = edu.end || edu.fim || '';
+            text += `- ${degree} ${field} na ${school} (${start} - ${end})\n`;
         });
         text += `\n`;
     }
@@ -81,7 +84,7 @@ const formatProfileToText = (profileData) => {
     }
 
     // Certificações
-    const certs = profileData.certifications || [];
+    const certs = profileData.certifications || profileData.certificacoes || [];
     if (certs.length > 0) {
         text += `CERTIFICAÇÕES:\n${Array.isArray(certs) ? certs.join(', ') : certs}\n`;
     }
