@@ -90,17 +90,17 @@ export const extractProfileFromPdf = async (req, res) => {
         const canonicalProfile = buildCanonicalProfile(rawText);
 
         // 2. REFINAMENTO COM IA (Nome, Título, Localização) - Resolver erro de "Contact", "Repositories"
-        log('CONTROLLER PDF: Chamando IA para refinar Identidade (Nome/Título)...');
+        // log('CONTROLLER PDF: Chamando IA para refinar Identidade (Nome/Título)...');
         const identity = await aiParserService.extractIdentityWithAI(rawText);
 
         if (identity && identity.nome) {
-            log(`✅ IA corrigiu nome: ${canonicalProfile.perfil.nome} -> ${identity.nome}`);
+            // log(`✅ IA corrigiu nome: ${canonicalProfile.perfil.nome} -> ${identity.nome}`);
             canonicalProfile.perfil.nome = identity.nome;
             canonicalProfile.perfil.titulo = identity.titulo || canonicalProfile.perfil.titulo;
             canonicalProfile.perfil.localizacao = identity.localizacao || canonicalProfile.perfil.localizacao;
         }
 
-        log('✅ CONTROLLER PDF: Extração HÍBRIDA (IA + Determinística) concluída.');
+        // log('✅ CONTROLLER PDF: Extração HÍBRIDA (IA + Determinística) concluída.');
         res.status(200).json(canonicalProfile);
 
     } catch (error) {

@@ -101,7 +101,7 @@ const extractSingleFieldWithAI = async (fieldDefinition, relevantChunks) => {
 export const mapProfileToCustomFieldsWithAI = async (scrapedData, customFieldDefinitions) => {
     const startTime = Date.now();
     const tempTableName = `map_${Date.now()}`;
-    log(`--- IA MAPPER: Iniciando mapeamento para ${customFieldDefinitions.length} campos... ---`);
+    // log(`--- IA MAPPER: Iniciando mapeamento para ${customFieldDefinitions.length} campos... ---`);
     let profileTable;
 
     try {
@@ -147,7 +147,7 @@ export const mapProfileToCustomFieldsWithAI = async (scrapedData, customFieldDef
         });
 
         const duration = Date.now() - startTime;
-        log(`✓ IA MAPPER: Mapeamento concluído em ${duration}ms. ${customFieldsPayload.length} campos preenchidos.`);
+        // log(`✓ IA MAPPER: Mapeamento concluído em ${duration}ms. ${customFieldsPayload.length} campos preenchidos.`);
 
         return { talentPayload, customFieldsPayload };
 

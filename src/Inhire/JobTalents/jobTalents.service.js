@@ -34,7 +34,7 @@ export const removeApplication = async (applicationId) => {
 };
 
 export const getApplicationsForJob = async (jobId) => {
-  log(`--- SERVIÇO: Buscando TODAS as candidaturas para a vaga ${jobId} ---`);
+  // log(`--- SERVIÇO: Buscando TODAS as candidaturas para a vaga ${jobId} ---`);
   let allApplications = [];
   let hasMorePages = true;
   let exclusiveStartKey = null;
@@ -60,7 +60,7 @@ export const getApplicationsForJob = async (jobId) => {
         hasMorePages = false;
       }
     }
-    log(`Busca completa. Total de ${allApplications.length} candidaturas carregadas para a vaga ${jobId}.`);
+    // log(`Busca completa. Total de ${allApplications.length} candidaturas carregadas para a vaga ${jobId}.`);
     return allApplications;
   } catch (err) {
     error(`Erro ao buscar candidaturas para a vaga ${jobId}:`, err.response?.data?.message || err.message);

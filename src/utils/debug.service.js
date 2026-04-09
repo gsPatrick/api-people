@@ -20,7 +20,7 @@ export const saveDebugDataToFile = (filename, data) => {
     // Usamos JSON.stringify com indentação para tornar o arquivo legível
     const fileContent = JSON.stringify(data, null, 2);
     fs.writeFileSync(filePath, fileContent, 'utf8');
-    log(`DEBUG: Dados salvos com sucesso em "${filePath}"`);
+    // log(`DEBUG: Dados salvos com sucesso em "${filePath}"`);
   } catch (error) {
     console.error(`Falha ao salvar dados de debug em ${filename}:`, error);
   }

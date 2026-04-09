@@ -26,7 +26,7 @@ const extractUsernameFromUrl = (url) => {
 };
 
 export const validateProfile = async (profileUrl) => {
-  log(`--- ORQUESTRADOR: Iniciando VALIDAÇÃO OTIMIZADA (MAPA) para: ${profileUrl} ---`);
+  // log(`--- ORQUESTRADOR: Iniciando VALIDAÇÃO OTIMIZADA (MAPA) para: ${profileUrl} ---`);
   try {
     const usernameToSearch = extractUsernameFromUrl(profileUrl);
     if (!usernameToSearch) {
@@ -36,18 +36,18 @@ export const validateProfile = async (profileUrl) => {
     if (talentLookupMap) {
       const talentInMap = talentLookupMap.get(usernameToSearch.toLowerCase());
       if (talentInMap) {
-        log(`Validação Otimizada (MAP HIT): Talento "${talentInMap.name}" JÁ EXISTE.`);
+        // log(`Validação Otimizada (MAP HIT): Talento "${talentInMap.name}" JÁ EXISTE.`);
         return { success: true, exists: true, talent: talentInMap, profileData: null };
       }
     } else {
       const allTalentsFromCache = getFromCache(TALENTS_CACHE_KEY) || [];
       const talentInCache = allTalentsFromCache.find(t => t.linkedinUsername?.toLowerCase().replace(/\/+$/, '') === usernameToSearch.toLowerCase());
       if (talentInCache) {
-        log(`Validação (FALLBACK HIT): Talento "${talentInCache.name}" JÁ EXISTE.`);
+        // log(`Validação (FALLBACK HIT): Talento "${talentInCache.name}" JÁ EXISTE.`);
         return { success: true, exists: true, talent: talentInCache, profileData: null };
       }
     }
-    log(`Validação Otimizada (MISS): Talento não encontrado na base.`);
+    // log(`Validação Otimizada (MISS): Talento não encontrado na base.`);
     return { success: true, exists: false, talent: null, profileData: null };
   } catch (err) {
     error("Erro em validateProfile:", err.message);
@@ -62,7 +62,7 @@ import SyncService from '../../services/sync.service.js';
 const { LocalTalent } = db; // REMOVIDO: Destruturação no topo causa erro se models ainda não carregaram
 
 export const handleConfirmCreation = async (talentData, jobId, externalMatchData = null) => {
-  log(`--- ORQUESTRADOR (LOCAL-FIRST): Criando talento '${talentData.name}' na vaga '${jobId}' ---`);
+  // log(`--- ORQUESTRADOR (LOCAL-FIRST): Criando talento '${talentData.name}' na vaga '${jobId}' ---`);
   try {
     if (!jobId) throw new Error("O ID da Vaga (jobId) é obrigatório.");
 
@@ -74,7 +74,7 @@ export const handleConfirmCreation = async (talentData, jobId, externalMatchData
     // para satisfazer a foreign key da LocalApplication.
     const existingJob = await db.LocalJob.findByPk(jobId);
     if (!existingJob) {
-      log(`⚠️ LocalJob ${jobId} não encontrada. Tentando buscar detalhes externos para criar stub...`);
+      // log(`⚠️ LocalJob ${jobId} não encontrada. Tentando buscar detalhes externos para criar stub...`);
       try {
         const jobDetails = await getJobDetails(jobId);
         if (jobDetails) {
@@ -86,11 +86,11 @@ export const handleConfirmCreation = async (talentData, jobId, externalMatchData
             status: 'OPEN', // Assumimos aberta se veio da API
             isSynced: true
           });
-          log(`✅ Stub LocalJob criado para vaga externa: ${jobDetails.name} (${jobId})`);
+          // log(`✅ Stub LocalJob criado para vaga externa: ${jobDetails.name} (${jobId})`);
         } else {
           // Se não achou na API, talvez seja erro de ID ou permissão.
           // Mas não podemos bloquear se o usuário forçou.
-          log(`❌ Vaga não encontrada na API InHire. Prosseguindo, mas pode dar erro de FK se o ID for inválido.`);
+          // log(`❌ Vaga não encontrada na API InHire. Prosseguindo, mas pode dar erro de FK se o ID for inválido.`);
         }
       } catch (jobErr) {
         error(`Erro ao buscar/criar stub de vaga externa: ${jobErr.message}`);
@@ -105,7 +105,7 @@ export const handleConfirmCreation = async (talentData, jobId, externalMatchData
     });
 
     if (localTalent) {
-      log(`⚡ Talento '${talentData.linkedinUsername}' já existe. Atualizando dados...`);
+      // log(`⚡ Talento '${talentData.linkedinUsername}' já existe. Atualizando dados...`);
       await localTalent.update({
         name: talentData.name || talentData.nome || localTalent.name, // Prioriza novo, fallback antigo
         headline: talentData.headline || talentData.titulo || localTalent.headline,
@@ -117,7 +117,7 @@ export const handleConfirmCreation = async (talentData, jobId, externalMatchData
         matchScore: matchData?.result?.overallScore || localTalent.matchScore
       });
     } else {
-      log(`🌱 Criando NOVO talento local: ${talentData.linkedinUsername}`);
+      // log(`🌱 Criando NOVO talento local: ${talentData.linkedinUsername}`);
       localTalent = await db.LocalTalent.create({
         name: talentData.name || talentData.nome || 'Nome Desconhecido',
         headline: talentData.headline || talentData.titulo,
@@ -143,9 +143,9 @@ export const handleConfirmCreation = async (talentData, jobId, externalMatchData
     });
 
     if (created) {
-      log(`✅ Nova LocalApplication criada para a vaga ${jobId}`);
+      // log(`✅ Nova LocalApplication criada para a vaga ${jobId}`);
     } else {
-      log(`ℹ️ LocalApplication já existia para vaga ${jobId}. Atualizando match se necessário.`);
+      // log(`ℹ️ LocalApplication já existia para vaga ${jobId}. Atualizando match se necessário.`);
       const updateData = {};
       if (matchData && matchData.result) {
         updateData.matchScore = matchData.result.overallScore;
@@ -168,7 +168,7 @@ export const handleConfirmCreation = async (talentData, jobId, externalMatchData
       error(`Erro no enriquecimento background de ${localTalent.id}:`, err);
     });
 
-    log("🚀 Processo de persistência concluído. Retornando talento.");
+    // log("🚀 Processo de persistência concluído. Retornando talento.");
     return { success: true, talent: localTalent };
 
   } catch (err) {
@@ -189,7 +189,7 @@ export const handleConfirmCreation = async (talentData, jobId, externalMatchData
  * Função auxiliar para enriquecer o talento local com IA sem travar a resposta principal.
  */
 const mapAndEnrichLocalTalent = async (localTalent, talentData) => {
-  log("Iniciando mapeamento de campos personalizados com IA (Background Local)...");
+  // log("Iniciando mapeamento de campos personalizados com IA (Background Local)...");
   const jobTalentFieldsDefinitions = await getCustomFieldsForEntity('JOB_TALENTS');
 
   const { talentPayload, customFieldsPayload } = await mapProfileToCustomFieldsWithAI(talentData, jobTalentFieldsDefinitions);
@@ -205,7 +205,7 @@ const mapAndEnrichLocalTalent = async (localTalent, talentData) => {
     // TODO: Persistir customFieldsPayload em LocalApplication se necessário.
   });
 
-  log("Talento local enriquecido com dados da IA.");
+  // log("Talento local enriquecido com dados da IA.");
 };
 
 export const handleEditTalent = async (talentId, updateData) => {

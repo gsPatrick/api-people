@@ -63,14 +63,14 @@ export const fetchCandidatesForJob = async (jobId) => {
         if (isUUID) {
             const localJob = await db.LocalJob.findByPk(jobId);
             if (localJob) {
-                log(`[DEBUG] LocalJob found: ${localJob.id}, ExternalId: ${localJob.externalId}`);
+                // log(`[DEBUG] LocalJob found: ${localJob.id}, ExternalId: ${localJob.externalId}`);
                 if (localJob.externalId) {
                     externalJobId = localJob.externalId;
                 } else {
-                    log(`[DEBUG] LocalJob has NO externalId. Skipping API fetch.`);
+                    // log(`[DEBUG] LocalJob has NO externalId. Skipping API fetch.`);
                 }
             } else {
-                log(`[DEBUG] LocalJob NOT found for ID: ${jobId}. Assuming external InHire UUID.`);
+                // log(`[DEBUG] LocalJob NOT found for ID: ${jobId}. Assuming external InHire UUID.`);
                 // FALLBACK: Se não está no banco local, assume que é um ID da InHire (legado ou não sincronizado)
                 externalJobId = jobId;
             }
@@ -81,9 +81,9 @@ export const fetchCandidatesForJob = async (jobId) => {
 
         if (externalJobId) {
             try {
-                log(`[DEBUG] Fetching from API for External ID: ${externalJobId}`);
+                // log(`[DEBUG] Fetching from API for External ID: ${externalJobId}`);
                 const apiResult = await getApplicationsForJob(externalJobId);
-                log(`[DEBUG] API Result Count: ${apiResult ? apiResult.length : 'null'}`);
+                // log(`[DEBUG] API Result Count: ${apiResult ? apiResult.length : 'null'}`);
 
                 if (apiResult) {
                     inhireCandidates = apiResult

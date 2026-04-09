@@ -50,7 +50,7 @@ export const extractFieldWithAI = async (rawText, question, formatDescription) =
  * Extract identity fields (Name, Headline, Location) in a single call for efficiency.
  */
 export const extractIdentityWithAI = async (rawText) => {
-    log('AI PARSER SERVICE: Iniciando extração de identidade...');
+    // log('AI PARSER SERVICE: Iniciando extração de identidade...');
 
     const prompt = `
         Você é um especialista em extração de IDENTIDADE de perfis profissionais.
@@ -89,7 +89,7 @@ export const extractIdentityWithAI = async (rawText) => {
         });
 
         const result = JSON.parse(response.choices[0].message.content);
-        log(`AI PARSER SERVICE: Identidade extraída: ${result.nome} | ${result.titulo}`);
+        // log(`AI PARSER SERVICE: Identidade extraída: ${result.nome} | ${result.titulo}`);
         return result;
     } catch (err) {
         logError(`AI PARSER SERVICE: Erro ao extrair identidade`, err.message);
