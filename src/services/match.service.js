@@ -315,7 +315,8 @@ export const analyze = async (scorecardId, profileData, jobId = null) => {
       : 0;
 
     const result = {
-      overallScore,
+      matchScore: overallScore,
+      overallScore, // Mantido para compatibilidade se necessário
       profileName: profileData.perfil?.nome || profileData.name,
       profileHeadline: profileData.perfil?.titulo || profileData.headline,
       categories: categoryResults,
