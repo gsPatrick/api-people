@@ -8,7 +8,7 @@ const API_BASE_URL = 'https://api.inhire.app';
  * @returns {Promise<Array<object>|null>} Uma lista completa de todas as vagas.
  */
 export const getAllJobs = async () => {
-  log(`--- SERVIÇO: Buscando TODAS as vagas com paginação interna ---`);
+  // log(`--- SERVIÇO: Buscando TODAS as vagas com paginação interna ---`);
   let allJobs = [];
   let hasMorePages = true;
   let exclusiveStartKey = null;
@@ -36,12 +36,12 @@ export const getAllJobs = async () => {
 
       if (nextPageKey && Object.keys(nextPageKey).length > 0) {
         exclusiveStartKey = nextPageKey; // Prepara a chave correta para a próxima iteração
-        log(`Página de vagas recebida. Chave para a próxima página encontrada. Total atual: ${allJobs.length}`);
+        // log(`Página de vagas recebida. Chave para a próxima página encontrada. Total atual: ${allJobs.length}`);
       } else {
         hasMorePages = false; // Se a chave 'startKey' não for retornada, o loop para.
       }
     }
-    log(`Busca completa. Total final de ${allJobs.length} vagas carregadas da API.`);
+    // log(`Busca completa. Total final de ${allJobs.length} vagas carregadas da API.`);
     return allJobs;
   } catch (err) {
     error("Erro ao buscar todas as vagas:", err.response?.data || err.message);
@@ -55,7 +55,7 @@ export const getAllJobs = async () => {
  * @returns {Promise<Array<object>|null>} Uma lista de tags.
  */
 export const getJobTags = async (jobId) => {
-    log(`--- SERVIÇO: Buscando tags para a vaga ${jobId} ---`);
+    // log(`--- SERVIÇO: Buscando tags para a vaga ${jobId} ---`);
     try {
         const response = await apiClient.get(`${API_BASE_URL}/jobs/${jobId}/tags`);
         return response.data || [];
@@ -71,12 +71,12 @@ export const getJobTags = async (jobId) => {
  * @returns {Promise<object | null>} Os detalhes da vaga.
  */
 export const getJobDetails = async (jobId) => {
-    log(`Buscando detalhes da vaga ID: ${jobId}`);
+    // log(`Buscando detalhes da vaga ID: ${jobId}`);
     try {
         const response = await apiClient.get(`${API_BASE_URL}/jobs/${jobId}`);
         return response.data;
     } catch (err) {
-        log(`Erro ao buscar detalhes da vaga ${jobId}:`, err.response?.data || err.message);
+        // log(`Erro ao buscar detalhes da vaga ${jobId}:`, err.response?.data || err.message);
         return null;
     }
 };
@@ -87,7 +87,7 @@ export const getJobDetails = async (jobId) => {
  * @returns {Promise<object|null>} Vaga criada ou null.
  */
 export const createJob = async (jobData) => {
-    log(`--- SERVIÇO: Criando vaga no InHire: ${jobData.title} ---`);
+    // log(`--- SERVIÇO: Criando vaga no InHire: ${jobData.title} ---`);
     try {
         const response = await apiClient.post(`${API_BASE_URL}/jobs`, jobData);
         return response.data;
@@ -104,7 +104,7 @@ export const createJob = async (jobData) => {
  * @returns {Promise<object|null>} Vaga atualizada ou null.
  */
 export const updateJob = async (jobId, jobData) => {
-    log(`--- SERVIÇO: Atualizando vaga ${jobId} no InHire ---`);
+    // log(`--- SERVIÇO: Atualizando vaga ${jobId} no InHire ---`);
     try {
         const response = await apiClient.patch(`${API_BASE_URL}/jobs/${jobId}`, jobData);
         return response.data;

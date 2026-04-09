@@ -137,7 +137,7 @@ const mapLocalPayloadToSummary = (localPayload, scorecardId) => {
 
 export const fetchScorecardDataForApplication = async (applicationId, jobId) => {
     try {
-        log(`[SCORECARD] Fetching data for applicationId: ${applicationId}, jobId: ${jobId}`);
+        // log(`[SCORECARD] Fetching data for applicationId: ${applicationId}, jobId: ${jobId}`);
 
         const allSummaries = [];
 
@@ -149,20 +149,20 @@ export const fetchScorecardDataForApplication = async (applicationId, jobId) => 
             const kitsRes = await fetchAvailableKitsForJob(jobId);
             if (kitsRes.success && kitsRes.kits && kitsRes.kits.length > 0) {
                 defaultScorecardId = kitsRes.kits[0].id;
-                log(`[SCORECARD] Kit principal encontrado ou sintetizado: ${defaultScorecardId}`);
+                // log(`[SCORECARD] Kit principal encontrado ou sintetizado: ${defaultScorecardId}`);
                 if (defaultScorecardId.startsWith('ai_kit_')) {
                     virtualKit = kitsRes.kits[0];
                 }
             }
         } catch (e) {
-            log(`[SCORECARD] Could not fetch kits for jobId ${jobId}: ${e.message}`);
+            // log(`[SCORECARD] Could not fetch kits for jobId ${jobId}: ${e.message}`);
         }
 
         // === PASSO 1: Buscar aiReview do LocalApplication (Match) ===
         try {
             const localApp = await db.LocalApplication.findOne({ where: { id: applicationId } });
             if (localApp && localApp.aiReview && localApp.aiReview.categories) {
-                log(`[SCORECARD] ✅ FOUND aiReview from Match in LocalApplication ${applicationId}`);
+                // log(`[SCORECARD] ✅ FOUND aiReview from Match in LocalApplication ${applicationId}`);
                 // Usamos o defaultScorecardId (pode ser o real ou o virtual 'ai_kit_...')
                 const matchSummary = mapAiReviewToSummary(localApp.aiReview, defaultScorecardId);
                 if (matchSummary) {
@@ -170,13 +170,13 @@ export const fetchScorecardDataForApplication = async (applicationId, jobId) => 
                 }
             }
         } catch (e) {
-            log(`[SCORECARD] Could not fetch LocalApplication: ${e.message}`);
+            // log(`[SCORECARD] Could not fetch LocalApplication: ${e.message}`);
         }
 
         // === PASSO 2: Buscar do cache local (salvamentos manuais recentes) ===
         const localResponse = await getLocalScorecardResponse(applicationId);
         if (localResponse && localResponse.payload) {
-            log(`[SCORECARD] ✅ FOUND local cache data for app ${applicationId}`);
+            // log(`[SCORECARD] ✅ FOUND local cache data for app ${applicationId}`);
             const formattedSummary = mapLocalPayloadToSummary(localResponse.payload, localResponse.scorecardId);
             allSummaries.push(...formattedSummary);
         }
@@ -192,10 +192,10 @@ export const fetchScorecardDataForApplication = async (applicationId, jobId) => 
                 allSummaries.push(...formattedSummary);
             }
         } catch (e) {
-            log(`[SCORECARD] InHire API fallback failed: ${e.message}`);
+            // log(`[SCORECARD] InHire API fallback failed: ${e.message}`);
         }
 
-        log(`[SCORECARD] Total summaries found: ${allSummaries.length}`);
+        // log(`[SCORECARD] Total summaries found: ${allSummaries.length}`);
         return { success: true, data: { type: 'summary', content: allSummaries } };
 
     } catch (err) {
@@ -206,7 +206,7 @@ export const fetchScorecardDataForApplication = async (applicationId, jobId) => 
 
 
 export const handleScorecardSubmission = async (applicationId, scorecardId, evaluationDataFromFrontend) => {
-    log(`--- ORQUESTRADOR: Submetendo avaliação para a candidatura ${applicationId} ---`);
+    // log(`--- ORQUESTRADOR: Submetendo avaliação para a candidatura ${applicationId} ---`);
     try {
         if (!applicationId || !scorecardId || !evaluationDataFromFrontend) {
             throw new Error("applicationId, scorecardId e evaluationData são obrigatórios.");
@@ -278,7 +278,7 @@ export const handleScorecardSubmission = async (applicationId, scorecardId, eval
             }
             return { success: true, submission: submissionResult };
         } else {
-            log(`[SCORECARD] ✅ Submissão de kit VIRTUAL salva apenas localmente.`);
+            // log(`[SCORECARD] ✅ Submissão de kit VIRTUAL salva apenas localmente.`);
             return { success: true, submission: { message: "Salvo localmente com sucesso." } };
         }
     } catch (err) {
@@ -291,20 +291,20 @@ export const handleScorecardSubmission = async (applicationId, scorecardId, eval
 
 export const handleCreateScorecardAndKit = async (data) => {
     const { jobId, jobStageId, name, script, skillCategories } = data;
-    log(`--- ORQUESTRADOR: Criando Scorecard e Kit para vaga ${jobId} ---`);
+    // log(`--- ORQUESTRADOR: Criando Scorecard e Kit para vaga ${jobId} ---`);
     try {
         if (!jobId || !jobStageId || !name || !skillCategories) {
             throw new Error("Dados insuficientes para criar Scorecard e Kit.");
         }
         await createJobScorecard(jobId, skillCategories);
-        log(`Scorecard base para a vaga ${jobId} garantido.`);
+        // log(`Scorecard base para a vaga ${jobId} garantido.`);
         const newKit = await createInterviewKit({ jobId, jobStageId, name, script, skillCategories });
         if (!newKit) throw new Error("Falha ao criar o novo Kit de Entrevista.");
 
         const enrichedKit = enrichKitDataWithIds(newKit);
         const cleanedKit = cleanHtmlScript(enrichedKit);
 
-        log(`Kit de Entrevista "${name}" criado com sucesso.`);
+        // log(`Kit de Entrevista "${name}" criado com sucesso.`);
         return { success: true, kit: cleanedKit };
     } catch (err) {
         error("Erro em handleCreateScorecardAndKit:", err.message);
@@ -313,13 +313,13 @@ export const handleCreateScorecardAndKit = async (data) => {
 };
 
 export const fetchAvailableKitsForJob = async (jobId) => {
-    log(`--- ORQUESTRADOR: Buscando APENAS KITS para a vaga ${jobId} ---`);
+    // log(`--- ORQUESTRADOR: Buscando APENAS KITS para a vaga ${jobId} ---`);
     try {
         let kits = await getInterviewKitsForJob(jobId);
 
         // [NOVO] Se não houver kits e houver um Match da IA recente, sintetiza um kit virtual
         if (!kits || kits.length === 0) {
-            log(`Nenhum kit encontrado para ${jobId}. Verificando se há Match IA disponível...`);
+            // log(`Nenhum kit encontrado para ${jobId}. Verificando se há Match IA disponível...`);
             const fallbackApplication = await db.LocalApplication.findOne({
                 where: { jobId, aiReview: { [db.Sequelize.Op.ne]: null } },
                 include: [{ model: db.LocalJob, as: 'job' }],
@@ -364,7 +364,7 @@ const synthesizeKitFromMatch = (jobId, aiReview) => {
 
 
 export const fetchInterviewKitDetails = async (kitId) => {
-    log(`--- ORQUESTRADOR: Buscando detalhes para o kit de entrevista ${kitId} ---`);
+    // log(`--- ORQUESTRADOR: Buscando detalhes para o kit de entrevista ${kitId} ---`);
     try {
         let kit = null;
 
@@ -400,7 +400,7 @@ export const fetchInterviewKitDetails = async (kitId) => {
 };
 
 export const handleSaveKitWeights = async (kitId, weightsData) => {
-    log(`--- ORQUESTRADOR: Salvando pesos para o kit ${kitId} ---`);
+    // log(`--- ORQUESTRADOR: Salvando pesos para o kit ${kitId} ---`);
     try {
         if (!kitId || !weightsData) {
             throw new Error("kitId e weightsData são obrigatórios.");
@@ -421,7 +421,7 @@ export const handleSaveKitWeights = async (kitId, weightsData) => {
  * O InHire exige que o scorecard seja criado associado a uma vaga.
  */
 export const handleSyncScorecardToInHire = async (scorecardId) => {
-    log(`--- ORQUESTRADOR: Sincronizando Scorecard ${scorecardId} com InHire ---`);
+    // log(`--- ORQUESTRADOR: Sincronizando Scorecard ${scorecardId} com InHire ---`);
     try {
         const scorecard = await db.Scorecard.findByPk(scorecardId, {
             include: [
@@ -438,14 +438,14 @@ export const handleSyncScorecardToInHire = async (scorecardId) => {
 
         // Se a vaga não estiver sincronizada, sincroniza agora automaticamente
         if (job.syncStatus !== 'SYNCHRONIZED' || !job.externalId) {
-            log(`Vaga ${job.id} não sincronizada. Iniciando sincronização automática da vaga...`);
+            // log(`Vaga ${job.id} não sincronizada. Iniciando sincronização automática da vaga...`);
             const syncResult = await handleSyncJobToInHire(job.id);
             if (!syncResult.success) {
                 throw new Error(`Falha ao sincronizar a vaga vinculada automaticamente: ${syncResult.error}`);
             }
             // Recarrega os dados da vaga após o sync
             job = await db.LocalJob.findByPk(job.id);
-            log(`Vaga ${job.id} sincronizada automaticamente com externalId: ${job.externalId}`);
+            // log(`Vaga ${job.id} sincronizada automaticamente com externalId: ${job.externalId}`);
         }
 
         // Formata os dados no padrão do InHire (Categories e Skills)
@@ -458,11 +458,11 @@ export const handleSyncScorecardToInHire = async (scorecardId) => {
         }));
 
         // 1. Cria o Scorecard Base na Vaga (InHire)
-        log(`Criando scorecard base no InHire para vaga ${job.externalId}...`);
+        // log(`Criando scorecard base no InHire para vaga ${job.externalId}...`);
         await createJobScorecard(job.externalId, skillCategories);
 
         // 2. Cria o Kit de Entrevista (InHire exige os dois passos para ser usável)
-        log(`Criando Kit de Entrevista no InHire para vaga ${job.externalId}...`);
+        // log(`Criando Kit de Entrevista no InHire para vaga ${job.externalId}...`);
         const kitData = {
             jobId: job.externalId,
             jobStageId: null, 

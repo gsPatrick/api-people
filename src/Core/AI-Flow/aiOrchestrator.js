@@ -118,7 +118,7 @@ export const syncProfileFromLinkedIn = async (talentId) => {
 // const { LocalTalent, LocalApplication, LocalJob } = db; // REMOVIDO: Destruturação no topo causa undefined
 
 export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard, weights) => {
-    log(`--- ORQUESTRADOR IA: Avaliando e preparando feedback para Talento ID: ${talentId} ---`);
+    // log(`--- ORQUESTRADOR IA: Avaliando e preparando feedback para Talento ID: ${talentId} ---`);
 
     try {
         // ETAPA 0: Resolver Entidades Locais (Local-First Persistence)
@@ -199,7 +199,7 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
         const enrichmentMap = {};
         if (scorecard.skillCategories && !scorecard.categories) {
             try {
-                log(`DEBUG AI ORCH: Enriquecendo pesos para kit ${scorecard.id}`);
+                // log(`DEBUG AI ORCH: Enriquecendo pesos para kit ${scorecard.id}`);
                 const localSC = await db.Scorecard.findOne({
                     where: {
                         [db.Sequelize.Op.or]: [
@@ -212,7 +212,7 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
                 });
 
                 if (localSC) {
-                    log(`DEBUG AI ORCH: LocalScorecard encontrado: ${localSC.id}`);
+                    // log(`DEBUG AI ORCH: LocalScorecard encontrado: ${localSC.id}`);
                     (localSC.categories || []).forEach(cat => {
                         (cat.criteria || []).forEach(crit => {
                             const norm = normalizeName(crit.name);
@@ -222,12 +222,12 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
                             };
                         });
                     });
-                    log(`DEBUG AI ORCH: enrichmentMap gerado com ${Object.keys(enrichmentMap).length} itens`);
+                    // log(`DEBUG AI ORCH: enrichmentMap gerado com ${Object.keys(enrichmentMap).length} itens`);
                 } else {
-                     log(`DEBUG AI ORCH: LocalScorecard NÃO encontrado para ${scorecard.id}`);
+                    // log(`DEBUG AI ORCH: LocalScorecard NÃO encontrado para ${scorecard.id}`);
                 }
             } catch (e) {
-                log(`Erro no enriquecimento de pesos: ${e.message}`);
+                // log(`Erro no enriquecimento de pesos: ${e.message}`);
             }
         }
 
@@ -246,7 +246,7 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
                     tag: skill.tag || enrich.tag || null,
                     name: skill.name
                 };
-                log(`DEBUG AI ORCH: Critério "${skill.name}" (ID: ${skill.id}) -> WeightType: ${criteriaWeightsMap[skill.id].weightType}`);
+                // log(`DEBUG AI ORCH: Critério "${skill.name}" (ID: ${skill.id}) -> WeightType: ${criteriaWeightsMap[skill.id].weightType}`);
             });
         });
 
@@ -336,7 +336,7 @@ export const evaluateScorecardFromCache = async (talentId, jobDetails, scorecard
             // Também atualiza o score mais recente no Talento para listagem rápida
             await localTalent.update({ matchScore: normalizedScore });
 
-            log(`PERSISTÊNCIA: Avaliação salva em LocalApplication (Score: ${normalizedScore}, EssentialFailed: ${essentialFailed})`);
+            // log(`PERSISTÊNCIA: Avaliação salva em LocalApplication (Score: ${normalizedScore}, EssentialFailed: ${essentialFailed})`);
         }
 
         // Cache Legado (Manter por compatibilidade com frontend antigo se necessário)

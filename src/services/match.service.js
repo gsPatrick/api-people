@@ -123,9 +123,10 @@ const normalizeScorecard = (source, getEnrichment = null) => {
 
 export const analyze = async (scorecardId, profileData, jobId = null) => {
   const startTime = Date.now();
-  log(`Iniciando análise FULL CONTEXT para o scorecard/kit: ${scorecardId} (Job: ${jobId})`);
+    // log(`Iniciando análise FULL CONTEXT para o scorecard/kit: ${scorecardId} (Job: ${jobId})`);
+    log(`DEBUG: Analisando ${profileData.perfil?.nome || profileData.name} contra ${scorecardId}`);
 
-  try {
+    try {
     // 1. Busca scorecard ou kit unificado via orquestrador
     let source = null;
     const kitResult = await fetchInterviewKitDetails(scorecardId);
@@ -171,7 +172,7 @@ export const analyze = async (scorecardId, profileData, jobId = null) => {
             });
         }
     } catch (e) {
-        log(`Aviso: Falha ao buscar enriquecimento local: ${e.message}`);
+        // log(`Aviso: Falha ao buscar enriquecimento local: ${e.message}`);
     }
 
     // Função interna para buscar no map de forma robusta
@@ -203,7 +204,7 @@ export const analyze = async (scorecardId, profileData, jobId = null) => {
       });
     });
 
-    log(`Preparando análise para ${allCriteriaWithMeta.length} critérios...`);
+    // log(`Preparando análise para ${allCriteriaWithMeta.length} critérios...`);
 
     // 4. Prepara a estrutura para a IA (passando o texto completo como único "chunk")
     // O ai.service espera um array de chunks. Vamos passar um array com 1 elemento: o perfil todo.
@@ -227,6 +228,7 @@ export const analyze = async (scorecardId, profileData, jobId = null) => {
     };
 
     const evaluations = await analyzeAllCriteriaInBatch(criteriaWithChunks, globalContext);
+    log(`DEBUG: Recebidas ${evaluations.length} avaliações da IA.`);
 
     // 6. Mapeia resultados de volta e 7. Agrupa por categoria
     const categoryMap = new Map();

@@ -10,13 +10,13 @@ const API_BASE_URL = 'https://api.inhire.app';
  * Endpoint: GET /forms/scorecards/jobTalent/:jobTalentId
  */
 export const getScorecardSummaryForApplication = async (jobTalentId) => {
-  log(`--- SERVIÇO: Buscando resumo de scorecard para a candidatura ${jobTalentId} ---`);
+  // log(`--- SERVIÇO: Buscando resumo de scorecard para a candidatura ${jobTalentId} ---`);
   try {
     const response = await apiClient.get(`${API_BASE_URL}/forms/scorecards/jobTalent/${jobTalentId}`);
     return response.data;
   } catch (err) {
     if (err.response?.status === 404) {
-        log(`Nenhum resumo de scorecard encontrado para a candidatura ${jobTalentId}.`);
+        // log(`Nenhum resumo de scorecard encontrado para a candidatura ${jobTalentId}.`);
         return null; // Retorna null para 404, que não é um erro de sistema
     }
     // Para todos os outros erros (incluindo o de autorização), loga e retorna null
@@ -30,7 +30,7 @@ export const getScorecardSummaryForApplication = async (jobTalentId) => {
  * Endpoint: GET /forms/scorecards/interviews/job/:jobId
  */
 export const getInterviewKitsForJob = async (jobId) => {
-  log(`--- SERVIÇO: Buscando kits de entrevista para a vaga ${jobId} ---`);
+  // log(`--- SERVIÇO: Buscando kits de entrevista para a vaga ${jobId} ---`);
   try {
     const response = await apiClient.get(`${API_BASE_URL}/forms/scorecards/interviews/job/${jobId}`);
     return response.data || [];
@@ -45,7 +45,7 @@ export const getInterviewKitsForJob = async (jobId) => {
  * Endpoint: POST /forms/scorecards/jobTalent/:jobTalentId/:scorecardInterviewId
  */
 export const submitScorecardResponse = async (jobTalentId, scorecardInterviewId, responseData) => {
-    log(`--- SERVIÇO: Submetendo scorecard para a candidatura ${jobTalentId} ---`);
+    // log(`--- SERVIÇO: Submetendo scorecard para a candidatura ${jobTalentId} ---`);
     try {
         const response = await apiClient.post(
             `${API_BASE_URL}/forms/scorecards/jobTalent/${jobTalentId}/${scorecardInterviewId}`,
@@ -63,7 +63,7 @@ export const submitScorecardResponse = async (jobTalentId, scorecardInterviewId,
  * Endpoint: POST /forms/scorecards/jobs
  */
 export const createJobScorecard = async (jobId, skillCategories) => {
-    log(`--- SERVIÇO: Criando scorecard para a vaga ${jobId} ---`);
+    // log(`--- SERVIÇO: Criando scorecard para a vaga ${jobId} ---`);
     try {
         const payload = { jobId, skillCategories };
         const response = await apiClient.post(`${API_BASE_URL}/forms/scorecards/jobs`, payload);
@@ -79,7 +79,7 @@ export const createJobScorecard = async (jobId, skillCategories) => {
  * Endpoint: POST /forms/scorecards/interviews
  */
 export const createInterviewKit = async (kitData) => {
-    log(`--- SERVIÇO: Criando kit de entrevista para a vaga ${kitData.jobId} ---`);
+    // log(`--- SERVIÇO: Criando kit de entrevista para a vaga ${kitData.jobId} ---`);
     try {
         const response = await apiClient.post(`${API_BASE_URL}/forms/scorecards/interviews`, kitData);
         return response.data;
@@ -94,7 +94,7 @@ export const createInterviewKit = async (kitData) => {
  * Endpoint: GET /forms/scorecards/interviews/:id
  */
 export const getInterviewKitById = async (kitId) => {
-  log(`--- SERVIÇO: Buscando detalhes do kit de entrevista ${kitId} ---`);
+  // log(`--- SERVIÇO: Buscando detalhes do kit de entrevista ${kitId} ---`);
   try {
     const response = await apiClient.get(`${API_BASE_URL}/forms/scorecards/interviews/${kitId}`);
     return response.data;

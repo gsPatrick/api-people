@@ -8,7 +8,7 @@ import { log, error } from '../../utils/logger.service.js';
 
 // Mover findTalent para o topo para ser usada por createTalent
 export const findTalent = async (filters) => {
-  log(`--- SERVIÇO: Buscando talento com filtros: ${JSON.stringify(filters)} ---`);
+  // log(`--- SERVIÇO: Buscando talento com filtros: ${JSON.stringify(filters)} ---`);
   try {
     let hasMorePages = true;
     let exclusiveStartKey = null;
@@ -29,7 +29,7 @@ export const findTalent = async (filters) => {
       });
 
       if (foundInPage) {
-        log(`Talento encontrado via findTalent: ${foundInPage.name}`);
+        // log(`Talento encontrado via findTalent: ${foundInPage.name}`);
         return foundInPage;
       }
 
@@ -40,7 +40,7 @@ export const findTalent = async (filters) => {
       }
     }
 
-    log("Nenhum talento encontrado com os filtros fornecidos após varrer todas as páginas.");
+    // log("Nenhum talento encontrado com os filtros fornecidos após varrer todas as páginas.");
     return null;
   } catch (err) {
     error(`Erro ao buscar talento com filtros ${JSON.stringify(filters)}:`, err.response?.data?.message || err.message);
@@ -49,22 +49,22 @@ export const findTalent = async (filters) => {
 };
 
 export const createTalent = async (talentData) => {
-  log("Criando novo talento com os dados:", talentData);
+  // log("Criando novo talento com os dados:", talentData);
   if (!talentData.linkedinUsername && !talentData.email) {
     error("O nome de usuário do LinkedIn (linkedinUsername) ou o email é obrigatório para criar um talento.");
     return null;
   }
   try {
     const response = await apiClient.post(`${API_BASE_URL}/talents`, talentData);
-    log("Talento criado com sucesso:", response.data);
+    // log("Talento criado com sucesso:", response.data);
     return response.data;
   } catch (err) {
     // 409 Conflict: Talento já existe
     if (err.response?.status === 409 || err.message?.includes('already exists')) {
-      log(`Talento ${talentData.linkedinUsername} já existe na InHire. Buscando ID...`);
+      // log(`Talento ${talentData.linkedinUsername} já existe na InHire. Buscando ID...`);
       const existingTalent = await findTalent({ linkedinUsername: talentData.linkedinUsername });
       if (existingTalent) {
-        log(`Talento existente recuperado: ${existingTalent.id}`);
+        // log(`Talento existente recuperado: ${existingTalent.id}`);
         return existingTalent;
       }
     }
@@ -74,10 +74,10 @@ export const createTalent = async (talentData) => {
 };
 
 export const updateTalent = async (talentId, updateData) => {
-  log(`Atualizando talento ${talentId} com os dados:`, updateData);
+  // log(`Atualizando talento ${talentId} com os dados:`, updateData);
   try {
     await apiClient.patch(`${API_BASE_URL}/talents/${talentId}`, updateData);
-    log("Talento atualizado com sucesso.");
+    // log("Talento atualizado com sucesso.");
     return true;
   } catch (err) {
     error("Erro ao atualizar talento:", err.response?.data?.message || err.message);
@@ -86,10 +86,10 @@ export const updateTalent = async (talentId, updateData) => {
 };
 
 export const deleteTalent = async (talentId) => {
-  log(`Removendo talento ${talentId}`);
+  // log(`Removendo talento ${talentId}`);
   try {
     await apiClient.delete(`${API_BASE_URL}/talents/${talentId}`);
-    log("Talento removido com sucesso.");
+    // log("Talento removido com sucesso.");
     return true;
   } catch (err) {
     error("Erro ao remover talento:", err.response?.data?.message || err.message);
@@ -98,7 +98,7 @@ export const deleteTalent = async (talentId) => {
 }
 
 export const getAllTalentsPaginated = async (limit = 20, exclusiveStartKey = null) => {
-  log(`Buscando uma página de talentos (limite de ${limit}).`);
+  // log(`Buscando uma página de talentos (limite de ${limit}).`);
   try {
     const requestBody = {
       orderBy: {
@@ -118,7 +118,7 @@ export const getAllTalentsPaginated = async (limit = 20, exclusiveStartKey = nul
 };
 
 export const getTalentById = async (talentId) => {
-  log(`--- SERVIÇO: Buscando detalhes do talento ID: ${talentId} ---`);
+  // log(`--- SERVIÇO: Buscando detalhes do talento ID: ${talentId} ---`);
   try {
     const response = await apiClient.get(`${API_BASE_URL}/talents/${talentId}`);
     return response.data;

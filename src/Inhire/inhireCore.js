@@ -13,7 +13,7 @@ inhireCore.interceptors.request.use(
     const { accessToken } = await getTokens();
     
     if (!process.env.INHIRE_TENANT) {
-      log("AVISO: Variável de ambiente INHIRE_TENANT não definida!");
+      // log("AVISO: Variável de ambiente INHIRE_TENANT não definida!");
     }
 
     config.headers['X-Tenant'] = process.env.INHIRE_TENANT;
@@ -29,7 +29,7 @@ inhireCore.interceptors.request.use(
 
     } else {
       // Este log pode ser útil, então o mantemos por enquanto.
-      log(`DEBUG REQ INTERCEPTOR: Enviando para ${config.url} - X-Tenant: ${config.headers['X-Tenant']}, NENHUM accessToken presente.`);
+      // log(`DEBUG REQ INTERCEPTOR: Enviando para ${config.url} - X-Tenant: ${config.headers['X-Tenant']}, NENHUM accessToken presente.`);
     }
     return config;
   },
