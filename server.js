@@ -1,4 +1,4 @@
-// ARQUIVO COMPLETO: server.js (Fluxo de Inicialização Sequencial e Seguro)
+// ARQUIVO COMPLETO: server.js (Fluxo de Inicialização Sequencial e Seguro) - v1.0.1
 
 import 'dotenv/config';
 import path from 'path';
