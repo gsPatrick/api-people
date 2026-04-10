@@ -11,7 +11,7 @@ export default (sequelize) => {
             primaryKey: true
         },
         userId: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.UUID,
             allowNull: true,
             comment: 'ID do usuário proprietário destas configs'
         },
