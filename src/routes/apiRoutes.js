@@ -10,6 +10,7 @@ import adminRoutes from './adminRoutes.js';
 import scorecardRoutes from './scorecard.routes.js'; // <-- 1. IMPORTAR O ROTEADOR
 import matchRoutes from './match.routes.js'; // <-- IMPORTAR O ROTEADOR DE MATCH TAMBÉM
 import aiMemoryRoutes from './aimemory.routes.js';
+import chatRoutes from './chat.routes.js';
 import authenticationRouter from './authRoutes.js';
 import { extractProfileFromPdf } from '../controllers/pdf.controller.js'; // 2. Importe o novo controller
 import { fetchLinkedInProfilePdf, checkLinkedInCookieStatus } from '../controllers/linkedinPdf.controller.js'; // LinkedIn PDF Scraping
@@ -63,6 +64,7 @@ router.use('/admin', isAdmin, adminRoutes);
 router.use('/scorecards', scorecardRoutes); // <-- 2. REGISTRAR O ROTEADOR AQUI
 router.use('/match', matchRoutes);         // <-- 2. REGISTRAR O ROTEADOR DE MATCH AQUI
 router.use('/ai-memory', aiMemoryRoutes);
+router.use('/chat', chatRoutes);
 
 // ==========================================================
 // 3. ROTAS DE ADMINISTRAÇÃO (EXIGEM TOKEN + ROLE DE ADMIN)
