@@ -215,4 +215,63 @@ router.delete('/conversations/:id', async (req, res) => {
     }
 });
 
+// =============================================
+// GET /api/chat/settings
+// Retorna as configurações do chat (ex: sugestões)
+// =============================================
+router.get('/settings', async (req, res) => {
+    try {
+        const db = await getDB();
+        const userId = req.user?.id;
+
+        let settings = await db.ChatSetting.findOne({
+            where: userId ? { userId } : {}
+        });
+
+        // Se não existir, criar padrão
+        if (!settings) {
+            settings = await db.ChatSetting.create({
+                userId: userId || null
+            });
+        }
+
+        res.status(200).json({ success: true, settings });
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+// =============================================
+// POST /api/chat/settings
+// Atualiza as configurações do chat
+// =============================================
+router.post('/settings', async (req, res) => {
+    try {
+        const db = await getDB();
+        const userId = req.user?.id;
+        const { suggestions } = req.body;
+
+        if (!suggestions || !Array.isArray(suggestions)) {
+            return res.status(400).json({ error: 'Sugestões são obrigatórias e devem ser um array.' });
+        }
+
+        let settings = await db.ChatSetting.findOne({
+            where: userId ? { userId } : {}
+        });
+
+        if (settings) {
+            await settings.update({ suggestions });
+        } else {
+            settings = await db.ChatSetting.create({
+                userId: userId || null,
+                suggestions
+            });
+        }
+
+        res.status(200).json({ success: true, settings });
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
 export default router;
