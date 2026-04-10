@@ -138,13 +138,6 @@ export const processMessageStream = async (conversationId, userMessage, history,
 
         // Se já temos a resposta completa (sem tools), stream ela diretamente
         if (assistantMessage.content) {
-            // SSE Headers
-            res.writeHead(200, {
-                'Content-Type': 'text/event-stream',
-                'Cache-Control': 'no-cache',
-                'Connection': 'keep-alive',
-                'X-Accel-Buffering': 'no'
-            });
 
             // Stream com o modelo novamente para ter word-by-word
             const stream = await client.chat.completions.create({
@@ -179,11 +172,6 @@ export const processMessageStream = async (conversationId, userMessage, history,
     }
 
     // Fallback: se saiu do loop sem resposta
-    res.writeHead(200, {
-        'Content-Type': 'text/event-stream',
-        'Cache-Control': 'no-cache',
-        'Connection': 'keep-alive'
-    });
     res.write(`data: ${JSON.stringify({ type: 'delta', content: 'Desculpe, não consegui processar sua pergunta. Tente reformular.' })}\n\n`);
     res.write(`data: ${JSON.stringify({ type: 'done', fullContent: 'Desculpe, não consegui processar sua pergunta. Tente reformular.', toolCallsCount: totalToolCalls })}\n\n`);
     res.end();

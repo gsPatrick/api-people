@@ -72,6 +72,17 @@ router.post('/message', async (req, res) => {
         // Remove a última (que é a mensagem atual do user, já vai no processamento)
         const historyWithoutCurrent = history.slice(0, -1);
 
+        // SSE Headers
+        res.writeHead(200, {
+            'Content-Type': 'text/event-stream',
+            'Cache-Control': 'no-cache',
+            'Connection': 'keep-alive',
+            'X-Accel-Buffering': 'no'
+        });
+
+        // Enviar o ID da conversa no início do stream
+        res.write(`data: ${JSON.stringify({ type: 'conversationId', conversationId: conversation.id })}\n\n`);
+
         // Processar com streaming
         const result = await processMessageStream(
             conversation.id,
@@ -120,6 +131,7 @@ router.post('/message', async (req, res) => {
         if (!res.headersSent) {
             res.status(500).json({ error: `Erro ao processar mensagem: ${err.message}` });
         } else {
+            res.write(`data: ${JSON.stringify({ type: 'conversationId', conversationId: conversation.id })}\n\n`);
             res.write(`data: ${JSON.stringify({ type: 'error', error: err.message })}\n\n`);
             res.end();
         }
