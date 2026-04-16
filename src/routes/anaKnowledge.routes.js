@@ -50,7 +50,7 @@ const getOpenAIClient = () => {
 // REGRAS DE OURO (AnaRule)
 // =============================================
 
-router.get('/rules', authenticateToken, async (req, res) => {
+router.get('/rules', async (req, res) => {
     try {
         const db = await getDB();
         const rules = await db.AnaRule.findAll({ order: [['priority', 'DESC']] });
@@ -61,7 +61,7 @@ router.get('/rules', authenticateToken, async (req, res) => {
     }
 });
 
-router.post('/rules', authenticateToken, isAdmin, async (req, res) => {
+router.post('/rules', isAdmin, async (req, res) => {
     try {
         const db = await getDB();
         const rule = await db.AnaRule.create(req.body);
@@ -102,7 +102,7 @@ router.delete('/rules/:id', authenticateToken, isAdmin, async (req, res) => {
 // MODELOS DE CONHECIMENTO (KnowledgeModel)
 // =============================================
 
-router.get('/models', authenticateToken, async (req, res) => {
+router.get('/models', async (req, res) => {
     try {
         const db = await getDB();
         const models = await db.KnowledgeModel.findAll({ 
@@ -116,7 +116,7 @@ router.get('/models', authenticateToken, async (req, res) => {
     }
 });
 
-router.post('/models', authenticateToken, isAdmin, async (req, res) => {
+router.post('/models', isAdmin, async (req, res) => {
     try {
         const db = await getDB();
         const model = await db.KnowledgeModel.create(req.body);

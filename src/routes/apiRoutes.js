@@ -67,7 +67,10 @@ router.use('/scorecard', scorecardRoutes);
 router.use('/match', matchRoutes);
 router.use('/aimemory', aiMemoryRoutes);
 router.use('/chat', chatRoutes);
-router.use('/ana', anaKnowledgeRoutes); // Novo: /api/ana/rules, etc.
+router.use('/ana', (req, res, next) => {
+    console.log(`[API-ROOT] Routing to /ana. Method: ${req.method} | User: ${req.user?.email} | Role: ${req.user?.role}`);
+    next();
+}, anaKnowledgeRoutes);
 
 // ==========================================================
 // 3. ROTAS DE ADMINISTRAÇÃO (EXIGEM TOKEN + ROLE DE ADMIN)
