@@ -172,8 +172,10 @@ export const handleConfirmCreation = async (talentData, jobId, externalMatchData
       // log(`ℹ️ Ignorando criação de aplicação: Nenhum jobId fornecido.`);
     }
 
-    // === PASSO 2: Disparar Sincronização em Background (FIRE AND FORGET) ===
-    SyncService.triggerBackgroundSync(localTalent.id, jobId);
+    // === PASSO 2: Disparar Sincronização em Background (Apenas se não for Rejeição) ===
+    if (talentData.status !== 'REJECTED') {
+      SyncService.triggerBackgroundSync(localTalent.id, jobId);
+    }
 
     // === PASSO 3: Mapeamento com IA (Background Local) ===
     mapAndEnrichLocalTalent(localTalent, talentData).catch(err => {

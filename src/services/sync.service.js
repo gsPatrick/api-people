@@ -43,15 +43,15 @@ class SyncService {
             // 1. Create in External Provider
             // We map the local data to what the provider expects
             // [FIX] Do NOT spread ...localTalent.data indiscriminately. 
-            // Sanitize: ensure all identity fields are strings (no nulls)
-            const payload = {
-                name: localTalent.name || "",
-                linkedinUsername: localTalent.linkedinUsername || "",
-                headline: localTalent.headline || "",
-                email: localTalent.email || "",
-                phone: localTalent.phone || "",
-                location: localTalent.location || ""
-            };
+            // Sanitize: ensure all identity fields are strings and OMIT if empty
+            // This prevents InHire validation errors like "[string \"\" is not a valid email address]"
+            const payload = {};
+            if (localTalent.name) payload.name = localTalent.name;
+            if (localTalent.linkedinUsername) payload.linkedinUsername = localTalent.linkedinUsername;
+            if (localTalent.headline) payload.headline = localTalent.headline;
+            if (localTalent.email) payload.email = localTalent.email;
+            if (localTalent.phone) payload.phone = localTalent.phone;
+            if (localTalent.location) payload.location = localTalent.location;
 
             // If we have specific extra fields that ARE allowed (like 'urls'), map them manually here.
             // For now, sending only the core identity fields to pass validation.
