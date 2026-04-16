@@ -61,6 +61,8 @@ import SyncService from '../../services/sync.service.js';
 
 const { LocalTalent } = db; // REMOVIDO: Destruturação no topo causa erro se models ainda não carregaram
 
+export const handleConfirmCreation = async (talentData, jobId, externalMatchData = null) => {
+  try {
     // [REMOVED] if (!jobId) throw new Error("O ID da Vaga (jobId) é obrigatório.");
     // Agora o jobId é opcional para permitir salvamento no "Banco de Talentos" (Rejeitados)
 
