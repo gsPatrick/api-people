@@ -61,10 +61,8 @@ import SyncService from '../../services/sync.service.js';
 
 const { LocalTalent } = db; // REMOVIDO: Destruturação no topo causa erro se models ainda não carregaram
 
-export const handleConfirmCreation = async (talentData, jobId, externalMatchData = null) => {
-  // log(`--- ORQUESTRADOR (LOCAL-FIRST): Criando talento '${talentData.name}' na vaga '${jobId}' ---`);
-  try {
-    if (!jobId) throw new Error("O ID da Vaga (jobId) é obrigatório.");
+    // [REMOVED] if (!jobId) throw new Error("O ID da Vaga (jobId) é obrigatório.");
+    // Agora o jobId é opcional para permitir salvamento no "Banco de Talentos" (Rejeitados)
 
     // Se o matchData não veio por argumento, busca dentro do payload (para rotas unificadas)
     const matchData = externalMatchData || talentData.matchData;
@@ -132,32 +130,36 @@ export const handleConfirmCreation = async (talentData, jobId, externalMatchData
       });
     }
 
-    // === PASSO 1.5: Criar LocalApplication (Evita duplicidade na mesma vaga) ===
-    const [application, created] = await db.LocalApplication.findOrCreate({
-      where: { jobId, talentId: localTalent.id },
-      defaults: {
-        stage: talentData.status === 'REJECTED' ? 'REJECTED' : 'Applied',
-        matchScore: matchData?.result?.overallScore || 0,
-        aiReview: matchData?.result || null
-      }
-    });
+    // === PASSO 1.5: Criar LocalApplication (Apenas se houver JobId) ===
+    if (jobId) {
+      const [application, created] = await db.LocalApplication.findOrCreate({
+        where: { jobId, talentId: localTalent.id },
+        defaults: {
+          stage: talentData.status === 'REJECTED' ? 'REJECTED' : 'Applied',
+          matchScore: matchData?.result?.overallScore || 0,
+          aiReview: matchData?.result || null
+        }
+      });
 
-    if (created) {
-      // log(`✅ Nova LocalApplication criada para a vaga ${jobId}`);
+      if (created) {
+        // log(`✅ Nova LocalApplication criada para a vaga ${jobId}`);
+      } else {
+        // log(`ℹ️ LocalApplication já existia para vaga ${jobId}. Atualizando match se necessário.`);
+        const updateData = {};
+        if (matchData && matchData.result) {
+          updateData.matchScore = matchData.result.overallScore;
+          updateData.aiReview = matchData.result;
+        }
+        if (talentData.status === 'REJECTED') {
+          updateData.stage = 'REJECTED';
+        }
+        
+        if (Object.keys(updateData).length > 0) {
+          await application.update(updateData);
+        }
+      }
     } else {
-      // log(`ℹ️ LocalApplication já existia para vaga ${jobId}. Atualizando match se necessário.`);
-      const updateData = {};
-      if (matchData && matchData.result) {
-        updateData.matchScore = matchData.result.overallScore;
-        updateData.aiReview = matchData.result;
-      }
-      if (talentData.status === 'REJECTED') {
-        updateData.stage = 'REJECTED';
-      }
-      
-      if (Object.keys(updateData).length > 0) {
-        await application.update(updateData);
-      }
+      // log(`ℹ️ Ignorando criação de aplicação: Nenhum jobId fornecido.`);
     }
 
     // === PASSO 2: Disparar Sincronização em Background (FIRE AND FORGET) ===
