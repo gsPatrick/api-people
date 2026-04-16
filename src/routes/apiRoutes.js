@@ -14,6 +14,7 @@ import chatRoutes from './chat.routes.js';
 import authenticationRouter from './authRoutes.js';
 import { extractProfileFromPdf } from '../controllers/pdf.controller.js'; // 2. Importe o novo controller
 import { fetchLinkedInProfilePdf, checkLinkedInCookieStatus } from '../controllers/linkedinPdf.controller.js'; // LinkedIn PDF Scraping
+import anaKnowledgeRoutes from './anaKnowledge.routes.js'; // Novo
 const upload = multer({ storage: multer.memoryStorage() }); // 3. Configure o multer para usar a memória
 
 // Orquestradores para as rotas da aplicação
@@ -62,9 +63,11 @@ router.use('/admin', isAdmin, adminRoutes);
 // 4. ROTAS DA APLICAÇÃO (AGORA PROTEGIDAS POR TOKEN)
 // ==========================================================
 router.use('/scorecards', scorecardRoutes); // <-- 2. REGISTRAR O ROTEADOR AQUI
-router.use('/match', matchRoutes);         // <-- 2. REGISTRAR O ROTEADOR DE MATCH AQUI
-router.use('/ai-memory', aiMemoryRoutes);
+router.use('/scorecard', scorecardRoutes);
+router.use('/match', matchRoutes);
+router.use('/aimemory', aiMemoryRoutes);
 router.use('/chat', chatRoutes);
+router.use('/ana', anaKnowledgeRoutes); // Novo: /api/ana/rules, etc.
 
 // ==========================================================
 // 3. ROTAS DE ADMINISTRAÇÃO (EXIGEM TOKEN + ROLE DE ADMIN)

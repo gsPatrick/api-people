@@ -6,6 +6,12 @@
 import { OpenAI } from 'openai';
 import { getToolDefinitions, executeTool } from './chatTools.service.js';
 import { log, error as logError } from '../utils/logger.service.js';
+import { Op } from 'sequelize';
+
+const getDB = async () => {
+    const module = await import('../models/index.js');
+    return module.default;
+};
 
 const getClient = () => {
     return new OpenAI({
@@ -59,19 +65,71 @@ const MAX_HISTORY_MESSAGES = 30; // Últimas 30 mensagens para contexto
 // =============================================
 
 /**
+ * Monta o SYSTEM PROMPT dinâmico baseado em Regras de Ouro e Conhecimento.
+ */
+const getDynamicSystemPrompt = async (userMessage, modelId) => {
+    try {
+        const db = await getDB();
+        let prompt = SYSTEM_PROMPT;
+
+        // 1. Injetar Regras de Ouro (Globais)
+        const rules = await db.AnaRule.findAll({ 
+            where: { isActive: true },
+            order: [['priority', 'DESC']]
+        });
+
+        if (rules.length > 0) {
+            prompt += `\n\n**REGRAS DE OURO (OBRIGATÓRIO):**\n`;
+            rules.forEach((rule, idx) => {
+                prompt += `${idx + 1}. ${rule.title}: ${rule.content}\n`;
+            });
+        }
+
+        // 2. Injetar Conhecimento do Modelo (se selecionado)
+        if (modelId) {
+            const entries = await db.KnowledgeEntry.findAll({
+                where: { modelId }
+            });
+
+            // Keyword match simples na mensagem do usuário
+            const msgLower = userMessage.toLowerCase();
+            const relevantEntries = entries.filter(entry => {
+                const keywords = entry.keywords || [];
+                return keywords.some(k => msgLower.includes(k.toLowerCase())) || 
+                       msgLower.includes(entry.title.toLowerCase());
+            });
+
+            if (relevantEntries.length > 0) {
+                prompt += `\n\n**CONTEXTO ADICIONAL (Use se for relevante para a pergunta):**\n`;
+                relevantEntries.forEach(entry => {
+                    prompt += `--- ${entry.title} ---\n${entry.content}\n`;
+                });
+            }
+        }
+
+        return prompt;
+    } catch (err) {
+        logError('[ANA] Erro ao montar prompt dinâmico:', err.message);
+        return SYSTEM_PROMPT;
+    }
+};
+
+/**
  * Processa uma mensagem do usuário com streaming SSE.
  * O loop de tool-calling acontece internamente:
  * 1. Envia mensagem + histórico + tools para o GPT
  * 2. Se GPT pedir tool_call → executa → devolve resultado → repete
  * 3. Quando GPT responde com texto → stream via SSE
  */
-export const processMessageStream = async (conversationId, userMessage, history, res) => {
+export const processMessageStream = async (conversationId, userMessage, history, res, modelId = null) => {
     const client = getClient();
     const tools = getToolDefinitions();
 
+    const dynamicPrompt = await getDynamicSystemPrompt(userMessage, modelId);
+
     // Montar mensagens do contexto
     const messages = [
-        { role: 'system', content: SYSTEM_PROMPT },
+        { role: 'system', content: dynamicPrompt },
         ...history.slice(-MAX_HISTORY_MESSAGES),
         { role: 'user', content: userMessage }
     ];
@@ -183,12 +241,14 @@ export const processMessageStream = async (conversationId, userMessage, history,
 // PROCESSAMENTO SEM STREAMING (para testes)
 // =============================================
 
-export const processMessage = async (userMessage, history = []) => {
+export const processMessage = async (userMessage, history = [], modelId = null) => {
     const client = getClient();
     const tools = getToolDefinitions();
 
+    const dynamicPrompt = await getDynamicSystemPrompt(userMessage, modelId);
+
     const messages = [
-        { role: 'system', content: SYSTEM_PROMPT },
+        { role: 'system', content: dynamicPrompt },
         ...history.slice(-MAX_HISTORY_MESSAGES),
         { role: 'user', content: userMessage }
     ];

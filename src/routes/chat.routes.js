@@ -20,7 +20,7 @@ const getDB = async () => {
 // Envia mensagem e recebe resposta em streaming (SSE)
 // =============================================
 router.post('/message', async (req, res) => {
-    const { conversationId, message } = req.body;
+    const { conversationId, message, modelId } = req.body;
     const userId = req.user?.id;
 
     if (!message || !message.trim()) {
@@ -88,7 +88,8 @@ router.post('/message', async (req, res) => {
             conversation.id,
             message,
             historyWithoutCurrent,
-            res
+            res,
+            modelId
         );
 
         // Após streaming completar, salvar a resposta da assistant
