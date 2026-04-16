@@ -139,7 +139,11 @@ export const handleConfirmCreation = async (talentData, jobId, externalMatchData
         defaults: {
           stage: talentData.status === 'REJECTED' ? 'REJECTED' : 'Applied',
           matchScore: matchData?.result?.overallScore || 0,
-          aiReview: matchData?.result || null
+          evaluationResult: matchData?.result ? {
+             ...matchData.result,
+             jobName: matchData.jobName || "Vaga Selecionada",
+             evaluatedAt: new Date().toISOString()
+          } : null
         }
       });
 
@@ -150,7 +154,11 @@ export const handleConfirmCreation = async (talentData, jobId, externalMatchData
         const updateData = {};
         if (matchData && matchData.result) {
           updateData.matchScore = matchData.result.overallScore;
-          updateData.aiReview = matchData.result;
+          updateData.evaluationResult = {
+            ...matchData.result,
+            jobName: matchData.jobName || "Vaga Selecionada",
+            evaluatedAt: new Date().toISOString()
+          };
         }
         if (talentData.status === 'REJECTED') {
           updateData.stage = 'REJECTED';

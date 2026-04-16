@@ -97,12 +97,33 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
             messages: [{ role: "user", content: prompt }],
             response_format: { type: "json_object" },
             temperature: 0.1,
-            max_tokens: 300
+            max_tokens: 500, // Aumentado de 300 para garantir que justificativas longas não cortem
+            max_retries: 2
         });
 
-        const result = JSON.parse(response.choices[0].message.content);
+        let content = response.choices[0].message.content;
+        let result;
+        
+        try {
+            result = JSON.parse(content);
+        } catch (parseErr) {
+            logError(`JSON malformado detectado para "${criterion.name}". Tentando reparo básico...`);
+            // Reparo básico de JSON se estiver cortado (ex: falta de fechamento de aspas ou chaves)
+            if (content.lastIndexOf('"') > content.lastIndexOf(':') && !content.endsWith('"') && !content.endsWith('"}')) {
+                content += '"';
+            }
+            if (!content.trim().endsWith('}')) {
+                content += ' }';
+            }
+            try {
+                result = JSON.parse(content);
+            } catch (e) {
+                throw new Error(`Falha crítica de parsing JSON: ${e.message}`);
+            }
+        }
+
         return {
-            id: criterion.id, // Adicionado para garantir match preciso
+            id: criterion.id,
             name: criterion.name,
             score: result.score !== undefined ? result.score : 0,
             justification: result.justification || "Análise incompleta",

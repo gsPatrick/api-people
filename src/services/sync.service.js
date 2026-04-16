@@ -43,14 +43,14 @@ class SyncService {
             // 1. Create in External Provider
             // We map the local data to what the provider expects
             // [FIX] Do NOT spread ...localTalent.data indiscriminately. 
-            // The API schema is strict and rejects fields like 'jobId', 'matchData', 'perfil', etc.
+            // Sanitize: ensure all identity fields are strings (no nulls)
             const payload = {
-                name: localTalent.name,
-                linkedinUsername: localTalent.linkedinUsername,
-                headline: localTalent.headline,
-                email: localTalent.email,
-                phone: localTalent.phone,
-                location: localTalent.location
+                name: localTalent.name || "",
+                linkedinUsername: localTalent.linkedinUsername || "",
+                headline: localTalent.headline || "",
+                email: localTalent.email || "",
+                phone: localTalent.phone || "",
+                location: localTalent.location || ""
             };
 
             // If we have specific extra fields that ARE allowed (like 'urls'), map them manually here.
