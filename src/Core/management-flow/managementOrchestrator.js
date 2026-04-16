@@ -194,7 +194,9 @@ export const fetchTalentDetails = async (talentId) => {
                     jobId: app.jobId,
                     jobName: jobName || 'Vaga Desconhecida',
                     status: app.stage || app.status || 'Applied',
-                    evaluationResult: app.evaluationResult // Histórico da avaliação
+                    evaluationResult: app.evaluationResult, // Histórico da avaliação
+                    updatedAt: app.updatedAt,
+                    createdAt: app.createdAt
                 };
             }));
 
