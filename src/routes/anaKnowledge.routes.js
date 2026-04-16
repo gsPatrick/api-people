@@ -19,15 +19,25 @@ try {
 const router = Router();
 const upload = multer({ storage: multer.memoryStorage() });
 
-// LOG MESTRE: Monitorar chamadas
+// LOG MESTRE: Monitorar chamadas com BODY e Stack Trace
 router.use((req, res, next) => {
-    console.log(`[ANA-ROUTER] ${req.method} ${req.url} | User: ${req.user?.email}`);
+    console.log(`\n--- [ANA-ROUTER] ${new Date().toISOString()} ---`);
+    console.log(`METHOD: ${req.method} | URL: ${req.url}`);
+    console.log(`USER: ${req.user?.email} | ROLE: ${req.user?.role}`);
+    if (req.method !== 'GET') {
+        console.log('BODY:', JSON.stringify(req.body, null, 2));
+    }
     next();
 });
 
 const getDB = async () => {
-    const module = await import('../models/index.js');
-    return module.default;
+    try {
+        const module = await import('../models/index.js');
+        return module.default;
+    } catch (err) {
+        console.error('[ANA-ROUTER] Erro ao carregar DB:', err);
+        throw err;
+    }
 };
 
 const getOpenAIClient = () => {
@@ -46,6 +56,7 @@ router.get('/rules', authenticateToken, async (req, res) => {
         const rules = await db.AnaRule.findAll({ order: [['priority', 'DESC']] });
         res.json({ success: true, rules });
     } catch (err) {
+        console.error('[ANA-ROUTER] Erro GET /rules:', err);
         res.status(500).json({ error: err.message });
     }
 });
@@ -56,6 +67,7 @@ router.post('/rules', authenticateToken, isAdmin, async (req, res) => {
         const rule = await db.AnaRule.create(req.body);
         res.status(201).json({ success: true, rule });
     } catch (err) {
+        console.error('[ANA-ROUTER] Erro GET /rules:', err);
         res.status(500).json({ error: err.message });
     }
 });
@@ -68,6 +80,7 @@ router.put('/rules/:id', authenticateToken, isAdmin, async (req, res) => {
         await rule.update(req.body);
         res.json({ success: true, rule });
     } catch (err) {
+        console.error('[ANA-ROUTER] Erro GET /rules:', err);
         res.status(500).json({ error: err.message });
     }
 });
@@ -80,6 +93,7 @@ router.delete('/rules/:id', authenticateToken, isAdmin, async (req, res) => {
         await rule.destroy();
         res.json({ success: true, message: 'Regra deletada' });
     } catch (err) {
+        console.error('[ANA-ROUTER] Erro GET /rules:', err);
         res.status(500).json({ error: err.message });
     }
 });
@@ -97,6 +111,7 @@ router.get('/models', authenticateToken, async (req, res) => {
         });
         res.json({ success: true, models });
     } catch (err) {
+        console.error('[ANA-ROUTER] Erro GET /rules:', err);
         res.status(500).json({ error: err.message });
     }
 });
@@ -107,6 +122,7 @@ router.post('/models', authenticateToken, isAdmin, async (req, res) => {
         const model = await db.KnowledgeModel.create(req.body);
         res.status(201).json({ success: true, model });
     } catch (err) {
+        console.error('[ANA-ROUTER] Erro GET /rules:', err);
         res.status(500).json({ error: err.message });
     }
 });
@@ -120,6 +136,7 @@ router.get('/models/:id/entries', authenticateToken, async (req, res) => {
         });
         res.json({ success: true, entries });
     } catch (err) {
+        console.error('[ANA-ROUTER] Erro GET /rules:', err);
         res.status(500).json({ error: err.message });
     }
 });
@@ -137,6 +154,7 @@ router.post('/models/:modelId/entries', authenticateToken, isAdmin, async (req, 
         });
         res.status(201).json({ success: true, entry });
     } catch (err) {
+        console.error('[ANA-ROUTER] Erro GET /rules:', err);
         res.status(500).json({ error: err.message });
     }
 });
@@ -149,6 +167,7 @@ router.put('/entries/:id', authenticateToken, isAdmin, async (req, res) => {
         await entry.update(req.body);
         res.json({ success: true, entry });
     } catch (err) {
+        console.error('[ANA-ROUTER] Erro GET /rules:', err);
         res.status(500).json({ error: err.message });
     }
 });
@@ -161,6 +180,7 @@ router.delete('/entries/:id', authenticateToken, isAdmin, async (req, res) => {
         await entry.destroy();
         res.json({ success: true, message: 'Entry deletada' });
     } catch (err) {
+        console.error('[ANA-ROUTER] Erro GET /rules:', err);
         res.status(500).json({ error: err.message });
     }
 });
