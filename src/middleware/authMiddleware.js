@@ -14,7 +14,12 @@ export const authenticateToken = (req, res, next) => {
 
     jwt.verify(token, JWT_SECRET, (err, user) => {
         if (err) {
-            return res.sendStatus(403); // Forbidden (token inválido)
+            console.error(`[AUTH-TOKEN] JWT Verify Error: ${err.message} | Token snippet: ${token.substring(0, 10)}... | Secret used: ${JWT_SECRET.substring(0, 3)}***`);
+            return res.status(403).json({ 
+                error: 'Token inválido ou expirado', 
+                details: err.message,
+                hint: 'Verifique se o JWT_SECRET do servidor é o mesmo usado para gerar o token.'
+            });
         }
         req.user = user;
         next();
