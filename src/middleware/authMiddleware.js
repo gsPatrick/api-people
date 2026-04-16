@@ -22,13 +22,20 @@ export const authenticateToken = (req, res, next) => {
 };
 
 export const isAdmin = (req, res, next) => {
-    const userRole = req.user?.role?.toLowerCase();
-    console.log(`[AUTH] Verifying admin status for user: ${req.user?.email}, Role: ${req.user?.role}`);
+    // Garantir que temos um objeto role tratável
+    const rawRole = req.user && req.user.role ? String(req.user.role) : '';
+    const userRole = rawRole.trim().toLowerCase();
     
-    if (req.user && userRole === 'admin') {
+    console.log(`[AUTH-CHECK] Email: ${req.user?.email} | Role Capturada: "${rawRole}" | Role Processada: "${userRole}"`);
+    
+    if (userRole === 'admin') {
+        console.log(`[AUTH-CHECK] ✅ ACESSO PERMITIDO para ${req.user?.email}`);
         next();
     } else {
-        console.warn(`[AUTH] Access denied. User role is '${req.user?.role}', expected 'admin'.`);
-        res.status(403).json({ error: 'Acesso negado. Rota exclusiva para administradores.' });
+        console.warn(`[AUTH-CHECK] ❌ ACESSO NEGADO para ${req.user?.email}. Role encontrada: "${userRole}"`);
+        res.status(403).json({ 
+            error: 'Acesso negado. Rota exclusiva para administradores.',
+            details: { roleFound: userRole, expected: 'admin' }
+        });
     }
 };

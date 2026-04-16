@@ -19,6 +19,12 @@ try {
 const router = Router();
 const upload = multer({ storage: multer.memoryStorage() });
 
+// LOG MESTRE: Monitorar chamadas
+router.use((req, res, next) => {
+    console.log(`[ANA-ROUTER] ${req.method} ${req.url} | User: ${req.user?.email}`);
+    next();
+});
+
 const getDB = async () => {
     const module = await import('../models/index.js');
     return module.default;
