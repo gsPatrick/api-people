@@ -2,9 +2,19 @@
 import { Router } from 'express';
 import { authenticateToken, isAdmin } from '../middleware/authMiddleware.js';
 import multer from 'multer';
-import pdf from 'pdf-parse';
 import { OpenAI } from 'openai';
 import { log, error as logError } from '../utils/logger.service.js';
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+
+// Carregamento resiliente do pdf-parse (devido a incompatibilidades ESM)
+let pdf;
+try {
+    const lib = require('pdf-parse');
+    pdf = typeof lib === 'function' ? lib : (lib.default || lib);
+} catch (e) {
+    pdf = null;
+}
 
 const router = Router();
 const upload = multer({ storage: multer.memoryStorage() });
@@ -158,6 +168,11 @@ router.post('/extract-pdf', authenticateToken, isAdmin, upload.single('file'), a
         if (!req.file) return res.status(400).json({ error: 'Arquivo PDF é obrigatório.' });
 
         const dataBuffer = req.file.buffer;
+        
+        if (typeof pdf !== 'function') {
+            throw new Error('Biblioteca pdf-parse não carregada corretamente.');
+        }
+
         const pdfData = await pdf(dataBuffer);
         const text = pdfData.text;
 
