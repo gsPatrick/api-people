@@ -8,17 +8,22 @@ export const authenticateToken = (req, res, next) => {
     const authHeader = req.headers['authorization'];
     const token = authHeader && authHeader.split(' ')[1]; // Formato "Bearer TOKEN"
 
-    if (token == null) {
-        return res.sendStatus(401); // Unauthorized
+    // Proteção contra tokens "fantasmas" (string "undefined" enviada pelo frontend)
+    if (token === 'undefined' || !token) {
+        console.warn(`[AUTH-TOKEN] Bloqueado: Token é ${token === 'undefined' ? 'string "undefined"' : 'nulo'}`);
+        return res.status(401).json({ 
+            error: 'Token não fornecido ou inválido', 
+            hint: 'O frontend enviou um token nulo ou a string "undefined". Verifique a sessão.' 
+        });
     }
 
     jwt.verify(token, JWT_SECRET, (err, user) => {
         if (err) {
-            console.error(`[AUTH-TOKEN] JWT Verify Error: ${err.message} | Token snippet: ${token.substring(0, 10)}... | Secret used: ${JWT_SECRET.substring(0, 3)}***`);
+            console.error(`[AUTH-TOKEN] JWT Verify Error: ${err.message} | SecretPrefix: ${JWT_SECRET.substring(0, 3)}***`);
             return res.status(403).json({ 
                 error: 'Token inválido ou expirado', 
                 details: err.message,
-                hint: 'Verifique se o JWT_SECRET do servidor é o mesmo usado para gerar o token.'
+                hint: 'Verifique se o JWT_SECRET do servidor coincide com o gerador do token.'
             });
         }
         req.user = user;
