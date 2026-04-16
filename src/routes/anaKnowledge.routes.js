@@ -10,25 +10,31 @@ const require = createRequire(import.meta.url);
 // Carregamento resiliente do pdf-parse (devido a incompatibilidades ESM)
 let pdf;
 try {
-    const lib = require('pdf-parse');
-    pdf = typeof lib === 'function' ? lib : (lib.default || lib);
+    // Tentativa 1: require padrão
+    let lib = require('pdf-parse');
+    pdf = (typeof lib === 'function') ? lib : (lib.default || lib);
+    
+    // Tentativa 2: caminhos específicos se falhar
+    if (typeof pdf !== 'function') {
+        const paths = [
+            'pdf-parse/dist/pdf-parse/cjs/index.cjs',
+            'pdf-parse/index.js'
+        ];
+        for (const p of paths) {
+            try {
+                const l = require(p);
+                pdf = (typeof l === 'function') ? l : (l.default || l);
+                if (typeof pdf === 'function') break;
+            } catch (innerE) {}
+        }
+    }
 } catch (e) {
+    console.error('[ANA-ROUTER] Erro crítico ao carregar pdf-parse:', e.message);
     pdf = null;
 }
 
 const router = Router();
 const upload = multer({ storage: multer.memoryStorage() });
-
-// LOG MESTRE: Monitorar chamadas com BODY e Stack Trace
-router.use((req, res, next) => {
-    console.log(`\n--- [ANA-ROUTER] ${new Date().toISOString()} ---`);
-    console.log(`METHOD: ${req.method} | URL: ${req.url}`);
-    console.log(`USER: ${req.user?.email} | ROLE: ${req.user?.role}`);
-    if (req.method !== 'GET') {
-        console.log('BODY:', JSON.stringify(req.body, null, 2));
-    }
-    next();
-});
 
 const getDB = async () => {
     try {
@@ -244,3 +250,18 @@ router.post('/extract-pdf', authenticateToken, isAdmin, upload.single('file'), a
 });
 
 export default router;
+
+// LOG MESTRE: Monitorar chamadas (Movido para o final para capturar req.body após multer)
+router.use((req, res, next) => {
+    if (req.url === '/extract-pdf' && req.method === 'POST') {
+        // Log específico para PDF já foi feito no handler
+    } else {
+        console.log(`\n--- [ANA-ROUTER] ${new Date().toISOString()} ---`);
+        console.log(`METHOD: ${req.method} | URL: ${req.url}`);
+        console.log(`USER: ${req.user?.email} | ROLE: ${req.user?.role}`);
+        if (req.method !== 'GET') {
+            console.log('BODY:', JSON.stringify(req.body, null, 2));
+        }
+    }
+    next();
+});
