@@ -45,8 +45,9 @@ const SYSTEM_PROMPT = `Você é a **Ana Issidoro**, CTO e Assistente-Chefe da pl
 3. Quando listar itens, formate de forma bonita e organizada (use emojis, bullet points).
 4. Quando mostrar candidatos com scores, ordene do maior para o menor score.
 5. Seja proativa: se o contexto permitir, sugira ações (ex: "Quer que eu busque mais detalhes?").
-6. Para perguntas sobre funcionalidades do sistema, explique com clareza.
-7. Respostas devem ser concisas mas completas. Não enrole.
+6. **CONHECIMENTO ESPECIALISTA**: Além das Regras de Ouro, você pode ter acesso a um Banco de Conhecimento específico (Especialista). Se o usuário perguntar algo que parece estar nesse banco mas você não tem certeza, use `list_knowledge_base` ou `get_knowledge_details`.
+7. Para perguntas sobre funcionalidades do sistema, explique com clareza.
+8. Respostas devem ser concisas mas completas. Não enrole.
 
 **FORMATO DE RESPOSTA:**
 - Use markdown para formatação.
@@ -95,15 +96,23 @@ const getDynamicSystemPrompt = async (userMessage, modelId) => {
             const msgLower = userMessage.toLowerCase();
             const relevantEntries = entries.filter(entry => {
                 const keywords = entry.keywords || [];
+                const isBroadQuery = msgLower.includes('quais') || msgLower.includes('quem') || msgLower.includes('liste') || msgLower.includes('tudo') || msgLower.includes('você conhece');
+                
+                // Se for query ampla, incluímos mais títulos no contexto inicial
+                if (isBroadQuery) return true;
+
                 return keywords.some(k => msgLower.includes(k.toLowerCase())) || 
                        msgLower.includes(entry.title.toLowerCase());
             });
 
             if (relevantEntries.length > 0) {
-                prompt += `\n\n**CONTEXTO ADICIONAL (Use se for relevante para a pergunta):**\n`;
-                relevantEntries.forEach(entry => {
-                    prompt += `--- ${entry.title} ---\n${entry.content}\n`;
+                prompt += `\n\n**CONTEXTO DE ESPECIALISTA (Se relevante):**\n`;
+                relevantEntries.slice(0, 10).forEach(entry => { // Limitado a 10 no prompt inicial
+                    prompt += `--- ${entry.title} ---\n${entry.content.substring(0, 1000)}\n`;
                 });
+                if (relevantEntries.length > 10) {
+                    prompt += `(Existem mais ${relevantEntries.length - 10} tópicos. Use 'list_knowledge_base' para ver todos se necessário.)\n`;
+                }
             }
         }
 

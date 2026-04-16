@@ -215,6 +215,35 @@ const toolDefinitions = [
                 properties: {}
             }
         }
+    },
+
+    // --- CONHECIMENTO (ESPECIALISTA) ---
+    {
+        type: "function",
+        function: {
+            name: "list_knowledge_base",
+            description: "Lista todos os títulos, tópicos e palavras-chave disponíveis no seu modelo de conhecimento de Especialista atual. Use isso para responder 'o que você sabe sobre este assunto?' ou 'quais receitas você tem?'.",
+            parameters: {
+                type: "object",
+                properties: {
+                    modelId: { type: "string", description: "Opcional: ID do modelo. Se não fornecido, busca no atual." }
+                }
+            }
+        }
+    },
+    {
+        type: "function",
+        function: {
+            name: "get_knowledge_details",
+            description: "Busca o conteúdo completo de blocos de conhecimento específicos usando o ID ou busca textual no título. Use isso para detalhar uma informação ou receita encontrada na listagem.",
+            parameters: {
+                type: "object",
+                properties: {
+                    search: { type: "string", description: "Título ou termo para buscar no conteúdo" },
+                    entryId: { type: "string", description: "ID específico do bloco de conhecimento" }
+                }
+            }
+        }
     }
 ];
 
@@ -496,6 +525,41 @@ const toolHandlers = {
         if (!database.AIMemory) return { memories: [], message: "Modelo AIMemory não disponível" };
         const memories = await database.AIMemory.findAll();
         return { count: memories.length, memories: memories.map(m => m.get({ plain: true })) };
+    },
+
+    // --- CONHECIMENTO (ESPECIALISTA) ---
+    list_knowledge_base: async (args) => {
+        const database = await getDB();
+        const where = {};
+        if (args.modelId) where.modelId = args.modelId;
+        
+        const entries = await database.KnowledgeEntry.findAll({
+            where,
+            attributes: ['id', 'title', 'keywords', 'modelId'],
+            order: [['title', 'ASC']]
+        });
+        return { count: entries.length, topics: entries.map(e => e.get({ plain: true })) };
+    },
+
+    get_knowledge_details: async (args) => {
+        const database = await getDB();
+        let entry = null;
+        
+        if (args.entryId) {
+            entry = await database.KnowledgeEntry.findByPk(args.entryId);
+        } else if (args.search) {
+            entry = await database.KnowledgeEntry.findOne({
+                where: { 
+                    [Op.or]: [
+                        { title: { [Op.iLike]: `%${args.search}%` } },
+                        { content: { [Op.iLike]: `%${args.search}%` } }
+                    ]
+                }
+            });
+        }
+        
+        if (!entry) return { error: "Informação não encontrada no banco de conhecimento" };
+        return entry.get({ plain: true });
     }
 };
 
