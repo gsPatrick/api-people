@@ -22,9 +22,13 @@ export const authenticateToken = (req, res, next) => {
 };
 
 export const isAdmin = (req, res, next) => {
-    if (req.user && req.user.role === 'admin') {
+    const userRole = req.user?.role?.toLowerCase();
+    console.log(`[AUTH] Verifying admin status for user: ${req.user?.email}, Role: ${req.user?.role}`);
+    
+    if (req.user && userRole === 'admin') {
         next();
     } else {
+        console.warn(`[AUTH] Access denied. User role is '${req.user?.role}', expected 'admin'.`);
         res.status(403).json({ error: 'Acesso negado. Rota exclusiva para administradores.' });
     }
 };
