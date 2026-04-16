@@ -5,33 +5,8 @@ import multer from 'multer';
 import { OpenAI } from 'openai';
 import { log, error as logError } from '../utils/logger.service.js';
 import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
-
-// Carregamento resiliente do pdf-parse (devido a incompatibilidades ESM)
-let pdf;
-try {
-    // Tentativa 1: require padrão
-    let lib = require('pdf-parse');
-    pdf = (typeof lib === 'function') ? lib : (lib.default || lib);
-    
-    // Tentativa 2: caminhos específicos se falhar
-    if (typeof pdf !== 'function') {
-        const paths = [
-            'pdf-parse/dist/pdf-parse/cjs/index.cjs',
-            'pdf-parse/index.js'
-        ];
-        for (const p of paths) {
-            try {
-                const l = require(p);
-                pdf = (typeof l === 'function') ? l : (l.default || l);
-                if (typeof pdf === 'function') break;
-            } catch (innerE) {}
-        }
-    }
-} catch (e) {
-    console.error('[ANA-ROUTER] Erro crítico ao carregar pdf-parse:', e.message);
-    pdf = null;
-}
+// Carregamento de pdf-parse removido (extração movida para o frontend)
+const pdf = null;
 
 const router = Router();
 const upload = multer({ storage: multer.memoryStorage() });
@@ -192,27 +167,18 @@ router.delete('/entries/:id', authenticateToken, isAdmin, async (req, res) => {
 });
 
 // =============================================
-// EXTRAÇÃO DE PDF (GPT-4o-mini)
+// ESTRUTURAÇÃO DE CONHECIMENTO (GPT-4o-mini)
 // =============================================
 
-router.post('/extract-pdf', authenticateToken, isAdmin, upload.single('file'), async (req, res) => {
+router.post('/extract-pdf', authenticateToken, isAdmin, async (req, res) => {
     try {
-        if (!req.file) return res.status(400).json({ error: 'Arquivo PDF é obrigatório.' });
-
-        const dataBuffer = req.file.buffer;
+        const { text } = req.body;
         
-        if (typeof pdf !== 'function') {
-            throw new Error('Biblioteca pdf-parse não carregada corretamente.');
-        }
-
-        const pdfData = await pdf(dataBuffer);
-        const text = pdfData.text;
-
         if (!text || text.trim().length < 50) {
-            return res.status(400).json({ error: 'O PDF parece estar vazio ou tem pouco texto para análise.' });
+            return res.status(400).json({ error: 'O texto fornecido é muito curto ou inválido.' });
         }
 
-        log(`[ANA] Iniciando extração de conhecimento de PDF (${text.length} caracteres)`);
+        log(`[ANA] Iniciando estruturação de conhecimento via IA (${text.length} caracteres)`);
 
         const openai = getOpenAIClient();
         const response = await openai.chat.completions.create({
