@@ -97,8 +97,7 @@ const analyzeCriterionWithGPT = async (criterion, relevantChunks, globalContext,
             messages: [{ role: "user", content: prompt }],
             response_format: { type: "json_object" },
             temperature: 0.1,
-            max_tokens: 500, // Aumentado de 300 para garantir que justificativas longas não cortem
-            max_retries: 2
+            max_tokens: 500 // Aumentado de 300 para garantir que justificativas longas não cortem
         });
 
         let content = response.choices[0].message.content;
