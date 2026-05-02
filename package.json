@@ -8,8 +8,7 @@
         "test:flow": "node run-local-test.js",
         "test:crud": "node run-crud-test.js",
         "test:find-delete": "node run-find-and-delete.js",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "test:phantom": "node run-phantombuster-test.js"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
     "author": "",

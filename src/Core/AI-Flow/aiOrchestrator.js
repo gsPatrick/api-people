@@ -5,7 +5,7 @@ import 'dotenv/config';
 import { OpenAI } from 'openai';
 import { log, error } from '../../utils/logger.service.js';
 import { getTalentById } from '../../Inhire/Talents/talents.service.js';
-import { extractProfileData } from '../../Linkedin/profile.service.js';
+// import { extractProfileData } from '../../Linkedin/profile.service.js'; // REMOVIDO: Phantombuster removal
 import { getCachedProfile, saveCachedProfile, getCacheStatus } from '../../Platform/Cache/cache.service.js';
 
 // --- NOVAS IMPORTAÇÕES PARA A LÓGICA DE FEEDBACK E ANÁLISE (DO CÓDIGO 02) ---
@@ -100,12 +100,8 @@ export const syncProfileFromLinkedIn = async (talentId) => {
         if (!talentInHire) throw new Error(`Talento com ID ${talentId} não encontrado.`);
         const linkedinUsername = talentInHire.linkedinUsername;
         if (!linkedinUsername) throw new Error(`O talento ${talentInHire.name} não possui um LinkedIn associado.`);
-        log(`Forçando scraping para "${linkedinUsername}"...`);
-        const profileUrl = `https://www.linkedin.com/in/${linkedinUsername}/`;
-        const richProfileData = await extractProfileData(profileUrl);
-        if (!richProfileData) throw new Error(`Falha ao extrair dados do LinkedIn para ${profileUrl}.`);
-        saveCachedProfile(linkedinUsername, richProfileData);
-        return { success: true, message: 'Perfil sincronizado com sucesso.', lastScrapedAt: Date.now() };
+        log(`Sincronização via backend desativada (Phantombuster removido). Utilize a captura via extensão.`);
+        return { success: false, message: 'Sincronização via backend (Phantombuster) desativada. Capture o perfil diretamente pela extensão no LinkedIn.' };
     } catch (err) {
         error("Erro ao forçar sincronização de perfil:", err.message);
         throw err;

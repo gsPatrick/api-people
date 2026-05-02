@@ -27,9 +27,9 @@ router.post('/message', async (req, res) => {
         return res.status(400).json({ error: 'Mensagem é obrigatória.' });
     }
 
+    let conversation;
     try {
         const db = await getDB();
-        let conversation;
 
         // Se não tem conversationId, criar uma nova conversa
         if (!conversationId) {
@@ -132,7 +132,9 @@ router.post('/message', async (req, res) => {
         if (!res.headersSent) {
             res.status(500).json({ error: `Erro ao processar mensagem: ${err.message}` });
         } else {
-            res.write(`data: ${JSON.stringify({ type: 'conversationId', conversationId: conversation.id })}\n\n`);
+            if (conversation) {
+                res.write(`data: ${JSON.stringify({ type: 'conversationId', conversationId: conversation.id })}\n\n`);
+            }
             res.write(`data: ${JSON.stringify({ type: 'error', error: err.message })}\n\n`);
             res.end();
         }
