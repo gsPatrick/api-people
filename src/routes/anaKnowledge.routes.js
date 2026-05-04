@@ -103,7 +103,37 @@ router.post('/models', isAdmin, async (req, res) => {
         const model = await db.KnowledgeModel.create(req.body);
         res.status(201).json({ success: true, model });
     } catch (err) {
-        console.error('[ANA-ROUTER] Erro GET /rules:', err);
+        console.error('[ANA-ROUTER] Erro POST /models:', err);
+        res.status(500).json({ error: err.message });
+    }
+});
+
+router.put('/models/:id', authenticateToken, isAdmin, async (req, res) => {
+    try {
+        const db = await getDB();
+        const model = await db.KnowledgeModel.findByPk(req.params.id);
+        if (!model) return res.status(404).json({ error: 'Especialidade não encontrada' });
+        await model.update(req.body);
+        res.json({ success: true, model });
+    } catch (err) {
+        console.error('[ANA-ROUTER] Erro PUT /models:', err);
+        res.status(500).json({ error: err.message });
+    }
+});
+
+router.delete('/models/:id', authenticateToken, isAdmin, async (req, res) => {
+    try {
+        const db = await getDB();
+        const model = await db.KnowledgeModel.findByPk(req.params.id);
+        if (!model) return res.status(404).json({ error: 'Especialidade não encontrada' });
+        
+        // Deleta os entries associados primeiro
+        await db.KnowledgeEntry.destroy({ where: { modelId: req.params.id } });
+        
+        await model.destroy();
+        res.json({ success: true, message: 'Especialidade deletada' });
+    } catch (err) {
+        console.error('[ANA-ROUTER] Erro DELETE /models:', err);
         res.status(500).json({ error: err.message });
     }
 });
