@@ -181,7 +181,7 @@ export const processMessageStream = async (conversationId, userMessage, history,
                 const args = JSON.parse(toolCall.function.arguments || '{}');
                 log(`[ANA] Executando tool: ${toolCall.function.name}(${JSON.stringify(args)})`);
 
-                const result = await executeTool(toolCall.function.name, args);
+                const result = await executeTool(toolCall.function.name, args, { modelId });
 
                 toolCallMessages.push({
                     role: 'tool',
@@ -288,7 +288,7 @@ export const processMessage = async (userMessage, history = [], modelId = null) 
 
             for (const toolCall of assistantMessage.tool_calls) {
                 const args = JSON.parse(toolCall.function.arguments || '{}');
-                const result = await executeTool(toolCall.function.name, args);
+                const result = await executeTool(toolCall.function.name, args, { modelId });
 
                 toolCallMessages.push({
                     role: 'tool',

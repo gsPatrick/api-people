@@ -528,10 +528,11 @@ const toolHandlers = {
     },
 
     // --- CONHECIMENTO (ESPECIALISTA) ---
-    list_knowledge_base: async (args) => {
+    list_knowledge_base: async (args, context) => {
         const database = await getDB();
         const where = {};
         if (args.modelId) where.modelId = args.modelId;
+        else if (context && context.modelId) where.modelId = context.modelId;
         
         const entries = await database.KnowledgeEntry.findAll({
             where,
@@ -541,20 +542,23 @@ const toolHandlers = {
         return { count: entries.length, topics: entries.map(e => e.get({ plain: true })) };
     },
 
-    get_knowledge_details: async (args) => {
+    get_knowledge_details: async (args, context) => {
         const database = await getDB();
         let entry = null;
         
         if (args.entryId) {
             entry = await database.KnowledgeEntry.findByPk(args.entryId);
         } else if (args.search) {
+            const searchWhere = { 
+                [Op.or]: [
+                    { title: { [Op.iLike]: `%${args.search}%` } },
+                    { content: { [Op.iLike]: `%${args.search}%` } }
+                ]
+            };
+            if (context && context.modelId) searchWhere.modelId = context.modelId;
+
             entry = await database.KnowledgeEntry.findOne({
-                where: { 
-                    [Op.or]: [
-                        { title: { [Op.iLike]: `%${args.search}%` } },
-                        { content: { [Op.iLike]: `%${args.search}%` } }
-                    ]
-                }
+                where: searchWhere
             });
         }
         
@@ -569,14 +573,14 @@ const toolHandlers = {
 
 export const getToolDefinitions = () => toolDefinitions;
 
-export const executeTool = async (toolName, args) => {
+export const executeTool = async (toolName, args, context = {}) => {
     const handler = toolHandlers[toolName];
     if (!handler) {
         return { error: `Ferramenta "${toolName}" não encontrada` };
     }
     
     try {
-        const result = await handler(args);
+        const result = await handler(args, context);
         return result;
     } catch (err) {
         return { error: `Erro ao executar ${toolName}: ${err.message}` };
